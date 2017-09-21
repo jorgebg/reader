@@ -9,3 +9,4 @@ feed 3h http://feeds.nature.com/nature/rss/current?format=xml
 feed 3h http://www.thelancet.com/rssfeed/lancet_current.xml
 feed 3h http://feeds.bmj.com/bmj/research?format=xml
 feed 3h http://jamanetwork.com/rss/site_3/67.xml
+feed 3h http://ieeexplore.ieee.org/rss/TOC41.XML
