@@ -2,6 +2,7 @@ plugindirs plugins
 keepmax 5
 
 feed 3h http://www.annualreviews.org/action/showFeed?ui=45mu4&mi=3fndc3&ai=67b7&jc=economics&type=etoc&feed=rss
+feed 3h http://www.annualreviews.org/action/showFeed?jc=polisci&type=etoc&feed=rss
 feed 3h http://www.annualreviews.org/action/showFeed?ui=45mu4&mi=3fndc3&ai=t0&jc=soc&type=etoc&feed=rss
 feed 3h http://www.annualreviews.org/action/showFeed?ui=45mu4&mi=3fndc3&ai=sp&jc=physiol&type=etoc&feed=rss
 feed 3h http://www.annualreviews.org/action/showFeed?ui=45mu4&mi=3fndc3&ai=rz&jc=nutr&type=etoc&feed=rss
