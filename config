@@ -9,7 +9,7 @@ feed 3h http://www.annualreviews.org/action/showFeed?ui=45mu4&mi=3fndc3&ai=rz&jc
 feed 3h http://feeds.nature.com/nature/rss/current?format=xml
 feed 3h http://www.thelancet.com/rssfeed/lancet_current.xml
 feed 3h http://feeds.bmj.com/bmj/research?format=xml
-feed 3h http://jamanetwork.com/rss/site_3/67.xml
-feed 3h http://ieeexplore.ieee.org/rss/TOC9424.XML
-feed 3h http://ieeexplore.ieee.org/rss/TOC41.XML
-feed 3h http://ieeexplore.ieee.org/rss/TOC10206.XML
+feed 3h https://jamanetwork.com/rss/site_3/67.xml
+feed 3h https://ieeexplore.ieee.org/rss/TOC9424.XML
+feed 3h https://ieeexplore.ieee.org/rss/TOC41.XML
+feed 3h https://ieeexplore.ieee.org/rss/TOC10206.XML
