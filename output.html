@@ -13,107 +13,254 @@
 </div>
 <div id="items">
 <div class="day">
-<h2>Tuesday, 13 August 2019</h2>
+<h2>Monday, 19 August 2019</h2>
 <div class="time">
 <h3>04:00 PM</h3>
-<div class="item feed-1b28272e feed-cscrupdatesonarxivorg" id="item-e06989fa">
+<div class="item feed-1b28272e feed-cscrupdatesonarxivorg" id="item-fb8585c5">
 <p class="itemheader">
-<span class="itemtitle"><a href="http://arxiv.org/abs/1908.04172">nGraph-HE2: A High-Throughput Framework for Neural Network Inference on Encrypted Data. (arXiv:1908.04172v1 [cs.CR])</a></span>
+<span class="itemtitle"><a href="http://arxiv.org/abs/1908.05759">Similarity-based Android Malware Detection Using Hamming Distance of Static Binary Features. (arXiv:1908.05759v1 [cs.CR])</a></span>
 <span class="itemfrom">[<a href="http://arxiv.org/">cs.CR updates on arXiv.org</a>]</span>
 </p>
 <div class="itemdescription">
-<p>In previous work, Boemer et al. introduced nGraph-HE, an extension to the
-Intel nGraph deep learning (DL) compiler, that enables data scientists to
-deploy models with popular frameworks such as TensorFlow and PyTorch with
-minimal code changes. However, the class of supported models was limited to
-relatively shallow networks with polynomial activations. Here, we introduce
-nGraphHE2, which extends nGraph-HE to enable privacy-preserving inference on
-standard, pre-trained models using their native activation functions and number
-fields (typically real numbers). The proposed framework leverages the CKKS
-scheme, whose support for real numbers is friendly to data science, and a
-client-aided model to compute activation functions.
-</p>
-<p>We first present CKKS-specific optimizations, enabling a 3x-88x runtime
-speedup for scalar encoding, and doubling the throughput through a novel use of
-CKKS plaintext packing into complex numbers. Second, we optimize
-ciphertext-plaintext addition and multiplication, yielding 2.6x-4.2x runtime
-speedup. Third, we present two graph-level optimizations: lazy rescaling and
-depth-aware encoding. Together, these optimizations enable state-of-the-art
-throughput of 1,998 images/s on the CryptoNets network. We also present
-homomorphic evaluation of (to our knowledge) the largest network to date,
-namely, pre-trained MobileNetV2 models on the ImageNet dataset, with
-60.4%/82.7% top-1/top-5 accuracy and an amortized runtime of 381 ms/image.
+<p>In this paper, we develop four malware detection methods using Hamming
+distance to find similarity between samples which are first nearest neighbors
+(FNN), all nearest neighbors (ANN), weighted all nearest neighbors (WANN), and
+k-medoid based nearest neighbors (KMNN). In our proposed methods, we can
+trigger the alarm if we detect an Android app is malicious. Hence, our
+solutions help us to avoid the spread of detected malware on a broader scale.
+We provide a detailed description of the proposed detection methods and related
+algorithms. We include an extensive analysis to asses the suitability of our
+proposed similarity-based detection methods. In this way, we perform our
+experiments on three datasets, including benign and malware Android apps like
+Drebin, Contagio, and Genome. Thus, to corroborate the actual effectiveness of
+our classifier, we carry out performance comparisons with some state-of-the-art
+classification and malware detection algorithms, namely Mixed and Separated
+solutions, the program dissimilarity measure based on entropy (PDME) and the
+FalDroid algorithms. We test our experiments in a different type of features:
+API, intent, and permission features on these three datasets. The results
+confirm that accuracy rates of proposed algorithms are more than 90% and in
+some cases (i.e., considering API features) are more than 99%, and are
+comparable with existing state-of-the-art solutions.
 </p>
 </div>
 </div>
 
-<div class="item feed-1b28272e feed-cscrupdatesonarxivorg" id="item-1208fc3e">
+<div class="item feed-1b28272e feed-cscrupdatesonarxivorg" id="item-4288055d">
 <p class="itemheader">
-<span class="itemtitle"><a href="http://arxiv.org/abs/1908.04193">Identifying and characterizing ZMap scans: a cryptanalytic approach. (arXiv:1908.04193v1 [cs.CR])</a></span>
+<span class="itemtitle"><a href="http://arxiv.org/abs/1908.05902">MFA is a Waste of Time! Understanding Negative Connotation Towards MFA Applications via User Generated Content. (arXiv:1908.05902v1 [cs.CR])</a></span>
 <span class="itemfrom">[<a href="http://arxiv.org/">cs.CR updates on arXiv.org</a>]</span>
 </p>
 <div class="itemdescription">
-<p>Network scanning tools play a major role in Internet security. They are used
-by both network security researchers and malicious actors to identify
-vulnerable machines exposed on the Internet. ZMap is one of the most common
-probing tools for high-speed Internet-wide scanning. We present novel
-identification methods based on the IPv4 iteration process of ZMap. These
-methods can be used to identify ZMap scans with a small number of addresses
-extracted from the scan. We conduct an experimental evaluation of these
-detection methods on synthetic, network telescope, and backbone traffic. We
-manage to identify 28.5% of the ZMap scans in real-world traffic. We then
-perform an in-depth characterization of these scans regarding, for example,
-targeted prefix and probing speed.
+<p>Traditional single-factor authentication possesses several critical security
+vulnerabilities due to single-point failure feature. Multi-factor
+authentication (MFA), intends to enhance security by providing additional
+verification steps. However, in practical deployment, users often experience
+dissatisfaction while using MFA, which leads to non-adoption. In order to
+understand the current design and usability issues with MFA, we analyze
+aggregated user generated comments (N = 12,500) about application-based MFA
+tools from major distributors, such as, Amazon, Google Play, Apple App Store,
+and others. While some users acknowledge the security benefits of MFA, majority
+of them still faced problems with initial configuration, system design
+understanding, limited device compatibility, and risk trade-offs leading to
+non-adoption of MFA. Based on these results, we provide actionable
+recommendations in technological design, initial training, and risk
+communication to improve the adoption and user experience of MFA.
 </p>
 </div>
 </div>
 
-<div class="item feed-1b28272e feed-cscrupdatesonarxivorg" id="item-77b284d4">
+<div class="item feed-1b28272e feed-cscrupdatesonarxivorg" id="item-aadf170b">
 <p class="itemheader">
-<span class="itemtitle"><a href="http://arxiv.org/abs/1905.02175">Adversarial Examples Are Not Bugs, They Are Features. (arXiv:1905.02175v4 [stat.ML] UPDATED)</a></span>
+<span class="itemtitle"><a href="http://arxiv.org/abs/1908.05994">The Next 700 Policy Miners: A Universal Method for Building Policy Miners. (arXiv:1908.05994v1 [cs.CR])</a></span>
 <span class="itemfrom">[<a href="http://arxiv.org/">cs.CR updates on arXiv.org</a>]</span>
 </p>
 <div class="itemdescription">
-<p>Adversarial examples have attracted significant attention in machine
-learning, but the reasons for their existence and pervasiveness remain unclear.
-We demonstrate that adversarial examples can be directly attributed to the
-presence of non-robust features: features derived from patterns in the data
-distribution that are highly predictive, yet brittle and incomprehensible to
-humans. After capturing these features within a theoretical framework, we
-establish their widespread existence in standard datasets. Finally, we present
-a simple setting where we can rigorously tie the phenomena we observe in
-practice to a misalignment between the (human-specified) notion of robustness
-and the inherent geometry of the data.
+<p>A myriad of access control policy languages have been and continue to be
+proposed. The design of policy miners for each such language is a challenging
+task that has required specialized machine learning and combinatorial
+algorithms. We present an alternative method, universal access control policy
+mining (Unicorn). We show how this method streamlines the design of policy
+miners for a wide variety of policy languages including ABAC, RBAC, RBAC with
+user-attribute constraints, RBAC with spatio-temporal constraints, and an
+expressive fragment of XACML. For the latter two, there were no known policy
+miners until now.
+</p>
+<p>To design a policy miner using Unicorn, one needs a policy language and a
+metric quantifying how well a policy fits an assignment of permissions to
+users. From these, one builds the policy miner as a search algorithm that
+computes a policy that best fits the given permission assignment. We
+experimentally evaluate the policy miners built with Unicorn on logs from
+Amazon and access control matrices from other companies. Despite the genericity
+of our method, our policy miners are competitive with and sometimes even better
+than specialized state-of-the-art policy miners. The true positive rates of
+policies we mined differ by only 5% from the policies mined by the state of the
+art and the false positive rates are always below 5%. In the case of ABAC, it
+even outperforms the state of the art.
 </p>
 </div>
 </div>
 
-<div class="item feed-1b28272e feed-cscrupdatesonarxivorg" id="item-9a433053">
+<div class="item feed-1b28272e feed-cscrupdatesonarxivorg" id="item-b436f668">
 <p class="itemheader">
-<span class="itemtitle"><a href="http://arxiv.org/abs/1908.02784">Multi-owner Secure Encrypted Search Using Searching Adversarial Networks. (arXiv:1908.02784v2 [cs.CR] UPDATED)</a></span>
+<span class="itemtitle"><a href="http://arxiv.org/abs/1908.06062">Adversarial point perturbations on 3D objects. (arXiv:1908.06062v1 [cs.CV])</a></span>
 <span class="itemfrom">[<a href="http://arxiv.org/">cs.CR updates on arXiv.org</a>]</span>
 </p>
 <div class="itemdescription">
-<p>Searchable symmetric encryption (SSE) for multi-owner model draws much
-attention as it enables data users to perform searches over encrypted cloud
-data outsourced by data owners. However, implementing secure and precise query,
-efficient search and flexible dynamic system maintenance at the same time in
-SSE remains a challenge. To address this, this paper proposes secure and
-efficient multi-keyword ranked search over encrypted cloud data for multi-owner
-model based on searching adversarial networks. We exploit searching adversarial
-networks to achieve optimal pseudo-keyword padding, and obtain the optimal game
-equilibrium for query precision and privacy protection strength. Maximum
-likelihood search balanced tree is generated by probabilistic learning, which
-achieves efficient search and brings the computational complexity close to
-$\mathcal{O}(\log N)$. In addition, we enable flexible dynamic system
-maintenance with balanced index forest that makes full use of distributed
-computing. Compared with previous works, our solution maintains query precision
-above 95% while ensuring adequate privacy protection, and introduces low
-overhead on computation, communication and storage.
+<p>The importance of training robust neural network grows as 3D data is
+increasingly utilized in deep learning for vision tasks, like autonomous
+driving. We examine this problem from the perspective of the attacker, which is
+necessary in understanding how neural networks can be exploited, and thus
+defended. More specifically, we propose adversarial attacks based on solving
+different optimization problems, like minimizing the perceptibility of our
+generated adversarial examples, or maintaining a uniform density distribution
+of points across the adversarial object surfaces. Our four proposed algorithms
+for attacking 3D point cloud classification are all highly successful on
+existing neural networks, and we find that some of them are even effective
+against previously proposed point removal defenses.
 </p>
 </div>
 </div>
 
+<div class="item feed-1b28272e feed-cscrupdatesonarxivorg" id="item-8886d0a3">
+<p class="itemheader">
+<span class="itemtitle"><a href="http://arxiv.org/abs/1811.08180">Attributing Fake Images to GANs: Learning and Analyzing GAN Fingerprints. (arXiv:1811.08180v3 [cs.CV] UPDATED)</a></span>
+<span class="itemfrom">[<a href="http://arxiv.org/">cs.CR updates on arXiv.org</a>]</span>
+</p>
+<div class="itemdescription">
+<p>Recent advances in Generative Adversarial Networks (GANs) have shown
+increasing success in generating photorealistic images. But they also raise
+challenges to visual forensics and model attribution. We present the first
+study of learning GAN fingerprints towards image attribution and using them to
+classify an image as real or GAN-generated. For GAN-generated images, we
+further identify their sources. Our experiments show that (1) GANs carry
+distinct model fingerprints and leave stable fingerprints in their generated
+images, which support image attribution; (2) even minor differences in GAN
+training can result in different fingerprints, which enables fine-grained model
+authentication; (3) fingerprints persist across different image frequencies and
+patches and are not biased by GAN artifacts; (4) fingerprint finetuning is
+effective in immunizing against five types of adversarial image perturbations;
+and (5) comparisons also show our learned fingerprints consistently outperform
+several baselines in a variety of setups.
+</p>
+</div>
+</div>
+
+<div class="item feed-53ba08d1 feed-natureissuenaturecomsciencefeeds" id="item-6bad64af">
+<p class="itemheader">
+<span class="itemtitle"><a href="http://feeds.nature.com/~r/nature/rss/current/~3/81euilOEM04/d41586-019-02419-5">Living commodities, fraud in the lab, and a history of nautical navigation: Books in brief</a></span>
+<span class="itemfrom">[<a href="http://feeds.nature.com/nature/rss/current">Nature - Issue - nature.com science feeds</a>]</span>
+</p>
+<div class="itemdescription">
+<p>Nature, Published online: 14 August 2019; <a href="https://www.nature.com/articles/d41586-019-02419-5">doi:10.1038/d41586-019-02419-5</a></p>Barbara Kiser reviews five of the week&#8217;s best science picks.<img alt="" height="1" src="http://feeds.feedburner.com/~r/nature/rss/current/~4/81euilOEM04" width="1" />
+</div>
+</div>
+
+<div class="item feed-53ba08d1 feed-natureissuenaturecomsciencefeeds" id="item-ee1af849">
+<p class="itemheader">
+<span class="itemtitle"><a href="http://feeds.nature.com/~r/nature/rss/current/~3/U7XiPPytAJM/s41586-019-1488-5">Social dilemmas among unequals</a></span>
+<span class="itemfrom">[<a href="http://feeds.nature.com/nature/rss/current">Nature - Issue - nature.com science feeds</a>]</span>
+</p>
+<div class="itemdescription">
+<p>Nature, Published online: 14 August 2019; <a href="https://www.nature.com/articles/s41586-019-1488-5">doi:10.1038/s41586-019-1488-5</a></p>A framework that includes inequality shows that extreme inequality prevents cooperation, but overall welfare is maximized when endowments and productivities are aligned such that more-productive individuals receive higher endowments.<img alt="" height="1" src="http://feeds.feedburner.com/~r/nature/rss/current/~4/U7XiPPytAJM" width="1" />
+</div>
+</div>
+
+<div class="item feed-fab735fe feed-thelancet" id="item-0773d0da">
+<p class="itemheader">
+<span class="itemtitle"><a href="https://www.thelancet.com/journals/lancet/article/PIIS0140-6736(19)31941-5/fulltext?rss=yes">[World Report] People with albinism in Africa: contending with skin cancer</a></span>
+<span class="itemfrom">[<a href="https://www.thelancet.com/journals/lancet/issue/current">The Lancet</a>]</span>
+</p>
+<div class="itemdescription">
+<p>Attacks against people with albinism are lessening, but the fear of stigma and lack of awareness mean skin cancer is still a major threat to their health. Esther Nakkazi reports.
+</div>
+</div>
+
+<div class="item feed-fab735fe feed-thelancet" id="item-1de16318">
+<p class="itemheader">
+<span class="itemtitle"><a href="https://www.thelancet.com/journals/lancet/article/PIIS0140-6736(19)30719-6/fulltext?rss=yes">[Correspondence] SGLT-2 inhibitors for people with type 2 diabetes</a></span>
+<span class="itemfrom">[<a href="https://www.thelancet.com/journals/lancet/issue/current">The Lancet</a>]</span>
+</p>
+<div class="itemdescription">
+<p>Sodium-glucose co-transporter-2 inhibitors (SGLT2i) seem promising for the prevention and treatment of cardiovascular disease, as shown in a study by Zelniker and colleagues.1 They are now suggested as second-line therapy for most patients with type 2 diabetes.2 However, important questions remain open for an important patient group, older patients (particularly those older than 80 years).
+</div>
+</div>
+
+<div class="item feed-fab735fe feed-thelancet" id="item-cc1b4e96">
+<p class="itemheader">
+<span class="itemtitle"><a href="https://www.thelancet.com/journals/lancet/article/PIIS0140-6736(19)31832-X/fulltext?rss=yes">[Correspondence] Health worker gap in Italy: the untold truth</a></span>
+<span class="itemfrom">[<a href="https://www.thelancet.com/journals/lancet/issue/current">The Lancet</a>]</span>
+</p>
+<div class="itemdescription">
+<p>I read with interest the World Report by Marta Paterlini1 about the shortfall of doctors in Italy. I commend Paterlini for highlighting this unsolved problem, but unfortunately, the piece fails to identify its real cause. Born, raised, and trained as an anaesthesiologist in Italy, then re-trained in the USA, I have had the privilege of living and working in different countries, and in my opinion, this issue is far from being addressed in a thorough and systematic way.
+</div>
+</div>
+
+<div class="item feed-fab735fe feed-thelancet" id="item-97c2316a">
+<p class="itemheader">
+<span class="itemtitle"><a href="https://www.thelancet.com/journals/lancet/article/PIIS0140-6736(19)31275-9/fulltext?rss=yes">[Series] Family health history: underused for actionable risk assessment</a></span>
+<span class="itemfrom">[<a href="https://www.thelancet.com/journals/lancet/issue/current">The Lancet</a>]</span>
+</p>
+<div class="itemdescription">
+<p>Family health history (FHH) is the most useful means of assessing risk for common chronic diseases. The odds ratio for risk of developing disease with a positive FHH is frequently greater than 2, and actions can be taken to mitigate risk by adhering to screening guidelines, genetic counselling, genetic risk testing, and other screening methods. Challenges to the routine acquisition of FHH include constraints on provider time to collect data and the difficulty in accessing risk calculators. Disease-specific and broader risk assessment software platforms have been developed, many with clinical decision support and informatics interoperability, but few access patient information directly.
+</div>
+</div>
+
+<div class="item feed-fab735fe feed-thelancet" id="item-96857a7c">
+<p class="itemheader">
+<span class="itemtitle"><a href="https://www.thelancet.com/journals/lancet/article/PIIS0140-6736(19)31278-4/fulltext?rss=yes">[Series] Building evidence and measuring clinical outcomes for genomic medicine</a></span>
+<span class="itemfrom">[<a href="https://www.thelancet.com/journals/lancet/issue/current">The Lancet</a>]</span>
+</p>
+<div class="itemdescription">
+<p>Human genomic sequencing has potential diagnostic, prognostic, and therapeutic value across a wide breadth of clinical disciplines. One barrier to widespread adoption is the paucity of evidence for improved outcomes in patients who do not already have an indication for more focused testing. In this Series paper, we review clinical outcome studies in genomic medicine and discuss the important features and key challenges to building evidence for next generation sequencing in the context of routine patient care.
+</div>
+</div>
+
+<div class="item feed-c99fafa0 feed-ieeetransactionsonimageprocessingnewtoc" id="item-dd79104e">
+<p class="itemheader">
+<span class="itemtitle"><a href="http://ieeexplore.ieee.org/document/8691877">Deep Group-Wise Fully Convolutional Network for Co-Saliency Detection With Graph Propagation</a></span>
+<span class="itemfrom">[<a href="http://ieeexplore.ieee.org">IEEE Transactions on Image Processing - new TOC</a>]</span>
+</p>
+<div class="itemdescription">
+<p>A key problem in co-saliency detection is how to effectively model the interactive relationship of a whole image group and the individual perspective of each image in a united data-driven manner. In this paper, we propose a group-wise deep co-saliency detection approach to address the co-saliency object discovery problem based on the fully convolutional network (FCN). The proposed approach captures the group-wise interaction information for group images by learning a semantics-aware image representation based on a convolutional neural network, which adaptively learns the group-wise features for co-saliency detection. Furthermore, the proposed approach discovers the collaborative and interactive relationships between group-wise feature representation and single-image individual feature representation and models this in a collaborative learning framework. Then, we set up a unified deep learning scheme to jointly optimize the process of group-wise feature representation learning and collaborative learning, leading to more reliable and robust co-saliency detection results. Finally, we present a graph Laplacian regularized nonlinear regression model for saliency refinement. The experimental results demonstrate the effectiveness of our approach in comparison with the state-of-the-art approaches.
+</div>
+</div>
+
+<div class="item feed-c99fafa0 feed-ieeetransactionsonimageprocessingnewtoc" id="item-d9ad595d">
+<p class="itemheader">
+<span class="itemtitle"><a href="http://ieeexplore.ieee.org/document/8692726">Three-Zone Segmentation-Based Motion Compensation for Video Compression</a></span>
+<span class="itemfrom">[<a href="http://ieeexplore.ieee.org">IEEE Transactions on Image Processing - new TOC</a>]</span>
+</p>
+<div class="itemdescription">
+<p>Motion compensation has been widely employed for removing temporal redundancies in typical hybrid video coding framework. The popular video compression standards, such as H.264/AVC and HEVC, adopt the block-based partitioning model to describe the motion field due to its high-compression efficiency and relatively low-computational complexity. However, block-based motion compensation may not align with the actual object motion boundaries, potentially limiting the compression efficiency. In view of this, we propose a three-zone segmentation-based motion compensation scheme to improve the description accuracy of motion field as well as the coding efficiency. In particular, the segmentation information is implied in the reference frame instead of being explicitly signalled. Based on the segmentation information, three motion compensation zones can be identified, including one edge, one foreground, and one background zone. The foreground zone is motion compensated by the signalled motion vector of the block, and the background zone is motion compensated by the motion information implicitly derived from the local motion field. Regarding the edge zone, it is viewed as an overlapped area and the weighted compensation strategy is adopted. The proposed algorithm is implemented into the reference software VTM-1.0 of versatile video coding (VVC), and the simulation results show that the algorithm can achieve 1.14&#x0025; and 1.06&#x0025; bitrate savings for random access and low-delay configurations, respectively.
+</div>
+</div>
+
+<div class="item feed-c99fafa0 feed-ieeetransactionsonimageprocessingnewtoc" id="item-0bac5b57">
+<p class="itemheader">
+<span class="itemtitle"><a href="http://ieeexplore.ieee.org/document/8718526">A Structure-Based Human Facial Age Estimation Framework Under a Constrained Condition</a></span>
+<span class="itemfrom">[<a href="http://ieeexplore.ieee.org">IEEE Transactions on Image Processing - new TOC</a>]</span>
+</p>
+<div class="itemdescription">
+<p>Developing an automatic age estimation method toward human faces continues to possess an important role in computer vision and pattern recognition. Many studies regarding facial age estimation mainly focus on two aspects: facial aging feature extraction and classification/regression model learning. To set our work apart from existing age estimation approaches, we consider a different aspect&#x2014;system structuring, which is under a constrained condition: given a fixed feature type and a fixed learning method, how to design a framework to improve the age estimation performance based on the constraint? We propose a four-stage fusion framework for facial age estimation. This framework starts from gender recognition, then goes to the second phase, gender-specific age grouping, followed by the third stage, age estimation within age groups, and finally ends at the fusion stage. In the experiment, three well-known benchmark datasets, MORPH-II, FG-NET, and CLAP2016, are adopted to validate the procedure. The experimental results show that the performance can be significantly improved by using our proposed framework and this framework also outperforms several state-of-the-art age estimation methods.
+</div>
+</div>
+
+<div class="item feed-c99fafa0 feed-ieeetransactionsonimageprocessingnewtoc" id="item-82e7899e">
+<p class="itemheader">
+<span class="itemtitle"><a href="http://ieeexplore.ieee.org/document/8693693">Exploiting Typicality for Selecting Informative and Anomalous Samples in Videos</a></span>
+<span class="itemfrom">[<a href="http://ieeexplore.ieee.org">IEEE Transactions on Image Processing - new TOC</a>]</span>
+</p>
+<div class="itemdescription">
+<p>In this paper, we present a novel approach to find informative and anomalous samples in videos exploiting the concept of typicality from information theory. In most video analysis tasks, selection of the most informative samples from a huge pool of training data in order to learn a good recognition model is an important problem. Furthermore, it is also useful to reduce the annotation cost, as it is time-consuming to annotate unlabeled samples. Typicality is a simple and powerful technique, which can be applied to compress the training data to learn a good classification model. In a continuous video clip, an activity shares a strong correlation with its previous activities. We assume that the activity samples that appear in a video form a Markov chain. We explicitly show how typicality can be utilized in this scenario. We compute an atypical score for a sample using typicality and the Markovian property, which can be applied to two challenging vision problems: 1) sample selection for learning activity recognition models and 2) anomaly detection. In the first case, our approach leads to a significant reduction in manual labeling cost while achieving similar or better recognition performance compared with a model trained with the entire training set. For the latter case, the atypical score has been exploited in identifying anomalous activities in videos, where our results demonstrate the effectiveness of the proposed framework over other recent strategies.
+</div>
+</div>
+
+</div>
+</div>
+<div class="day">
+<h2>Tuesday, 13 August 2019</h2>
+<div class="time">
+<h3>11:00 PM</h3>
 <div class="item feed-b93c25e9 feed-earlyedition" id="item-045b4f7c">
 <p class="itemheader">
 <span class="itemtitle"><a href="http://feedproxy.google.com/~r/Pnas-RssFeedOfEarlyEditionArticles/~3/RYIV5nfkH3E/1907077116.short">Upregulation of reduced folate carrier by vitamin D enhances brain folate uptake in mice lacking folate receptor alpha [Pharmacology]</a></span>
@@ -141,16 +288,6 @@ overhead on computation, communication and storage.
 </p>
 <div class="itemdescription">
 <p>Diverse organisms, from insects to humans, actively seek out sensory information that best informs goal-directed actions. Efficient active sensing requires congruity between sensor properties and motor strategies, as typically honed through evolution. However, it has been difficult to study whether active sensing strategies are also modified with experience. Here, we...<img alt="" height="1" src="http://feeds.feedburner.com/~r/Pnas-RssFeedOfEarlyEditionArticles/~4/Be2KqVoaroo" width="1" />
-</div>
-</div>
-
-<div class="item feed-b93c25e9 feed-earlyedition" id="item-71246a62">
-<p class="itemheader">
-<span class="itemtitle"><a href="http://feedproxy.google.com/~r/Pnas-RssFeedOfEarlyEditionArticles/~3/ZNpi_r_m0os/1905258116.short">Complex dynamics under tension in a high-efficiency frameshift stimulatory structure [Biophysics and Computational Biology]</a></span>
-<span class="itemfrom">[<a href="http://www.pnas.org">Early Edition</a>]</span>
-</p>
-<div class="itemdescription">
-<p>Specific structures in mRNA can stimulate programmed ribosomal frameshifting (PRF). PRF efficiency can vary enormously between different stimulatory structures, but the features that lead to efficient PRF stimulation remain uncertain. To address this question, we studied the structural dynamics of the frameshift signal from West Nile virus (WNV), which stimulates...<img alt="" height="1" src="http://feeds.feedburner.com/~r/Pnas-RssFeedOfEarlyEditionArticles/~4/ZNpi_r_m0os" width="1" />
 </div>
 </div>
 
@@ -204,13 +341,13 @@ overhead on computation, communication and storage.
 </div>
 </div>
 
-<div class="item feed-ed41d94f feed-jamacurrentissue" id="item-b2bbb957">
+<div class="item feed-ed41d94f feed-jamacurrentissue" id="item-8bf04f94">
 <p class="itemheader">
-<span class="itemtitle"><a href="https://jamanetwork.com/journals/jama/fullarticle/2747662">Strategies to Adjust Positive End-Expiratory Pressure in Patients With ARDS</a></span>
+<span class="itemtitle"><a href="https://jamanetwork.com/journals/jama/fullarticle/2738242">Use of Bone Turnover Markers in Clinical Practice</a></span>
 <span class="itemfrom">[<a href="https://jamanetwork.com/journals/jama">JAMA Current Issue</a>]</span>
 </p>
 <div class="itemdescription">
-<p>To the Editor Dr Beitler and colleagues for the EPVent-2 Study Group conducted a randomized clinical trial of titrating positive end-expiratory pressure (PEEP) according to end-expiratory pleural pressure estimated from esophageal pressure (PES) in patients with acute respiratory distress syndrome (ARDS). The PES approach studied was compelling as a means of individualizing PEEP according to chest wall mechanics. While the results are disappointing, we argue that they are not altogether surprising.
+<p>This JAMA Insights Clinical Update reviews bone turnover markers measurable in blood and urine and summarizes evidence supporting their use to predict osteoporosis and osteoporotic fractures, assess treatment adherence and efficacy, and monitor bone loss after drug discontinuation.
 </div>
 </div>
 
@@ -229,90 +366,14 @@ overhead on computation, communication and storage.
 <div class="day">
 <h2>Monday, 12 August 2019</h2>
 <div class="time">
-<h3>04:00 PM</h3>
-<div class="item feed-1b28272e feed-cscrupdatesonarxivorg" id="item-7f05b799">
+<h3>11:00 PM</h3>
+<div class="item feed-b93c25e9 feed-earlyedition" id="item-920688a8">
 <p class="itemheader">
-<span class="itemtitle"><a href="http://arxiv.org/abs/1908.03436">Composable and Finite Computational Security of Quantum Message Transmission. (arXiv:1908.03436v1 [quant-ph])</a></span>
-<span class="itemfrom">[<a href="http://arxiv.org/">cs.CR updates on arXiv.org</a>]</span>
+<span class="itemtitle"><a href="http://feedproxy.google.com/~r/Pnas-RssFeedOfEarlyEditionArticles/~3/bSgXH8PWCTo/1901765116.short">ARF6 and AMAP1 are major targets of KRAS and TP53 mutations to promote invasion, PD-L1 dynamics, and immune evasion of pancreatic cancer [Medical Sciences]</a></span>
+<span class="itemfrom">[<a href="http://www.pnas.org">Early Edition</a>]</span>
 </p>
 <div class="itemdescription">
-<p>Recent research in quantum cryptography has led to the development of schemes
-that encrypt and authenticate quantum messages with computational security. The
-security definitions used so far in the literature are asymptotic, game-based,
-and not known to be composable. We show how to define finite, composable,
-computational security for secure quantum message transmission. The new
-definitions do not involve any games or oracles, they are directly operational:
-a scheme is secure if it transforms an insecure channel and a shared key into
-an ideal secure channel from Alice to Bob, i.e., one which only allows Eve to
-block messages and learn their size, but not change them or read them. By
-modifying the ideal channel to provide Eve with more or less capabilities, one
-gets an array of different security notions. By design these transformations
-are composable, resulting in composable security.
-</p>
-<p>Crucially, the new definitions are finite. Security does not rely on the
-asymptotic hardness of a computational problem. Instead, one proves a finite
-reduction: if an adversary can distinguish the constructed (real) channel from
-the ideal one (for some fixed security parameters), then she can solve a finite
-instance of some computational problem. Such a finite statement is needed to
-make security claims about concrete implementations.
-</p>
-<p>We then prove that (slightly modified versions of) protocols proposed in the
-literature satisfy these composable definitions. And finally, we study the
-relations between some game-based definitions and our composable ones. In
-particular, we look at notions of quantum authenticated encryption and QCCA2,
-and show that they suffer from the same issues as their classical counterparts:
-they exclude certain protocols which are arguably secure.
-</p>
-</div>
-</div>
-
-<div class="item feed-fab735fe feed-thelancet" id="item-5ff80e3b">
-<p class="itemheader">
-<span class="itemtitle"><a href="https://www.thelancet.com/journals/lancet/article/PIIS0140-6736(19)31801-X/fulltext?rss=yes">[Editorial] Bolsonaro threatens survival of Brazil's Indigenous population</a></span>
-<span class="itemfrom">[<a href="https://www.thelancet.com/journals/lancet/issue/current">The Lancet</a>]</span>
-</p>
-<div class="itemdescription">
-<p>Deforestation in the Brazilian rainforest has accelerated at an alarming pace, imperilling the country's Indigenous people, who depend entirely on the land for survival, and also weakening the rainforest's crucial role in stabilising the global climate. According to the most recent satellite data, from July 1 to 25, 2019, 1864 km2 of Amazon forest were destroyed, more than triple that for all of July, 2018.
-</div>
-</div>
-
-<div class="item feed-fab735fe feed-thelancet" id="item-f62ab8a3">
-<p class="itemheader">
-<span class="itemtitle"><a href="https://www.thelancet.com/journals/lancet/article/PIIS0140-6736(19)31272-3/fulltext?rss=yes">[Comment] Appropriate excision margins for cutaneous melanomas</a></span>
-<span class="itemfrom">[<a href="https://www.thelancet.com/journals/lancet/issue/current">The Lancet</a>]</span>
-</p>
-<div class="itemdescription">
-<p>In an era when attempts to better understand the pathophysiology and treatment of melanoma are focused on complex genomics and proteomics, it is remarkable that fundamentally simple questions about surgical excision margins remain unanswered. Often overlooked is the important fact that most patients who present with a primary cutaneous melanoma can be cured by surgery alone. The extent of that surgery must clearly be sufficient to maximise the chance of cure, while minimising patient morbidity and health-care costs associated with the reconstruction of large excision defects.
-</div>
-</div>
-
-<div class="item feed-fab735fe feed-thelancet" id="item-53f609ec">
-<p class="itemheader">
-<span class="itemtitle"><a href="https://www.thelancet.com/journals/lancet/article/PIIS0140-6736(19)31802-1/fulltext?rss=yes">[World Report] GP at hand: a digital revolution for health care provision?</a></span>
-<span class="itemfrom">[<a href="https://www.thelancet.com/journals/lancet/issue/current">The Lancet</a>]</span>
-</p>
-<div class="itemdescription">
-<p>Babylon's health app has certainly changed the way its users consume health care. But a chorus of supporters and detractors struggle to agree on whether it is for better or worse. Talha Burki reports.
-</div>
-</div>
-
-<div class="item feed-fab735fe feed-thelancet" id="item-934aefc8">
-<p class="itemheader">
-<span class="itemtitle"><a href="https://www.thelancet.com/journals/lancet/article/PIIS0140-6736(19)31681-2/fulltext?rss=yes">[Perspectives] The &#8220;nice work&#8221; of transforming the health workforce</a></span>
-<span class="itemfrom">[<a href="https://www.thelancet.com/journals/lancet/issue/current">The Lancet</a>]</span>
-</p>
-<div class="itemdescription">
-<p>At a medical conference, a friend apologised for missing my session on inclusion and equity in health care. He had attended a talk on sepsis instead, choosing this &#8220;life and death&#8221; topic over what seemed to him a more niche issue. &#8220;But I really think you're doing such nice work&#8221;, he said.
-</div>
-</div>
-
-<div class="item feed-fab735fe feed-thelancet" id="item-4d5b64a3">
-<p class="itemheader">
-<span class="itemtitle"><a href="https://www.thelancet.com/journals/lancet/article/PIIS0140-6736(19)31274-7/fulltext?rss=yes">[Series] Genomic medicine for undiagnosed diseases</a></span>
-<span class="itemfrom">[<a href="https://www.thelancet.com/journals/lancet/issue/current">The Lancet</a>]</span>
-</p>
-<div class="itemdescription">
-<p>One of the primary goals of genomic medicine is to improve diagnosis through identification of genomic conditions, which could improve clinical management, prevent complications, and promote health. We explore how genomic medicine is being used to obtain molecular diagnoses for patients with previously undiagnosed diseases in prenatal, paediatric, and adult clinical settings. We focus on the role of clinical genomic sequencing (exome and genome) in aiding patients with conditions that are undiagnosed even after extensive clinical evaluation and testing.
+<p>Although KRAS and TP53 mutations are major drivers of pancreatic ductal adenocarcinoma (PDAC), the incurable nature of this cancer still remains largely elusive. ARF6 and its effector AMAP1 are often overexpressed in different cancers and regulate the intracellular dynamics of integrins and E-cadherin, thus promoting tumor invasion and metastasis when...<img alt="" height="1" src="http://feeds.feedburner.com/~r/Pnas-RssFeedOfEarlyEditionArticles/~4/bSgXH8PWCTo" width="1" />
 </div>
 </div>
 
@@ -336,16 +397,6 @@ they exclude certain protocols which are arguably secure.
 </div>
 </div>
 
-<div class="item feed-ccdce26d feed-ieeetransactionsonindustrialinformaticsnewtoc" id="item-56afba62">
-<p class="itemheader">
-<span class="itemtitle"><a href="http://ieeexplore.ieee.org/document/8598988">A New Generation of Magnetorheological Vehicle Suspension System With Tunable Stiffness and Damping Characteristics</a></span>
-<span class="itemfrom">[<a href="http://ieeexplore.ieee.org">IEEE Transactions on Industrial Informatics - new TOC</a>]</span>
-</p>
-<div class="itemdescription">
-<p>As the concept of variable stiffness (VS) and variable damping (VD) has increasingly drawn attention because of its superiority on reducing unwanted vibrations, dampers with property of varying stiffness and damping have been an attractive method to further improve vehicle performance and driver comfort. This paper presents the design, prototyping, modeling, and experimental evaluation of a VS and VD magnetorheological (MR) vehicle suspension system. It was first characterized by an INSTRON machine. Then, a phenomenological model was proposed to capture the characteristics of the damper and TS fuzzy approach was used to model the quarter car system where the proposed damper was installed. Different controllers, including skyhook, short-time Fourier transform and state observer based controller were designed to control the damper. Experimental results demonstrate that the quarter car system with the VS and VD suspension performs best in terms of reducing the sprung mass accelerations comparing with other suspensions.
-</div>
-</div>
-
 <div class="item feed-ccdce26d feed-ieeetransactionsonindustrialinformaticsnewtoc" id="item-ff51a490">
 <p class="itemheader">
 <span class="itemtitle"><a href="http://ieeexplore.ieee.org/document/8603813">Preheating Quantification for Smart Hybrid Heat Pumps Considering Uncertainty</a></span>
@@ -366,12 +417,22 @@ they exclude certain protocols which are arguably secure.
 </div>
 </div>
 
+<div class="item feed-ccdce26d feed-ieeetransactionsonindustrialinformaticsnewtoc" id="item-73a8cb74">
+<p class="itemheader">
+<span class="itemtitle"><a href="http://ieeexplore.ieee.org/document/8732432">A Distributed Double-Consensus Algorithm for Residential We-Energy</a></span>
+<span class="itemfrom">[<a href="http://ieeexplore.ieee.org">IEEE Transactions on Industrial Informatics - new TOC</a>]</span>
+</p>
+<div class="itemdescription">
+<p>This paper investigates the residential energy management problems in the power-heat-coupling system. For better solving this issue, based on the novel concept of We-Energy (WE) for energy Internet (EI), this paper proposes a residential WE (R-WE) framework faced by the terminal users who play an important role in renewable energy consumption. Inspired by the full-duplex feature of R-WE, the power and heat supply-demand balance constraints are fulfilled in a regional unit of EI, but it may be inequality constraints for corresponding consumer, producer, or WE operation modes in only one R-WE. The R-WE framework can be classified into four operation modes, which is island mode, consumer mode, producer mode, and WE mode. On this basis, the R-WE models cooperate to achieve the objective of minimizing the operation costs, smoothing out the loads&#x2019; variations, and renewable resource fluctuations. Specifically, the R-WE framework with respect to the heat-power-coupling problem can be solved in the distributed double-consensus algorithm (DDCA), which is designed two sets of consensus algorithms by using four completely different consensus variables to calculate the power and heat multipliers, evaluate the power and heat generations and, thereby, further obtain the power mismatches of electricity and heat. Also, the Karush-Kuhn-Tucker (KKT) optimal conditions of the proposed DDCA is further proved. Meanwhile, a novel projection operation method for combined heat and power devices is designed to take the infeasible solutions mapped into the feasible region. Finally, the simulation results in different cases further demonstrate that the proposed R-WE frame can be an appropriate method to analyze the terminal consumers and harmonize multienergy producers in the process of constructing EI projects. And an R-WE framework of the campus has experimented with minority loads in island mode.
+</div>
+</div>
+
 </div>
 </div>
 <div class="day">
 <h2>Thursday, 08 August 2019</h2>
 <div class="time">
-<h3>09:00 AM</h3>
+<h3>04:00 PM</h3>
 <div class="item feed-6b3f78ad feed-latestbmjresearch" id="item-525e173f">
 <p class="itemheader">
 <span class="itemtitle"><a href="http://feeds.bmj.com/~r/bmj/research/~3/Ipty4NZp3-4/bmj.l4466">Association between major surgical admissions and the cognitive trajectory: 19 year follow-up of Whitehall II cohort study</a></span>
@@ -381,6 +442,18 @@ they exclude certain protocols which are arguably secure.
 <div class="feedflare">
 <a href="http://feeds.bmj.com/~ff/bmj/research?a=Ipty4NZp3-4:w1DcSHCRuDA:yIl2AUoC8zA"><img border="0" src="http://feeds.feedburner.com/~ff/bmj/research?d=yIl2AUoC8zA" /></a> <a href="http://feeds.bmj.com/~ff/bmj/research?a=Ipty4NZp3-4:w1DcSHCRuDA:dnMXMwOfBR0"><img border="0" src="http://feeds.feedburner.com/~ff/bmj/research?d=dnMXMwOfBR0" /></a> <a href="http://feeds.bmj.com/~ff/bmj/research?a=Ipty4NZp3-4:w1DcSHCRuDA:F7zBnMyn0Lo"><img border="0" src="http://feeds.feedburner.com/~ff/bmj/research?i=Ipty4NZp3-4:w1DcSHCRuDA:F7zBnMyn0Lo" /></a> <a href="http://feeds.bmj.com/~ff/bmj/research?a=Ipty4NZp3-4:w1DcSHCRuDA:V_sGLiPBpWU"><img border="0" src="http://feeds.feedburner.com/~ff/bmj/research?i=Ipty4NZp3-4:w1DcSHCRuDA:V_sGLiPBpWU" /></a> <a href="http://feeds.bmj.com/~ff/bmj/research?a=Ipty4NZp3-4:w1DcSHCRuDA:qj6IDK7rITs"><img border="0" src="http://feeds.feedburner.com/~ff/bmj/research?d=qj6IDK7rITs" /></a> <a href="http://feeds.bmj.com/~ff/bmj/research?a=Ipty4NZp3-4:w1DcSHCRuDA:gIN9vFwOqvQ"><img border="0" src="http://feeds.feedburner.com/~ff/bmj/research?i=Ipty4NZp3-4:w1DcSHCRuDA:gIN9vFwOqvQ" /></a>
 </div><img alt="" height="1" src="http://feeds.feedburner.com/~r/bmj/research/~4/Ipty4NZp3-4" width="1" />
+</div>
+</div>
+
+<div class="item feed-6b3f78ad feed-latestbmjresearch" id="item-e233bff5">
+<p class="itemheader">
+<span class="itemtitle"><a href="http://feeds.bmj.com/~r/bmj/research/~3/PZjfmc9l1lc/bmj.l4414">Association of ideal cardiovascular health at age 50 with incidence of dementia: 25 year follow-up of Whitehall II cohort study</a></span>
+<span class="itemfrom">[<a href="https://www.bmj.com/research/feed">Latest BMJ Research</a>]</span>
+</p>
+<div class="itemdescription">
+<div class="feedflare">
+<a href="http://feeds.bmj.com/~ff/bmj/research?a=PZjfmc9l1lc:WKf3wR3LKcE:yIl2AUoC8zA"><img border="0" src="http://feeds.feedburner.com/~ff/bmj/research?d=yIl2AUoC8zA" /></a> <a href="http://feeds.bmj.com/~ff/bmj/research?a=PZjfmc9l1lc:WKf3wR3LKcE:dnMXMwOfBR0"><img border="0" src="http://feeds.feedburner.com/~ff/bmj/research?d=dnMXMwOfBR0" /></a> <a href="http://feeds.bmj.com/~ff/bmj/research?a=PZjfmc9l1lc:WKf3wR3LKcE:F7zBnMyn0Lo"><img border="0" src="http://feeds.feedburner.com/~ff/bmj/research?i=PZjfmc9l1lc:WKf3wR3LKcE:F7zBnMyn0Lo" /></a> <a href="http://feeds.bmj.com/~ff/bmj/research?a=PZjfmc9l1lc:WKf3wR3LKcE:V_sGLiPBpWU"><img border="0" src="http://feeds.feedburner.com/~ff/bmj/research?i=PZjfmc9l1lc:WKf3wR3LKcE:V_sGLiPBpWU" /></a> <a href="http://feeds.bmj.com/~ff/bmj/research?a=PZjfmc9l1lc:WKf3wR3LKcE:qj6IDK7rITs"><img border="0" src="http://feeds.feedburner.com/~ff/bmj/research?d=qj6IDK7rITs" /></a> <a href="http://feeds.bmj.com/~ff/bmj/research?a=PZjfmc9l1lc:WKf3wR3LKcE:gIN9vFwOqvQ"><img border="0" src="http://feeds.feedburner.com/~ff/bmj/research?i=PZjfmc9l1lc:WKf3wR3LKcE:gIN9vFwOqvQ" /></a>
+</div><img alt="" height="1" src="http://feeds.feedburner.com/~r/bmj/research/~4/PZjfmc9l1lc" width="1" />
 </div>
 </div>
 
@@ -394,33 +467,13 @@ they exclude certain protocols which are arguably secure.
 </div>
 </div>
 
-<div class="item feed-53ba08d1 feed-natureissuenaturecomsciencefeeds" id="item-963c28d9">
+<div class="item feed-53ba08d1 feed-natureissuenaturecomsciencefeeds" id="item-64c51062">
 <p class="itemheader">
-<span class="itemtitle"><a href="http://feeds.nature.com/~r/nature/rss/current/~3/HThrvbO_ftQ/s41586-019-1465-z">Increased shear in the North Atlantic upper-level jet stream over the past four decades</a></span>
+<span class="itemtitle"><a href="http://feeds.nature.com/~r/nature/rss/current/~3/lwMHBSOP4pM/d41586-019-02332-x">Mexican science suffers under debilitating budget cuts</a></span>
 <span class="itemfrom">[<a href="http://feeds.nature.com/nature/rss/current">Nature - Issue - nature.com science feeds</a>]</span>
 </p>
 <div class="itemdescription">
-<p>Nature, Published online: 07 August 2019; <a href="https://www.nature.com/articles/s41586-019-1465-z">doi:10.1038/s41586-019-1465-z</a></p>The North Atlantic jet stream has become 15 per cent more sheared in the upper atmosphere since 1979, an expected consequence of climate change, and consistent with increased aircraft turbulence.<img alt="" height="1" src="http://feeds.feedburner.com/~r/nature/rss/current/~4/HThrvbO_ftQ" width="1" />
-</div>
-</div>
-
-<div class="item feed-53ba08d1 feed-natureissuenaturecomsciencefeeds" id="item-5c427818">
-<p class="itemheader">
-<span class="itemtitle"><a href="http://feeds.nature.com/~r/nature/rss/current/~3/7YklUYZ3HHU/d41586-019-02361-6">India&#8217;s geologists champion law to protect fossil treasures</a></span>
-<span class="itemfrom">[<a href="http://feeds.nature.com/nature/rss/current">Nature - Issue - nature.com science feeds</a>]</span>
-</p>
-<div class="itemdescription">
-<p>Nature, Published online: 05 August 2019; <a href="https://www.nature.com/articles/d41586-019-02361-6">doi:10.1038/d41586-019-02361-6</a></p>Scientists estimate that several hundred geological sites are threatened by the prospect of vandalism or development.<img alt="" height="1" src="http://feeds.feedburner.com/~r/nature/rss/current/~4/7YklUYZ3HHU" width="1" />
-</div>
-</div>
-
-<div class="item feed-53ba08d1 feed-natureissuenaturecomsciencefeeds" id="item-6572902f">
-<p class="itemheader">
-<span class="itemtitle"><a href="http://feeds.nature.com/~r/nature/rss/current/~3/YOO7Z9izHYg/d41586-019-02367-0">Coding system to track research progress towards SDGs</a></span>
-<span class="itemfrom">[<a href="http://feeds.nature.com/nature/rss/current">Nature - Issue - nature.com science feeds</a>]</span>
-</p>
-<div class="itemdescription">
-<p>Nature, Published online: 06 August 2019; <a href="https://www.nature.com/articles/d41586-019-02367-0">doi:10.1038/d41586-019-02367-0</a></p>Coding system to track research progress towards SDGs<img alt="" height="1" src="http://feeds.feedburner.com/~r/nature/rss/current/~4/YOO7Z9izHYg" width="1" />
+<p>Nature, Published online: 08 August 2019; <a href="https://www.nature.com/articles/d41586-019-02332-x">doi:10.1038/d41586-019-02332-x</a></p>Some researchers have turned to crowdfunding campaigns to pay for supplies and several scientific institutes are rationing electricity to save money.<img alt="" height="1" src="http://feeds.feedburner.com/~r/nature/rss/current/~4/lwMHBSOP4pM" width="1" />
 </div>
 </div>
 
@@ -454,16 +507,6 @@ they exclude certain protocols which are arguably secure.
 </div>
 </div>
 
-<div class="item feed-3b836157 feed-annualreviewsannualreviewofsociologytableofcontents" id="item-583b3312">
-<p class="itemheader">
-<span class="itemtitle"><a href="https://www.annualreviews.org/doi/abs/10.1146/annurev-soc-073018-022616?ai=t0&amp;mi=3fndc3&amp;af=R">Analyzing Age-Period-Cohort Data: A Review and Critique</a></span>
-<span class="itemfrom">[Annual Reviews: Annual Review of Sociology: Table of Contents]</span>
-</p>
-<div class="itemdescription">
-<p>Annual Review of Sociology, <a href="https://www.annualreviews.org/toc/soc/45/1">Volume 45, Issue 1</a>, Page 467-492, July 2019. <br />
-</div>
-</div>
-
 <div class="item feed-3b836157 feed-annualreviewsannualreviewofsociologytableofcontents" id="item-2798999d">
 <p class="itemheader">
 <span class="itemtitle"><a href="https://www.annualreviews.org/doi/abs/10.1146/annurev-soc-073018-022524?ai=t0&amp;mi=3fndc3&amp;af=R">Well-Being at the End of Life</a></span>
@@ -471,6 +514,16 @@ they exclude certain protocols which are arguably secure.
 </p>
 <div class="itemdescription">
 <p>Annual Review of Sociology, <a href="https://www.annualreviews.org/toc/soc/45/1">Volume 45, Issue 1</a>, Page 515-534, July 2019. <br />
+</div>
+</div>
+
+<div class="item feed-3b836157 feed-annualreviewsannualreviewofsociologytableofcontents" id="item-44a4e0ce">
+<p class="itemheader">
+<span class="itemtitle"><a href="https://www.annualreviews.org/doi/abs/10.1146/annurev-soc-073117-041140?ai=t0&amp;mi=3fndc3&amp;af=R">Causality and History: Modes of Causal Investigation in Historical Social Sciences</a></span>
+<span class="itemfrom">[Annual Reviews: Annual Review of Sociology: Table of Contents]</span>
+</p>
+<div class="itemdescription">
+<p>Annual Review of Sociology, <a href="https://www.annualreviews.org/toc/soc/45/1">Volume 45, Issue 1</a>, Page 581-606, July 2019. <br />
 </div>
 </div>
 
@@ -484,16 +537,6 @@ they exclude certain protocols which are arguably secure.
 </div>
 </div>
 
-<div class="item feed-c24550d7 feed-ieeetransactionsoninformationforensicsandsecuritynewtoc" id="item-c1b90ff1">
-<p class="itemheader">
-<span class="itemtitle"><a href="http://ieeexplore.ieee.org/document/8695776">A Hand-Based Multi-Biometrics via Deep Hashing Network and Biometric Graph Matching</a></span>
-<span class="itemfrom">[<a href="http://ieeexplore.ieee.org">IEEE Transactions on Information Forensics and Security - new TOC</a>]</span>
-</p>
-<div class="itemdescription">
-<p>At present, the fusion of different unimodal biometrics has attracted increasing attention from researchers, who are dedicated to the practical application of biometrics. In this paper, we explored a multi-biometric algorithm that integrates palmprints and dorsal hand veins (DHV). Palmprint recognition has a rather high accuracy and reliability, and the most significant advantage of DHV recognition is the biopsy (Liveness detection). In order to combine the advantages of both and implement the fusion method, deep learning and graph matching were, respectively, introduced to identify palmprint and DHV. Upon using the deep hashing network (DHN), biometric images can be encoded as 128-bit codes. Then, the Hamming distances were used to represent the similarity of two codes. Biometric graph matching (BGM) can obtain three discriminative features for classification. In order to improve the accuracy of open-set recognition, in multi-modal fusion, the score-level fusion of DHN and BGM was performed and authentication was provided by support vector machine (SVM). Furthermore, based on DHN, all four levels of fusion strategies were used for multi-modal recognition of palmprint and DHV. Evaluation experiments and comprehensive comparisons were conducted on various commonly used datasets, and the promising results were obtained in this case where the equal error rates (EERs) of both palmprint recognition and multi-biometrics equal 0, demonstrating the great superiority of DHN in biometric verification.
-</div>
-</div>
-
 <div class="item feed-c24550d7 feed-ieeetransactionsoninformationforensicsandsecuritynewtoc" id="item-665ac041">
 <p class="itemheader">
 <span class="itemtitle"><a href="http://ieeexplore.ieee.org/document/8678674">Robust Beamforming and Jamming for Enhancing the Physical Layer Security of Full Duplex Radios</a></span>
@@ -501,6 +544,16 @@ they exclude certain protocols which are arguably secure.
 </p>
 <div class="itemdescription">
 <p>In this paper, we investigate the physical layer security of a full-duplex base station (BS)-aided system in the worst case, where an uplink transmitter (UT) and a downlink receiver (DR) are equipped with a single antenna, while a powerful eavesdropper is equipped with multiple antennas. For securing the confidentiality of signals transmitted from the BS and UT, an artificial noise (AN)-aided secrecy beamforming scheme is proposed, which is robust to the realistic imperfect state information of both the eavesdropping channel and the residual self-interference channel. Our objective function is that of maximizing the worst-case sum secrecy rate achieved by the BS and UT, through jointly optimizing the beamforming vector of the confidential signals and the transmit covariance matrix of the AN. However, the resulting optimization problem is non-convex and non-linear. In order to efficiently obtain the solution, we transform the non-convex problem into a sequence of convex problems by adopting the block coordinate descent algorithm. We invoke a linear matrix inequality for finding its Karush&#x2013;Kuhn&#x2013;Tucker (KKT) solution. In order to evaluate the achievable performance, the worst-case secrecy rate is analytically derived. Furthermore, we construct another secrecy transmission scheme using the projection matrix theory for performance comparison. Our simulation results show that the proposed robust secrecy transmission scheme achieves substantial secrecy performance gains, which verifies the efficiency of the proposed method.
+</div>
+</div>
+
+<div class="item feed-c24550d7 feed-ieeetransactionsoninformationforensicsandsecuritynewtoc" id="item-cfd7535c">
+<p class="itemheader">
+<span class="itemtitle"><a href="http://ieeexplore.ieee.org/document/8691498">PalmNet: Gabor-PCA Convolutional Networks for Touchless Palmprint Recognition</a></span>
+<span class="itemfrom">[<a href="http://ieeexplore.ieee.org">IEEE Transactions on Information Forensics and Security - new TOC</a>]</span>
+</p>
+<div class="itemdescription">
+<p>Touchless palmprint recognition systems enable high-accuracy recognition of individuals through less-constrained and highly usable procedures that do not require the contact of the palm with a surface. To perform this recognition, methods based on local texture descriptors and convolutional neural networks (CNNs) are currently used to extract highly discriminative features while compensating for variations in scale, rotation, and illumination in biometric samples. In particular, the main advantage of CNN-based methods is their ability to adapt to biometric samples captured with heterogeneous devices. However, the current methods rely on either supervised training algorithms, which require class labels (e.g., the identities of the individuals) during the training phase, or filters pretrained on general-purpose databases, which may not be specifically suitable for palmprint data. To achieve a high-recognition accuracy with touchless palmprint samples captured using different devices while neither requiring class labels for training nor using pretrained filters, we introduce PalmNet, which is a novel CNN that uses a newly developed method to tune palmprint-specific filters through an unsupervised procedure based on Gabor responses and principal component analysis (PCA), not requiring class labels during training. PalmNet is a new method of applying Gabor filters in a CNN and is designed to extract highly discriminative palmprint-specific descriptors and to adapt to heterogeneous databases. We validated the innovative PalmNet on several palmprint databases captured using different touchless acquisition procedures and heterogeneous devices, and in all cases, a recognition accuracy greater than that of the current methods in this paper was obtained.
 </div>
 </div>
 
@@ -574,36 +627,6 @@ they exclude certain protocols which are arguably secure.
 </div>
 </div>
 
-<div class="item feed-c99fafa0 feed-ieeetransactionsonimageprocessingnewtoc" id="item-1d108e7c">
-<p class="itemheader">
-<span class="itemtitle"><a href="http://ieeexplore.ieee.org/document/8704997">Enhanced Motion-Compensated Video Coding With Deep Virtual Reference Frame Generation</a></span>
-<span class="itemfrom">[<a href="http://ieeexplore.ieee.org">IEEE Transactions on Image Processing - new TOC</a>]</span>
-</p>
-<div class="itemdescription">
-<p>In this paper, we propose an efficient inter prediction scheme by introducing the deep virtual reference frame (VRF), which serves better reference in the temporal redundancy removal process of video coding. In particular, the high quality VRF is generated with the deep learning-based frame rate up conversion (FRUC) algorithm from two reconstructed bi-directional frames, which is subsequently incorporated into the reference list serving as the high quality reference. Moreover, to alleviate the compression artifacts of VRF, we develop a convolutional neural network (CNN)-based enhancement model to further improve its quality. To facilitate better utilization of the VRF, a CTU level coding mode termed as direct virtual reference frame (DVRF) is devised, which achieves better trade-off between compression performance and complexity. The proposed scheme is integrated into HM-16.6 and JEM-7.1 software platforms, and the simulation results under random access (RA) configuration demonstrate significant superiority of the proposed method. When adding VRF to RPS, more than 6&#x0025; average BD-rate gain is achieved for HEVC test sequences on HM-16.6, and 0.8&#x0025; BD-rate gain is observed based on JEM-7.1 software. Regarding the DVRF mode, 3.6&#x0025; bitrate saving is achieved on HM-16.6 with the computational complexity effectively reduced.
-</div>
-</div>
-
-<div class="item feed-c99fafa0 feed-ieeetransactionsonimageprocessingnewtoc" id="item-bbcf77e3">
-<p class="itemheader">
-<span class="itemtitle"><a href="http://ieeexplore.ieee.org/document/8708965">Deep Integration: A Multi-Label Architecture for Road Scene Recognition</a></span>
-<span class="itemfrom">[<a href="http://ieeexplore.ieee.org">IEEE Transactions on Image Processing - new TOC</a>]</span>
-</p>
-<div class="itemdescription">
-<p>Deep convolutional neural networks have been applied by automobile industries, Internet giants, and academic institutes to boost autonomous driving technologies; while progress has been witnessed in environmental perception tasks, such as object detection and driver state recognition, the scene-centric understanding and identification still remain a virgin land. This mainly encompasses two key issues: 1) the lack of shared large datasets with comprehensively annotated road scene information and 2) the difficulty to find effective ways to train networks concerning the bias of category samples, image resolutions, scene dynamics, and capturing conditions. In this paper, we make two contributions: 1) we introduce a large-scale dataset with over 110 k images, dubbed DrivingScene, covering traffic scenarios under different weather conditions, road structures, and environmental instances and driving places, which is the first large-scale dataset for multi-class traffic scenes classification and 2) we propose a multi-label neural network for road scene recognition, which incorporates both single- and multi-class classification modes into a multi-level cost function for training with imbalanced categories and utilizes a deep data integration strategy to improve the classification ability on hard samples. The experimental results on DrivingScene and PASCAL VOC demonstrate the effectiveness of the proposed approach in handling the challenge of data imbalance.
-</div>
-</div>
-
-<div class="item feed-c99fafa0 feed-ieeetransactionsonimageprocessingnewtoc" id="item-cfe0731c">
-<p class="itemheader">
-<span class="itemtitle"><a href="http://ieeexplore.ieee.org/document/8700607">Image Denoising Based on Nonlocal Bayesian Singular Value Thresholding and Stein&#x2019;s Unbiased Risk Estimator</a></span>
-<span class="itemfrom">[<a href="http://ieeexplore.ieee.org">IEEE Transactions on Image Processing - new TOC</a>]</span>
-</p>
-<div class="itemdescription">
-<p>Singular value thresholding (SVT)- or nuclear norm minimization (NNM)-based nonlocal image denoising methods often rely on the precise estimation of the noise variance. However, most existing methods either assume that the noise variance is known or require an extra step to estimate it. Under the iterative regularization framework, the error in the noise variance estimate propagates and accumulates with each iteration, ultimately degrading the overall denoising performance. In addition, the essence of these methods is still least squares estimation, which can cause a very high mean-squared error (MSE) and is inadequate for handling missing data or outliers. In order to address these deficiencies, we present a hybrid denoising model based on variational Bayesian inference and Stein&#x2019;s unbiased risk estimator (SURE), which consists of two complementary steps. In the first step, the variational Bayesian SVT performs a low-rank approximation of the nonlocal image patch matrix to simultaneously remove the noise and estimate the noise variance. In the second step, we modify the conventional SURE full-rank SVT and its divergence formulas for rank-reduced eigen-triplets to remove the residual artifacts. The proposed hybrid BSSVT method achieves better performance in recovering the true image compared with state-of-the-art methods.
-</div>
-</div>
-
 <div class="item feed-c99fafa0 feed-ieeetransactionsonimageprocessingnewtoc" id="item-3237ffdb">
 <p class="itemheader">
 <span class="itemtitle"><a href="http://ieeexplore.ieee.org/document/8720204">Dense Dilated Network for Video Action Recognition</a></span>
@@ -614,22 +637,12 @@ they exclude certain protocols which are arguably secure.
 </div>
 </div>
 
-<div class="item feed-c99fafa0 feed-ieeetransactionsonimageprocessingnewtoc" id="item-488f67a2">
-<p class="itemheader">
-<span class="itemtitle"><a href="http://ieeexplore.ieee.org/document/8715446">Uniform and Variational Deep Learning for RGB-D Object Recognition and Person Re-Identification</a></span>
-<span class="itemfrom">[<a href="http://ieeexplore.ieee.org">IEEE Transactions on Image Processing - new TOC</a>]</span>
-</p>
-<div class="itemdescription">
-<p>In this paper, we propose a uniform and variational deep learning (UVDL) method for RGB-D object recognition and person re-identification. Unlike most existing object recognition and person re-identification methods, which usually use only the visual appearance information from RGB images, our method recognizes visual objects and persons with RGB-D images to exploit more reliable information such as geometric and anthropometric information that are robust to different viewpoints. Specifically, we extract the depth feature and the appearance feature from the depth and RGB images with two deep convolutional neural networks, respectively. In order to combine the depth feature and the appearance feature to exploit their relationship, we design a uniform and variational multi-modal auto-encoder at the top layer of our deep network to seek a uniform latent variable by projecting them into a common space, which contains the whole information of RGB-D images and has small intra-class variation and large inter-class variation, simultaneously. Finally, we optimize the auto-encoder layer and two deep convolutional neural networks jointly to minimize the discriminative loss and the reconstruction error. The experimental results on both RGB-D object recognition and RGB-D person re-identification are presented to show the efficiency of our proposed approach.
-</div>
-</div>
-
 </div>
 </div>
 <div class="day">
 <h2>Tuesday, 30 July 2019</h2>
 <div class="time">
-<h3>09:00 AM</h3>
+<h3>04:00 PM</h3>
 <div class="item feed-b2590d03 feed-annualreviewsannualreviewofnutritiontableofcontents" id="item-fe542c73">
 <p class="itemheader">
 <span class="itemtitle"><a href="https://www.annualreviews.org/doi/abs/10.1146/annurev-nu-38-070218-100001?ai=rz&amp;mi=3fndc3&amp;af=R">Introduction</a></span>
@@ -685,7 +698,7 @@ they exclude certain protocols which are arguably secure.
 <div class="day">
 <h2>Monday, 29 July 2019</h2>
 <div class="time">
-<h3>09:00 AM</h3>
+<h3>04:00 PM</h3>
 <div class="item feed-6b3f78ad feed-latestbmjresearch" id="item-8d3a697b">
 <p class="itemheader">
 <span class="itemtitle"><a href="http://feeds.bmj.com/~r/bmj/research/~3/l6leeBDKO4Q/bmj.l4416">Hospital volume and outcomes for acute pulmonary embolism: multinational population based cohort study</a></span>
@@ -727,7 +740,7 @@ they exclude certain protocols which are arguably secure.
 <div class="day">
 <h2>Wednesday, 17 July 2019</h2>
 <div class="time">
-<h3>09:00 AM</h3>
+<h3>04:00 PM</h3>
 <div class="item feed-63a85565 feed-eurekalertbreakingnews" id="item-31917e9b">
 <p class="itemheader">
 <span class="itemtitle"><a href="https://www.eurekalert.org/pub_releases/2019-07/bch-pgt071219.php">Proposed gene therapy for a heart arrhythmia, based on models made from patient cells</a></span>
@@ -753,7 +766,7 @@ they exclude certain protocols which are arguably secure.
 <div class="day">
 <h2>Tuesday, 16 July 2019</h2>
 <div class="time">
-<h3>09:00 AM</h3>
+<h3>04:00 PM</h3>
 <div class="item feed-63a85565 feed-eurekalertbreakingnews" id="item-51e5de22">
 <p class="itemheader">
 <span class="itemtitle"><a href="https://www.eurekalert.org/pub_releases/2019-07/uomm-uri071519.php">UMN researcher identifies differences in genes that impact response to cryptococcus infection</a></span>
@@ -787,27 +800,9 @@ they exclude certain protocols which are arguably secure.
 </div>
 </div>
 <div class="day">
-<h2>Thursday, 04 July 2019</h2>
-<div class="time">
-<h3>09:00 AM</h3>
-<div class="item feed-6b3f78ad feed-latestbmjresearch" id="item-48b836c0">
-<p class="itemheader">
-<span class="itemtitle"><a href="http://feeds.bmj.com/~r/bmj/research/~3/rtyQmBgprl0/bmj.l4109">Changes in hospital safety following penalties in the US Hospital Acquired Condition Reduction Program: retrospective cohort study</a></span>
-<span class="itemfrom">[<a href="https://www.bmj.com/research/feed">Latest BMJ Research</a>]</span>
-</p>
-<div class="itemdescription">
-<div class="feedflare">
-<a href="http://feeds.bmj.com/~ff/bmj/research?a=rtyQmBgprl0:dcdx9XpwtLw:yIl2AUoC8zA"><img border="0" src="http://feeds.feedburner.com/~ff/bmj/research?d=yIl2AUoC8zA" /></a> <a href="http://feeds.bmj.com/~ff/bmj/research?a=rtyQmBgprl0:dcdx9XpwtLw:dnMXMwOfBR0"><img border="0" src="http://feeds.feedburner.com/~ff/bmj/research?d=dnMXMwOfBR0" /></a> <a href="http://feeds.bmj.com/~ff/bmj/research?a=rtyQmBgprl0:dcdx9XpwtLw:F7zBnMyn0Lo"><img border="0" src="http://feeds.feedburner.com/~ff/bmj/research?i=rtyQmBgprl0:dcdx9XpwtLw:F7zBnMyn0Lo" /></a> <a href="http://feeds.bmj.com/~ff/bmj/research?a=rtyQmBgprl0:dcdx9XpwtLw:V_sGLiPBpWU"><img border="0" src="http://feeds.feedburner.com/~ff/bmj/research?i=rtyQmBgprl0:dcdx9XpwtLw:V_sGLiPBpWU" /></a> <a href="http://feeds.bmj.com/~ff/bmj/research?a=rtyQmBgprl0:dcdx9XpwtLw:qj6IDK7rITs"><img border="0" src="http://feeds.feedburner.com/~ff/bmj/research?d=qj6IDK7rITs" /></a> <a href="http://feeds.bmj.com/~ff/bmj/research?a=rtyQmBgprl0:dcdx9XpwtLw:gIN9vFwOqvQ"><img border="0" src="http://feeds.feedburner.com/~ff/bmj/research?i=rtyQmBgprl0:dcdx9XpwtLw:gIN9vFwOqvQ" /></a>
-</div><img alt="" height="1" src="http://feeds.feedburner.com/~r/bmj/research/~4/rtyQmBgprl0" width="1" />
-</div>
-</div>
-
-</div>
-</div>
-<div class="day">
 <h2>Sunday, 09 June 2019</h2>
 <div class="time">
-<h3>12:32 PM</h3>
+<h3>07:32 PM</h3>
 <div class="item feed-52e73913 feed-annualreviewsannualreviewofpoliticalsciencetableofcontents" id="item-6d7b35bf">
 <p class="itemheader">
 <span class="itemtitle"><a href="https://www.annualreviews.org/doi/abs/10.1146/annurev-polisci-050317-070708?af=R">The Economics and Politics of Preferential Trade Agreements</a></span>
@@ -863,7 +858,7 @@ they exclude certain protocols which are arguably secure.
 <div class="day">
 <h2>Tuesday, 12 February 2019</h2>
 <div class="time">
-<h3>09:00 AM</h3>
+<h3>04:00 PM</h3>
 <div class="item feed-b3e4c5b6 feed-annualreviewsannualreviewofphysiologytableofcontents" id="item-dab26281">
 <p class="itemheader">
 <span class="itemtitle"><a href="https://www.annualreviews.org/doi/abs/10.1146/annurev-physiol-020518-114417?ai=sp&amp;mi=3fndc3&amp;af=R">Cysteine-Based Redox Sensing and Its Role in Signaling by Cyclic Nucleotide&#8211;Dependent Kinases in the Cardiovascular System</a></span>
@@ -874,13 +869,13 @@ they exclude certain protocols which are arguably secure.
 </div>
 </div>
 
-<div class="item feed-b3e4c5b6 feed-annualreviewsannualreviewofphysiologytableofcontents" id="item-11485cfd">
+<div class="item feed-b3e4c5b6 feed-annualreviewsannualreviewofphysiologytableofcontents" id="item-8554b92c">
 <p class="itemheader">
-<span class="itemtitle"><a href="https://www.annualreviews.org/doi/abs/10.1146/annurev-physiol-020518-114515?ai=sp&amp;mi=3fndc3&amp;af=R">Epithelial-Stromal Interactions in Pancreatic Cancer</a></span>
+<span class="itemtitle"><a href="https://www.annualreviews.org/doi/abs/10.1146/annurev-physiol-020518-114504?ai=sp&amp;mi=3fndc3&amp;af=R">Contribution of Wound-Associated Cells and Mediators in Orchestrating Gastrointestinal Mucosal Wound Repair</a></span>
 <span class="itemfrom">[Annual Reviews: Annual Review of Physiology: Table of Contents]</span>
 </p>
 <div class="itemdescription">
-<p>Annual Review of Physiology, <a href="https://www.annualreviews.org/toc/physiol/81/1">Volume 81, Issue 1</a>, Page 211-233, February 2019. <br />
+<p>Annual Review of Physiology, <a href="https://www.annualreviews.org/toc/physiol/81/1">Volume 81, Issue 1</a>, Page 189-209, February 2019. <br />
 </div>
 </div>
 
@@ -919,7 +914,7 @@ they exclude certain protocols which are arguably secure.
 <div class="day">
 <h2>Thursday, 09 August 2018</h2>
 <div class="time">
-<h3>09:00 AM</h3>
+<h3>04:00 PM</h3>
 <div class="item feed-a4d49d75 feed-annualreviewsannualreviewofeconomicstableofcontents" id="item-a65f46b1">
 <p class="itemheader">
 <span class="itemtitle"><a href="https://www.annualreviews.org/doi/abs/10.1146/annurev-economics-080217-053526?ai=67b7&amp;mi=3fndc3&amp;af=R">Sorting in the Labor Market</a></span>
@@ -984,113 +979,113 @@ they exclude certain protocols which are arguably secure.
 <tr class="feedsrow">
 <td>Annual Reviews: Annual Review of Economics: Table of Contents</td>
 <td><a class="xmlbutton" href="http://www.annualreviews.org/action/showFeed?ui=45mu4&amp;mi=3fndc3&amp;ai=67b7&amp;jc=economics&amp;type=etoc&amp;feed=rss">XML</a></td>
-<td>04:00 PM, Tuesday, 13 August 2019</td>
-<td>07:00 PM, Tuesday, 13 August 2019</td>
+<td>04:00 PM, Monday, 19 August 2019</td>
+<td>07:00 PM, Monday, 19 August 2019</td>
 </tr>
 
 <tr class="feedsrow">
 <td>Annual Reviews: Annual Review of Nutrition: Table of Contents</td>
 <td><a class="xmlbutton" href="http://www.annualreviews.org/action/showFeed?ui=45mu4&amp;mi=3fndc3&amp;ai=rz&amp;jc=nutr&amp;type=etoc&amp;feed=rss">XML</a></td>
-<td>04:00 PM, Tuesday, 13 August 2019</td>
-<td>07:00 PM, Tuesday, 13 August 2019</td>
+<td>04:00 PM, Monday, 19 August 2019</td>
+<td>07:00 PM, Monday, 19 August 2019</td>
 </tr>
 
 <tr class="feedsrow">
 <td>Annual Reviews: Annual Review of Physiology: Table of Contents</td>
 <td><a class="xmlbutton" href="http://www.annualreviews.org/action/showFeed?ui=45mu4&amp;mi=3fndc3&amp;ai=sp&amp;jc=physiol&amp;type=etoc&amp;feed=rss">XML</a></td>
-<td>04:00 PM, Tuesday, 13 August 2019</td>
-<td>07:00 PM, Tuesday, 13 August 2019</td>
+<td>04:00 PM, Monday, 19 August 2019</td>
+<td>07:00 PM, Monday, 19 August 2019</td>
 </tr>
 
 <tr class="feedsrow">
 <td>Annual Reviews: Annual Review of Political Science: Table of Contents</td>
 <td><a class="xmlbutton" href="http://www.annualreviews.org/action/showFeed?jc=polisci&amp;type=etoc&amp;feed=rss">XML</a></td>
-<td>04:00 PM, Tuesday, 13 August 2019</td>
-<td>07:00 PM, Tuesday, 13 August 2019</td>
+<td>04:00 PM, Monday, 19 August 2019</td>
+<td>07:00 PM, Monday, 19 August 2019</td>
 </tr>
 
 <tr class="feedsrow">
 <td>Annual Reviews: Annual Review of Sociology: Table of Contents</td>
 <td><a class="xmlbutton" href="http://www.annualreviews.org/action/showFeed?ui=45mu4&amp;mi=3fndc3&amp;ai=t0&amp;jc=soc&amp;type=etoc&amp;feed=rss">XML</a></td>
-<td>04:00 PM, Tuesday, 13 August 2019</td>
-<td>07:00 PM, Tuesday, 13 August 2019</td>
+<td>04:00 PM, Monday, 19 August 2019</td>
+<td>07:00 PM, Monday, 19 August 2019</td>
 </tr>
 
 <tr class="feedsrow">
 <td><a href="http://arxiv.org/">cs.CR updates on arXiv.org</a></td>
 <td><a class="xmlbutton" href="http://export.arxiv.org/rss/cs.CR">XML</a></td>
-<td>04:00 PM, Tuesday, 13 August 2019</td>
-<td>07:00 PM, Tuesday, 13 August 2019</td>
+<td>04:00 PM, Monday, 19 August 2019</td>
+<td>07:00 PM, Monday, 19 August 2019</td>
 </tr>
 
 <tr class="feedsrow">
 <td><a href="http://www.pnas.org">Early Edition</a></td>
 <td><a class="xmlbutton" href="http://feeds.feedburner.com/Pnas-RssFeedOfEarlyEditionArticles?format=xml">XML</a></td>
-<td>04:00 PM, Tuesday, 13 August 2019</td>
-<td>07:00 PM, Tuesday, 13 August 2019</td>
+<td>04:00 PM, Monday, 19 August 2019</td>
+<td>07:00 PM, Monday, 19 August 2019</td>
 </tr>
 
 <tr class="feedsrow">
 <td><a href="http://www.eurekalert.org">EurekAlert! - Breaking News</a></td>
 <td><a class="xmlbutton" href="https://www.eurekalert.org/rss.xml">XML</a></td>
-<td>04:00 PM, Tuesday, 13 August 2019</td>
-<td>07:00 PM, Tuesday, 13 August 2019</td>
+<td>04:00 PM, Monday, 19 August 2019</td>
+<td>07:00 PM, Monday, 19 August 2019</td>
 </tr>
 
 <tr class="feedsrow">
 <td><a href="http://ieeexplore.ieee.org">IEEE Transactions on Image Processing - new TOC</a></td>
 <td><a class="xmlbutton" href="https://ieeexplore.ieee.org/rss/TOC83.XML">XML</a></td>
-<td>04:00 PM, Tuesday, 13 August 2019</td>
-<td>07:00 PM, Tuesday, 13 August 2019</td>
+<td>04:00 PM, Monday, 19 August 2019</td>
+<td>07:00 PM, Monday, 19 August 2019</td>
 </tr>
 
 <tr class="feedsrow">
 <td><a href="http://ieeexplore.ieee.org">IEEE Transactions on Industrial Electronics - new TOC</a></td>
 <td><a class="xmlbutton" href="https://ieeexplore.ieee.org/rss/TOC41.XML">XML</a></td>
-<td>04:00 PM, Tuesday, 13 August 2019</td>
-<td>07:00 PM, Tuesday, 13 August 2019</td>
+<td>04:00 PM, Monday, 19 August 2019</td>
+<td>07:00 PM, Monday, 19 August 2019</td>
 </tr>
 
 <tr class="feedsrow">
 <td><a href="http://ieeexplore.ieee.org">IEEE Transactions on Industrial Informatics - new TOC</a></td>
 <td><a class="xmlbutton" href="https://ieeexplore.ieee.org/rss/TOC9424.XML">XML</a></td>
-<td>04:00 PM, Tuesday, 13 August 2019</td>
-<td>07:00 PM, Tuesday, 13 August 2019</td>
+<td>04:00 PM, Monday, 19 August 2019</td>
+<td>07:00 PM, Monday, 19 August 2019</td>
 </tr>
 
 <tr class="feedsrow">
 <td><a href="http://ieeexplore.ieee.org">IEEE Transactions on Information Forensics and Security - new TOC</a></td>
 <td><a class="xmlbutton" href="https://ieeexplore.ieee.org/rss/TOC10206.XML">XML</a></td>
-<td>04:00 PM, Tuesday, 13 August 2019</td>
-<td>07:00 PM, Tuesday, 13 August 2019</td>
+<td>04:00 PM, Monday, 19 August 2019</td>
+<td>07:00 PM, Monday, 19 August 2019</td>
 </tr>
 
 <tr class="feedsrow">
 <td><a href="https://jamanetwork.com/journals/jama">JAMA Current Issue</a></td>
 <td><a class="xmlbutton" href="https://jamanetwork.com/rss/site_3/67.xml">XML</a></td>
-<td>04:00 PM, Tuesday, 13 August 2019</td>
-<td>07:00 PM, Tuesday, 13 August 2019</td>
+<td>04:00 PM, Monday, 19 August 2019</td>
+<td>07:00 PM, Monday, 19 August 2019</td>
 </tr>
 
 <tr class="feedsrow">
 <td><a href="https://www.bmj.com/research/feed">Latest BMJ Research</a></td>
 <td><a class="xmlbutton" href="http://feeds.bmj.com/bmj/research?format=xml">XML</a></td>
-<td>04:00 PM, Tuesday, 13 August 2019</td>
-<td>07:00 PM, Tuesday, 13 August 2019</td>
+<td>04:00 PM, Monday, 19 August 2019</td>
+<td>07:00 PM, Monday, 19 August 2019</td>
 </tr>
 
 <tr class="feedsrow">
 <td><a href="http://feeds.nature.com/nature/rss/current">Nature - Issue - nature.com science feeds</a></td>
 <td><a class="xmlbutton" href="http://feeds.nature.com/nature/rss/current?format=xml">XML</a></td>
-<td>04:00 PM, Tuesday, 13 August 2019</td>
-<td>07:00 PM, Tuesday, 13 August 2019</td>
+<td>04:00 PM, Monday, 19 August 2019</td>
+<td>07:00 PM, Monday, 19 August 2019</td>
 </tr>
 
 <tr class="feedsrow">
 <td><a href="https://www.thelancet.com/journals/lancet/issue/current">The Lancet</a></td>
 <td><a class="xmlbutton" href="http://www.thelancet.com/rssfeed/lancet_current.xml">XML</a></td>
-<td>04:00 PM, Tuesday, 13 August 2019</td>
-<td>07:00 PM, Tuesday, 13 August 2019</td>
+<td>04:00 PM, Monday, 19 August 2019</td>
+<td>07:00 PM, Monday, 19 August 2019</td>
 </tr>
 
 </table>
