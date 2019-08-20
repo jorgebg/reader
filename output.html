@@ -13,38 +13,86 @@
 </div>
 <div id="items">
 <div class="day">
-<h2>Monday, 19 August 2019</h2>
+<h2>Tuesday, 20 August 2019</h2>
 <div class="time">
 <h3>04:00 PM</h3>
-<div class="item feed-1b28272e feed-cscrupdatesonarxivorg" id="item-fb8585c5">
+<div class="item feed-1b28272e feed-cscrupdatesonarxivorg" id="item-1948800b">
 <p class="itemheader">
-<span class="itemtitle"><a href="http://arxiv.org/abs/1908.05759">Similarity-based Android Malware Detection Using Hamming Distance of Static Binary Features. (arXiv:1908.05759v1 [cs.CR])</a></span>
+<span class="itemtitle"><a href="http://arxiv.org/abs/1908.06757">Boosting the Bounds of Symbolic QED for Effective Pre-Silicon Verification of Processor Cores. (arXiv:1908.06757v1 [cs.AR])</a></span>
 <span class="itemfrom">[<a href="http://arxiv.org/">cs.CR updates on arXiv.org</a>]</span>
 </p>
 <div class="itemdescription">
-<p>In this paper, we develop four malware detection methods using Hamming
-distance to find similarity between samples which are first nearest neighbors
-(FNN), all nearest neighbors (ANN), weighted all nearest neighbors (WANN), and
-k-medoid based nearest neighbors (KMNN). In our proposed methods, we can
-trigger the alarm if we detect an Android app is malicious. Hence, our
-solutions help us to avoid the spread of detected malware on a broader scale.
-We provide a detailed description of the proposed detection methods and related
-algorithms. We include an extensive analysis to asses the suitability of our
-proposed similarity-based detection methods. In this way, we perform our
-experiments on three datasets, including benign and malware Android apps like
-Drebin, Contagio, and Genome. Thus, to corroborate the actual effectiveness of
-our classifier, we carry out performance comparisons with some state-of-the-art
-classification and malware detection algorithms, namely Mixed and Separated
-solutions, the program dissimilarity measure based on entropy (PDME) and the
-FalDroid algorithms. We test our experiments in a different type of features:
-API, intent, and permission features on these three datasets. The results
-confirm that accuracy rates of proposed algorithms are more than 90% and in
-some cases (i.e., considering API features) are more than 99%, and are
-comparable with existing state-of-the-art solutions.
+<p>Existing techniques to ensure functional correctness and hardware trust
+during pre-silicon verification face severe limitations. In this work, we
+systematically leverage two key ideas: 1) Symbolic QED, a recent bug detection
+and localization technique using Bounded Model Checking (BMC); and 2) Symbolic
+starting states, to present a method that: i) Effectively detects both
+"difficult" logic bugs and Hardware Trojans, even with long activation
+sequences where traditional BMC techniques fail; and ii) Does not need skilled
+manual guidance for writing testbenches, writing design-specific assertions, or
+debugging spurious counter-examples. Using open-source RISC-V cores, we
+demonstrate the following: 1. Quick (&lt;5 minutes for an in-order scalar core and
+&lt;2.5 hours for an out-of-order superscalar core) detection of 100% of hundreds
+of logic bug and hardware Trojan scenarios from commercial chips and research
+literature, and 97.9% of "extremal" bugs (randomly-generated bugs requiring
+~100,000 activation instructions taken from random test programs). 2. Quick (~1
+minute) detection of several previously unknown bugs in open-source RISC-V
+designs.
 </p>
 </div>
 </div>
 
+<div class="item feed-1b28272e feed-cscrupdatesonarxivorg" id="item-4270092d">
+<p class="itemheader">
+<span class="itemtitle"><a href="http://arxiv.org/abs/1907.09440">Maya: Falsifying Power Sidechannels with Dynamic Control. (arXiv:1907.09440v2 [cs.CR] UPDATED)</a></span>
+<span class="itemfrom">[<a href="http://arxiv.org/">cs.CR updates on arXiv.org</a>]</span>
+</p>
+<div class="itemdescription">
+<p>The security of computers is at risk because of information leaking through
+physical outputs such as power, temperature, or electromagnetic (EM) emissions.
+Attackers can use advanced signal measurement and analysis to recover sensitive
+data from these sidechannels. To address this problem, this paper presents
+Maya, a simple and effective solution against power side-channels. The idea is
+to re-shape the power dissipated by an application in an
+application-transparent manner using control theory techniques - preventing
+attackers from learning any information. With control theory, a controller can
+reliably keep power close to a desired target value even when runtime
+conditions change unpredictably. Then, by changing these targets intelligently,
+power can be made to appear in any desired form, appearing to carry activity
+information which, in reality, is unrelated to the application. Maya can be
+implemented in privileged software or in simple hardware. In this paper, we
+implement Maya on two multiprocessor machines using Operating System (OS)
+threads, and show its effectiveness and ease of deployment.
+</p>
+</div>
+</div>
+
+<div class="item feed-c24550d7 feed-ieeetransactionsoninformationforensicsandsecuritynewtoc" id="item-473ce63f">
+<p class="itemheader">
+<span class="itemtitle"><a href="http://ieeexplore.ieee.org/document/8700206">Adding a Helper Can Totally Remove the Secrecy Constraints in a Two-User Interference Channel</a></span>
+<span class="itemfrom">[<a href="http://ieeexplore.ieee.org">IEEE Transactions on Information Forensics and Security - new TOC</a>]</span>
+</p>
+<div class="itemdescription">
+<p>In many communication channels, secrecy constraints usually incur a penalty in capacity, as well as generalized degrees-of-freedom (GDoF). In this paper, we show an interesting observation that adding a helper can totally remove the penalty in sum GDoF for a two-user symmetric Gaussian interference channel. For the interference channel where each transmitter sends a message to an intended receiver without secrecy constraints, the sum GDoF is a well-known &#x201c;W&#x201d; curve, characterized by Etkin-Tse-Wang in 2008. If the secrecy constraints are imposed on this interference channel, where the message of each transmitter must be secure from the unintended receiver (eavesdropper), then a GDoF penalty is incurred and the secure sum GDoF is reduced to a modified &#x201c;W&#x201d; curve, derived by Chen recently. In this paper, we show that, by adding a helper into this interference channel with secrecy constraints, the secure sum GDoF turns out to be a &#x201c;W&#x201d; curve, which is the same as the sum GDoF of the setting without secrecy constraints. The proposed scheme is based on the cooperative jamming and a careful signal design such that the jamming signal of the helper is aligned at a specific direction and power level with the information signals of the transmitters, which allows us to totally remove the penalty in GDoF due to the secrecy constraints. Furthermore, the estimation approaches of noise removal and signal separation due to the rational independence are used in the secure rate analysis.
+</div>
+</div>
+
+<div class="item feed-c24550d7 feed-ieeetransactionsoninformationforensicsandsecuritynewtoc" id="item-e74d5e2f">
+<p class="itemheader">
+<span class="itemtitle"><a href="http://ieeexplore.ieee.org/document/8695866">Individual Identification Based on Code-Modulated Visual-Evoked Potentials</a></span>
+<span class="itemfrom">[<a href="http://ieeexplore.ieee.org">IEEE Transactions on Information Forensics and Security - new TOC</a>]</span>
+</p>
+<div class="itemdescription">
+<p>The electroencephalography (EEG) method has recently attracted increasing attention in the study of brain activity-based biometric systems because of its simplicity, portability, noninvasiveness, and relatively low cost. However, due to the low signal-to-noise ratio of EEG, most of the existing EEG-based biometric systems require a long duration of signals to achieve high accuracy in individual identification. Besides, the feasibility and stability of these systems have not yet been conclusively reported, since most studies did not perform longitudinal evaluation. In this paper, we proposed a novel EEG-based individual identification method using code-modulated visualevoked potentials (c-VEPs). Specifically, this paper quantitatively compared eight code-modulated stimulation patterns, including six 63-bit (1.05 s at 60-Hz refresh rate) m-sequences (M1-M6) and two spatially combined sequence groups (M&#x00d7;4: M1-M4 and M&#x00d7; 6: M1-M6) in recording the c-VEPs from a group of 25 subjects for individual identification. To further evaluate the influence of inter-session variability, we recorded two data sessions for each individual on different days to measure intra-session and cross-session identification performance. State-of-the-art VEP detection algorithms in brain-computer interfaces (BCIs) were employed to construct a template-matching-based identification framework. For intra-session identification, we achieved a 100% correct recognition rate (CRR) using 5.25-s EEG data (average of five trials for M5). For cross-session identification, 99.43% CRR was attained using 10.5-s EEG signals (average of ten trials for M5). These results suggest that the proposed c-VEP based individual identification method is promising for real-world applications.
+</div>
+</div>
+
+</div>
+</div>
+<div class="day">
+<h2>Monday, 19 August 2019</h2>
+<div class="time">
+<h3>04:00 PM</h3>
 <div class="item feed-1b28272e feed-cscrupdatesonarxivorg" id="item-4288055d">
 <p class="itemheader">
 <span class="itemtitle"><a href="http://arxiv.org/abs/1908.05902">MFA is a Waste of Time! Understanding Negative Connotation Towards MFA Applications via User Generated Content. (arXiv:1908.05902v1 [cs.CR])</a></span>
@@ -65,37 +113,6 @@ understanding, limited device compatibility, and risk trade-offs leading to
 non-adoption of MFA. Based on these results, we provide actionable
 recommendations in technological design, initial training, and risk
 communication to improve the adoption and user experience of MFA.
-</p>
-</div>
-</div>
-
-<div class="item feed-1b28272e feed-cscrupdatesonarxivorg" id="item-aadf170b">
-<p class="itemheader">
-<span class="itemtitle"><a href="http://arxiv.org/abs/1908.05994">The Next 700 Policy Miners: A Universal Method for Building Policy Miners. (arXiv:1908.05994v1 [cs.CR])</a></span>
-<span class="itemfrom">[<a href="http://arxiv.org/">cs.CR updates on arXiv.org</a>]</span>
-</p>
-<div class="itemdescription">
-<p>A myriad of access control policy languages have been and continue to be
-proposed. The design of policy miners for each such language is a challenging
-task that has required specialized machine learning and combinatorial
-algorithms. We present an alternative method, universal access control policy
-mining (Unicorn). We show how this method streamlines the design of policy
-miners for a wide variety of policy languages including ABAC, RBAC, RBAC with
-user-attribute constraints, RBAC with spatio-temporal constraints, and an
-expressive fragment of XACML. For the latter two, there were no known policy
-miners until now.
-</p>
-<p>To design a policy miner using Unicorn, one needs a policy language and a
-metric quantifying how well a policy fits an assignment of permissions to
-users. From these, one builds the policy miner as a search algorithm that
-computes a policy that best fits the given permission assignment. We
-experimentally evaluate the policy miners built with Unicorn on logs from
-Amazon and access control matrices from other companies. Despite the genericity
-of our method, our policy miners are competitive with and sometimes even better
-than specialized state-of-the-art policy miners. The true positive rates of
-policies we mined differ by only 5% from the policies mined by the state of the
-art and the false positive rates are always below 5%. In the case of ABAC, it
-even outperforms the state of the art.
 </p>
 </div>
 </div>
@@ -155,16 +172,6 @@ several baselines in a variety of setups.
 </div>
 </div>
 
-<div class="item feed-53ba08d1 feed-natureissuenaturecomsciencefeeds" id="item-ee1af849">
-<p class="itemheader">
-<span class="itemtitle"><a href="http://feeds.nature.com/~r/nature/rss/current/~3/U7XiPPytAJM/s41586-019-1488-5">Social dilemmas among unequals</a></span>
-<span class="itemfrom">[<a href="http://feeds.nature.com/nature/rss/current">Nature - Issue - nature.com science feeds</a>]</span>
-</p>
-<div class="itemdescription">
-<p>Nature, Published online: 14 August 2019; <a href="https://www.nature.com/articles/s41586-019-1488-5">doi:10.1038/s41586-019-1488-5</a></p>A framework that includes inequality shows that extreme inequality prevents cooperation, but overall welfare is maximized when endowments and productivities are aligned such that more-productive individuals receive higher endowments.<img alt="" height="1" src="http://feeds.feedburner.com/~r/nature/rss/current/~4/U7XiPPytAJM" width="1" />
-</div>
-</div>
-
 <div class="item feed-fab735fe feed-thelancet" id="item-0773d0da">
 <p class="itemheader">
 <span class="itemtitle"><a href="https://www.thelancet.com/journals/lancet/article/PIIS0140-6736(19)31941-5/fulltext?rss=yes">[World Report] People with albinism in Africa: contending with skin cancer</a></span>
@@ -175,23 +182,23 @@ several baselines in a variety of setups.
 </div>
 </div>
 
-<div class="item feed-fab735fe feed-thelancet" id="item-1de16318">
+<div class="item feed-fab735fe feed-thelancet" id="item-2e3d8d9f">
 <p class="itemheader">
-<span class="itemtitle"><a href="https://www.thelancet.com/journals/lancet/article/PIIS0140-6736(19)30719-6/fulltext?rss=yes">[Correspondence] SGLT-2 inhibitors for people with type 2 diabetes</a></span>
+<span class="itemtitle"><a href="https://www.thelancet.com/journals/lancet/article/PIIS0140-6736(19)31728-3/fulltext?rss=yes">[Perspectives] Type 2 diabetes</a></span>
 <span class="itemfrom">[<a href="https://www.thelancet.com/journals/lancet/issue/current">The Lancet</a>]</span>
 </p>
 <div class="itemdescription">
-<p>Sodium-glucose co-transporter-2 inhibitors (SGLT2i) seem promising for the prevention and treatment of cardiovascular disease, as shown in a study by Zelniker and colleagues.1 They are now suggested as second-line therapy for most patients with type 2 diabetes.2 However, important questions remain open for an important patient group, older patients (particularly those older than 80 years).
+<p>In the space of a few months in 1921, an acute and terminal disease&#8212;type 1 diabetes&#8212;became a manageable chronic condition. The discovery of insulin by Frederick Banting, Charles Best, and their colleagues captured a mood of therapeutic optimism, the hope that a new scientific medicine, rooted in the laboratory and working through the networks of industry and state health care, could find cures for all diseases. But insulin therapy, clinicians soon realised, was effective in only a minority of patients.
 </div>
 </div>
 
-<div class="item feed-fab735fe feed-thelancet" id="item-cc1b4e96">
+<div class="item feed-fab735fe feed-thelancet" id="item-2894a194">
 <p class="itemheader">
-<span class="itemtitle"><a href="https://www.thelancet.com/journals/lancet/article/PIIS0140-6736(19)31832-X/fulltext?rss=yes">[Correspondence] Health worker gap in Italy: the untold truth</a></span>
+<span class="itemtitle"><a href="https://www.thelancet.com/journals/lancet/article/PIIS0140-6736(19)30712-3/fulltext?rss=yes">[Correspondence] Pain relief during labour</a></span>
 <span class="itemfrom">[<a href="https://www.thelancet.com/journals/lancet/issue/current">The Lancet</a>]</span>
 </p>
 <div class="itemdescription">
-<p>I read with interest the World Report by Marta Paterlini1 about the shortfall of doctors in Italy. I commend Paterlini for highlighting this unsolved problem, but unfortunately, the piece fails to identify its real cause. Born, raised, and trained as an anaesthesiologist in Italy, then re-trained in the USA, I have had the privilege of living and working in different countries, and in my opinion, this issue is far from being addressed in a thorough and systematic way.
+<p>Matthew Wilson and colleagues1 found that remifentanil patient-controlled analgesia halved the proportion of epidural conversions compared with intramuscular pethidine. We believe there was a flaw in this research because the study lacked data on birth order, and primigravidae report more pain than multiparous women.2 We believe that addressing this issue could further increase the value of their study.
 </div>
 </div>
 
@@ -225,16 +232,6 @@ several baselines in a variety of setups.
 </div>
 </div>
 
-<div class="item feed-c99fafa0 feed-ieeetransactionsonimageprocessingnewtoc" id="item-d9ad595d">
-<p class="itemheader">
-<span class="itemtitle"><a href="http://ieeexplore.ieee.org/document/8692726">Three-Zone Segmentation-Based Motion Compensation for Video Compression</a></span>
-<span class="itemfrom">[<a href="http://ieeexplore.ieee.org">IEEE Transactions on Image Processing - new TOC</a>]</span>
-</p>
-<div class="itemdescription">
-<p>Motion compensation has been widely employed for removing temporal redundancies in typical hybrid video coding framework. The popular video compression standards, such as H.264/AVC and HEVC, adopt the block-based partitioning model to describe the motion field due to its high-compression efficiency and relatively low-computational complexity. However, block-based motion compensation may not align with the actual object motion boundaries, potentially limiting the compression efficiency. In view of this, we propose a three-zone segmentation-based motion compensation scheme to improve the description accuracy of motion field as well as the coding efficiency. In particular, the segmentation information is implied in the reference frame instead of being explicitly signalled. Based on the segmentation information, three motion compensation zones can be identified, including one edge, one foreground, and one background zone. The foreground zone is motion compensated by the signalled motion vector of the block, and the background zone is motion compensated by the motion information implicitly derived from the local motion field. Regarding the edge zone, it is viewed as an overlapped area and the weighted compensation strategy is adopted. The proposed algorithm is implemented into the reference software VTM-1.0 of versatile video coding (VVC), and the simulation results show that the algorithm can achieve 1.14&#x0025; and 1.06&#x0025; bitrate savings for random access and low-delay configurations, respectively.
-</div>
-</div>
-
 <div class="item feed-c99fafa0 feed-ieeetransactionsonimageprocessingnewtoc" id="item-0bac5b57">
 <p class="itemheader">
 <span class="itemtitle"><a href="http://ieeexplore.ieee.org/document/8718526">A Structure-Based Human Facial Age Estimation Framework Under a Constrained Condition</a></span>
@@ -261,16 +258,6 @@ several baselines in a variety of setups.
 <h2>Tuesday, 13 August 2019</h2>
 <div class="time">
 <h3>11:00 PM</h3>
-<div class="item feed-b93c25e9 feed-earlyedition" id="item-045b4f7c">
-<p class="itemheader">
-<span class="itemtitle"><a href="http://feedproxy.google.com/~r/Pnas-RssFeedOfEarlyEditionArticles/~3/RYIV5nfkH3E/1907077116.short">Upregulation of reduced folate carrier by vitamin D enhances brain folate uptake in mice lacking folate receptor alpha [Pharmacology]</a></span>
-<span class="itemfrom">[<a href="http://www.pnas.org">Early Edition</a>]</span>
-</p>
-<div class="itemdescription">
-<p>Folates are critical for central nervous system function. Folate transport is mediated by 3 major pathways, reduced folate carrier (RFC), proton-coupled folate transporter (PCFT), and folate receptor alpha (FR&#945;/Folr1), known to be regulated by ligand-activated nuclear receptors. Cerebral folate delivery primarily occurs at the choroid plexus through FR&#945; and PCFT;...<img alt="" height="1" src="http://feeds.feedburner.com/~r/Pnas-RssFeedOfEarlyEditionArticles/~4/RYIV5nfkH3E" width="1" />
-</div>
-</div>
-
 <div class="item feed-b93c25e9 feed-earlyedition" id="item-21b0caa6">
 <p class="itemheader">
 <span class="itemtitle"><a href="http://feedproxy.google.com/~r/Pnas-RssFeedOfEarlyEditionArticles/~3/ED9rmR0FN5E/1905123116.short">Phosphorylation-guarded light-harvesting complex II contributes to broad-spectrum blast resistance in rice [Plant Biology]</a></span>
@@ -288,6 +275,26 @@ several baselines in a variety of setups.
 </p>
 <div class="itemdescription">
 <p>Diverse organisms, from insects to humans, actively seek out sensory information that best informs goal-directed actions. Efficient active sensing requires congruity between sensor properties and motor strategies, as typically honed through evolution. However, it has been difficult to study whether active sensing strategies are also modified with experience. Here, we...<img alt="" height="1" src="http://feeds.feedburner.com/~r/Pnas-RssFeedOfEarlyEditionArticles/~4/Be2KqVoaroo" width="1" />
+</div>
+</div>
+
+<div class="item feed-b93c25e9 feed-earlyedition" id="item-71246a62">
+<p class="itemheader">
+<span class="itemtitle"><a href="http://feedproxy.google.com/~r/Pnas-RssFeedOfEarlyEditionArticles/~3/ZNpi_r_m0os/1905258116.short">Complex dynamics under tension in a high-efficiency frameshift stimulatory structure [Biophysics and Computational Biology]</a></span>
+<span class="itemfrom">[<a href="http://www.pnas.org">Early Edition</a>]</span>
+</p>
+<div class="itemdescription">
+<p>Specific structures in mRNA can stimulate programmed ribosomal frameshifting (PRF). PRF efficiency can vary enormously between different stimulatory structures, but the features that lead to efficient PRF stimulation remain uncertain. To address this question, we studied the structural dynamics of the frameshift signal from West Nile virus (WNV), which stimulates...<img alt="" height="1" src="http://feeds.feedburner.com/~r/Pnas-RssFeedOfEarlyEditionArticles/~4/ZNpi_r_m0os" width="1" />
+</div>
+</div>
+
+<div class="item feed-b93c25e9 feed-earlyedition" id="item-38995b63">
+<p class="itemheader">
+<span class="itemtitle"><a href="http://feedproxy.google.com/~r/Pnas-RssFeedOfEarlyEditionArticles/~3/JTgDWSWMrJc/1903890116.short">High stretchability, strength, and toughness of living cells enabled by hyperelastic vimentin intermediate filaments [Biophysics and Computational Biology]</a></span>
+<span class="itemfrom">[<a href="http://www.pnas.org">Early Edition</a>]</span>
+</p>
+<div class="itemdescription">
+<p>In many developmental and pathological processes, including cellular migration during normal development and invasion in cancer metastasis, cells are required to withstand severe deformations. The structural integrity of eukaryotic cells under small deformations has been known to depend on the cytoskeleton including actin filaments (F-actin), microtubules (MT), and intermediate filaments...<img alt="" height="1" src="http://feeds.feedburner.com/~r/Pnas-RssFeedOfEarlyEditionArticles/~4/JTgDWSWMrJc" width="1" />
 </div>
 </div>
 
@@ -341,13 +348,13 @@ several baselines in a variety of setups.
 </div>
 </div>
 
-<div class="item feed-ed41d94f feed-jamacurrentissue" id="item-8bf04f94">
+<div class="item feed-ed41d94f feed-jamacurrentissue" id="item-07c08a21">
 <p class="itemheader">
-<span class="itemtitle"><a href="https://jamanetwork.com/journals/jama/fullarticle/2738242">Use of Bone Turnover Markers in Clinical Practice</a></span>
+<span class="itemtitle"><a href="https://jamanetwork.com/journals/jama/fullarticle/2747646">Smart Devices Detect Agonal Breathing in Cardiac Arrest</a></span>
 <span class="itemfrom">[<a href="https://jamanetwork.com/journals/jama">JAMA Current Issue</a>]</span>
 </p>
 <div class="itemdescription">
-<p>This JAMA Insights Clinical Update reviews bone turnover markers measurable in blood and urine and summarizes evidence supporting their use to predict osteoporosis and osteoporotic fractures, assess treatment adherence and efficacy, and monitor bone loss after drug discontinuation.
+<p>Roughly half of people who experience a cardiac arrest demonstrate agonal breathing, a brainstem reflex during severe hypoxia. Researchers at the University of Washington in Seattle are teaching smart devices to detect this audible biomarker, often described as gasping breaths. Agonal breathing sounds from Seattle-area 911 cardiac arrest calls were used to train and validate a detection system recently introduced in npj Digital Medicine.
 </div>
 </div>
 
@@ -367,13 +374,13 @@ several baselines in a variety of setups.
 <h2>Monday, 12 August 2019</h2>
 <div class="time">
 <h3>11:00 PM</h3>
-<div class="item feed-b93c25e9 feed-earlyedition" id="item-920688a8">
+<div class="item feed-53ba08d1 feed-natureissuenaturecomsciencefeeds" id="item-1f30e7fe">
 <p class="itemheader">
-<span class="itemtitle"><a href="http://feedproxy.google.com/~r/Pnas-RssFeedOfEarlyEditionArticles/~3/bSgXH8PWCTo/1901765116.short">ARF6 and AMAP1 are major targets of KRAS and TP53 mutations to promote invasion, PD-L1 dynamics, and immune evasion of pancreatic cancer [Medical Sciences]</a></span>
-<span class="itemfrom">[<a href="http://www.pnas.org">Early Edition</a>]</span>
+<span class="itemtitle"><a href="http://feeds.nature.com/~r/nature/rss/current/~3/FYgJ9dqAlnA/d41586-019-02409-7">Eat less meat: UN climate-change report calls for change to human diet</a></span>
+<span class="itemfrom">[<a href="http://feeds.nature.com/nature/rss/current">Nature - Issue - nature.com science feeds</a>]</span>
 </p>
 <div class="itemdescription">
-<p>Although KRAS and TP53 mutations are major drivers of pancreatic ductal adenocarcinoma (PDAC), the incurable nature of this cancer still remains largely elusive. ARF6 and its effector AMAP1 are often overexpressed in different cancers and regulate the intracellular dynamics of integrins and E-cadherin, thus promoting tumor invasion and metastasis when...<img alt="" height="1" src="http://feeds.feedburner.com/~r/Pnas-RssFeedOfEarlyEditionArticles/~4/bSgXH8PWCTo" width="1" />
+<p>Nature, Published online: 08 August 2019; <a href="https://www.nature.com/articles/d41586-019-02409-7">doi:10.1038/d41586-019-02409-7</a></p>The report on global land use and agriculture comes amid accelerating deforestation in the Amazon.<img alt="" height="1" src="http://feeds.feedburner.com/~r/nature/rss/current/~4/FYgJ9dqAlnA" width="1" />
 </div>
 </div>
 
@@ -387,13 +394,13 @@ several baselines in a variety of setups.
 </div>
 </div>
 
-<div class="item feed-ccdce26d feed-ieeetransactionsonindustrialinformaticsnewtoc" id="item-14cfeaba">
+<div class="item feed-ccdce26d feed-ieeetransactionsonindustrialinformaticsnewtoc" id="item-575bf3d0">
 <p class="itemheader">
-<span class="itemtitle"><a href="http://ieeexplore.ieee.org/document/8606177">Distributed Time-Varying Formation Control for Multiagent Systems With Directed Topology Using an Adaptive Output-Feedback Approach</a></span>
+<span class="itemtitle"><a href="http://ieeexplore.ieee.org/document/8651400">Demand-Side Energy Management Considering Price Oscillations for Residential Building Heating and Ventilation Systems</a></span>
 <span class="itemfrom">[<a href="http://ieeexplore.ieee.org">IEEE Transactions on Industrial Informatics - new TOC</a>]</span>
 </p>
 <div class="itemdescription">
-<p>This paper addresses fully distributed formation control problems for high-order linear multiagent systems (MASs) with directed communication topology. In order to overcome the shortcomings of designing time-varying formation (TVF) protocols via the global information of the communication network and the full states of all the agents in existing formation results, a novel adaptive TVF protocol is developed. First, dynamic output feedback information and sequential observers are used to construct the adaptive TVF protocol. Then, a distributed algorithm which includes a TVF feasibility constraint is proposed. Only local outputs of neighboring agents are used in the algorithm. Moreover, applying the proposed approach and the Lyapunov stability theory, it is found that the fully distributed TVF can be achieved. Finally, numerical simulations are given to demonstrate the theoretical results.
+<p>This paper presents an energy management method to optimally control the energy supply and the temperature settings of distributed heating and ventilation systems for residential buildings. The control model attempts to schedule the supply and demand simultaneously with the purpose of minimizing the total costs. Moreover, the Predicted Percentage of Dissatisfied (PPD) model is introduced into the consumers&#x2019; cost functions and the quadratic fitting method is applied to simplify the PPD model. An energy management algorithm is developed to seek the optimal temperature settings, the energy supply, and the price. Furthermore, due to the ubiquity of price oscillations in electricity markets, we analyze and examine the effects of price oscillations on the performance of the proposed algorithm. Finally, the theoretical analysis and simulation results both demonstrate that the proposed energy management algorithm with price oscillations can converge to a region around the optimal solution.
 </div>
 </div>
 
@@ -417,13 +424,13 @@ several baselines in a variety of setups.
 </div>
 </div>
 
-<div class="item feed-ccdce26d feed-ieeetransactionsonindustrialinformaticsnewtoc" id="item-73a8cb74">
+<div class="item feed-ccdce26d feed-ieeetransactionsonindustrialinformaticsnewtoc" id="item-d43582db">
 <p class="itemheader">
-<span class="itemtitle"><a href="http://ieeexplore.ieee.org/document/8732432">A Distributed Double-Consensus Algorithm for Residential We-Energy</a></span>
+<span class="itemtitle"><a href="http://ieeexplore.ieee.org/document/8789737">IEEE Industrial Electronics Society</a></span>
 <span class="itemfrom">[<a href="http://ieeexplore.ieee.org">IEEE Transactions on Industrial Informatics - new TOC</a>]</span>
 </p>
 <div class="itemdescription">
-<p>This paper investigates the residential energy management problems in the power-heat-coupling system. For better solving this issue, based on the novel concept of We-Energy (WE) for energy Internet (EI), this paper proposes a residential WE (R-WE) framework faced by the terminal users who play an important role in renewable energy consumption. Inspired by the full-duplex feature of R-WE, the power and heat supply-demand balance constraints are fulfilled in a regional unit of EI, but it may be inequality constraints for corresponding consumer, producer, or WE operation modes in only one R-WE. The R-WE framework can be classified into four operation modes, which is island mode, consumer mode, producer mode, and WE mode. On this basis, the R-WE models cooperate to achieve the objective of minimizing the operation costs, smoothing out the loads&#x2019; variations, and renewable resource fluctuations. Specifically, the R-WE framework with respect to the heat-power-coupling problem can be solved in the distributed double-consensus algorithm (DDCA), which is designed two sets of consensus algorithms by using four completely different consensus variables to calculate the power and heat multipliers, evaluate the power and heat generations and, thereby, further obtain the power mismatches of electricity and heat. Also, the Karush-Kuhn-Tucker (KKT) optimal conditions of the proposed DDCA is further proved. Meanwhile, a novel projection operation method for combined heat and power devices is designed to take the infeasible solutions mapped into the feasible region. Finally, the simulation results in different cases further demonstrate that the proposed R-WE frame can be an appropriate method to analyze the terminal consumers and harmonize multienergy producers in the process of constructing EI projects. And an R-WE framework of the campus has experimented with minority loads in island mode.
+<p>Presents a listing of the editorial board, board of governors, current staff, committee members, and/or society editors for this issue of the publication.
 </div>
 </div>
 
@@ -433,18 +440,6 @@ several baselines in a variety of setups.
 <h2>Thursday, 08 August 2019</h2>
 <div class="time">
 <h3>04:00 PM</h3>
-<div class="item feed-6b3f78ad feed-latestbmjresearch" id="item-525e173f">
-<p class="itemheader">
-<span class="itemtitle"><a href="http://feeds.bmj.com/~r/bmj/research/~3/Ipty4NZp3-4/bmj.l4466">Association between major surgical admissions and the cognitive trajectory: 19 year follow-up of Whitehall II cohort study</a></span>
-<span class="itemfrom">[<a href="https://www.bmj.com/research/feed">Latest BMJ Research</a>]</span>
-</p>
-<div class="itemdescription">
-<div class="feedflare">
-<a href="http://feeds.bmj.com/~ff/bmj/research?a=Ipty4NZp3-4:w1DcSHCRuDA:yIl2AUoC8zA"><img border="0" src="http://feeds.feedburner.com/~ff/bmj/research?d=yIl2AUoC8zA" /></a> <a href="http://feeds.bmj.com/~ff/bmj/research?a=Ipty4NZp3-4:w1DcSHCRuDA:dnMXMwOfBR0"><img border="0" src="http://feeds.feedburner.com/~ff/bmj/research?d=dnMXMwOfBR0" /></a> <a href="http://feeds.bmj.com/~ff/bmj/research?a=Ipty4NZp3-4:w1DcSHCRuDA:F7zBnMyn0Lo"><img border="0" src="http://feeds.feedburner.com/~ff/bmj/research?i=Ipty4NZp3-4:w1DcSHCRuDA:F7zBnMyn0Lo" /></a> <a href="http://feeds.bmj.com/~ff/bmj/research?a=Ipty4NZp3-4:w1DcSHCRuDA:V_sGLiPBpWU"><img border="0" src="http://feeds.feedburner.com/~ff/bmj/research?i=Ipty4NZp3-4:w1DcSHCRuDA:V_sGLiPBpWU" /></a> <a href="http://feeds.bmj.com/~ff/bmj/research?a=Ipty4NZp3-4:w1DcSHCRuDA:qj6IDK7rITs"><img border="0" src="http://feeds.feedburner.com/~ff/bmj/research?d=qj6IDK7rITs" /></a> <a href="http://feeds.bmj.com/~ff/bmj/research?a=Ipty4NZp3-4:w1DcSHCRuDA:gIN9vFwOqvQ"><img border="0" src="http://feeds.feedburner.com/~ff/bmj/research?i=Ipty4NZp3-4:w1DcSHCRuDA:gIN9vFwOqvQ" /></a>
-</div><img alt="" height="1" src="http://feeds.feedburner.com/~r/bmj/research/~4/Ipty4NZp3-4" width="1" />
-</div>
-</div>
-
 <div class="item feed-6b3f78ad feed-latestbmjresearch" id="item-e233bff5">
 <p class="itemheader">
 <span class="itemtitle"><a href="http://feeds.bmj.com/~r/bmj/research/~3/PZjfmc9l1lc/bmj.l4414">Association of ideal cardiovascular health at age 50 with incidence of dementia: 25 year follow-up of Whitehall II cohort study</a></span>
@@ -474,6 +469,16 @@ several baselines in a variety of setups.
 </p>
 <div class="itemdescription">
 <p>Nature, Published online: 08 August 2019; <a href="https://www.nature.com/articles/d41586-019-02332-x">doi:10.1038/d41586-019-02332-x</a></p>Some researchers have turned to crowdfunding campaigns to pay for supplies and several scientific institutes are rationing electricity to save money.<img alt="" height="1" src="http://feeds.feedburner.com/~r/nature/rss/current/~4/lwMHBSOP4pM" width="1" />
+</div>
+</div>
+
+<div class="item feed-3b836157 feed-annualreviewsannualreviewofsociologytableofcontents" id="item-2f09f641">
+<p class="itemheader">
+<span class="itemtitle"><a href="https://www.annualreviews.org/doi/abs/10.1146/annurev-soc-073117-041106?ai=t0&amp;mi=3fndc3&amp;af=R">Machine Learning for Sociology</a></span>
+<span class="itemfrom">[Annual Reviews: Annual Review of Sociology: Table of Contents]</span>
+</p>
+<div class="itemdescription">
+<p>Annual Review of Sociology, <a href="https://www.annualreviews.org/toc/soc/45/1">Volume 45, Issue 1</a>, Page 27-45, July 2019. <br />
 </div>
 </div>
 
@@ -517,16 +522,6 @@ several baselines in a variety of setups.
 </div>
 </div>
 
-<div class="item feed-3b836157 feed-annualreviewsannualreviewofsociologytableofcontents" id="item-44a4e0ce">
-<p class="itemheader">
-<span class="itemtitle"><a href="https://www.annualreviews.org/doi/abs/10.1146/annurev-soc-073117-041140?ai=t0&amp;mi=3fndc3&amp;af=R">Causality and History: Modes of Causal Investigation in Historical Social Sciences</a></span>
-<span class="itemfrom">[Annual Reviews: Annual Review of Sociology: Table of Contents]</span>
-</p>
-<div class="itemdescription">
-<p>Annual Review of Sociology, <a href="https://www.annualreviews.org/toc/soc/45/1">Volume 45, Issue 1</a>, Page 581-606, July 2019. <br />
-</div>
-</div>
-
 <div class="item feed-c24550d7 feed-ieeetransactionsoninformationforensicsandsecuritynewtoc" id="item-ffeb98cb">
 <p class="itemheader">
 <span class="itemtitle"><a href="http://ieeexplore.ieee.org/document/8695052">Joint Intensity Transformer Network for Gait Recognition Robust Against Clothing and Carrying Status</a></span>
@@ -537,33 +532,13 @@ several baselines in a variety of setups.
 </div>
 </div>
 
-<div class="item feed-c24550d7 feed-ieeetransactionsoninformationforensicsandsecuritynewtoc" id="item-665ac041">
+<div class="item feed-c24550d7 feed-ieeetransactionsoninformationforensicsandsecuritynewtoc" id="item-c1b90ff1">
 <p class="itemheader">
-<span class="itemtitle"><a href="http://ieeexplore.ieee.org/document/8678674">Robust Beamforming and Jamming for Enhancing the Physical Layer Security of Full Duplex Radios</a></span>
+<span class="itemtitle"><a href="http://ieeexplore.ieee.org/document/8695776">A Hand-Based Multi-Biometrics via Deep Hashing Network and Biometric Graph Matching</a></span>
 <span class="itemfrom">[<a href="http://ieeexplore.ieee.org">IEEE Transactions on Information Forensics and Security - new TOC</a>]</span>
 </p>
 <div class="itemdescription">
-<p>In this paper, we investigate the physical layer security of a full-duplex base station (BS)-aided system in the worst case, where an uplink transmitter (UT) and a downlink receiver (DR) are equipped with a single antenna, while a powerful eavesdropper is equipped with multiple antennas. For securing the confidentiality of signals transmitted from the BS and UT, an artificial noise (AN)-aided secrecy beamforming scheme is proposed, which is robust to the realistic imperfect state information of both the eavesdropping channel and the residual self-interference channel. Our objective function is that of maximizing the worst-case sum secrecy rate achieved by the BS and UT, through jointly optimizing the beamforming vector of the confidential signals and the transmit covariance matrix of the AN. However, the resulting optimization problem is non-convex and non-linear. In order to efficiently obtain the solution, we transform the non-convex problem into a sequence of convex problems by adopting the block coordinate descent algorithm. We invoke a linear matrix inequality for finding its Karush&#x2013;Kuhn&#x2013;Tucker (KKT) solution. In order to evaluate the achievable performance, the worst-case secrecy rate is analytically derived. Furthermore, we construct another secrecy transmission scheme using the projection matrix theory for performance comparison. Our simulation results show that the proposed robust secrecy transmission scheme achieves substantial secrecy performance gains, which verifies the efficiency of the proposed method.
-</div>
-</div>
-
-<div class="item feed-c24550d7 feed-ieeetransactionsoninformationforensicsandsecuritynewtoc" id="item-cfd7535c">
-<p class="itemheader">
-<span class="itemtitle"><a href="http://ieeexplore.ieee.org/document/8691498">PalmNet: Gabor-PCA Convolutional Networks for Touchless Palmprint Recognition</a></span>
-<span class="itemfrom">[<a href="http://ieeexplore.ieee.org">IEEE Transactions on Information Forensics and Security - new TOC</a>]</span>
-</p>
-<div class="itemdescription">
-<p>Touchless palmprint recognition systems enable high-accuracy recognition of individuals through less-constrained and highly usable procedures that do not require the contact of the palm with a surface. To perform this recognition, methods based on local texture descriptors and convolutional neural networks (CNNs) are currently used to extract highly discriminative features while compensating for variations in scale, rotation, and illumination in biometric samples. In particular, the main advantage of CNN-based methods is their ability to adapt to biometric samples captured with heterogeneous devices. However, the current methods rely on either supervised training algorithms, which require class labels (e.g., the identities of the individuals) during the training phase, or filters pretrained on general-purpose databases, which may not be specifically suitable for palmprint data. To achieve a high-recognition accuracy with touchless palmprint samples captured using different devices while neither requiring class labels for training nor using pretrained filters, we introduce PalmNet, which is a novel CNN that uses a newly developed method to tune palmprint-specific filters through an unsupervised procedure based on Gabor responses and principal component analysis (PCA), not requiring class labels during training. PalmNet is a new method of applying Gabor filters in a CNN and is designed to extract highly discriminative palmprint-specific descriptors and to adapt to heterogeneous databases. We validated the innovative PalmNet on several palmprint databases captured using different touchless acquisition procedures and heterogeneous devices, and in all cases, a recognition accuracy greater than that of the current methods in this paper was obtained.
-</div>
-</div>
-
-<div class="item feed-c24550d7 feed-ieeetransactionsoninformationforensicsandsecuritynewtoc" id="item-6e72a21b">
-<p class="itemheader">
-<span class="itemtitle"><a href="http://ieeexplore.ieee.org/document/8695092">Secure Cooperative Communications With an Untrusted Relay: A NOMA-Inspired Jamming and Relaying Approach</a></span>
-<span class="itemfrom">[<a href="http://ieeexplore.ieee.org">IEEE Transactions on Information Forensics and Security - new TOC</a>]</span>
-</p>
-<div class="itemdescription">
-<p>We propose a novel non-orthogonal multiple access (NOMA)-inspired jamming and relaying scheme to enhance the physical layer security of untrusted relay networks. Particularly, during the first phase, with the application of the downlink NOMA principle, the source sends a superimposed version of a desired signal and a jamming signal, where the jamming signal is designed to deliberately confuse the untrusted relay by exploiting the beamforming design and adapting the transmission rate at the source. During the second phase, relying on the uplink NOMA principle, the untrusted relay forwards its received signals and, simultaneously, the source transmits a new desired signal that cannot be wiretapped by the untrusted relay to maximize the secrecy sum rate. Scenarios of single-antenna and multiple-antenna relaying are considered, and the impact of different antenna configurations at the source and the untrusted relay on the secrecy performance is investigated. Analytical expressions of an ergodic secrecy sum rate (ESSR) lower bound and an asymptotic ESSR scaling law are derived to evaluate the secrecy performance of the proposed NOMA-inspired jamming and relaying scheme. Computer simulations are presented to validate the accuracy of the derived analytical results, and demonstrate the significant ESSR improvement of the proposed scheme over the conventional orthogonal multiple access-based relaying schemes.
+<p>At present, the fusion of different unimodal biometrics has attracted increasing attention from researchers, who are dedicated to the practical application of biometrics. In this paper, we explored a multi-biometric algorithm that integrates palmprints and dorsal hand veins (DHV). Palmprint recognition has a rather high accuracy and reliability, and the most significant advantage of DHV recognition is the biopsy (Liveness detection). In order to combine the advantages of both and implement the fusion method, deep learning and graph matching were, respectively, introduced to identify palmprint and DHV. Upon using the deep hashing network (DHN), biometric images can be encoded as 128-bit codes. Then, the Hamming distances were used to represent the similarity of two codes. Biometric graph matching (BGM) can obtain three discriminative features for classification. In order to improve the accuracy of open-set recognition, in multi-modal fusion, the score-level fusion of DHN and BGM was performed and authentication was provided by support vector machine (SVM). Furthermore, based on DHN, all four levels of fusion strategies were used for multi-modal recognition of palmprint and DHV. Evaluation experiments and comprehensive comparisons were conducted on various commonly used datasets, and the promising results were obtained in this case where the equal error rates (EERs) of both palmprint recognition and multi-biometrics equal 0, demonstrating the great superiority of DHN in biometric verification.
 </div>
 </div>
 
@@ -574,6 +549,16 @@ several baselines in a variety of setups.
 </p>
 <div class="itemdescription">
 <p>In cyberspace, evolutionary strategies are commonly used by both attackers and defenders. For example, an attacker&#x2019;s strategy often changes over the course of time, as new vulnerabilities are discovered and/or mitigated. Similarly, a defender&#x2019;s strategy changes over time. These changes may or may not be in direct response to a change in the opponent&#x2019;s strategy. In any case, it is important to have a set of quantitative metrics to characterize and understand the effectiveness of attackers&#x2019; and defenders&#x2019; evolutionary strategies, which reflect their cyber agility. Despite its clear importance, few systematic metrics have been developed to quantify the cyber agility of attackers and defenders. In this paper, we propose the first metric framework for measuring cyber agility in terms of the effectiveness of the dynamic evolution of cyber attacks and defenses. The proposed framework is generic and applicable to transform any relevant, quantitative, and/or conventional static security metrics (e.g., false positives and false negatives) into dynamic metrics to capture dynamics of system behaviors. In order to validate the usefulness of the proposed framework, we conduct case studies on measuring the evolution of cyber attacks and defenses using two real-world datasets. We discuss the limitations of the current work and identify future research directions.
+</div>
+</div>
+
+<div class="item feed-094cb33b feed-ieeetransactionsonindustrialelectronicsnewtoc" id="item-8fd10fd4">
+<p class="itemheader">
+<span class="itemtitle"><a href="http://ieeexplore.ieee.org/document/8581447">Sensorless Low Switching Frequency Explicit Model Predictive Control of Induction Machines Fed by Neutral Point Clamped Inverter</a></span>
+<span class="itemfrom">[<a href="http://ieeexplore.ieee.org">IEEE Transactions on Industrial Electronics - new TOC</a>]</span>
+</p>
+<div class="itemdescription">
+<p>This paper proposes an explicit predictive current control scheme implemented with a low carrier frequency pulsewidth modulation (PWM) on an induction machine fed by a three-level neutral point clamped inverter. The PWM carrier and the main current sampling frequency are both set to 1&#x00a0;kHz, resulting in a 500&#x00a0;Hz average switching frequency per device, which is very suitable for large drive applications. The explicit predictive control is introduced to optimize the available bandwidth provided by such a low sampling frequency, maximizing the dynamic performance. The strategy has been tested in a 2.2-kW induction motor experimental prototype.
 </div>
 </div>
 
@@ -607,16 +592,6 @@ several baselines in a variety of setups.
 </div>
 </div>
 
-<div class="item feed-094cb33b feed-ieeetransactionsonindustrialelectronicsnewtoc" id="item-67f99ae1">
-<p class="itemheader">
-<span class="itemtitle"><a href="http://ieeexplore.ieee.org/document/8643077">Learning Modality-Consistency Feature Templates: A Robust RGB-Infrared Tracking System</a></span>
-<span class="itemfrom">[<a href="http://ieeexplore.ieee.org">IEEE Transactions on Industrial Electronics - new TOC</a>]</span>
-</p>
-<div class="itemdescription">
-<p>With a large number of video surveillance systems installed for the requirement from industrial security, the task of object tracking, which aims to locate objects of interest in videos, is very important. Although numerous tracking algorithms for RGB videos have been developed in the decade, the tracking performance and robustness of these systems may be degraded dramatically when the information from RGB video is unreliable (e.g., poor illumination conditions or very low resolution). To address this issue, this paper presents a new tracking system, which aims to combine the information from RGB and infrared modalities for object tracking. The proposed tracking systems is based on our proposed machine learning model. Particularly, the learning model can alleviate the modality discrepancy issue under the proposed modality consistency constraint from both representation patterns and discriminability, and generate discriminative feature templates for collaborative representations and discrimination in heterogeneous modalities. Experiments on a variety of challenging RGB-infrared videos demonstrate the effectiveness of the proposed algorithm.
-</div>
-</div>
-
 <div class="item feed-094cb33b feed-ieeetransactionsonindustrialelectronicsnewtoc" id="item-bbca7946">
 <p class="itemheader">
 <span class="itemtitle"><a href="http://ieeexplore.ieee.org/document/8784427">IEEE Transactions on Industrial Electronics Information for Authors</a></span>
@@ -624,6 +599,16 @@ several baselines in a variety of setups.
 </p>
 <div class="itemdescription">
 <p>These instructions give guidelines for preparing papers for this publication. Presents information for authors publishing in this journal.
+</div>
+</div>
+
+<div class="item feed-c99fafa0 feed-ieeetransactionsonimageprocessingnewtoc" id="item-495b7bd0">
+<p class="itemheader">
+<span class="itemtitle"><a href="http://ieeexplore.ieee.org/document/8704996">Video Saliency Detection via Sparsity-Based Reconstruction and Propagation</a></span>
+<span class="itemfrom">[<a href="http://ieeexplore.ieee.org">IEEE Transactions on Image Processing - new TOC</a>]</span>
+</p>
+<div class="itemdescription">
+<p>Video saliency detection aims to continuously discover the motion-related salient objects from the video sequences. Since it needs to consider the spatial and temporal constraints jointly, video saliency detection is more challenging than image saliency detection. In this paper, we propose a new method to detect the salient objects in video based on sparse reconstruction and propagation. With the assistance of novel static and motion priors, a single-frame saliency model is first designed to represent the spatial saliency in each individual frame via the sparsity-based reconstruction. Then, through a progressive sparsity-based propagation, the sequential correspondence in the temporal space is captured to produce the inter-frame saliency map. Finally, these two maps are incorporated into a global optimization model to achieve spatio-temporal smoothness and global consistency of the salient object in the whole video. The experiments on three large-scale video saliency datasets demonstrate that the proposed method outperforms the state-of-the-art algorithms both qualitatively and quantitatively.
 </div>
 </div>
 
@@ -800,6 +785,24 @@ several baselines in a variety of setups.
 </div>
 </div>
 <div class="day">
+<h2>Thursday, 04 July 2019</h2>
+<div class="time">
+<h3>04:00 PM</h3>
+<div class="item feed-6b3f78ad feed-latestbmjresearch" id="item-7b2deb54">
+<p class="itemheader">
+<span class="itemtitle"><a href="http://feeds.bmj.com/~r/bmj/research/~3/N4BOIJPvRHg/bmj.l4067">Quantifying the impact of genes on body mass index during the obesity epidemic: longitudinal findings from the HUNT Study</a></span>
+<span class="itemfrom">[<a href="https://www.bmj.com/research/feed">Latest BMJ Research</a>]</span>
+</p>
+<div class="itemdescription">
+<div class="feedflare">
+<a href="http://feeds.bmj.com/~ff/bmj/research?a=N4BOIJPvRHg:VCsw0HZhRjw:yIl2AUoC8zA"><img border="0" src="http://feeds.feedburner.com/~ff/bmj/research?d=yIl2AUoC8zA" /></a> <a href="http://feeds.bmj.com/~ff/bmj/research?a=N4BOIJPvRHg:VCsw0HZhRjw:dnMXMwOfBR0"><img border="0" src="http://feeds.feedburner.com/~ff/bmj/research?d=dnMXMwOfBR0" /></a> <a href="http://feeds.bmj.com/~ff/bmj/research?a=N4BOIJPvRHg:VCsw0HZhRjw:F7zBnMyn0Lo"><img border="0" src="http://feeds.feedburner.com/~ff/bmj/research?i=N4BOIJPvRHg:VCsw0HZhRjw:F7zBnMyn0Lo" /></a> <a href="http://feeds.bmj.com/~ff/bmj/research?a=N4BOIJPvRHg:VCsw0HZhRjw:V_sGLiPBpWU"><img border="0" src="http://feeds.feedburner.com/~ff/bmj/research?i=N4BOIJPvRHg:VCsw0HZhRjw:V_sGLiPBpWU" /></a> <a href="http://feeds.bmj.com/~ff/bmj/research?a=N4BOIJPvRHg:VCsw0HZhRjw:qj6IDK7rITs"><img border="0" src="http://feeds.feedburner.com/~ff/bmj/research?d=qj6IDK7rITs" /></a> <a href="http://feeds.bmj.com/~ff/bmj/research?a=N4BOIJPvRHg:VCsw0HZhRjw:gIN9vFwOqvQ"><img border="0" src="http://feeds.feedburner.com/~ff/bmj/research?i=N4BOIJPvRHg:VCsw0HZhRjw:gIN9vFwOqvQ" /></a>
+</div><img alt="" height="1" src="http://feeds.feedburner.com/~r/bmj/research/~4/N4BOIJPvRHg" width="1" />
+</div>
+</div>
+
+</div>
+</div>
+<div class="day">
 <h2>Sunday, 09 June 2019</h2>
 <div class="time">
 <h3>07:32 PM</h3>
@@ -869,13 +872,13 @@ several baselines in a variety of setups.
 </div>
 </div>
 
-<div class="item feed-b3e4c5b6 feed-annualreviewsannualreviewofphysiologytableofcontents" id="item-8554b92c">
+<div class="item feed-b3e4c5b6 feed-annualreviewsannualreviewofphysiologytableofcontents" id="item-c1c10727">
 <p class="itemheader">
-<span class="itemtitle"><a href="https://www.annualreviews.org/doi/abs/10.1146/annurev-physiol-020518-114504?ai=sp&amp;mi=3fndc3&amp;af=R">Contribution of Wound-Associated Cells and Mediators in Orchestrating Gastrointestinal Mucosal Wound Repair</a></span>
+<span class="itemtitle"><a href="https://www.annualreviews.org/doi/abs/10.1146/annurev-physiol-021317-121515?ai=sp&amp;mi=3fndc3&amp;af=R">Unexpected Roles for the Second Brain: Enteric Nervous System as Master Regulator of Bowel Function</a></span>
 <span class="itemfrom">[Annual Reviews: Annual Review of Physiology: Table of Contents]</span>
 </p>
 <div class="itemdescription">
-<p>Annual Review of Physiology, <a href="https://www.annualreviews.org/toc/physiol/81/1">Volume 81, Issue 1</a>, Page 189-209, February 2019. <br />
+<p>Annual Review of Physiology, <a href="https://www.annualreviews.org/toc/physiol/81/1">Volume 81, Issue 1</a>, Page 235-259, February 2019. <br />
 </div>
 </div>
 
@@ -889,6 +892,16 @@ several baselines in a variety of setups.
 </div>
 </div>
 
+<div class="item feed-b3e4c5b6 feed-annualreviewsannualreviewofphysiologytableofcontents" id="item-7512a46a">
+<p class="itemheader">
+<span class="itemtitle"><a href="https://www.annualreviews.org/doi/abs/10.1146/annurev-physiol-020518-114640?ai=sp&amp;mi=3fndc3&amp;af=R">Cellular Metabolism in Lung Health and Disease</a></span>
+<span class="itemfrom">[Annual Reviews: Annual Review of Physiology: Table of Contents]</span>
+</p>
+<div class="itemdescription">
+<p>Annual Review of Physiology, <a href="https://www.annualreviews.org/toc/physiol/81/1">Volume 81, Issue 1</a>, Page 403-428, February 2019. <br />
+</div>
+</div>
+
 <div class="item feed-b3e4c5b6 feed-annualreviewsannualreviewofphysiologytableofcontents" id="item-4fb596d9">
 <p class="itemheader">
 <span class="itemtitle"><a href="https://www.annualreviews.org/doi/abs/10.1146/annurev-physiol-020518-114721?ai=sp&amp;mi=3fndc3&amp;af=R">Regulation of Blood and Lymphatic Vessels by Immune Cells in Tumors and Metastasis</a></span>
@@ -896,16 +909,6 @@ several baselines in a variety of setups.
 </p>
 <div class="itemdescription">
 <p>Annual Review of Physiology, <a href="https://www.annualreviews.org/toc/physiol/81/1">Volume 81, Issue 1</a>, Page 535-560, February 2019. <br />
-</div>
-</div>
-
-<div class="item feed-b3e4c5b6 feed-annualreviewsannualreviewofphysiologytableofcontents" id="item-a989c39f">
-<p class="itemheader">
-<span class="itemtitle"><a href="https://www.annualreviews.org/doi/abs/10.1146/annurev-physiol-021317-121245?ai=sp&amp;mi=3fndc3&amp;af=R">Steps in Mechanotransduction Pathways that Control Cell Morphology</a></span>
-<span class="itemfrom">[Annual Reviews: Annual Review of Physiology: Table of Contents]</span>
-</p>
-<div class="itemdescription">
-<p>Annual Review of Physiology, <a href="https://www.annualreviews.org/toc/physiol/81/1">Volume 81, Issue 1</a>, Page 585-605, February 2019. <br />
 </div>
 </div>
 
@@ -979,113 +982,113 @@ several baselines in a variety of setups.
 <tr class="feedsrow">
 <td>Annual Reviews: Annual Review of Economics: Table of Contents</td>
 <td><a class="xmlbutton" href="http://www.annualreviews.org/action/showFeed?ui=45mu4&amp;mi=3fndc3&amp;ai=67b7&amp;jc=economics&amp;type=etoc&amp;feed=rss">XML</a></td>
-<td>04:00 PM, Monday, 19 August 2019</td>
-<td>07:00 PM, Monday, 19 August 2019</td>
+<td>04:00 PM, Tuesday, 20 August 2019</td>
+<td>07:00 PM, Tuesday, 20 August 2019</td>
 </tr>
 
 <tr class="feedsrow">
 <td>Annual Reviews: Annual Review of Nutrition: Table of Contents</td>
 <td><a class="xmlbutton" href="http://www.annualreviews.org/action/showFeed?ui=45mu4&amp;mi=3fndc3&amp;ai=rz&amp;jc=nutr&amp;type=etoc&amp;feed=rss">XML</a></td>
-<td>04:00 PM, Monday, 19 August 2019</td>
-<td>07:00 PM, Monday, 19 August 2019</td>
+<td>04:00 PM, Tuesday, 20 August 2019</td>
+<td>07:00 PM, Tuesday, 20 August 2019</td>
 </tr>
 
 <tr class="feedsrow">
 <td>Annual Reviews: Annual Review of Physiology: Table of Contents</td>
 <td><a class="xmlbutton" href="http://www.annualreviews.org/action/showFeed?ui=45mu4&amp;mi=3fndc3&amp;ai=sp&amp;jc=physiol&amp;type=etoc&amp;feed=rss">XML</a></td>
-<td>04:00 PM, Monday, 19 August 2019</td>
-<td>07:00 PM, Monday, 19 August 2019</td>
+<td>04:00 PM, Tuesday, 20 August 2019</td>
+<td>07:00 PM, Tuesday, 20 August 2019</td>
 </tr>
 
 <tr class="feedsrow">
 <td>Annual Reviews: Annual Review of Political Science: Table of Contents</td>
 <td><a class="xmlbutton" href="http://www.annualreviews.org/action/showFeed?jc=polisci&amp;type=etoc&amp;feed=rss">XML</a></td>
-<td>04:00 PM, Monday, 19 August 2019</td>
-<td>07:00 PM, Monday, 19 August 2019</td>
+<td>04:00 PM, Tuesday, 20 August 2019</td>
+<td>07:00 PM, Tuesday, 20 August 2019</td>
 </tr>
 
 <tr class="feedsrow">
 <td>Annual Reviews: Annual Review of Sociology: Table of Contents</td>
 <td><a class="xmlbutton" href="http://www.annualreviews.org/action/showFeed?ui=45mu4&amp;mi=3fndc3&amp;ai=t0&amp;jc=soc&amp;type=etoc&amp;feed=rss">XML</a></td>
-<td>04:00 PM, Monday, 19 August 2019</td>
-<td>07:00 PM, Monday, 19 August 2019</td>
+<td>04:00 PM, Tuesday, 20 August 2019</td>
+<td>07:00 PM, Tuesday, 20 August 2019</td>
 </tr>
 
 <tr class="feedsrow">
 <td><a href="http://arxiv.org/">cs.CR updates on arXiv.org</a></td>
 <td><a class="xmlbutton" href="http://export.arxiv.org/rss/cs.CR">XML</a></td>
-<td>04:00 PM, Monday, 19 August 2019</td>
-<td>07:00 PM, Monday, 19 August 2019</td>
+<td>04:00 PM, Tuesday, 20 August 2019</td>
+<td>07:00 PM, Tuesday, 20 August 2019</td>
 </tr>
 
 <tr class="feedsrow">
 <td><a href="http://www.pnas.org">Early Edition</a></td>
 <td><a class="xmlbutton" href="http://feeds.feedburner.com/Pnas-RssFeedOfEarlyEditionArticles?format=xml">XML</a></td>
-<td>04:00 PM, Monday, 19 August 2019</td>
-<td>07:00 PM, Monday, 19 August 2019</td>
+<td>04:00 PM, Tuesday, 20 August 2019</td>
+<td>07:00 PM, Tuesday, 20 August 2019</td>
 </tr>
 
 <tr class="feedsrow">
 <td><a href="http://www.eurekalert.org">EurekAlert! - Breaking News</a></td>
 <td><a class="xmlbutton" href="https://www.eurekalert.org/rss.xml">XML</a></td>
-<td>04:00 PM, Monday, 19 August 2019</td>
-<td>07:00 PM, Monday, 19 August 2019</td>
+<td>04:00 PM, Tuesday, 20 August 2019</td>
+<td>07:00 PM, Tuesday, 20 August 2019</td>
 </tr>
 
 <tr class="feedsrow">
 <td><a href="http://ieeexplore.ieee.org">IEEE Transactions on Image Processing - new TOC</a></td>
 <td><a class="xmlbutton" href="https://ieeexplore.ieee.org/rss/TOC83.XML">XML</a></td>
-<td>04:00 PM, Monday, 19 August 2019</td>
-<td>07:00 PM, Monday, 19 August 2019</td>
+<td>04:00 PM, Tuesday, 20 August 2019</td>
+<td>07:00 PM, Tuesday, 20 August 2019</td>
 </tr>
 
 <tr class="feedsrow">
 <td><a href="http://ieeexplore.ieee.org">IEEE Transactions on Industrial Electronics - new TOC</a></td>
 <td><a class="xmlbutton" href="https://ieeexplore.ieee.org/rss/TOC41.XML">XML</a></td>
-<td>04:00 PM, Monday, 19 August 2019</td>
-<td>07:00 PM, Monday, 19 August 2019</td>
+<td>04:00 PM, Tuesday, 20 August 2019</td>
+<td>07:00 PM, Tuesday, 20 August 2019</td>
 </tr>
 
 <tr class="feedsrow">
 <td><a href="http://ieeexplore.ieee.org">IEEE Transactions on Industrial Informatics - new TOC</a></td>
 <td><a class="xmlbutton" href="https://ieeexplore.ieee.org/rss/TOC9424.XML">XML</a></td>
-<td>04:00 PM, Monday, 19 August 2019</td>
-<td>07:00 PM, Monday, 19 August 2019</td>
+<td>04:00 PM, Tuesday, 20 August 2019</td>
+<td>07:00 PM, Tuesday, 20 August 2019</td>
 </tr>
 
 <tr class="feedsrow">
 <td><a href="http://ieeexplore.ieee.org">IEEE Transactions on Information Forensics and Security - new TOC</a></td>
 <td><a class="xmlbutton" href="https://ieeexplore.ieee.org/rss/TOC10206.XML">XML</a></td>
-<td>04:00 PM, Monday, 19 August 2019</td>
-<td>07:00 PM, Monday, 19 August 2019</td>
+<td>04:00 PM, Tuesday, 20 August 2019</td>
+<td>07:00 PM, Tuesday, 20 August 2019</td>
 </tr>
 
 <tr class="feedsrow">
 <td><a href="https://jamanetwork.com/journals/jama">JAMA Current Issue</a></td>
 <td><a class="xmlbutton" href="https://jamanetwork.com/rss/site_3/67.xml">XML</a></td>
-<td>04:00 PM, Monday, 19 August 2019</td>
-<td>07:00 PM, Monday, 19 August 2019</td>
+<td>04:00 PM, Tuesday, 20 August 2019</td>
+<td>07:00 PM, Tuesday, 20 August 2019</td>
 </tr>
 
 <tr class="feedsrow">
 <td><a href="https://www.bmj.com/research/feed">Latest BMJ Research</a></td>
 <td><a class="xmlbutton" href="http://feeds.bmj.com/bmj/research?format=xml">XML</a></td>
-<td>04:00 PM, Monday, 19 August 2019</td>
-<td>07:00 PM, Monday, 19 August 2019</td>
+<td>04:00 PM, Tuesday, 20 August 2019</td>
+<td>07:00 PM, Tuesday, 20 August 2019</td>
 </tr>
 
 <tr class="feedsrow">
 <td><a href="http://feeds.nature.com/nature/rss/current">Nature - Issue - nature.com science feeds</a></td>
 <td><a class="xmlbutton" href="http://feeds.nature.com/nature/rss/current?format=xml">XML</a></td>
-<td>04:00 PM, Monday, 19 August 2019</td>
-<td>07:00 PM, Monday, 19 August 2019</td>
+<td>04:00 PM, Tuesday, 20 August 2019</td>
+<td>07:00 PM, Tuesday, 20 August 2019</td>
 </tr>
 
 <tr class="feedsrow">
 <td><a href="https://www.thelancet.com/journals/lancet/issue/current">The Lancet</a></td>
 <td><a class="xmlbutton" href="http://www.thelancet.com/rssfeed/lancet_current.xml">XML</a></td>
-<td>04:00 PM, Monday, 19 August 2019</td>
-<td>07:00 PM, Monday, 19 August 2019</td>
+<td>04:00 PM, Tuesday, 20 August 2019</td>
+<td>07:00 PM, Tuesday, 20 August 2019</td>
 </tr>
 
 </table>
