@@ -13,36 +13,241 @@
 </div>
 <div id="items">
 <div class="day">
+<h2>Wednesday, 04 September 2019</h2>
+<div class="time">
+<h3>04:00 PM</h3>
+<div class="item feed-1b28272e feed-cscrupdatesonarxivorg" id="item-cfaa6f50">
+<p class="itemheader">
+<span class="itemtitle"><a href="http://arxiv.org/abs/1909.00104">Your Smart Home Can't Keep a Secret: Towards Automated Fingerprinting of IoT Traffic with Neural Networks. (arXiv:1909.00104v1 [cs.CR])</a></span>
+<span class="itemfrom">[<a href="http://arxiv.org/">cs.CR updates on arXiv.org</a>]</span>
+</p>
+<div class="itemdescription">
+<p>The IoT (Internet of Things) technology has been widely adopted in recent
+years and has profoundly changed the people's daily lives. However, in the
+meantime, such a fast-growing technology has also introduced new privacy
+issues, which need to be better understood and measured. In this work, we look
+into how private information can be leaked from network traffic generated in
+the smart home network. Although researchers have proposed techniques to infer
+IoT device types or user behaviors under clean experiment setup, the
+effectiveness of such approaches become questionable in the complex but
+realistic network environment, where common techniques like Network Address and
+Port Translation (NAPT) and Virtual Private Network (VPN) are enabled. Traffic
+analysis using traditional methods (e.g., through classical machine-learning
+models) is much less effective under those settings, as the features picked
+manually are not distinctive any more. In this work, we propose a traffic
+analysis framework based on sequence-learning techniques like LSTM and
+leveraged the temporal relations between packets for the attack of device
+identification. We evaluated it under different environment settings (e.g.,
+pure-IoT and noisy environment with multiple non-IoT devices). The results
+showed our framework was able to differentiate device types with a high
+accuracy. This result suggests IoT network communications pose prominent
+challenges to users' privacy, even when they are protected by encryption and
+morphed by the network gateway. As such, new privacy protection methods on IoT
+traffic need to be developed towards mitigating this new issue.
+</p>
+</div>
+</div>
+
+<div class="item feed-1b28272e feed-cscrupdatesonarxivorg" id="item-901ca164">
+<p class="itemheader">
+<span class="itemtitle"><a href="http://arxiv.org/abs/1909.00280">Publishing Community-Preserving Attributed Social Graphs with a Differential Privacy Guarantee. (arXiv:1909.00280v1 [cs.SI])</a></span>
+<span class="itemfrom">[<a href="http://arxiv.org/">cs.CR updates on arXiv.org</a>]</span>
+</p>
+<div class="itemdescription">
+<p>We present a novel method for publishing differentially private synthetic
+attributed graphs. Unlike preceding approaches, our method is able to preserve
+the community structure of the original graph without sacrificing the ability
+to capture global structural properties. Our proposal relies on C-AGM, a new
+community-preserving generative model for attributed graphs. We equip C-AGM
+with efficient methods for attributed graph sampling and parameter estimation.
+For the latter, we introduce differentially private computation methods, which
+allow us to release community-preserving synthetic attributed social graphs
+with a strong formal privacy guarantee. Through comprehensive experiments, we
+show that our new model outperforms its most relevant counterparts in
+synthesising differentially private attributed social graphs that preserve the
+community structure of the original graph, as well as degree sequences and
+clustering coefficients.
+</p>
+</div>
+</div>
+
+<div class="item feed-1b28272e feed-cscrupdatesonarxivorg" id="item-9f242fd4">
+<p class="itemheader">
+<span class="itemtitle"><a href="http://arxiv.org/abs/1909.00299">A Privacy-Preserving, Accountable and Spam-Resilient Geo-Marketplace. (arXiv:1909.00299v1 [cs.CR])</a></span>
+<span class="itemfrom">[<a href="http://arxiv.org/">cs.CR updates on arXiv.org</a>]</span>
+</p>
+<div class="itemdescription">
+<p>Mobile devices with rich features can record videos, traffic parameters or
+air quality readings along user trajectories. Although such data may be
+valuable, users are seldom rewarded for collecting them. Emerging digital
+marketplaces allow owners to advertise their data to interested buyers. We
+focus on geo-marketplaces, where buyers search data based on geo-tags. Such
+marketplaces present significant challenges. First, if owners upload data with
+revealed geo-tags, they expose themselves to serious privacy risks. Second,
+owners must be accountable for advertised data, and must not be allowed to
+subsequently alter geo-tags. Third, such a system may be vulnerable to
+intensive spam activities, where dishonest owners flood the system with fake
+advertisements. We propose a geo-marketplace that addresses all these concerns.
+We employ searchable encryption, digital commitments, and blockchain to protect
+the location privacy of owners while at the same time incorporating
+accountability and spam-resilience mechanisms. We implement a prototype with
+two alternative designs that obtain distinct trade-offs between trust
+assumptions and performance. Our experiments on real location data show that
+one can achieve the above design goals with practical performance and
+reasonable financial overhead.
+</p>
+</div>
+</div>
+
+<div class="item feed-1b28272e feed-cscrupdatesonarxivorg" id="item-1d479ea6">
+<p class="itemheader">
+<span class="itemtitle"><a href="http://arxiv.org/abs/1909.00938">DECO: Liberating Web Data Using Decentralized Oracles for TLS. (arXiv:1909.00938v1 [cs.CR])</a></span>
+<span class="itemfrom">[<a href="http://arxiv.org/">cs.CR updates on arXiv.org</a>]</span>
+</p>
+<div class="itemdescription">
+<p>Thanks to the widespread deployment of TLS, users can access private data
+over channels with end-to-end confidentiality and integrity. What they cannot
+do, however, is prove to third parties the {\em provenance} of such data, i.e.,
+that it genuinely came from a particular website. Existing approaches either
+introduce undesirable trust assumptions or require server-side modifications.
+</p>
+<p>As a result, the value of users' private data is locked up in its point of
+origin. Users cannot export their data with preserved integrity to other
+applications without help and permission from the current data holder. Even the
+value of public date on the web cannot be fully realized as there is no secure
+way to relay it to systems without network connections, such as smart
+contracts.
+</p>
+<p>We propose DECO (short for \underline{dec}entralized \underline{o}racle) to
+address the above problems. DECO allows users to prove that a piece of data
+accessed via TLS came from a particular website and optionally prove statements
+about such data in zero-knowledge, keeping the data itself secret. DECO is the
+first such system that works without trusted hardware or server-side
+modifications.
+</p>
+<p>DECO can liberate data from centralized web-service silos, making it
+accessible to a rich spectrum of applications. To demonstrate the power of
+DECO, we implement three applications that are hard to achieve without it: a
+private financial instrument using smart contracts, converting legacy
+credentials to anonymous credentials, and verifiable claims against price
+discrimination.
+</p>
+</div>
+</div>
+
+<div class="item feed-1b28272e feed-cscrupdatesonarxivorg" id="item-c49b99f1">
+<p class="itemheader">
+<span class="itemtitle"><a href="http://arxiv.org/abs/1905.05158">Impossibility of Full Decentralization in Permissionless Blockchains. (arXiv:1905.05158v2 [cs.CR] UPDATED)</a></span>
+<span class="itemfrom">[<a href="http://arxiv.org/">cs.CR updates on arXiv.org</a>]</span>
+</p>
+<div class="itemdescription">
+<p>Bitcoin uses blockchain technology and proof-of-work (PoW) mechanism where
+nodes spend computing resources and earn rewards in return for spending these
+resources. This incentive system has caused power to be significantly biased
+towards a few nodes, called mining pools. In fact, poor decentralization
+appears not only in PoW-based coins but also in coins adopting other mechanisms
+such as proof-of-stake (PoS) and delegated proof-of-stake (DPoS). In this
+paper, we target this centralization issue. To this end, we first define (m,
+\varepsilon, \delta)-decentralization as a state that satisfies 1) there are at
+least m participants running a node and 2) the ratio between the total resource
+power of nodes run by the richest and \delta-th percentile participants is less
+than or equal to 1+\varepsilon. To see if it is possible to achieve good
+decentralization, we introduce sufficient conditions for the incentive system
+of a blockchain to reach (m, \varepsilon, \delta)-decentralization. When
+satisfying the conditions, a blockchain system can reach full decentralization
+with probability 1. However, to achieve this, the blockchain system should be
+able to assign a positive Sybil cost, where the Sybil cost is defined as the
+difference between the cost for one participant running multiple nodes and the
+total cost for multiple participants each running one node. On the other hand,
+we prove that when there is no Sybil cost, the probability of reaching (m,
+\varepsilon, \delta)-decentralization is upper bounded by a value close to 0,
+considering a large rich-poor gap. To determine the conditions that each system
+cannot satisfy, we also analyze protocols of all PoW, PoS, and DPoS coins in
+the top 100 coins according to our conditions. Finally, we conduct data
+analysis of these coins to validate our theory.
+</p>
+</div>
+</div>
+
+<div class="item feed-ed41d94f feed-jamacurrentissue" id="item-7f3423c1">
+<p class="itemheader">
+<span class="itemtitle"><a href="https://jamanetwork.com/journals/jama/fullarticle/2749219">JAMA</a></span>
+<span class="itemfrom">[<a href="https://jamanetwork.com/journals/jama">JAMA Current Issue</a>]</span>
+</p>
+
+</div>
+
+<div class="item feed-ed41d94f feed-jamacurrentissue" id="item-e38969d1">
+<p class="itemheader">
+<span class="itemtitle"><a href="https://jamanetwork.com/journals/jama/fullarticle/2749215">Effect of Low-Intensity vs Standard-Intensity Warfarin Prophylaxis on Hip or Knee Arthroplasty</a></span>
+<span class="itemfrom">[<a href="https://jamanetwork.com/journals/jama">JAMA Current Issue</a>]</span>
+</p>
+<div class="itemdescription">
+<p>This noninferiority trial compares the safety and efficacy of a lower (1.8) vs higher (2.5) target international normalized ratio to prevent venous thromboembolism in patients given with warfarin just before or after hip or knee arthroplasty.
+</div>
+</div>
+
+<div class="item feed-ed41d94f feed-jamacurrentissue" id="item-a0213747">
+<p class="itemheader">
+<span class="itemtitle"><a href="https://jamanetwork.com/journals/jama/fullarticle/2749213">Trends in Use of Medical Imaging in US Health Care Systems and in Ontario, Canada, 2000-2016</a></span>
+<span class="itemfrom">[<a href="https://jamanetwork.com/journals/jama">JAMA Current Issue</a>]</span>
+</p>
+<div class="itemdescription">
+<p>This study evaluates trends in utilization of computed tomography (CT), magnetic resonance imaging (MRI), ultrasound, and nuclear medicine imaging between 2000 and 2016 in 7 US health care networks and in Ontario, Canada.
+</div>
+</div>
+
+<div class="item feed-ed41d94f feed-jamacurrentissue" id="item-a47367b5">
+<p class="itemheader">
+<span class="itemtitle"><a href="https://jamanetwork.com/journals/jama/fullarticle/2749199">First Therapy for Rare Joint Tumor Is Approved</a></span>
+<span class="itemfrom">[<a href="https://jamanetwork.com/journals/jama">JAMA Current Issue</a>]</span>
+</p>
+<div class="itemdescription">
+<p>The FDA has approved the first treatment for adults with symptomatic tenosynovial giant cell tumor (TGCT) who don&#8217;t get adequate relief from surgery.
+</div>
+</div>
+
+<div class="item feed-ed41d94f feed-jamacurrentissue" id="item-a2bf6916">
+<p class="itemheader">
+<span class="itemtitle"><a href="https://jamanetwork.com/journals/jama/fullarticle/2749191">Compound in Broccoli Restores Tumor Suppressor Activity</a></span>
+<span class="itemfrom">[<a href="https://jamanetwork.com/journals/jama">JAMA Current Issue</a>]</span>
+</p>
+<div class="itemdescription">
+<p>A compound derived from cruciferous vegetables such as broccoli, brussels sprouts, and kale slowed tumor growth in laboratory animals, according to recent findings published in Science. The research also detailed the molecular pathway through which the compound mitigates tumorigenesis.
+</div>
+</div>
+
+</div>
+</div>
+<div class="day">
 <h2>Tuesday, 03 September 2019</h2>
 <div class="time">
 <h3>04:00 PM</h3>
-<div class="item feed-094cb33b feed-ieeetransactionsonindustrialelectronicsnewtoc" id="item-31d640bc">
+<div class="item feed-094cb33b feed-ieeetransactionsonindustrialelectronicsnewtoc" id="item-62dcad15">
 <p class="itemheader">
-<span class="itemtitle"><a href="http://ieeexplore.ieee.org/document/8605535">Core-Loss Analysis of High-Speed Doubly Salient Electromagnetic Machine for Aeronautic Starter&#x002f;Generator Application</a></span>
+<span class="itemtitle"><a href="http://ieeexplore.ieee.org/document/8822836">Table of Contents</a></span>
+<span class="itemfrom">[<a href="http://ieeexplore.ieee.org">IEEE Transactions on Industrial Electronics - new TOC</a>]</span>
+</p>
+
+</div>
+
+<div class="item feed-094cb33b feed-ieeetransactionsonindustrialelectronicsnewtoc" id="item-6c22a372">
+<p class="itemheader">
+<span class="itemtitle"><a href="http://ieeexplore.ieee.org/document/8635507">Analysis, Design, and Experimental Verification of a Mixed High-Order Compensations-Based WPT System with Constant Current Outputs for Driving Multistring LEDs</a></span>
 <span class="itemfrom">[<a href="http://ieeexplore.ieee.org">IEEE Transactions on Industrial Electronics - new TOC</a>]</span>
 </p>
 <div class="itemdescription">
-<p>Core-loss calculation is an important issue in the design and analysis of electric machines, especially in high-speed applications. However, because of the severe uneven distribution and local supersaturation of the flux density, in combination with the evident dc magnetic bias and the skin effect of the eddy current at a high frequency, it is difficult to estimate the core loss in a high-speed doubly salient electromagnetic machine. In this paper, two improved core-loss calculation methods are proposed. Additionally, an approach is established to determine the core-loss coefficients, which considers the influence of the frequency and amplitude of the flux density by adopting the function-fitting method. The change pattern of the core-loss coefficients is also investigated, together with the influence of the dc magnetic bias on the eddy-current loss. Finally, rotor-lock experiments and high-speed rotating experiments are both conducted. Additionally, two improved methods are used and compared for core-loss calculation.
+<p>Current imbalance in multistring light-emitting diodes (LEDs) is a critical issue. It may cause overcurrent in one or more LED strings, leading to rapid degradation. In this paper, a mixed high-order compensation networks-based wireless power transfer system is proposed to generate multiple constant current outputs. It is composed of an LCC resonant network in the transmitting side, a series resonant network, and multiple CLC resonant rectifiers in the receiving side. The CLC resonant rectifiers are connected in parallel to form multiple independent output channels, and each channel is then connected to an LED string. Based on the analysis of the T resonant circuit and the modeling of coupling coils, multiple constant output currents can be derived. As a result, current balance can be achieved, which is very suitable for driving multistring LEDs. The proposed system also offers a modular, scalable, and maintenance-free design, which can significantly reduce the construction cost and the control complexity. In addition, the inverter in the transmitting side can achieve zero phase angle. A laboratory prototype with dual independent output currents is built to verify the proposed method. The experimental results agree well with the theoretical analysis.
 </div>
 </div>
 
-<div class="item feed-094cb33b feed-ieeetransactionsonindustrialelectronicsnewtoc" id="item-ed3df411">
+<div class="item feed-094cb33b feed-ieeetransactionsonindustrialelectronicsnewtoc" id="item-19e45db9">
 <p class="itemheader">
-<span class="itemtitle"><a href="http://ieeexplore.ieee.org/document/8635526">Design and Analysis of Novel Asymmetric-Stator-Pole Flux Reversal PM Machine</a></span>
+<span class="itemtitle"><a href="http://ieeexplore.ieee.org/document/8635478">Hydrothermal Aging Factor Estimation for Two-Cell Diesel-Engine SCR Systems via a Dual Time-Scale Unscented Kalman Filter</a></span>
 <span class="itemfrom">[<a href="http://ieeexplore.ieee.org">IEEE Transactions on Industrial Electronics - new TOC</a>]</span>
 </p>
 <div class="itemdescription">
-<p>This paper proposes a novel flux reversal permanent magnet (FRPM) machine with asymmetric-stator-pole (ASP) configuration. Different from the conventional FRPM machine with uniform &#x201c;NS-NS-NS&#x201d; PM sequence, the proposed ASP-FRPM machine is characterized by a &#x201c;NSN-S-NSN&#x201d; magnet arrangement. Hence, the interpolar flux leakage is significantly reduced with the developed design, which can improve the torque capability. The machine topologies, features, and operating principle are introduced, respectively. A simplified magnetic circuit model is established to reveal the underlying flux leakage reduction mechanism of the ASP design, and the rotor pole number is analytically optimized as well. The design parameters are then globally optimized so as to improve the torque quality. In addition, the electromagnetic characteristics of the ASP- and conventional FRPM machines are compared. Finally, experiments have been carried out to validate the theoretical results.
-</div>
-</div>
-
-<div class="item feed-094cb33b feed-ieeetransactionsonindustrialelectronicsnewtoc" id="item-53ecac14">
-<p class="itemheader">
-<span class="itemtitle"><a href="http://ieeexplore.ieee.org/document/8733996">Multimodal Haptic Display for Virtual Reality: A Survey</a></span>
-<span class="itemfrom">[<a href="http://ieeexplore.ieee.org">IEEE Transactions on Industrial Electronics - new TOC</a>]</span>
-</p>
-<div class="itemdescription">
-<p>Human haptic perception system is complex, involving both cutaneous and kinesthetic receptors. These receptors work together and enable human to perceive the external world. To simulate immersive interaction with virtual objects in virtual reality scenarios haptic devices are desired to reproduce multiproperties of virtual objects, support multigestures of human hands to perform fine manipulation, produce haptic stimuli for simultaneously stimulating multireceptors (including cutaneous and kinesthetic receptors) of human haptic channel, and thus invoke realistic compound haptic sensations. In recent years, such multimodal haptic devices have emerged. In this paper, we survey the latest progress on multimodal haptic devices, identify the gaps, and put forward future research directions on the topic.
+<p>Selective catalytic reduction (SCR) systems have been widely used to meet the emission regulations and two-cell SCR systems have shown the advantages of high NO$_{x}$ conversion efficiency and low NH$_{3}$ slip simultaneously. However, it is noteworthy that the catalyst performance of SCR device would degrade over the service time gradually. If the performance degrading is not well-compensated, the NO$_{x}$ conversion efficiency would reduce significantly. Different from detecting the aging issue in the laboratory, a practical method is to design an observer to estimate the aging factor online such that the urea injection can be modified accordingly. In this paper, we aim to construct an aging-factor observer for two-cell SCR systems. In order to reduce the algorithm computational load and guarantee the implementation performance, we propose a dual time-scale algorithm based on two-cell SCR model and unscented Kalman filter. There is a fast time scale and a slow time scale in the algorithm. Two simulation studies of constant aging factor and time-varying aging factor are investigated in the simulation environment of MATLAB/SIMULINK. The simulation results indicate that the proposed dual time-scale observer works well under different conditions and the calculational load is reduced significantly.
 </div>
 </div>
 
@@ -66,6 +271,27 @@
 </div>
 </div>
 
+<div class="item feed-c99fafa0 feed-ieeetransactionsonimageprocessingnewtoc" id="item-a4f86a01">
+<p class="itemheader">
+<span class="itemtitle"><a href="http://ieeexplore.ieee.org/document/8741200">Predicting the Quality of Images Compressed After Distortion in Two Steps</a></span>
+<span class="itemfrom">[<a href="http://ieeexplore.ieee.org">IEEE Transactions on Image Processing - new TOC</a>]</span>
+</p>
+<div class="itemdescription">
+<p>In a typical communication pipeline, images undergo a series of processing steps that can cause visual distortions before being viewed. Given a high quality reference image, a reference (R) image quality assessment (IQA) algorithm can be applied after compression or transmission. However, the assumption of a high quality reference image is often not fulfilled in practice, thus contributing to less accurate quality predictions when using stand-alone R IQA models. This is particularly common on social media, where hundreds of billions of user-generated photos and videos containing diverse, mixed distortions are uploaded, compressed, and shared annually on sites like Facebook, YouTube, and Snapchat. The qualities of the pictures that are uploaded to these sites vary over a very wide range. While this is an extremely common situation, the problem of assessing the qualities of compressed images against their pre-compressed, but often severely distorted (reference) pictures has been little studied. Towards ameliorating this problem, we propose a novel two-step image quality prediction concept that combines NR with R quality measurements. Applying a first stage of NR IQA to determine the possibly degraded quality of the source image yields information that can be used to quality-modulate the R prediction to improve its accuracy. We devise a simple and efficient weighted product model of R and NR stages, which combines a pre-compression NR measurement with a post-compression R measurement. This first-of-a-kind two-step approach produces more reliable objective prediction scores. We also constructed a new, first-of-a-kind dedicated database specialized for the design and testing of two-step IQA models. Using this new resource, we show that two-step approaches yield outstanding performance when applied to compressed images whose original, pre-compression quality covers a wide range of realistic distortion types and severities. The two-step concept is versatile as it can use -
+ny desired R and NR components. We are making the source code of a particularly efficient model that we call 2stepQA publicly available at https://github.com/xiangxuyu/2stepQA. We are also providing the dedicated new two-step database free of charge at http://live.ece.utexas.edu/research/twostep/index.html.
+</div>
+</div>
+
+<div class="item feed-c99fafa0 feed-ieeetransactionsonimageprocessingnewtoc" id="item-d9c79dce">
+<p class="itemheader">
+<span class="itemtitle"><a href="http://ieeexplore.ieee.org/document/8651322">Supervised Deep Feature Embedding With Handcrafted Feature</a></span>
+<span class="itemfrom">[<a href="http://ieeexplore.ieee.org">IEEE Transactions on Image Processing - new TOC</a>]</span>
+</p>
+<div class="itemdescription">
+<p>Image representation methods based on deep convolutional neural networks (CNNs) have achieved the state-of-the-art performance in various computer vision tasks, such as image retrieval and person re-identification. We recognize that more discriminative feature embeddings can be learned with supervised deep metric learning and handcrafted features for image retrieval and similar applications. In this paper, we propose a new supervised deep feature embedding with a handcrafted feature model. To fuse handcrafted feature information into CNNs and realize feature embeddings, a general fusion unit is proposed (called Fusion-Net). We also define a network loss function with image label information to realize supervised deep metric learning. Our extensive experimental results on the Stanford online products&#x2019; data set and the in-shop clothes retrieval data set demonstrate that our proposed methods outperform the existing state-of-the-art methods of image retrieval by a large margin. Moreover, we also explore the applications of the proposed methods in person re-identification and vehicle re-identification; the experimental results demonstrate both the effectiveness and efficiency of the proposed methods.
+</div>
+</div>
+
 <div class="item feed-c99fafa0 feed-ieeetransactionsonimageprocessingnewtoc" id="item-16047d46">
 <p class="itemheader">
 <span class="itemtitle"><a href="http://ieeexplore.ieee.org/document/8741186">Asymmetric GAN for Unpaired Image-to-Image Translation</a></span>
@@ -86,26 +312,6 @@
 </div>
 </div>
 
-<div class="item feed-c99fafa0 feed-ieeetransactionsonimageprocessingnewtoc" id="item-7491be5b">
-<p class="itemheader">
-<span class="itemtitle"><a href="http://ieeexplore.ieee.org/document/8737880">Long-Form Video Question Answering via Dynamic Hierarchical Reinforced Networks</a></span>
-<span class="itemfrom">[<a href="http://ieeexplore.ieee.org">IEEE Transactions on Image Processing - new TOC</a>]</span>
-</p>
-<div class="itemdescription">
-<p>Open-ended long-form video question answering is a challenging task in visual information retrieval, which automatically generates a natural language answer from the referenced long-form video contents according to a given question. However, the existing works mainly focus on short-form video question answering, due to the lack of modeling semantic representations from long-form video contents. In this paper, we introduce a dynamic hierarchical reinforced network for open-ended long-form video question answering, which employs an encoder&#x2013;decoder architecture with a dynamic hierarchical encoder and a reinforced decoder. Concretely, we first propose a frame-level dynamic long-short term memory (LSTM) network with binary segmentation gate to learn frame-level semantic representations according to the given question. We then develop a segment-level highway LSTM network with a question-aware highway gate for segment-level semantic modeling. Furthermore, we devise the reinforced decoder with a hierarchical attention mechanism to generate natural language answers. We construct a large-scale long-form video question answering dataset. The extensive experiments on the long-form dataset and another public short-form dataset show the effectiveness of our method.
-</div>
-</div>
-
-<div class="item feed-c99fafa0 feed-ieeetransactionsonimageprocessingnewtoc" id="item-e75539a4">
-<p class="itemheader">
-<span class="itemtitle"><a href="http://ieeexplore.ieee.org/document/8743557">Generalized Zero-Shot Cross-Modal Retrieval</a></span>
-<span class="itemfrom">[<a href="http://ieeexplore.ieee.org">IEEE Transactions on Image Processing - new TOC</a>]</span>
-</p>
-<div class="itemdescription">
-<p>Cross-modal retrieval is an important research area due to its wide range of applications, and several algorithms have been proposed to address this task. We feel that it is the right time to take a step back and analyze the current status of research in this area. As new object classes are continuously being discovered over time, it is necessary to design algorithms that can generalize to data from previously unseen classes. Towards that goal, our first contribution is to establish protocols for generalized zero-shot cross-modal retrieval and analyze the generalization ability of the standard cross-modal algorithms. Second, we propose a semantic-aware ranking algorithm that can be used as an add-on to any existing cross-modal approach to improve its performance on both seen and unseen classes. Finally, we propose a modification of the standard evaluation metric (MAP for single-label data and NDCG for multi-label data), which we feel is a more intuitive measure of the cross-modal retrieval performance. Extensive experiments on two single-label and three multi-label cross-modal datasets show the effectiveness of the proposed approach.
-</div>
-</div>
-
 <div class="item feed-c99fafa0 feed-ieeetransactionsonimageprocessingnewtoc" id="item-a7e58290">
 <p class="itemheader">
 <span class="itemtitle"><a href="http://ieeexplore.ieee.org/document/8752289">Thermal Infrared Pedestrian Segmentation Based on Conditional GAN</a></span>
@@ -122,133 +328,6 @@
 <h2>Monday, 02 September 2019</h2>
 <div class="time">
 <h3>04:00 PM</h3>
-<div class="item feed-1b28272e feed-cscrupdatesonarxivorg" id="item-4ec7e8c0">
-<p class="itemheader">
-<span class="itemtitle"><a href="http://arxiv.org/abs/1908.11538">IoT based Smart Access Controlled Secure Smart City Architecture Using Blockchain. (arXiv:1908.11538v1 [cs.CR])</a></span>
-<span class="itemfrom">[<a href="http://arxiv.org/">cs.CR updates on arXiv.org</a>]</span>
-</p>
-<div class="itemdescription">
-<p>Standard security protocols like SSL, TLS, IPSec etc. have high memory and
-processor consumption which makes all these security protocols unsuitable for
-resource constrained platforms such as Internet of Things (IoT). Blockchain
-(BC) finds its efficient application in IoT platform to preserve the five basic
-cryptographic primitives, such as confidentiality, authenticity, integrity,
-availability and non-repudiation. Conventional adoption of BC in IoT platform
-causes high energy consumption, delay and computational overhead which are not
-appropriate for various resource constrained IoT devices. This work proposes a
-machine learning (ML) based smart access control framework in a public and a
-private BC for a smart city application which makes it more efficient as
-compared to the existing IoT applications. The proposed IoT based smart city
-architecture adopts BC technology for preserving all the cryptographic security
-and privacy issues. Moreover, BC has very minimal overhead on IoT platform as
-well. This work investigates the existing threat models and critical access
-control issues which handle multiple permissions of various nodes and detects
-relevant inconsistencies to notify the corresponding nodes. Comparison in terms
-of all security issues with existing literature shows that the proposed
-architecture is competitively efficient in terms of security access control.
-</p>
-</div>
-</div>
-
-<div class="item feed-1b28272e feed-cscrupdatesonarxivorg" id="item-3233a6a4">
-<p class="itemheader">
-<span class="itemtitle"><a href="http://arxiv.org/abs/1908.11568">Pacer: Network Side-Channel Mitigation in the Cloud. (arXiv:1908.11568v1 [cs.CR])</a></span>
-<span class="itemfrom">[<a href="http://arxiv.org/">cs.CR updates on arXiv.org</a>]</span>
-</p>
-<div class="itemdescription">
-<p>An important concern for many Cloud customers is data confidentiality. Of
-particular concern are potential data leaks via side channels, which arise when
-mutually untrusted parties contend on resources such as CPUs, caches, and
-networks. In this paper, we present a principled solution for mitigating side
-channels that arise from shared network links. Our solution, Pacer, shapes the
-outbound traffic of a Cloud tenant to make it independent of the tenant's
-secrets by design. At the same time, Pacer permits traffic variations based on
-public (non-secret) aspects of the tenants' computation, thus enabling
-efficient sharing of network resources. Implementing Pacer requires modest
-changes to the guest OS and the hosting hypervisor, and only minimal changes to
-guest applications. Experiments show that Pacer allows guests to protect their
-secrets with overhead close to the minimum possible considering the guest's
-conditional traffic distribution given public information. For instance, Pacer
-can hide a requested Wiktionary document in one of two size clusters at an
-average throughput and bandwidth overhead of 6.8% and 150%, respectively.
-</p>
-</div>
-</div>
-
-<div class="item feed-1b28272e feed-cscrupdatesonarxivorg" id="item-89221f45">
-<p class="itemheader">
-<span class="itemtitle"><a href="http://arxiv.org/abs/1908.11752">Social Engineering in a Post-Phishing Era: Ambient Tactical Deception Attacks. (arXiv:1908.11752v1 [cs.CR])</a></span>
-<span class="itemfrom">[<a href="http://arxiv.org/">cs.CR updates on arXiv.org</a>]</span>
-</p>
-<div class="itemdescription">
-<p>It is an ordinary day working from home, and you are part of a team that
-regularly interacts over email. Since this is your main line of communication,
-the company trained you to spot phishing emails. You've learned to skip over
-emails that exhibit obvious phishing red flags: suspicious links, attachments,
-grammar errors, etc. You just received an email from your boss about a major
-project on which you play a critical role. The email is more demanding than
-usual, even impolite. Your boss has generally seemed more upset with you
-lately, so you approach them to express your concerns and clear the air. Your
-boss is not receptive to your feedback. This causes a rift that impacts your
-working relationship, compromising the effectiveness and productivity of the
-entire team. You have been a victim of an Ambient Tactical Deception (ATD)
-attack. We developed and tested a proof-of-concept social engineering attack
-targeting web-based email users. The attack is executed through a malicious
-browser extension that acts as a man-in-the-middle and reformats the textual
-content to alter the emotional tone of the email. The objective of ATD is not
-stealing credentials or data. ATD seeks to coerce a user to the attacker's
-desired behavior via the subtle manipulation of trusted interpersonal
-relationships. This goes beyond simple phishing and this paper reports the
-findings from study that investigated an ATD attack on the politeness strategy
-used in work emails.
-</p>
-</div>
-</div>
-
-<div class="item feed-1b28272e feed-cscrupdatesonarxivorg" id="item-9b06cf8d">
-<p class="itemheader">
-<span class="itemtitle"><a href="http://arxiv.org/abs/1908.11808">On the Ethereum Blockchain Structure: a Complex Networks Theory Perspective. (arXiv:1908.11808v1 [cs.CR])</a></span>
-<span class="itemfrom">[<a href="http://arxiv.org/">cs.CR updates on arXiv.org</a>]</span>
-</p>
-<div class="itemdescription">
-<p>In this paper, we analyze the Ethereum blockchain using the complex networks
-modeling framework. Accounts acting on the blockchain are represented as nodes,
-while the interactions among these accounts, recorded on the blockchain, are
-treated as links in the network. Using this representation, it is possible to
-derive interesting mathematical characteristics that improve the understanding
-of the actual interactions happening in the blockchain. Not only, by looking at
-the history of the blockchain, it is possible to verify if radical changes in
-the blockchain evolution happened.
-</p>
-</div>
-</div>
-
-<div class="item feed-1b28272e feed-cscrupdatesonarxivorg" id="item-73267b53">
-<p class="itemheader">
-<span class="itemtitle"><a href="http://arxiv.org/abs/1908.09343">HyperService: Interoperability and Programmability Across Heterogeneous Blockchains. (arXiv:1908.09343v2 [cs.CR] UPDATED)</a></span>
-<span class="itemfrom">[<a href="http://arxiv.org/">cs.CR updates on arXiv.org</a>]</span>
-</p>
-<div class="itemdescription">
-<p>Blockchain interoperability, which allows state transitions across different
-blockchain networks, is critical functionality to facilitate major blockchain
-adoption. Existing interoperability protocols mostly focus on atomic token
-exchange between blockchains. However, as blockchains have been upgraded from
-passive distributed ledgers into programmable state machines (thanks to smart
-contracts), the scope of blockchain interoperability goes beyond just token
-exchange. In this paper, we present HyperService, the first platform that
-delivers interoperability and programmability across heterogeneous blockchains.
-HyperService is powered by two innovative designs: (i) a developer-facing
-programming framework that allows developers to build cross-chain applications
-in a unified programming model; and (ii) a secure blockchain-facing
-cryptography protocol that provably realizes those applications on blockchains.
-We implement a prototype of HyperService in about 35,000 lines of code to
-demonstrate its practicality. Our experiment results show that HyperService
-imposes reasonable latency, in order of seconds, on the end-to-end execution of
-cross-chain applications
-</p>
-</div>
-</div>
-
 <div class="item feed-b93c25e9 feed-earlyedition" id="item-33c4f876">
 <p class="itemheader">
 <span class="itemtitle"><a href="http://feedproxy.google.com/~r/Pnas-RssFeedOfEarlyEditionArticles/~3/n9arfR0Xnpk/1900287116.short">Engineering energetically efficient transport of dicarboxylic acids in yeast Saccharomyces cerevisiae [Applied Biological Sciences]</a></span>
@@ -256,6 +335,16 @@ cross-chain applications
 </p>
 <div class="itemdescription">
 <p>Biobased C4-dicarboxylic acids are attractive sustainable precursors for polymers and other materials. Commercial scale production of these acids at high titers requires efficient secretion by cell factories. In this study, we characterized 7 dicarboxylic acid transporters in Xenopus oocytes and in Saccharomyces cerevisiae engineered for dicarboxylic acid production. Among the...<img alt="" height="1" src="http://feeds.feedburner.com/~r/Pnas-RssFeedOfEarlyEditionArticles/~4/n9arfR0Xnpk" width="1" />
+</div>
+</div>
+
+<div class="item feed-b93c25e9 feed-earlyedition" id="item-ce067bf0">
+<p class="itemheader">
+<span class="itemtitle"><a href="http://feedproxy.google.com/~r/Pnas-RssFeedOfEarlyEditionArticles/~3/1HiE1aGgvtU/1910718116.short">Effect of alder on soil bacteria offers an alternative explanation to the role played by alder in rock weathering [Letters (Online Only)]</a></span>
+<span class="itemfrom">[<a href="http://www.pnas.org">Early Edition</a>]</span>
+</p>
+<div class="itemdescription">
+<p>The article by Perakis and Pett-Ridge in PNAS (1) stimulated an interesting discussion (2) on the role of nitrogen-fixing alder in enhancing rock weathering and supply of rock-derived nutrients. The authors ascribe the accelerated rate of weathering to the generation of acidic conditions in the soil due to excess nitrogen...<img alt="" height="1" src="http://feeds.feedburner.com/~r/Pnas-RssFeedOfEarlyEditionArticles/~4/1HiE1aGgvtU" width="1" />
 </div>
 </div>
 
@@ -289,6 +378,16 @@ cross-chain applications
 </div>
 </div>
 
+<div class="item feed-fab735fe feed-thelancet" id="item-2c6ac931">
+<p class="itemheader">
+<span class="itemtitle"><a href="https://www.thelancet.com/journals/lancet/article/PIIS0140-6736(19)32010-0/fulltext?rss=yes">[Department of Error] Department of Error</a></span>
+<span class="itemfrom">[<a href="https://www.thelancet.com/journals/lancet/issue/current">The Lancet</a>]</span>
+</p>
+<div class="itemdescription">
+<p>The Pneumonia Etiology Research for Child Health (PERCH) Study Group. Causes of severe pneumonia requiring hospital admission in children without HIV infection from Africa and Asia: the PERCH multi-country case-control study. Lancet 2019; 394: 757&#8211;79&#8212;In this Article, the list of contributors to the study design was incorrect. David R Murdoch contributed to designing the study, not David P Moore. This correction has been made to the online version as of Aug 29, 2019, and the printed version is correct.
+</div>
+</div>
+
 <div class="item feed-fab735fe feed-thelancet" id="item-304805ef">
 <p class="itemheader">
 <span class="itemtitle"><a href="https://www.thelancet.com/journals/lancet/article/PIIS0140-6736(19)30721-4/fulltext?rss=yes">[Articles] Causes of severe pneumonia requiring hospital admission in children without HIV infection from Africa and Asia: the PERCH multi-country case-control study</a></span>
@@ -296,16 +395,6 @@ cross-chain applications
 </p>
 <div class="itemdescription">
 <p>In our study, a small set of pathogens accounted for most cases of pneumonia requiring hospital admission. Preventing and treating a subset of pathogens could substantially affect childhood pneumonia outcomes.
-</div>
-</div>
-
-<div class="item feed-fab735fe feed-thelancet" id="item-de94bcb6">
-<p class="itemheader">
-<span class="itemtitle"><a href="https://www.thelancet.com/journals/lancet/article/PIIS0140-6736(19)31774-X/fulltext?rss=yes">[Therapeutics] Antibody&#8211;drug conjugates for cancer</a></span>
-<span class="itemfrom">[<a href="https://www.thelancet.com/journals/lancet/issue/current">The Lancet</a>]</span>
-</p>
-<div class="itemdescription">
-<p>Antibody&#8211;drug conjugates (ADCs) are immunoconjugates comprised of a monoclonal antibody tethered to a cytotoxic drug (known as the payload) via a chemical linker. The ADC is designed to selectively deliver the ultratoxic payload directly to the target cancer cells. To date, five ADCs have received market approval and over 100 are being investigated in various stages of clinical development. In this Therapeutics paper, we review recent clinical experience with the approved ADCs and other promising late-stage candidates on the horizon, following an overview of the biology and chemistry of ADCs and how the individual components of an ADC (antibody [or target], linker and conjugation chemistry, and cytotoxic payload) influence its activity.
 </div>
 </div>
 
@@ -362,62 +451,6 @@ cross-chain applications
 </p>
 <div class="itemdescription">
 <p>Nature, Published online: 28 August 2019; <a href="https://www.nature.com/articles/d41586-019-02481-z">doi:10.1038/d41586-019-02481-z</a></p>Barbara Kiser reviews five of the week&#8217;s best science picks.<img alt="" height="1" src="http://feeds.feedburner.com/~r/nature/rss/current/~4/S-niLoq4ebY" width="1" />
-</div>
-</div>
-
-</div>
-</div>
-<div class="day">
-<h2>Wednesday, 28 August 2019</h2>
-<div class="time">
-<h3>12:00 AM</h3>
-<div class="item feed-ed41d94f feed-jamacurrentissue" id="item-6ec18ad6">
-<p class="itemheader">
-<span class="itemtitle"><a href="https://jamanetwork.com/journals/jama/fullarticle/2748794">Association Between Educational Attainment and Causes of Death Among White and Black US Adults, 2010-2017</a></span>
-<span class="itemfrom">[<a href="https://jamanetwork.com/journals/jama">JAMA Current Issue</a>]</span>
-</p>
-<div class="itemdescription">
-<p>This population epidemiology study uses US National Vital Statistics System data to describe trends in life expectancy at age 25 among US adults by race and education level and contributions of specific causes of death to between-group differences in those trends between 2000 and 2017.
-</div>
-</div>
-
-<div class="item feed-ed41d94f feed-jamacurrentissue" id="item-4dfd2ed3">
-<p class="itemheader">
-<span class="itemtitle"><a href="https://jamanetwork.com/journals/jama/fullarticle/2748785">PD-L1 Status and Survival in Patients With Lung Cancer&#8212;Reply</a></span>
-<span class="itemfrom">[<a href="https://jamanetwork.com/journals/jama">JAMA Current Issue</a>]</span>
-</p>
-<div class="itemdescription">
-<p>In Reply Dr Yang and colleagues highlight some of the key challenges facing the field of biomarker discovery in general and in particular with the use of PD-L1 metrics to predict immunotherapy response in NSCLC. We agree that there are numerous challenges to interpreting PD-L1 pathological data, including the antibody clone used, intensity of staining, heterogeneity of expression within the tumor, and changes in expression over time and with interval treatments. Ultimately, controlling for all of these variables, even in the context of a clinical trial (eg, requiring evaluation of PD-L1 status from multiple biopsy sites), is very challenging and further highlights the importance of exploring these data in a real-world data set where community clinical practice precludes optimization of all of these parameters. Nevertheless, as noted in the Methods section of the article, we defined positive and negative PD-L1 results using previously published standards, including a requirement of 50% staining in a central laboratory using the 22C3 or SP142 antibodies, or annotation in the medical record of a positive result. Cases that did not adhere to these guidelines were excluded.
-</div>
-</div>
-
-<div class="item feed-ed41d94f feed-jamacurrentissue" id="item-d3ef8419">
-<p class="itemheader">
-<span class="itemtitle"><a href="https://jamanetwork.com/journals/jama/fullarticle/2748780">Trends in Cardiometabolic Mortality in the United States, 1999-2017</a></span>
-<span class="itemfrom">[<a href="https://jamanetwork.com/journals/jama">JAMA Current Issue</a>]</span>
-</p>
-<div class="itemdescription">
-<p>This study evaluates the Centers for Disease Control and Prevention&#8217;s Wide-Ranging Online Data for Epidemiologic Research to compare trends in heart disease, stroke, diabetes, and hypertension mortality rates by race and sex from 1999 to 2017.
-</div>
-</div>
-
-<div class="item feed-ed41d94f feed-jamacurrentissue" id="item-432bdf19">
-<p class="itemheader">
-<span class="itemtitle"><a href="https://jamanetwork.com/journals/jama/fullarticle/2748775">Synchronizing Medication Refills Could Improve Adherence</a></span>
-<span class="itemfrom">[<a href="https://jamanetwork.com/journals/jama">JAMA Current Issue</a>]</span>
-</p>
-<div class="itemdescription">
-<p>An increasing number of pharmacies are synchronizing customers&#8217; prescription refills so they can pick up 2 or more prescriptions on the same day, which appears to improve medication adherence and medical outcomes, concluded a recent report from the Government Accountability Office (GAO).
-</div>
-</div>
-
-<div class="item feed-ed41d94f feed-jamacurrentissue" id="item-d5abd11b">
-<p class="itemheader">
-<span class="itemtitle"><a href="https://jamanetwork.com/journals/jama/fullarticle/2748771">Tandem Transplant for High-Risk Neuroblastoma</a></span>
-<span class="itemfrom">[<a href="https://jamanetwork.com/journals/jama">JAMA Current Issue</a>]</span>
-</p>
-<div class="itemdescription">
-<p>Neuroblastoma, a malignancy of the sympathetic nervous system that arises in cells derived from the neural crest, predominantly affects young children. Although survival rates have improved significantly, neuroblastoma remains challenging due, in part, to its biological and clinical heterogeneity. Subsets of children fare well with minimal therapy, with cure rates of close to 100% for children with specific disease characteristics; however, for high-risk patients the cure rates are&#8201;approximately&#8201;50%. Current risk stratification systems consider patient age and stage as well as tumor histology and genomic features, permitting delivery of therapy that is based on the likelihood of disease recurrence. Only observation is required for some patients, whereas for other patients, maximally intensive multimodality therapy is necessary.
 </div>
 </div>
 
@@ -483,6 +516,16 @@ cross-chain applications
 <h2>Monday, 26 August 2019</h2>
 <div class="time">
 <h3>04:00 PM</h3>
+<div class="item feed-a4d49d75 feed-annualreviewsannualreviewofeconomicstableofcontents" id="item-f6a00df0">
+<p class="itemheader">
+<span class="itemtitle"><a href="https://www.annualreviews.org/doi/abs/10.1146/annurev-economics-080218-030323?ai=67b7&amp;mi=3fndc3&amp;af=R">The Economics of Kenneth J. Arrow: A Selective Review</a></span>
+<span class="itemfrom">[Annual Reviews: Annual Review of Economics: Table of Contents]</span>
+</p>
+<div class="itemdescription">
+<p>Annual Review of Economics, <a href="https://www.annualreviews.org/toc/economics/11/1">Volume 11, Issue 1</a>, Page 1-26, August 2019. <br />
+</div>
+</div>
+
 <div class="item feed-a4d49d75 feed-annualreviewsannualreviewofeconomicstableofcontents" id="item-7f9de0cc">
 <p class="itemheader">
 <span class="itemtitle"><a href="https://www.annualreviews.org/doi/abs/10.1146/annurev-economics-080218-030255?ai=67b7&amp;mi=3fndc3&amp;af=R">Evolutionary Models of Preference Formation</a></span>
@@ -490,16 +533,6 @@ cross-chain applications
 </p>
 <div class="itemdescription">
 <p>Annual Review of Economics, <a href="https://www.annualreviews.org/toc/economics/11/1">Volume 11, Issue 1</a>, Page 329-354, August 2019. <br />
-</div>
-</div>
-
-<div class="item feed-a4d49d75 feed-annualreviewsannualreviewofeconomicstableofcontents" id="item-46b64798">
-<p class="itemheader">
-<span class="itemtitle"><a href="https://www.annualreviews.org/doi/abs/10.1146/annurev-economics-080218-025633?ai=67b7&amp;mi=3fndc3&amp;af=R">Legislative and Multilateral Bargaining</a></span>
-<span class="itemfrom">[Annual Reviews: Annual Review of Economics: Table of Contents]</span>
-</p>
-<div class="itemdescription">
-<p>Annual Review of Economics, <a href="https://www.annualreviews.org/toc/economics/11/1">Volume 11, Issue 1</a>, Page 443-472, August 2019. <br />
 </div>
 </div>
 
@@ -513,16 +546,6 @@ cross-chain applications
 </div>
 </div>
 
-<div class="item feed-a4d49d75 feed-annualreviewsannualreviewofeconomicstableofcontents" id="item-d8ec9f33">
-<p class="itemheader">
-<span class="itemtitle"><a href="https://www.annualreviews.org/doi/abs/10.1146/annurev-economics-080218-030312?ai=67b7&amp;mi=3fndc3&amp;af=R">Taking State-Capacity Research to the Field: Insights from Collaborations with Tax Authorities</a></span>
-<span class="itemfrom">[Annual Reviews: Annual Review of Economics: Table of Contents]</span>
-</p>
-<div class="itemdescription">
-<p>Annual Review of Economics, <a href="https://www.annualreviews.org/toc/economics/11/1">Volume 11, Issue 1</a>, Page 755-781, August 2019. <br />
-</div>
-</div>
-
 <div class="item feed-a4d49d75 feed-annualreviewsannualreviewofeconomicstableofcontents" id="item-501f44a0">
 <p class="itemheader">
 <span class="itemtitle"><a href="https://www.annualreviews.org/doi/abs/10.1146/annurev-economics-080217-053518?ai=67b7&amp;mi=3fndc3&amp;af=R">The International Monetary and Financial System</a></span>
@@ -533,12 +556,32 @@ cross-chain applications
 </div>
 </div>
 
+<div class="item feed-a4d49d75 feed-annualreviewsannualreviewofeconomicstableofcontents" id="item-ed26ba43">
+<p class="itemheader">
+<span class="itemtitle"><a href="https://www.annualreviews.org/doi/abs/10.1146/annurev-economics-080218-030237?ai=67b7&amp;mi=3fndc3&amp;af=R">Universal Basic Income in the United States and Advanced Countries</a></span>
+<span class="itemfrom">[Annual Reviews: Annual Review of Economics: Table of Contents]</span>
+</p>
+<div class="itemdescription">
+<p>Annual Review of Economics, <a href="https://www.annualreviews.org/toc/economics/11/1">Volume 11, Issue 1</a>, Page 929-958, August 2019. <br />
+</div>
+</div>
+
 </div>
 </div>
 <div class="day">
 <h2>Friday, 23 August 2019</h2>
 <div class="time">
 <h3>04:00 PM</h3>
+<div class="item feed-c24550d7 feed-ieeetransactionsoninformationforensicsandsecuritynewtoc" id="item-e50b837e">
+<p class="itemheader">
+<span class="itemtitle"><a href="http://ieeexplore.ieee.org/document/8705326">On the Security-Privacy Tradeoff in Collaborative Security: A Quantitative Information Flow Game Perspective</a></span>
+<span class="itemfrom">[<a href="http://ieeexplore.ieee.org">IEEE Transactions on Information Forensics and Security - new TOC</a>]</span>
+</p>
+<div class="itemdescription">
+<p>To contest the rapidly developing cyber-attacks, numerous collaborative security schemes, in which multiple security entities can exchange their observations and other relevant data to achieve more effective security decisions, are proposed and developed in the literature. However, the security-related information shared among the security entities may contain some sensitive information and such information exchange can raise privacy concerns, especially when these entities belong to different organizations. With such consideration, the interplay between the attacker and the collaborative entities is formulated as Quantitative Information Flow (QIF) games, in which the QIF theory is adapted to measure the collaboration gain and the privacy loss of the entities in the information sharing process. In particular, three games are considered, each corresponding to one possible scenario of interest in practice. Based on the game-theoretic analysis, the expected behaviors of both the attacker and the security entities are obtained. In addition, the simulation results are presented to validate the analysis.
+</div>
+</div>
+
 <div class="item feed-c24550d7 feed-ieeetransactionsoninformationforensicsandsecuritynewtoc" id="item-a348860c">
 <p class="itemheader">
 <span class="itemtitle"><a href="http://ieeexplore.ieee.org/document/8678830">&lt;monospace&gt;vEPC-sec&lt;/monospace&gt;: Securing LTE Network Functions Virtualization on Public Cloud</a></span>
@@ -555,16 +598,6 @@ cross-chain applications
 <h2>Thursday, 22 August 2019</h2>
 <div class="time">
 <h3>04:00 PM</h3>
-<div class="item feed-b93c25e9 feed-earlyedition" id="item-a9a177f1">
-<p class="itemheader">
-<span class="itemtitle"><a href="http://feedproxy.google.com/~r/Pnas-RssFeedOfEarlyEditionArticles/~3/ypcR4aYEQ5c/1910749116.short">Parallel transcriptomic changes in the origins of divergent monogamous vertebrates? [Letters (Online Only)]</a></span>
-<span class="itemfrom">[<a href="http://www.pnas.org">Early Edition</a>]</span>
-</p>
-<div class="itemdescription">
-<p>Comparing the neural transcriptomes of 5 phylogenetically independent pairs of monogamous and nonmonogamous vertebrates, Young et al. (1) claim to have found evidence for &#8220;a universal transcriptomic mechanism underlying the evolution of monogamy in vertebrates.&#8221; They state that &#8220;while evolutionary divergence time between species or clades did not explain gene...<img alt="" height="1" src="http://feeds.feedburner.com/~r/Pnas-RssFeedOfEarlyEditionArticles/~4/ypcR4aYEQ5c" width="1" />
-</div>
-</div>
-
 <div class="item feed-b2590d03 feed-annualreviewsannualreviewofnutritiontableofcontents" id="item-1ad257b3">
 <p class="itemheader">
 <span class="itemtitle"><a href="https://www.annualreviews.org/doi/abs/10.1146/annurev-nutr-082018-124337?ai=rz&amp;mi=3fndc3&amp;af=R">Dietary Fuels in Athletic Performance</a></span>
@@ -585,16 +618,6 @@ cross-chain applications
 </div>
 </div>
 
-<div class="item feed-b2590d03 feed-annualreviewsannualreviewofnutritiontableofcontents" id="item-c3c8b7a1">
-<p class="itemheader">
-<span class="itemtitle"><a href="https://www.annualreviews.org/doi/abs/10.1146/annurev-nutr-082018-124344?ai=rz&amp;mi=3fndc3&amp;af=R">Bile Acids as Metabolic Regulators and Nutrient Sensors</a></span>
-<span class="itemfrom">[Annual Reviews: Annual Review of Nutrition: Table of Contents]</span>
-</p>
-<div class="itemdescription">
-<p>Annual Review of Nutrition, <a href="https://www.annualreviews.org/toc/nutr/39/1">Volume 39, Issue 1</a>, Page 175-200, August 2019. <br />
-</div>
-</div>
-
 <div class="item feed-b2590d03 feed-annualreviewsannualreviewofnutritiontableofcontents" id="item-178e5131">
 <p class="itemheader">
 <span class="itemtitle"><a href="https://www.annualreviews.org/doi/abs/10.1146/annurev-nutr-082018-124643?ai=rz&amp;mi=3fndc3&amp;af=R">Mitochondrial DNA Mutation, Diseases, and Nutrient-Regulated Mitophagy</a></span>
@@ -602,6 +625,16 @@ cross-chain applications
 </p>
 <div class="itemdescription">
 <p>Annual Review of Nutrition, <a href="https://www.annualreviews.org/toc/nutr/39/1">Volume 39, Issue 1</a>, Page 201-226, August 2019. <br />
+</div>
+</div>
+
+<div class="item feed-b2590d03 feed-annualreviewsannualreviewofnutritiontableofcontents" id="item-898d3564">
+<p class="itemheader">
+<span class="itemtitle"><a href="https://www.annualreviews.org/doi/abs/10.1146/annurev-nutr-082117-051716?ai=rz&amp;mi=3fndc3&amp;af=R">The Microbiota and Malnutrition: Impact of Nutritional Status During Early Life</a></span>
+<span class="itemfrom">[Annual Reviews: Annual Review of Nutrition: Table of Contents]</span>
+</p>
+<div class="itemdescription">
+<p>Annual Review of Nutrition, <a href="https://www.annualreviews.org/toc/nutr/39/1">Volume 39, Issue 1</a>, Page 267-290, August 2019. <br />
 </div>
 </div>
 
@@ -621,36 +654,6 @@ cross-chain applications
 <h2>Tuesday, 20 August 2019</h2>
 <div class="time">
 <h3>04:00 PM</h3>
-<div class="item feed-b93c25e9 feed-earlyedition" id="item-e0d82235">
-<p class="itemheader">
-<span class="itemtitle"><a href="http://feedproxy.google.com/~r/Pnas-RssFeedOfEarlyEditionArticles/~3/mpBPLmFH44A/1906124116.short">Parkinson&#x2019;s disease is a type of amyloidosis featuring accumulation of amyloid fibrils of {alpha}-synuclein [Medical Sciences]</a></span>
-<span class="itemfrom">[<a href="http://www.pnas.org">Early Edition</a>]</span>
-</p>
-<div class="itemdescription">
-<p>Many neurodegenerative diseases are characterized by the accumulation of abnormal protein aggregates in the brain. In Parkinson&#8217;s disease (PD), &#945;-synuclein (&#945;-syn) forms such aggregates called Lewy bodies (LBs). Recently, it has been reported that aggregates of &#945;-syn with a cross-&#946; structure are capable of propagating within the brain in a...<img alt="" height="1" src="http://feeds.feedburner.com/~r/Pnas-RssFeedOfEarlyEditionArticles/~4/mpBPLmFH44A" width="1" />
-</div>
-</div>
-
-<div class="item feed-c24550d7 feed-ieeetransactionsoninformationforensicsandsecuritynewtoc" id="item-473ce63f">
-<p class="itemheader">
-<span class="itemtitle"><a href="http://ieeexplore.ieee.org/document/8700206">Adding a Helper Can Totally Remove the Secrecy Constraints in a Two-User Interference Channel</a></span>
-<span class="itemfrom">[<a href="http://ieeexplore.ieee.org">IEEE Transactions on Information Forensics and Security - new TOC</a>]</span>
-</p>
-<div class="itemdescription">
-<p>In many communication channels, secrecy constraints usually incur a penalty in capacity, as well as generalized degrees-of-freedom (GDoF). In this paper, we show an interesting observation that adding a helper can totally remove the penalty in sum GDoF for a two-user symmetric Gaussian interference channel. For the interference channel where each transmitter sends a message to an intended receiver without secrecy constraints, the sum GDoF is a well-known &#x201c;W&#x201d; curve, characterized by Etkin-Tse-Wang in 2008. If the secrecy constraints are imposed on this interference channel, where the message of each transmitter must be secure from the unintended receiver (eavesdropper), then a GDoF penalty is incurred and the secure sum GDoF is reduced to a modified &#x201c;W&#x201d; curve, derived by Chen recently. In this paper, we show that, by adding a helper into this interference channel with secrecy constraints, the secure sum GDoF turns out to be a &#x201c;W&#x201d; curve, which is the same as the sum GDoF of the setting without secrecy constraints. The proposed scheme is based on the cooperative jamming and a careful signal design such that the jamming signal of the helper is aligned at a specific direction and power level with the information signals of the transmitters, which allows us to totally remove the penalty in GDoF due to the secrecy constraints. Furthermore, the estimation approaches of noise removal and signal separation due to the rational independence are used in the secure rate analysis.
-</div>
-</div>
-
-<div class="item feed-c24550d7 feed-ieeetransactionsoninformationforensicsandsecuritynewtoc" id="item-e74d5e2f">
-<p class="itemheader">
-<span class="itemtitle"><a href="http://ieeexplore.ieee.org/document/8695866">Individual Identification Based on Code-Modulated Visual-Evoked Potentials</a></span>
-<span class="itemfrom">[<a href="http://ieeexplore.ieee.org">IEEE Transactions on Information Forensics and Security - new TOC</a>]</span>
-</p>
-<div class="itemdescription">
-<p>The electroencephalography (EEG) method has recently attracted increasing attention in the study of brain activity-based biometric systems because of its simplicity, portability, noninvasiveness, and relatively low cost. However, due to the low signal-to-noise ratio of EEG, most of the existing EEG-based biometric systems require a long duration of signals to achieve high accuracy in individual identification. Besides, the feasibility and stability of these systems have not yet been conclusively reported, since most studies did not perform longitudinal evaluation. In this paper, we proposed a novel EEG-based individual identification method using code-modulated visualevoked potentials (c-VEPs). Specifically, this paper quantitatively compared eight code-modulated stimulation patterns, including six 63-bit (1.05 s at 60-Hz refresh rate) m-sequences (M1-M6) and two spatially combined sequence groups (M&#x00d7;4: M1-M4 and M&#x00d7; 6: M1-M6) in recording the c-VEPs from a group of 25 subjects for individual identification. To further evaluate the influence of inter-session variability, we recorded two data sessions for each individual on different days to measure intra-session and cross-session identification performance. State-of-the-art VEP detection algorithms in brain-computer interfaces (BCIs) were employed to construct a template-matching-based identification framework. For intra-session identification, we achieved a 100% correct recognition rate (CRR) using 5.25-s EEG data (average of five trials for M5). For cross-session identification, 99.43% CRR was attained using 10.5-s EEG signals (average of ten trials for M5). These results suggest that the proposed c-VEP based individual identification method is promising for real-world applications.
-</div>
-</div>
-
 <div class="item feed-c24550d7 feed-ieeetransactionsoninformationforensicsandsecuritynewtoc" id="item-32a78e6b">
 <p class="itemheader">
 <span class="itemtitle"><a href="http://ieeexplore.ieee.org/document/8695107">Metrics Towards Measuring Cyber Agility</a></span>
@@ -733,16 +736,6 @@ cross-chain applications
 </div>
 </div>
 
-<div class="item feed-3b836157 feed-annualreviewsannualreviewofsociologytableofcontents" id="item-e1c01ed8">
-<p class="itemheader">
-<span class="itemtitle"><a href="https://www.annualreviews.org/doi/abs/10.1146/annurev-soc-073117-041335?ai=t0&amp;mi=3fndc3&amp;af=R">Assimilation and the Second Generation in Europe and America: Blending and Segregating Social Dynamics Between Immigrants and Natives</a></span>
-<span class="itemfrom">[Annual Reviews: Annual Review of Sociology: Table of Contents]</span>
-</p>
-<div class="itemdescription">
-<p>Annual Review of Sociology, <a href="https://www.annualreviews.org/toc/soc/45/1">Volume 45, Issue 1</a>, Page 177-199, July 2019. <br />
-</div>
-</div>
-
 <div class="item feed-3b836157 feed-annualreviewsannualreviewofsociologytableofcontents" id="item-e196dcf7">
 <p class="itemheader">
 <span class="itemtitle"><a href="https://www.annualreviews.org/doi/abs/10.1146/annurev-soc-073018-022416?ai=t0&amp;mi=3fndc3&amp;af=R">The Social Structure of Time: Emerging Trends and New Directions</a></span>
@@ -763,6 +756,16 @@ cross-chain applications
 </div>
 </div>
 
+<div class="item feed-3b836157 feed-annualreviewsannualreviewofsociologytableofcontents" id="item-583b3312">
+<p class="itemheader">
+<span class="itemtitle"><a href="https://www.annualreviews.org/doi/abs/10.1146/annurev-soc-073018-022616?ai=t0&amp;mi=3fndc3&amp;af=R">Analyzing Age-Period-Cohort Data: A Review and Critique</a></span>
+<span class="itemfrom">[Annual Reviews: Annual Review of Sociology: Table of Contents]</span>
+</p>
+<div class="itemdescription">
+<p>Annual Review of Sociology, <a href="https://www.annualreviews.org/toc/soc/45/1">Volume 45, Issue 1</a>, Page 467-492, July 2019. <br />
+</div>
+</div>
+
 <div class="item feed-3b836157 feed-annualreviewsannualreviewofsociologytableofcontents" id="item-2798999d">
 <p class="itemheader">
 <span class="itemtitle"><a href="https://www.annualreviews.org/doi/abs/10.1146/annurev-soc-073018-022524?ai=t0&amp;mi=3fndc3&amp;af=R">Well-Being at the End of Life</a></span>
@@ -780,6 +783,16 @@ cross-chain applications
 </p>
 <div class="itemdescription">
 <p>At present, the fusion of different unimodal biometrics has attracted increasing attention from researchers, who are dedicated to the practical application of biometrics. In this paper, we explored a multi-biometric algorithm that integrates palmprints and dorsal hand veins (DHV). Palmprint recognition has a rather high accuracy and reliability, and the most significant advantage of DHV recognition is the biopsy (Liveness detection). In order to combine the advantages of both and implement the fusion method, deep learning and graph matching were, respectively, introduced to identify palmprint and DHV. Upon using the deep hashing network (DHN), biometric images can be encoded as 128-bit codes. Then, the Hamming distances were used to represent the similarity of two codes. Biometric graph matching (BGM) can obtain three discriminative features for classification. In order to improve the accuracy of open-set recognition, in multi-modal fusion, the score-level fusion of DHN and BGM was performed and authentication was provided by support vector machine (SVM). Furthermore, based on DHN, all four levels of fusion strategies were used for multi-modal recognition of palmprint and DHV. Evaluation experiments and comprehensive comparisons were conducted on various commonly used datasets, and the promising results were obtained in this case where the equal error rates (EERs) of both palmprint recognition and multi-biometrics equal 0, demonstrating the great superiority of DHN in biometric verification.
+</div>
+</div>
+
+<div class="item feed-c24550d7 feed-ieeetransactionsoninformationforensicsandsecuritynewtoc" id="item-cfd7535c">
+<p class="itemheader">
+<span class="itemtitle"><a href="http://ieeexplore.ieee.org/document/8691498">PalmNet: Gabor-PCA Convolutional Networks for Touchless Palmprint Recognition</a></span>
+<span class="itemfrom">[<a href="http://ieeexplore.ieee.org">IEEE Transactions on Information Forensics and Security - new TOC</a>]</span>
+</p>
+<div class="itemdescription">
+<p>Touchless palmprint recognition systems enable high-accuracy recognition of individuals through less-constrained and highly usable procedures that do not require the contact of the palm with a surface. To perform this recognition, methods based on local texture descriptors and convolutional neural networks (CNNs) are currently used to extract highly discriminative features while compensating for variations in scale, rotation, and illumination in biometric samples. In particular, the main advantage of CNN-based methods is their ability to adapt to biometric samples captured with heterogeneous devices. However, the current methods rely on either supervised training algorithms, which require class labels (e.g., the identities of the individuals) during the training phase, or filters pretrained on general-purpose databases, which may not be specifically suitable for palmprint data. To achieve a high-recognition accuracy with touchless palmprint samples captured using different devices while neither requiring class labels for training nor using pretrained filters, we introduce PalmNet, which is a novel CNN that uses a newly developed method to tune palmprint-specific filters through an unsupervised procedure based on Gabor responses and principal component analysis (PCA), not requiring class labels during training. PalmNet is a new method of applying Gabor filters in a CNN and is designed to extract highly discriminative palmprint-specific descriptors and to adapt to heterogeneous databases. We validated the innovative PalmNet on several palmprint databases captured using different touchless acquisition procedures and heterogeneous devices, and in all cases, a recognition accuracy greater than that of the current methods in this paper was obtained.
 </div>
 </div>
 
@@ -829,16 +842,6 @@ cross-chain applications
 </div>
 </div>
 
-<div class="item feed-63a85565 feed-eurekalertbreakingnews" id="item-55b45916">
-<p class="itemheader">
-<span class="itemtitle"><a href="https://www.eurekalert.org/pub_releases/2019-07/jhub-wsi071619.php">Women's stronger immune response to flu vaccination diminishes with age</a></span>
-<span class="itemfrom">[<a href="http://www.eurekalert.org">EurekAlert! - Breaking News</a>]</span>
-</p>
-<div class="itemdescription">
-<p>Women tend to have a greater immune response to a flu vaccination compared to men, but their advantage largely disappears as they age and their estrogen levels decline, suggests a study from researchers at the Johns Hopkins Bloomberg School of Public Health.
-</div>
-</div>
-
 </div>
 </div>
 <div class="day">
@@ -862,6 +865,16 @@ cross-chain applications
 </p>
 <div class="itemdescription">
 <p>In a massive new analysis of findings from 277 clinical trials using 24 different interventions, Johns Hopkins Medicine researchers say they have found that almost all vitamin, mineral and other nutrient supplements or diets cannot be linked to longer life or protection from heart disease.
+</div>
+</div>
+
+<div class="item feed-63a85565 feed-eurekalertbreakingnews" id="item-4984cea2">
+<p class="itemheader">
+<span class="itemtitle"><a href="https://www.eurekalert.org/pub_releases/2019-07/uoc--jtf071519.php">Joshua trees facing extinction</a></span>
+<span class="itemfrom">[<a href="http://www.eurekalert.org">EurekAlert! - Breaking News</a>]</span>
+</p>
+<div class="itemdescription">
+<p>They outlived mammoths and saber-toothed tigers. But without dramatic action to reduce climate change, new research shows Joshua trees won't survive much past this century.
 </div>
 </div>
 
@@ -899,6 +912,16 @@ cross-chain applications
 <h2>Sunday, 09 June 2019</h2>
 <div class="time">
 <h3>07:32 PM</h3>
+<div class="item feed-52e73913 feed-annualreviewsannualreviewofpoliticalsciencetableofcontents" id="item-6d7b35bf">
+<p class="itemheader">
+<span class="itemtitle"><a href="https://www.annualreviews.org/doi/abs/10.1146/annurev-polisci-050317-070708?af=R">The Economics and Politics of Preferential Trade Agreements</a></span>
+<span class="itemfrom">[Annual Reviews: Annual Review of Political Science: Table of Contents]</span>
+</p>
+<div class="itemdescription">
+<p>Annual Review of Political Science, <a href="https://www.annualreviews.org/toc/polisci/22/1">Volume 22, Issue 1</a>, Page 75-92, May 2019. <br />
+</div>
+</div>
+
 <div class="item feed-52e73913 feed-annualreviewsannualreviewofpoliticalsciencetableofcontents" id="item-5dd89bb5">
 <p class="itemheader">
 <span class="itemtitle"><a href="https://www.annualreviews.org/doi/abs/10.1146/annurev-polisci-050317-071146?af=R">The Politics of Housing</a></span>
@@ -906,16 +929,6 @@ cross-chain applications
 </p>
 <div class="itemdescription">
 <p>Annual Review of Political Science, <a href="https://www.annualreviews.org/toc/polisci/22/1">Volume 22, Issue 1</a>, Page 165-185, May 2019. <br />
-</div>
-</div>
-
-<div class="item feed-52e73913 feed-annualreviewsannualreviewofpoliticalsciencetableofcontents" id="item-8f0b8c67">
-<p class="itemheader">
-<span class="itemtitle"><a href="https://www.annualreviews.org/doi/abs/10.1146/annurev-polisci-050317-070912?af=R">Beyond the &#8220;Sinew of War&#8221;: The Political Economy of Security as a Subfield</a></span>
-<span class="itemfrom">[Annual Reviews: Annual Review of Political Science: Table of Contents]</span>
-</p>
-<div class="itemdescription">
-<p>Annual Review of Political Science, <a href="https://www.annualreviews.org/toc/polisci/22/1">Volume 22, Issue 1</a>, Page 223-239, May 2019. <br />
 </div>
 </div>
 
@@ -965,16 +978,6 @@ cross-chain applications
 </div>
 </div>
 
-<div class="item feed-b3e4c5b6 feed-annualreviewsannualreviewofphysiologytableofcontents" id="item-c1c10727">
-<p class="itemheader">
-<span class="itemtitle"><a href="https://www.annualreviews.org/doi/abs/10.1146/annurev-physiol-021317-121515?ai=sp&amp;mi=3fndc3&amp;af=R">Unexpected Roles for the Second Brain: Enteric Nervous System as Master Regulator of Bowel Function</a></span>
-<span class="itemfrom">[Annual Reviews: Annual Review of Physiology: Table of Contents]</span>
-</p>
-<div class="itemdescription">
-<p>Annual Review of Physiology, <a href="https://www.annualreviews.org/toc/physiol/81/1">Volume 81, Issue 1</a>, Page 235-259, February 2019. <br />
-</div>
-</div>
-
 <div class="item feed-b3e4c5b6 feed-annualreviewsannualreviewofphysiologytableofcontents" id="item-ffd2419f">
 <p class="itemheader">
 <span class="itemtitle"><a href="https://www.annualreviews.org/doi/abs/10.1146/annurev-physiol-020518-114605?ai=sp&amp;mi=3fndc3&amp;af=R">Biomarkers of Acute and Chronic Kidney Disease</a></span>
@@ -1005,6 +1008,32 @@ cross-chain applications
 </div>
 </div>
 
+<div class="item feed-b3e4c5b6 feed-annualreviewsannualreviewofphysiologytableofcontents" id="item-a989c39f">
+<p class="itemheader">
+<span class="itemtitle"><a href="https://www.annualreviews.org/doi/abs/10.1146/annurev-physiol-021317-121245?ai=sp&amp;mi=3fndc3&amp;af=R">Steps in Mechanotransduction Pathways that Control Cell Morphology</a></span>
+<span class="itemfrom">[Annual Reviews: Annual Review of Physiology: Table of Contents]</span>
+</p>
+<div class="itemdescription">
+<p>Annual Review of Physiology, <a href="https://www.annualreviews.org/toc/physiol/81/1">Volume 81, Issue 1</a>, Page 585-605, February 2019. <br />
+</div>
+</div>
+
+</div>
+</div>
+<div class="day">
+<h2>Tuesday, 29 January 2019</h2>
+<div class="time">
+<h3>04:00 PM</h3>
+<div class="item feed-b93c25e9 feed-earlyedition" id="item-0b517857">
+<p class="itemheader">
+<span class="itemtitle"><a href="http://feedproxy.google.com/~r/Pnas-RssFeedOfEarlyEditionArticles/~3/LJmrojsRM1Q/1701383115.short">First-principles-based reaction kinetics from reactive molecular dynamics simulations: Application to hydrogen peroxide decomposition [Perspectives]</a></span>
+<span class="itemfrom">[<a href="http://www.pnas.org">Early Edition</a>]</span>
+</p>
+<div class="itemdescription">
+<p>This paper presents our vision of how to use in silico approaches to extract the reaction mechanisms and kinetic parameters for complex condensed-phase chemical processes that underlie important technologies ranging from combustion to chemical vapor deposition. The goal is to provide an analytic description of the detailed evolution of a...<img alt="" height="1" src="http://feeds.feedburner.com/~r/Pnas-RssFeedOfEarlyEditionArticles/~4/LJmrojsRM1Q" width="1" />
+</div>
+</div>
+
 </div>
 </div>
 
@@ -1019,113 +1048,113 @@ cross-chain applications
 <tr class="feedsrow">
 <td>Annual Reviews: Annual Review of Economics: Table of Contents</td>
 <td><a class="xmlbutton" href="http://www.annualreviews.org/action/showFeed?ui=45mu4&amp;mi=3fndc3&amp;ai=67b7&amp;jc=economics&amp;type=etoc&amp;feed=rss">XML</a></td>
-<td>04:00 PM, Tuesday, 03 September 2019</td>
-<td>07:00 PM, Tuesday, 03 September 2019</td>
+<td>04:00 PM, Wednesday, 04 September 2019</td>
+<td>07:00 PM, Wednesday, 04 September 2019</td>
 </tr>
 
 <tr class="feedsrow">
 <td>Annual Reviews: Annual Review of Nutrition: Table of Contents</td>
 <td><a class="xmlbutton" href="http://www.annualreviews.org/action/showFeed?ui=45mu4&amp;mi=3fndc3&amp;ai=rz&amp;jc=nutr&amp;type=etoc&amp;feed=rss">XML</a></td>
-<td>04:00 PM, Tuesday, 03 September 2019</td>
-<td>07:00 PM, Tuesday, 03 September 2019</td>
+<td>04:00 PM, Wednesday, 04 September 2019</td>
+<td>07:00 PM, Wednesday, 04 September 2019</td>
 </tr>
 
 <tr class="feedsrow">
 <td>Annual Reviews: Annual Review of Physiology: Table of Contents</td>
 <td><a class="xmlbutton" href="http://www.annualreviews.org/action/showFeed?ui=45mu4&amp;mi=3fndc3&amp;ai=sp&amp;jc=physiol&amp;type=etoc&amp;feed=rss">XML</a></td>
-<td>04:00 PM, Tuesday, 03 September 2019</td>
-<td>07:00 PM, Tuesday, 03 September 2019</td>
+<td>04:00 PM, Wednesday, 04 September 2019</td>
+<td>07:00 PM, Wednesday, 04 September 2019</td>
 </tr>
 
 <tr class="feedsrow">
 <td>Annual Reviews: Annual Review of Political Science: Table of Contents</td>
 <td><a class="xmlbutton" href="http://www.annualreviews.org/action/showFeed?jc=polisci&amp;type=etoc&amp;feed=rss">XML</a></td>
-<td>04:00 PM, Tuesday, 03 September 2019</td>
-<td>07:00 PM, Tuesday, 03 September 2019</td>
+<td>04:00 PM, Wednesday, 04 September 2019</td>
+<td>07:00 PM, Wednesday, 04 September 2019</td>
 </tr>
 
 <tr class="feedsrow">
 <td>Annual Reviews: Annual Review of Sociology: Table of Contents</td>
 <td><a class="xmlbutton" href="http://www.annualreviews.org/action/showFeed?ui=45mu4&amp;mi=3fndc3&amp;ai=t0&amp;jc=soc&amp;type=etoc&amp;feed=rss">XML</a></td>
-<td>04:00 PM, Tuesday, 03 September 2019</td>
-<td>07:00 PM, Tuesday, 03 September 2019</td>
+<td>04:00 PM, Wednesday, 04 September 2019</td>
+<td>07:00 PM, Wednesday, 04 September 2019</td>
 </tr>
 
 <tr class="feedsrow">
 <td><a href="http://arxiv.org/">cs.CR updates on arXiv.org</a></td>
 <td><a class="xmlbutton" href="http://export.arxiv.org/rss/cs.CR">XML</a></td>
-<td>04:00 PM, Tuesday, 03 September 2019</td>
-<td>07:00 PM, Tuesday, 03 September 2019</td>
+<td>04:00 PM, Wednesday, 04 September 2019</td>
+<td>07:00 PM, Wednesday, 04 September 2019</td>
 </tr>
 
 <tr class="feedsrow">
 <td><a href="http://www.pnas.org">Early Edition</a></td>
 <td><a class="xmlbutton" href="http://feeds.feedburner.com/Pnas-RssFeedOfEarlyEditionArticles?format=xml">XML</a></td>
-<td>04:00 PM, Tuesday, 03 September 2019</td>
-<td>07:00 PM, Tuesday, 03 September 2019</td>
+<td>04:00 PM, Wednesday, 04 September 2019</td>
+<td>07:00 PM, Wednesday, 04 September 2019</td>
 </tr>
 
 <tr class="feedsrow">
 <td><a href="http://www.eurekalert.org">EurekAlert! - Breaking News</a></td>
 <td><a class="xmlbutton" href="https://www.eurekalert.org/rss.xml">XML</a></td>
-<td>04:00 PM, Tuesday, 03 September 2019</td>
-<td>07:00 PM, Tuesday, 03 September 2019</td>
+<td>04:00 PM, Wednesday, 04 September 2019</td>
+<td>07:00 PM, Wednesday, 04 September 2019</td>
 </tr>
 
 <tr class="feedsrow">
 <td><a href="http://ieeexplore.ieee.org">IEEE Transactions on Image Processing - new TOC</a></td>
 <td><a class="xmlbutton" href="https://ieeexplore.ieee.org/rss/TOC83.XML">XML</a></td>
-<td>04:00 PM, Tuesday, 03 September 2019</td>
-<td>07:00 PM, Tuesday, 03 September 2019</td>
+<td>04:00 PM, Wednesday, 04 September 2019</td>
+<td>07:00 PM, Wednesday, 04 September 2019</td>
 </tr>
 
 <tr class="feedsrow">
 <td><a href="http://ieeexplore.ieee.org">IEEE Transactions on Industrial Electronics - new TOC</a></td>
 <td><a class="xmlbutton" href="https://ieeexplore.ieee.org/rss/TOC41.XML">XML</a></td>
-<td>04:00 PM, Tuesday, 03 September 2019</td>
-<td>07:00 PM, Tuesday, 03 September 2019</td>
+<td>04:00 PM, Wednesday, 04 September 2019</td>
+<td>07:00 PM, Wednesday, 04 September 2019</td>
 </tr>
 
 <tr class="feedsrow">
 <td><a href="http://ieeexplore.ieee.org">IEEE Transactions on Industrial Informatics - new TOC</a></td>
 <td><a class="xmlbutton" href="https://ieeexplore.ieee.org/rss/TOC9424.XML">XML</a></td>
-<td>04:00 PM, Tuesday, 03 September 2019</td>
-<td>07:00 PM, Tuesday, 03 September 2019</td>
+<td>04:00 PM, Wednesday, 04 September 2019</td>
+<td>07:00 PM, Wednesday, 04 September 2019</td>
 </tr>
 
 <tr class="feedsrow">
 <td><a href="http://ieeexplore.ieee.org">IEEE Transactions on Information Forensics and Security - new TOC</a></td>
 <td><a class="xmlbutton" href="https://ieeexplore.ieee.org/rss/TOC10206.XML">XML</a></td>
-<td>04:00 PM, Tuesday, 03 September 2019</td>
-<td>07:00 PM, Tuesday, 03 September 2019</td>
+<td>04:00 PM, Wednesday, 04 September 2019</td>
+<td>07:00 PM, Wednesday, 04 September 2019</td>
 </tr>
 
 <tr class="feedsrow">
 <td><a href="https://jamanetwork.com/journals/jama">JAMA Current Issue</a></td>
 <td><a class="xmlbutton" href="https://jamanetwork.com/rss/site_3/67.xml">XML</a></td>
-<td>04:00 PM, Tuesday, 03 September 2019</td>
-<td>07:00 PM, Tuesday, 03 September 2019</td>
+<td>04:00 PM, Wednesday, 04 September 2019</td>
+<td>07:00 PM, Wednesday, 04 September 2019</td>
 </tr>
 
 <tr class="feedsrow">
 <td><a href="https://www.bmj.com/us/research/feed/22">Latest BMJ Research</a></td>
 <td><a class="xmlbutton" href="http://feeds.bmj.com/bmj/research?format=xml">XML</a></td>
-<td>04:00 PM, Tuesday, 03 September 2019</td>
-<td>07:00 PM, Tuesday, 03 September 2019</td>
+<td>04:00 PM, Wednesday, 04 September 2019</td>
+<td>07:00 PM, Wednesday, 04 September 2019</td>
 </tr>
 
 <tr class="feedsrow">
 <td><a href="http://feeds.nature.com/nature/rss/current">Nature - Issue - nature.com science feeds</a></td>
 <td><a class="xmlbutton" href="http://feeds.nature.com/nature/rss/current?format=xml">XML</a></td>
-<td>04:00 PM, Tuesday, 03 September 2019</td>
-<td>07:00 PM, Tuesday, 03 September 2019</td>
+<td>04:00 PM, Wednesday, 04 September 2019</td>
+<td>07:00 PM, Wednesday, 04 September 2019</td>
 </tr>
 
 <tr class="feedsrow">
 <td><a href="https://www.thelancet.com/journals/lancet/issue/current">The Lancet</a></td>
 <td><a class="xmlbutton" href="http://www.thelancet.com/rssfeed/lancet_current.xml">XML</a></td>
-<td>04:00 PM, Tuesday, 03 September 2019</td>
-<td>07:00 PM, Tuesday, 03 September 2019</td>
+<td>04:00 PM, Wednesday, 04 September 2019</td>
+<td>07:00 PM, Wednesday, 04 September 2019</td>
 </tr>
 
 </table>
