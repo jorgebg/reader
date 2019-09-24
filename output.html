@@ -13,197 +13,313 @@
 </div>
 <div id="items">
 <div class="day">
-<h2>Tuesday, 17 September 2019</h2>
+<h2>Tuesday, 24 September 2019</h2>
 <div class="time">
-<h3>12:00 AM</h3>
-<div class="item feed-1b28272e feed-cscrupdatesonarxivorg" id="item-19f0cd96">
+<h3>04:00 PM</h3>
+<div class="item feed-1b28272e feed-cscrupdatesonarxivorg" id="item-526493fb">
 <p class="itemheader">
-<span class="itemtitle"><a href="http://arxiv.org/abs/1909.06122">FakeSpotter: A Simple Baseline for Spotting AI-Synthesized Fake Faces. (arXiv:1909.06122v1 [cs.CR])</a></span>
+<span class="itemtitle"><a href="http://arxiv.org/abs/1909.09731">HEAX: High-Performance Architecture for Computation on Homomorphically Encrypted Data in the Cloud. (arXiv:1909.09731v1 [cs.CR])</a></span>
 <span class="itemfrom">[<a href="http://arxiv.org/">cs.CR updates on arXiv.org</a>]</span>
 </p>
 <div class="itemdescription">
-<p>In recent years, we have witnessed the unprecedented success of generative
-adversarial networks (GANs) and its variants in image synthesis. These
-techniques are widely adopted in synthesizing fake faces which poses a serious
-challenge to existing face recognition (FR) systems and brings potential
-security threats to social networks and media as the fakes spread and fuel the
-misinformation. Unfortunately, robust detectors of these AI-synthesized fake
-faces are still in their infancy and are not ready to fully tackle this
-emerging challenge. Currently, image forensic-based and learning-based
-approaches are the two major categories of strategies in detecting fake faces.
-In this work, we propose an alternative category of approaches based on
-monitoring neuron behavior. The studies on neuron coverage and interactions
-have successfully shown that they can be served as testing criteria for deep
-learning systems, especially under the settings of being exposed to adversarial
-attacks. Here, we conjecture that monitoring neuron behavior can also serve as
-an asset in detecting fake faces since layer-by-layer neuron activation
-patterns may capture more subtle features that are important for the fake
-detector. Empirically, we have shown that the proposed FakeSpotter, based on
-neuron coverage behavior, in tandem with a simple linear classifier can greatly
-outperform deeply trained convolutional neural networks (CNNs) for spotting
-AI-synthesized fake faces. Extensive experiments carried out on three deep
-learning (DL) based FR systems, with two GAN variants for synthesizing fake
-faces, and on two public high-resolution face datasets have demonstrated the
-potential of the FakeSpotter serving as a simple, yet robust baseline for fake
-face detection in the wild.
+<p>With the rapid increase in cloud computing, concerns surrounding data
+privacy, security, and confidentiality also have been increased significantly.
+Not only cloud providers are susceptible to internal and external hacks, but
+also in some scenarios, data owners cannot outsource the computation due to
+privacy laws such as GDPR, HIPAA, or CCPA. Fully Homomorphic Encryption (FHE)
+is a groundbreaking invention in cryptography that, unlike traditional
+cryptosystems, enables computation on encrypted data without ever decrypting
+it. However, the most critical obstacle in deploying FHE at large-scale is the
+enormous computation overhead.
+</p>
+<p>In this paper, we present HEAX, a novel hardware architecture for FHE that
+achieves unprecedented performance improvement. HEAX leverages multiple levels
+of parallelism, ranging from ciphertext-level to fine-grained modular
+arithmetic level. Our first contribution is a new highly-parallelizable
+architecture for number-theoretic transform (NTT) which can be of independent
+interest as NTT is frequently used in many lattice-based cryptography systems.
+Building on top of NTT engine, we design a novel architecture for computation
+on homomorphically encrypted data. We also introduce several techniques to
+enable an end-to-end, fully pipelined design as well as reducing on-chip memory
+consumption. Our implementation on reconfigurable hardware demonstrates
+164-268x performance improvement for a wide range of FHE parameters.
 </p>
 </div>
 </div>
 
-<div class="item feed-1b28272e feed-cscrupdatesonarxivorg" id="item-4e78406c">
+<div class="item feed-1b28272e feed-cscrupdatesonarxivorg" id="item-993fd4e3">
 <p class="itemheader">
-<span class="itemtitle"><a href="http://arxiv.org/abs/1909.06300">Analysis of Solitaire. (arXiv:1909.06300v1 [cs.CR])</a></span>
+<span class="itemtitle"><a href="http://arxiv.org/abs/1909.09936">Pushing Software-Defined Blockchain Components onto Edge Hosts. (arXiv:1909.09936v1 [cs.CR])</a></span>
 <span class="itemfrom">[<a href="http://arxiv.org/">cs.CR updates on arXiv.org</a>]</span>
 </p>
 <div class="itemdescription">
-<p>The Solitaire cipher was designed by Bruce Schneier as a plot point in the
-novel Cryptonomicon by Neal Stephenson. The cipher is intended to fit the
-archetype of a modern stream cipher whilst being implementable by hand using a
-standard deck of cards with two jokers. We find a model for repetitions in the
-keystream in the stream cipher Solitaire that accounts for the large majority
-of the repetition bias. Other phenomena merit further investigation. We have
-proposed modifications to the cipher that would reduce the repetition bias, but
-at the cost of increasing the complexity of the cipher (probably beyond the
-goal of allowing manual implementation). We have argued that the state update
-function is unlikely to lead to cycles significantly shorter than those of a
-random bijection.
+<p>With the advent of blockchain technology, some management tasks of IoT
+networks can be moved from central systems to distributed validation
+authorities. Cloud-centric blockchain implementations for IoT have shown
+satisfactory performance. However, some features of blockchain are not
+necessary for IoT. For instance, a competitive consensus. This research
+presents the idea of customizing and encapsulating the features of blockchain
+into software-defined components to host them on edge devices. Thus, blockchain
+resources can be provisioned by edge devices (e-miners) working together closer
+to the things layer in a cooperative manner. This research uses Edison SoC as
+e-miners to test the software-defined blockchain components.
 </p>
 </div>
 </div>
 
-<div class="item feed-1b28272e feed-cscrupdatesonarxivorg" id="item-7eb28ec3">
+<div class="item feed-1b28272e feed-cscrupdatesonarxivorg" id="item-83330e3c">
 <p class="itemheader">
-<span class="itemtitle"><a href="http://arxiv.org/abs/1909.06322">A Knowledge Transfer Framework for Differentially Private Sparse Learning. (arXiv:1909.06322v1 [stat.ML])</a></span>
+<span class="itemtitle"><a href="http://arxiv.org/abs/1709.09917">DR.SGX: Hardening SGX Enclaves against Cache Attacks with Data Location Randomization. (arXiv:1709.09917v2 [cs.CR] UPDATED)</a></span>
 <span class="itemfrom">[<a href="http://arxiv.org/">cs.CR updates on arXiv.org</a>]</span>
 </p>
 <div class="itemdescription">
-<p>We study the problem of estimating high dimensional models with underlying
-sparse structures while preserving the privacy of each training example. We
-develop a differentially private high-dimensional sparse learning framework
-using the idea of knowledge transfer. More specifically, we propose to distill
-the knowledge from a "teacher" estimator trained on a private dataset, by
-creating a new dataset from auxiliary features, and then train a differentially
-private "student" estimator using this new dataset. In addition, we establish
-the linear convergence rate as well as the utility guarantee for our proposed
-method. For sparse linear regression and sparse logistic regression, our method
-achieves improved utility guarantees compared with the best known results
-(Kifer et al., 2012; Wang and Gu, 2019). We further demonstrate the superiority
-of our framework through both synthetic and real-world data experiments.
+<p>Recent research has demonstrated that Intel's SGX is vulnerable to
+software-based side-channel attacks. In a common attack, the adversary monitors
+CPU caches to infer secret-dependent data accesses patterns. Known defenses
+have major limitations, as they require either error-prone developer
+assistance, incur extremely high runtime overhead, or prevent only specific
+attacks. In this paper, we propose data location randomization as a novel
+defense against side-channel attacks that target data access patterns. Our goal
+is to break the link between the memory observations by the adversary and the
+actual data accesses by the victim. We design and implement a compiler-based
+tool called DR.SGX that instruments the enclave code, permuting data locations
+at fine granularity. To prevent correlation of repeated memory accesses we
+periodically re-randomize all enclave data. Our solution requires no developer
+assistance and strikes the balance between side-channel protection and
+performance based on an adjustable security parameter.
 </p>
 </div>
 </div>
 
-<div class="item feed-1b28272e feed-cscrupdatesonarxivorg" id="item-a150da53">
+<div class="item feed-1b28272e feed-cscrupdatesonarxivorg" id="item-7f2c50ed">
 <p class="itemheader">
-<span class="itemtitle"><a href="http://arxiv.org/abs/1906.02628">A Blockchain-Based Architecture for Traffic Signal Control Systems. (arXiv:1906.02628v3 [cs.NI] UPDATED)</a></span>
+<span class="itemtitle"><a href="http://arxiv.org/abs/1812.09490">Aztarna, a footprinting tool for robots. (arXiv:1812.09490v3 [cs.CR] UPDATED)</a></span>
 <span class="itemfrom">[<a href="http://arxiv.org/">cs.CR updates on arXiv.org</a>]</span>
 </p>
 <div class="itemdescription">
-<p>Ever-growing incorporation of connected vehicle (CV) technologies into
-intelligent traffic signal control systems bring about significant data
-security issues in the connected vehicular networks. This paper presents a
-novel decentralized and secure by design architecture for connected vehicle
-data security, which is based on the emerging blockchain paradigm. In a
-simulation study, we applied this architecture to defend the Intelligent
-Traffic Signal System (I-SIG), a USDOT approved CV pilot program, against
-congestion attacks. The results show the performance of the proposed
-architecture for the traffic signal control system.
+<p>Industry 4.0 is changing the commonly held assumption that robots are to be
+deployed in closed and isolated networks. When analyzed from a security point
+of view, the global picture is disheartening: robotics industry has not
+seriously allocated effort to follow good security practices in the robots
+produced. Instead, most manufacturers keep forwarding the problem to the
+end-users of these machines. As learned in previous technological revolutions,
+such as at the dawn of PCs or smartphones, action needs to be taken in time to
+avoid disastrous consequences. In an attempt to provide the robotics and
+security communities with the right tools to perform assessments, in this paper
+we present aztarna, a footprinting tool for robotics. We discuss how such tool
+can facilitate the process of identifying vestiges of different robots, while
+maintaining an extensible structure aimed for future fingerprinting extensions.
+With this contribution, we aim to raise awareness and interest of the robotics
+community, robot manufacturers and robot end-users on the need of starting
+global actions to embrace security. We open source the tool and disclose
+preliminary results that demonstrate the current insecurity landscape in
+industry. We argue that the robotic ecosystem is in need of generating a robot
+security community, conscious about good practices and empowered by the right
+tools.
 </p>
 </div>
 </div>
 
-<div class="item feed-1b28272e feed-cscrupdatesonarxivorg" id="item-10c6c076">
+<div class="item feed-1b28272e feed-cscrupdatesonarxivorg" id="item-2b5f26ba">
 <p class="itemheader">
-<span class="itemtitle"><a href="http://arxiv.org/abs/1909.04421">Privacy-Preserving Bandits. (arXiv:1909.04421v2 [cs.LG] UPDATED)</a></span>
+<span class="itemtitle"><a href="http://arxiv.org/abs/1902.10056">SeMA: A Design Methodology for Building Secure Android Apps. (arXiv:1902.10056v4 [cs.SE] UPDATED)</a></span>
 <span class="itemfrom">[<a href="http://arxiv.org/">cs.CR updates on arXiv.org</a>]</span>
 </p>
 <div class="itemdescription">
-<p>Contextual bandit algorithms (CBAs) often rely on personal data to provide
-recommendations. This means that potentially sensitive data from past
-interactions are utilized to provide personalization to end-users. Using a
-local agent on the user's device protects the user's privacy, by keeping the
-data locally, however, the agent requires longer to produce useful
-recommendations, as it does not leverage feedback from other users. This paper
-proposes a technique we call Privacy-Preserving Bandits (P2B), a system that
-updates local agents by collecting feedback from other agents in a
-differentially-private manner. Comparisons of our proposed approach with a
-non-private, as well as a fully-private (local) system, show competitive
-performance on both synthetic benchmarks and real-world data. Specifically, we
-observed a decrease of 2.6% and 3.6% in multi-label classification accuracy,
-and a CTR increase of 0.0025 in online advertising for a privacy budget
-$\epsilon \approx$ 0.693. These results suggest P2B is an effective approach to
-problems arising in on-device privacy-preserving personalization.
+<p>UX (user experience) designers visually capture the UX of an app via
+storyboards. This method is also used in Android app development to
+conceptualize and design apps.
+</p>
+<p>Recently, security has become an integral part of Android app UX because
+mobile apps are used to perform critical activities such as banking,
+communication, and health. Therefore, securing user information is imperative
+in mobile apps.
+</p>
+<p>In this context, storyboarding tools offer limited capabilities to capture
+and reason about security requirements of an app. Consequently, security cannot
+be baked into the app at design time. Hence, vulnerabilities stemming from
+design flaws can often occur in apps. To address this concern, in this paper,
+we propose a storyboard based design methodology to enable the specification
+and verification of security properties of an Android app at design time.
 </p>
 </div>
 </div>
 
-<div class="item feed-b93c25e9 feed-earlyedition" id="item-4d8491a9">
+<div class="item feed-b93c25e9 feed-earlyedition" id="item-30a70c10">
 <p class="itemheader">
-<span class="itemtitle"><a href="http://feedproxy.google.com/~r/Pnas-RssFeedOfEarlyEditionArticles/~3/0X_hOgNKgPE/1904012116.short">A network of phosphatidylinositol 4,5-bisphosphate binding sites regulates gating of the Ca2+-activated Cl- channel ANO1 (TMEM16A) [Biophysics and Computational Biology]</a></span>
+<span class="itemtitle"><a href="http://feedproxy.google.com/~r/Pnas-RssFeedOfEarlyEditionArticles/~3/Fv9yP0qHD40/1914673116.short">Messenger RNA therapy as an option for treating metabolic disorders [Commentaries]</a></span>
 <span class="itemfrom">[<a href="http://www.pnas.org">Early Edition</a>]</span>
 </p>
 <div class="itemdescription">
-<p>ANO1 (TMEM16A) is a Ca2+-activated Cl&#8722; channel that regulates diverse cellular functions including fluid secretion, neuronal excitability, and smooth muscle contraction. ANO1 is activated by elevation of cytosolic Ca2+ and modulated by phosphatidylinositol 4,5-bisphosphate [PI(4,5)P2]. Here, we describe a closely concerted experimental and computational study, including electrophysiology, mutagenesis, functional assays,...<img alt="" height="1" src="http://feeds.feedburner.com/~r/Pnas-RssFeedOfEarlyEditionArticles/~4/0X_hOgNKgPE" width="1" />
+<p>The use of messenger RNA (mRNA) therapy by systemic delivery to treat metabolic disorders has long been hampered by poor stability, immunogenicity, inefficient delivery, and hepatic toxicity. In contrast, other molecular therapies such as viral gene and enzyme replacement therapy (Fig. 1) have been effectively employed to successfully treat rare...<img alt="" height="1" src="http://feeds.feedburner.com/~r/Pnas-RssFeedOfEarlyEditionArticles/~4/Fv9yP0qHD40" width="1" />
 </div>
 </div>
 
-<div class="item feed-53ba08d1 feed-natureissuenaturecomsciencefeeds" id="item-7961c322">
+<div class="item feed-b93c25e9 feed-earlyedition" id="item-bec3bcf4">
 <p class="itemheader">
-<span class="itemtitle"><a href="http://feeds.nature.com/~r/nature/rss/current/~3/y4LQvaVwyEo/s41586-019-1587-3">Publisher Correction: Asymmetric lysosome inheritance predicts activation of haematopoietic stem cells</a></span>
+<span class="itemtitle"><a href="http://feedproxy.google.com/~r/Pnas-RssFeedOfEarlyEditionArticles/~3/JvqMaTejIqg/1905722116.short">Cell division rates decrease with age, providing a potential explanation for the age-dependent deceleration in cancer incidence [Biophysics and Computational Biology]</a></span>
+<span class="itemfrom">[<a href="http://www.pnas.org">Early Edition</a>]</span>
+</p>
+<div class="itemdescription">
+<p>A new evaluation of previously published data suggested to us that the accumulation of mutations might slow, rather than increase, as individuals age. To explain this unexpected finding, we hypothesized that normal stem cell division rates might decrease as we age. To test this hypothesis, we evaluated cell division rates...<img alt="" height="1" src="http://feeds.feedburner.com/~r/Pnas-RssFeedOfEarlyEditionArticles/~4/JvqMaTejIqg" width="1" />
+</div>
+</div>
+
+<div class="item feed-b93c25e9 feed-earlyedition" id="item-ae70c57e">
+<p class="itemheader">
+<span class="itemtitle"><a href="http://feedproxy.google.com/~r/Pnas-RssFeedOfEarlyEditionArticles/~3/KXuXOO8NtLs/1908503116.short">Early detection and monitoring of cerebral ischemia using calcium-responsive MRI probes [Chemistry]</a></span>
+<span class="itemfrom">[<a href="http://www.pnas.org">Early Edition</a>]</span>
+</p>
+<div class="itemdescription">
+<p>Cerebral ischemia is one of the leading causes of mortality and disability in infants and adults and its timely diagnosis is essential for an efficient treatment. We present a methodology for fast detection and real-time monitoring of fluctuations of calcium ions associated with focal ischemia using a molecular functional MRI...<img alt="" height="1" src="http://feeds.feedburner.com/~r/Pnas-RssFeedOfEarlyEditionArticles/~4/KXuXOO8NtLs" width="1" />
+</div>
+</div>
+
+<div class="item feed-53ba08d1 feed-natureissuenaturecomsciencefeeds" id="item-8b9ccbdc">
+<p class="itemheader">
+<span class="itemtitle"><a href="http://feeds.nature.com/~r/nature/rss/current/~3/6jfzqjiSV6A/d41586-019-02823-x">Trapped: why 300 scientists are locking themselves in Arctic ice</a></span>
 <span class="itemfrom">[<a href="http://feeds.nature.com/nature/rss/current">Nature - Issue - nature.com science feeds</a>]</span>
 </p>
 <div class="itemdescription">
-<p>Nature, Published online: 13 September 2019; <a href="https://www.nature.com/articles/s41586-019-1587-3">doi:10.1038/s41586-019-1587-3</a></p>Publisher Correction: Asymmetric lysosome inheritance predicts activation of haematopoietic stem cells<img alt="" height="1" src="http://feeds.feedburner.com/~r/nature/rss/current/~4/y4LQvaVwyEo" width="1" />
+<p>Nature, Published online: 20 September 2019; <a href="https://www.nature.com/articles/d41586-019-02823-x">doi:10.1038/d41586-019-02823-x</a></p>For one year, a research ship will drift while frozen in sea ice &#8212; and give scientists their closest look at the rapid changes gripping the polar north.<img alt="" height="1" src="http://feeds.feedburner.com/~r/nature/rss/current/~4/6jfzqjiSV6A" width="1" />
 </div>
 </div>
 
-<div class="item feed-fab735fe feed-thelancet" id="item-4e39ca43">
+<div class="item feed-53ba08d1 feed-natureissuenaturecomsciencefeeds" id="item-b0845b28">
 <p class="itemheader">
-<span class="itemtitle"><a href="https://www.thelancet.com/journals/lancet/article/PIIS0140-6736(19)32130-0/fulltext?rss=yes">[Comment] Offline: Why we must listen to critical friends</a></span>
-<span class="itemfrom">[<a href="https://www.thelancet.com/journals/lancet/issue/current">The Lancet</a>]</span>
+<span class="itemtitle"><a href="http://feeds.nature.com/~r/nature/rss/current/~3/6X9B9oDVbrM/d41586-019-02820-0">First portrait of mysterious Denisovans drawn from DNA</a></span>
+<span class="itemfrom">[<a href="http://feeds.nature.com/nature/rss/current">Nature - Issue - nature.com science feeds</a>]</span>
 </p>
 <div class="itemdescription">
-<p>The UK is becoming a &#8220;narrowly nationalistic country&#8221;. Political instability is endemic. The nation is approaching a &#8220;second civil war&#8221;. Extreme remarks from an extreme personality? Hardly. Eliza Manningham-Buller worked for MI5, Britain's Security Service, for over 30 years, ending her career as its Director General from 2002 to 2007. She now sits in the House of Lords and is Chair of the Wellcome Trust. Manningham-Buller is the quintessential insider's insider. She was delivering the John Snow Society's annual Pumphandle Lecture last week at the London School of Hygiene & Tropical Medicine.
+<p>Nature, Published online: 19 September 2019; <a href="https://www.nature.com/articles/d41586-019-02820-0">doi:10.1038/d41586-019-02820-0</a></p>Scientists analysed chemical changes to the ancient humans&#8217; DNA to reveal broad, Neanderthal-like facial features.<img alt="" height="1" src="http://feeds.feedburner.com/~r/nature/rss/current/~4/6X9B9oDVbrM" width="1" />
 </div>
 </div>
 
-<div class="item feed-fab735fe feed-thelancet" id="item-4d68fb8b">
+<div class="item feed-53ba08d1 feed-natureissuenaturecomsciencefeeds" id="item-59f97225">
 <p class="itemheader">
-<span class="itemtitle"><a href="https://www.thelancet.com/journals/lancet/article/PIIS0140-6736(19)32091-4/fulltext?rss=yes">[Obituary] John Henderson</a></span>
-<span class="itemfrom">[<a href="https://www.thelancet.com/journals/lancet/issue/current">The Lancet</a>]</span>
+<span class="itemtitle"><a href="http://feeds.nature.com/~r/nature/rss/current/~3/phZW_D8SPGw/d41586-019-02831-x">Trump signs order to improve flu-vaccine development</a></span>
+<span class="itemfrom">[<a href="http://feeds.nature.com/nature/rss/current">Nature - Issue - nature.com science feeds</a>]</span>
 </p>
 <div class="itemdescription">
-<p>Paediatrician and expert on asthma and child and infant respiratory systems. Born in Renfrew, UK, on Feb 11, 1958, he died of pancreatic cancer in Bristol, UK, on July 24, 2019, aged 61 years.
+<p>Nature, Published online: 19 September 2019; <a href="https://www.nature.com/articles/d41586-019-02831-x">doi:10.1038/d41586-019-02831-x</a></p>The US government wants to develop a universal vaccine, and make seasonal vaccines more effective.<img alt="" height="1" src="http://feeds.feedburner.com/~r/nature/rss/current/~4/phZW_D8SPGw" width="1" />
 </div>
 </div>
 
-<div class="item feed-fab735fe feed-thelancet" id="item-dbe476f5">
+<div class="item feed-53ba08d1 feed-natureissuenaturecomsciencefeeds" id="item-cac3641d">
 <p class="itemheader">
-<span class="itemtitle"><a href="https://www.thelancet.com/journals/lancet/article/PIIS0140-6736(19)31339-X/fulltext?rss=yes">[Correspondence] Militaries and global health &#8211; Authors' reply</a></span>
-<span class="itemfrom">[<a href="https://www.thelancet.com/journals/lancet/issue/current">The Lancet</a>]</span>
+<span class="itemtitle"><a href="http://feeds.nature.com/~r/nature/rss/current/~3/tvb7bdLxMbo/d41586-019-02806-y">Podcast: XKCD, and Extinction Rebellion</a></span>
+<span class="itemfrom">[<a href="http://feeds.nature.com/nature/rss/current">Nature - Issue - nature.com science feeds</a>]</span>
 </p>
 <div class="itemdescription">
-<p>We appreciate the comments by Jonathan Kennedy and colleagues referencing some of the challenges inherent in military engagement in global health. Kennedy and colleagues state that the Geneva Conventions have become outdated given the realities of current conflicts, and believe only a redefinition and redesign of international humanitarian law can address the weaknesses of the current system. We agree that new ways of war require re-envisioning international humanitarian law and a failure to fully adapt and broaden these requirements to current circumstances are key weaknesses.
+<p>Nature, Published online: 18 September 2019; <a href="https://www.nature.com/articles/d41586-019-02806-y">doi:10.1038/d41586-019-02806-y</a></p>Hear the latest science news, with Benjamin Thompson and Noah Baker.<img alt="" height="1" src="http://feeds.feedburner.com/~r/nature/rss/current/~4/tvb7bdLxMbo" width="1" />
 </div>
 </div>
 
-<div class="item feed-fab735fe feed-thelancet" id="item-2a639b1a">
+<div class="item feed-53ba08d1 feed-natureissuenaturecomsciencefeeds" id="item-b56b8870">
 <p class="itemheader">
-<span class="itemtitle"><a href="https://www.thelancet.com/journals/lancet/article/PIIS0140-6736(19)31677-0/fulltext?rss=yes">[Department of Error] Department of Error</a></span>
-<span class="itemfrom">[<a href="https://www.thelancet.com/journals/lancet/issue/current">The Lancet</a>]</span>
+<span class="itemtitle"><a href="http://feeds.nature.com/~r/nature/rss/current/~3/D__xSpoa8L0/d41586-019-02781-4">How to make computing more sustainable</a></span>
+<span class="itemfrom">[<a href="http://feeds.nature.com/nature/rss/current">Nature - Issue - nature.com science feeds</a>]</span>
 </p>
 <div class="itemdescription">
-<p>Huhn M, Nikolakopoulou A, Schneider-Thoma J, et al. Comparative efficacy and tolerability of 32 oral antipsychotics for the acute treatment of adults with multi-episode schizophrenia: a systematic review and network meta-analysis. Lancet 2019; 394: 939&#8211;51&#8212;In this Article, the comparison between zotepine and haloperidol in figure 3 has been corrected to &#8220;0&#183;08 (&#8211;0&#183;19 to 0&#183;36)&#8221;. The Declaration of Interests and the Acknowledgments have been updated to detail funding for the work and for Andrea Cipriani from the National Institute for Health Research.
+<p>Nature, Published online: 18 September 2019; <a href="https://www.nature.com/articles/d41586-019-02781-4">doi:10.1038/d41586-019-02781-4</a></p>A new type of computing could provide an energy-efficient way of dealing with big data and a chance to ease computing&#8217;s environmental impact.<img alt="" height="1" src="http://feeds.feedburner.com/~r/nature/rss/current/~4/D__xSpoa8L0" width="1" />
 </div>
 </div>
 
-<div class="item feed-fab735fe feed-thelancet" id="item-e0b83bc9">
+<div class="item feed-fab735fe feed-thelancet" id="item-42ef33c9">
 <p class="itemheader">
-<span class="itemtitle"><a href="https://www.thelancet.com/journals/lancet/article/PIIS0140-6736(19)31948-8/fulltext?rss=yes">[Articles] Budesonide-formoterol reliever therapy versus maintenance budesonide plus terbutaline reliever therapy in adults with mild to moderate asthma (PRACTICAL): a 52-week, open-label, multicentre, superiority, randomised controlled trial</a></span>
+<span class="itemtitle"><a href="https://www.thelancet.com/journals/lancet/article/PIIS0140-6736(19)31717-9/fulltext?rss=yes">[Comment] Oral regimen management of acute hypertension in pregnancy</a></span>
 <span class="itemfrom">[<a href="https://www.thelancet.com/journals/lancet/issue/current">The Lancet</a>]</span>
 </p>
 <div class="itemdescription">
-<p>In adults with mild to moderate asthma, budesonide&#8211;formoterol used as needed for symptom relief was more effective at preventing severe exacerbations than maintenance low-dose budesonide plus as-needed terbutaline. The findings support the 2019 Global Initiative for Asthma recommendation that inhaled corticosteroid&#8211;formoterol reliever therapy is an alternative regimen to daily low-dose inhaled corticosteroid for patients with mild asthma.
+<p>Hypertensive disorders of pregnancy are among the leading causes of maternal morbidity and mortality worldwide, and they are directly responsible for approximately 14% of maternal deaths.1 Often, women present in hypertensive urgency, requiring rapid pharmacological intervention to prevent severe complications.2 The largest burden of disease is found in low-income and middle-income countries (LMICs),1 where poor access to refrigeration, trained health-care professionals, fetal monitoring, and drug options create substantial challenges to the administration of rapid-acting intravenous medications.
+</div>
+</div>
+
+<div class="item feed-fab735fe feed-thelancet" id="item-7147bd29">
+<p class="itemheader">
+<span class="itemtitle"><a href="https://www.thelancet.com/journals/lancet/article/PIIS0140-6736(19)32098-7/fulltext?rss=yes">[Perspectives] Physicians, oaths, and vampires</a></span>
+<span class="itemfrom">[<a href="https://www.thelancet.com/journals/lancet/issue/current">The Lancet</a>]</span>
+</p>
+<div class="itemdescription">
+<p>In a provocative study titled &#8220;Does the Hippocratic Oath promote burnout?&#8221;, more than 2600 physicians were asked whether putting patient needs before their own, as required by their oath, heightened the danger of burnout. The results were mixed: roughly half believed that it did not and half were unsure or thought that it did. These findings confront one of the most cherished tenets of medicine, that doctors must put their pledge to their patients above everything else: their time, compensation, families, and even their own health and wellbeing.
+</div>
+</div>
+
+<div class="item feed-fab735fe feed-thelancet" id="item-db0e7d48">
+<p class="itemheader">
+<span class="itemtitle"><a href="https://www.thelancet.com/journals/lancet/article/PIIS0140-6736(19)31815-X/fulltext?rss=yes">[Correspondence] Women's rights will drive universal health coverage</a></span>
+<span class="itemfrom">[<a href="https://www.thelancet.com/journals/lancet/issue/current">The Lancet</a>]</span>
+</p>
+<div class="itemdescription">
+<p>We support Simon Wright and Refiloe Mabjeane,1 who wrote on behalf of the Civil Society Engagement Mechanism for UHC2030, calling for a &#8220;radically different approach&#8221; to the UN high-level meeting on universal health coverage (UHC) on Sept 23, 2019. However, a radically different approach means prioritising gender equality and girls and women's health and rights in UHC, and this includes the health workforce.
+</div>
+</div>
+
+<div class="item feed-fab735fe feed-thelancet" id="item-ea26c07c">
+<p class="itemheader">
+<span class="itemtitle"><a href="https://www.thelancet.com/journals/lancet/article/PIIS0140-6736(19)31946-4/fulltext?rss=yes">[Articles] Fremanezumab versus placebo for migraine prevention in patients with documented failure to up to four migraine preventive medication classes (FOCUS): a randomised, double-blind, placebo-controlled, phase 3b trial</a></span>
+<span class="itemfrom">[<a href="https://www.thelancet.com/journals/lancet/issue/current">The Lancet</a>]</span>
+</p>
+<div class="itemdescription">
+<p>Fremanezumab was effective and well tolerated in patients with difficult-to-treat migraine who had previously not responded to up to four classes of migraine preventive medications.
+</div>
+</div>
+
+<div class="item feed-fab735fe feed-thelancet" id="item-b2d38268">
+<p class="itemheader">
+<span class="itemtitle"><a href="https://www.thelancet.com/journals/lancet/article/PIIS0140-6736(19)31674-5/fulltext?rss=yes">[Articles] Medium and long-term risks of specific cardiovascular diseases in survivors of 20 adult cancers: a population-based cohort study using multiple linked UK electronic health records databases</a></span>
+<span class="itemfrom">[<a href="https://www.thelancet.com/journals/lancet/issue/current">The Lancet</a>]</span>
+</p>
+<div class="itemdescription">
+<p>Survivors of most site-specific cancers had increased medium-term to long-term risk for one or more cardiovascular diseases compared with that for the general population, with substantial variations between cancer sites.
+</div>
+</div>
+
+<div class="item feed-ed41d94f feed-jamacurrentissue" id="item-20b80809">
+<p class="itemheader">
+<span class="itemtitle"><a href="https://jamanetwork.com/journals/jama/fullarticle/2749879">JAMA</a></span>
+<span class="itemfrom">[<a href="https://jamanetwork.com/journals/jama">JAMA Current Issue</a>]</span>
+</p>
+
+</div>
+
+<div class="item feed-ed41d94f feed-jamacurrentissue" id="item-ab080ca6">
+<p class="itemheader">
+<span class="itemtitle"><a href="https://jamanetwork.com/journals/jama/fullarticle/2749878">Who Heals the Healer?</a></span>
+<span class="itemfrom">[<a href="https://jamanetwork.com/journals/jama">JAMA Current Issue</a>]</span>
+</p>
+<div class="itemdescription">
+<p>In this narrative medicine essay, an obstetrician-gynecologist struggles with the overwhelming strains of her profession, family obligations, and struggling marriage that together buried her sense of empathy until a grateful patient hugs her, an expression that reaches what she feared had been long extinguished.
+</div>
+</div>
+
+<div class="item feed-ed41d94f feed-jamacurrentissue" id="item-628429e6">
+<p class="itemheader">
+<span class="itemtitle"><a href="https://jamanetwork.com/journals/jama/fullarticle/2749866">Incorporating Intimate Partner Violence Interventions in Nurse Home Visitation Programs&#8212;Reply</a></span>
+<span class="itemfrom">[<a href="https://jamanetwork.com/journals/jama">JAMA Current Issue</a>]</span>
+</p>
+<div class="itemdescription">
+<p>In Reply The IPV intervention evaluated was complex; it combined multiple evidence-informed IPV strategies, followed by guidance for nurse home visitors to implement individually tailored plans of care that were informed by women&#8217;s health needs and that took into consideration their level of danger and readiness to address safety. As noted by Drs Hooker and Taft, adherence to this complex intervention was low; qualitative data collected provide insights into factors that limited nurses&#8217; abilities to deliver the intervention consistently. While nurses received intensive education about IPV and its health effects, time to develop mastery in delivering and integrating this innovation into their practice before testing was limited. Researchers evaluating complex IPV interventions may want to invest even more resources than we did in assisting nurses to develop a high degree of competency before testing innovations.
+</div>
+</div>
+
+<div class="item feed-ed41d94f feed-jamacurrentissue" id="item-3c40fec5">
+<p class="itemheader">
+<span class="itemtitle"><a href="https://jamanetwork.com/journals/jama/fullarticle/2749859">Nursing Our Way to Better Health</a></span>
+<span class="itemfrom">[<a href="https://jamanetwork.com/journals/jama">JAMA Current Issue</a>]</span>
+</p>
+<div class="itemdescription">
+<p>Nurses have always been on the front lines of health care provision. Increasingly, they are on the front lines of health care reform. Almost all of the ideas put forward for US health care reform, from reducing treatment costs to improving patient safety to moving care into the community, involve a significant role for nurses.
+</div>
+</div>
+
+<div class="item feed-ed41d94f feed-jamacurrentissue" id="item-8be74050">
+<p class="itemheader">
+<span class="itemtitle"><a href="https://jamanetwork.com/journals/jama/fullarticle/2749850">Incorrect Language in Figure and Text</a></span>
+<span class="itemfrom">[<a href="https://jamanetwork.com/journals/jama">JAMA Current Issue</a>]</span>
+</p>
+<div class="itemdescription">
+<p>In the USPSTF Recommendation Statement entitled &#8220;Screening for Hepatitis B Virus Infection in Pregnant Women: US Preventive Services Task Force Reaffirmation Recommendation Statement,&#8221; published in the July 23-30, 2019, issue of JAMA, language was incorrect in a figure and in the text. The third sentence of the &#8220;Treatment and Interventions&#8221; section in Figure 2 and the third sentence of the &#8220;Treatment&#8221; subsection of the &#8220;Clinical Considerations&#8221; section in the text should have read: &#8220;For infants born to mothers who test positive for HBsAg, current guidelines for case management include HBV vaccination and HBIG prophylaxis within 12 hours of birth and completing the vaccine series and serologic testing for infection and immunity at age 9 to 12 months.&#8221; This article was corrected online.
 </div>
 </div>
 
@@ -235,63 +351,13 @@ problems arising in on-device privacy-preserving personalization.
 </div>
 </div>
 
-<div class="item feed-b93c25e9 feed-earlyedition" id="item-241630db">
+<div class="item feed-b93c25e9 feed-earlyedition" id="item-6d7ea865">
 <p class="itemheader">
-<span class="itemtitle"><a href="http://feedproxy.google.com/~r/Pnas-RssFeedOfEarlyEditionArticles/~3/9u8cB0veglY/1904502116.short">Preserved capacity for learning statistical regularities and directing selective attention after hippocampal lesions [Psychological and Cognitive Sciences]</a></span>
+<span class="itemtitle"><a href="http://feedproxy.google.com/~r/Pnas-RssFeedOfEarlyEditionArticles/~3/e5eFHeHanuU/1907071116.short">NEEDLE1 encodes a mitochondria localized ATP-dependent metalloprotease required for thermotolerant maize growth [Plant Biology]</a></span>
 <span class="itemfrom">[<a href="http://www.pnas.org">Early Edition</a>]</span>
 </p>
 <div class="itemdescription">
-<p>Prior knowledge about the probabilistic structure of visual environments is necessary to resolve ambiguous information about objects in the world. Expectations based on stimulus regularities exert a powerful influence on human perception and decision making by improving the efficiency of information processing. Another type of prior knowledge, termed top-down attention,...<img alt="" height="1" src="http://feeds.feedburner.com/~r/Pnas-RssFeedOfEarlyEditionArticles/~4/9u8cB0veglY" width="1" />
-</div>
-</div>
-
-<div class="item feed-b93c25e9 feed-earlyedition" id="item-f15e323e">
-<p class="itemheader">
-<span class="itemtitle"><a href="http://feedproxy.google.com/~r/Pnas-RssFeedOfEarlyEditionArticles/~3/TlGeVZpghRI/1904154116.short">Intermediate-scale horizontal isoprene concentrations in the near-canopy forest atmosphere and implications for emission heterogeneity [Earth, Atmospheric, and Planetary Sciences]</a></span>
-<span class="itemfrom">[<a href="http://www.pnas.org">Early Edition</a>]</span>
-</p>
-<div class="itemdescription">
-<p>The emissions, deposition, and chemistry of volatile organic compounds (VOCs) are thought to be influenced by underlying landscape heterogeneity at intermediate horizontal scales of several hundred meters across different forest subtypes within a tropical forest. Quantitative observations and scientific understanding at these scales, however, remain lacking, in large part due...<img alt="" height="1" src="http://feeds.feedburner.com/~r/Pnas-RssFeedOfEarlyEditionArticles/~4/TlGeVZpghRI" width="1" />
-</div>
-</div>
-
-<div class="item feed-53ba08d1 feed-natureissuenaturecomsciencefeeds" id="item-255ba614">
-<p class="itemheader">
-<span class="itemtitle"><a href="http://feeds.nature.com/~r/nature/rss/current/~3/D2ObJh4jKXg/d41586-019-02721-2">Hubble telescope spies water raining on distant world</a></span>
-<span class="itemfrom">[<a href="http://feeds.nature.com/nature/rss/current">Nature - Issue - nature.com science feeds</a>]</span>
-</p>
-<div class="itemdescription">
-<p>Nature, Published online: 11 September 2019; <a href="https://www.nature.com/articles/d41586-019-02721-2">doi:10.1038/d41586-019-02721-2</a></p>The exoplanet is just twice the diameter of Earth, and could potentially host life.<img alt="" height="1" src="http://feeds.feedburner.com/~r/nature/rss/current/~4/D2ObJh4jKXg" width="1" />
-</div>
-</div>
-
-<div class="item feed-53ba08d1 feed-natureissuenaturecomsciencefeeds" id="item-1e8e017f">
-<p class="itemheader">
-<span class="itemtitle"><a href="http://feeds.nature.com/~r/nature/rss/current/~3/HnQVV6K07Dw/d41586-019-02675-5">Keep quantum computing global and open</a></span>
-<span class="itemfrom">[<a href="http://feeds.nature.com/nature/rss/current">Nature - Issue - nature.com science feeds</a>]</span>
-</p>
-<div class="itemdescription">
-<p>Nature, Published online: 11 September 2019; <a href="https://www.nature.com/articles/d41586-019-02675-5">doi:10.1038/d41586-019-02675-5</a></p>The race to cash in is draining universities of talent, fracturing the field and closing off avenues of enquiry, warn Jacob D. Biamonte, Pavel Dorozhkin and Igor Zacharov.<img alt="" height="1" src="http://feeds.feedburner.com/~r/nature/rss/current/~4/HnQVV6K07Dw" width="1" />
-</div>
-</div>
-
-<div class="item feed-53ba08d1 feed-natureissuenaturecomsciencefeeds" id="item-66dc3768">
-<p class="itemheader">
-<span class="itemtitle"><a href="http://feeds.nature.com/~r/nature/rss/current/~3/hJLLa6h96Q8/s41586-019-1555-y">Early Pleistocene enamel proteome from Dmanisi resolves <i>Stephanorhinus</i> phylogeny</a></span>
-<span class="itemfrom">[<a href="http://feeds.nature.com/nature/rss/current">Nature - Issue - nature.com science feeds</a>]</span>
-</p>
-<div class="itemdescription">
-<p>Nature, Published online: 11 September 2019; <a href="https://www.nature.com/articles/s41586-019-1555-y">doi:10.1038/s41586-019-1555-y</a></p>Palaeoproteomic analysis of dental enamel from an Early Pleistocene Stephanorhinus resolves the phylogeny of Eurasian Rhinocerotidae, by enabling the reconstruction of molecular evolution beyond the limits of ancient DNA preservation.<img alt="" height="1" src="http://feeds.feedburner.com/~r/nature/rss/current/~4/hJLLa6h96Q8" width="1" />
-</div>
-</div>
-
-<div class="item feed-53ba08d1 feed-natureissuenaturecomsciencefeeds" id="item-1dbd6d4b">
-<p class="itemheader">
-<span class="itemtitle"><a href="http://feeds.nature.com/~r/nature/rss/current/~3/1gHsVzXlhNE/d41586-019-02728-9">European Commission expands role of research chief</a></span>
-<span class="itemfrom">[<a href="http://feeds.nature.com/nature/rss/current">Nature - Issue - nature.com science feeds</a>]</span>
-</p>
-<div class="itemdescription">
-<p>Nature, Published online: 11 September 2019; <a href="https://www.nature.com/articles/d41586-019-02728-9">doi:10.1038/d41586-019-02728-9</a></p>Bulgaria&#8217;s Mariya Gabriel picked to lead newly named policy department that combines research with education and youth affairs.<img alt="" height="1" src="http://feeds.feedburner.com/~r/nature/rss/current/~4/1gHsVzXlhNE" width="1" />
+<p>Meristems are highly regulated structures ultimately responsible for the formation of branches, lateral organs, and stems, and thus directly affect plant architecture and crop yield. In meristems, genetic networks, hormones, and signaling molecules are tightly integrated to establish robust systems that can adapt growth to continuous inputs from the environment....<img alt="" height="1" src="http://feeds.feedburner.com/~r/Pnas-RssFeedOfEarlyEditionArticles/~4/e5eFHeHanuU" width="1" />
 </div>
 </div>
 
@@ -325,13 +391,13 @@ problems arising in on-device privacy-preserving personalization.
 </div>
 </div>
 
-<div class="item feed-ccdce26d feed-ieeetransactionsonindustrialinformaticsnewtoc" id="item-a8658381">
+<div class="item feed-ccdce26d feed-ieeetransactionsonindustrialinformaticsnewtoc" id="item-310c822a">
 <p class="itemheader">
-<span class="itemtitle"><a href="http://ieeexplore.ieee.org/document/8636241">A Variable-Gain Finite-Time Convergent Recurrent Neural Network for Time-Variant Quadratic Programming With Unknown Noises Endured</a></span>
+<span class="itemtitle"><a href="http://ieeexplore.ieee.org/document/8643528">Coordinated Energy Dispatch of Autonomous Microgrids With Distributed MPC Optimization</a></span>
 <span class="itemfrom">[<a href="http://ieeexplore.ieee.org">IEEE Transactions on Industrial Informatics - new TOC</a>]</span>
 </p>
 <div class="itemdescription">
-<p>A variable-gain finite-time convergent and noise-enduring zeroing neural network (VGFTNE-ZNN) is for the first time proposed for time-variant convex quadratic programming (QP). Differing from the existing finite-time convergent ZNNs with constant or variable design gains (i.e., CGFT-ZNN and VGFT-ZNN) that have limited noise-handling capabilities, the proposed VGFTNE-ZNN can endure additive noises by dynamically adjusting its design gains in finite time. Design gains of the unpolluted VGFTNE-ZNN are allowed to be constant when the QP problem is solved, whereas the design gain of the existing unpolluted VGFT-ZNN unrealistically increases to infinity when time evolves to infinity. Unlike existing polluted ZNNs with known noises involved, more practical unknown noises are successfully handled by the VGFTNE-ZNN. The finite-time convergence and noise-endurance properties of the VGFTNE-ZNN are mathematically proved based on the Lyapunov theory. Numerical verifications are comparatively performed with the superiorities of the VGFTNE-ZNN substantiated as compared with the existing CGFT-ZNN and VGFT-ZNN.
+<p>With the increased penetration of renewable energy sources (RESs) and plug-and-play loads, Microgrids (MGs) bring direct challenges in energy management due to the uncertainties in both supply and demand sides. In this paper, we present a coordinated energy dispatch based on Distributed Model Predictive Control (DMPC), where the upper level provides an optimal scheduling for energy exchange between Distribution Network Operator (DNO) and MGs, whereas the lower level guarantees a satisfactory tracking between supply and demand. With the proposed scheme, not only we maintain a supply&#x2013;demand balance in an economic way, but also improve the renewable energy utilization of distributed MG systems. To describe the dynamic process of energy trading, a novel conditional probability distribution model is introduced, which can characterize randomness of charging/discharging and uncertainties of energy dispatch. Moreover, we formulate a two-layer optimization problem and the corresponding algorithm is given. Finally, simulation results show the effectiveness of the proposed method.
 </div>
 </div>
 
@@ -341,56 +407,6 @@ problems arising in on-device privacy-preserving personalization.
 <span class="itemfrom">[<a href="http://ieeexplore.ieee.org">IEEE Transactions on Industrial Informatics - new TOC</a>]</span>
 </p>
 
-</div>
-
-<div class="item feed-ed41d94f feed-jamacurrentissue" id="item-aa59143a">
-<p class="itemheader">
-<span class="itemtitle"><a href="https://jamanetwork.com/journals/jama/fullarticle/2749602">Don&#8217;t Fear the Reaper&#8212;Death Is Inevitable</a></span>
-<span class="itemfrom">[<a href="https://jamanetwork.com/journals/jama">JAMA Current Issue</a>]</span>
-</p>
-<div class="itemdescription">
-<p>In this narrative medicine essay, a dermatologist recalls his moments with his grandmother a fierce educator and administrator in the New York City Schools who taught him about life and death with advice and by example and whom he helped guide through her transition at 96 years&#8212;proud to be her medical advocate, sad to let her go.
-</div>
-</div>
-
-<div class="item feed-ed41d94f feed-jamacurrentissue" id="item-1fa06a46">
-<p class="itemheader">
-<span class="itemtitle"><a href="https://jamanetwork.com/journals/jama/fullarticle/2749601">Mistakes</a></span>
-<span class="itemfrom">[<a href="https://jamanetwork.com/journals/jama">JAMA Current Issue</a>]</span>
-</p>
-<div class="itemdescription">
-<p>I keep the kind notes From grateful patients in my Second desk drawer.
-</div>
-</div>
-
-<div class="item feed-ed41d94f feed-jamacurrentissue" id="item-34376d0d">
-<p class="itemheader">
-<span class="itemtitle"><a href="https://jamanetwork.com/journals/jama/fullarticle/2749599">Effect of a Home-Based Physical Therapy Intervention on Community Ambulation After Hip Fracture</a></span>
-<span class="itemfrom">[<a href="https://jamanetwork.com/journals/jama">JAMA Current Issue</a>]</span>
-</p>
-<div class="itemdescription">
-<p>This randomized clinical trial compares a multicomponent home-based physical therapy intervention with an active control on ability to walk in daily life among adults aged 60 years and older who had experienced a nonpathologic, minimal trauma hip fracture.
-</div>
-</div>
-
-<div class="item feed-ed41d94f feed-jamacurrentissue" id="item-c27a9f16">
-<p class="itemheader">
-<span class="itemtitle"><a href="https://jamanetwork.com/journals/jama/fullarticle/2749587">Cancer Said to Be Caused by a Single Injury</a></span>
-<span class="itemfrom">[<a href="https://jamanetwork.com/journals/jama">JAMA Current Issue</a>]</span>
-</p>
-<div class="itemdescription">
-<p>To the Editor:&#8212;I am interested to note your editorial of August 12 on the matter of claims for disability said to have resulted from cancer caused by a single injury. In my opinion this editorial is timely but scarcely goes far enough. Traumatic cancer attracted my interest for a rather brief period following the death of the late Dr. James Ewing. Dr. Ewing had been interested in this matter for years and at his death a number of unfinished cases were turned over to me for completion.
-</div>
-</div>
-
-<div class="item feed-ed41d94f feed-jamacurrentissue" id="item-70e28fb9">
-<p class="itemheader">
-<span class="itemtitle"><a href="https://jamanetwork.com/journals/jama/fullarticle/2748398">Medical Use of Cannabis in 2019</a></span>
-<span class="itemfrom">[<a href="https://jamanetwork.com/journals/jama">JAMA Current Issue</a>]</span>
-</p>
-<div class="itemdescription">
-<p>This JAMA Insights Clinical Update reviews what is known and not known about the efficacy and safety of cannabis and cannabinoids for managing medical conditions, distinguishing between FDA-approved indications, nonapproved indications supported by high-quality emerging evidence, and current claims and uses for which there is inadequate evidence.
-</div>
 </div>
 
 </div>
@@ -501,16 +517,18 @@ ny desired R and NR components. We are making the source code of a particularly 
 </div>
 </div>
 <div class="day">
-<h2>Tuesday, 27 August 2019</h2>
+<h2>Thursday, 29 August 2019</h2>
 <div class="time">
 <h3>04:00 PM</h3>
-<div class="item feed-c24550d7 feed-ieeetransactionsoninformationforensicsandsecuritynewtoc" id="item-f8279127">
+<div class="item feed-6b3f78ad feed-latestbmjresearch" id="item-938c50e4">
 <p class="itemheader">
-<span class="itemtitle"><a href="http://ieeexplore.ieee.org/document/8695052">Joint Intensity Transformer Network for Gait Recognition Robust Against Clothing and Carrying Status</a></span>
-<span class="itemfrom">[<a href="http://ieeexplore.ieee.org">IEEE Transactions on Information Forensics and Security - new TOC</a>]</span>
+<span class="itemtitle"><a href="http://feeds.bmj.com/~r/bmj/research/~3/TB0ZnymN6qw/bmj.l4894">HbA1c level as a risk factor for retinopathy and nephropathy in children and adults with type 1 diabetes: Swedish population based cohort study</a></span>
+<span class="itemfrom">[<a href="https://www.bmj.com/research/feed">Latest BMJ Research</a>]</span>
 </p>
 <div class="itemdescription">
-<p>Clothing and carrying status variations are the two key factors that affect the performance of gait recognition because people usually wear various clothes and carry all kinds of objects, while walking in their daily life. These covariates substantially affect the intensities within conventional gait representations such as gait energy images. Hence, to properly compare a pair of input gait features, an appropriate metric for joint intensity is needed in addition to the conventional spatial metric. We therefore propose a unified joint intensity transformer network for gait recognition that is robust against various clothing and carrying statuses. Specifically, the joint intensity transformer network is a unified deep learning-based architecture containing three parts: a joint intensity metric estimation net, a joint intensity transformer, and a discrimination network. First, the joint intensity metric estimation net uses a well-designed encoder-decoder network to estimate a sample-dependent joint intensity metric for a pair of input gait energy images. Subsequently, a joint intensity transformer module outputs the spatial dissimilarity of two gait energy images using the metric learned by the joint intensity metric estimation net. Third, the discrimination network is a generic convolution neural network for gait recognition. In addition, the joint intensity transformer network is designed with different loss functions depending on the gait recognition task (i.e., a contrastive loss function for the verification task and a triplet loss function for the identification task). The experiments on the world's largest datasets containing various clothing and carrying statuses demonstrate the state-of-the-art performance of the proposed method.
+<div class="feedflare">
+<a href="http://feeds.bmj.com/~ff/bmj/research?a=TB0ZnymN6qw:O5lJTPBbTKw:yIl2AUoC8zA"><img border="0" src="http://feeds.feedburner.com/~ff/bmj/research?d=yIl2AUoC8zA" /></a> <a href="http://feeds.bmj.com/~ff/bmj/research?a=TB0ZnymN6qw:O5lJTPBbTKw:dnMXMwOfBR0"><img border="0" src="http://feeds.feedburner.com/~ff/bmj/research?d=dnMXMwOfBR0" /></a> <a href="http://feeds.bmj.com/~ff/bmj/research?a=TB0ZnymN6qw:O5lJTPBbTKw:F7zBnMyn0Lo"><img border="0" src="http://feeds.feedburner.com/~ff/bmj/research?i=TB0ZnymN6qw:O5lJTPBbTKw:F7zBnMyn0Lo" /></a> <a href="http://feeds.bmj.com/~ff/bmj/research?a=TB0ZnymN6qw:O5lJTPBbTKw:V_sGLiPBpWU"><img border="0" src="http://feeds.feedburner.com/~ff/bmj/research?i=TB0ZnymN6qw:O5lJTPBbTKw:V_sGLiPBpWU" /></a> <a href="http://feeds.bmj.com/~ff/bmj/research?a=TB0ZnymN6qw:O5lJTPBbTKw:qj6IDK7rITs"><img border="0" src="http://feeds.feedburner.com/~ff/bmj/research?d=qj6IDK7rITs" /></a> <a href="http://feeds.bmj.com/~ff/bmj/research?a=TB0ZnymN6qw:O5lJTPBbTKw:gIN9vFwOqvQ"><img border="0" src="http://feeds.feedburner.com/~ff/bmj/research?i=TB0ZnymN6qw:O5lJTPBbTKw:gIN9vFwOqvQ" /></a>
+</div><img alt="" height="1" src="http://feeds.feedburner.com/~r/bmj/research/~4/TB0ZnymN6qw" width="1" />
 </div>
 </div>
 
@@ -520,6 +538,16 @@ ny desired R and NR components. We are making the source code of a particularly 
 <h2>Monday, 26 August 2019</h2>
 <div class="time">
 <h3>04:00 PM</h3>
+<div class="item feed-a4d49d75 feed-annualreviewsannualreviewofeconomicstableofcontents" id="item-f6a00df0">
+<p class="itemheader">
+<span class="itemtitle"><a href="https://www.annualreviews.org/doi/abs/10.1146/annurev-economics-080218-030323?ai=67b7&amp;mi=3fndc3&amp;af=R">The Economics of Kenneth J. Arrow: A Selective Review</a></span>
+<span class="itemfrom">[Annual Reviews: Annual Review of Economics: Table of Contents]</span>
+</p>
+<div class="itemdescription">
+<p>Annual Review of Economics, <a href="https://www.annualreviews.org/toc/economics/11/1">Volume 11, Issue 1</a>, Page 1-26, August 2019. <br />
+</div>
+</div>
+
 <div class="item feed-a4d49d75 feed-annualreviewsannualreviewofeconomicstableofcontents" id="item-7f9de0cc">
 <p class="itemheader">
 <span class="itemtitle"><a href="https://www.annualreviews.org/doi/abs/10.1146/annurev-economics-080218-030255?ai=67b7&amp;mi=3fndc3&amp;af=R">Evolutionary Models of Preference Formation</a></span>
@@ -540,23 +568,13 @@ ny desired R and NR components. We are making the source code of a particularly 
 </div>
 </div>
 
-<div class="item feed-a4d49d75 feed-annualreviewsannualreviewofeconomicstableofcontents" id="item-d8ec9f33">
+<div class="item feed-a4d49d75 feed-annualreviewsannualreviewofeconomicstableofcontents" id="item-8ec041d7">
 <p class="itemheader">
-<span class="itemtitle"><a href="https://www.annualreviews.org/doi/abs/10.1146/annurev-economics-080218-030312?ai=67b7&amp;mi=3fndc3&amp;af=R">Taking State-Capacity Research to the Field: Insights from Collaborations with Tax Authorities</a></span>
+<span class="itemtitle"><a href="https://www.annualreviews.org/doi/abs/10.1146/annurev-economics-080218-025843?ai=67b7&amp;mi=3fndc3&amp;af=R">Free Movement, Open Borders, and the Global Gains from Labor Mobility</a></span>
 <span class="itemfrom">[Annual Reviews: Annual Review of Economics: Table of Contents]</span>
 </p>
 <div class="itemdescription">
-<p>Annual Review of Economics, <a href="https://www.annualreviews.org/toc/economics/11/1">Volume 11, Issue 1</a>, Page 755-781, August 2019. <br />
-</div>
-</div>
-
-<div class="item feed-a4d49d75 feed-annualreviewsannualreviewofeconomicstableofcontents" id="item-501f44a0">
-<p class="itemheader">
-<span class="itemtitle"><a href="https://www.annualreviews.org/doi/abs/10.1146/annurev-economics-080217-053518?ai=67b7&amp;mi=3fndc3&amp;af=R">The International Monetary and Financial System</a></span>
-<span class="itemfrom">[Annual Reviews: Annual Review of Economics: Table of Contents]</span>
-</p>
-<div class="itemdescription">
-<p>Annual Review of Economics, <a href="https://www.annualreviews.org/toc/economics/11/1">Volume 11, Issue 1</a>, Page 859-893, August 2019. <br />
+<p>Annual Review of Economics, <a href="https://www.annualreviews.org/toc/economics/11/1">Volume 11, Issue 1</a>, Page 783-808, August 2019. <br />
 </div>
 </div>
 
@@ -648,13 +666,23 @@ ny desired R and NR components. We are making the source code of a particularly 
 <h2>Tuesday, 20 August 2019</h2>
 <div class="time">
 <h3>04:00 PM</h3>
-<div class="item feed-c24550d7 feed-ieeetransactionsoninformationforensicsandsecuritynewtoc" id="item-e74d5e2f">
+<div class="item feed-c24550d7 feed-ieeetransactionsoninformationforensicsandsecuritynewtoc" id="item-473ce63f">
 <p class="itemheader">
-<span class="itemtitle"><a href="http://ieeexplore.ieee.org/document/8695866">Individual Identification Based on Code-Modulated Visual-Evoked Potentials</a></span>
+<span class="itemtitle"><a href="http://ieeexplore.ieee.org/document/8700206">Adding a Helper Can Totally Remove the Secrecy Constraints in a Two-User Interference Channel</a></span>
 <span class="itemfrom">[<a href="http://ieeexplore.ieee.org">IEEE Transactions on Information Forensics and Security - new TOC</a>]</span>
 </p>
 <div class="itemdescription">
-<p>The electroencephalography (EEG) method has recently attracted increasing attention in the study of brain activity-based biometric systems because of its simplicity, portability, noninvasiveness, and relatively low cost. However, due to the low signal-to-noise ratio of EEG, most of the existing EEG-based biometric systems require a long duration of signals to achieve high accuracy in individual identification. Besides, the feasibility and stability of these systems have not yet been conclusively reported, since most studies did not perform longitudinal evaluation. In this paper, we proposed a novel EEG-based individual identification method using code-modulated visualevoked potentials (c-VEPs). Specifically, this paper quantitatively compared eight code-modulated stimulation patterns, including six 63-bit (1.05 s at 60-Hz refresh rate) m-sequences (M1-M6) and two spatially combined sequence groups (M&#x00d7;4: M1-M4 and M&#x00d7; 6: M1-M6) in recording the c-VEPs from a group of 25 subjects for individual identification. To further evaluate the influence of inter-session variability, we recorded two data sessions for each individual on different days to measure intra-session and cross-session identification performance. State-of-the-art VEP detection algorithms in brain-computer interfaces (BCIs) were employed to construct a template-matching-based identification framework. For intra-session identification, we achieved a 100% correct recognition rate (CRR) using 5.25-s EEG data (average of five trials for M5). For cross-session identification, 99.43% CRR was attained using 10.5-s EEG signals (average of ten trials for M5). These results suggest that the proposed c-VEP based individual identification method is promising for real-world applications.
+<p>In many communication channels, secrecy constraints usually incur a penalty in capacity, as well as generalized degrees-of-freedom (GDoF). In this paper, we show an interesting observation that adding a helper can totally remove the penalty in sum GDoF for a two-user symmetric Gaussian interference channel. For the interference channel where each transmitter sends a message to an intended receiver without secrecy constraints, the sum GDoF is a well-known &#x201c;W&#x201d; curve, characterized by Etkin-Tse-Wang in 2008. If the secrecy constraints are imposed on this interference channel, where the message of each transmitter must be secure from the unintended receiver (eavesdropper), then a GDoF penalty is incurred and the secure sum GDoF is reduced to a modified &#x201c;W&#x201d; curve, derived by Chen recently. In this paper, we show that, by adding a helper into this interference channel with secrecy constraints, the secure sum GDoF turns out to be a &#x201c;W&#x201d; curve, which is the same as the sum GDoF of the setting without secrecy constraints. The proposed scheme is based on the cooperative jamming and a careful signal design such that the jamming signal of the helper is aligned at a specific direction and power level with the information signals of the transmitters, which allows us to totally remove the penalty in GDoF due to the secrecy constraints. Furthermore, the estimation approaches of noise removal and signal separation due to the rational independence are used in the secure rate analysis.
+</div>
+</div>
+
+<div class="item feed-c24550d7 feed-ieeetransactionsoninformationforensicsandsecuritynewtoc" id="item-2943f9f5">
+<p class="itemheader">
+<span class="itemtitle"><a href="http://ieeexplore.ieee.org/document/8678674">Robust Beamforming and Jamming for Enhancing the Physical Layer Security of Full Duplex Radios</a></span>
+<span class="itemfrom">[<a href="http://ieeexplore.ieee.org">IEEE Transactions on Information Forensics and Security - new TOC</a>]</span>
+</p>
+<div class="itemdescription">
+<p>In this paper, we investigate the physical layer security of a full-duplex base station (BS)-aided system in the worst case, where an uplink transmitter (UT) and a downlink receiver (DR) are equipped with a single antenna, while a powerful eavesdropper is equipped with multiple antennas. For securing the confidentiality of signals transmitted from the BS and UT, an artificial noise (AN)-aided secrecy beamforming scheme is proposed, which is robust to the realistic imperfect state information of both the eavesdropping channel and the residual self-interference channel. Our objective function is that of maximizing the worst-case sum secrecy rate achieved by the BS and UT, through jointly optimizing the beamforming vector of the confidential signals and the transmit covariance matrix of the AN. However, the resulting optimization problem is non-convex and non-linear. In order to efficiently obtain the solution, we transform the non-convex problem into a sequence of convex problems by adopting the block coordinate descent algorithm. We invoke a linear matrix inequality for finding its Karush-Kuhn-Tucker (KKT) solution. In order to evaluate the achievable performance, the worst-case secrecy rate is analytically derived. Furthermore, we construct another secrecy transmission scheme using the projection matrix theory for performance comparison. Our simulation results show that the proposed robust secrecy transmission scheme achieves substantial secrecy performance gains, which verifies the efficiency of the proposed method.
 </div>
 </div>
 
@@ -673,16 +701,6 @@ ny desired R and NR components. We are making the source code of a particularly 
 <div class="feedflare">
 <a href="http://feeds.bmj.com/~ff/bmj/research?a=heFAFl-qq54:DD7bnY4oke8:yIl2AUoC8zA"><img border="0" src="http://feeds.feedburner.com/~ff/bmj/research?d=yIl2AUoC8zA" /></a> <a href="http://feeds.bmj.com/~ff/bmj/research?a=heFAFl-qq54:DD7bnY4oke8:dnMXMwOfBR0"><img border="0" src="http://feeds.feedburner.com/~ff/bmj/research?d=dnMXMwOfBR0" /></a> <a href="http://feeds.bmj.com/~ff/bmj/research?a=heFAFl-qq54:DD7bnY4oke8:F7zBnMyn0Lo"><img border="0" src="http://feeds.feedburner.com/~ff/bmj/research?i=heFAFl-qq54:DD7bnY4oke8:F7zBnMyn0Lo" /></a> <a href="http://feeds.bmj.com/~ff/bmj/research?a=heFAFl-qq54:DD7bnY4oke8:V_sGLiPBpWU"><img border="0" src="http://feeds.feedburner.com/~ff/bmj/research?i=heFAFl-qq54:DD7bnY4oke8:V_sGLiPBpWU" /></a> <a href="http://feeds.bmj.com/~ff/bmj/research?a=heFAFl-qq54:DD7bnY4oke8:qj6IDK7rITs"><img border="0" src="http://feeds.feedburner.com/~ff/bmj/research?d=qj6IDK7rITs" /></a> <a href="http://feeds.bmj.com/~ff/bmj/research?a=heFAFl-qq54:DD7bnY4oke8:gIN9vFwOqvQ"><img border="0" src="http://feeds.feedburner.com/~ff/bmj/research?i=heFAFl-qq54:DD7bnY4oke8:gIN9vFwOqvQ" /></a>
 </div><img alt="" height="1" src="http://feeds.feedburner.com/~r/bmj/research/~4/heFAFl-qq54" width="1" />
-</div>
-</div>
-
-<div class="item feed-b93c25e9 feed-earlyedition" id="item-6f25e730">
-<p class="itemheader">
-<span class="itemtitle"><a href="http://feedproxy.google.com/~r/Pnas-RssFeedOfEarlyEditionArticles/~3/ZmgbrAV-shg/1908758116.short">Regularizations of time crystal dynamics [Applied Mathematics]</a></span>
-<span class="itemfrom">[<a href="http://www.pnas.org">Early Edition</a>]</span>
-</p>
-<div class="itemdescription">
-<p>We demonstrate that nonconvex Lagrangians, as contemplated in the theory of time crystals, can arise in the effective description of conventional, physically realizable systems. Such embeddings resolve dynamical singularities which arise in the reduced description. Microstructure featuring intervals of fixed velocity interrupted by quick resets&#8212;&#8220;Sisyphus dynamics&#8221;&#8212;is a generic consequence. In...<img alt="" height="1" src="http://feeds.feedburner.com/~r/Pnas-RssFeedOfEarlyEditionArticles/~4/ZmgbrAV-shg" width="1" />
 </div>
 </div>
 
@@ -726,16 +744,6 @@ ny desired R and NR components. We are making the source code of a particularly 
 </div>
 </div>
 
-<div class="item feed-3b836157 feed-annualreviewsannualreviewofsociologytableofcontents" id="item-e1c01ed8">
-<p class="itemheader">
-<span class="itemtitle"><a href="https://www.annualreviews.org/doi/abs/10.1146/annurev-soc-073117-041335?ai=t0&amp;mi=3fndc3&amp;af=R">Assimilation and the Second Generation in Europe and America: Blending and Segregating Social Dynamics Between Immigrants and Natives</a></span>
-<span class="itemfrom">[Annual Reviews: Annual Review of Sociology: Table of Contents]</span>
-</p>
-<div class="itemdescription">
-<p>Annual Review of Sociology, <a href="https://www.annualreviews.org/toc/soc/45/1">Volume 45, Issue 1</a>, Page 177-199, July 2019. <br />
-</div>
-</div>
-
 <div class="item feed-3b836157 feed-annualreviewsannualreviewofsociologytableofcontents" id="item-e196dcf7">
 <p class="itemheader">
 <span class="itemtitle"><a href="https://www.annualreviews.org/doi/abs/10.1146/annurev-soc-073018-022416?ai=t0&amp;mi=3fndc3&amp;af=R">The Social Structure of Time: Emerging Trends and New Directions</a></span>
@@ -753,6 +761,16 @@ ny desired R and NR components. We are making the source code of a particularly 
 </p>
 <div class="itemdescription">
 <p>Annual Review of Sociology, <a href="https://www.annualreviews.org/toc/soc/45/1">Volume 45, Issue 1</a>, Page 321-343, July 2019. <br />
+</div>
+</div>
+
+<div class="item feed-3b836157 feed-annualreviewsannualreviewofsociologytableofcontents" id="item-583b3312">
+<p class="itemheader">
+<span class="itemtitle"><a href="https://www.annualreviews.org/doi/abs/10.1146/annurev-soc-073018-022616?ai=t0&amp;mi=3fndc3&amp;af=R">Analyzing Age-Period-Cohort Data: A Review and Critique</a></span>
+<span class="itemfrom">[Annual Reviews: Annual Review of Sociology: Table of Contents]</span>
+</p>
+<div class="itemdescription">
+<p>Annual Review of Sociology, <a href="https://www.annualreviews.org/toc/soc/45/1">Volume 45, Issue 1</a>, Page 467-492, July 2019. <br />
 </div>
 </div>
 
@@ -783,24 +801,6 @@ ny desired R and NR components. We are making the source code of a particularly 
 </p>
 <div class="itemdescription">
 <p>Touchless palmprint recognition systems enable high-accuracy recognition of individuals through less-constrained and highly usable procedures that do not require the contact of the palm with a surface. To perform this recognition, methods based on local texture descriptors and convolutional neural networks (CNNs) are currently used to extract highly discriminative features while compensating for variations in scale, rotation, and illumination in biometric samples. In particular, the main advantage of CNN-based methods is their ability to adapt to biometric samples captured with heterogeneous devices. However, the current methods rely on either supervised training algorithms, which require class labels (e.g., the identities of the individuals) during the training phase, or filters pretrained on general-purpose databases, which may not be specifically suitable for palmprint data. To achieve a high-recognition accuracy with touchless palmprint samples captured using different devices while neither requiring class labels for training nor using pretrained filters, we introduce PalmNet, which is a novel CNN that uses a newly developed method to tune palmprint-specific filters through an unsupervised procedure based on Gabor responses and principal component analysis (PCA), not requiring class labels during training. PalmNet is a new method of applying Gabor filters in a CNN and is designed to extract highly discriminative palmprint-specific descriptors and to adapt to heterogeneous databases. We validated the innovative PalmNet on several palmprint databases captured using different touchless acquisition procedures and heterogeneous devices, and in all cases, a recognition accuracy greater than that of the current methods in this paper was obtained.
-</div>
-</div>
-
-</div>
-</div>
-<div class="day">
-<h2>Monday, 29 July 2019</h2>
-<div class="time">
-<h3>04:00 PM</h3>
-<div class="item feed-6b3f78ad feed-latestbmjresearch" id="item-8d3a697b">
-<p class="itemheader">
-<span class="itemtitle"><a href="http://feeds.bmj.com/~r/bmj/research/~3/l6leeBDKO4Q/bmj.l4416">Hospital volume and outcomes for acute pulmonary embolism: multinational population based cohort study</a></span>
-<span class="itemfrom">[<a href="https://www.bmj.com/research/feed">Latest BMJ Research</a>]</span>
-</p>
-<div class="itemdescription">
-<div class="feedflare">
-<a href="http://feeds.bmj.com/~ff/bmj/research?a=l6leeBDKO4Q:xS9RqKSaQQI:yIl2AUoC8zA"><img border="0" src="http://feeds.feedburner.com/~ff/bmj/research?d=yIl2AUoC8zA" /></a> <a href="http://feeds.bmj.com/~ff/bmj/research?a=l6leeBDKO4Q:xS9RqKSaQQI:dnMXMwOfBR0"><img border="0" src="http://feeds.feedburner.com/~ff/bmj/research?d=dnMXMwOfBR0" /></a> <a href="http://feeds.bmj.com/~ff/bmj/research?a=l6leeBDKO4Q:xS9RqKSaQQI:F7zBnMyn0Lo"><img border="0" src="http://feeds.feedburner.com/~ff/bmj/research?i=l6leeBDKO4Q:xS9RqKSaQQI:F7zBnMyn0Lo" /></a> <a href="http://feeds.bmj.com/~ff/bmj/research?a=l6leeBDKO4Q:xS9RqKSaQQI:V_sGLiPBpWU"><img border="0" src="http://feeds.feedburner.com/~ff/bmj/research?i=l6leeBDKO4Q:xS9RqKSaQQI:V_sGLiPBpWU" /></a> <a href="http://feeds.bmj.com/~ff/bmj/research?a=l6leeBDKO4Q:xS9RqKSaQQI:qj6IDK7rITs"><img border="0" src="http://feeds.feedburner.com/~ff/bmj/research?d=qj6IDK7rITs" /></a> <a href="http://feeds.bmj.com/~ff/bmj/research?a=l6leeBDKO4Q:xS9RqKSaQQI:gIN9vFwOqvQ"><img border="0" src="http://feeds.feedburner.com/~ff/bmj/research?i=l6leeBDKO4Q:xS9RqKSaQQI:gIN9vFwOqvQ" /></a>
-</div><img alt="" height="1" src="http://feeds.feedburner.com/~r/bmj/research/~4/l6leeBDKO4Q" width="1" />
 </div>
 </div>
 
@@ -872,6 +872,16 @@ ny desired R and NR components. We are making the source code of a particularly 
 <h2>Sunday, 09 June 2019</h2>
 <div class="time">
 <h3>07:32 PM</h3>
+<div class="item feed-52e73913 feed-annualreviewsannualreviewofpoliticalsciencetableofcontents" id="item-6d7b35bf">
+<p class="itemheader">
+<span class="itemtitle"><a href="https://www.annualreviews.org/doi/abs/10.1146/annurev-polisci-050317-070708?af=R">The Economics and Politics of Preferential Trade Agreements</a></span>
+<span class="itemfrom">[Annual Reviews: Annual Review of Political Science: Table of Contents]</span>
+</p>
+<div class="itemdescription">
+<p>Annual Review of Political Science, <a href="https://www.annualreviews.org/toc/polisci/22/1">Volume 22, Issue 1</a>, Page 75-92, May 2019. <br />
+</div>
+</div>
+
 <div class="item feed-52e73913 feed-annualreviewsannualreviewofpoliticalsciencetableofcontents" id="item-5dd89bb5">
 <p class="itemheader">
 <span class="itemtitle"><a href="https://www.annualreviews.org/doi/abs/10.1146/annurev-polisci-050317-071146?af=R">The Politics of Housing</a></span>
@@ -879,16 +889,6 @@ ny desired R and NR components. We are making the source code of a particularly 
 </p>
 <div class="itemdescription">
 <p>Annual Review of Political Science, <a href="https://www.annualreviews.org/toc/polisci/22/1">Volume 22, Issue 1</a>, Page 165-185, May 2019. <br />
-</div>
-</div>
-
-<div class="item feed-52e73913 feed-annualreviewsannualreviewofpoliticalsciencetableofcontents" id="item-8f0b8c67">
-<p class="itemheader">
-<span class="itemtitle"><a href="https://www.annualreviews.org/doi/abs/10.1146/annurev-polisci-050317-070912?af=R">Beyond the &#8220;Sinew of War&#8221;: The Political Economy of Security as a Subfield</a></span>
-<span class="itemfrom">[Annual Reviews: Annual Review of Political Science: Table of Contents]</span>
-</p>
-<div class="itemdescription">
-<p>Annual Review of Political Science, <a href="https://www.annualreviews.org/toc/polisci/22/1">Volume 22, Issue 1</a>, Page 223-239, May 2019. <br />
 </div>
 </div>
 
@@ -938,6 +938,16 @@ ny desired R and NR components. We are making the source code of a particularly 
 </div>
 </div>
 
+<div class="item feed-b3e4c5b6 feed-annualreviewsannualreviewofphysiologytableofcontents" id="item-c1c10727">
+<p class="itemheader">
+<span class="itemtitle"><a href="https://www.annualreviews.org/doi/abs/10.1146/annurev-physiol-021317-121515?ai=sp&amp;mi=3fndc3&amp;af=R">Unexpected Roles for the Second Brain: Enteric Nervous System as Master Regulator of Bowel Function</a></span>
+<span class="itemfrom">[Annual Reviews: Annual Review of Physiology: Table of Contents]</span>
+</p>
+<div class="itemdescription">
+<p>Annual Review of Physiology, <a href="https://www.annualreviews.org/toc/physiol/81/1">Volume 81, Issue 1</a>, Page 235-259, February 2019. <br />
+</div>
+</div>
+
 <div class="item feed-b3e4c5b6 feed-annualreviewsannualreviewofphysiologytableofcontents" id="item-ffd2419f">
 <p class="itemheader">
 <span class="itemtitle"><a href="https://www.annualreviews.org/doi/abs/10.1146/annurev-physiol-020518-114605?ai=sp&amp;mi=3fndc3&amp;af=R">Biomarkers of Acute and Chronic Kidney Disease</a></span>
@@ -968,16 +978,6 @@ ny desired R and NR components. We are making the source code of a particularly 
 </div>
 </div>
 
-<div class="item feed-b3e4c5b6 feed-annualreviewsannualreviewofphysiologytableofcontents" id="item-d4f36e30">
-<p class="itemheader">
-<span class="itemtitle"><a href="https://www.annualreviews.org/doi/abs/10.1146/annurev-physiol-020518-114339?ai=sp&amp;mi=3fndc3&amp;af=R">The Physiology of Optimizing Health with a Focus on Exercise as Medicine</a></span>
-<span class="itemfrom">[Annual Reviews: Annual Review of Physiology: Table of Contents]</span>
-</p>
-<div class="itemdescription">
-<p>Annual Review of Physiology, <a href="https://www.annualreviews.org/toc/physiol/81/1">Volume 81, Issue 1</a>, Page 607-627, February 2019. <br />
-</div>
-</div>
-
 </div>
 </div>
 
@@ -992,113 +992,113 @@ ny desired R and NR components. We are making the source code of a particularly 
 <tr class="feedsrow">
 <td>Annual Reviews: Annual Review of Economics: Table of Contents</td>
 <td><a class="xmlbutton" href="http://www.annualreviews.org/action/showFeed?ui=45mu4&amp;mi=3fndc3&amp;ai=67b7&amp;jc=economics&amp;type=etoc&amp;feed=rss">XML</a></td>
-<td>12:00 AM, Tuesday, 17 September 2019</td>
-<td>03:00 AM, Tuesday, 17 September 2019</td>
+<td>04:00 PM, Tuesday, 24 September 2019</td>
+<td>07:00 PM, Tuesday, 24 September 2019</td>
 </tr>
 
 <tr class="feedsrow">
 <td>Annual Reviews: Annual Review of Nutrition: Table of Contents</td>
 <td><a class="xmlbutton" href="http://www.annualreviews.org/action/showFeed?ui=45mu4&amp;mi=3fndc3&amp;ai=rz&amp;jc=nutr&amp;type=etoc&amp;feed=rss">XML</a></td>
-<td>12:00 AM, Tuesday, 17 September 2019</td>
-<td>03:00 AM, Tuesday, 17 September 2019</td>
+<td>04:00 PM, Tuesday, 24 September 2019</td>
+<td>07:00 PM, Tuesday, 24 September 2019</td>
 </tr>
 
 <tr class="feedsrow">
 <td>Annual Reviews: Annual Review of Physiology: Table of Contents</td>
 <td><a class="xmlbutton" href="http://www.annualreviews.org/action/showFeed?ui=45mu4&amp;mi=3fndc3&amp;ai=sp&amp;jc=physiol&amp;type=etoc&amp;feed=rss">XML</a></td>
-<td>12:00 AM, Tuesday, 17 September 2019</td>
-<td>03:00 AM, Tuesday, 17 September 2019</td>
+<td>04:00 PM, Tuesday, 24 September 2019</td>
+<td>07:00 PM, Tuesday, 24 September 2019</td>
 </tr>
 
 <tr class="feedsrow">
 <td>Annual Reviews: Annual Review of Political Science: Table of Contents</td>
 <td><a class="xmlbutton" href="http://www.annualreviews.org/action/showFeed?jc=polisci&amp;type=etoc&amp;feed=rss">XML</a></td>
-<td>12:00 AM, Tuesday, 17 September 2019</td>
-<td>03:00 AM, Tuesday, 17 September 2019</td>
+<td>04:00 PM, Tuesday, 24 September 2019</td>
+<td>07:00 PM, Tuesday, 24 September 2019</td>
 </tr>
 
 <tr class="feedsrow">
 <td>Annual Reviews: Annual Review of Sociology: Table of Contents</td>
 <td><a class="xmlbutton" href="http://www.annualreviews.org/action/showFeed?ui=45mu4&amp;mi=3fndc3&amp;ai=t0&amp;jc=soc&amp;type=etoc&amp;feed=rss">XML</a></td>
-<td>12:00 AM, Tuesday, 17 September 2019</td>
-<td>03:00 AM, Tuesday, 17 September 2019</td>
+<td>04:00 PM, Tuesday, 24 September 2019</td>
+<td>07:00 PM, Tuesday, 24 September 2019</td>
 </tr>
 
 <tr class="feedsrow">
 <td><a href="http://arxiv.org/">cs.CR updates on arXiv.org</a></td>
 <td><a class="xmlbutton" href="http://export.arxiv.org/rss/cs.CR">XML</a></td>
-<td>12:00 AM, Tuesday, 17 September 2019</td>
-<td>03:00 AM, Tuesday, 17 September 2019</td>
+<td>04:00 PM, Tuesday, 24 September 2019</td>
+<td>07:00 PM, Tuesday, 24 September 2019</td>
 </tr>
 
 <tr class="feedsrow">
 <td><a href="http://www.pnas.org">Early Edition</a></td>
 <td><a class="xmlbutton" href="http://feeds.feedburner.com/Pnas-RssFeedOfEarlyEditionArticles?format=xml">XML</a></td>
-<td>12:00 AM, Tuesday, 17 September 2019</td>
-<td>03:00 AM, Tuesday, 17 September 2019</td>
+<td>04:00 PM, Tuesday, 24 September 2019</td>
+<td>07:00 PM, Tuesday, 24 September 2019</td>
 </tr>
 
 <tr class="feedsrow">
 <td><a href="http://www.eurekalert.org">EurekAlert! - Breaking News</a></td>
 <td><a class="xmlbutton" href="https://www.eurekalert.org/rss.xml">XML</a></td>
-<td>12:00 AM, Tuesday, 17 September 2019</td>
-<td>03:00 AM, Tuesday, 17 September 2019</td>
+<td>04:00 PM, Tuesday, 24 September 2019</td>
+<td>07:00 PM, Tuesday, 24 September 2019</td>
 </tr>
 
 <tr class="feedsrow">
 <td><a href="http://ieeexplore.ieee.org">IEEE Transactions on Image Processing - new TOC</a></td>
 <td><a class="xmlbutton" href="https://ieeexplore.ieee.org/rss/TOC83.XML">XML</a></td>
-<td>12:00 AM, Tuesday, 17 September 2019</td>
-<td>03:00 AM, Tuesday, 17 September 2019</td>
+<td>04:00 PM, Tuesday, 24 September 2019</td>
+<td>07:00 PM, Tuesday, 24 September 2019</td>
 </tr>
 
 <tr class="feedsrow">
 <td><a href="http://ieeexplore.ieee.org">IEEE Transactions on Industrial Electronics - new TOC</a></td>
 <td><a class="xmlbutton" href="https://ieeexplore.ieee.org/rss/TOC41.XML">XML</a></td>
-<td>12:00 AM, Tuesday, 17 September 2019</td>
-<td>03:00 AM, Tuesday, 17 September 2019</td>
+<td>04:00 PM, Tuesday, 24 September 2019</td>
+<td>07:00 PM, Tuesday, 24 September 2019</td>
 </tr>
 
 <tr class="feedsrow">
 <td><a href="http://ieeexplore.ieee.org">IEEE Transactions on Industrial Informatics - new TOC</a></td>
 <td><a class="xmlbutton" href="https://ieeexplore.ieee.org/rss/TOC9424.XML">XML</a></td>
-<td>12:00 AM, Tuesday, 17 September 2019</td>
-<td>03:00 AM, Tuesday, 17 September 2019</td>
+<td>04:00 PM, Tuesday, 24 September 2019</td>
+<td>07:00 PM, Tuesday, 24 September 2019</td>
 </tr>
 
 <tr class="feedsrow">
 <td><a href="http://ieeexplore.ieee.org">IEEE Transactions on Information Forensics and Security - new TOC</a></td>
 <td><a class="xmlbutton" href="https://ieeexplore.ieee.org/rss/TOC10206.XML">XML</a></td>
-<td>12:00 AM, Tuesday, 17 September 2019</td>
-<td>03:00 AM, Tuesday, 17 September 2019</td>
+<td>04:00 PM, Tuesday, 24 September 2019</td>
+<td>07:00 PM, Tuesday, 24 September 2019</td>
 </tr>
 
 <tr class="feedsrow">
 <td><a href="https://jamanetwork.com/journals/jama">JAMA Current Issue</a></td>
 <td><a class="xmlbutton" href="https://jamanetwork.com/rss/site_3/67.xml">XML</a></td>
-<td>12:00 AM, Tuesday, 17 September 2019</td>
-<td>03:00 AM, Tuesday, 17 September 2019</td>
+<td>04:00 PM, Tuesday, 24 September 2019</td>
+<td>07:00 PM, Tuesday, 24 September 2019</td>
 </tr>
 
 <tr class="feedsrow">
 <td><a href="https://www.bmj.com/research/feed">Latest BMJ Research</a></td>
 <td><a class="xmlbutton" href="http://feeds.bmj.com/bmj/research?format=xml">XML</a></td>
-<td>12:00 AM, Tuesday, 17 September 2019</td>
-<td>03:00 AM, Tuesday, 17 September 2019</td>
+<td>04:00 PM, Tuesday, 24 September 2019</td>
+<td>07:00 PM, Tuesday, 24 September 2019</td>
 </tr>
 
 <tr class="feedsrow">
 <td><a href="http://feeds.nature.com/nature/rss/current">Nature - Issue - nature.com science feeds</a></td>
 <td><a class="xmlbutton" href="http://feeds.nature.com/nature/rss/current?format=xml">XML</a></td>
-<td>12:00 AM, Tuesday, 17 September 2019</td>
-<td>03:00 AM, Tuesday, 17 September 2019</td>
+<td>04:00 PM, Tuesday, 24 September 2019</td>
+<td>07:00 PM, Tuesday, 24 September 2019</td>
 </tr>
 
 <tr class="feedsrow">
 <td><a href="https://www.thelancet.com/journals/lancet/issue/current">The Lancet</a></td>
 <td><a class="xmlbutton" href="http://www.thelancet.com/rssfeed/lancet_current.xml">XML</a></td>
-<td>12:00 AM, Tuesday, 17 September 2019</td>
-<td>03:00 AM, Tuesday, 17 September 2019</td>
+<td>04:00 PM, Tuesday, 24 September 2019</td>
+<td>07:00 PM, Tuesday, 24 September 2019</td>
 </tr>
 
 </table>
