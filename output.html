@@ -13,364 +13,450 @@
 </div>
 <div id="items">
 <div class="day">
-<h2>Wednesday, 04 December 2019</h2>
+<h2>Wednesday, 11 December 2019</h2>
 <div class="time">
 <h3>04:00 PM</h3>
-<div class="item feed-1b28272e feed-cscrupdatesonarxivorg" id="item-b5952ddb">
+<div class="item feed-1b28272e feed-cscrupdatesonarxivorg" id="item-9a1bfe2c">
 <p class="itemheader">
-<span class="itemtitle"><a href="http://arxiv.org/abs/1912.01051">Estimating Numerical Distributions under Local Differential Privacy. (arXiv:1912.01051v1 [cs.CR])</a></span>
+<span class="itemtitle"><a href="http://arxiv.org/abs/1912.04497">Feature Losses for Adversarial Robustness. (arXiv:1912.04497v1 [cs.CV])</a></span>
 <span class="itemfrom">[<a href="http://arxiv.org/">cs.CR updates on arXiv.org</a>]</span>
 </p>
 <div class="itemdescription">
-<p>When collecting information, local differential privacy (LDP) relieves the
-concern of privacy leakage from users' perspective, as user's private
-information is randomized before sent to the aggregator. We study the problem
-of recovering the distribution over a numerical domain while satisfying LDP.
-While one can discretize a numerical domain and then apply the protocols
-developed for categorical domains, we show that taking advantage of the
-numerical nature of the domain results in better trade-off of privacy and
-utility. We introduce a new reporting mechanism, called the square wave SW
-mechanism, which exploits the numerical nature in reporting. We also develop an
-Expectation Maximization with Smoothing (EMS) algorithm, which is applied to
-aggregated histograms from the SW mechanism to estimate the original
-distributions. Extensive experiments demonstrate that our proposed approach, SW
-with EMS, consistently outperforms other methods in a variety of utility
-metrics.
+<p>Deep learning has made tremendous advances in computer vision tasks such as
+image classification. However, recent studies have shown that deep learning
+models are vulnerable to specifically crafted adversarial inputs that are
+quasi-imperceptible to humans. In this work, we propose a novel approach to
+defending adversarial attacks. We employ an input processing technique based on
+denoising autoencoders as a defense. It has been shown that the input
+perturbations grow and accumulate as noise in feature maps while propagating
+through a convolutional neural network (CNN). We exploit the noisy feature maps
+by using an additional subnetwork to extract image feature maps and train an
+auto-encoder on perceptual losses of these feature maps. This technique
+achieves close to state-of-the-art results on defending MNIST and CIFAR10
+datasets, but more importantly, shows a new way of employing a defense that
+cannot be trivially trained end-to-end by the attacker. Empirical results
+demonstrate the effectiveness of this approach on the MNIST and CIFAR10
+datasets on simple as well as iterative LP attacks. Our method can be applied
+as a preprocessing technique to any off the shelf CNN.
 </p>
 </div>
 </div>
 
-<div class="item feed-1b28272e feed-cscrupdatesonarxivorg" id="item-f6c2d043">
+<div class="item feed-1b28272e feed-cscrupdatesonarxivorg" id="item-25a03eba">
 <p class="itemheader">
-<span class="itemtitle"><a href="http://arxiv.org/abs/1912.01560">Drndalo: Lightweight Control Flow Obfuscation Through Minimal Processor/Compiler Co-Design. (arXiv:1912.01560v1 [cs.DC])</a></span>
+<span class="itemtitle"><a href="http://arxiv.org/abs/1912.04836">Snoopy: Sniffing Your Smartwatch Passwords via Deep Sequence Learning. (arXiv:1912.04836v1 [cs.HC])</a></span>
 <span class="itemfrom">[<a href="http://arxiv.org/">cs.CR updates on arXiv.org</a>]</span>
 </p>
 <div class="itemdescription">
-<p>Binary analysis is traditionally used in the realm of malware detection.
-However, the same technique may be employed by an attacker to analyze the
-original binaries in order to reverse engineer them and extract exploitable
-weaknesses. When a binary is distributed to end users, it becomes a common
-remotely exploitable attack point. Code obfuscation is used to hinder reverse
-engineering of executable programs. In this paper, we focus on securing binary
-distribution, where attackers gain access to binaries distributed to end
-devices, in order to reverse engineer them and find potential vulnerabilities.
-Attackers do not however have means to monitor the execution of said devices.
-In particular, we focus on the control flow obfuscation --- a technique that
-prevents an attacker from restoring the correct reachability conditions for the
-basic blocks of a program. By doing so, we thwart attackers in their effort to
-infer the inputs that cause the program to enter a vulnerable state (e.g.,
-buffer overrun). We propose a compiler extension for obfuscation and a minimal
-hardware modification for dynamic deobfuscation that takes advantage of a
-secret key stored in hardware. We evaluate our experiments on the LLVM compiler
-toolchain and the BRISC-V open source processor. On PARSEC benchmarks, our
-deobfuscation technique incurs only a 5\% runtime overhead. We evaluate the
-security of Drndalo by training classifiers on pairs of obfuscated and
-unobfuscated binaries. Our results shine light on the difficulty of producing
-obfuscated binaries of arbitrary programs in such a way that they are
-statistically indistinguishable from plain binaries.
+<p>Demand for smartwatches has taken off in recent years with new models which
+can run independently from smartphones and provide more useful features,
+becoming first-class mobile platforms. One can access online banking or even
+make payments on a smartwatch without a paired phone. This makes smartwatches
+more attractive and vulnerable to malicious attacks, which to date have been
+largely overlooked. In this paper, we demonstrate Snoopy, a password extraction
+and inference system which is able to accurately infer passwords entered on
+Android/Apple watches within 20 attempts, just by eavesdropping on motion
+sensors. Snoopy uses a uniform framework to extract the segments of motion data
+when passwords are entered, and uses novel deep neural networks to infer the
+actual passwords. We evaluate the proposed Snoopy system in the real-world with
+data from 362 participants and show that our system offers a 3-fold improvement
+in the accuracy of inferring passwords compared to the state-of-the-art,
+without consuming excessive energy or computational resources. We also show
+that Snoopy is very resilient to user and device heterogeneity: it can be
+trained on crowd-sourced motion data (e.g. via Amazon Mechanical Turk), and
+then used to attack passwords from a new user, even if they are wearing a
+different model. This paper shows that, in the wrong hands, Snoopy can
+potentially cause serious leaks of sensitive information. By raising awareness,
+we invite the community and manufacturers to revisit the risks of continuous
+motion sensing on smart wearable devices.
 </p>
 </div>
 </div>
 
-<div class="item feed-1b28272e feed-cscrupdatesonarxivorg" id="item-f884eee6">
+<div class="item feed-1b28272e feed-cscrupdatesonarxivorg" id="item-f73a404a">
 <p class="itemheader">
-<span class="itemtitle"><a href="http://arxiv.org/abs/1904.03542">On Training Robust PDF Malware Classifiers. (arXiv:1904.03542v2 [cs.CR] UPDATED)</a></span>
+<span class="itemtitle"><a href="http://arxiv.org/abs/1912.04865">Security in Process: Visually Supported Triage Analysis in Industrial Process Data. (arXiv:1912.04865v1 [cs.CR])</a></span>
 <span class="itemfrom">[<a href="http://arxiv.org/">cs.CR updates on arXiv.org</a>]</span>
 </p>
 <div class="itemdescription">
-<p>Although state-of-the-art PDF malware classifiers can be trained with almost
-perfect test accuracy (99%) and extremely low false positive rate (under 0.1%),
-it has been shown that even a simple adversary can evade them. A practically
-useful malware classifier must be robust against evasion attacks. However,
-achieving such robustness is an extremely challenging task.
-</p>
-<p>In this paper, we take the first steps towards training robust PDF malware
-classifiers with verifiable robustness properties. For instance, a robustness
-property can enforce that no matter how many pages from benign documents are
-inserted into a PDF malware, the classifier must still classify it as
-malicious. We demonstrate how the worst-case behavior of a malware classifier
-with respect to specific robustness properties can be formally verified.
-Furthermore, we find that training classifiers that satisfy formally verified
-robustness properties can increase the evasion cost of unbounded (i.e., not
-bounded by the robustness properties) attackers by eliminating simple evasion
-attacks.
-</p>
-<p>Specifically, we propose a new distance metric that operates on the PDF tree
-structure and specify two classes of robustness properties including subtree
-insertions and deletions. We utilize state-of-the-art verifiably robust
-training method to build robust PDF malware classifiers. Our results show that,
-we can achieve 92.27% average verified robust accuracy over three properties,
-while maintaining 99.74% accuracy and 0.56% false positive rate. With simple
-robustness properties, our robust model maintains 7% higher robust accuracy
-than all the baseline models against unrestricted whitebox attacks. Moreover,
-the state-of-the-art and new adaptive evolutionary attackers need up to 10
-times larger $L_0$ feature distance and 21 times more PDF basic mutations
-(e.g., inserting and deleting objects) to evade our robust model than the
-baselines.
+<p>Operation technology networks, i.e. hard- and software used for monitoring
+and controlling physical/industrial processes, have been considered immune to
+cyber attacks for a long time. A recent increase of attacks in these networks
+proves this assumption wrong. Several technical constraints lead to approaches
+to detect attacks on industrial processes using available sensor data. This
+setting differs fundamentally from anomaly detection in IT-network traffic and
+requires new visualization approaches adapted to the common periodical behavior
+in OT-network data. We present a tailored visualization system that utilizes
+inherent features of measurements from industrial processes to full capacity to
+provide insight into the data and support triage analysis by laymen and
+experts. The novel combination of spiral plots with results from anomaly
+detection was implemented in an interactive system. The capabilities of our
+system are demonstrated using sensor and actuator data from a real-world water
+treatment process with introduced attacks. Exemplary analysis strategies are
+presented. Finally, we evaluate effectiveness and usability of our system and
+perform an expert evaluation.
 </p>
 </div>
 </div>
 
-<div class="item feed-1b28272e feed-cscrupdatesonarxivorg" id="item-48154be9">
+<div class="item feed-1b28272e feed-cscrupdatesonarxivorg" id="item-d9d279a3">
 <p class="itemheader">
-<span class="itemtitle"><a href="http://arxiv.org/abs/1908.01297">A Restricted Black-box Adversarial Framework Towards Attacking Graph Embedding Models. (arXiv:1908.01297v4 [cs.SI] UPDATED)</a></span>
+<span class="itemtitle"><a href="http://arxiv.org/abs/1908.03296">That Was Then, This Is Now: A Security Evaluation of Password Generation, Storage, and Autofill in Thirteen Password Managers. (arXiv:1908.03296v2 [cs.CR] UPDATED)</a></span>
 <span class="itemfrom">[<a href="http://arxiv.org/">cs.CR updates on arXiv.org</a>]</span>
 </p>
 <div class="itemdescription">
-<p>With the great success of graph embedding model on both academic and industry
-area, the robustness of graph embedding against adversarial attack inevitably
-becomes a central problem in graph learning domain. Regardless of the fruitful
-progress, most of the current works perform the attack in a white-box fashion:
-they need to access the model predictions and labels to construct their
-adversarial loss. However, the inaccessibility of model predictions in real
-systems makes the white-box attack impractical to real graph learning system.
-This paper promotes current frameworks in a more general and flexible sense --
-we demand to attack various kinds of graph embedding model with black-box
-driven. To this end, we begin by investigating the theoretical connections
-between graph signal processing and graph embedding models in a principled way
-and formulate the graph embedding model as a general graph signal process with
-corresponding graph filter. As such, a generalized adversarial attacker:
-GF-Attack is constructed by the graph filter and feature matrix. Instead of
-accessing any knowledge of the target classifiers used in graph embedding,
-GF-Attack performs the attack only on the graph filter in a black-box attack
-fashion. To validate the generalization of GF-Attack, we construct the attacker
-on four popular graph embedding models. Extensive experimental results validate
-the effectiveness of our attacker on several benchmark datasets. Particularly
-by using our attack, even small graph perturbations like one-edge flip is able
-to consistently make a strong attack in performance to different graph
-embedding models.
+<p>Password managers have the potential to help users more effectively manage
+their passwords and address many of the concerns surrounding password-based
+authentication, however prior research has identified significant
+vulnerabilities in existing password managers. Since that time, five years has
+passed, leaving it unclear whether password managers remain vulnerable or
+whether they are now ready for broad adoption. To answer this question, we
+evaluate thirteen popular password managers and consider all three stages of
+the password manager lifecycle--password generation, storage, and autofill. Our
+evaluation is the first analysis of password generation in password managers,
+finding several non-random character distributions and identifying instances
+where generated passwords were vulnerable to online and offline guessing
+attacks. For password storage and autofill, we replicate past evaluations,
+demonstrating that while password managers have improved in the half-decade
+since those prior evaluations, there are still significant issues, particularly
+with browser-based password managers; these problems include unencrypted
+metadata, unsafe defaults, and vulnerabilities to clickjacking attacks. Based
+on our results, we identify password managers to avoid, provide recommendations
+on how to improve existing password managers, and identify areas of future
+research.
 </p>
 </div>
 </div>
 
-<div class="item feed-1b28272e feed-cscrupdatesonarxivorg" id="item-6393b37d">
+<div class="item feed-1b28272e feed-cscrupdatesonarxivorg" id="item-11e53f0f">
 <p class="itemheader">
-<span class="itemtitle"><a href="http://arxiv.org/abs/1910.13063">MaskedNet: The First Hardware Inference Engine Aiming Power Side-Channel Protection. (arXiv:1910.13063v3 [cs.CR] UPDATED)</a></span>
+<span class="itemtitle"><a href="http://arxiv.org/abs/1911.11607">Deep Learning with Gaussian Differential Privacy. (arXiv:1911.11607v2 [cs.LG] UPDATED)</a></span>
 <span class="itemfrom">[<a href="http://arxiv.org/">cs.CR updates on arXiv.org</a>]</span>
 </p>
 <div class="itemdescription">
-<p>Differential Power Analysis (DPA) has been an active area of research for the
-past two decades to study the attacks for extracting secret information from
-cryptographic implementations through power measurements and their defenses.
-Unfortunately, the research on power side-channels have so far predominantly
-focused on analyzing implementations of ciphers such as AES, DES, RSA, and
-recently post-quantum cryptography primitives (e.g., lattices). Meanwhile,
-machine-learning, and in particular deep-learning applications are becoming
-ubiquitous with several scenarios where the Machine Learning Models are
-Intellectual Properties requiring confidentiality. Expanding side-channel
-analysis to Machine Learning Model extraction, however, is largely unexplored.
-</p>
-<p>This paper expands the DPA framework to neural-network classifiers. First, it
-shows DPA attacks during inference to extract the secret model parameters such
-as weights and biases of a neural network. Second, it proposes the
-$\textit{first countermeasures}$ against these attacks by augmenting
-$\textit{masking}$. The resulting design uses novel masked components such as
-masked adder trees for fully-connected layers and masked Rectifier Linear Units
-for activation functions. On a SAKURA-X FPGA board, experiments show that the
-first-order DPA attacks on the unprotected implementation can succeed with only
-200 traces and our protection respectively increases the latency and area-cost
-by 2.8x and 2.3x.
+<p>Deep learning models are often trained on datasets that contain sensitive
+information such as individuals' shopping transactions, personal contacts, and
+medical records. An increasingly important line of work therefore has sought to
+train neural networks subject to privacy constraints that are specified by
+differential privacy or its divergence-based relaxations. These privacy
+definitions, however, have weaknesses in handling certain important primitives
+(composition and subsampling), thereby giving loose or complicated privacy
+analyses of training neural networks. In this paper, we consider a recently
+proposed privacy definition termed f-differential privacy [17] for a refined
+privacy analysis of training neural networks. Leveraging the appealing
+properties of f-differential privacy in handling composition and subsampling,
+this paper derives analytically tractable expressions for the privacy
+guarantees of both stochastic gradient descent and Adam used in training deep
+neural networks, without the need of developing sophisticated techniques as [3]
+did. Our results demonstrate that the f-differential privacy framework allows
+for a new privacy analysis that improves on the prior analysis [3], which in
+turn suggests tuning certain parameters of neural networks for a better
+prediction accuracy without violating the privacy budget. These theoretically
+derived improvements are confirmed by our experiments in a range of tasks in
+image classification, text classification, and recommender systems.
 </p>
 </div>
 </div>
 
-<div class="item feed-53ba08d1 feed-natureissuenaturecomsciencefeeds" id="item-e3ae8b45">
+<div class="item feed-6b3f78ad feed-latestbmjresearch" id="item-02aa8374">
 <p class="itemheader">
-<span class="itemtitle"><a href="http://feeds.nature.com/~r/nature/rss/current/~3/rPhf3MquAxU/d41586-019-03718-7">Daily briefing: Black hole is &#8216;impossibly&#8217; massive</a></span>
+<span class="itemtitle"><a href="http://feeds.bmj.com/~r/bmj/research/~3/vsEyBxGARmM/bmj.l6398">Maternal diabetes during pregnancy and early onset of cardiovascular disease in offspring: population based cohort study with 40 years of follow-up</a></span>
+<span class="itemfrom">[<a href="https://www.bmj.com/research/feed/206327">Latest BMJ Research</a>]</span>
+</p>
+<div class="itemdescription">
+<div class="feedflare">
+<a href="http://feeds.bmj.com/~ff/bmj/research?a=vsEyBxGARmM:kUyd1xYMAck:yIl2AUoC8zA"><img border="0" src="http://feeds.feedburner.com/~ff/bmj/research?d=yIl2AUoC8zA" /></a> <a href="http://feeds.bmj.com/~ff/bmj/research?a=vsEyBxGARmM:kUyd1xYMAck:dnMXMwOfBR0"><img border="0" src="http://feeds.feedburner.com/~ff/bmj/research?d=dnMXMwOfBR0" /></a> <a href="http://feeds.bmj.com/~ff/bmj/research?a=vsEyBxGARmM:kUyd1xYMAck:F7zBnMyn0Lo"><img border="0" src="http://feeds.feedburner.com/~ff/bmj/research?i=vsEyBxGARmM:kUyd1xYMAck:F7zBnMyn0Lo" /></a> <a href="http://feeds.bmj.com/~ff/bmj/research?a=vsEyBxGARmM:kUyd1xYMAck:V_sGLiPBpWU"><img border="0" src="http://feeds.feedburner.com/~ff/bmj/research?i=vsEyBxGARmM:kUyd1xYMAck:V_sGLiPBpWU" /></a> <a href="http://feeds.bmj.com/~ff/bmj/research?a=vsEyBxGARmM:kUyd1xYMAck:qj6IDK7rITs"><img border="0" src="http://feeds.feedburner.com/~ff/bmj/research?d=qj6IDK7rITs" /></a> <a href="http://feeds.bmj.com/~ff/bmj/research?a=vsEyBxGARmM:kUyd1xYMAck:gIN9vFwOqvQ"><img border="0" src="http://feeds.feedburner.com/~ff/bmj/research?i=vsEyBxGARmM:kUyd1xYMAck:gIN9vFwOqvQ" /></a>
+</div><img alt="" height="1" src="http://feeds.feedburner.com/~r/bmj/research/~4/vsEyBxGARmM" width="1" />
+</div>
+</div>
+
+<div class="item feed-b93c25e9 feed-earlyedition" id="item-b86c0a36">
+<p class="itemheader">
+<span class="itemtitle"><a href="http://feedproxy.google.com/~r/Pnas-RssFeedOfEarlyEditionArticles/~3/K3flrYjDHAk/1905524116.short">Pressure-induced topological phase transition in noncentrosymmetric elemental tellurium [Physics]</a></span>
+<span class="itemfrom">[<a href="http://www.pnas.org">Early Edition</a>]</span>
+</p>
+<div class="itemdescription">
+<p>Recent progress in understanding the electronic band topology and emergent topological properties encourage us to reconsider the band structure of well-known materials including elemental substances. Controlling such a band topology by external field is of particular interest from both fundamental and technological viewpoints. Here we report possible signatures of the...<img alt="" height="1" src="http://feeds.feedburner.com/~r/Pnas-RssFeedOfEarlyEditionArticles/~4/K3flrYjDHAk" width="1" />
+</div>
+</div>
+
+<div class="item feed-b93c25e9 feed-earlyedition" id="item-23821fa0">
+<p class="itemheader">
+<span class="itemtitle"><a href="http://feedproxy.google.com/~r/Pnas-RssFeedOfEarlyEditionArticles/~3/7-bW4GPPzow/1920070116.short">Correction for Khan et al., Global selective sweep of a highly inbred genome of the cattle parasite Neospora caninum [Corrections]</a></span>
+<span class="itemfrom">[<a href="http://www.pnas.org">Early Edition</a>]</span>
+</p>
+<div class="itemdescription">
+<p>MICROBIOLOGY Correction for &#8220;Global selective sweep of a highly inbred genome of the cattle parasite Neospora caninum,&#8221; by Asis Khan, Ayako Wendy Fujita, Nadine Randle, Javier Regidor-Cerrillo, Jahangheer S. Shaik, Kui Shen, Andrew J. Oler, Mariam Quinones, Sarah M. Latham, Bartholomew D. Akanmori, Sarah Cleaveland, Elizabeth A. Innes, Una Ryan,...<img alt="" height="1" src="http://feeds.feedburner.com/~r/Pnas-RssFeedOfEarlyEditionArticles/~4/7-bW4GPPzow" width="1" />
+</div>
+</div>
+
+<div class="item feed-b93c25e9 feed-earlyedition" id="item-e7fbaabe">
+<p class="itemheader">
+<span class="itemtitle"><a href="http://feedproxy.google.com/~r/Pnas-RssFeedOfEarlyEditionArticles/~3/X7QB5LRoAzM/1911273116.short">Pancreatic cancer organoids recapitulate disease and allow personalized drug screening [Cell Biology]</a></span>
+<span class="itemfrom">[<a href="http://www.pnas.org">Early Edition</a>]</span>
+</p>
+<div class="itemdescription">
+<p>We report the derivation of 30 patient-derived organoid lines (PDOs) from tumors arising in the pancreas and distal bile duct. PDOs recapitulate tumor histology and contain genetic alterations typical of pancreatic cancer. In vitro testing of a panel of 76 therapeutic agents revealed sensitivities currently not exploited in the clinic,...<img alt="" height="1" src="http://feeds.feedburner.com/~r/Pnas-RssFeedOfEarlyEditionArticles/~4/X7QB5LRoAzM" width="1" />
+</div>
+</div>
+
+<div class="item feed-53ba08d1 feed-natureissuenaturecomsciencefeeds" id="item-fc5d9793">
+<p class="itemheader">
+<span class="itemtitle"><a href="http://feeds.nature.com/~r/nature/rss/current/~3/kWwcRQ-XsNk/s41586-019-1839-2">Author Correction: Tumour lineage shapes BRCA-mediated phenotypes</a></span>
 <span class="itemfrom">[<a href="http://feeds.nature.com/nature/rss/current">Nature - Issue - nature.com science feeds</a>]</span>
 </p>
 <div class="itemdescription">
-<p>Nature, Published online: 29 November 2019; <a href="https://www.nature.com/articles/d41586-019-03718-7">doi:10.1038/d41586-019-03718-7</a></p>Current theory says heavyweight black hole shouldn&#8217;t exist, a chink in the armour of drug-resistant MRSA and the highs and lows of doing a PhD.<img alt="" height="1" src="http://feeds.feedburner.com/~r/nature/rss/current/~4/rPhf3MquAxU" width="1" />
+<p>Nature, Published online: 11 December 2019; <a href="https://www.nature.com/articles/s41586-019-1839-2">doi:10.1038/s41586-019-1839-2</a></p>Author Correction: Tumour lineage shapes BRCA-mediated phenotypes<img alt="" height="1" src="http://feeds.feedburner.com/~r/nature/rss/current/~4/kWwcRQ-XsNk" width="1" />
 </div>
 </div>
 
-<div class="item feed-b2590d03 feed-annualreviewsannualreviewofnutritiontableofcontents" id="item-2513f926">
+<div class="item feed-53ba08d1 feed-natureissuenaturecomsciencefeeds" id="item-eae274d2">
 <p class="itemheader">
-<span class="itemtitle"><a href="https://www.annualreviews.org:443/doi/abs/10.1146/annurev-nu-39-190619-100001?ai=rz&amp;mi=3fndc3&amp;af=R">Addressing the Increased Expectations of Nutrition</a></span>
+<span class="itemtitle"><a href="http://feeds.nature.com/~r/nature/rss/current/~3/t1PbauiVcL0/d41586-019-03757-0">A heliocentric epic, volcanic viniculture, and cartoon chemistry: Books in brief</a></span>
+<span class="itemfrom">[<a href="http://feeds.nature.com/nature/rss/current">Nature - Issue - nature.com science feeds</a>]</span>
+</p>
+<div class="itemdescription">
+<p>Nature, Published online: 10 December 2019; <a href="https://www.nature.com/articles/d41586-019-03757-0">doi:10.1038/d41586-019-03757-0</a></p>Barbara Kiser reviews five of the week&#8217;s best science picks.<img alt="" height="1" src="http://feeds.feedburner.com/~r/nature/rss/current/~4/t1PbauiVcL0" width="1" />
+</div>
+</div>
+
+<div class="item feed-53ba08d1 feed-natureissuenaturecomsciencefeeds" id="item-1ab7d6ed">
+<p class="itemheader">
+<span class="itemtitle"><a href="http://feeds.nature.com/~r/nature/rss/current/~3/EJWYz8_vzH4/d41586-019-03785-w">When did societies become modern? &#8216;Big history&#8217; dashes popular idea of Axial Age</a></span>
+<span class="itemfrom">[<a href="http://feeds.nature.com/nature/rss/current">Nature - Issue - nature.com science feeds</a>]</span>
+</p>
+<div class="itemdescription">
+<p>Nature, Published online: 09 December 2019; <a href="https://www.nature.com/articles/d41586-019-03785-w">doi:10.1038/d41586-019-03785-w</a></p>Humanity&#8217;s supposed singular transition to modernity in the first millennium bc was much messier than previously thought, finds sweeping study of historical data.<img alt="" height="1" src="http://feeds.feedburner.com/~r/nature/rss/current/~4/EJWYz8_vzH4" width="1" />
+</div>
+</div>
+
+<div class="item feed-53ba08d1 feed-natureissuenaturecomsciencefeeds" id="item-6a2d8e3c">
+<p class="itemheader">
+<span class="itemtitle"><a href="http://feeds.nature.com/~r/nature/rss/current/~3/09Et9F7XPQU/s41586-019-1789-8">Accretion of a giant planet onto a white dwarf star</a></span>
+<span class="itemfrom">[<a href="http://feeds.nature.com/nature/rss/current">Nature - Issue - nature.com science feeds</a>]</span>
+</p>
+<div class="itemdescription">
+<p>Nature, Published online: 04 December 2019; <a href="https://www.nature.com/articles/s41586-019-1789-8">doi:10.1038/s41586-019-1789-8</a></p>Observations of an accretion disk around a hot white dwarf star reveal that the chemical abundances in its disk are similar to those thought to exist deep in icy giant planets, so the white dwarf must be accreting a giant planet.<img alt="" height="1" src="http://feeds.feedburner.com/~r/nature/rss/current/~4/09Et9F7XPQU" width="1" />
+</div>
+</div>
+
+<div class="item feed-53ba08d1 feed-natureissuenaturecomsciencefeeds" id="item-26054993">
+<p class="itemheader">
+<span class="itemtitle"><a href="http://feeds.nature.com/~r/nature/rss/current/~3/AezNdJ6j-oQ/s41586-019-1815-x">The molecular landscape of ETMR at diagnosis and relapse</a></span>
+<span class="itemfrom">[<a href="http://feeds.nature.com/nature/rss/current">Nature - Issue - nature.com science feeds</a>]</span>
+</p>
+<div class="itemdescription">
+<p>Nature, Published online: 04 December 2019; <a href="https://www.nature.com/articles/s41586-019-1815-x">doi:10.1038/s41586-019-1815-x</a></p>Analyses of primary and relapse samples of embryonal tumours with multilayered rosettes provide insights into the molecular mechanisms that underlie the development and opportunities for the treatment of this deadly disease.<img alt="" height="1" src="http://feeds.feedburner.com/~r/nature/rss/current/~4/AezNdJ6j-oQ" width="1" />
+</div>
+</div>
+
+<div class="item feed-b2590d03 feed-annualreviewsannualreviewofnutritiontableofcontents" id="item-b8cb8610">
+<p class="itemheader">
+<span class="itemtitle"><a href="https://www.annualreviews.org/doi/abs/10.1146/annurev-nu-39-190619-100001?ai=rz&amp;mi=3fndc3&amp;af=R">Addressing the Increased Expectations of Nutrition</a></span>
 <span class="itemfrom">[Annual Reviews: Annual Review of Nutrition: Table of Contents]</span>
 </p>
 <div class="itemdescription">
-<p>Annual Review of Nutrition, <a href="https://www.annualreviews.org:443/toc/nutr/39/1">Volume 39, Issue 1</a>, Page v-vi, August 2019. <br />
+<p>Annual Review of Nutrition, <a href="https://www.annualreviews.org/toc/nutr/39/1">Volume 39, Issue 1</a>, Page v-vi, August 2019. <br />
 </div>
 </div>
 
-<div class="item feed-b2590d03 feed-annualreviewsannualreviewofnutritiontableofcontents" id="item-00ee087e">
+<div class="item feed-b2590d03 feed-annualreviewsannualreviewofnutritiontableofcontents" id="item-1ad257b3">
 <p class="itemheader">
-<span class="itemtitle"><a href="https://www.annualreviews.org:443/doi/abs/10.1146/annurev-nutr-082018-124337?ai=rz&amp;mi=3fndc3&amp;af=R">Dietary Fuels in Athletic Performance</a></span>
+<span class="itemtitle"><a href="https://www.annualreviews.org/doi/abs/10.1146/annurev-nutr-082018-124337?ai=rz&amp;mi=3fndc3&amp;af=R">Dietary Fuels in Athletic Performance</a></span>
 <span class="itemfrom">[Annual Reviews: Annual Review of Nutrition: Table of Contents]</span>
 </p>
 <div class="itemdescription">
-<p>Annual Review of Nutrition, <a href="https://www.annualreviews.org:443/toc/nutr/39/1">Volume 39, Issue 1</a>, Page 45-73, August 2019. <br />
+<p>Annual Review of Nutrition, <a href="https://www.annualreviews.org/toc/nutr/39/1">Volume 39, Issue 1</a>, Page 45-73, August 2019. <br />
 </div>
 </div>
 
-<div class="item feed-b2590d03 feed-annualreviewsannualreviewofnutritiontableofcontents" id="item-cc7086f5">
+<div class="item feed-b2590d03 feed-annualreviewsannualreviewofnutritiontableofcontents" id="item-9ae6944d">
 <p class="itemheader">
-<span class="itemtitle"><a href="https://www.annualreviews.org:443/doi/abs/10.1146/annurev-nutr-082018-124235?ai=rz&amp;mi=3fndc3&amp;af=R">The Role of Brain Barriers in Maintaining Brain Vitamin Levels</a></span>
+<span class="itemtitle"><a href="https://www.annualreviews.org/doi/abs/10.1146/annurev-nutr-082018-124213?ai=rz&amp;mi=3fndc3&amp;af=R">The Benefits and Risks of Iron Supplementation in Pregnancy and Childhood</a></span>
 <span class="itemfrom">[Annual Reviews: Annual Review of Nutrition: Table of Contents]</span>
 </p>
 <div class="itemdescription">
-<p>Annual Review of Nutrition, <a href="https://www.annualreviews.org:443/toc/nutr/39/1">Volume 39, Issue 1</a>, Page 147-173, August 2019. <br />
+<p>Annual Review of Nutrition, <a href="https://www.annualreviews.org/toc/nutr/39/1">Volume 39, Issue 1</a>, Page 121-146, August 2019. <br />
 </div>
 </div>
 
-<div class="item feed-b2590d03 feed-annualreviewsannualreviewofnutritiontableofcontents" id="item-04bcf223">
+<div class="item feed-b2590d03 feed-annualreviewsannualreviewofnutritiontableofcontents" id="item-178e5131">
 <p class="itemheader">
-<span class="itemtitle"><a href="https://www.annualreviews.org:443/doi/abs/10.1146/annurev-nutr-082018-124643?ai=rz&amp;mi=3fndc3&amp;af=R">Mitochondrial DNA Mutation, Diseases, and Nutrient-Regulated Mitophagy</a></span>
+<span class="itemtitle"><a href="https://www.annualreviews.org/doi/abs/10.1146/annurev-nutr-082018-124643?ai=rz&amp;mi=3fndc3&amp;af=R">Mitochondrial DNA Mutation, Diseases, and Nutrient-Regulated Mitophagy</a></span>
 <span class="itemfrom">[Annual Reviews: Annual Review of Nutrition: Table of Contents]</span>
 </p>
 <div class="itemdescription">
-<p>Annual Review of Nutrition, <a href="https://www.annualreviews.org:443/toc/nutr/39/1">Volume 39, Issue 1</a>, Page 201-226, August 2019. <br />
+<p>Annual Review of Nutrition, <a href="https://www.annualreviews.org/toc/nutr/39/1">Volume 39, Issue 1</a>, Page 201-226, August 2019. <br />
 </div>
 </div>
 
-<div class="item feed-b2590d03 feed-annualreviewsannualreviewofnutritiontableofcontents" id="item-415b51b3">
+<div class="item feed-b2590d03 feed-annualreviewsannualreviewofnutritiontableofcontents" id="item-78c2cb00">
 <p class="itemheader">
-<span class="itemtitle"><a href="https://www.annualreviews.org:443/doi/abs/10.1146/annurev-nutr-082018-124306?ai=rz&amp;mi=3fndc3&amp;af=R">Pancreas&#8211;Microbiota Cross Talk in Health and Disease</a></span>
+<span class="itemtitle"><a href="https://www.annualreviews.org/doi/abs/10.1146/annurev-nutr-082018-124320?ai=rz&amp;mi=3fndc3&amp;af=R">Time-Restricted Eating to Prevent and Manage Chronic Metabolic Diseases</a></span>
 <span class="itemfrom">[Annual Reviews: Annual Review of Nutrition: Table of Contents]</span>
 </p>
 <div class="itemdescription">
-<p>Annual Review of Nutrition, <a href="https://www.annualreviews.org:443/toc/nutr/39/1">Volume 39, Issue 1</a>, Page 249-266, August 2019. <br />
+<p>Annual Review of Nutrition, <a href="https://www.annualreviews.org/toc/nutr/39/1">Volume 39, Issue 1</a>, Page 291-315, August 2019. <br />
 </div>
 </div>
 
-<div class="item feed-fab735fe feed-thelancet" id="item-22009bbb">
+<div class="item feed-fab735fe feed-thelancet" id="item-e44697ac">
 <p class="itemheader">
-<span class="itemtitle"><a href="https://www.thelancet.com/journals/lancet/article/PIIS0140-6736(19)32933-2/fulltext?rss=yes">[Editorial] Research integrity: time for global action</a></span>
+<span class="itemtitle"><a href="https://www.thelancet.com/journals/lancet/article/PIIS0140-6736(19)32555-3/fulltext?rss=yes">[Comment] Sustainable development levers are key in global response to antimicrobial resistance</a></span>
 <span class="itemfrom">[<a href="https://www.thelancet.com/journals/lancet/issue/current">The Lancet</a>]</span>
 </p>
 <div class="itemdescription">
-<p>China has become a formidable global leader in scientific&#8212;including medical&#8212;research, with the world's largest publication output, a rapid surge in the number of highly cited researchers, and an increasingly unparalleled quality of scientific publications. However, there is often a shadow hanging over any country's progress, especially a nation that has advanced with spectacular velocity. China is no exception. And the current concern, escalated to the highest levels of the Chinese Government, is research integrity.
+<p>Antimicrobial resistance (AMR) is a borderless challenge, with drug-resistant infections estimated to cause at least 700&#8200;000 deaths per year globally.1 To address this, member states of WHO agreed to the Global Action Plan for AMR in 2015, followed by adoption of the UN political declaration on AMR in 2016. A global governance structure is in place&#8212;namely, the Tripartite, made up of WHO, the Food and Agriculture Organization of the UN (FAO), and the World Organisation of Animal Health (OIE)&#8212;all of which are strengthening their AMR mandates.
 </div>
 </div>
 
-<div class="item feed-fab735fe feed-thelancet" id="item-bdb16261">
+<div class="item feed-fab735fe feed-thelancet" id="item-ba42b6fa">
 <p class="itemheader">
-<span class="itemtitle"><a href="https://www.thelancet.com/journals/lancet/article/PIIS0140-6736(19)32934-4/fulltext?rss=yes">[Editorial] The unfolding migrant crisis in Latin America</a></span>
+<span class="itemtitle"><a href="https://www.thelancet.com/journals/lancet/article/PIIS0140-6736(19)32946-0/fulltext?rss=yes">[Perspectives] Conversations for common humanity: the 2019 Global Health Film Festival</a></span>
 <span class="itemfrom">[<a href="https://www.thelancet.com/journals/lancet/issue/current">The Lancet</a>]</span>
 </p>
 <div class="itemdescription">
-<p>With the political crisis intensifying across Latin America, the difficulties in a region already struggling with massive migration and economic instability are becoming more complex. The number of people migrating across borders within this region has increased by 36% in the past 15 years, reaching 63&#183;7 million in 2015; and of these migrants, 808&#8200;000 were defined as refugees, who are the most vulnerable type of migrants and often have insufficient access to appropriate health services. People smuggled by human trafficking and victims of violence are among these migrants.
+<p>Despondency can be an understandable response to a world in perpetual crisis, disaster, and dispute. But the 2019 Global Health Film Festival has no time for despondency. The festival's programme does not shy away from the extremes of humanity seen in global health work but tackles them in a way that will leave you inspired, possibly angry, but never despondent. Different health histories of discovery, treatment, or care, and the contemporary impacts of war and climate change on health all feature in the wide-ranging programme.
 </div>
 </div>
 
-<div class="item feed-fab735fe feed-thelancet" id="item-15a2313c">
+<div class="item feed-fab735fe feed-thelancet" id="item-784a4db0">
 <p class="itemheader">
-<span class="itemtitle"><a href="https://www.thelancet.com/journals/lancet/article/PIIS0140-6736(19)32907-1/fulltext?rss=yes">[Comment] The political determinants of health and wellbeing in the Lebanese uprising</a></span>
+<span class="itemtitle"><a href="https://www.thelancet.com/journals/lancet/article/PIIS0140-6736(19)32940-X/fulltext?rss=yes">[Perspectives] Picturing health: dengue in Vietnam</a></span>
 <span class="itemfrom">[<a href="https://www.thelancet.com/journals/lancet/issue/current">The Lancet</a>]</span>
 </p>
 <div class="itemdescription">
-<p>The uprising in Lebanon, known as the October 17 Revolution, began in protest against a tax on WhatsApp voice calls. At a time of severe economic crisis, the uprising grew and hundreds of thousands of people took to the streets on Oct 19, 2019. Health and wellbeing, and their political determinants have been among the protesters' demands. Protests are ongoing in squares all over Lebanon, as well as in front of government institutions such as the parliament, the central bank, Electricity of Lebanon, telecommunication companies, and private residences of select politicians.
+<p>In August, 2019, Pearl Gan was invited to lead a dengue photography project at the Oxford University Clinical Research Unit (OUCRU), which works in partnership with the Hospital for Tropical Diseases, in Ho Chi Minh City, Vietnam. OUCRU is a centre of excellence for research into infectious diseases, and is one of the Wellcome Trust's five Africa and Asia Programmes. Dengue is a mosquito-borne viral disease that has a huge public health impact, with an estimated 390 million dengue virus infections worldwide each year, of which about a quarter are symptomatic.
 </div>
 </div>
 
-<div class="item feed-fab735fe feed-thelancet" id="item-86861a74">
+<div class="item feed-fab735fe feed-thelancet" id="item-62b39e11">
 <p class="itemheader">
-<span class="itemtitle"><a href="https://www.thelancet.com/journals/lancet/article/PIIS0140-6736(19)32621-2/fulltext?rss=yes">[Correspondence] The harsh effects of sanctions on Iranian health</a></span>
+<span class="itemtitle"><a href="https://www.thelancet.com/journals/lancet/article/PIIS0140-6736(19)32469-9/fulltext?rss=yes">[Correspondence] Optimising early nutritional support for medical inpatients</a></span>
 <span class="itemfrom">[<a href="https://www.thelancet.com/journals/lancet/issue/current">The Lancet</a>]</span>
 </p>
 <div class="itemdescription">
-<p>We commend The Lancet for bringing to the attention of readers the devastating health effects of the sanction regime imposed on Iran by the USA.1 Sanctions, a form of collective punishment,2 kill. Although sanctions are not physical weapons of war, they are just as lethal, if not more. For example, as of 1994, more than half a million Iraqi children had died under UN Security Council sanctions3 and more recently, in 2017 and 2018, 40&#8200;000 innocent civilians died in Venezuela under the US Government sanctions.
+<p>The pragmatic trial done by Philipp Schuetz and colleagues1 showed individualised nutritional therapy improved clinical outcomes among patients at nutritional risk. Taking account of both impaired nutritional status and disease severity, the 2002 nutritional risk screening tool aims to identify patients at risk of acquiring nutrition related complications and other adverse outcomes.2
 </div>
 </div>
 
-<div class="item feed-fab735fe feed-thelancet" id="item-9e3a391c">
+<div class="item feed-fab735fe feed-thelancet" id="item-bbf54185">
 <p class="itemheader">
-<span class="itemtitle"><a href="https://www.thelancet.com/journals/lancet/article/PIIS0140-6736(19)32910-1/fulltext?rss=yes">[Seminar] Muscular dystrophies</a></span>
+<span class="itemtitle"><a href="https://www.thelancet.com/journals/lancet/article/PIIS0140-6736(19)32556-5/fulltext?rss=yes">[Articles] Isatuximab plus pomalidomide and low-dose dexamethasone versus pomalidomide and low-dose dexamethasone in patients with relapsed and refractory multiple myeloma (ICARIA-MM): a randomised, multicentre, open-label, phase 3 study</a></span>
 <span class="itemfrom">[<a href="https://www.thelancet.com/journals/lancet/issue/current">The Lancet</a>]</span>
 </p>
 <div class="itemdescription">
-<p>Muscular dystrophies are primary diseases of muscle due to mutations in more than 40 genes, which result in dystrophic changes on muscle biopsy. Now that most of the genes responsible for these conditions have been identified, it is possible to accurately diagnose them and implement subtype-specific anticipatory care, as complications such as cardiac and respiratory muscle involvement vary greatly. This development and advances in the field of supportive medicine have changed the standard of care, with an overall improvement in the clinical course, survival, and quality of life of affected individuals.
+<p>The addition of isatuximab to pomalidomide&#8211;dexamethasone significantly improves progression-free survival in patients with relapsed and refractory multiple myeloma. Isatuximab is an important new treatment option for the management of relapsed and refractory myeloma, particularly for patients who become refractory to lenalidomide and a proteasome inhibitor.
 </div>
 </div>
 
-<div class="item feed-c99fafa0 feed-ieeetransactionsonimageprocessingnewtoc" id="item-fb54d180">
+<div class="item feed-c24550d7 feed-ieeetransactionsoninformationforensicsandsecuritynewtoc" id="item-66c99a28">
 <p class="itemheader">
-<span class="itemtitle"><a href="http://ieeexplore.ieee.org/document/8835066">Hazy Image Decolorization With Color Contrast Restoration</a></span>
-<span class="itemfrom">[<a href="http://ieeexplore.ieee.org">IEEE Transactions on Image Processing - new TOC</a>]</span>
+<span class="itemtitle"><a href="http://ieeexplore.ieee.org/document/8792120">Evaluating Adversarial Evasion Attacks in the Context of Wireless Communications</a></span>
+<span class="itemfrom">[<a href="http://ieeexplore.ieee.org">IEEE Transactions on Information Forensics and Security - new TOC</a>]</span>
 </p>
 <div class="itemdescription">
-<p>It is challenging to convert a hazy color image into a gray-scale image because the color contrast field of a hazy image is distorted. In this paper, a novel decolorization algorithm is proposed to transfer a hazy image into a distortion-recovered gray-scale image. To recover the color contrast field, the relationship between the restored color contrast and its distorted input is presented in CIELab color space. Based on this restoration, a nonlinear optimization problem is formulated to construct the resultant gray-scale image. A new differentiable approximation solution is introduced to solve this problem with an extension of the Huber loss function. Experimental results show that the proposed algorithm effectively preserves the global luminance consistency while represents the original color contrast in gray-scales, which is very close to the corresponding ground truth gray-scale one.
+<p>Recent advancements in radio frequency machine learning (RFML) have demonstrated the use of raw in-phase and quadrature (IQ) samples for multiple spectrum sensing tasks. Yet, deep learning techniques have been shown, in other applications, to be vulnerable to adversarial machine learning (ML) techniques, which seek to craft small perturbations that are added to the input to cause a misclassification. The current work differentiates the threats that adversarial ML poses to RFML systems based on where the attack is executed from: direct access to classifier input, synchronously transmitted over the air (OTA), or asynchronously transmitted from a separate device. Additionally, the current work develops a methodology for evaluating adversarial success in the context of wireless communications, where the primary metric of interest is bit error rate and not human perception, as is the case in image recognition. The methodology is demonstrated using the well known Fast Gradient Sign Method to evaluate the vulnerabilities of raw IQ based Automatic Modulation Classification and concludes RFML is vulnerable to adversarial examples, even in OTA attacks. However, RFML domain specific receiver effects, which would be encountered in an OTA attack, can present significant impairments to adversarial evasion.
 </div>
 </div>
 
-<div class="item feed-c99fafa0 feed-ieeetransactionsonimageprocessingnewtoc" id="item-718e7b9f">
+<div class="item feed-ccdce26d feed-ieeetransactionsonindustrialinformaticsnewtoc" id="item-f4a438f6">
 <p class="itemheader">
-<span class="itemtitle"><a href="http://ieeexplore.ieee.org/document/8864107">Parallax Tolerant Light Field Stitching for Hand-Held Plenoptic Cameras</a></span>
-<span class="itemfrom">[<a href="http://ieeexplore.ieee.org">IEEE Transactions on Image Processing - new TOC</a>]</span>
-</p>
-<div class="itemdescription">
-<p>Light field (LF) stitching is a potential solution to improve the field of view (FOV) for hand-held plenoptic cameras. Existing LF stitching methods cannot provide accurate registration for scenes with large depth variation. In this paper, a novel LF stitching method is proposed to handle parallax in the LFs more flexibly and accurately. First, a depth layer map (DLM) is proposed to guarantee adequate feature points on each depth layer. For the regions of nondeterministic depth, superpixel layer map (SLM) is proposed based on LF spatial correlation analysis to refine the depth layer assignments. Then, DLM-SLM-based LF registration is proposed to derive the location dependent homography transforms accurately and to warp LFs to its corresponding position without parallax interference. 4D graph-cut is further applied to fuse the registration results for higher LF spatial continuity and angular continuity. Horizontal, vertical and multi-LF stitching are tested for different scenes, which demonstrates the superior performance provided by the proposed method in terms of subjective quality of the stitched LFs, epipolar plane image consistency in the stitched LF, and perspective-averaged correlation between the stitched LF and the input LFs.
-</div>
-</div>
-
-<div class="item feed-ccdce26d feed-ieeetransactionsonindustrialinformaticsnewtoc" id="item-e5ffbd72">
-<p class="itemheader">
-<span class="itemtitle"><a href="http://ieeexplore.ieee.org/document/8746197">Front-End Parameter Monitoring Method Based on Two-Layer Adaptive Differential Evolution for SS-Compensated Wireless Power Transfer Systems</a></span>
+<span class="itemtitle"><a href="http://ieeexplore.ieee.org/document/8924795">Table of Contents</a></span>
 <span class="itemfrom">[<a href="http://ieeexplore.ieee.org">IEEE Transactions on Industrial Informatics - new TOC</a>]</span>
 </p>
 <div class="itemdescription">
-<p>In this paper, a two-layer adaptive differential evolution (ADE) algorithm is adopted to monitor the parameters of the receiving resonators and the mutual inductances of series-series (SS)-compensated wireless power transfer (WPT) systems. By only measuring the primary coils' voltages and currents, the proposed monitoring method can be applied for multiple-coil SS-compensated WPT systems without any feedback signals from the receivers. Compared to the conventional monitoring method based on the genetic algorithm (GA), which may find local optimal solutions by the manually tuned parameters of the mutation rate, the crossover rate, and the generations, the proposed method based on the two-layer ADE can always find global optimal solutions by the automatically tuned parameters of the differential weight, the crossover rate, and the generations. Experimental results validate that the ADE and the proposed two-layer ADE can monitor the parameters of both two- and three-coil SS-compensated WPT systems more steadily and accurately than the conventional GA. Additionally, the proposed two-layer ADE is verified to monitor the parameters of three-coil SS-compensated WPT systems with three different arrangements more accurately than the ADE.
+<p>Presents the table of contents for this issue of the publication.
 </div>
 </div>
 
-<div class="item feed-ccdce26d feed-ieeetransactionsonindustrialinformaticsnewtoc" id="item-e623b94d">
+<div class="item feed-ccdce26d feed-ieeetransactionsonindustrialinformaticsnewtoc" id="item-e3b9a3e5">
 <p class="itemheader">
-<span class="itemtitle"><a href="http://ieeexplore.ieee.org/document/8786189">Offline Inductance Identification of IPMSM With Sequence-Pulse Injection</a></span>
+<span class="itemtitle"><a href="http://ieeexplore.ieee.org/document/8571267">Series AC Arc Fault Detection Method Based on Hybrid Time and Frequency Analysis and Fully Connected Neural Network</a></span>
 <span class="itemfrom">[<a href="http://ieeexplore.ieee.org">IEEE Transactions on Industrial Informatics - new TOC</a>]</span>
 </p>
 <div class="itemdescription">
-<p>Identification of the stator d-axis and q-axis inductances is essential for the interior permanent magnet synchronous motor (IPMSM) sensorless control system. The signal injection method is an effective way to identify the inductance parameters; however, it requires the rotor position to ensure the accuracy of the injection reference position. To overcome the dependence on the rotor position, a sequence-pulse voltage signal injection method is presented. The matrix least-squares fitting algorithm is utilized to fit the current responses for the inductance identification. Based on the fitting method, the discrete standard orthogonal polynomial with look-up table is introduced to reduce the computation complexity. To reduce the disturbance of the injected signal to the rotor position during the identification process, a double-direction injection position trajectory planning is presented. In addition, the saturation effect on the identification method is also analyzed. The proposed method is verified via a 3.0 kW IPMSM motor drive platform. The identification results are compared with those measured by a standard method and experiment results show that the proposed method can identify the inductance parameters with acceptable accuracy without obtaining the rotor position information.
+<p>The variety of arc fault induced by different load types makes residential series arc fault detection complicated and challengeable. This paper proposes a hybrid time and frequency analysis and fully connected neural network (HTFNN) based method to identify series ac arc fault. The HTFNN method recognizes samples state by broadly classifying them into resistive (Re) category, capacitive&#x2013;inductive (CI) category, and switching (Sw) category according to the fundamental frequency components of series current. In each category, separate fully connected neural network (NN) with customized time and frequency indicators being the input is employed for fine class recognition and state identification. This method construction addresses the feature overlap among various cases by separate categories and enables suitable indicator selection within each category. Since the identification complexity in each category is cheaper than identifying all cases together, concise NNs are applied in this paper to reduce computing cost. The general accuracies of normal and arcing state identification in Re, CI, and Sw category are 99.64&#x0025;, 100&#x0025;, and 98.45&#x0025;, respectively, based on 3950 test samples. Method comparison shows that HTFNN achieves higher detection precision at lower computational complexity for generalized load types. This paper also evaluates the feasibility of implementing the method in hardware for arc fault detection device application.
 </div>
 </div>
 
-<div class="item feed-63a85565 feed-eurekalertbreakingnews" id="item-3c36b365">
+<div class="item feed-ccdce26d feed-ieeetransactionsonindustrialinformaticsnewtoc" id="item-4be6f84f">
 <p class="itemheader">
-<span class="itemtitle"><a href="https://www.eurekalert.org/pub_releases/2019-12/aha-msu120219.php">Mobile stroke units could expedite treatment and improve patient outcomes in urban areas</a></span>
-<span class="itemfrom">[<a href="http://www.eurekalert.org">EurekAlert! - Breaking News</a>]</span>
+<span class="itemtitle"><a href="http://ieeexplore.ieee.org/document/8663345">Fractal-Based Reliability Measure for Heterogeneous Manufacturing Networks</a></span>
+<span class="itemfrom">[<a href="http://ieeexplore.ieee.org">IEEE Transactions on Industrial Informatics - new TOC</a>]</span>
 </p>
 <div class="itemdescription">
-<p>Stroke patients received time-sensitive, lifesaving treatment approximately 30 minutes faster via an ambulance specially designed to treat stroke called a Mobile Stroke Unit (MSU).Patients diagnosed and treated in an MSU received stroke care faster, even in a densely populated city such as New York City, where this study was conducted.
+<p>Nowadays, production-oriented manufacturing is transforming to service-oriented one, which leads to an increasing demand for high reliability of manufacturing systems. However, a popular approach to measuring terminal reliability of complex networked systems is based on graph theory, which has been shown to be an NP-hard problem. Though the NP-hard problem can be avoided by employing a statistical measure method for terminal reliability of random networks based on percolation theory, there is still lack of a general assessment approach to calculating terminal reliability of heterogeneous complex networks in intelligent manufacturing. In this paper, we propose a novel fractal-based approach to measuring the terminal reliability of heterogeneous networks. With help of the renormalization procedure that coarse grains a network into boxes containing nodes within given lateral size and inverse renormalization, which gives a fractal network growth model, a fractal network approximation of an arbitrary complex network is obtained. This fractal network topology can be described by a superposition of fractal elements based on fractal theory. Following this description, terminal reliability is the function of reliability of fractal elements. Then, a reliability assessment algorithm with computational complexity $O(N^2)$ based on fractal elements is developed. Numerical simulation is performed on a real network and a fractal network to validate the effectiveness of our method.
 </div>
 </div>
 
-<div class="item feed-63a85565 feed-eurekalertbreakingnews" id="item-1251183c">
+<div class="item feed-ccdce26d feed-ieeetransactionsonindustrialinformaticsnewtoc" id="item-c2d1e646">
 <p class="itemheader">
-<span class="itemtitle"><a href="https://www.eurekalert.org/pub_releases/2019-12/fm-bas112719.php">Birds are shrinking as the climate warms</a></span>
-<span class="itemfrom">[<a href="http://www.eurekalert.org">EurekAlert! - Breaking News</a>]</span>
+<span class="itemtitle"><a href="http://ieeexplore.ieee.org/document/8821409">Digital-Twin-Based Job Shop Scheduling Toward Smart Manufacturing</a></span>
+<span class="itemfrom">[<a href="http://ieeexplore.ieee.org">IEEE Transactions on Industrial Informatics - new TOC</a>]</span>
 </p>
 <div class="itemdescription">
-<p>After 40 years of collecting birds that ran into Chicago buildings, scientists have been able to show that the birds have been shrinking as the climate's warmed up.
+<p>Job shop scheduling always plays an important role in the manufacturing process and is one of the decisive factors influencing manufacturing efficiency. In the actual process of production scheduling, there exist some uncertain events, information asymmetry, and abnormal disturbance, which would cause the execution deviation and affect the efficiency and quality of scheduling execution. Traditional scheduling methods are not sufficient to solve the challenges well. Due to the rise of digital twin, which has the characters of virtual reality interaction, real-time mapping, and symbiotic evolution, a new job shop scheduling method based on digital twin is proposed to reduce the scheduling deviation. In this article, the architecture and working principle of the new job shop scheduling mode are introduced. Then, scheduling resource parameter updating methods and dynamic interactive scheduling strategies are proposed to achieve real-time and precise scheduling. Finally, a prototype system is designed to verify the validity of this new job shop scheduling mode.
 </div>
 </div>
 
-<div class="item feed-63a85565 feed-eurekalertbreakingnews" id="item-cc8bc869">
+<div class="item feed-ccdce26d feed-ieeetransactionsonindustrialinformaticsnewtoc" id="item-6877767e">
 <p class="itemheader">
-<span class="itemtitle"><a href="https://www.eurekalert.org/pub_releases/2019-12/ehs-tte120319.php">Transition to exhaustion: clues for cancer immunotherapy</a></span>
-<span class="itemfrom">[<a href="http://www.eurekalert.org">EurekAlert! - Breaking News</a>]</span>
+<span class="itemtitle"><a href="http://ieeexplore.ieee.org/document/8924793">IEEE Xplore Digital Library</a></span>
+<span class="itemfrom">[<a href="http://ieeexplore.ieee.org">IEEE Transactions on Industrial Informatics - new TOC</a>]</span>
 </p>
 <div class="itemdescription">
-<p>Emory research on immune cells 'exhausted' by chronic viral infection provides clues on how to refine cancer immunotherapy. The Immunity paper defines a transitional stage in between stem-like and truly exhausted cells.
+<p>Advertisement, IEEE.
 </div>
 </div>
 
-<div class="item feed-63a85565 feed-eurekalertbreakingnews" id="item-5f5a3120">
+<div class="item feed-63a85565 feed-eurekalertbreakingnews" id="item-d582b16c">
 <p class="itemheader">
-<span class="itemtitle"><a href="https://www.eurekalert.org/pub_releases/2019-12/nsfc-nem120319.php">NASA's exoplanet-hunting mission catches a natural comet outburst in unprecedented detail</a></span>
+<span class="itemtitle"><a href="https://www.eurekalert.org/pub_releases/2019-12/cu-pab121019.php">Project adapts basic tech to give voice to patients in Africa</a></span>
 <span class="itemfrom">[<a href="http://www.eurekalert.org">EurekAlert! - Breaking News</a>]</span>
 </p>
 <div class="itemdescription">
-<p>Using data from NASA's Transiting Exoplanet Survey Satellite (TESS), astronomers at the University of Maryland (UMD), in College Park, Maryland, have captured a clear start-to-finish image sequence of an explosive emission of dust, ice and gases during the close approach of comet 46P/Wirtanen in late 2018.
+<p>A new system developed by Cornell Tech researchers will allow thousands of patients of community health care workers in rural Africa to use a basic tool on their mobile phones -- one that doesn't even require an internet connection -- to provide feedback on their care anonymously, easily and inexpensively.
 </div>
 </div>
 
-<div class="item feed-63a85565 feed-eurekalertbreakingnews" id="item-a19404c7">
+<div class="item feed-63a85565 feed-eurekalertbreakingnews" id="item-04a42f1b">
 <p class="itemheader">
-<span class="itemtitle"><a href="https://www.eurekalert.org/pub_releases/2019-12/uog-vrc120319.php">Virtual reality could help flu vaccination rates</a></span>
+<span class="itemtitle"><a href="https://www.eurekalert.org/pub_releases/2019-12/cmu-dl121019.php">Deep learning helps tease out gene interactions</a></span>
 <span class="itemfrom">[<a href="http://www.eurekalert.org">EurekAlert! - Breaking News</a>]</span>
 </p>
 <div class="itemdescription">
-<p>Using a virtual reality simulation to show how flu spreads and its impact on others could be a way to encourage more people to get a flu vaccination, according to a study by researchers at the University of Georgia and the Oak Ridge Associated Universities in Oak Ridge, Tennessee.
+<p>Carnegie Mellon University computer scientists have taken a deep learning method that has revolutionized face recognition and other image-based applications in recent years and redirected its power to explore the relationship between genes.
+</div>
+</div>
+
+<div class="item feed-63a85565 feed-eurekalertbreakingnews" id="item-ecfaa9bd">
+<p class="itemheader">
+<span class="itemtitle"><a href="https://www.eurekalert.org/pub_releases/2019-12/ei-gfa121019.php">Gut feeling: A network approach towards understanding IBD</a></span>
+<span class="itemfrom">[<a href="http://www.eurekalert.org">EurekAlert! - Breaking News</a>]</span>
+</p>
+<div class="itemdescription">
+<p>Scientists at the Earlham Institute (EI), Quadram Institute Bioscience (QIB) and the University of East Anglia (UEA), UK, have pioneered how to get very detailed transcriptomics data from gut organoids, and regulatory networks to analyse them -- establishing a pipeline that can be used to explore the causes of Inflammatory Bowel Disease (IBD).
+</div>
+</div>
+
+<div class="item feed-63a85565 feed-eurekalertbreakingnews" id="item-4b627804">
+<p class="itemheader">
+<span class="itemtitle"><a href="https://www.eurekalert.org/pub_releases/2019-12/wpi-pym121019.php">Probiotic yeast may offer an effective treatment for drug-resistant fungal infections</a></span>
+<span class="itemfrom">[<a href="http://www.eurekalert.org">EurekAlert! - Breaking News</a>]</span>
+</p>
+<div class="itemdescription">
+<p>Researchers at Worcester Polytechnic Institute (WPI) & the Central Food Technological Research Institute in India are studying the effect of probiotic yeast in preventing fungal infections.
+</div>
+</div>
+
+<div class="item feed-63a85565 feed-eurekalertbreakingnews" id="item-d97f576d">
+<p class="itemheader">
+<span class="itemtitle"><a href="https://www.eurekalert.org/pub_releases/2019-12/nios-abm121019.php">All Bitcoin mining should be environmentally friendly</a></span>
+<span class="itemfrom">[<a href="http://www.eurekalert.org">EurekAlert! - Breaking News</a>]</span>
+</p>
+<div class="itemdescription">
+<p>The energy used to mine for cryptocurrencies like Bitcoin is on par with the energy consumed by Ireland. Naoki Shibata reports a new blockchain algorithm, proof-of-search, that redirects the wasted energy to solve for optimization problems in fields such as medicine, space, and finance, all while preserving the anonymity and democratization of cryptocurrencies.
 </div>
 </div>
 
@@ -383,7 +469,7 @@ by 2.8x and 2.3x.
 <div class="item feed-6b3f78ad feed-latestbmjresearch" id="item-a8dfd88a">
 <p class="itemheader">
 <span class="itemtitle"><a href="http://feeds.bmj.com/~r/bmj/research/~3/GFOQFOLsuGA/bmj.l6258">Short term exposure to fine particulate matter and hospital admission risks and costs in the Medicare population: time stratified, case crossover study</a></span>
-<span class="itemfrom">[<a href="https://www.bmj.com/research/feed">Latest BMJ Research</a>]</span>
+<span class="itemfrom">[<a href="https://www.bmj.com/research/feed/206327">Latest BMJ Research</a>]</span>
 </p>
 <div class="itemdescription">
 <div class="feedflare">
@@ -392,53 +478,13 @@ by 2.8x and 2.3x.
 </div>
 </div>
 
-<div class="item feed-b93c25e9 feed-earlyedition" id="item-17b3fd24">
+<div class="item feed-ed41d94f feed-jamacurrentissue" id="item-e15615ae">
 <p class="itemheader">
-<span class="itemtitle"><a href="http://feedproxy.google.com/~r/Pnas-RssFeedOfEarlyEditionArticles/~3/NOBHsCRtG80/1902781116.short">Otogelin, otogelin-like, and stereocilin form links connecting outer hair cell stereocilia to each other and the tectorial membrane [Neuroscience]</a></span>
-<span class="itemfrom">[<a href="http://www.pnas.org">Early Edition</a>]</span>
+<span class="itemtitle"><a href="https://jamanetwork.com/journals/jama/fullarticle/2756186">Two Rooms: Reflections on Empathy, Openness, and Parenthood</a></span>
+<span class="itemfrom">[<a href="https://jamanetwork.com/journals/jama">JAMA Current Issue</a>]</span>
 </p>
 <div class="itemdescription">
-<p>The function of outer hair cells (OHCs), the mechanical actuators of the cochlea, involves the anchoring of their tallest stereocilia in the tectorial membrane (TM), an acellular structure overlying the sensory epithelium. Otogelin and otogelin-like are TM proteins related to secreted epithelial mucins. Defects in either cause the DFNB18B and...<img alt="" height="1" src="http://feeds.feedburner.com/~r/Pnas-RssFeedOfEarlyEditionArticles/~4/NOBHsCRtG80" width="1" />
-</div>
-</div>
-
-<div class="item feed-53ba08d1 feed-natureissuenaturecomsciencefeeds" id="item-4eab7d5a">
-<p class="itemheader">
-<span class="itemtitle"><a href="http://feeds.nature.com/~r/nature/rss/current/~3/lVMsgVzWE-c/d41586-019-03679-x"><i>E. coli</i> bacteria engineered to eat carbon dioxide</a></span>
-<span class="itemfrom">[<a href="http://feeds.nature.com/nature/rss/current">Nature - Issue - nature.com science feeds</a>]</span>
-</p>
-<div class="itemdescription">
-<p>Nature, Published online: 27 November 2019; <a href="https://www.nature.com/articles/d41586-019-03679-x">doi:10.1038/d41586-019-03679-x</a></p>Feat could turn bacteria into biological factories for energy and even food.<img alt="" height="1" src="http://feeds.feedburner.com/~r/nature/rss/current/~4/lVMsgVzWE-c" width="1" />
-</div>
-</div>
-
-<div class="item feed-53ba08d1 feed-natureissuenaturecomsciencefeeds" id="item-5a91fede">
-<p class="itemheader">
-<span class="itemtitle"><a href="http://feeds.nature.com/~r/nature/rss/current/~3/wTROFlqdUOM/d41586-019-03659-1">The tough dogs that helped people to settle a frozen land</a></span>
-<span class="itemfrom">[<a href="http://feeds.nature.com/nature/rss/current">Nature - Issue - nature.com science feeds</a>]</span>
-</p>
-<div class="itemdescription">
-<p>Nature, Published online: 27 November 2019; <a href="https://www.nature.com/articles/d41586-019-03659-1">doi:10.1038/d41586-019-03659-1</a></p>Heritage of Arctic dogs traced in part to canines that immigrated from Siberia more than a millennium ago.<img alt="" height="1" src="http://feeds.feedburner.com/~r/nature/rss/current/~4/wTROFlqdUOM" width="1" />
-</div>
-</div>
-
-<div class="item feed-53ba08d1 feed-natureissuenaturecomsciencefeeds" id="item-d53e4110">
-<p class="itemheader">
-<span class="itemtitle"><a href="http://feeds.nature.com/~r/nature/rss/current/~3/W8RgKJRAumw/s41586-019-1802-2">An acute immune response underlies the benefit of cardiac stem-cell therapy</a></span>
-<span class="itemfrom">[<a href="http://feeds.nature.com/nature/rss/current">Nature - Issue - nature.com science feeds</a>]</span>
-</p>
-<div class="itemdescription">
-<p>Nature, Published online: 27 November 2019; <a href="https://www.nature.com/articles/s41586-019-1802-2">doi:10.1038/s41586-019-1802-2</a></p>An acute immune response underlies the benefit of cardiac stem-cell therapy<img alt="" height="1" src="http://feeds.feedburner.com/~r/nature/rss/current/~4/W8RgKJRAumw" width="1" />
-</div>
-</div>
-
-<div class="item feed-53ba08d1 feed-natureissuenaturecomsciencefeeds" id="item-149dab41">
-<p class="itemheader">
-<span class="itemtitle"><a href="http://feeds.nature.com/~r/nature/rss/current/~3/3jLS-WvpOc0/d41586-019-03626-w">Academics should not need to live in fear for the pursuit of their science</a></span>
-<span class="itemfrom">[<a href="http://feeds.nature.com/nature/rss/current">Nature - Issue - nature.com science feeds</a>]</span>
-</p>
-<div class="itemdescription">
-<p>Nature, Published online: 27 November 2019; <a href="https://www.nature.com/articles/d41586-019-03626-w">doi:10.1038/d41586-019-03626-w</a></p>Attacks on scholars are on the rise at the same time as universities find themselves at the centre of student protests.<img alt="" height="1" src="http://feeds.feedburner.com/~r/nature/rss/current/~4/3jLS-WvpOc0" width="1" />
+<p>In this narrative medicine essay a pediatric palliative care physician reflects on the contrast between his healthy children and the dying patients he cares for and expresses his struggle to bridge the gap between being fully present for his patients&#8217; families through their grieving and the deep gratitude he feels that his family is healthy and not forced to confront the same loss and grief.
 </div>
 </div>
 
@@ -482,41 +528,33 @@ by 2.8x and 2.3x.
 </div>
 </div>
 
-<div class="item feed-ed41d94f feed-jamacurrentissue" id="item-d5b545a1">
-<p class="itemheader">
-<span class="itemtitle"><a href="https://jamanetwork.com/journals/jama/fullarticle/2754806">Baclofen Use in CKD and Risk of Encephalopathy</a></span>
-<span class="itemfrom">[<a href="https://jamanetwork.com/journals/jama">JAMA Current Issue</a>]</span>
-</p>
-<div class="itemdescription">
-<p>This pharmacoepidemiology study uses Canadian health care database data to estimate the risk of encephalopathy among patients with chronic kidney disease (CKD) in Ontario prescribed higher (&#8805;20 mg) vs lower (&lt;20 mg) doses of baclofen.
-</div>
-</div>
-
 </div>
 </div>
 <div class="day">
 <h2>Tuesday, 26 November 2019</h2>
 <div class="time">
 <h3>11:42 AM</h3>
+<div class="item feed-6b3f78ad feed-latestbmjresearch" id="item-d91ad39c">
+<p class="itemheader">
+<span class="itemtitle"><a href="http://feeds.bmj.com/~r/bmj/research/~3/z1UKcFTsX0M/bmj.l5919">Comparative efficacy and safety of new surgical treatments for benign prostatic hyperplasia: systematic review and network meta-analysis</a></span>
+<span class="itemfrom">[<a href="https://www.bmj.com/research/feed/206327">Latest BMJ Research</a>]</span>
+</p>
+<div class="itemdescription">
+<div class="feedflare">
+<a href="http://feeds.bmj.com/~ff/bmj/research?a=z1UKcFTsX0M:SEx6L2D_EMY:yIl2AUoC8zA"><img border="0" src="http://feeds.feedburner.com/~ff/bmj/research?d=yIl2AUoC8zA" /></a> <a href="http://feeds.bmj.com/~ff/bmj/research?a=z1UKcFTsX0M:SEx6L2D_EMY:dnMXMwOfBR0"><img border="0" src="http://feeds.feedburner.com/~ff/bmj/research?d=dnMXMwOfBR0" /></a> <a href="http://feeds.bmj.com/~ff/bmj/research?a=z1UKcFTsX0M:SEx6L2D_EMY:F7zBnMyn0Lo"><img border="0" src="http://feeds.feedburner.com/~ff/bmj/research?i=z1UKcFTsX0M:SEx6L2D_EMY:F7zBnMyn0Lo" /></a> <a href="http://feeds.bmj.com/~ff/bmj/research?a=z1UKcFTsX0M:SEx6L2D_EMY:V_sGLiPBpWU"><img border="0" src="http://feeds.feedburner.com/~ff/bmj/research?i=z1UKcFTsX0M:SEx6L2D_EMY:V_sGLiPBpWU" /></a> <a href="http://feeds.bmj.com/~ff/bmj/research?a=z1UKcFTsX0M:SEx6L2D_EMY:qj6IDK7rITs"><img border="0" src="http://feeds.feedburner.com/~ff/bmj/research?d=qj6IDK7rITs" /></a> <a href="http://feeds.bmj.com/~ff/bmj/research?a=z1UKcFTsX0M:SEx6L2D_EMY:gIN9vFwOqvQ"><img border="0" src="http://feeds.feedburner.com/~ff/bmj/research?i=z1UKcFTsX0M:SEx6L2D_EMY:gIN9vFwOqvQ" /></a>
+</div><img alt="" height="1" src="http://feeds.feedburner.com/~r/bmj/research/~4/z1UKcFTsX0M" width="1" />
+</div>
+</div>
+
 <div class="item feed-6b3f78ad feed-latestbmjresearch" id="item-8389128c">
 <p class="itemheader">
 <span class="itemtitle"><a href="http://feeds.bmj.com/~r/bmj/research/~3/r9X9s3w1SFM/bmj.l6109">Outcomes at follow-up of negative colonoscopy in average risk population: systematic review and meta-analysis</a></span>
-<span class="itemfrom">[<a href="https://www.bmj.com/research/feed">Latest BMJ Research</a>]</span>
+<span class="itemfrom">[<a href="https://www.bmj.com/research/feed/206327">Latest BMJ Research</a>]</span>
 </p>
 <div class="itemdescription">
 <div class="feedflare">
 <a href="http://feeds.bmj.com/~ff/bmj/research?a=r9X9s3w1SFM:41OT1G-Ammc:yIl2AUoC8zA"><img border="0" src="http://feeds.feedburner.com/~ff/bmj/research?d=yIl2AUoC8zA" /></a> <a href="http://feeds.bmj.com/~ff/bmj/research?a=r9X9s3w1SFM:41OT1G-Ammc:dnMXMwOfBR0"><img border="0" src="http://feeds.feedburner.com/~ff/bmj/research?d=dnMXMwOfBR0" /></a> <a href="http://feeds.bmj.com/~ff/bmj/research?a=r9X9s3w1SFM:41OT1G-Ammc:F7zBnMyn0Lo"><img border="0" src="http://feeds.feedburner.com/~ff/bmj/research?i=r9X9s3w1SFM:41OT1G-Ammc:F7zBnMyn0Lo" /></a> <a href="http://feeds.bmj.com/~ff/bmj/research?a=r9X9s3w1SFM:41OT1G-Ammc:V_sGLiPBpWU"><img border="0" src="http://feeds.feedburner.com/~ff/bmj/research?i=r9X9s3w1SFM:41OT1G-Ammc:V_sGLiPBpWU" /></a> <a href="http://feeds.bmj.com/~ff/bmj/research?a=r9X9s3w1SFM:41OT1G-Ammc:qj6IDK7rITs"><img border="0" src="http://feeds.feedburner.com/~ff/bmj/research?d=qj6IDK7rITs" /></a> <a href="http://feeds.bmj.com/~ff/bmj/research?a=r9X9s3w1SFM:41OT1G-Ammc:gIN9vFwOqvQ"><img border="0" src="http://feeds.feedburner.com/~ff/bmj/research?i=r9X9s3w1SFM:41OT1G-Ammc:gIN9vFwOqvQ" /></a>
 </div><img alt="" height="1" src="http://feeds.feedburner.com/~r/bmj/research/~4/r9X9s3w1SFM" width="1" />
-</div>
-</div>
-
-<div class="item feed-b93c25e9 feed-earlyedition" id="item-bc6d20a8">
-<p class="itemheader">
-<span class="itemtitle"><a href="http://feedproxy.google.com/~r/Pnas-RssFeedOfEarlyEditionArticles/~3/L5aFgRd08qA/1912257116.short">Evolutionary regain of lost gene circuit function [Applied Mathematics]</a></span>
-<span class="itemfrom">[<a href="http://www.pnas.org">Early Edition</a>]</span>
-</p>
-<div class="itemdescription">
-<p>Evolutionary reversibility&#8212;the ability to regain a lost function&#8212;is an important problem both in evolutionary and synthetic biology, where repairing natural or synthetic systems broken by evolutionary processes may be valuable. Here, we use a synthetic positive-feedback (PF) gene circuit integrated into haploid Saccharomyces cerevisiae cells to test if the population...<img alt="" height="1" src="http://feeds.feedburner.com/~r/Pnas-RssFeedOfEarlyEditionArticles/~4/L5aFgRd08qA" width="1" />
 </div>
 </div>
 
@@ -527,16 +565,6 @@ by 2.8x and 2.3x.
 </p>
 <div class="itemdescription">
 <p>The most critical step of mammalian embryogenesis in securing the future of the species comes just days after fertilization, and immediately after implantation into the uterine wall. At this time, a small subset of epiblast cells receives an inductive signal from neighboring extraembryonic tissue, the germ lineage is specified, and...<img alt="" height="1" src="http://feeds.feedburner.com/~r/Pnas-RssFeedOfEarlyEditionArticles/~4/au2Ga6iNTqk" width="1" />
-</div>
-</div>
-
-<div class="item feed-b93c25e9 feed-earlyedition" id="item-baeae762">
-<p class="itemheader">
-<span class="itemtitle"><a href="http://feedproxy.google.com/~r/Pnas-RssFeedOfEarlyEditionArticles/~3/DiqqxSr6FvY/1906565116.short">DJ-1 regulates the integrity and function of ER-mitochondria association through interaction with IP3R3-Grp75-VDAC1 [Neuroscience]</a></span>
-<span class="itemfrom">[<a href="http://www.pnas.org">Early Edition</a>]</span>
-</p>
-<div class="itemdescription">
-<p>Loss-of-function mutations in DJ-1 are associated with autosomal recessive early onset Parkinson&#8217;s disease (PD), yet the underlying pathogenic mechanism remains elusive. Here we demonstrate that DJ-1 localized to the mitochondria-associated membrane (MAM) both in vitro and in vivo. In fact, DJ-1 physically interacts with and is an essential component of...<img alt="" height="1" src="http://feeds.feedburner.com/~r/Pnas-RssFeedOfEarlyEditionArticles/~4/DiqqxSr6FvY" width="1" />
 </div>
 </div>
 
@@ -593,49 +621,13 @@ by 2.8x and 2.3x.
 </div>
 </div>
 <div class="day">
-<h2>Friday, 08 November 2019</h2>
-<div class="time">
-<h3>04:00 PM</h3>
-<div class="item feed-ccdce26d feed-ieeetransactionsonindustrialinformaticsnewtoc" id="item-33380a61">
-<p class="itemheader">
-<span class="itemtitle"><a href="http://ieeexplore.ieee.org/document/8718566">Unscented Kalman Filter With Generalized Correntropy Loss for Robust Power System Forecasting-Aided State Estimation</a></span>
-<span class="itemfrom">[<a href="http://ieeexplore.ieee.org">IEEE Transactions on Industrial Informatics - new TOC</a>]</span>
-</p>
-<div class="itemdescription">
-<p>Due to the existence of various anomalies such as non-Gaussian process and measurement noises, gross measurement errors, and sudden changes of system status, the robust forecasting-aided state estimation is pivotal for power system stability. This paper develops a novel unscented Kalman filter (UKF) with the generalized correntropy loss (GCL) (termed as GCL-UKF) to estimate power system state with forecasting aid. The GCL is used to replace the mean square error loss in the original UKF framework. The advantage of such an approach is that it combines the strength of the GCL developed in robust information theoretic learning for addressing the non-Gaussian interference and the strength of the UKF in handling strong model nonlinearities. In addition, we take into account the nontrivial influences of the bad data for the innovation vector. An enhanced GCL-UKF method is established by introducing an exponential function of the innovation vector to adjust a covariance matrix so as to improve the GCL-UKF-based state estimation accuracy under the change of gain matrix caused by bad factors. Numerical simulation results carried out on IEEE 14-bus, 30-bus, and 57-bus test systems validate the efficacy of the proposed methods for state estimation under various types of measurement.
-</div>
-</div>
-
-<div class="item feed-ccdce26d feed-ieeetransactionsonindustrialinformaticsnewtoc" id="item-1785821c">
-<p class="itemheader">
-<span class="itemtitle"><a href="http://ieeexplore.ieee.org/document/8822497">Review on Feature Extraction for 3-D Incoherent Image Processing Using Optical Scanning Holography</a></span>
-<span class="itemfrom">[<a href="http://ieeexplore.ieee.org">IEEE Transactions on Industrial Informatics - new TOC</a>]</span>
-</p>
-<div class="itemdescription">
-<p>The advancement of digital holography in the past two decades has enabled precise capturing of three-dimensional (3-D) images of physical objects. This important technology has been widely applied in numerous industrial sectors such as, but not limited to remote sensing, metrology, biomedical imaging, advertising, and entertainment. Most of the hologram acquisition techniques developed to date is employing digital cameras for recording the hologram, hence imposing rigid restrictions on the size and resolution of the captured 3-D image. This limitation, however, is not found in optical scanning holography (OSH). Based on a scanning mechanism and a single pixel sensor, OSH is capable of capturing digital holograms of both macroscopic and microscopic, as well as fluorescent objects with high precision. Since its invention in the late 70s, numerous research works have been conducted to enhance this technology, optimizing important factors such as acquisition speed, precision, data size, and security. The objective of this article is to provide a walkthrough of the state-of-the-art of the OSH technology, from its original principle, to different variants that have been developed over the years with emphasis on their feature extraction capabilities under the incoherent mode of operation. Whenever possible, we shall provide the key formulations of each approach, and experimental outcomes for demonstrating the pros and cons of the method.
-</div>
-</div>
-
-<div class="item feed-ccdce26d feed-ieeetransactionsonindustrialinformaticsnewtoc" id="item-d041d3a6">
-<p class="itemheader">
-<span class="itemtitle"><a href="http://ieeexplore.ieee.org/document/8701653">Fringe Pattern Improvement and Super-Resolution Using Deep Learning in Digital Holography</a></span>
-<span class="itemfrom">[<a href="http://ieeexplore.ieee.org">IEEE Transactions on Industrial Informatics - new TOC</a>]</span>
-</p>
-<div class="itemdescription">
-<p>Digital holographic imaging is a powerful technique that can provide wavefront information of a three-dimensional object for biological and industrial applications. However, due to the constraint and cost of imaging sensors, the acquired digital hologram is limited in terms of pixel count, thus affecting the resolution in holographic reconstruction. To overcome this constraint, in this paper we propose a deep learning-based method to super-resolve holograms and to improve the quality of low-resolution holograms by training a convolutional neural network with large-scale data for resolution enhancement. Moreover, this algorithm can be broadly adapted to enhance the space-bandwidth product of a holographic imaging system without the need of any advanced hardware. We experimentally validate its capability using a lens-free off-axis holographic system, and compare the performance of various loss functions and interpolation methods in training such a network.
-</div>
-</div>
-
-</div>
-</div>
-<div class="day">
 <h2>Wednesday, 06 November 2019</h2>
 <div class="time">
 <h3>04:00 PM</h3>
 <div class="item feed-6b3f78ad feed-latestbmjresearch" id="item-2c7877c2">
 <p class="itemheader">
 <span class="itemtitle"><a href="http://feeds.bmj.com/~r/bmj/research/~3/kCFeNtQBvtY/bmj.l5922">Internet based vestibular rehabilitation with and without physiotherapy support for adults aged 50 and older with a chronic vestibular syndrome in general practice: three armed randomised controlled trial</a></span>
-<span class="itemfrom">[<a href="https://www.bmj.com/research/feed">Latest BMJ Research</a>]</span>
+<span class="itemfrom">[<a href="https://www.bmj.com/research/feed/206327">Latest BMJ Research</a>]</span>
 </p>
 <div class="itemdescription">
 <div class="feedflare">
@@ -654,13 +646,23 @@ by 2.8x and 2.3x.
 </div>
 </div>
 
-<div class="item feed-094cb33b feed-ieeetransactionsonindustrialelectronicsnewtoc" id="item-ff7b8346">
+<div class="item feed-094cb33b feed-ieeetransactionsonindustrialelectronicsnewtoc" id="item-89dddf3a">
 <p class="itemheader">
-<span class="itemtitle"><a href="http://ieeexplore.ieee.org/document/8672929">Path-Following Control of A Quadrotor UAV With A Cable-Suspended Payload Under Wind Disturbances</a></span>
+<span class="itemtitle"><a href="http://ieeexplore.ieee.org/document/8667016">Hybrid-Model-Based Intelligent Optimization of Ironmaking Process</a></span>
 <span class="itemfrom">[<a href="http://ieeexplore.ieee.org">IEEE Transactions on Industrial Electronics - new TOC</a>]</span>
 </p>
 <div class="itemdescription">
-<p>A path-following controller based on an uncertainty and disturbance estimator (UDE) for a quadrotor with a cable-suspended payload is proposed in this paper. The quadrotor and the payload are subject to unknown wind disturbances. The controller resembles a cascade architecture. For the outer loop, a UDE-based translational control law is proposed. The controller asymptotically stabilizes the quadrotor along a given path and estimates the lumped disturbances with a low-pass filter. For the inner loop, an attitude tracking controller is used to control the direction of the lift vector so that the actual lift force can asymptotically follow the reference force generated by the translational controller. The stability of the system with the translational controller and the attitude tracking controller has been shown to be asymptotically stable using the reduction theorem. With the help of the reduction theorem, the design of the translational and the attitude control can be decoupled, providing the flexibility of implementing different attitude controllers without redoing the stability analysis. As shown in the simulation, the control law can stabilize the quadrotor on the desired path under different wind disturbances.
+<p>Due to the limits on market requirements, material conditions, and production situations in manufacturing process, conventional optimization approaches are difficult to obtain optimal economical and technical indices with physical constraints. To optimize several conflicting objects such as production rate, economic benefits, and gas emission, a hybrid-model-based intelligent optimization method that consists of an improved genetic algorithm and derived deep learning is put forward in this paper. Integration of the hybrid model has made modeling and optimizing an indivisible whole, in which the fitness of the genetic algorithm comes from deep neural networks by weighted sum of the output variables that correspond to the input solutions. The recurrent neural network (RNN) with disposition-gated recurrent unit (dGRU) is applied to capture the dynamics of blast furnace by training the model over datasets recorded in the production scene. Meanwhile, the self-adaptive population genetic algorithm (SAPGA) with a varied population size depending on the fitness distribution is used to locate the optimal solutions under current working conditions. The hybrid intelligent optimization model, validated by both numerical tests and practical data, has been running in an ironmaking plant for one year. It has proved to be successful in meeting industry demands by optimizing multiproduction indices simultaneously.
+</div>
+</div>
+
+<div class="item feed-c99fafa0 feed-ieeetransactionsonimageprocessingnewtoc" id="item-ffef9250">
+<p class="itemheader">
+<span class="itemtitle"><a href="http://ieeexplore.ieee.org/document/8818316">From Pairwise Comparisons and Rating to a Unified Quality Scale</a></span>
+<span class="itemfrom">[<a href="http://ieeexplore.ieee.org">IEEE Transactions on Image Processing - new TOC</a>]</span>
+</p>
+<div class="itemdescription">
+<p>The goal of psychometric scaling is the quantification of perceptual experiences, understanding the relationship between an external stimulus, the internal representation and the response. In this paper, we propose a probabilistic framework to fuse the outcome of different psychophysical experimental protocols, namely rating and pairwise comparisons experiments. Such a method can be used for merging existing datasets of subjective nature and for experiments in which both measurements are collected. We analyze and compare the outcomes of both types of experimental protocols in terms of time and accuracy in a set of simulations and experiments with benchmark and real-world image quality assessment datasets, showing the necessity of scaling and the advantages of each protocol and mixing. Although most of our examples focus on image quality assessment, our findings generalize to any other subjective quality-of-experience task.
 </div>
 </div>
 
@@ -670,30 +672,6 @@ by 2.8x and 2.3x.
 <h2>Monday, 04 November 2019</h2>
 <div class="time">
 <h3>04:50 PM</h3>
-<div class="item feed-6b3f78ad feed-latestbmjresearch" id="item-81d06c20">
-<p class="itemheader">
-<span class="itemtitle"><a href="http://feeds.bmj.com/~r/bmj/research/~3/WbpVMOXE7FA/bmj.l5894">Transmissibility and potential for disease progression of drug resistant Mycobacterium tuberculosis: prospective cohort study</a></span>
-<span class="itemfrom">[<a href="https://www.bmj.com/research/feed">Latest BMJ Research</a>]</span>
-</p>
-<div class="itemdescription">
-<div class="feedflare">
-<a href="http://feeds.bmj.com/~ff/bmj/research?a=WbpVMOXE7FA:bKlBVOnGSmQ:yIl2AUoC8zA"><img border="0" src="http://feeds.feedburner.com/~ff/bmj/research?d=yIl2AUoC8zA" /></a> <a href="http://feeds.bmj.com/~ff/bmj/research?a=WbpVMOXE7FA:bKlBVOnGSmQ:dnMXMwOfBR0"><img border="0" src="http://feeds.feedburner.com/~ff/bmj/research?d=dnMXMwOfBR0" /></a> <a href="http://feeds.bmj.com/~ff/bmj/research?a=WbpVMOXE7FA:bKlBVOnGSmQ:F7zBnMyn0Lo"><img border="0" src="http://feeds.feedburner.com/~ff/bmj/research?i=WbpVMOXE7FA:bKlBVOnGSmQ:F7zBnMyn0Lo" /></a> <a href="http://feeds.bmj.com/~ff/bmj/research?a=WbpVMOXE7FA:bKlBVOnGSmQ:V_sGLiPBpWU"><img border="0" src="http://feeds.feedburner.com/~ff/bmj/research?i=WbpVMOXE7FA:bKlBVOnGSmQ:V_sGLiPBpWU" /></a> <a href="http://feeds.bmj.com/~ff/bmj/research?a=WbpVMOXE7FA:bKlBVOnGSmQ:qj6IDK7rITs"><img border="0" src="http://feeds.feedburner.com/~ff/bmj/research?d=qj6IDK7rITs" /></a> <a href="http://feeds.bmj.com/~ff/bmj/research?a=WbpVMOXE7FA:bKlBVOnGSmQ:gIN9vFwOqvQ"><img border="0" src="http://feeds.feedburner.com/~ff/bmj/research?i=WbpVMOXE7FA:bKlBVOnGSmQ:gIN9vFwOqvQ" /></a>
-</div><img alt="" height="1" src="http://feeds.feedburner.com/~r/bmj/research/~4/WbpVMOXE7FA" width="1" />
-</div>
-</div>
-
-<div class="item feed-6b3f78ad feed-latestbmjresearch" id="item-d9d5c5d5">
-<p class="itemheader">
-<span class="itemtitle"><a href="http://feeds.bmj.com/~r/bmj/research/~3/x27ZWBiRf0U/bmj.l5766">Public sector financial support for late stage discovery of new drugs in the United States: cohort study</a></span>
-<span class="itemfrom">[<a href="https://www.bmj.com/research/feed">Latest BMJ Research</a>]</span>
-</p>
-<div class="itemdescription">
-<div class="feedflare">
-<a href="http://feeds.bmj.com/~ff/bmj/research?a=x27ZWBiRf0U:Ue-KJBqmXCM:yIl2AUoC8zA"><img border="0" src="http://feeds.feedburner.com/~ff/bmj/research?d=yIl2AUoC8zA" /></a> <a href="http://feeds.bmj.com/~ff/bmj/research?a=x27ZWBiRf0U:Ue-KJBqmXCM:dnMXMwOfBR0"><img border="0" src="http://feeds.feedburner.com/~ff/bmj/research?d=dnMXMwOfBR0" /></a> <a href="http://feeds.bmj.com/~ff/bmj/research?a=x27ZWBiRf0U:Ue-KJBqmXCM:F7zBnMyn0Lo"><img border="0" src="http://feeds.feedburner.com/~ff/bmj/research?i=x27ZWBiRf0U:Ue-KJBqmXCM:F7zBnMyn0Lo" /></a> <a href="http://feeds.bmj.com/~ff/bmj/research?a=x27ZWBiRf0U:Ue-KJBqmXCM:V_sGLiPBpWU"><img border="0" src="http://feeds.feedburner.com/~ff/bmj/research?i=x27ZWBiRf0U:Ue-KJBqmXCM:V_sGLiPBpWU" /></a> <a href="http://feeds.bmj.com/~ff/bmj/research?a=x27ZWBiRf0U:Ue-KJBqmXCM:qj6IDK7rITs"><img border="0" src="http://feeds.feedburner.com/~ff/bmj/research?d=qj6IDK7rITs" /></a> <a href="http://feeds.bmj.com/~ff/bmj/research?a=x27ZWBiRf0U:Ue-KJBqmXCM:gIN9vFwOqvQ"><img border="0" src="http://feeds.feedburner.com/~ff/bmj/research?i=x27ZWBiRf0U:Ue-KJBqmXCM:gIN9vFwOqvQ" /></a>
-</div><img alt="" height="1" src="http://feeds.feedburner.com/~r/bmj/research/~4/x27ZWBiRf0U" width="1" />
-</div>
-</div>
-
 <div class="item feed-c24550d7 feed-ieeetransactionsoninformationforensicsandsecuritynewtoc" id="item-fc2a99cf">
 <p class="itemheader">
 <span class="itemtitle"><a href="http://ieeexplore.ieee.org/document/8714023">Constant Modulus Secure Beamforming for Multicast Massive MIMO Wiretap Channels</a></span>
@@ -701,16 +679,6 @@ by 2.8x and 2.3x.
 </p>
 <div class="itemdescription">
 <p>Massive MIMO attains high spectral and power efficiency transmission by leveraging a large number of transmit antennas. However, to capture the benefits of massive MIMO, each antenna should be accompanied with a dedicated RF chain, and consequently, the hardware costs would scale up tremendously with the increase of the antennas. Cheap implementations of massive MIMO have recently gained considerable attention, and constant modulus (CM) signaling is seen as a promising solution, owing to its low peak-to-average power ratio (PAPR). This paper investigates the physical-layer (PHY) security in massive MIMO with an emphasis on the CM signaling. In particular, we consider a transmitter with massive antennas broadcast common confidential information to a group of legitimate receivers, and a number of eavesdroppers overhear the transmission and attempt to intercept the information. Our goal is to design the CM beamforming at the transmitter so that the multicast secrecy rate is maximized. This secrecy rate maximization (SRM) problem is generally NP-hard. To tackle it, two tractable approaches are developed. The first one employs the semidefinite relaxation (SDR) technique and the Charnes-Copper transformation to obtain a convex relaxation of the SRM problem. However, due to the dimension lifting of SDR, this approach is feasible only for small to medium antenna sizes. The second approach leverages the Dinkelbach method to work directly over the beamformer domain; a custom-build nonconvex alternating direction method of multipliers (ADMM) algorithm is proposed to efficiently perform each Dinkelbach update. Simulation results demonstrate that the second approach is computationally more efficient and can achieve nearly optimal performance when the number of antennas is large.
-</div>
-</div>
-
-<div class="item feed-c24550d7 feed-ieeetransactionsoninformationforensicsandsecuritynewtoc" id="item-c5c2fc99">
-<p class="itemheader">
-<span class="itemtitle"><a href="http://ieeexplore.ieee.org/document/8715684">An Intrusion Detection Method for Line Current Differential Relays</a></span>
-<span class="itemfrom">[<a href="http://ieeexplore.ieee.org">IEEE Transactions on Information Forensics and Security - new TOC</a>]</span>
-</p>
-<div class="itemdescription">
-<p>The U.S. Department of Homeland Security (DHS) has recently identified digital relays as targets vulnerable to cyber-attacks. The DHS has also noted that attacks to multiple relays can bring about cascading outages of transmission lines, leading to blackouts. As a result, making protective relays cyber-resilient is a prominent security issue in power networks. Line current differential relays (LCDRs) are among the potentially vulnerable digital relays that are increasingly deployed for protecting critical transmission lines. LCDRs, however, lack the required resiliency against cyber attacks, due to their high dependence on communication systems. This paper unveils that such susceptibilities can result in unwarranted trip signals through false data injection attacks (FDIAs), and so cause instability if several attacks are coordinated. It also presents a solution for detecting FDIAs and distinguishing them from real internal faults. To detect attacks, the proposed method compares the estimated and locally measured voltages at an LCDR's terminal for both the positive sequence (PS) and negative sequence (NS). To estimate the local voltage for each sequence, the proposed technique uses an unknown input observer (UIO), the state-space model of the faulty line, and remote and local measurements, all associated with that sequence. The difference between the measured and estimated local voltages for each sequence remains close to zero during real internal faults because, in this condition, the state-space model based on which the UIO operates correctly represents the line. Nevertheless, the state-space model mismatch during FDIAs leads to a large difference between measured and estimated values in both sequences. The effectiveness of the proposed method is corroborated using simulation results for the IEEE 39-bus network.
 </div>
 </div>
 
@@ -751,6 +719,16 @@ by 2.8x and 2.3x.
 </p>
 <div class="itemdescription">
 <p>Image restoration (IR) is a long-standing challenging problem in low-level image processing. It is of utmost importance to learn good image priors for pursuing visually pleasing results. In this paper, we develop a multi-channel and multi-model-based denoising autoencoder network as image prior for solving IR problem. Specifically, the network that trained on RGB-channel images is used to construct a prior at first, and then the learned prior is incorporated into single-channel grayscale IR tasks. To achieve the goal, we employ the auxiliary variable technique to integrate the higher-dimensional network-driven prior information into the iterative restoration procedure. In addition, according to the weighted aggregation idea, a multi-model strategy is put forward to enhance the network stability that favors to avoid getting trapped in local optima. Extensive experiments on image deblurring and deblocking tasks show that the proposed algorithm is efficient, robust, and yields state-of-the-art restoration quality on grayscale images.
+</div>
+</div>
+
+<div class="item feed-c99fafa0 feed-ieeetransactionsonimageprocessingnewtoc" id="item-5dae5b59">
+<p class="itemheader">
+<span class="itemtitle"><a href="http://ieeexplore.ieee.org/document/8786879">Advanced 3D Motion Prediction for Video-Based Dynamic Point Cloud Compression</a></span>
+<span class="itemfrom">[<a href="http://ieeexplore.ieee.org">IEEE Transactions on Image Processing - new TOC</a>]</span>
+</p>
+<div class="itemdescription">
+<p>Point cloud-based immersive media representation format has provided many opportunities for extended reality applications and has become widely used in volumetric content capturing scenarios. The high data rate of the point cloud is one of the key problems preventing the adoption of this media format. MPEG Immersive media working group (MPEG-I) aims to create a point cloud compression methodology relying on the existing video coding hardware implementations to solve this problem. However, in the scope of the state-of-the-art video-based dynamic point cloud compression (V-PCC) standard under MPEG-I, the intrinsic 3D object's motion continuity is destroyed by the 2D projections, resulting in a significant loss of inter prediction coding efficiency. In this paper, we first propose a general model utilizing the 3D motion and 3D to 2D correspondence to calculate the 2D motion vector (MV). Then, under the V-PCC, we propose a geometry-based method using the accurate 3D reconstructed geometry from the 2D geometry video to estimate the 2D MV in the 2D attribute video. In addition, we propose an auxiliary-information-based method using the coarse 3D reconstructed geometry provided by the auxiliary information to estimate the 2D MV in both the 2D geometry and attribute videos. Furthermore, we provide the following two ways to use the estimated 2D MV to improve coding efficiency. The first one is normative. We propose adding the estimated MV into the advanced MV candidate list and find a better MV predictor for each prediction unit (PU). The second one is non-normative. We propose applying the estimated MV as an additional candidate of the centers for motion estimation. We implement the proposed algorithms in the V-PCC reference software. Experimental results show that the proposed methods present significant coding gains compared with the current state-of-the-art motion prediction algorithm.
 </div>
 </div>
 
@@ -826,13 +804,13 @@ by 2.8x and 2.3x.
 <h2>Thursday, 08 August 2019</h2>
 <div class="time">
 <h3>04:00 PM</h3>
-<div class="item feed-3b836157 feed-annualreviewsannualreviewofsociologytableofcontents" id="item-2f09f641">
+<div class="item feed-3b836157 feed-annualreviewsannualreviewofsociologytableofcontents" id="item-9eb1fd78">
 <p class="itemheader">
-<span class="itemtitle"><a href="https://www.annualreviews.org/doi/abs/10.1146/annurev-soc-073117-041106?ai=t0&amp;mi=3fndc3&amp;af=R">Machine Learning for Sociology</a></span>
+<span class="itemtitle"><a href="https://www.annualreviews.org/doi/abs/10.1146/annurev-soc-073117-041421?ai=t0&amp;mi=3fndc3&amp;af=R">Social Networks and Health: New Developments in Diffusion, Online and Offline</a></span>
 <span class="itemfrom">[Annual Reviews: Annual Review of Sociology: Table of Contents]</span>
 </p>
 <div class="itemdescription">
-<p>Annual Review of Sociology, <a href="https://www.annualreviews.org/toc/soc/45/1">Volume 45, Issue 1</a>, Page 27-45, July 2019. <br />
+<p>Annual Review of Sociology, <a href="https://www.annualreviews.org/toc/soc/45/1">Volume 45, Issue 1</a>, Page 91-109, July 2019. <br />
 </div>
 </div>
 
@@ -948,23 +926,23 @@ by 2.8x and 2.3x.
 </div>
 </div>
 
-<div class="item feed-b3e4c5b6 feed-annualreviewsannualreviewofphysiologytableofcontents" id="item-dfc9d8ae">
+<div class="item feed-b3e4c5b6 feed-annualreviewsannualreviewofphysiologytableofcontents" id="item-430f02a5">
 <p class="itemheader">
-<span class="itemtitle"><a href="https://www.annualreviews.org/doi/abs/10.1146/annurev-physiol-020518-114435?ai=sp&amp;mi=3fndc3&amp;af=R">Plasticity of the Maternal Vasculature During Pregnancy</a></span>
+<span class="itemtitle"><a href="https://www.annualreviews.org/doi/abs/10.1146/annurev-physiol-020518-114546?ai=sp&amp;mi=3fndc3&amp;af=R">Central Mechanisms for Thermoregulation</a></span>
 <span class="itemfrom">[Annual Reviews: Annual Review of Physiology: Table of Contents]</span>
 </p>
 <div class="itemdescription">
-<p>Annual Review of Physiology, <a href="https://www.annualreviews.org/toc/physiol/81/1">Volume 81, Issue 1</a>, Page 89-111, February 2019. <br />
+<p>Annual Review of Physiology, <a href="https://www.annualreviews.org/toc/physiol/81/1">Volume 81, Issue 1</a>, Page 285-308, February 2019. <br />
 </div>
 </div>
 
-<div class="item feed-b3e4c5b6 feed-annualreviewsannualreviewofphysiologytableofcontents" id="item-11485cfd">
+<div class="item feed-b3e4c5b6 feed-annualreviewsannualreviewofphysiologytableofcontents" id="item-6162bffc">
 <p class="itemheader">
-<span class="itemtitle"><a href="https://www.annualreviews.org/doi/abs/10.1146/annurev-physiol-020518-114515?ai=sp&amp;mi=3fndc3&amp;af=R">Epithelial-Stromal Interactions in Pancreatic Cancer</a></span>
+<span class="itemtitle"><a href="https://www.annualreviews.org/doi/abs/10.1146/annurev-physiol-020518-114731?ai=sp&amp;mi=3fndc3&amp;af=R">Metabolic Pathways Fueling the Endothelial Cell Drive</a></span>
 <span class="itemfrom">[Annual Reviews: Annual Review of Physiology: Table of Contents]</span>
 </p>
 <div class="itemdescription">
-<p>Annual Review of Physiology, <a href="https://www.annualreviews.org/toc/physiol/81/1">Volume 81, Issue 1</a>, Page 211-233, February 2019. <br />
+<p>Annual Review of Physiology, <a href="https://www.annualreviews.org/toc/physiol/81/1">Volume 81, Issue 1</a>, Page 483-503, February 2019. <br />
 </div>
 </div>
 
@@ -978,13 +956,13 @@ by 2.8x and 2.3x.
 </div>
 </div>
 
-<div class="item feed-b3e4c5b6 feed-annualreviewsannualreviewofphysiologytableofcontents" id="item-a989c39f">
+<div class="item feed-b3e4c5b6 feed-annualreviewsannualreviewofphysiologytableofcontents" id="item-d4f36e30">
 <p class="itemheader">
-<span class="itemtitle"><a href="https://www.annualreviews.org/doi/abs/10.1146/annurev-physiol-021317-121245?ai=sp&amp;mi=3fndc3&amp;af=R">Steps in Mechanotransduction Pathways that Control Cell Morphology</a></span>
+<span class="itemtitle"><a href="https://www.annualreviews.org/doi/abs/10.1146/annurev-physiol-020518-114339?ai=sp&amp;mi=3fndc3&amp;af=R">The Physiology of Optimizing Health with a Focus on Exercise as Medicine</a></span>
 <span class="itemfrom">[Annual Reviews: Annual Review of Physiology: Table of Contents]</span>
 </p>
 <div class="itemdescription">
-<p>Annual Review of Physiology, <a href="https://www.annualreviews.org/toc/physiol/81/1">Volume 81, Issue 1</a>, Page 585-605, February 2019. <br />
+<p>Annual Review of Physiology, <a href="https://www.annualreviews.org/toc/physiol/81/1">Volume 81, Issue 1</a>, Page 607-627, February 2019. <br />
 </div>
 </div>
 
@@ -1002,113 +980,113 @@ by 2.8x and 2.3x.
 <tr class="feedsrow">
 <td>Annual Reviews: Annual Review of Economics: Table of Contents</td>
 <td><a class="xmlbutton" href="http://www.annualreviews.org/action/showFeed?ui=45mu4&amp;mi=3fndc3&amp;ai=67b7&amp;jc=economics&amp;type=etoc&amp;feed=rss">XML</a></td>
-<td>04:00 PM, Wednesday, 04 December 2019</td>
-<td>07:00 PM, Wednesday, 04 December 2019</td>
+<td>04:00 PM, Wednesday, 11 December 2019</td>
+<td>07:00 PM, Wednesday, 11 December 2019</td>
 </tr>
 
 <tr class="feedsrow">
 <td>Annual Reviews: Annual Review of Nutrition: Table of Contents</td>
 <td><a class="xmlbutton" href="http://www.annualreviews.org/action/showFeed?ui=45mu4&amp;mi=3fndc3&amp;ai=rz&amp;jc=nutr&amp;type=etoc&amp;feed=rss">XML</a></td>
-<td>04:00 PM, Wednesday, 04 December 2019</td>
-<td>07:00 PM, Wednesday, 04 December 2019</td>
+<td>04:00 PM, Wednesday, 11 December 2019</td>
+<td>07:00 PM, Wednesday, 11 December 2019</td>
 </tr>
 
 <tr class="feedsrow">
 <td>Annual Reviews: Annual Review of Physiology: Table of Contents</td>
 <td><a class="xmlbutton" href="http://www.annualreviews.org/action/showFeed?ui=45mu4&amp;mi=3fndc3&amp;ai=sp&amp;jc=physiol&amp;type=etoc&amp;feed=rss">XML</a></td>
-<td>04:00 PM, Wednesday, 04 December 2019</td>
-<td>07:00 PM, Wednesday, 04 December 2019</td>
+<td>04:00 PM, Wednesday, 11 December 2019</td>
+<td>07:00 PM, Wednesday, 11 December 2019</td>
 </tr>
 
 <tr class="feedsrow">
 <td>Annual Reviews: Annual Review of Political Science: Table of Contents</td>
 <td><a class="xmlbutton" href="http://www.annualreviews.org/action/showFeed?jc=polisci&amp;type=etoc&amp;feed=rss">XML</a></td>
-<td>04:00 PM, Wednesday, 04 December 2019</td>
-<td>07:00 PM, Wednesday, 04 December 2019</td>
+<td>04:00 PM, Wednesday, 11 December 2019</td>
+<td>07:00 PM, Wednesday, 11 December 2019</td>
 </tr>
 
 <tr class="feedsrow">
 <td>Annual Reviews: Annual Review of Sociology: Table of Contents</td>
 <td><a class="xmlbutton" href="http://www.annualreviews.org/action/showFeed?ui=45mu4&amp;mi=3fndc3&amp;ai=t0&amp;jc=soc&amp;type=etoc&amp;feed=rss">XML</a></td>
-<td>04:00 PM, Wednesday, 04 December 2019</td>
-<td>07:00 PM, Wednesday, 04 December 2019</td>
+<td>04:00 PM, Wednesday, 11 December 2019</td>
+<td>07:00 PM, Wednesday, 11 December 2019</td>
 </tr>
 
 <tr class="feedsrow">
 <td><a href="http://arxiv.org/">cs.CR updates on arXiv.org</a></td>
 <td><a class="xmlbutton" href="http://export.arxiv.org/rss/cs.CR">XML</a></td>
-<td>04:00 PM, Wednesday, 04 December 2019</td>
-<td>07:00 PM, Wednesday, 04 December 2019</td>
+<td>04:00 PM, Wednesday, 11 December 2019</td>
+<td>07:00 PM, Wednesday, 11 December 2019</td>
 </tr>
 
 <tr class="feedsrow">
 <td><a href="http://www.pnas.org">Early Edition</a></td>
 <td><a class="xmlbutton" href="http://feeds.feedburner.com/Pnas-RssFeedOfEarlyEditionArticles?format=xml">XML</a></td>
-<td>04:00 PM, Wednesday, 04 December 2019</td>
-<td>07:00 PM, Wednesday, 04 December 2019</td>
+<td>04:00 PM, Wednesday, 11 December 2019</td>
+<td>07:00 PM, Wednesday, 11 December 2019</td>
 </tr>
 
 <tr class="feedsrow">
 <td><a href="http://www.eurekalert.org">EurekAlert! - Breaking News</a></td>
 <td><a class="xmlbutton" href="https://www.eurekalert.org/rss.xml">XML</a></td>
-<td>04:00 PM, Wednesday, 04 December 2019</td>
-<td>07:00 PM, Wednesday, 04 December 2019</td>
+<td>04:00 PM, Wednesday, 11 December 2019</td>
+<td>07:00 PM, Wednesday, 11 December 2019</td>
 </tr>
 
 <tr class="feedsrow">
 <td><a href="http://ieeexplore.ieee.org">IEEE Transactions on Image Processing - new TOC</a></td>
 <td><a class="xmlbutton" href="https://ieeexplore.ieee.org/rss/TOC83.XML">XML</a></td>
-<td>04:00 PM, Wednesday, 04 December 2019</td>
-<td>07:00 PM, Wednesday, 04 December 2019</td>
+<td>04:00 PM, Wednesday, 11 December 2019</td>
+<td>07:00 PM, Wednesday, 11 December 2019</td>
 </tr>
 
 <tr class="feedsrow">
 <td><a href="http://ieeexplore.ieee.org">IEEE Transactions on Industrial Electronics - new TOC</a></td>
 <td><a class="xmlbutton" href="https://ieeexplore.ieee.org/rss/TOC41.XML">XML</a></td>
-<td>04:00 PM, Wednesday, 04 December 2019</td>
-<td>07:00 PM, Wednesday, 04 December 2019</td>
+<td>04:00 PM, Wednesday, 11 December 2019</td>
+<td>07:00 PM, Wednesday, 11 December 2019</td>
 </tr>
 
 <tr class="feedsrow">
 <td><a href="http://ieeexplore.ieee.org">IEEE Transactions on Industrial Informatics - new TOC</a></td>
 <td><a class="xmlbutton" href="https://ieeexplore.ieee.org/rss/TOC9424.XML">XML</a></td>
-<td>04:00 PM, Wednesday, 04 December 2019</td>
-<td>07:00 PM, Wednesday, 04 December 2019</td>
+<td>04:00 PM, Wednesday, 11 December 2019</td>
+<td>07:00 PM, Wednesday, 11 December 2019</td>
 </tr>
 
 <tr class="feedsrow">
 <td><a href="http://ieeexplore.ieee.org">IEEE Transactions on Information Forensics and Security - new TOC</a></td>
 <td><a class="xmlbutton" href="https://ieeexplore.ieee.org/rss/TOC10206.XML">XML</a></td>
-<td>04:00 PM, Wednesday, 04 December 2019</td>
-<td>07:00 PM, Wednesday, 04 December 2019</td>
+<td>04:00 PM, Wednesday, 11 December 2019</td>
+<td>07:00 PM, Wednesday, 11 December 2019</td>
 </tr>
 
 <tr class="feedsrow">
 <td><a href="https://jamanetwork.com/journals/jama">JAMA Current Issue</a></td>
 <td><a class="xmlbutton" href="https://jamanetwork.com/rss/site_3/67.xml">XML</a></td>
-<td>04:00 PM, Wednesday, 04 December 2019</td>
-<td>07:00 PM, Wednesday, 04 December 2019</td>
+<td>04:00 PM, Wednesday, 11 December 2019</td>
+<td>07:00 PM, Wednesday, 11 December 2019</td>
 </tr>
 
 <tr class="feedsrow">
-<td><a href="https://www.bmj.com/research/feed">Latest BMJ Research</a></td>
+<td><a href="https://www.bmj.com/research/feed/206327">Latest BMJ Research</a></td>
 <td><a class="xmlbutton" href="http://feeds.bmj.com/bmj/research?format=xml">XML</a></td>
-<td>04:00 PM, Wednesday, 04 December 2019</td>
-<td>07:00 PM, Wednesday, 04 December 2019</td>
+<td>04:00 PM, Wednesday, 11 December 2019</td>
+<td>07:00 PM, Wednesday, 11 December 2019</td>
 </tr>
 
 <tr class="feedsrow">
 <td><a href="http://feeds.nature.com/nature/rss/current">Nature - Issue - nature.com science feeds</a></td>
 <td><a class="xmlbutton" href="http://feeds.nature.com/nature/rss/current?format=xml">XML</a></td>
-<td>04:00 PM, Wednesday, 04 December 2019</td>
-<td>07:00 PM, Wednesday, 04 December 2019</td>
+<td>04:00 PM, Wednesday, 11 December 2019</td>
+<td>07:00 PM, Wednesday, 11 December 2019</td>
 </tr>
 
 <tr class="feedsrow">
 <td><a href="https://www.thelancet.com/journals/lancet/issue/current">The Lancet</a></td>
 <td><a class="xmlbutton" href="http://www.thelancet.com/rssfeed/lancet_current.xml">XML</a></td>
-<td>04:00 PM, Wednesday, 04 December 2019</td>
-<td>07:00 PM, Wednesday, 04 December 2019</td>
+<td>04:00 PM, Wednesday, 11 December 2019</td>
+<td>07:00 PM, Wednesday, 11 December 2019</td>
 </tr>
 
 </table>
