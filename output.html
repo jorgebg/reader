@@ -13,162 +13,341 @@
 </div>
 <div id="items">
 <div class="day">
+<h2>Monday, 03 February 2020</h2>
+<div class="time">
+<h3>04:00 PM</h3>
+<div class="item feed-1b28272e feed-cscrupdatesonarxivorg" id="item-40635e02">
+<p class="itemheader">
+<span class="itemtitle"><a href="http://arxiv.org/abs/1805.11770">AutoZOOM: Autoencoder-based Zeroth Order Optimization Method for Attacking Black-box Neural Networks. (arXiv:1805.11770v5 [cs.CV] UPDATED)</a></span>
+<span class="itemfrom">[<a href="http://arxiv.org/">cs.CR updates on arXiv.org</a>]</span>
+</p>
+<div class="itemdescription">
+<p>Recent studies have shown that adversarial examples in state-of-the-art image
+classifiers trained by deep neural networks (DNN) can be easily generated when
+the target model is transparent to an attacker, known as the white-box setting.
+However, when attacking a deployed machine learning service, one can only
+acquire the input-output correspondences of the target model; this is the
+so-called black-box attack setting. The major drawback of existing black-box
+attacks is the need for excessive model queries, which may give a false sense
+of model robustness due to inefficient query designs. To bridge this gap, we
+propose a generic framework for query-efficient black-box attacks. Our
+framework, AutoZOOM, which is short for Autoencoder-based Zeroth Order
+Optimization Method, has two novel building blocks towards efficient black-box
+attacks: (i) an adaptive random gradient estimation strategy to balance query
+counts and distortion, and (ii) an autoencoder that is either trained offline
+with unlabeled data or a bilinear resizing operation for attack acceleration.
+Experimental results suggest that, by applying AutoZOOM to a state-of-the-art
+black-box attack (ZOO), a significant reduction in model queries can be
+achieved without sacrificing the attack success rate and the visual quality of
+the resulting adversarial examples. In particular, when compared to the
+standard ZOO method, AutoZOOM can consistently reduce the mean query counts in
+finding successful adversarial examples (or reaching the same distortion level)
+by at least 93% on MNIST, CIFAR-10 and ImageNet datasets, leading to novel
+insights on adversarial robustness.
+</p>
+</div>
+</div>
+
+<div class="item feed-1b28272e feed-cscrupdatesonarxivorg" id="item-e762f1de">
+<p class="itemheader">
+<span class="itemtitle"><a href="http://arxiv.org/abs/1807.05082">Differentially Private LQ Control. (arXiv:1807.05082v4 [math.OC] UPDATED)</a></span>
+<span class="itemfrom">[<a href="http://arxiv.org/">cs.CR updates on arXiv.org</a>]</span>
+</p>
+<div class="itemdescription">
+<p>As multi-agent systems proliferate and share more user data, new approaches
+are needed to protect sensitive data while still enabling system operation. To
+address this need, we present a private multi-agent LQ control framework. We
+consider problems in which each agent has linear dynamics and the agents are
+coupled by a quadratic cost. Generating optimal control values for agents is a
+centralized operation, and we therefore introduce a cloud computer into the
+network for this purpose. The cloud is tasked with aggregating agents' outputs,
+computing control inputs, and transmitting these inputs to the agents, which
+apply them in their state updates. Agents' state trajectories can be sensitive
+and we therefore protect them using differential privacy. Differential privacy
+is a statistical notion of privacy enforced by adding noise to sensitive data
+(or functions thereof) before sharing it, and agents add noise to all data
+before sending it to the cloud. The result is a private multi-agent LQG
+framework in which agents' states are protected from both the cloud and other
+agents. We quantify the impact of privacy along three dimensions: the amount of
+information shared under privacy, the control-theoretic cost of privacy, and
+the tradeoffs between privacy and performance. These analyses are done in
+conventional control-theoretic terms, which we use to develop guidelines for
+calibrating privacy as a function of system parameters. Numerical results are
+provided to illustrate these results.
+</p>
+</div>
+</div>
+
+<div class="item feed-1b28272e feed-cscrupdatesonarxivorg" id="item-b4122e59">
+<p class="itemheader">
+<span class="itemtitle"><a href="http://arxiv.org/abs/1905.00650">Differential privacy with partial knowledge. (arXiv:1905.00650v4 [cs.CR] UPDATED)</a></span>
+<span class="itemfrom">[<a href="http://arxiv.org/">cs.CR updates on arXiv.org</a>]</span>
+</p>
+<div class="itemdescription">
+<p>Differential privacy offers formal quantitative guarantees for algorithms
+over datasets, but it assumes attackers that know and can influence all but one
+record in the database. This assumption often vastly overapproximates the
+attackers' actual strength, resulting in unnecessarily poor utility.
+</p>
+<p>Recent work has made significant steps towards privacy in the presence of
+partial background knowledge, which can model a realistic attacker's
+uncertainty. Prior work, however, has definitional problems for correlated data
+and does not precisely characterize the underlying attacker model. We propose a
+practical criterion to prevent problems due to correlations, and we show how to
+characterize attackers with limited influence or only partial background
+knowledge over the dataset. We use these foundations to analyze practical
+scenarios: we significantly improve known results about the privacy of counting
+queries under partial knowledge, and we show that thresholding can provide
+formal guarantees against such weak attackers, even with little entropy in the
+data. Finally, we prove composition results on differential privacy with
+partial knowledge, which quantifies the privacy leakage of complex mechanisms.
+</p>
+<p>Together, our results provide a basis for formally quantifying the privacy of
+many widely-used mechanisms, e.g. publishing the result of surveys, elections
+or referendums, and releasing usage statistics of online services.
+</p>
+</div>
+</div>
+
+<div class="item feed-1b28272e feed-cscrupdatesonarxivorg" id="item-170110a4">
+<p class="itemheader">
+<span class="itemtitle"><a href="http://arxiv.org/abs/1905.08792">A Standalone FPGA-based Miner for Lyra2REv2 Cryptocurrencies. (arXiv:1905.08792v2 [cs.CR] UPDATED)</a></span>
+<span class="itemfrom">[<a href="http://arxiv.org/">cs.CR updates on arXiv.org</a>]</span>
+</p>
+<div class="itemdescription">
+<p>Lyra2REv2 is a hashing algorithm that consists of a chain of individual
+hashing algorithms, and it is used as a proof-of-work function in several
+cryptocurrencies. The most crucial and exotic hashing algorithm in the
+Lyra2REv2 chain is a specific instance of the general Lyra2 algorithm. This
+work presents the first hardware implementation of the specific instance of
+Lyra2 that is used in Lyra2REv2. Several properties of the aforementioned
+algorithm are exploited in order to optimize the design. In addition, an
+FPGA-based hardware implementation of a standalone miner for Lyra2REv2 on a
+Xilinx Multi-Processor System on Chip is presented. The proposed Lyra2REv2
+miner is shown to be significantly more energy efficient than both a GPU and a
+commercially available FPGA-based miner. Finally, we also explain how the
+simplified Lyra2 and Lyra2REv2 architectures can be modified with minimal
+effort to also support the recent Lyra2REv3 chained hashing algorithm.
+</p>
+</div>
+</div>
+
+<div class="item feed-1b28272e feed-cscrupdatesonarxivorg" id="item-bf1155dd">
+<p class="itemheader">
+<span class="itemtitle"><a href="http://arxiv.org/abs/1908.02204">Cross-Origin State Inference (COSI) Attacks: Leaking Web Site States through XS-Leaks. (arXiv:1908.02204v2 [cs.CR] UPDATED)</a></span>
+<span class="itemfrom">[<a href="http://arxiv.org/">cs.CR updates on arXiv.org</a>]</span>
+</p>
+<div class="itemdescription">
+<p>In a Cross-Origin State Inference (COSI) attack, an attacker convinces a
+victim into visiting an attack web page, which leverages the cross-origin
+interaction features of the victim's web browser to infer the victim's state at
+a target web site. Multiple instances of COSI attacks have been found in the
+past under different names such as login detection or access detection attacks.
+But, those attacks only consider two states (e.g., logged in or not) and focus
+on a specific browser leak method (or XS-Leak). This work shows that mounting
+more complex COSI attacks such as deanonymizing the owner of an account,
+determining if the victim owns sensitive content, and determining the victim's
+account type often requires considering more than two states. Furthermore,
+robust attacks require supporting a variety of browsers since the victim's
+browser cannot be predicted apriori. To address these issues, we present a
+novel approach to identify and build complex COSI attacks that differentiate
+more than two states and support multiple browsers by combining multiple attack
+vectors, possibly using different XS-Leaks. To enable our approach, we
+introduce the concept of a COSI attack class. We propose two novel techniques
+to generalize existing COSI attack instances into COSI attack classes and to
+discover new COSI attack classes. We systematically apply our techniques to
+existing attacks, identifying 40 COSI attack classes. As part of this process,
+we discover a novel XS-Leak based on window.postMessage. We implement our
+approach into Basta-COSI, a tool to find COSI attacks in a target web site. We
+apply Basta-COSI to test four stand-alone web applications and 58 popular web
+sites, finding COSI attacks against each of them.
+</p>
+</div>
+</div>
+
+<div class="item feed-53ba08d1 feed-natureissuenaturecomsciencefeeds" id="item-2cafcce7">
+<p class="itemheader">
+<span class="itemtitle"><a href="http://feeds.nature.com/~r/nature/rss/current/~3/1cS6ECb1LkE/d41586-020-00218-x">Young-onset Parkinson&#8217;s disease could take root at birth</a></span>
+<span class="itemfrom">[<a href="http://feeds.nature.com/nature/rss/current">Nature - Issue - nature.com science feeds</a>]</span>
+</p>
+<div class="itemdescription">
+<p>Nature, Published online: 03 February 2020; <a href="https://www.nature.com/articles/d41586-020-00218-x">doi:10.1038/d41586-020-00218-x</a></p>Scientists pinpoint molecular changes that could help to reveal people at risk of developing the disease before age 50.<img alt="" height="1" src="http://feeds.feedburner.com/~r/nature/rss/current/~4/1cS6ECb1LkE" width="1" />
+</div>
+</div>
+
+<div class="item feed-fab735fe feed-thelancet" id="item-0331f19b">
+<p class="itemheader">
+<span class="itemtitle"><a href="https://www.thelancet.com/journals/lancet/article/PIIS0140-6736(20)30248-8/fulltext?rss=yes">[Editorial] New health indicators for America: aiming to shift practice</a></span>
+<span class="itemfrom">[<a href="https://www.thelancet.com/journals/lancet/issue/current">The Lancet</a>]</span>
+</p>
+<div class="itemdescription">
+<p>Life expectancy, levels of disability and mental health, prevalence of adverse childhood experiences, immunisation rates, and the proportion of people voting as a measure of civic engagement are among a set of new health indicators proposed to monitor the health of Americans in the next decade.
+</div>
+</div>
+
+<div class="item feed-fab735fe feed-thelancet" id="item-481b326f">
+<p class="itemheader">
+<span class="itemtitle"><a href="https://www.thelancet.com/journals/lancet/article/PIIS0140-6736(20)30034-9/fulltext?rss=yes">[Comment] Defining colon cancer biomarkers by using deep learning</a></span>
+<span class="itemfrom">[<a href="https://www.thelancet.com/journals/lancet/issue/current">The Lancet</a>]</span>
+</p>
+<div class="itemdescription">
+<p>Refined approaches are needed to better risk-stratify patients with colorectal cancer for prognosis. No predictive biomarkers of treatment efficacy have yet been identified in patients with non-metastatic disease. Ole-Johan Skrede and colleagues1 in The Lancet report on a computer-generated biomarker, the DoMore-v1-colorectal cancer (DoMore-v1-CRC) classifier, which was derived from conventionally stained histopathological images by using deep learning methods. This study adds value to the application of deep learning methods in cancer research as it stimulates a discussion on the potential use of automated methods to generate new information from existing pathological data.
+</div>
+</div>
+
+<div class="item feed-fab735fe feed-thelancet" id="item-c63b630f">
+<p class="itemheader">
+<span class="itemtitle"><a href="https://www.thelancet.com/journals/lancet/article/PIIS0140-6736(19)32976-9/fulltext?rss=yes">[Comment] Increased production and comprehensive guidelines needed for HPV vaccine</a></span>
+<span class="itemfrom">[<a href="https://www.thelancet.com/journals/lancet/issue/current">The Lancet</a>]</span>
+</p>
+<div class="itemdescription">
+<p>High-level action is needed to address a global shortage of human papillomavirus (HPV) vaccine. HPV vaccine protects against infection from HPV, which is spread through sexual contact. Infection can lead to cervical cancer in women, penile cancers in men, and oropharyngeal, anal, and other cancers across genders. Globally, there are an estimated 570&#8200;000 HPV-related cancer cases in women and 60&#8200;000 in men.1 In 2018, about 311&#8200;000 women died from cervical cancer, more than 85% in low-income and middle-income countries (LMICs).
+</div>
+</div>
+
+<div class="item feed-fab735fe feed-thelancet" id="item-3deee93f">
+<p class="itemheader">
+<span class="itemtitle"><a href="https://www.thelancet.com/journals/lancet/article/PIIS0140-6736(20)30139-2/fulltext?rss=yes">[Perspectives] Pink gin, last rites</a></span>
+<span class="itemfrom">[<a href="https://www.thelancet.com/journals/lancet/issue/current">The Lancet</a>]</span>
+</p>
+<div class="itemdescription">
+<p>&#8220;Thank you very much for asking us to see this 93-year-old gentleman who turns 94 in less than a month. He is clearly a tough chap as he was knocked off his bike on the way here in the wind, but brushed himself down and carried on.&#8221;
+</div>
+</div>
+
+<div class="item feed-fab735fe feed-thelancet" id="item-afb8c2e4">
+<p class="itemheader">
+<span class="itemtitle"><a href="https://www.thelancet.com/journals/lancet/article/PIIS0140-6736(19)32553-X/fulltext?rss=yes">[Correspondence] Usual care: the big but unmanaged problem of rehabilitation evidence</a></span>
+<span class="itemfrom">[<a href="https://www.thelancet.com/journals/lancet/issue/current">The Lancet</a>]</span>
+</p>
+<div class="itemdescription">
+<p>We congratulate Helen Rodgers and colleagues1 for their high-quality study, and Julie Bernhardt and Jan Mehrholz2 for their enlightening Comment. However, the problem of usual care in rehabilitation medicine should not be overlooked.3 In rehabilitation, usual care is far from usual for many reasons, such as multiple treatments, different order of therapies, and personal behaviours that affect these factors.3,4 Patients receiving usual care can be a comparison group for other interventions; however, they are most frequently used as a baseline intervention to which new technologies, such as robotics, are added.
+</div>
+</div>
+
+<div class="item feed-c24550d7 feed-ieeetransactionsoninformationforensicsandsecuritynewtoc" id="item-3f24141b">
+<p class="itemheader">
+<span class="itemtitle"><a href="http://ieeexplore.ieee.org/document/8718643">Detection of HEVC Double Compression With the Same Coding Parameters Based on Analysis of Intra Coding Quality Degradation Process</a></span>
+<span class="itemfrom">[<a href="http://ieeexplore.ieee.org">IEEE Transactions on Information Forensics and Security - new TOC</a>]</span>
+</p>
+<div class="itemdescription">
+<p>The emergence of the high-efficiency video coding (HEVC) standard enables people to enjoy high definition (HD) video content; meanwhile, HD videos, tamper detection has become a crucial issue and gradually aroused people's attention. The detection of double HEVC compressed videos with the same coding parameters is challenging since the recompression traces are inconspicuous. To deal with this issue, a novel method based on the intra prediction mode is proposed in this paper. First, the quality degradation mechanism is analyzed to facilitate the selection of classification features and the source of error in intra coding is fully considered to establish the equivalent error model. Second, the feature model of double HEVC compression detection, which is mainly based on the statistical feature of intra prediction mode, is proposed. Finally, the experiment is carried out in 720p and 1080p HEVC videos instead of low-resolution (CIF or QCIF) videos. Experimental results have demonstrated better efficiency of the proposed method in comparison to the state-of-the-art methods. Besides, the proposed method is more robust to various encoding configurations.
+</div>
+</div>
+
+<div class="item feed-c24550d7 feed-ieeetransactionsoninformationforensicsandsecuritynewtoc" id="item-257be94d">
+<p class="itemheader">
+<span class="itemtitle"><a href="http://ieeexplore.ieee.org/document/8747397">Selective Audio Adversarial Example in Evasion Attack on Speech Recognition System</a></span>
+<span class="itemfrom">[<a href="http://ieeexplore.ieee.org">IEEE Transactions on Information Forensics and Security - new TOC</a>]</span>
+</p>
+<div class="itemdescription">
+<p>Deep neural networks (DNNs) are widely used for image recognition, speech recognition, and other pattern analysis tasks. Despite the success of DNNs, these systems can be exploited by what is termed adversarial examples. An adversarial example, in which a small distortion is added to the input data, can be designed to be misclassified by the DNN while remaining undetected by humans or other systems. Such adversarial examples have been studied mainly in the image domain. Recently, however, studies on adversarial examples have been expanding into the voice domain. For example, when an adversarial example is applied to enemy wiretapping devices (victim classifiers) in a military environment, the enemy device will misinterpret the intended message. In such scenarios, it is necessary that friendly wiretapping devices (protected classifiers) should not be deceived. Therefore, the selective adversarial example concept can be useful in mixed situations, defined as situations in which there is both a classifier to be protected and a classifier to be attacked. In this paper, we propose a selective audio adversarial example with minimum distortion that will be misclassified as the target phrase by a victim classifier but correctly classified as the original phrase by a protected classifier. To generate such examples, a transformation is carried out to minimize the probability of incorrect classification by the protected classifier and that of correct classification by the victim classifier. We conducted experiments targeting the state-of-the-art DeepSpeech voice recognition model using Mozilla Common Voice datasets and the Tensorflow library. They showed that the proposed method can generate a selective audio adversarial example with a 91.67% attack success rate and 85.67% protected classifier accuracy.
+</div>
+</div>
+
+<div class="item feed-c24550d7 feed-ieeetransactionsoninformationforensicsandsecuritynewtoc" id="item-9ea7f734">
+<p class="itemheader">
+<span class="itemtitle"><a href="http://ieeexplore.ieee.org/document/8765826">Information Theoretical Analysis of Unfair Rating Attacks Under Subjectivity</a></span>
+<span class="itemfrom">[<a href="http://ieeexplore.ieee.org">IEEE Transactions on Information Forensics and Security - new TOC</a>]</span>
+</p>
+<div class="itemdescription">
+<p>Ratings provided by advisors can help an advisee to make decisions, e.g., which seller to select in e-commerce. Unfair rating attacks-where dishonest ratings are provided to mislead the advisee-impact the accuracy of decision making. Current literature focuses on specific classes of unfair rating attacks, which does not provide a complete picture of the attacks. We provide the first formal study that addresses all attack behavior that is possible within a given system. We propose a probabilistic modeling of rating behavior, and apply information theory to quantitatively measure the impact of attacks. In particular, we can identify the attack with the worst impact. In the simple case, honest advisors report the truth straightforwardly, and attackers rate strategically. In real systems, the truth (or an advisor's view on it) may be subjective, making even honest ratings inaccurate. Although there exist methods to deal with subjective ratings, whether subjectivity influences the effect of unfair rating attacks was an open question. We discover that subjectivity decreases the robustness against attacks.
+</div>
+</div>
+
+<div class="item feed-c24550d7 feed-ieeetransactionsoninformationforensicsandsecuritynewtoc" id="item-fe10c507">
+<p class="itemheader">
+<span class="itemtitle"><a href="http://ieeexplore.ieee.org/document/8768406">Automatically Dismantling Online Dating Fraud</a></span>
+<span class="itemfrom">[<a href="http://ieeexplore.ieee.org">IEEE Transactions on Information Forensics and Security - new TOC</a>]</span>
+</p>
+<div class="itemdescription">
+<p>Online romance scams are a prevalent form of mass-marketing fraud in the West, and yet few studies have presented data-driven responses to this problem. In this type of scam, fraudsters craft fake profiles and manually interact with their victims. Because of the characteristics of this type of fraud and how dating sites operate, traditional detection methods (e.g., those used in spam filtering) are ineffective. In this paper, we investigate the archetype of online dating profiles used in this form of fraud, including their use of demographics, profile descriptions, and images, shedding light on both the strategies deployed by scammers to appeal to victims and the traits of victims themselves. Furthermore, in response to the severe financial and psychological harm caused by dating fraud, we develop a system to detect romance scammers on online dating platforms. This paper presents the first fully described system for automatically detecting this fraud. Our aim is to provide an early detection system to stop romance scammers as they create fraudulent profiles or before they engage with potential victims. Previous research has indicated that the victims of romance scams score highly on scales for idealized romantic beliefs. We combine a range of structured, unstructured, and deep-learned features that capture these beliefs in order to build a detection system. Our ensemble machine-learning approach is robust to the omission of profile details and performs at high accuracy (97%) in a hold-out validation set. The system enables development of automated tools for dating site providers and individual users.
+</div>
+</div>
+
+<div class="item feed-c24550d7 feed-ieeetransactionsoninformationforensicsandsecuritynewtoc" id="item-bc479705">
+<p class="itemheader">
+<span class="itemtitle"><a href="http://ieeexplore.ieee.org/document/8831402">Impact of Outdated CSI on the Secrecy Performance of Wireless-Powered Untrusted Relay Networks</a></span>
+<span class="itemfrom">[<a href="http://ieeexplore.ieee.org">IEEE Transactions on Information Forensics and Security - new TOC</a>]</span>
+</p>
+<div class="itemdescription">
+<p>We investigate the effect of outdated channel state information (CSI) on the secrecy performance of wireless-powered untrusted relay networks, in which the relay is a potential eavesdropper. To keep the information secret from this untrusted relay, the destination sends a jamming signal to the relay when the source transmits an information signal. At the same time, the relay harvests energy from the radio-frequency power, and forwards the received signals to the destination using this harvested energy. To determine the proportions of energy harvesting and information processing, the relay makes use of relaying based on power splitting or time switching policy. Although the destination tries to remove the jamming signal from the relaying signal, it cannot cancel out the jamming signal perfectly due to imperfect channel reciprocity caused by the outdated CSI; this residual jamming signal therefore has a negative impact on secrecy performance. In this scenario, we derive the closed-form expressions for the outage probability and average secrecy rate, and find the jamming power ratio, power splitting ratio, and time switching ratio to optimize these secrecy performance metrics. The numerical results demonstrate the accuracy of our analysis, and show that the proposed secure relaying protocols achieve a near-optimal secrecy performance, as well as outperforming the conventional scheme without the jamming power control.
+</div>
+</div>
+
+<div class="item feed-c99fafa0 feed-ieeetransactionsonimageprocessingnewtoc" id="item-c6a62fe9">
+<p class="itemheader">
+<span class="itemtitle"><a href="http://ieeexplore.ieee.org/document/8966594">Reverse Attention-Based Residual Network for Salient Object Detection</a></span>
+<span class="itemfrom">[<a href="http://ieeexplore.ieee.org">IEEE Transactions on Image Processing - new TOC</a>]</span>
+</p>
+<div class="itemdescription">
+<p>Benefiting from the quick development of deep convolutional neural networks, especially fully convolutional neural networks (FCNs), remarkable progresses have been achieved on salient object detection recently. Nevertheless, these FCNs based methods are still challenging to generate high resolution saliency maps, and also not applicable for subsequent applications due to their heavy model weights. In this paper, we propose a compact and efficient deep network with high accuracy for salient object detection. Firstly, we propose two strategies for initial prediction, one is a new designed multi-scale context module, the other is incorporating hand-crafted saliency priors. Secondly, we employ residual learning to refine it progressively by only learning the residual in each side-output, which can be achieved with few convolutional parameters, therefore leads to high compactness and high efficiency. Finally, we further design a novel top-down reverse attention block to guide the above side-output residual learning. Specifically, the current predicted salient regions are used to erase its side-output feature, thus the missing object parts and details can be efficiently learned from these unerased regions, which results in more complete detection and high accuracy. Extensive experimental results on seven benchmark datasets demonstrate that the proposed network performs favorably against the state-of-the-art approaches, and shows advantages in simplicity, compactness and efficiency.
+</div>
+</div>
+
+<div class="item feed-63a85565 feed-eurekalertbreakingnews" id="item-6c42ed58">
+<p class="itemheader">
+<span class="itemtitle"><a href="https://www.eurekalert.org/pub_releases/2020-02/uoc--aar013120.php">Agricultural area residents in danger of inhaling toxic aerosols</a></span>
+<span class="itemfrom">[<a href="http://www.eurekalert.org">EurekAlert! - Breaking News</a>]</span>
+</p>
+<div class="itemdescription">
+<p>Excess selenium from fertilizers and other natural sources can create air pollution that could lead to lung cancer, asthma, and Type 2 diabetes, according to new UC Riverside research.
+</div>
+</div>
+
+<div class="item feed-63a85565 feed-eurekalertbreakingnews" id="item-d71a69fb">
+<p class="itemheader">
+<span class="itemtitle"><a href="https://www.eurekalert.org/pub_releases/2020-02/uoc--ao013120.php">Assessing 'stickiness' of tumor cells could improve cancer prognosis</a></span>
+<span class="itemfrom">[<a href="http://www.eurekalert.org">EurekAlert! - Breaking News</a>]</span>
+</p>
+<div class="itemdescription">
+<p>Researchers led by UC San Diego built a device that sorts and separates cancer cells from the same tumor based on how 'sticky' they are. They found that less sticky cells migrate and invade other tissues more than their stickier counterparts, and have genes that make tumor recurrence more likely.
+</div>
+</div>
+
+<div class="item feed-63a85565 feed-eurekalertbreakingnews" id="item-f815d117">
+<p class="itemheader">
+<span class="itemtitle"><a href="https://www.eurekalert.org/pub_releases/2020-02/mu-gsd013020.php">Grey seals discovered clapping underwater to communicate</a></span>
+<span class="itemfrom">[<a href="http://www.eurekalert.org">EurekAlert! - Breaking News</a>]</span>
+</p>
+<div class="itemdescription">
+<p>An international study, led by Australia's Monash University, has discovered wild grey seals can clap their flippers underwater during breeding season.
+</div>
+</div>
+
+<div class="item feed-63a85565 feed-eurekalertbreakingnews" id="item-f7ad21e1">
+<p class="itemheader">
+<span class="itemtitle"><a href="https://www.eurekalert.org/pub_releases/2020-01/ijl-cou013120.php">Characterization of unique PMEPA1 gene splice variants (isoforms d and e) from RNA Seq profiling pro</a></span>
+<span class="itemfrom">[<a href="http://www.eurekalert.org">EurekAlert! - Breaking News</a>]</span>
+</p>
+<div class="itemdescription">
+<p>In addition to 4 reported PMEPA1 isoforms, one novel isoform PMEPA1-e was identified with RNA Seq analysis of hormone-responsive VCa P, LNCa P cells and human prostate cancer samples from The Cancer Genome Atlas dataset.
+</div>
+</div>
+
+<div class="item feed-63a85565 feed-eurekalertbreakingnews" id="item-9755b215">
+<p class="itemheader">
+<span class="itemtitle"><a href="https://www.eurekalert.org/pub_releases/2020-01/iu-isl013020.php">IU study looks at the effect of Medicaid expansion on the SUD treatment workforce</a></span>
+<span class="itemfrom">[<a href="http://www.eurekalert.org">EurekAlert! - Breaking News</a>]</span>
+</p>
+<div class="itemdescription">
+<p>Medicaid expansion has led to substantial increases in Medicaid reimbursement for substance use treatment, it has not specifically led to a detectable increase in hiring attempts to increase the substance use disorder and behavioral health treatment workforce, according to a study by Indiana University researchers.
+</div>
+</div>
+
+</div>
+</div>
+<div class="day">
 <h2>Thursday, 30 January 2020</h2>
 <div class="time">
 <h3>04:00 PM</h3>
-<div class="item feed-1b28272e feed-cscrupdatesonarxivorg" id="item-a4cef70f">
+<div class="item feed-53ba08d1 feed-natureissuenaturecomsciencefeeds" id="item-73ab8b77">
 <p class="itemheader">
-<span class="itemtitle"><a href="http://arxiv.org/abs/2001.10783">RSA and redactable blockchains. (arXiv:2001.10783v1 [cs.CR])</a></span>
-<span class="itemfrom">[<a href="http://arxiv.org/">cs.CR updates on arXiv.org</a>]</span>
-</p>
-<div class="itemdescription">
-<p>A blockchain is redactable if a private key holder (e.g. a central authority)
-can change any single block without violating integrity of the whole
-blockchain, but no other party can do that. In this paper, we offer a simple
-method of constructing redactable blockchains inspired by the ideas underlying
-the well-known RSA encryption scheme. Notably, our method can be used in
-conjunction with any reasonable hash function that is used to build a
-blockchain. Public immutability of a blockchain in our construction is based on
-the computational hardness of the RSA problem and not on properties of the
-underlying hash function. Corruption resistance is based on the computational
-hardness of the discrete logarithm problem.
-</p>
-</div>
-</div>
-
-<div class="item feed-1b28272e feed-cscrupdatesonarxivorg" id="item-32a1d867">
-<p class="itemheader">
-<span class="itemtitle"><a href="http://arxiv.org/abs/1909.01837">DeepObfusCode: Source Code Obfuscation Through Sequence-to-Sequence Networks. (arXiv:1909.01837v2 [cs.CR] UPDATED)</a></span>
-<span class="itemfrom">[<a href="http://arxiv.org/">cs.CR updates on arXiv.org</a>]</span>
-</p>
-<div class="itemdescription">
-<p>The paper explores a novel methodology in source code obfuscation through the
-application of text-based recurrent neural network (RNN) encoder-decoder models
-in ciphertext generation and key generation. Sequence-to-sequence models are
-incorporated into the model architecture to generate obfuscated code, generate
-the deobfuscation key, and live execution. Quantitative benchmark comparison to
-existing obfuscation methods indicate significant improvement in stealth and
-execution cost for the proposed solution, and experiments regarding the model's
-properties yield positive results regarding its character variation,
-dissimilarity to the original codebase, and consistent length of obfuscated
-code.
-</p>
-</div>
-</div>
-
-<div class="item feed-1b28272e feed-cscrupdatesonarxivorg" id="item-d2bd0018">
-<p class="itemheader">
-<span class="itemtitle"><a href="http://arxiv.org/abs/2001.06778">CycLedger: A Scalable and Secure Parallel Protocol for Distributed Ledger via Sharding. (arXiv:2001.06778v3 [cs.DC] UPDATED)</a></span>
-<span class="itemfrom">[<a href="http://arxiv.org/">cs.CR updates on arXiv.org</a>]</span>
-</p>
-<div class="itemdescription">
-<p>Traditional public distributed ledgers have not been able to scale-out well
-and work efficiently. Sharding is deemed as a promising way to solve this
-problem. By partitioning all nodes into small committees and letting them work
-in parallel, we can significantly lower the amount of communication and
-computation, reduce the overhead on each node's storage, as well as enhance the
-throughput of distributed ledger. Existing sharding-based protocols still
-suffer from several serious drawbacks. The first thing is that all honest nodes
-must connect well with each other, which demands a huge number of communication
-channels in the network. Moreover, previous protocols have face great loss in
-efficiency in the case where the honesty of each committee's leader is in
-question. At the same time, no explicit incentive is provided for nodes to
-actively participate in the protocol.
-</p>
-<p>We present CycLedger, a scalable and secure parallel protocol for distributed
-ledger via sharding. Our protocol selects a leader and a partial set for each
-committee, who are in charge of maintaining intra-shard consensus and
-communicating with other committees, to reduce the amortized complexity of
-communication, computation and storage on all nodes. We introduce a novel
-commitment scheme between committees and a recovery procedure to prevent the
-system from crashing even when leaders of committees are malicious. To add
-incentive for the network, we use the concept of reputation, which measures
-each node's computing power. As nodes with higher reputation receive more
-rewards, there is an encouragement for nodes with strong computing ability to
-work honestly so as to gain reputation. In this way, we strike out a new path
-to establish scalability, security and incentive for the sharding-based
-distributed ledger.
-</p>
-</div>
-</div>
-
-<div class="item feed-53ba08d1 feed-natureissuenaturecomsciencefeeds" id="item-05110ee8">
-<p class="itemheader">
-<span class="itemtitle"><a href="http://feeds.nature.com/~r/nature/rss/current/~3/d5ZCczmUK6I/s41586-020-1966-9">Zucchini consensus motifs determine the mechanism of pre-piRNA production</a></span>
+<span class="itemtitle"><a href="http://feeds.nature.com/~r/nature/rss/current/~3/Qr5AJ7GkkPg/d41586-020-00137-x">Brain tumours manipulate neighbouring synapses</a></span>
 <span class="itemfrom">[<a href="http://feeds.nature.com/nature/rss/current">Nature - Issue - nature.com science feeds</a>]</span>
 </p>
 <div class="itemdescription">
-<p>Nature, Published online: 29 January 2020; <a href="https://www.nature.com/articles/s41586-020-1966-9">doi:10.1038/s41586-020-1966-9</a></p>A silkworm model recapitulates key steps of Zucchini-mediated cleavage of pre-pre-piRNA and provides insights into Zucchini-mediated and -independent pathways that generate pre-piRNAs, which converge to a common piRNA maturation step.<img alt="" height="1" src="http://feeds.feedburner.com/~r/nature/rss/current/~4/d5ZCczmUK6I" width="1" />
-</div>
-</div>
-
-<div class="item feed-53ba08d1 feed-natureissuenaturecomsciencefeeds" id="item-82c9f1b6">
-<p class="itemheader">
-<span class="itemtitle"><a href="http://feeds.nature.com/~r/nature/rss/current/~3/0M8vHrmc_kQ/d41586-020-00148-8">Protein structure reveals how a malaria parasite imports a wide range of sugars</a></span>
-<span class="itemfrom">[<a href="http://feeds.nature.com/nature/rss/current">Nature - Issue - nature.com science feeds</a>]</span>
-</p>
-<div class="itemdescription">
-<p>Nature, Published online: 29 January 2020; <a href="https://www.nature.com/articles/d41586-020-00148-8">doi:10.1038/d41586-020-00148-8</a></p>Unlike many sugar-transporting proteins, a transporter in one species of malaria parasite can import several types of sugar equally effectively, aiding the parasite&#8217;s survival. The structure of this protein reveals the reason for its versatility.<img alt="" height="1" src="http://feeds.feedburner.com/~r/nature/rss/current/~4/0M8vHrmc_kQ" width="1" />
-</div>
-</div>
-
-<div class="item feed-53ba08d1 feed-natureissuenaturecomsciencefeeds" id="item-fc566b6e">
-<p class="itemheader">
-<span class="itemtitle"><a href="http://feeds.nature.com/~r/nature/rss/current/~3/vqJJz7NpxXk/d41586-020-00165-7">Smoke signals in the DNA of normal lung cells</a></span>
-<span class="itemfrom">[<a href="http://feeds.nature.com/nature/rss/current">Nature - Issue - nature.com science feeds</a>]</span>
-</p>
-<div class="itemdescription">
-<p>Nature, Published online: 29 January 2020; <a href="https://www.nature.com/articles/d41586-020-00165-7">doi:10.1038/d41586-020-00165-7</a></p>Healthy cells in smokers&#8217; lungs have a high burden of mutations, similar to the mutational profile of lung cancer. Surprisingly, ex-smokers&#8217; lungs have a large fraction of healthy cells with nearly normal profiles.<img alt="" height="1" src="http://feeds.feedburner.com/~r/nature/rss/current/~4/vqJJz7NpxXk" width="1" />
-</div>
-</div>
-
-<div class="item feed-53ba08d1 feed-natureissuenaturecomsciencefeeds" id="item-75b80898">
-<p class="itemheader">
-<span class="itemtitle"><a href="http://feeds.nature.com/~r/nature/rss/current/~3/lnouVPupNEA/d41586-020-00199-x">Fighting cancer with microbes</a></span>
-<span class="itemfrom">[<a href="http://feeds.nature.com/nature/rss/current">Nature - Issue - nature.com science feeds</a>]</span>
-</p>
-<div class="itemdescription">
-<p>Nature, Published online: 29 January 2020; <a href="https://www.nature.com/articles/d41586-020-00199-x">doi:10.1038/d41586-020-00199-x</a></p>Targeting the microbiome could hold the key to combating a range of malignant diseases.<img alt="" height="1" src="http://feeds.feedburner.com/~r/nature/rss/current/~4/lnouVPupNEA" width="1" />
-</div>
-</div>
-
-<div class="item feed-63a85565 feed-eurekalertbreakingnews" id="item-43f26431">
-<p class="itemheader">
-<span class="itemtitle"><a href="https://www.eurekalert.org/pub_releases/2020-01/uop-msc012920.php">Movement study could be significant in helping understand brain rehabilitation</a></span>
-<span class="itemfrom">[<a href="http://www.eurekalert.org">EurekAlert! - Breaking News</a>]</span>
-</p>
-<div class="itemdescription">
-<p>Researchers from the University of Plymouth (UK) and Technical University of Munich (Germany) say their study could be particularly important for those working in rehabilitation and helping people to recover after neurological conditions.
-</div>
-</div>
-
-<div class="item feed-63a85565 feed-eurekalertbreakingnews" id="item-9315f0ff">
-<p class="itemheader">
-<span class="itemtitle"><a href="https://www.eurekalert.org/pub_releases/2020-01/uoic-dap012920.php">Designing a puncture-free tire</a></span>
-<span class="itemfrom">[<a href="http://www.eurekalert.org">EurekAlert! - Breaking News</a>]</span>
-</p>
-<div class="itemdescription">
-<p>Some golf carts and lawnmowers have airless tires, but we still have long way to go before they are on every vehicle that comes off the assembly line. University of Illinois aerospace engineer Kai James developed an algorithm to find an optimal design for a puncture-free with both strength and elasticity needed for a comfortable, shock-free ride like conventional pneumatic tires.
-</div>
-</div>
-
-<div class="item feed-63a85565 feed-eurekalertbreakingnews" id="item-2bdb86c6">
-<p class="itemheader">
-<span class="itemtitle"><a href="https://www.eurekalert.org/pub_releases/2020-01/uoc--urf012920.php">UCLA researchers find chronic inflammation contributes to cancer metastasis</a></span>
-<span class="itemfrom">[<a href="http://www.eurekalert.org">EurekAlert! - Breaking News</a>]</span>
-</p>
-<div class="itemdescription">
-<p>The study reveals a detailed epigenetic mechanism for how interleukin-1-beta, a common cytokine that helps fight infections during inflammation, plays a critical role in cancer metastasis.
-</div>
-</div>
-
-<div class="item feed-63a85565 feed-eurekalertbreakingnews" id="item-6b0cfec1">
-<p class="itemheader">
-<span class="itemtitle"><a href="https://www.eurekalert.org/pub_releases/2020-01/uoca-ssp012920.php">Study shows promising new web approach to prevent firearm suicide</a></span>
-<span class="itemfrom">[<a href="http://www.eurekalert.org">EurekAlert! - Breaking News</a>]</span>
-</p>
-<div class="itemdescription">
-<p>Clinicians and researchers at the University of Colorado School of Medicine at the Anschutz Medical Campus created Lock to Live, a web resource to help suicidal adults - and family, friends or providers -- make decisions about reducing access to firearms, medications, and other potential suicide methods.
+<p>Nature, Published online: 29 January 2020; <a href="https://www.nature.com/articles/d41586-020-00137-x">doi:10.1038/d41586-020-00137-x</a></p>The growth of a brain tumour can be affected by the activity of its neighbouring neurons. The finding that such tumours send signals that boost connections between these neurons reveals a pathway that drives cancer growth.<img alt="" height="1" src="http://feeds.feedburner.com/~r/nature/rss/current/~4/Qr5AJ7GkkPg" width="1" />
 </div>
 </div>
 
@@ -178,240 +357,133 @@ distributed ledger.
 <h2>Wednesday, 29 January 2020</h2>
 <div class="time">
 <h3>04:00 PM</h3>
-<div class="item feed-1b28272e feed-cscrupdatesonarxivorg" id="item-ff381973">
+<div class="item feed-b93c25e9 feed-earlyedition" id="item-3d38daca">
 <p class="itemheader">
-<span class="itemtitle"><a href="http://arxiv.org/abs/1910.09272">Cryptomining Makes Noise: a Machine Learning Approach for Cryptojacking Detection. (arXiv:1910.09272v2 [cs.CR] UPDATED)</a></span>
-<span class="itemfrom">[<a href="http://arxiv.org/">cs.CR updates on arXiv.org</a>]</span>
-</p>
-<div class="itemdescription">
-<p>A new cybersecurity attack,where an adversary illicitly runs crypto-mining
-software over the devices of unaware users, is emerging in both the literature
-and in the wild . This attack, known as cryptojacking, has proved to be very
-effective given the simplicity of running a crypto-client into a target device.
-Several countermeasures have recently been proposed, with different features
-and performance, but all characterized by a host-based architecture. This kind
-of solutions, designed to protect the individual user, are not suitable for
-efficiently protecting a corporate network, especially against insiders. In
-this paper, we propose a network-based approach to detect and identify
-crypto-clients activities by solely relying on the network traffic, even when
-encrypted. First, we provide a detailed analysis of the real network traces
-generated by three major cryptocurrencies, Bitcoin, Monero, and Bytecoin,
-considering both the normal traffic and the one shaped by a VPN. Then, we
-propose Crypto-Aegis, a Machine Learning (ML) based framework built over the
-results of our investigation, aimed at detecting cryptocurrencies related
-activities, e.g., pool mining, solo mining, and active full nodes. Our solution
-achieves a striking 0.96 of F1-score and 0.99 of AUC for the ROC, while
-enjoying a few other properties, such as device and infrastructure
-independence. Given the extent and novelty of the addressed threat we believe
-that our approach, supported by its excellent results, pave the way for further
-research in this area.
-</p>
-</div>
-</div>
-
-<div class="item feed-1b28272e feed-cscrupdatesonarxivorg" id="item-477e39d2">
-<p class="itemheader">
-<span class="itemtitle"><a href="http://arxiv.org/abs/2001.02877">Short-Range Audio Channels Security: Survey of Mechanisms, Applications, and Research Challenges. (arXiv:2001.02877v2 [cs.CR] UPDATED)</a></span>
-<span class="itemfrom">[<a href="http://arxiv.org/">cs.CR updates on arXiv.org</a>]</span>
-</p>
-<div class="itemdescription">
-<p>Short-range audio channels have a few distinguishing characteristics: ease of
-use, low deployment costs, and easy to tune frequencies, to cite a few.
-Moreover, thanks to their seamless adaptability to the security context, many
-techniques and tools based on audio signals have been recently proposed.
-However, while the most promising solutions are turning into valuable
-commercial products, acoustic channels are increasingly used also to launch
-attacks against systems and devices, leading to security concerns that could
-thwart their adoption. To provide a rigorous, scientific, security-oriented
-review of the field, in this paper we survey and classify methods,
-applications, and use-cases rooted on short-range audio channels for the
-provisioning of security services---including Two-Factor Authentication
-techniques, pairing solutions, device authorization strategies, defense
-methodologies, and attack schemes. Moreover, we also point out the strengths
-and weaknesses deriving from the use of short-range audio channels. Finally, we
-provide open research issues in the context of short-range audio channels
-security, calling for contributions from both academia and industry.
-</p>
-</div>
-</div>
-
-<div class="item feed-b93c25e9 feed-earlyedition" id="item-0b4a0d3f">
-<p class="itemheader">
-<span class="itemtitle"><a href="http://feedproxy.google.com/~r/Pnas-RssFeedOfEarlyEditionArticles/~3/GKDM_swFzsE/1917525117.short">Skin permeability barrier formation by the ichthyosis-causative gene FATP4 through formation of the barrier lipid {omega}-O-acylceramide [Biochemistry]</a></span>
+<span class="itemtitle"><a href="http://feedproxy.google.com/~r/Pnas-RssFeedOfEarlyEditionArticles/~3/1QBV1UP-k7E/1915224117.short">Theory of the strange metal Sr3Ru2O7 [Physics]</a></span>
 <span class="itemfrom">[<a href="http://www.pnas.org">Early Edition</a>]</span>
 </p>
 <div class="itemdescription">
-<p>The epidermis-specific lipid acylceramide plays a pivotal role in the formation of the permeability barrier in the skin; abrogation of its synthesis causes the skin disorder ichthyosis. However, the acylceramide synthetic pathway has not yet been fully elucidated: Namely, the acyl-CoA synthetase (ACS) involved in this pathway remains to be...<img alt="" height="1" src="http://feeds.feedburner.com/~r/Pnas-RssFeedOfEarlyEditionArticles/~4/GKDM_swFzsE" width="1" />
+<p>The bilayer perovskite Sr3Ru2O7 has been widely studied as a canonical strange metal. It exhibits T-linear resistivity and a T log(1/T) electronic specific heat in a field-tuned quantum critical fan. Criticality is known to occur in &#8220;hot&#8221; Fermi pockets with a high density of states close to the Fermi energy....<img alt="" height="1" src="http://feeds.feedburner.com/~r/Pnas-RssFeedOfEarlyEditionArticles/~4/1QBV1UP-k7E" width="1" />
 </div>
 </div>
 
-<div class="item feed-b93c25e9 feed-earlyedition" id="item-0021dd22">
+<div class="item feed-53ba08d1 feed-natureissuenaturecomsciencefeeds" id="item-7597fe7f">
 <p class="itemheader">
-<span class="itemtitle"><a href="http://feedproxy.google.com/~r/Pnas-RssFeedOfEarlyEditionArticles/~3/NzpIbXy90Kk/1919800117.short">RNA sequencing by direct tagmentation of RNA/DNA hybrids [Applied Biological Sciences]</a></span>
-<span class="itemfrom">[<a href="http://www.pnas.org">Early Edition</a>]</span>
-</p>
-<div class="itemdescription">
-<p>Transcriptome profiling by RNA sequencing (RNA-seq) has been widely used to characterize cellular status, but it relies on second-strand complementary DNA (cDNA) synthesis to generate initial material for library preparation. Here we use bacterial transposase Tn5, which has been increasingly used in various high-throughput DNA analyses, to construct RNA-seq libraries...<img alt="" height="1" src="http://feeds.feedburner.com/~r/Pnas-RssFeedOfEarlyEditionArticles/~4/NzpIbXy90Kk" width="1" />
-</div>
-</div>
-
-<div class="item feed-53ba08d1 feed-natureissuenaturecomsciencefeeds" id="item-f004211f">
-<p class="itemheader">
-<span class="itemtitle"><a href="http://feeds.nature.com/~r/nature/rss/current/~3/DKrqgh0i3dU/d41586-020-00179-1">Alone where seals bark in the mist</a></span>
+<span class="itemtitle"><a href="http://feeds.nature.com/~r/nature/rss/current/~3/NOPjpwIwpjs/d41586-020-00147-9">From the archive</a></span>
 <span class="itemfrom">[<a href="http://feeds.nature.com/nature/rss/current">Nature - Issue - nature.com science feeds</a>]</span>
 </p>
 <div class="itemdescription">
-<p>Nature, Published online: 27 January 2020; <a href="https://www.nature.com/articles/d41586-020-00179-1">doi:10.1038/d41586-020-00179-1</a></p>Mary-Anne Lea travels to remote coastal regions to study marine animals for insights into conserving their species.<img alt="" height="1" src="http://feeds.feedburner.com/~r/nature/rss/current/~4/DKrqgh0i3dU" width="1" />
+<p>Nature, Published online: 28 January 2020; <a href="https://www.nature.com/articles/d41586-020-00147-9">doi:10.1038/d41586-020-00147-9</a></p>How Nature reported a controversy in 1970 over the harm caused by fallout from nuclear testing, and a 1920 call to end the trade in exotic bird plumage.<img alt="" height="1" src="http://feeds.feedburner.com/~r/nature/rss/current/~4/NOPjpwIwpjs" width="1" />
 </div>
 </div>
 
-<div class="item feed-fab735fe feed-thelancet" id="item-c3ed8985">
+<div class="item feed-53ba08d1 feed-natureissuenaturecomsciencefeeds" id="item-33cd2ad6">
 <p class="itemheader">
-<span class="itemtitle"><a href="https://www.thelancet.com/journals/lancet/article/PIIS0140-6736(19)32978-2/fulltext?rss=yes">[Correspondence] Faecal microbiota transplantations and urinary tract infections &#8211; Authors' reply</a></span>
-<span class="itemfrom">[<a href="https://www.thelancet.com/journals/lancet/issue/current">The Lancet</a>]</span>
+<span class="itemtitle"><a href="http://feeds.nature.com/~r/nature/rss/current/~3/Kx3e66JTQOw/s41586-020-1950-4">Spin current from sub-terahertz-generated antiferromagnetic magnons</a></span>
+<span class="itemfrom">[<a href="http://feeds.nature.com/nature/rss/current">Nature - Issue - nature.com science feeds</a>]</span>
 </p>
 <div class="itemdescription">
-<p>We thank Jean Christophe Lagier and Didier Raoult for their interest in our Review1 and for highlighting the growing interest in the use of faecal microbiota transplantation as a treatment option for recurrent urinary tract infections.
+<p>Nature, Published online: 27 January 2020; <a href="https://www.nature.com/articles/s41586-020-1950-4">doi:10.1038/s41586-020-1950-4</a></p>Pure spin currents are simultaneously generated and detected electrically through sub-terahertz magnons in the antiferromagnetic insulator Cr2O3, demonstrating the potential of magnon excitations in antiferromagnets for high-frequency spintronic devices.<img alt="" height="1" src="http://feeds.feedburner.com/~r/nature/rss/current/~4/Kx3e66JTQOw" width="1" />
 </div>
 </div>
 
-<div class="item feed-fab735fe feed-thelancet" id="item-82509d2f">
+<div class="item feed-53ba08d1 feed-natureissuenaturecomsciencefeeds" id="item-c3f8603a">
 <p class="itemheader">
-<span class="itemtitle"><a href="https://www.thelancet.com/journals/lancet/article/PIIS0140-6736(19)32551-6/fulltext?rss=yes">[Correspondence] This is not the EAT&#8211;Lancet Diet</a></span>
-<span class="itemfrom">[<a href="https://www.thelancet.com/journals/lancet/issue/current">The Lancet</a>]</span>
+<span class="itemtitle"><a href="http://feeds.nature.com/~r/nature/rss/current/~3/KiYK0cOTzA0/d41586-020-00225-y">How I find career motivation in my father&#8217;s diabetes</a></span>
+<span class="itemfrom">[<a href="http://feeds.nature.com/nature/rss/current">Nature - Issue - nature.com science feeds</a>]</span>
 </p>
 <div class="itemdescription">
-<p>In their Correspondence on the EPIC-Oxford study of the EAT&#8211;Lancet diet, Anika Knuppel and colleagues1 claimed that &#8220;In this large prospective cohort of British adults, the EAT&#8211;Lancet reference diet shows beneficial associations for ischaemic heart disease and diabetes&#8221;. The EAT&#8211;Lancet diet was minutely specified (from 5 g lard to 13 g egg), and totalled 2500 calories per day.2 Each line item also had a so-called possible range (minimum to maximum).
+<p>Nature, Published online: 27 January 2020; <a href="https://www.nature.com/articles/d41586-020-00225-y">doi:10.1038/d41586-020-00225-y</a></p>Natalie Brown explains how her father&#8217;s childhood diagnosis has inspired her to research the condition as an undergraduate.<img alt="" height="1" src="http://feeds.feedburner.com/~r/nature/rss/current/~4/KiYK0cOTzA0" width="1" />
 </div>
 </div>
 
-<div class="item feed-fab735fe feed-thelancet" id="item-ee6c18f2">
+<div class="item feed-c99fafa0 feed-ieeetransactionsonimageprocessingnewtoc" id="item-377ba3e4">
 <p class="itemheader">
-<span class="itemtitle"><a href="https://www.thelancet.com/journals/lancet/article/PIIS0140-6736(20)30066-0/fulltext?rss=yes">[Department of Error] Department of Error</a></span>
-<span class="itemfrom">[<a href="https://www.thelancet.com/journals/lancet/issue/current">The Lancet</a>]</span>
-</p>
-<div class="itemdescription">
-<p>Krielen P, Stommel MWJ, Pargmae P, et al. Adhesion-related readmissions after open and laparoscopic surgery: a retrospective cohort study (SCAR update). Lancet 2020; 395: 33&#8211;41&#8212;In panel A of the figure of this Article, the 95% CI for the laparoscopic group should have read &#8220;1&#183;5&#8211;1&#183;9&#8221;. This correction has been made to the online version as of Jan 23, 2020.
-</div>
-</div>
-
-<div class="item feed-fab735fe feed-thelancet" id="item-6339d43a">
-<p class="itemheader">
-<span class="itemtitle"><a href="https://www.thelancet.com/journals/lancet/article/PIIS0140-6736(20)30116-1/fulltext?rss=yes">[Department of Error] Department of Error</a></span>
-<span class="itemfrom">[<a href="https://www.thelancet.com/journals/lancet/issue/current">The Lancet</a>]</span>
-</p>
-<div class="itemdescription">
-<p>Burtness B, Harrington KJ, Greil R, et al. Pembrolizumab alone or with chemotherapy versus cetuximab with chemotherapy for recurrent or metastatic squamous cell carcinoma of the head and neck (KEYNOTE-048): a randomised, open-label, phase 3 study. Lancet 2019; 394: 1915&#8211;28&#8212;In figure 1 of this Article, the number of participants in the pembrolizumab with chemotherapy group who received treatment has been corrected from &#8220;278&#8221; to &#8220;276&#8221; and the number of participants in the pembrolizumab alone group who completed treatment has been corrected from &#8220;51&#8221; to &#8220;31&#8221;.
-</div>
-</div>
-
-<div class="item feed-fab735fe feed-thelancet" id="item-4c7c8693">
-<p class="itemheader">
-<span class="itemtitle"><a href="https://www.thelancet.com/journals/lancet/article/PIIS0140-6736(19)33160-5/fulltext?rss=yes">[Articles] Depression and post-traumatic stress during major social unrest in Hong Kong: a 10-year prospective cohort study</a></span>
-<span class="itemfrom">[<a href="https://www.thelancet.com/journals/lancet/issue/current">The Lancet</a>]</span>
-</p>
-<div class="itemdescription">
-<p>We have identified a major mental health burden during the social unrest in Hong Kong, which will require substantial increases in service surge capacity. Health-care and social care professionals should be vigilant in recognising possible mental health sequelae. In a world of increasing unrest, our findings might have implications for service planning to better protect population mental health globally.
-</div>
-</div>
-
-<div class="item feed-c99fafa0 feed-ieeetransactionsonimageprocessingnewtoc" id="item-9764e47e">
-<p class="itemheader">
-<span class="itemtitle"><a href="http://ieeexplore.ieee.org/document/8782831">Multi-Channel and Multi-Model-Based Autoencoding Prior for Grayscale Image Restoration</a></span>
+<span class="itemtitle"><a href="http://ieeexplore.ieee.org/document/8821570">Robust Seismic Image Interpolation With Mathematical Morphological Constraint</a></span>
 <span class="itemfrom">[<a href="http://ieeexplore.ieee.org">IEEE Transactions on Image Processing - new TOC</a>]</span>
 </p>
 <div class="itemdescription">
-<p>Image restoration (IR) is a long-standing challenging problem in low-level image processing. It is of utmost importance to learn good image priors for pursuing visually pleasing results. In this paper, we develop a multi-channel and multi-model-based denoising autoencoder network as image prior for solving IR problem. Specifically, the network that trained on RGB-channel images is used to construct a prior at first, and then the learned prior is incorporated into single-channel grayscale IR tasks. To achieve the goal, we employ the auxiliary variable technique to integrate the higher-dimensional network-driven prior information into the iterative restoration procedure. In addition, according to the weighted aggregation idea, a multi-model strategy is put forward to enhance the network stability that favors to avoid getting trapped in local optima. Extensive experiments on image deblurring and deblocking tasks show that the proposed algorithm is efficient, robust, and yields state-of-the-art restoration quality on grayscale images.
+<p>Seismic image interpolation is a currently popular research subject in modern reflection seismology. The interpolation problem is generally treated as a process of inversion. Under the compressed sensing framework, various sparse transformations and low-rank constraints based methods have great performances in recovering irregularly missing traces. However, in the case of regularly missing traces, their applications are limited because of the strong spatial aliasing energies. In addition, the erratic noise always poses a serious impact on the interpolation results obtained by the sparse transformations and low-rank constraints-based methods,. This is because the erratic noise is far from satisfying the statistical assumption behind these methods. In this study, we propose a mathematical morphology-based interpolation technique, which constrains the morphological scale of the model in the inversion process. The inversion problem is solved by the shaping regularization approach. The mathematical morphological constraint (MMC)-based interpolation technique has a satisfactory robustness to the spatial aliasing and erratic energies. We provide a detailed algorithmic framework and discuss the extension from 2D to higher dimensional version and the back operator in the shaping inversion. A group of numerical examples demonstrates the successful performance of the proposed technique.
 </div>
 </div>
 
-<div class="item feed-c99fafa0 feed-ieeetransactionsonimageprocessingnewtoc" id="item-3ae9caa9">
+<div class="item feed-c99fafa0 feed-ieeetransactionsonimageprocessingnewtoc" id="item-32f0bfe7">
 <p class="itemheader">
-<span class="itemtitle"><a href="http://ieeexplore.ieee.org/document/8826606">Progressive Object Transfer Detection</a></span>
+<span class="itemtitle"><a href="http://ieeexplore.ieee.org/document/8852859">LCSCNet: Linear Compressing-Based Skip-Connecting Network for Image Super-Resolution</a></span>
 <span class="itemfrom">[<a href="http://ieeexplore.ieee.org">IEEE Transactions on Image Processing - new TOC</a>]</span>
 </p>
 <div class="itemdescription">
-<p>Recent development of object detection mainly depends on deep learning with large-scale benchmarks. However, collecting such fully-annotated data is often difficult or expensive for real-world applications, which restricts the power of deep neural networks in practice. Alternatively, humans can detect new objects with little annotation burden, since humans often use the prior knowledge to identify new objects with few elaborately-annotated examples, and subsequently generalize this capacity by exploiting objects from wild images. Inspired by this procedure of learning to detect, we propose a novel Progressive Object Transfer Detection (POTD) framework. Specifically, we make three main contributions in this paper. First, POTD can leverage various object supervision of different domains effectively into a progressive detection procedure. Via such human-like learning, one can boost a target detection task with few annotations. Second, POTD consists of two delicate transfer stages, i.e., Low-Shot Transfer Detection (LSTD), and Weakly-Supervised Transfer Detection (WSTD). In LSTD, we distill the implicit object knowledge of source detector to enhance target detector with few annotations. It can effectively warm up WSTD later on. In WSTD, we design a recurrent object labelling mechanism for learning to annotate weakly-labeled images. More importantly, we exploit the reliable object supervision from LSTD, which can further enhance the robustness of target detector in the WSTD stage. Finally, we perform extensive experiments on a number of challenging detection benchmarks with different settings. The results demonstrate that, our POTD outperforms the recent state-of-the-art approaches. The codes and models are available at https://github.com/Cassie94/LSTD/tree/lstd.
+<p>In this paper, we develop a concise but efficient network architecture called linear compressing based skip-connecting network (LCSCNet) for image super-resolution. Compared with two representative network architectures with skip connections, ResNet and DenseNet, a linear compressing layer is designed in LCSCNet for skip connection, which connects former feature maps and distinguishes them from newly-explored feature maps. In this way, the proposed LCSCNet enjoys the merits of the distinguish feature treatment of DenseNet and the parameter-economic form of ResNet. Moreover, to better exploit hierarchical information from both low and high levels of various receptive fields in deep models, inspired by gate units in LSTM, we also propose an adaptive element-wise fusion strategy with multi-supervised training. Experimental results in comparison with state-of-the-art algorithms validate the effectiveness of LCSCNet.
 </div>
 </div>
 
-<div class="item feed-c99fafa0 feed-ieeetransactionsonimageprocessingnewtoc" id="item-fb54d180">
+<div class="item feed-c99fafa0 feed-ieeetransactionsonimageprocessingnewtoc" id="item-a2ee52bd">
 <p class="itemheader">
-<span class="itemtitle"><a href="http://ieeexplore.ieee.org/document/8835066">Hazy Image Decolorization With Color Contrast Restoration</a></span>
+<span class="itemtitle"><a href="http://ieeexplore.ieee.org/document/8887542">Super-Resolution Phase Retrieval From Designed Coded Diffraction Patterns</a></span>
 <span class="itemfrom">[<a href="http://ieeexplore.ieee.org">IEEE Transactions on Image Processing - new TOC</a>]</span>
 </p>
 <div class="itemdescription">
-<p>It is challenging to convert a hazy color image into a gray-scale image because the color contrast field of a hazy image is distorted. In this paper, a novel decolorization algorithm is proposed to transfer a hazy image into a distortion-recovered gray-scale image. To recover the color contrast field, the relationship between the restored color contrast and its distorted input is presented in CIELab color space. Based on this restoration, a nonlinear optimization problem is formulated to construct the resultant gray-scale image. A new differentiable approximation solution is introduced to solve this problem with an extension of the Huber loss function. Experimental results show that the proposed algorithm effectively preserves the global luminance consistency while represents the original color contrast in gray-scales, which is very close to the corresponding ground truth gray-scale one.
+<p>Super-resolution phase retrieval is an inverse problem that appears in diffractive optical imaging (DOI) and consists in estimating a high-resolution image from low-resolution phaseless measurements. DOI has three diffraction zones where the data can be acquired, known as near, middle, and far fields. Recent works have studied super-resolution phase retrieval under a setup that records coded diffraction patterns at the near and far fields. However, the attainable resolution of the image is mainly governed by the sensor characteristics, whose cost increases in proportion to the resolution. Also, these methodologies lack theoretical analysis. Hence, this work derives super-resolution models from low-resolution coded phaseless measurements at any diffraction zone that in contrast to prior contributions, the attainable resolution of the image is determined by the resolution of the coded aperture. For the proposed models, the existence of a unique solution (up to a global unimodular constant) is guaranteed with high probability, which can be increased by designing the coded aperture. Therefore, a strategy that designs the spatial distribution of the coded aperture is developed. Additionally, a super-resolution phase retrieval algorithm that minimizes a smoothed nonconvex least-squares objective function is proposed. The method first approximates the image by a spectral algorithm, which is then refined based upon a sequence of alternate steps. Simulation results show that the proposed algorithm overcomes state-of-the-art methods in reconstructing the high-resolution image. In addition, the reconstruction quality using designed coded apertures is higher than that of the non-designed ensembles.
 </div>
 </div>
 
-<div class="item feed-c99fafa0 feed-ieeetransactionsonimageprocessingnewtoc" id="item-718e7b9f">
+<div class="item feed-c99fafa0 feed-ieeetransactionsonimageprocessingnewtoc" id="item-b2811ded">
 <p class="itemheader">
-<span class="itemtitle"><a href="http://ieeexplore.ieee.org/document/8864107">Parallax Tolerant Light Field Stitching for Hand-Held Plenoptic Cameras</a></span>
+<span class="itemtitle"><a href="http://ieeexplore.ieee.org/document/8913680">Learning No-Reference Quality Assessment of Multiply and Singly Distorted Images With Big Data</a></span>
 <span class="itemfrom">[<a href="http://ieeexplore.ieee.org">IEEE Transactions on Image Processing - new TOC</a>]</span>
 </p>
 <div class="itemdescription">
-<p>Light field (LF) stitching is a potential solution to improve the field of view (FOV) for hand-held plenoptic cameras. Existing LF stitching methods cannot provide accurate registration for scenes with large depth variation. In this paper, a novel LF stitching method is proposed to handle parallax in the LFs more flexibly and accurately. First, a depth layer map (DLM) is proposed to guarantee adequate feature points on each depth layer. For the regions of nondeterministic depth, superpixel layer map (SLM) is proposed based on LF spatial correlation analysis to refine the depth layer assignments. Then, DLM-SLM-based LF registration is proposed to derive the location dependent homography transforms accurately and to warp LFs to its corresponding position without parallax interference. 4D graph-cut is further applied to fuse the registration results for higher LF spatial continuity and angular continuity. Horizontal, vertical and multi-LF stitching are tested for different scenes, which demonstrates the superior performance provided by the proposed method in terms of subjective quality of the stitched LFs, epipolar plane image consistency in the stitched LF, and perspective-averaged correlation between the stitched LF and the input LFs.
+<p>Previous research on no-reference (NR) quality assessment of multiply-distorted images focused mainly on three distortion types (white noise, Gaussian blur, and JPEG compression), while in practice images can be contaminated by many other common distortions due to the various stages of processing. Although MUSIQUE (MUltiply- and Singly-distorted Image QUality Estimator) [Zhang et al., TIP 2018] is a successful NR algorithm, this approach is still limited to the three distortion types. In this paper, we extend MUSIQUE to MUSIQUE-II to blindly assess the quality of images corrupted by five distortion types (white noise, Gaussian blur, JPEG compression, JPEG2000 compression, and contrast change) and their combinations. The proposed MUSIQUE-II algorithm builds upon the classification and parameter-estimation framework of its predecessor by using more advanced models and a more comprehensive set of distortion-sensitive features. Specifically, MUSIQUE-II relies on a three-layer classification model to identify 19 distortion types. To predict the five distortion parameter values, MUSIQUE-II extracts an additional 14 contrast features and employs a multi-layer probability-weighting rule. Finally, MUSIQUE-II employs a new most-apparent-distortion strategy to adaptively combine five quality scores based on outputs of three classification models. Experimental results tested on three multiply-distorted and six singly-distorted image quality databases show that MUSIQUE-II yields not only a substantial improvement in quality predictive performance as compared with its predecessor, but also highly competitive performance relative to other state-of-the-art FR/NR IQA algorithms.
 </div>
 </div>
 
-<div class="item feed-ccdce26d feed-ieeetransactionsonindustrialinformaticsnewtoc" id="item-0741a1a9">
+<div class="item feed-ccdce26d feed-ieeetransactionsonindustrialinformaticsnewtoc" id="item-09131af2">
 <p class="itemheader">
-<span class="itemtitle"><a href="http://ieeexplore.ieee.org/document/8782562">IGDT-Based Complementarity Approach for Dealing With Strategic Decision Making of Price-Maker VPP Considering Demand Flexibility</a></span>
+<span class="itemtitle"><a href="http://ieeexplore.ieee.org/document/8680649">Data-Driven Multiobjective Optimization for Burden Surface in Blast Furnace With Feedback Compensation</a></span>
 <span class="itemfrom">[<a href="http://ieeexplore.ieee.org">IEEE Transactions on Industrial Informatics - new TOC</a>]</span>
 </p>
 <div class="itemdescription">
-<p>In this article, we outline a novel bilevel decision-making framework for a price-maker virtual power plant (VPP) to participate in both day-ahead and balancing oligopoly markets considering multiple forward contracts. In principle, the VPP operator with having the possession of financial transmission rights can manage its financial risk through trading electricity among various markets such as centralized pool and contract markets aimed at maximizing its own profit and minimizing the associated risk. Besides, the VPP operator will be able to optimize its procurement expenditures by incentivizing flexible demands proportion to different electricity tariffs. In the proposed bilevel model, the VPP aggregator strives to maximize its own profit at the upper level while an independent system operator seeks to clear both markets at the lower levels with an eye to maximize social welfare. Each lower level is then replaced by its complementarity slackness conditions and, consequently, is recast as a mathematical program with equilibrium constraints that can be solved using off-the-shelf software packages. Furthermore, the uncertainty pertaining to renewables has been envisaged through information gap decision theory resulting in robustness&#x002f;opportunity function to deal with self-scheduling of VPP. This article ends up with different illustrative case studies through performing after-the-fact actual market data to verify the applicability of the model.
+<p>In this paper, an intelligent data-driven optimization scheme is proposed for finding the proper burden surface distribution, which exerts large influences on keeping blast furnace running smoothly in an energy-efficient state. In the proposed scheme, production indicators prediction models are first developed using a kernel extreme learning machine algorithm. To heel, burden surface decision is presented as a multiobjective optimization problem for the first time and solved by a modified two-stage intelligent optimization strategy to generate the initial setting values of burden surface. Furthermore, considering the existence of the approximation error of the created prediction models, feedback compensation is implemented to enhance the reliability of the results, in which an improved association rule mining method is developed to find the corrected values to compensate the initial setting values. Finally, we apply the proposed optimization scheme to determine the setting values of burden surface using actual data, and experimental results illustrate its effectiveness and feasibility.
 </div>
 </div>
 
-<div class="item feed-ccdce26d feed-ieeetransactionsonindustrialinformaticsnewtoc" id="item-d12c374d">
+<div class="item feed-ccdce26d feed-ieeetransactionsonindustrialinformaticsnewtoc" id="item-34402b3f">
 <p class="itemheader">
-<span class="itemtitle"><a href="http://ieeexplore.ieee.org/document/8772108">New Disturbance Rejection Constraint for Redundant Robot Manipulators: An Optimization Perspective</a></span>
+<span class="itemtitle"><a href="http://ieeexplore.ieee.org/document/8807287">End-to-End Navigation Strategy With Deep Reinforcement Learning for Mobile Robots</a></span>
 <span class="itemfrom">[<a href="http://ieeexplore.ieee.org">IEEE Transactions on Industrial Informatics - new TOC</a>]</span>
 </p>
 <div class="itemdescription">
-<p>Due to the property of multiple solutions, redundant robot manipulators are usually required to simultaneously achieve multiple objectives in complex applications. The research of robustness for scheme formulation and optimization becomes an increasingly important issue for motion planning of redundant robot manipulators. From the perspective of optimization, a robust hybrid multiobjective (RHMO) scheme with a new disturbance rejection constraint is proposed in this article to achieve simultaneously four objectives together with the suppression of external time-varying disturbances. Theoretical results on the property of disturbance rejection are shown to confirm the effectiveness and robustness of the proposed RHMO scheme with a new disturbance rejection constraint. The RHMO scheme is then reformulated as dynamical quadratic programming with its solution found via the piecewise-linear projection equation neural network. Numerical experiments, tests, and comparisons on the basis of a PA10 manipulator verify the effectiveness, robustness, and superiority of the RHMO scheme with the new constraint for the motion planning and optimization of redundant robot manipulators against time-varying disturbances.
+<p>In this article, we develop a navigation strategy based on deep reinforcement learning (DRL) for mobile robots. Because of the large difference between simulation and reality, most of the trained DRL models cannot be directly migrated into real robots. Moreover, how to explore in a sparsely rewarded environment is also a long-standing problem of DRL. This article proposes an end-to-end navigation planner that translates sparse laser ranging results into movement actions. Using this highly abstract data as input, agents trained by simulation can be extended to the real scene for practical application. For map-less navigation across obstacles and traps, it is difficult to reach the target via random exploration. Curiosity is used to encourage agents to explore the state of an environment that has not been visited and as an additional reward for exploring behavior. The agent relies on the self-supervised model to predict the next state, based on the current state and the executed action. The prediction error is used as a measure of curiosity. The experimental results demonstrate that without any manual design features and previous demonstrations, the proposed method accomplishes map-less navigation in complex environments. Through a reward signal that is enhanced by intrinsic motivation, the agent explores more efficiently, and the learned strategy is more reliable.
 </div>
 </div>
 
-<div class="item feed-ccdce26d feed-ieeetransactionsonindustrialinformaticsnewtoc" id="item-3d039659">
+<div class="item feed-ccdce26d feed-ieeetransactionsonindustrialinformaticsnewtoc" id="item-deb6ea52">
 <p class="itemheader">
-<span class="itemtitle"><a href="http://ieeexplore.ieee.org/document/8788598">Multimodel Approach to Robust Identification of Multiple-Input Single-Output Nonlinear Time-Delay Systems</a></span>
+<span class="itemtitle"><a href="http://ieeexplore.ieee.org/document/8890700">Intelligent Home Systems for Ubiquitous User Support by Using Neural Networks and Rule-Based Approach</a></span>
 <span class="itemfrom">[<a href="http://ieeexplore.ieee.org">IEEE Transactions on Industrial Informatics - new TOC</a>]</span>
 </p>
 <div class="itemdescription">
-<p>The robust multimodel solution for multiple-input single-output nonlinear time-delay systems identification with polluted outputs is derived in this article. First, all the local autoregressive exogenous models are preidentified at the working points; then, the global system model is built by interpolating the local models with a smoothing strategy. The outliers and input time-delays which often increase the nonideality of process data are both considered. To cope with the outliers, the Laplace distribution is reutilized to describe the output measurement process and the negative impact resulted from each outlier imposed on parameter estimation can be suppressed through automatically assigned small weight. The parameter estimation procedure is realized with the expectation&#x2013;maximization algorithm and the joint posterior probability of all input delays is also maximized to calculate the unknown input time-delays. With the verifications on a numerical example and the continuous fermentation process, the validity of the proposed approach is proved.
+<p>Artificial intelligence methods applied in smart home environments can give a ubiquitous support of people, provide automatic control of system settings to lower the costs of operation, improve energetic efficiency, and longer endurance of components. In this article, we discuss the use of neural networks and rule-based systems as the components of automatic control over house elements. In the proposed framework, we store the knowledge and teach the system about the home in parallel to operation. Initially, the system starts with global settings, however, data are collected during use and parallel to this regular training is run so when the new knowledge guarantees higher efficiency, the system switch to use it. We have developed a new neural-based mechanism with rules control method to lower the costs of operation while keeping the needs of users. The components were tested and discussed due to practical application in our everyday life.
 </div>
 </div>
 
-<div class="item feed-ccdce26d feed-ieeetransactionsonindustrialinformaticsnewtoc" id="item-0ceb7705">
+<div class="item feed-ccdce26d feed-ieeetransactionsonindustrialinformaticsnewtoc" id="item-af426daa">
 <p class="itemheader">
-<span class="itemtitle"><a href="http://ieeexplore.ieee.org/document/8896001">Data-Driven Two-Dimensional Deep Correlated Representation Learning for Nonlinear Batch Process Monitoring</a></span>
+<span class="itemtitle"><a href="http://ieeexplore.ieee.org/document/8859383">SaliencyGAN: Deep Learning Semisupervised Salient Object Detection in the Fog of IoT</a></span>
 <span class="itemfrom">[<a href="http://ieeexplore.ieee.org">IEEE Transactions on Industrial Informatics - new TOC</a>]</span>
 </p>
 <div class="itemdescription">
-<p>Dynamics and nonlinearity may exist in the time and batch directions for batch processes, thereby complicating the monitoring of these processes. In this article, we propose a two-dimensional deep correlated representation learning (2D-DCRL) method to achieve the efficient fault detection and isolation of the nonlinear batch processes. Three-way historical data are first unfolded as two-way time-slice data. Second, a stacked autoencoder based deep neural network is constructed to characterize the correlation among the process variables. Considering that the time and batch directions may be dynamic, for each time-slice measurement, a constructed 2-D measurement containing samples from the previous time instants and batches is then obtained. Subsequently, DCRL is performed between the current running-batch measurements and the constructed 2-D measurements to characterize the 2-D dynamics and nonlinearity. The 2D-DCRL-based monitoring examines the status of a sample by considering the 2-D nonlinear and dynamic information, providing improved monitoring performance. Applications on two typical batch processes demonstrate the effectiveness of the proposed 2D-DCRL monitoring scheme.
+<p>In modern Internet of Things (IoT), visual analysis and predictions are often performed by deep learning models. Salient object detection (SOD) is a fundamental preprocessing for these applications. Executing SOD on the fog devices is a challenging task due to the diversity of data and fog devices. To adopt convolutional neural networks (CNN) on fog&#x2013;cloud infrastructures for SOD-based applications, we introduce a semisupervised adversarial learning method in this article. The proposed model, named as SaliencyGAN, is empowered by a novel concatenated generative adversarial network (GAN) framework with partially shared parameters. The backbone CNN can be chosen flexibly based on the specific devices and applications. In the meanwhile, our method uses both the labeled and unlabeled data from different problem domains for training. Using multiple popular benchmark datasets, we compared state-of-the-art baseline methods to our SaliencyGAN obtained with 10&#x2013;100&#x0025; labeled training data. SaliencyGAN gained performance comparable to the supervised baselines when the percentage of labeled data reached 30&#x0025;, and outperformed the weakly supervised and unsupervised baselines. Furthermore, our ablation study shows that SaliencyGAN were more robust to the common &#x201c;mode missing&#x201d; (or &#x201c;mode collapse&#x201d;) issue compared to the selected popular GAN models. The visualized ablation results have proved that SaliencyGAN learned a better estimation of data distributions. To the best of our knowledge, this is the first IoT-oriented semisupervised SOD method.
 </div>
 </div>
 
-<div class="item feed-ccdce26d feed-ieeetransactionsonindustrialinformaticsnewtoc" id="item-2a939d9a">
+<div class="item feed-ccdce26d feed-ieeetransactionsonindustrialinformaticsnewtoc" id="item-52912ef2">
 <p class="itemheader">
-<span class="itemtitle"><a href="http://ieeexplore.ieee.org/document/8966385">Information for Authors</a></span>
+<span class="itemtitle"><a href="http://ieeexplore.ieee.org/document/8851264">Robust Scheduling of Hot Rolling Production by Local Search Enhanced Ant Colony Optimization Algorithm</a></span>
 <span class="itemfrom">[<a href="http://ieeexplore.ieee.org">IEEE Transactions on Industrial Informatics - new TOC</a>]</span>
 </p>
 <div class="itemdescription">
-<p>Provides instructions and guidelines to prospective authors who wish to submit manuscripts.
-</div>
-</div>
-
-<div class="item feed-ed41d94f feed-jamacurrentissue" id="item-4c4e0fa9">
-<p class="itemheader">
-<span class="itemtitle"><a href="https://jamanetwork.com/journals/jama/fullarticle/2759478">Malpractice Liability and Health Care Quality: A Review</a></span>
-<span class="itemfrom">[<a href="https://jamanetwork.com/journals/jama">JAMA Current Issue</a>]</span>
-</p>
-<div class="itemdescription">
-<p>This systematic review summarizes evidence of associations between malpractice liability risk, defined as the extent to which clinicians face the threat of being sued and having to pay damages, and measures of health care quality and safety.
+<p>Scheduling of a hot strip mill is an important decision problem in the steel manufacturing industry. Previous studies on the hot strip mill scheduling problem have mostly neglected the random factors in production. However, random variations in processing times are inevitable due to unpredictable delays and disturbances. In this article, we adopt a robust optimization approach to deal with the uncertainty in processing times. The advantage is that no assumption has to be made regarding the distribution of random data, and the obtained schedule will remain strictly feasible when the variations have not exceeded a predefined uncertainty set. First, a mixed-integer linear programming model is presented to formulate the robust scheduling problem. Then, a hybrid metaheuristic algorithm, which combines ant colony system (ACS) and enhanced local search, is proposed to provide an efficient solution to the problem. Finally, extensive computational experiments involving both randomly generated and real-world instances have been conducted to verify the effectiveness of the proposed algorithm. It is shown that the algorithm achieves optimality for small instances and outperforms two state-of-the-art metaheuristics when used to solve large instances.
 </div>
 </div>
 
@@ -425,23 +497,23 @@ security, calling for contributions from both academia and industry.
 </div>
 </div>
 
-<div class="item feed-ed41d94f feed-jamacurrentissue" id="item-75ec167a">
+<div class="item feed-ed41d94f feed-jamacurrentissue" id="item-478f463a">
 <p class="itemheader">
-<span class="itemtitle"><a href="https://jamanetwork.com/journals/jama/fullarticle/2759470">Should Younger Male Cancer Survivors Get Testosterone Therapy?</a></span>
+<span class="itemtitle"><a href="https://jamanetwork.com/journals/jama/fullarticle/2759456">Audio Highlights</a></span>
 <span class="itemfrom">[<a href="https://jamanetwork.com/journals/jama">JAMA Current Issue</a>]</span>
 </p>
 <div class="itemdescription">
-<p>Male cancer survivors aged 25 through 50 years who received testosterone replacement had decreased body fat and increased muscle mass in a PLOS Medicine trial.
+<p>Listen to the JAMA Editor&#8217;s Audio Summary for an overview and discussion of the important articles appearing in this week&#8217;s issue of JAMA.
 </div>
 </div>
 
-<div class="item feed-ed41d94f feed-jamacurrentissue" id="item-0fecced0">
+<div class="item feed-ed41d94f feed-jamacurrentissue" id="item-8543a0d1">
 <p class="itemheader">
-<span class="itemtitle"><a href="https://jamanetwork.com/journals/jama/fullarticle/2759467">Prednisolone Reduces Hand Osteoarthritis Pain</a></span>
+<span class="itemtitle"><a href="https://jamanetwork.com/journals/jama/fullarticle/2758712">In Alzheimer Research, Glucose Metabolism Moves to Center Stage</a></span>
 <span class="itemfrom">[<a href="https://jamanetwork.com/journals/jama">JAMA Current Issue</a>]</span>
 </p>
 <div class="itemdescription">
-<p>A short course of a potent dose of prednisolone safely reduced finger pain and local joint inflammation in patients with hand osteoarthritis, a trial in The Lancet reported.
+<p>This Medical News article discusses the roles that glucose metabolism, diabetes medication, and lifestyle interventions may play in the development and progression of Alzheimer disease and other dementias.
 </div>
 </div>
 
@@ -455,13 +527,13 @@ security, calling for contributions from both academia and industry.
 </div>
 </div>
 
-<div class="item feed-63a85565 feed-eurekalertbreakingnews" id="item-e2433281">
+<div class="item feed-ed41d94f feed-jamacurrentissue" id="item-1326ab23">
 <p class="itemheader">
-<span class="itemtitle"><a href="https://www.eurekalert.org/pub_releases/2020-01/f-fro012220.php">First release of genetically engineered moth could herald new era of crop protection</a></span>
-<span class="itemfrom">[<a href="http://www.eurekalert.org">EurekAlert! - Breaking News</a>]</span>
+<span class="itemtitle"><a href="https://jamanetwork.com/journals/jama/fullarticle/2757431">The Need for Prospective Studies in Varied Populations To Identify Disease Risk Factors</a></span>
+<span class="itemfrom">[<a href="https://jamanetwork.com/journals/jama">JAMA Current Issue</a>]</span>
 </p>
 <div class="itemdescription">
-<p>For decades, the agriculture industry has been trying to find biological and environmentally friendly ways to manage the diamondback moth, which is widely resistant to insecticides. To combat this, a newly engineered strain of an insect pest performs well in US field trials conducted by Cornell University. Results show promise for future biotech crop protection applications and a potential solution to a global, multi-billion dollar agricultural pest.
+<p>This Viewpoint emphasizes the ability of prospective vs retrospective cohort and case-control studies to reliably identify disease risk factors in populations and discusses the need to collect detailed information about lifestyle and other exposures from large numbers of individuals in various settings with different risk factor levels and disease incidence rates to provide more widely generalizable evidence about the relevance of human exposures to different health conditions.
 </div>
 </div>
 
@@ -471,6 +543,28 @@ security, calling for contributions from both academia and industry.
 <h2>Thursday, 23 January 2020</h2>
 <div class="time">
 <h3>04:00 PM</h3>
+<div class="item feed-6b3f78ad feed-latestbmjresearch" id="item-20f939f0">
+<p class="itemheader">
+<span class="itemtitle"><a href="http://feeds.bmj.com/~r/bmj/research/~3/xeY-sJquBNA/bmj.l6925">Industry funding of patient and health consumer organisations: systematic review with meta-analysis</a></span>
+<span class="itemfrom">[<a href="https://www.bmj.com/research/feed">Latest BMJ Research</a>]</span>
+</p>
+<div class="itemdescription">
+<div class="feedflare">
+<a href="http://feeds.bmj.com/~ff/bmj/research?a=xeY-sJquBNA:NCw7vjLp0WE:yIl2AUoC8zA"><img border="0" src="http://feeds.feedburner.com/~ff/bmj/research?d=yIl2AUoC8zA" /></a> <a href="http://feeds.bmj.com/~ff/bmj/research?a=xeY-sJquBNA:NCw7vjLp0WE:dnMXMwOfBR0"><img border="0" src="http://feeds.feedburner.com/~ff/bmj/research?d=dnMXMwOfBR0" /></a> <a href="http://feeds.bmj.com/~ff/bmj/research?a=xeY-sJquBNA:NCw7vjLp0WE:F7zBnMyn0Lo"><img border="0" src="http://feeds.feedburner.com/~ff/bmj/research?i=xeY-sJquBNA:NCw7vjLp0WE:F7zBnMyn0Lo" /></a> <a href="http://feeds.bmj.com/~ff/bmj/research?a=xeY-sJquBNA:NCw7vjLp0WE:V_sGLiPBpWU"><img border="0" src="http://feeds.feedburner.com/~ff/bmj/research?i=xeY-sJquBNA:NCw7vjLp0WE:V_sGLiPBpWU" /></a> <a href="http://feeds.bmj.com/~ff/bmj/research?a=xeY-sJquBNA:NCw7vjLp0WE:qj6IDK7rITs"><img border="0" src="http://feeds.feedburner.com/~ff/bmj/research?d=qj6IDK7rITs" /></a> <a href="http://feeds.bmj.com/~ff/bmj/research?a=xeY-sJquBNA:NCw7vjLp0WE:gIN9vFwOqvQ"><img border="0" src="http://feeds.feedburner.com/~ff/bmj/research?i=xeY-sJquBNA:NCw7vjLp0WE:gIN9vFwOqvQ" /></a>
+</div><img alt="" height="1" src="http://feeds.feedburner.com/~r/bmj/research/~4/xeY-sJquBNA" width="1" />
+</div>
+</div>
+
+<div class="item feed-b93c25e9 feed-earlyedition" id="item-11d32102">
+<p class="itemheader">
+<span class="itemtitle"><a href="http://feedproxy.google.com/~r/Pnas-RssFeedOfEarlyEditionArticles/~3/J0TQNpoSBCs/1922117117.short">Tool-using puffins prickle the puzzle of cognitive evolution [Commentaries]</a></span>
+<span class="itemfrom">[<a href="http://www.pnas.org">Early Edition</a>]</span>
+</p>
+<div class="itemdescription">
+<p>In PNAS, Fayet et al. (1) report on two cases of tool use in a seabird. In two distant populations they recorded Arctic puffins (Fratercula arctica) using sticks to scratch themselves (Fig. 1). The documentation of tool use in this species expands the ever-growing list of tool-using birds through rare...<img alt="" height="1" src="http://feeds.feedburner.com/~r/Pnas-RssFeedOfEarlyEditionArticles/~4/J0TQNpoSBCs" width="1" />
+</div>
+</div>
+
 <div class="item feed-b93c25e9 feed-earlyedition" id="item-a265819f">
 <p class="itemheader">
 <span class="itemtitle"><a href="http://feedproxy.google.com/~r/Pnas-RssFeedOfEarlyEditionArticles/~3/0is7h_xiqB4/1911677117.short">An evolutionary switch from sibling rivalry to sibling cooperation, caused by a sustained loss of parental care [Evolution]</a></span>
@@ -481,34 +575,12 @@ security, calling for contributions from both academia and industry.
 </div>
 </div>
 
-<div class="item feed-b93c25e9 feed-earlyedition" id="item-08cfd645">
-<p class="itemheader">
-<span class="itemtitle"><a href="http://feedproxy.google.com/~r/Pnas-RssFeedOfEarlyEditionArticles/~3/1RexvGiks4I/1918649117.short">Arrhythmogenic late Ca2+ sparks in failing heart cells and their control by action potential configuration [Physiology]</a></span>
-<span class="itemfrom">[<a href="http://www.pnas.org">Early Edition</a>]</span>
-</p>
-<div class="itemdescription">
-<p>Sudden death in heart failure patients is a major clinical problem worldwide, but it is unclear how arrhythmogenic early afterdepolarizations (EADs) are triggered in failing heart cells. To examine EAD initiation, high-sensitivity intracellular Ca2+ measurements were combined with action potential voltage clamp techniques in a physiologically relevant heart failure model....<img alt="" height="1" src="http://feeds.feedburner.com/~r/Pnas-RssFeedOfEarlyEditionArticles/~4/1RexvGiks4I" width="1" />
-</div>
-</div>
-
 </div>
 </div>
 <div class="day">
 <h2>Tuesday, 21 January 2020</h2>
 <div class="time">
 <h3>04:00 PM</h3>
-<div class="item feed-6b3f78ad feed-latestbmjresearch" id="item-eff77205">
-<p class="itemheader">
-<span class="itemtitle"><a href="http://feeds.bmj.com/~r/bmj/research/~3/FTJbWlAtcy8/bmj.l6802">Impact of blinding on estimated treatment effects in randomised clinical trials: meta-epidemiological study</a></span>
-<span class="itemfrom">[<a href="https://www.bmj.com/research/feed">Latest BMJ Research</a>]</span>
-</p>
-<div class="itemdescription">
-<div class="feedflare">
-<a href="http://feeds.bmj.com/~ff/bmj/research?a=FTJbWlAtcy8:QPxp3wyruxQ:yIl2AUoC8zA"><img border="0" src="http://feeds.feedburner.com/~ff/bmj/research?d=yIl2AUoC8zA" /></a> <a href="http://feeds.bmj.com/~ff/bmj/research?a=FTJbWlAtcy8:QPxp3wyruxQ:dnMXMwOfBR0"><img border="0" src="http://feeds.feedburner.com/~ff/bmj/research?d=dnMXMwOfBR0" /></a> <a href="http://feeds.bmj.com/~ff/bmj/research?a=FTJbWlAtcy8:QPxp3wyruxQ:F7zBnMyn0Lo"><img border="0" src="http://feeds.feedburner.com/~ff/bmj/research?i=FTJbWlAtcy8:QPxp3wyruxQ:F7zBnMyn0Lo" /></a> <a href="http://feeds.bmj.com/~ff/bmj/research?a=FTJbWlAtcy8:QPxp3wyruxQ:V_sGLiPBpWU"><img border="0" src="http://feeds.feedburner.com/~ff/bmj/research?i=FTJbWlAtcy8:QPxp3wyruxQ:V_sGLiPBpWU" /></a> <a href="http://feeds.bmj.com/~ff/bmj/research?a=FTJbWlAtcy8:QPxp3wyruxQ:qj6IDK7rITs"><img border="0" src="http://feeds.feedburner.com/~ff/bmj/research?d=qj6IDK7rITs" /></a> <a href="http://feeds.bmj.com/~ff/bmj/research?a=FTJbWlAtcy8:QPxp3wyruxQ:gIN9vFwOqvQ"><img border="0" src="http://feeds.feedburner.com/~ff/bmj/research?i=FTJbWlAtcy8:QPxp3wyruxQ:gIN9vFwOqvQ" /></a>
-</div><img alt="" height="1" src="http://feeds.feedburner.com/~r/bmj/research/~4/FTJbWlAtcy8" width="1" />
-</div>
-</div>
-
 <div class="item feed-b2590d03 feed-annualreviewsannualreviewofnutritiontableofcontents" id="item-1ad257b3">
 <p class="itemheader">
 <span class="itemtitle"><a href="https://www.annualreviews.org/doi/abs/10.1146/annurev-nutr-082018-124337?ai=rz&amp;mi=3fndc3&amp;af=R">Dietary Fuels in Athletic Performance</a></span>
@@ -519,13 +591,13 @@ security, calling for contributions from both academia and industry.
 </div>
 </div>
 
-<div class="item feed-b2590d03 feed-annualreviewsannualreviewofnutritiontableofcontents" id="item-9ae6944d">
+<div class="item feed-b2590d03 feed-annualreviewsannualreviewofnutritiontableofcontents" id="item-8988ec4b">
 <p class="itemheader">
-<span class="itemtitle"><a href="https://www.annualreviews.org/doi/abs/10.1146/annurev-nutr-082018-124213?ai=rz&amp;mi=3fndc3&amp;af=R">The Benefits and Risks of Iron Supplementation in Pregnancy and Childhood</a></span>
+<span class="itemtitle"><a href="https://www.annualreviews.org/doi/abs/10.1146/annurev-nutr-082018-124242?ai=rz&amp;mi=3fndc3&amp;af=R">Copper Transport and Disease: What Can We Learn from Organoids?</a></span>
 <span class="itemfrom">[Annual Reviews: Annual Review of Nutrition: Table of Contents]</span>
 </p>
 <div class="itemdescription">
-<p>Annual Review of Nutrition, <a href="https://www.annualreviews.org/toc/nutr/39/1">Volume 39, Issue 1</a>, Page 121-146, August 2019. <br />
+<p>Annual Review of Nutrition, <a href="https://www.annualreviews.org/toc/nutr/39/1">Volume 39, Issue 1</a>, Page 75-94, August 2019. <br />
 </div>
 </div>
 
@@ -539,16 +611,6 @@ security, calling for contributions from both academia and industry.
 </div>
 </div>
 
-<div class="item feed-b2590d03 feed-annualreviewsannualreviewofnutritiontableofcontents" id="item-178e5131">
-<p class="itemheader">
-<span class="itemtitle"><a href="https://www.annualreviews.org/doi/abs/10.1146/annurev-nutr-082018-124643?ai=rz&amp;mi=3fndc3&amp;af=R">Mitochondrial DNA Mutation, Diseases, and Nutrient-Regulated Mitophagy</a></span>
-<span class="itemfrom">[Annual Reviews: Annual Review of Nutrition: Table of Contents]</span>
-</p>
-<div class="itemdescription">
-<p>Annual Review of Nutrition, <a href="https://www.annualreviews.org/toc/nutr/39/1">Volume 39, Issue 1</a>, Page 201-226, August 2019. <br />
-</div>
-</div>
-
 <div class="item feed-b2590d03 feed-annualreviewsannualreviewofnutritiontableofcontents" id="item-78c2cb00">
 <p class="itemheader">
 <span class="itemtitle"><a href="https://www.annualreviews.org/doi/abs/10.1146/annurev-nutr-082018-124320?ai=rz&amp;mi=3fndc3&amp;af=R">Time-Restricted Eating to Prevent and Manage Chronic Metabolic Diseases</a></span>
@@ -559,12 +621,34 @@ security, calling for contributions from both academia and industry.
 </div>
 </div>
 
+<div class="item feed-b2590d03 feed-annualreviewsannualreviewofnutritiontableofcontents" id="item-22499075">
+<p class="itemheader">
+<span class="itemtitle"><a href="https://www.annualreviews.org/doi/abs/10.1146/annurev-nutr-082018-124603?ai=rz&amp;mi=3fndc3&amp;af=R">The Economics of Taxes on Sugar-Sweetened Beverages: A Review of the Effects on Prices, Sales, Cross-Border Shopping, and Consumption</a></span>
+<span class="itemfrom">[Annual Reviews: Annual Review of Nutrition: Table of Contents]</span>
+</p>
+<div class="itemdescription">
+<p>Annual Review of Nutrition, <a href="https://www.annualreviews.org/toc/nutr/39/1">Volume 39, Issue 1</a>, Page 317-338, August 2019. <br />
+</div>
+</div>
+
 </div>
 </div>
 <div class="day">
 <h2>Friday, 17 January 2020</h2>
 <div class="time">
 <h3>04:00 PM</h3>
+<div class="item feed-6b3f78ad feed-latestbmjresearch" id="item-71043df8">
+<p class="itemheader">
+<span class="itemtitle"><a href="http://feeds.bmj.com/~r/bmj/research/~3/lVwAuzIkrC8/bmj.l6794">Major cardiac events for adult survivors of childhood cancer diagnosed between 1970 and 1999: report from the Childhood Cancer Survivor Study cohort</a></span>
+<span class="itemfrom">[<a href="https://www.bmj.com/research/feed">Latest BMJ Research</a>]</span>
+</p>
+<div class="itemdescription">
+<div class="feedflare">
+<a href="http://feeds.bmj.com/~ff/bmj/research?a=lVwAuzIkrC8:gIwQIXYSs8s:yIl2AUoC8zA"><img border="0" src="http://feeds.feedburner.com/~ff/bmj/research?d=yIl2AUoC8zA" /></a> <a href="http://feeds.bmj.com/~ff/bmj/research?a=lVwAuzIkrC8:gIwQIXYSs8s:dnMXMwOfBR0"><img border="0" src="http://feeds.feedburner.com/~ff/bmj/research?d=dnMXMwOfBR0" /></a> <a href="http://feeds.bmj.com/~ff/bmj/research?a=lVwAuzIkrC8:gIwQIXYSs8s:F7zBnMyn0Lo"><img border="0" src="http://feeds.feedburner.com/~ff/bmj/research?i=lVwAuzIkrC8:gIwQIXYSs8s:F7zBnMyn0Lo" /></a> <a href="http://feeds.bmj.com/~ff/bmj/research?a=lVwAuzIkrC8:gIwQIXYSs8s:V_sGLiPBpWU"><img border="0" src="http://feeds.feedburner.com/~ff/bmj/research?i=lVwAuzIkrC8:gIwQIXYSs8s:V_sGLiPBpWU" /></a> <a href="http://feeds.bmj.com/~ff/bmj/research?a=lVwAuzIkrC8:gIwQIXYSs8s:qj6IDK7rITs"><img border="0" src="http://feeds.feedburner.com/~ff/bmj/research?d=qj6IDK7rITs" /></a> <a href="http://feeds.bmj.com/~ff/bmj/research?a=lVwAuzIkrC8:gIwQIXYSs8s:gIN9vFwOqvQ"><img border="0" src="http://feeds.feedburner.com/~ff/bmj/research?i=lVwAuzIkrC8:gIwQIXYSs8s:gIN9vFwOqvQ" /></a>
+</div><img alt="" height="1" src="http://feeds.feedburner.com/~r/bmj/research/~4/lVwAuzIkrC8" width="1" />
+</div>
+</div>
+
 <div class="item feed-b93c25e9 feed-earlyedition" id="item-e58302e6">
 <p class="itemheader">
 <span class="itemtitle"><a href="http://feedproxy.google.com/~r/Pnas-RssFeedOfEarlyEditionArticles/~3/rnixjF71m_w/1910765117.short">Hepatic neddylation targets and stabilizes electron transfer flavoproteins to facilitate fatty acid {beta}-oxidation [Cell Biology]</a></span>
@@ -581,25 +665,13 @@ security, calling for contributions from both academia and industry.
 <h2>Monday, 13 January 2020</h2>
 <div class="time">
 <h3>04:00 PM</h3>
-<div class="item feed-6b3f78ad feed-latestbmjresearch" id="item-871ca8ca">
+<div class="item feed-b93c25e9 feed-earlyedition" id="item-16bf92fc">
 <p class="itemheader">
-<span class="itemtitle"><a href="http://feeds.bmj.com/~r/bmj/research/~3/k1SiRhb4vdU/bmj.l6744">Efficacy and safety of gastrointestinal bleeding prophylaxis in critically ill patients: systematic review and network meta-analysis</a></span>
-<span class="itemfrom">[<a href="https://www.bmj.com/research/feed">Latest BMJ Research</a>]</span>
+<span class="itemtitle"><a href="http://feedproxy.google.com/~r/Pnas-RssFeedOfEarlyEditionArticles/~3/p_mdLS0THU0/1921727117.short">Insights into the energy landscapes of chromosome organization proteins from coevolutionary sequence variation and structural modeling [Commentaries]</a></span>
+<span class="itemfrom">[<a href="http://www.pnas.org">Early Edition</a>]</span>
 </p>
 <div class="itemdescription">
-<div class="feedflare">
-<a href="http://feeds.bmj.com/~ff/bmj/research?a=k1SiRhb4vdU:r5cVYkK6Pvo:yIl2AUoC8zA"><img border="0" src="http://feeds.feedburner.com/~ff/bmj/research?d=yIl2AUoC8zA" /></a> <a href="http://feeds.bmj.com/~ff/bmj/research?a=k1SiRhb4vdU:r5cVYkK6Pvo:dnMXMwOfBR0"><img border="0" src="http://feeds.feedburner.com/~ff/bmj/research?d=dnMXMwOfBR0" /></a> <a href="http://feeds.bmj.com/~ff/bmj/research?a=k1SiRhb4vdU:r5cVYkK6Pvo:F7zBnMyn0Lo"><img border="0" src="http://feeds.feedburner.com/~ff/bmj/research?i=k1SiRhb4vdU:r5cVYkK6Pvo:F7zBnMyn0Lo" /></a> <a href="http://feeds.bmj.com/~ff/bmj/research?a=k1SiRhb4vdU:r5cVYkK6Pvo:V_sGLiPBpWU"><img border="0" src="http://feeds.feedburner.com/~ff/bmj/research?i=k1SiRhb4vdU:r5cVYkK6Pvo:V_sGLiPBpWU" /></a> <a href="http://feeds.bmj.com/~ff/bmj/research?a=k1SiRhb4vdU:r5cVYkK6Pvo:qj6IDK7rITs"><img border="0" src="http://feeds.feedburner.com/~ff/bmj/research?d=qj6IDK7rITs" /></a> <a href="http://feeds.bmj.com/~ff/bmj/research?a=k1SiRhb4vdU:r5cVYkK6Pvo:gIN9vFwOqvQ"><img border="0" src="http://feeds.feedburner.com/~ff/bmj/research?i=k1SiRhb4vdU:r5cVYkK6Pvo:gIN9vFwOqvQ" /></a>
-</div><img alt="" height="1" src="http://feeds.feedburner.com/~r/bmj/research/~4/k1SiRhb4vdU" width="1" />
-</div>
-</div>
-
-<div class="item feed-c24550d7 feed-ieeetransactionsoninformationforensicsandsecuritynewtoc" id="item-34419c1b">
-<p class="itemheader">
-<span class="itemtitle"><a href="http://ieeexplore.ieee.org/document/8404063">Key and Message Semantic-Security Over State-Dependent Channels</a></span>
-<span class="itemfrom">[<a href="http://ieeexplore.ieee.org">IEEE Transactions on Information Forensics and Security - new TOC</a>]</span>
-</p>
-<div class="itemdescription">
-<p>We study the trade-off between secret message (SM) and secret key (SK) rates, simultaneously achievable over a state-dependent (SD) wiretap channel (WTC) with non-causal channel state information (CSI) at the encoder. This model subsumes other instances of CSI availability as special cases, and calls for efficient utilization of the state sequence for both reliability and security purposes. An inner bound on the semantic-security (SS) SM-SK capacity region is derived based on a superposition coding scheme inspired by a past work of the authors. The region is shown to attain capacity for a certain class of SD-WTCs. SS is established by virtue of two versions of the strong soft-covering lemma. The derived region yields an improvement upon the previously best known SM-SK trade-off result reported by Prabhakaran et al., and, to the best of our knowledge, upon all other existing lower bounds for either SM or SK for this setup, even if the semantic security requirement is relaxed to weak secrecy. It is demonstrated that our region can be strictly larger than those reported in the preceding works.
+<p>Uncovering mechanisms of protein function is challenging when structural characterization of the functionally relevant states is elusive, for instance for large and flexible proteins which resist crystallization. This is the case for structural maintenance of chromosomes (SMC) proteins and kleisin subunits which are crucial for the segregation of chromosomes during...<img alt="" height="1" src="http://feeds.feedburner.com/~r/Pnas-RssFeedOfEarlyEditionArticles/~4/p_mdLS0THU0" width="1" />
 </div>
 </div>
 
@@ -609,15 +681,27 @@ security, calling for contributions from both academia and industry.
 <h2>Thursday, 02 January 2020</h2>
 <div class="time">
 <h3>04:00 PM</h3>
-<div class="item feed-6b3f78ad feed-latestbmjresearch" id="item-064f8cc2">
+<div class="item feed-6b3f78ad feed-latestbmjresearch" id="item-8f241545">
 <p class="itemheader">
-<span class="itemtitle"><a href="http://feeds.bmj.com/~r/bmj/research/~3/Zk-vvXoO_Uo/bmj.l6721">Bend it like Beckham or fix them like Florence&#8212;proportional representation of healthcare in New Year honours: an observational study</a></span>
+<span class="itemtitle"><a href="http://feeds.bmj.com/~r/bmj/research/~3/nz_XiI0fKig/bmj.l6720">Long term exposure to ambient fine particulate matter and incidence of stroke: prospective cohort study from the China-PAR project</a></span>
 <span class="itemfrom">[<a href="https://www.bmj.com/research/feed">Latest BMJ Research</a>]</span>
 </p>
 <div class="itemdescription">
 <div class="feedflare">
-<a href="http://feeds.bmj.com/~ff/bmj/research?a=Zk-vvXoO_Uo:q4lV1i5pCis:yIl2AUoC8zA"><img border="0" src="http://feeds.feedburner.com/~ff/bmj/research?d=yIl2AUoC8zA" /></a> <a href="http://feeds.bmj.com/~ff/bmj/research?a=Zk-vvXoO_Uo:q4lV1i5pCis:dnMXMwOfBR0"><img border="0" src="http://feeds.feedburner.com/~ff/bmj/research?d=dnMXMwOfBR0" /></a> <a href="http://feeds.bmj.com/~ff/bmj/research?a=Zk-vvXoO_Uo:q4lV1i5pCis:F7zBnMyn0Lo"><img border="0" src="http://feeds.feedburner.com/~ff/bmj/research?i=Zk-vvXoO_Uo:q4lV1i5pCis:F7zBnMyn0Lo" /></a> <a href="http://feeds.bmj.com/~ff/bmj/research?a=Zk-vvXoO_Uo:q4lV1i5pCis:V_sGLiPBpWU"><img border="0" src="http://feeds.feedburner.com/~ff/bmj/research?i=Zk-vvXoO_Uo:q4lV1i5pCis:V_sGLiPBpWU" /></a> <a href="http://feeds.bmj.com/~ff/bmj/research?a=Zk-vvXoO_Uo:q4lV1i5pCis:qj6IDK7rITs"><img border="0" src="http://feeds.feedburner.com/~ff/bmj/research?d=qj6IDK7rITs" /></a> <a href="http://feeds.bmj.com/~ff/bmj/research?a=Zk-vvXoO_Uo:q4lV1i5pCis:gIN9vFwOqvQ"><img border="0" src="http://feeds.feedburner.com/~ff/bmj/research?i=Zk-vvXoO_Uo:q4lV1i5pCis:gIN9vFwOqvQ" /></a>
-</div><img alt="" height="1" src="http://feeds.feedburner.com/~r/bmj/research/~4/Zk-vvXoO_Uo" width="1" />
+<a href="http://feeds.bmj.com/~ff/bmj/research?a=nz_XiI0fKig:7PUkpck1DdY:yIl2AUoC8zA"><img border="0" src="http://feeds.feedburner.com/~ff/bmj/research?d=yIl2AUoC8zA" /></a> <a href="http://feeds.bmj.com/~ff/bmj/research?a=nz_XiI0fKig:7PUkpck1DdY:dnMXMwOfBR0"><img border="0" src="http://feeds.feedburner.com/~ff/bmj/research?d=dnMXMwOfBR0" /></a> <a href="http://feeds.bmj.com/~ff/bmj/research?a=nz_XiI0fKig:7PUkpck1DdY:F7zBnMyn0Lo"><img border="0" src="http://feeds.feedburner.com/~ff/bmj/research?i=nz_XiI0fKig:7PUkpck1DdY:F7zBnMyn0Lo" /></a> <a href="http://feeds.bmj.com/~ff/bmj/research?a=nz_XiI0fKig:7PUkpck1DdY:V_sGLiPBpWU"><img border="0" src="http://feeds.feedburner.com/~ff/bmj/research?i=nz_XiI0fKig:7PUkpck1DdY:V_sGLiPBpWU" /></a> <a href="http://feeds.bmj.com/~ff/bmj/research?a=nz_XiI0fKig:7PUkpck1DdY:qj6IDK7rITs"><img border="0" src="http://feeds.feedburner.com/~ff/bmj/research?d=qj6IDK7rITs" /></a> <a href="http://feeds.bmj.com/~ff/bmj/research?a=nz_XiI0fKig:7PUkpck1DdY:gIN9vFwOqvQ"><img border="0" src="http://feeds.feedburner.com/~ff/bmj/research?i=nz_XiI0fKig:7PUkpck1DdY:gIN9vFwOqvQ" /></a>
+</div><img alt="" height="1" src="http://feeds.feedburner.com/~r/bmj/research/~4/nz_XiI0fKig" width="1" />
+</div>
+</div>
+
+<div class="item feed-6b3f78ad feed-latestbmjresearch" id="item-ea81216c">
+<p class="itemheader">
+<span class="itemtitle"><a href="http://feeds.bmj.com/~r/bmj/research/~3/2trQ1KD9BJk/bmj.l6058">Birth month, birth season, and overall and cardiovascular disease mortality in US women: prospective cohort study</a></span>
+<span class="itemfrom">[<a href="https://www.bmj.com/research/feed">Latest BMJ Research</a>]</span>
+</p>
+<div class="itemdescription">
+<div class="feedflare">
+<a href="http://feeds.bmj.com/~ff/bmj/research?a=2trQ1KD9BJk:B7E9Uk4xaus:yIl2AUoC8zA"><img border="0" src="http://feeds.feedburner.com/~ff/bmj/research?d=yIl2AUoC8zA" /></a> <a href="http://feeds.bmj.com/~ff/bmj/research?a=2trQ1KD9BJk:B7E9Uk4xaus:dnMXMwOfBR0"><img border="0" src="http://feeds.feedburner.com/~ff/bmj/research?d=dnMXMwOfBR0" /></a> <a href="http://feeds.bmj.com/~ff/bmj/research?a=2trQ1KD9BJk:B7E9Uk4xaus:F7zBnMyn0Lo"><img border="0" src="http://feeds.feedburner.com/~ff/bmj/research?i=2trQ1KD9BJk:B7E9Uk4xaus:F7zBnMyn0Lo" /></a> <a href="http://feeds.bmj.com/~ff/bmj/research?a=2trQ1KD9BJk:B7E9Uk4xaus:V_sGLiPBpWU"><img border="0" src="http://feeds.feedburner.com/~ff/bmj/research?i=2trQ1KD9BJk:B7E9Uk4xaus:V_sGLiPBpWU" /></a> <a href="http://feeds.bmj.com/~ff/bmj/research?a=2trQ1KD9BJk:B7E9Uk4xaus:qj6IDK7rITs"><img border="0" src="http://feeds.feedburner.com/~ff/bmj/research?d=qj6IDK7rITs" /></a> <a href="http://feeds.bmj.com/~ff/bmj/research?a=2trQ1KD9BJk:B7E9Uk4xaus:gIN9vFwOqvQ"><img border="0" src="http://feeds.feedburner.com/~ff/bmj/research?i=2trQ1KD9BJk:B7E9Uk4xaus:gIN9vFwOqvQ" /></a>
+</div><img alt="" height="1" src="http://feeds.feedburner.com/~r/bmj/research/~4/2trQ1KD9BJk" width="1" />
 </div>
 </div>
 
@@ -633,34 +717,32 @@ security, calling for contributions from both academia and industry.
 </div>
 </div>
 
-<div class="item feed-6b3f78ad feed-latestbmjresearch" id="item-bb5524a7">
-<p class="itemheader">
-<span class="itemtitle"><a href="http://feeds.bmj.com/~r/bmj/research/~3/uckGJDsOqtM/bmj.l6491">Physical activity and weight following car ownership in Beijing, China: quasi-experimental cross sectional study</a></span>
-<span class="itemfrom">[<a href="https://www.bmj.com/research/feed">Latest BMJ Research</a>]</span>
-</p>
-<div class="itemdescription">
-<div class="feedflare">
-<a href="http://feeds.bmj.com/~ff/bmj/research?a=uckGJDsOqtM:8vtDsNvLPtU:yIl2AUoC8zA"><img border="0" src="http://feeds.feedburner.com/~ff/bmj/research?d=yIl2AUoC8zA" /></a> <a href="http://feeds.bmj.com/~ff/bmj/research?a=uckGJDsOqtM:8vtDsNvLPtU:dnMXMwOfBR0"><img border="0" src="http://feeds.feedburner.com/~ff/bmj/research?d=dnMXMwOfBR0" /></a> <a href="http://feeds.bmj.com/~ff/bmj/research?a=uckGJDsOqtM:8vtDsNvLPtU:F7zBnMyn0Lo"><img border="0" src="http://feeds.feedburner.com/~ff/bmj/research?i=uckGJDsOqtM:8vtDsNvLPtU:F7zBnMyn0Lo" /></a> <a href="http://feeds.bmj.com/~ff/bmj/research?a=uckGJDsOqtM:8vtDsNvLPtU:V_sGLiPBpWU"><img border="0" src="http://feeds.feedburner.com/~ff/bmj/research?i=uckGJDsOqtM:8vtDsNvLPtU:V_sGLiPBpWU" /></a> <a href="http://feeds.bmj.com/~ff/bmj/research?a=uckGJDsOqtM:8vtDsNvLPtU:qj6IDK7rITs"><img border="0" src="http://feeds.feedburner.com/~ff/bmj/research?d=qj6IDK7rITs" /></a> <a href="http://feeds.bmj.com/~ff/bmj/research?a=uckGJDsOqtM:8vtDsNvLPtU:gIN9vFwOqvQ"><img border="0" src="http://feeds.feedburner.com/~ff/bmj/research?i=uckGJDsOqtM:8vtDsNvLPtU:gIN9vFwOqvQ" /></a>
-</div><img alt="" height="1" src="http://feeds.feedburner.com/~r/bmj/research/~4/uckGJDsOqtM" width="1" />
-</div>
-</div>
-
-<div class="item feed-c99fafa0 feed-ieeetransactionsonimageprocessingnewtoc" id="item-46907a77">
-<p class="itemheader">
-<span class="itemtitle"><a href="http://ieeexplore.ieee.org/document/8879691">Mask SSD: An Effective Single-Stage Approach to Object Instance Segmentation</a></span>
-<span class="itemfrom">[<a href="http://ieeexplore.ieee.org">IEEE Transactions on Image Processing - new TOC</a>]</span>
-</p>
-<div class="itemdescription">
-<p>We propose Mask SSD, an efficient and effective approach to address the challenging instance segmentation task. Based on a single-shot detector, Mask SSD detects all instances in an image and marks the pixels that belong to each instance. It consists of a detection subnetwork that predicts object categories and bounding box locations, and an instance-level segmentation subnetwork that generates the foreground mask for each instance. In the detection subnetwork, multi-scale and feedback features from different layers are used to better represent objects of various sizes and provide high-level semantic information. Then, we adopt an assistant classification network to guide per-class score prediction, which consists of objectness prior and category likelihood. The instance-level segmentation subnetwork outputs pixel-wise segmentation for each detection while providing the multi-scale and feedback features from different layers as input. These two subnetworks are jointly optimized by a multi-task loss function, which renders Mask SSD direct prediction on detection and segmentation results. We conduct extensive experiments on PASCAL VOC, SBD, and MS COCO datasets to evaluate the performance of Mask SSD. Experimental results verify that as compared with state-of-the-art approaches, our proposed method has a comparable precision with less speed overhead.
-</div>
-</div>
-
 </div>
 </div>
 <div class="day">
 <h2>Monday, 16 December 2019</h2>
 <div class="time">
 <h3>04:00 PM</h3>
+<div class="item feed-094cb33b feed-ieeetransactionsonindustrialelectronicsnewtoc" id="item-d637ade4">
+<p class="itemheader">
+<span class="itemtitle"><a href="http://ieeexplore.ieee.org/document/8710000">A Novel Concept of Ribless Synchronous Reluctance Motor for Enhanced Torque Capability</a></span>
+<span class="itemfrom">[<a href="http://ieeexplore.ieee.org">IEEE Transactions on Industrial Electronics - new TOC</a>]</span>
+</p>
+<div class="itemdescription">
+<p>The rotor structure of synchronous reluctance machines (SynRel) is conventionally retained mechanically by iron ribs. In this paper, a novel structure for high-speed synchronous reluctance rotor is presented. The novelty of this paper is the proof of a concept of SynRel machine without iron ribs. Structurally, the rotor iron lamination segments are embedded in an adhesive resin material with high temperature resistance and mechanical strength. Three four-pole SynRel machines have been designed with the target of improving motor torque, and compared for different ribs configuration. It has been shown that the proposed motor performs enhanced torque, power factor, and efficiency with respect to conventional SynRel with iron ribs. An extensive sensitivity analysis of the ribless rotor geometry is carried out, followed by both mechanical analysis and experimental over speed test to guarantee its robustness above the operating speed range. The manufacturing procedure of this novel rotor is introduced. Finally, the experimental results on both SynRel prototypes are presented, showing the increase in torque, power factor, and efficiency of the proposed solution. This paper is a first step toward the definition of a viable and novel solution of SynRel machines with improved performance.
+</div>
+</div>
+
+<div class="item feed-094cb33b feed-ieeetransactionsonindustrialelectronicsnewtoc" id="item-c904b35e">
+<p class="itemheader">
+<span class="itemtitle"><a href="http://ieeexplore.ieee.org/document/8701561">Analysis and Reduction of On-Load DC Winding Induced Voltage in Wound Field Switched Flux Machines</a></span>
+<span class="itemfrom">[<a href="http://ieeexplore.ieee.org">IEEE Transactions on Industrial Electronics - new TOC</a>]</span>
+</p>
+<div class="itemdescription">
+<p>DC winding induced voltage pulsation in wound field switched flux (WFSF) machines causes dc winding current ripple and field excitation fluctuation, challenges the dc power source, and deteriorates the control performance. Hence, reducing this pulsation is important in the design of a WFSF machine. In this paper, based on the analytical models, rotor skewing and rotor iron piece pairing are proposed and comparatively investigated by the finite-element (FE) method to reduce the on-load dc winding induced voltage in WFSF machines having partitioned stators and concentrated ac windings. FE results show that peak-to-peak value of the on-load dc winding induced voltage in the analyzed 12&#x002f;10-pole partitioned stator WFSF (PS-WFSF) machines can be reduced by 78.42&#x0025; or 77.16&#x0025; by using rotor skewing or rotor pairing, respectively, while the torque density can be maintained by &gt;90&#x0025;. As for the 12&#x002f;11-, 12&#x002f;13-, and 12&#x002f;14-pole PS-WFSF machines, by using rotor iron piece inner arc pairing, the on-load dc winding induced voltage can be reduced by 64.11&#x0025;, 52.12&#x0025;, and 76.49&#x0025;, respectively, while the torque density can be maintained by more than 90&#x0025;. Prototypes are built and tested to verify the analytical and FE results.
+</div>
+</div>
+
 <div class="item feed-094cb33b feed-ieeetransactionsonindustrialelectronicsnewtoc" id="item-71b555dd">
 <p class="itemheader">
 <span class="itemtitle"><a href="http://ieeexplore.ieee.org/document/8708984">Design, Analysis, and Impacts of Sinusoidal &lt;italic&gt;LC&lt;/italic&gt; Filter on Pulsewidth Modulated Inverter Fed-Induction Motor Drive</a></span>
@@ -671,43 +753,23 @@ security, calling for contributions from both academia and industry.
 </div>
 </div>
 
-<div class="item feed-094cb33b feed-ieeetransactionsonindustrialelectronicsnewtoc" id="item-e7430d71">
+<div class="item feed-094cb33b feed-ieeetransactionsonindustrialelectronicsnewtoc" id="item-990c479e">
 <p class="itemheader">
-<span class="itemtitle"><a href="http://ieeexplore.ieee.org/document/8683993">Power Loss and Thermal Analysis for High-Power High-Speed Permanent Magnet Machines</a></span>
+<span class="itemtitle"><a href="http://ieeexplore.ieee.org/document/8705671">Fast Phase Angle Jump Estimation to Improve the Convergence Time of the GDSC-PLL</a></span>
 <span class="itemfrom">[<a href="http://ieeexplore.ieee.org">IEEE Transactions on Industrial Electronics - new TOC</a>]</span>
 </p>
 <div class="itemdescription">
-<p>For high-speed permanent magnet machines (HSPMMs), the permanent magnet (PM) is more likely to suffer irreversible demagnetization because the heat dissipation is serious in the HSPMMs, especially for the high-power machines. This paper focuses on the comprehensive research results on the power loss and thermal characteristic for a high-power HSPMM. First, the power loss at the rated load is investigated by finite-element analysis. Then, the temperature distribution of four cooling schemes is compared by the electromagnetic-thermal iteration calculation. The effect of different parameters on thermal behavior is obtained to reduce rotor temperature, which includes an examination of the axial flow duct, cooling medium, sleeve thickness, and sleeve thermal conductivity. Finally, an improved loss separation method is employed to obtain the loss distribution from the measured total loss, and the comprehensive experiments are implemented based on one HSPMM prototype (800 kW, 15 000 rpm) to verify the related theoretical analysis.
+<p>The fast detection of magnitude, frequency, and phase angle of the fundamental-frequency component is very useful in many three-phase power system applications. Most techniques to accomplish this task are based on different versions of three-phase phase-locked loop (PLL) schemes. Some variables of three-phase systems may experience phase angle jumps after some disturbances. In this paper, a method for the fast detection of phase angle jump occurrence, estimation of the phase angle jump, and its use for improving the performance of the generalized delayed signal cancelation (GDSC) PLL is proposed. The proposed method is based on the detailed evaluation of the GDSC filter transient behavior after a phase jump. Results considering typical three-phase grid disturbances are used to evaluate the proposed scheme, in comparison with other usual PLL techniques. The use of the proposed phase jump angle estimator allowed a reduction in the GDSC-PLL convergence time of about 50&#x0025;.
 </div>
 </div>
 
-<div class="item feed-094cb33b feed-ieeetransactionsonindustrialelectronicsnewtoc" id="item-cad427e0">
+<div class="item feed-094cb33b feed-ieeetransactionsonindustrialelectronicsnewtoc" id="item-8c433675">
 <p class="itemheader">
-<span class="itemtitle"><a href="http://ieeexplore.ieee.org/document/8683994">Elimination of Photovoltaic Mismatching With Improved Submodule Differential Power Processing</a></span>
+<span class="itemtitle"><a href="http://ieeexplore.ieee.org/document/8705665">Adaptive Fault-Tolerant Constrained Control of Cooperative Spacecraft Rendezvous and Docking</a></span>
 <span class="itemfrom">[<a href="http://ieeexplore.ieee.org">IEEE Transactions on Industrial Electronics - new TOC</a>]</span>
 </p>
 <div class="itemdescription">
-<p>Differential power processing (DPP) is a promising architecture to solve the issue caused by mismatches among photovoltaic (PV) submodules. To eliminate the mismatch power losses, this paper presents an optimized PV-to-bus DPP system with submodule-level individual maximum power point tracking (MPPT) and module-level minimum-power tracking (MPT) simultaneous implementation according to the built mathematical model of the power processed by DPP converters with respect to the string current. Furthermore, a flexible time-sharing algorithm is adopted to reduce the number of MPPT units. Compared with other solutions, such as PV optimizer, the proposed scheme can reduce the effects of mismatches to the minimum regardless of mismatch conditions. The system cost is reduced since only one adaptive MPPT controller is required. Besides, the system efficiency is improved due to the true MPPT implementation and MPT control. Both simulation and experimental tests are provided to validate the effectiveness of the proposed scheme.
-</div>
-</div>
-
-<div class="item feed-094cb33b feed-ieeetransactionsonindustrialelectronicsnewtoc" id="item-72705278">
-<p class="itemheader">
-<span class="itemtitle"><a href="http://ieeexplore.ieee.org/document/8701581">An Adaptive Gain Dynamics for Time Delay Control Improves Accuracy and Robustness to Significant Payload Changes for Robots</a></span>
-<span class="itemfrom">[<a href="http://ieeexplore.ieee.org">IEEE Transactions on Industrial Electronics - new TOC</a>]</span>
-</p>
-<div class="itemdescription">
-<p>Time delay control (TDC) is a promising technique for robot manipulators because it is model-free, efficient, and yet, robust. Nevertheless, when a robot operates under significant payload changes, it is difficult to achieve satisfactory performance with a constant gain. To cope with this problem, several adaptive rules have already been proposed thus far, but they are less effective to significant payload changes, and parameter tuning procedures are too complicated. In this paper, we propose an adaptive gain dynamics that is more effective in payload changes and yet simpler to implement. Through simulations using a one-link arm and experiments using a whole arm manipulator with payload changes, the proposed dynamics was compared with the conventional TDC and two other existing methods. Simulation results show that the proposed algorithm can adapt to significant payload changes, achieving better accuracy than the conventional TDC. Experimental results show that the proposed method has consistently better adaptation capability than other methods, achieving significantly better accuracy. In addition, the proposed method is simpler to implement, having only one tuning parameter, whereas the existing methods require four or five such tuning parameters.
-</div>
-</div>
-
-<div class="item feed-094cb33b feed-ieeetransactionsonindustrialelectronicsnewtoc" id="item-2e172660">
-<p class="itemheader">
-<span class="itemtitle"><a href="http://ieeexplore.ieee.org/document/8683962">Adaptive Self-Configurable Rectifier for Extended Operating Range of Piezoelectric Energy Harvesting</a></span>
-<span class="itemfrom">[<a href="http://ieeexplore.ieee.org">IEEE Transactions on Industrial Electronics - new TOC</a>]</span>
-</p>
-<div class="itemdescription">
-<p>This paper presents an adaptive self-configurable rectifier to increase the range of vibration excitation that a piezoelectric energy harvesting power management circuit (PMC) can operate with. The proposed circuit configures itself as a voltage doubler (VD) to increase the low voltage of piezoelectric energy harvesters to meet the minimum operating voltage of the PMC. This allows energy harvesting from low voltage range that is not viable using a full-wave bridge (FB) rectifier. When the piezoelectric voltage increases and causes the voltage amplified by the VD to approach the maximum operating voltage of the PMC, the proposed circuit reconfigures itself to an FB rectifier that does not amplify the voltage. This allows operation at a higher voltage range that is restricted by the VD topology. Two different reference voltages each for the VD topology and the FB rectifier topology with low-pass filtering are used to ensure correct switching of the rectifier topology. The proposed control circuit can cold start from a piezoelectric voltage of 1.2&#x00a0;V in the VD topology to amplify the voltage to allow an existing PMC that needs a minimum input voltage higher than 1.2&#x00a0;V to operate while consuming 240&#x2013;410&#x00a0;nW of power. With the two-reference-voltages control method, 20&#x0025; more energy can be transferred through the PMC than the one without it.
+<p>The relative pose control problem for spacecraft rendezvous and docking missions in the presence of control input constraints, actuator&#x0027;s partial failures, and unknown external disturbances is studied in this paper. A smoothly adaptive fault-tolerant constrained controller is developed based on the adaptive nonlinear state feedback method. Different from the traditional fault-tolerant saturated controllers, the proposed control approach explicitly accounts for the control input constraints with straightforward tuning parameters in controller. Meanwhile, the exact knowledge of the actuator failures is not required and uncertain failure information can be rejected. A smooth control signal containing simple saturation functions is designed, and the unknown bounded external disturbances can be rejected by the proposed method. The proposed controller can ensure ultimately, uniformly bounded stability of the closed-loop system, where relative pose and velocities converge to the small neighborhoods of zero. Numerical simulation results demonstrate the effectiveness of the proposed control approach.
 </div>
 </div>
 
@@ -717,53 +779,53 @@ security, calling for contributions from both academia and industry.
 <h2>Monday, 26 August 2019</h2>
 <div class="time">
 <h3>04:00 PM</h3>
-<div class="item feed-a4d49d75 feed-annualreviewsannualreviewofeconomicstableofcontents" id="item-7f9de0cc">
+<div class="item feed-a4d49d75 feed-annualreviewsannualreviewofeconomicstableofcontents" id="item-c406bfb4">
 <p class="itemheader">
-<span class="itemtitle"><a href="https://www.annualreviews.org/doi/abs/10.1146/annurev-economics-080218-030255?ai=67b7&amp;mi=3fndc3&amp;af=R">Evolutionary Models of Preference Formation</a></span>
+<span class="itemtitle"><a href="https://www.annualreviews.org/doi/abs/10.1146/annurev-economics-080218-025523?ai=67b7&amp;mi=3fndc3&amp;af=R">Transitional Dynamics in Aggregate Models of Innovative Investment</a></span>
 <span class="itemfrom">[Annual Reviews: Annual Review of Economics: Table of Contents]</span>
 </p>
 <div class="itemdescription">
-<p>Annual Review of Economics, <a href="https://www.annualreviews.org/toc/economics/11/1">Volume 11, Issue 1</a>, Page 329-354, August 2019. <br />
+<p>Annual Review of Economics, <a href="https://www.annualreviews.org/toc/economics/11/1">Volume 11, Issue 1</a>, Page 273-301, August 2019. <br />
 </div>
 </div>
 
-<div class="item feed-a4d49d75 feed-annualreviewsannualreviewofeconomicstableofcontents" id="item-2c07ee22">
+<div class="item feed-a4d49d75 feed-annualreviewsannualreviewofeconomicstableofcontents" id="item-e806cbe6">
 <p class="itemheader">
-<span class="itemtitle"><a href="https://www.annualreviews.org/doi/abs/10.1146/annurev-economics-080218-030419?ai=67b7&amp;mi=3fndc3&amp;af=R">Social Networks in Policy Making</a></span>
+<span class="itemtitle"><a href="https://www.annualreviews.org/doi/abs/10.1146/annurev-economics-080218-030343?ai=67b7&amp;mi=3fndc3&amp;af=R">Echo Chambers and Their Effects on Economic and Political Outcomes</a></span>
 <span class="itemfrom">[Annual Reviews: Annual Review of Economics: Table of Contents]</span>
 </p>
 <div class="itemdescription">
-<p>Annual Review of Economics, <a href="https://www.annualreviews.org/toc/economics/11/1">Volume 11, Issue 1</a>, Page 473-494, August 2019. <br />
+<p>Annual Review of Economics, <a href="https://www.annualreviews.org/toc/economics/11/1">Volume 11, Issue 1</a>, Page 303-328, August 2019. <br />
 </div>
 </div>
 
-<div class="item feed-a4d49d75 feed-annualreviewsannualreviewofeconomicstableofcontents" id="item-501f44a0">
+<div class="item feed-a4d49d75 feed-annualreviewsannualreviewofeconomicstableofcontents" id="item-8ee37609">
 <p class="itemheader">
-<span class="itemtitle"><a href="https://www.annualreviews.org/doi/abs/10.1146/annurev-economics-080217-053518?ai=67b7&amp;mi=3fndc3&amp;af=R">The International Monetary and Financial System</a></span>
+<span class="itemtitle"><a href="https://www.annualreviews.org/doi/abs/10.1146/annurev-economics-080218-025818?ai=67b7&amp;mi=3fndc3&amp;af=R">Auction Market Design: Recent Innovations</a></span>
 <span class="itemfrom">[Annual Reviews: Annual Review of Economics: Table of Contents]</span>
 </p>
 <div class="itemdescription">
-<p>Annual Review of Economics, <a href="https://www.annualreviews.org/toc/economics/11/1">Volume 11, Issue 1</a>, Page 859-893, August 2019. <br />
+<p>Annual Review of Economics, <a href="https://www.annualreviews.org/toc/economics/11/1">Volume 11, Issue 1</a>, Page 383-405, August 2019. <br />
 </div>
 </div>
 
-<div class="item feed-a4d49d75 feed-annualreviewsannualreviewofeconomicstableofcontents" id="item-ee2ad8de">
+<div class="item feed-a4d49d75 feed-annualreviewsannualreviewofeconomicstableofcontents" id="item-9f3c9a42">
 <p class="itemheader">
-<span class="itemtitle"><a href="https://www.annualreviews.org/doi/abs/10.1146/annurev-economics-080218-030220?ai=67b7&amp;mi=3fndc3&amp;af=R">Universal Basic Income: Some Theoretical Aspects</a></span>
+<span class="itemtitle"><a href="https://www.annualreviews.org/doi/abs/10.1146/annurev-economics-080218-030204?ai=67b7&amp;mi=3fndc3&amp;af=R">History, Microdata, and Endogenous Growth</a></span>
 <span class="itemfrom">[Annual Reviews: Annual Review of Economics: Table of Contents]</span>
 </p>
 <div class="itemdescription">
-<p>Annual Review of Economics, <a href="https://www.annualreviews.org/toc/economics/11/1">Volume 11, Issue 1</a>, Page 895-928, August 2019. <br />
+<p>Annual Review of Economics, <a href="https://www.annualreviews.org/toc/economics/11/1">Volume 11, Issue 1</a>, Page 615-633, August 2019. <br />
 </div>
 </div>
 
-<div class="item feed-a4d49d75 feed-annualreviewsannualreviewofeconomicstableofcontents" id="item-ed26ba43">
+<div class="item feed-a4d49d75 feed-annualreviewsannualreviewofeconomicstableofcontents" id="item-c0967de3">
 <p class="itemheader">
-<span class="itemtitle"><a href="https://www.annualreviews.org/doi/abs/10.1146/annurev-economics-080218-030237?ai=67b7&amp;mi=3fndc3&amp;af=R">Universal Basic Income in the United States and Advanced Countries</a></span>
+<span class="itemtitle"><a href="https://www.annualreviews.org/doi/abs/10.1146/annurev-economics-080218-025721?ai=67b7&amp;mi=3fndc3&amp;af=R">Has Dynamic Programming Improved Decision Making?</a></span>
 <span class="itemfrom">[Annual Reviews: Annual Review of Economics: Table of Contents]</span>
 </p>
 <div class="itemdescription">
-<p>Annual Review of Economics, <a href="https://www.annualreviews.org/toc/economics/11/1">Volume 11, Issue 1</a>, Page 929-958, August 2019. <br />
+<p>Annual Review of Economics, <a href="https://www.annualreviews.org/toc/economics/11/1">Volume 11, Issue 1</a>, Page 833-858, August 2019. <br />
 </div>
 </div>
 
@@ -773,53 +835,53 @@ security, calling for contributions from both academia and industry.
 <h2>Thursday, 08 August 2019</h2>
 <div class="time">
 <h3>04:00 PM</h3>
-<div class="item feed-3b836157 feed-annualreviewsannualreviewofsociologytableofcontents" id="item-2f09f641">
+<div class="item feed-3b836157 feed-annualreviewsannualreviewofsociologytableofcontents" id="item-515fd4f2">
 <p class="itemheader">
-<span class="itemtitle"><a href="https://www.annualreviews.org/doi/abs/10.1146/annurev-soc-073117-041106?ai=t0&amp;mi=3fndc3&amp;af=R">Machine Learning for Sociology</a></span>
+<span class="itemtitle"><a href="https://www.annualreviews.org/doi/abs/10.1146/annurev-soc-073117-041351?ai=t0&amp;mi=3fndc3&amp;af=R">Aging Populations, Mortality, and Life Expectancy</a></span>
 <span class="itemfrom">[Annual Reviews: Annual Review of Sociology: Table of Contents]</span>
 </p>
 <div class="itemdescription">
-<p>Annual Review of Sociology, <a href="https://www.annualreviews.org/toc/soc/45/1">Volume 45, Issue 1</a>, Page 27-45, July 2019. <br />
+<p>Annual Review of Sociology, <a href="https://www.annualreviews.org/toc/soc/45/1">Volume 45, Issue 1</a>, Page 69-89, July 2019. <br />
 </div>
 </div>
 
-<div class="item feed-3b836157 feed-annualreviewsannualreviewofsociologytableofcontents" id="item-4cce758b">
+<div class="item feed-3b836157 feed-annualreviewsannualreviewofsociologytableofcontents" id="item-35d69aea">
 <p class="itemheader">
-<span class="itemtitle"><a href="https://www.annualreviews.org/doi/abs/10.1146/annurev-soc-073018-022707?ai=t0&amp;mi=3fndc3&amp;af=R">The Role of Space in the Formation of Social Ties</a></span>
+<span class="itemtitle"><a href="https://www.annualreviews.org/doi/abs/10.1146/annurev-soc-073018-022649?ai=t0&amp;mi=3fndc3&amp;af=R">Moral Cultures, Reputation Work, and the Politics of Scandal</a></span>
 <span class="itemfrom">[Annual Reviews: Annual Review of Sociology: Table of Contents]</span>
 </p>
 <div class="itemdescription">
-<p>Annual Review of Sociology, <a href="https://www.annualreviews.org/toc/soc/45/1">Volume 45, Issue 1</a>, Page 111-132, July 2019. <br />
+<p>Annual Review of Sociology, <a href="https://www.annualreviews.org/toc/soc/45/1">Volume 45, Issue 1</a>, Page 247-264, July 2019. <br />
 </div>
 </div>
 
-<div class="item feed-3b836157 feed-annualreviewsannualreviewofsociologytableofcontents" id="item-e196dcf7">
+<div class="item feed-3b836157 feed-annualreviewsannualreviewofsociologytableofcontents" id="item-01d12f60">
 <p class="itemheader">
-<span class="itemtitle"><a href="https://www.annualreviews.org/doi/abs/10.1146/annurev-soc-073018-022416?ai=t0&amp;mi=3fndc3&amp;af=R">The Social Structure of Time: Emerging Trends and New Directions</a></span>
+<span class="itemtitle"><a href="https://www.annualreviews.org/doi/abs/10.1146/annurev-soc-073018-022424?ai=t0&amp;mi=3fndc3&amp;af=R">Divergent Destinies: Children of Immigrants Growing Up in the United States</a></span>
 <span class="itemfrom">[Annual Reviews: Annual Review of Sociology: Table of Contents]</span>
 </p>
 <div class="itemdescription">
-<p>Annual Review of Sociology, <a href="https://www.annualreviews.org/toc/soc/45/1">Volume 45, Issue 1</a>, Page 301-320, July 2019. <br />
+<p>Annual Review of Sociology, <a href="https://www.annualreviews.org/toc/soc/45/1">Volume 45, Issue 1</a>, Page 383-399, July 2019. <br />
 </div>
 </div>
 
-<div class="item feed-3b836157 feed-annualreviewsannualreviewofsociologytableofcontents" id="item-5f0d47cc">
+<div class="item feed-3b836157 feed-annualreviewsannualreviewofsociologytableofcontents" id="item-c5abf2be">
 <p class="itemheader">
-<span class="itemtitle"><a href="https://www.annualreviews.org/doi/abs/10.1146/annurev-soc-073018-022449?ai=t0&amp;mi=3fndc3&amp;af=R">Retail Sector Concentration, Local Economic Structure, and Community Well-Being</a></span>
+<span class="itemtitle"><a href="https://www.annualreviews.org/doi/abs/10.1146/annurev-soc-073018-022332?ai=t0&amp;mi=3fndc3&amp;af=R">Examining Public Opinion About LGBTQ-Related Issues in the United States and Across Multiple Nations</a></span>
 <span class="itemfrom">[Annual Reviews: Annual Review of Sociology: Table of Contents]</span>
 </p>
 <div class="itemdescription">
-<p>Annual Review of Sociology, <a href="https://www.annualreviews.org/toc/soc/45/1">Volume 45, Issue 1</a>, Page 321-343, July 2019. <br />
+<p>Annual Review of Sociology, <a href="https://www.annualreviews.org/toc/soc/45/1">Volume 45, Issue 1</a>, Page 401-423, July 2019. <br />
 </div>
 </div>
 
-<div class="item feed-3b836157 feed-annualreviewsannualreviewofsociologytableofcontents" id="item-2798999d">
+<div class="item feed-3b836157 feed-annualreviewsannualreviewofsociologytableofcontents" id="item-df75188f">
 <p class="itemheader">
-<span class="itemtitle"><a href="https://www.annualreviews.org/doi/abs/10.1146/annurev-soc-073018-022524?ai=t0&amp;mi=3fndc3&amp;af=R">Well-Being at the End of Life</a></span>
+<span class="itemtitle"><a href="https://www.annualreviews.org/doi/abs/10.1146/annurev-soc-073018-022633?ai=t0&amp;mi=3fndc3&amp;af=R">Family Instability in the Lives of American Children</a></span>
 <span class="itemfrom">[Annual Reviews: Annual Review of Sociology: Table of Contents]</span>
 </p>
 <div class="itemdescription">
-<p>Annual Review of Sociology, <a href="https://www.annualreviews.org/toc/soc/45/1">Volume 45, Issue 1</a>, Page 515-534, July 2019. <br />
+<p>Annual Review of Sociology, <a href="https://www.annualreviews.org/toc/soc/45/1">Volume 45, Issue 1</a>, Page 493-513, July 2019. <br />
 </div>
 </div>
 
@@ -829,23 +891,23 @@ security, calling for contributions from both academia and industry.
 <h2>Sunday, 09 June 2019</h2>
 <div class="time">
 <h3>07:32 PM</h3>
-<div class="item feed-52e73913 feed-annualreviewsannualreviewofpoliticalsciencetableofcontents" id="item-6d7b35bf">
+<div class="item feed-52e73913 feed-annualreviewsannualreviewofpoliticalsciencetableofcontents" id="item-9612fd54">
 <p class="itemheader">
-<span class="itemtitle"><a href="https://www.annualreviews.org/doi/abs/10.1146/annurev-polisci-050317-070708?af=R">The Economics and Politics of Preferential Trade Agreements</a></span>
+<span class="itemtitle"><a href="https://www.annualreviews.org/doi/abs/10.1146/annurev-polisci-030816-105449?af=R">A Conversation with Theda Skocpol</a></span>
 <span class="itemfrom">[Annual Reviews: Annual Review of Political Science: Table of Contents]</span>
 </p>
 <div class="itemdescription">
-<p>Annual Review of Political Science, <a href="https://www.annualreviews.org/toc/polisci/22/1">Volume 22, Issue 1</a>, Page 75-92, May 2019. <br />
+<p>Annual Review of Political Science, <a href="https://www.annualreviews.org/toc/polisci/22/1">Volume 22, Issue 1</a>, Page 1-16, May 2019. <br />
 </div>
 </div>
 
-<div class="item feed-52e73913 feed-annualreviewsannualreviewofpoliticalsciencetableofcontents" id="item-5dd89bb5">
+<div class="item feed-52e73913 feed-annualreviewsannualreviewofpoliticalsciencetableofcontents" id="item-628d3eb7">
 <p class="itemheader">
-<span class="itemtitle"><a href="https://www.annualreviews.org/doi/abs/10.1146/annurev-polisci-050317-071146?af=R">The Politics of Housing</a></span>
+<span class="itemtitle"><a href="https://www.annualreviews.org/doi/abs/10.1146/annurev-polisci-051017-113314?af=R">The Return of the Single-Country Study</a></span>
 <span class="itemfrom">[Annual Reviews: Annual Review of Political Science: Table of Contents]</span>
 </p>
 <div class="itemdescription">
-<p>Annual Review of Political Science, <a href="https://www.annualreviews.org/toc/polisci/22/1">Volume 22, Issue 1</a>, Page 165-185, May 2019. <br />
+<p>Annual Review of Political Science, <a href="https://www.annualreviews.org/toc/polisci/22/1">Volume 22, Issue 1</a>, Page 187-203, May 2019. <br />
 </div>
 </div>
 
@@ -859,23 +921,23 @@ security, calling for contributions from both academia and industry.
 </div>
 </div>
 
-<div class="item feed-52e73913 feed-annualreviewsannualreviewofpoliticalsciencetableofcontents" id="item-8d455386">
+<div class="item feed-52e73913 feed-annualreviewsannualreviewofpoliticalsciencetableofcontents" id="item-d951f2f3">
 <p class="itemheader">
-<span class="itemtitle"><a href="https://www.annualreviews.org/doi/abs/10.1146/annurev-polisci-050317-070830?af=R">Climate Change and Conflict</a></span>
+<span class="itemtitle"><a href="https://www.annualreviews.org/doi/abs/10.1146/annurev-polisci-060518-025407?af=R">Integrating the Civil&#8211;Military Relations Subfield</a></span>
 <span class="itemfrom">[Annual Reviews: Annual Review of Political Science: Table of Contents]</span>
 </p>
 <div class="itemdescription">
-<p>Annual Review of Political Science, <a href="https://www.annualreviews.org/toc/polisci/22/1">Volume 22, Issue 1</a>, Page 343-360, May 2019. <br />
+<p>Annual Review of Political Science, <a href="https://www.annualreviews.org/toc/polisci/22/1">Volume 22, Issue 1</a>, Page 379-398, May 2019. <br />
 </div>
 </div>
 
-<div class="item feed-52e73913 feed-annualreviewsannualreviewofpoliticalsciencetableofcontents" id="item-da815408">
+<div class="item feed-52e73913 feed-annualreviewsannualreviewofpoliticalsciencetableofcontents" id="item-86a48d6f">
 <p class="itemheader">
-<span class="itemtitle"><a href="https://www.annualreviews.org/doi/abs/10.1146/annurev-polisci-050317-063728?af=R">Firms in Trade and Trade Politics</a></span>
+<span class="itemtitle"><a href="https://www.annualreviews.org/doi/abs/10.1146/annurev-polisci-022018-024059?af=R">Not So Civic: Is There a Difference Between Ethnic and Civic Nationalism?</a></span>
 <span class="itemfrom">[Annual Reviews: Annual Review of Political Science: Table of Contents]</span>
 </p>
 <div class="itemdescription">
-<p>Annual Review of Political Science, <a href="https://www.annualreviews.org/toc/polisci/22/1">Volume 22, Issue 1</a>, Page 399-417, May 2019. <br />
+<p>Annual Review of Political Science, <a href="https://www.annualreviews.org/toc/polisci/22/1">Volume 22, Issue 1</a>, Page 419-434, May 2019. <br />
 </div>
 </div>
 
@@ -885,6 +947,16 @@ security, calling for contributions from both academia and industry.
 <h2>Tuesday, 12 February 2019</h2>
 <div class="time">
 <h3>04:00 PM</h3>
+<div class="item feed-b3e4c5b6 feed-annualreviewsannualreviewofphysiologytableofcontents" id="item-df1ff060">
+<p class="itemheader">
+<span class="itemtitle"><a href="https://www.annualreviews.org/doi/abs/10.1146/annurev-physiol-020518-114310?ai=sp&amp;mi=3fndc3&amp;af=R">Maintenance of Skeletal Muscle Mitochondria in Health, Exercise, and Aging</a></span>
+<span class="itemfrom">[Annual Reviews: Annual Review of Physiology: Table of Contents]</span>
+</p>
+<div class="itemdescription">
+<p>Annual Review of Physiology, <a href="https://www.annualreviews.org/toc/physiol/81/1">Volume 81, Issue 1</a>, Page 19-41, February 2019. <br />
+</div>
+</div>
+
 <div class="item feed-b3e4c5b6 feed-annualreviewsannualreviewofphysiologytableofcontents" id="item-dab26281">
 <p class="itemheader">
 <span class="itemtitle"><a href="https://www.annualreviews.org/doi/abs/10.1146/annurev-physiol-020518-114417?ai=sp&amp;mi=3fndc3&amp;af=R">Cysteine-Based Redox Sensing and Its Role in Signaling by Cyclic Nucleotide&#8211;Dependent Kinases in the Cardiovascular System</a></span>
@@ -895,23 +967,23 @@ security, calling for contributions from both academia and industry.
 </div>
 </div>
 
-<div class="item feed-b3e4c5b6 feed-annualreviewsannualreviewofphysiologytableofcontents" id="item-ffd2419f">
+<div class="item feed-b3e4c5b6 feed-annualreviewsannualreviewofphysiologytableofcontents" id="item-11485cfd">
 <p class="itemheader">
-<span class="itemtitle"><a href="https://www.annualreviews.org/doi/abs/10.1146/annurev-physiol-020518-114605?ai=sp&amp;mi=3fndc3&amp;af=R">Biomarkers of Acute and Chronic Kidney Disease</a></span>
+<span class="itemtitle"><a href="https://www.annualreviews.org/doi/abs/10.1146/annurev-physiol-020518-114515?ai=sp&amp;mi=3fndc3&amp;af=R">Epithelial-Stromal Interactions in Pancreatic Cancer</a></span>
 <span class="itemfrom">[Annual Reviews: Annual Review of Physiology: Table of Contents]</span>
 </p>
 <div class="itemdescription">
-<p>Annual Review of Physiology, <a href="https://www.annualreviews.org/toc/physiol/81/1">Volume 81, Issue 1</a>, Page 309-333, February 2019. <br />
+<p>Annual Review of Physiology, <a href="https://www.annualreviews.org/toc/physiol/81/1">Volume 81, Issue 1</a>, Page 211-233, February 2019. <br />
 </div>
 </div>
 
-<div class="item feed-b3e4c5b6 feed-annualreviewsannualreviewofphysiologytableofcontents" id="item-7512a46a">
+<div class="item feed-b3e4c5b6 feed-annualreviewsannualreviewofphysiologytableofcontents" id="item-9101a2ec">
 <p class="itemheader">
-<span class="itemtitle"><a href="https://www.annualreviews.org/doi/abs/10.1146/annurev-physiol-020518-114640?ai=sp&amp;mi=3fndc3&amp;af=R">Cellular Metabolism in Lung Health and Disease</a></span>
+<span class="itemtitle"><a href="https://www.annualreviews.org/doi/abs/10.1146/annurev-physiol-020518-114556?ai=sp&amp;mi=3fndc3&amp;af=R">Regulation of Thirst and Vasopressin Release</a></span>
 <span class="itemfrom">[Annual Reviews: Annual Review of Physiology: Table of Contents]</span>
 </p>
 <div class="itemdescription">
-<p>Annual Review of Physiology, <a href="https://www.annualreviews.org/toc/physiol/81/1">Volume 81, Issue 1</a>, Page 403-428, February 2019. <br />
+<p>Annual Review of Physiology, <a href="https://www.annualreviews.org/toc/physiol/81/1">Volume 81, Issue 1</a>, Page 359-373, February 2019. <br />
 </div>
 </div>
 
@@ -922,16 +994,6 @@ security, calling for contributions from both academia and industry.
 </p>
 <div class="itemdescription">
 <p>Annual Review of Physiology, <a href="https://www.annualreviews.org/toc/physiol/81/1">Volume 81, Issue 1</a>, Page 535-560, February 2019. <br />
-</div>
-</div>
-
-<div class="item feed-b3e4c5b6 feed-annualreviewsannualreviewofphysiologytableofcontents" id="item-a989c39f">
-<p class="itemheader">
-<span class="itemtitle"><a href="https://www.annualreviews.org/doi/abs/10.1146/annurev-physiol-021317-121245?ai=sp&amp;mi=3fndc3&amp;af=R">Steps in Mechanotransduction Pathways that Control Cell Morphology</a></span>
-<span class="itemfrom">[Annual Reviews: Annual Review of Physiology: Table of Contents]</span>
-</p>
-<div class="itemdescription">
-<p>Annual Review of Physiology, <a href="https://www.annualreviews.org/toc/physiol/81/1">Volume 81, Issue 1</a>, Page 585-605, February 2019. <br />
 </div>
 </div>
 
@@ -949,113 +1011,113 @@ security, calling for contributions from both academia and industry.
 <tr class="feedsrow">
 <td>Annual Reviews: Annual Review of Economics: Table of Contents</td>
 <td><a class="xmlbutton" href="http://www.annualreviews.org/action/showFeed?ui=45mu4&amp;mi=3fndc3&amp;ai=67b7&amp;jc=economics&amp;type=etoc&amp;feed=rss">XML</a></td>
-<td>04:00 PM, Thursday, 30 January 2020</td>
-<td>07:00 PM, Thursday, 30 January 2020</td>
+<td>04:00 PM, Monday, 03 February 2020</td>
+<td>07:00 PM, Monday, 03 February 2020</td>
 </tr>
 
 <tr class="feedsrow">
 <td>Annual Reviews: Annual Review of Nutrition: Table of Contents</td>
 <td><a class="xmlbutton" href="http://www.annualreviews.org/action/showFeed?ui=45mu4&amp;mi=3fndc3&amp;ai=rz&amp;jc=nutr&amp;type=etoc&amp;feed=rss">XML</a></td>
-<td>04:00 PM, Thursday, 30 January 2020</td>
-<td>07:00 PM, Thursday, 30 January 2020</td>
+<td>04:00 PM, Monday, 03 February 2020</td>
+<td>07:00 PM, Monday, 03 February 2020</td>
 </tr>
 
 <tr class="feedsrow">
 <td>Annual Reviews: Annual Review of Physiology: Table of Contents</td>
 <td><a class="xmlbutton" href="http://www.annualreviews.org/action/showFeed?ui=45mu4&amp;mi=3fndc3&amp;ai=sp&amp;jc=physiol&amp;type=etoc&amp;feed=rss">XML</a></td>
-<td>04:00 PM, Thursday, 30 January 2020</td>
-<td>07:00 PM, Thursday, 30 January 2020</td>
+<td>04:00 PM, Monday, 03 February 2020</td>
+<td>07:00 PM, Monday, 03 February 2020</td>
 </tr>
 
 <tr class="feedsrow">
 <td>Annual Reviews: Annual Review of Political Science: Table of Contents</td>
 <td><a class="xmlbutton" href="http://www.annualreviews.org/action/showFeed?jc=polisci&amp;type=etoc&amp;feed=rss">XML</a></td>
-<td>04:00 PM, Thursday, 30 January 2020</td>
-<td>07:00 PM, Thursday, 30 January 2020</td>
+<td>04:00 PM, Monday, 03 February 2020</td>
+<td>07:00 PM, Monday, 03 February 2020</td>
 </tr>
 
 <tr class="feedsrow">
 <td>Annual Reviews: Annual Review of Sociology: Table of Contents</td>
 <td><a class="xmlbutton" href="http://www.annualreviews.org/action/showFeed?ui=45mu4&amp;mi=3fndc3&amp;ai=t0&amp;jc=soc&amp;type=etoc&amp;feed=rss">XML</a></td>
-<td>04:00 PM, Thursday, 30 January 2020</td>
-<td>07:00 PM, Thursday, 30 January 2020</td>
+<td>04:00 PM, Monday, 03 February 2020</td>
+<td>07:00 PM, Monday, 03 February 2020</td>
 </tr>
 
 <tr class="feedsrow">
 <td><a href="http://arxiv.org/">cs.CR updates on arXiv.org</a></td>
 <td><a class="xmlbutton" href="http://export.arxiv.org/rss/cs.CR">XML</a></td>
-<td>04:00 PM, Thursday, 30 January 2020</td>
-<td>07:00 PM, Thursday, 30 January 2020</td>
+<td>04:00 PM, Monday, 03 February 2020</td>
+<td>07:00 PM, Monday, 03 February 2020</td>
 </tr>
 
 <tr class="feedsrow">
 <td><a href="http://www.pnas.org">Early Edition</a></td>
 <td><a class="xmlbutton" href="http://feeds.feedburner.com/Pnas-RssFeedOfEarlyEditionArticles?format=xml">XML</a></td>
-<td>04:00 PM, Thursday, 30 January 2020</td>
-<td>07:00 PM, Thursday, 30 January 2020</td>
+<td>04:00 PM, Monday, 03 February 2020</td>
+<td>07:00 PM, Monday, 03 February 2020</td>
 </tr>
 
 <tr class="feedsrow">
 <td><a href="http://www.eurekalert.org">EurekAlert! - Breaking News</a></td>
 <td><a class="xmlbutton" href="https://www.eurekalert.org/rss.xml">XML</a></td>
-<td>04:00 PM, Thursday, 30 January 2020</td>
-<td>07:00 PM, Thursday, 30 January 2020</td>
+<td>04:00 PM, Monday, 03 February 2020</td>
+<td>07:00 PM, Monday, 03 February 2020</td>
 </tr>
 
 <tr class="feedsrow">
 <td><a href="http://ieeexplore.ieee.org">IEEE Transactions on Image Processing - new TOC</a></td>
 <td><a class="xmlbutton" href="https://ieeexplore.ieee.org/rss/TOC83.XML">XML</a></td>
-<td>04:00 PM, Thursday, 30 January 2020</td>
-<td>07:00 PM, Thursday, 30 January 2020</td>
+<td>04:00 PM, Monday, 03 February 2020</td>
+<td>07:00 PM, Monday, 03 February 2020</td>
 </tr>
 
 <tr class="feedsrow">
 <td><a href="http://ieeexplore.ieee.org">IEEE Transactions on Industrial Electronics - new TOC</a></td>
 <td><a class="xmlbutton" href="https://ieeexplore.ieee.org/rss/TOC41.XML">XML</a></td>
-<td>04:00 PM, Thursday, 30 January 2020</td>
-<td>07:00 PM, Thursday, 30 January 2020</td>
+<td>04:00 PM, Monday, 03 February 2020</td>
+<td>07:00 PM, Monday, 03 February 2020</td>
 </tr>
 
 <tr class="feedsrow">
 <td><a href="http://ieeexplore.ieee.org">IEEE Transactions on Industrial Informatics - new TOC</a></td>
 <td><a class="xmlbutton" href="https://ieeexplore.ieee.org/rss/TOC9424.XML">XML</a></td>
-<td>04:00 PM, Thursday, 30 January 2020</td>
-<td>07:00 PM, Thursday, 30 January 2020</td>
+<td>04:00 PM, Monday, 03 February 2020</td>
+<td>07:00 PM, Monday, 03 February 2020</td>
 </tr>
 
 <tr class="feedsrow">
 <td><a href="http://ieeexplore.ieee.org">IEEE Transactions on Information Forensics and Security - new TOC</a></td>
 <td><a class="xmlbutton" href="https://ieeexplore.ieee.org/rss/TOC10206.XML">XML</a></td>
-<td>04:00 PM, Thursday, 30 January 2020</td>
-<td>07:00 PM, Thursday, 30 January 2020</td>
+<td>04:00 PM, Monday, 03 February 2020</td>
+<td>07:00 PM, Monday, 03 February 2020</td>
 </tr>
 
 <tr class="feedsrow">
 <td><a href="https://jamanetwork.com/journals/jama">JAMA Current Issue</a></td>
 <td><a class="xmlbutton" href="https://jamanetwork.com/rss/site_3/67.xml">XML</a></td>
-<td>04:00 PM, Thursday, 30 January 2020</td>
-<td>07:00 PM, Thursday, 30 January 2020</td>
+<td>04:00 PM, Monday, 03 February 2020</td>
+<td>07:00 PM, Monday, 03 February 2020</td>
 </tr>
 
 <tr class="feedsrow">
 <td><a href="https://www.bmj.com/research/feed">Latest BMJ Research</a></td>
 <td><a class="xmlbutton" href="http://feeds.bmj.com/bmj/research?format=xml">XML</a></td>
-<td>04:00 PM, Thursday, 30 January 2020</td>
-<td>07:00 PM, Thursday, 30 January 2020</td>
+<td>04:00 PM, Monday, 03 February 2020</td>
+<td>07:00 PM, Monday, 03 February 2020</td>
 </tr>
 
 <tr class="feedsrow">
 <td><a href="http://feeds.nature.com/nature/rss/current">Nature - Issue - nature.com science feeds</a></td>
 <td><a class="xmlbutton" href="http://feeds.nature.com/nature/rss/current?format=xml">XML</a></td>
-<td>04:00 PM, Thursday, 30 January 2020</td>
-<td>07:00 PM, Thursday, 30 January 2020</td>
+<td>04:00 PM, Monday, 03 February 2020</td>
+<td>07:00 PM, Monday, 03 February 2020</td>
 </tr>
 
 <tr class="feedsrow">
 <td><a href="https://www.thelancet.com/journals/lancet/issue/current">The Lancet</a></td>
 <td><a class="xmlbutton" href="http://www.thelancet.com/rssfeed/lancet_current.xml">XML</a></td>
-<td>04:00 PM, Thursday, 30 January 2020</td>
-<td>07:00 PM, Thursday, 30 January 2020</td>
+<td>04:00 PM, Monday, 03 February 2020</td>
+<td>07:00 PM, Monday, 03 February 2020</td>
 </tr>
 
 </table>
