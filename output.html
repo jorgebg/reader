@@ -13,122 +13,270 @@
 </div>
 <div id="items">
 <div class="day">
+<h2>Tuesday, 18 February 2020</h2>
+<div class="time">
+<h3>04:00 PM</h3>
+<div class="item feed-1b28272e feed-cscrupdatesonarxivorg" id="item-3451ccd9">
+<p class="itemheader">
+<span class="itemtitle"><a href="http://arxiv.org/abs/2002.06495">Blind Adversarial Network Perturbations. (arXiv:2002.06495v1 [cs.CR])</a></span>
+<span class="itemfrom">[<a href="http://arxiv.org/">cs.CR updates on arXiv.org</a>]</span>
+</p>
+<div class="itemdescription">
+<p>Deep Neural Networks (DNNs) are commonly used for various traffic analysis
+problems, such as website fingerprinting and flow correlation, as they
+outperform traditional (e.g., statistical) techniques by large margins.
+However, deep neural networks are known to be vulnerable to adversarial
+examples: adversarial inputs to the model that get labeled incorrectly by the
+model due to small adversarial perturbations. In this paper, for the first
+time, we show that an adversary can defeat DNN-based traffic analysis
+techniques by applying \emph{adversarial perturbations} on the patterns of
+\emph{live} network traffic.
+</p>
+</div>
+</div>
+
+<div class="item feed-1b28272e feed-cscrupdatesonarxivorg" id="item-dcd38f30">
+<p class="itemheader">
+<span class="itemtitle"><a href="http://arxiv.org/abs/1901.08083">Revisiting Shared Data Protection Against Key Exposure. (arXiv:1901.08083v4 [cs.CR] UPDATED)</a></span>
+<span class="itemfrom">[<a href="http://arxiv.org/">cs.CR updates on arXiv.org</a>]</span>
+</p>
+<div class="itemdescription">
+<p>This paper puts a new light on secure data storage inside distributed
+systems. Specifically, it revisits computational secret sharing in a situation
+where the encryption key is exposed to an attacker. It comes with several
+contributions: First, it defines a security model for encryption schemes, where
+we ask for additional resilience against exposure of the encryption key.
+Precisely we ask for (1) indistinguishability of plaintexts under full
+ciphertext knowledge, (2) indistinguishability for an adversary who learns: the
+encryption key, plus all but one share of the ciphertext. (2) relaxes the
+"all-or-nothing" property to a more realistic setting, where the ciphertext is
+transformed into a number of shares, such that the adversary can't access one
+of them. (1) asks that, unless the user's key is disclosed, noone else than the
+user can retrieve information about the plaintext. Second, it introduces a new
+computationally secure encryption-then-sharing scheme, that protects the data
+in the previously defined attacker model. It consists in data encryption
+followed by a linear transformation of the ciphertext, then its fragmentation
+into shares, along with secret sharing of the randomness used for encryption.
+The computational overhead in addition to data encryption is reduced by half
+with respect to state of the art. Third, it provides for the first time
+cryptographic proofs in this context of key exposure. It emphasizes that the
+security of our scheme relies only on a simple cryptanalysis resilience
+assumption for blockciphers in public key mode: indistinguishability from
+random, of the sequence of diferentials of a random value. Fourth, it provides
+an alternative scheme relying on the more theoretical random permutation model.
+It consists in encrypting with sponge functions in duplex mode then, as before,
+secret-sharing the randomness.
+</p>
+</div>
+</div>
+
+<div class="item feed-1b28272e feed-cscrupdatesonarxivorg" id="item-ef38cbc2">
+<p class="itemheader">
+<span class="itemtitle"><a href="http://arxiv.org/abs/1907.05156">Amplifying R\'enyi Differential Privacy via Shuffling. (arXiv:1907.05156v3 [cs.LG] UPDATED)</a></span>
+<span class="itemfrom">[<a href="http://arxiv.org/">cs.CR updates on arXiv.org</a>]</span>
+</p>
+<div class="itemdescription">
+<p>Differential privacy is a useful tool to build machine learning models which
+do not release too much information about the training data. We study the
+R\'enyi differential privacy of stochastic gradient descent when each training
+example is sampled without replacement (also known as cyclic SGD). Cyclic SGD
+is typically faster than traditional SGD and is the algorithm of choice in
+large-scale implementations. We recover privacy guarantees for cyclic SGD which
+are competitive with those known for sampling with replacement. Our proof
+techniques make no assumptions on the model or on the data and are hence widely
+applicable.
+</p>
+</div>
+</div>
+
+<div class="item feed-1b28272e feed-cscrupdatesonarxivorg" id="item-c0baaede">
+<p class="itemheader">
+<span class="itemtitle"><a href="http://arxiv.org/abs/1911.00507">SpecuSym: Speculative Symbolic Execution for Cache Timing Leak Detection. (arXiv:1911.00507v2 [cs.CR] UPDATED)</a></span>
+<span class="itemfrom">[<a href="http://arxiv.org/">cs.CR updates on arXiv.org</a>]</span>
+</p>
+<div class="itemdescription">
+<p>CPU cache is a limited but crucial storage component in modern processors,
+whereas the cache timing side-channel may inadvertently leak information
+through the physically measurable timing variance. Speculative execution, an
+essential processor optimization, and a source of such variances, can cause
+severe detriment on deliberate branch mispredictions. Despite static analysis
+could qualitatively verify the timing-leakage-free property under speculative
+execution, it is incapable of producing endorsements including inputs and
+speculated flows to diagnose leaks in depth. This work proposes a new symbolic
+execution based method, SpecuSym, for precisely detecting cache timing leaks
+introduced by speculative execution. Given a program (leakage-free in
+non-speculative execution), SpecuSymsystematically explores the program state
+space, models speculative behavior at conditional branches, and accumulates the
+cache side effects along with subsequent path explorations. During the dynamic
+execution, SpecuSymconstructs leak predicates for memory visits according to
+the specified cache model and conducts a constraint-solving based cache
+behavior analysis to inspect the new cache behaviors. We have
+implementedSpecuSymatop KLEE and evaluated it against 15 open-source
+benchmarks. Experimental results show thatSpecuSymsuccessfully detected from 2
+to 61 leaks in 6 programs under 3 different cache settings and identified false
+positives in 2 programs reported by recent work.
+</p>
+</div>
+</div>
+
+<div class="item feed-1b28272e feed-cscrupdatesonarxivorg" id="item-964c302d">
+<p class="itemheader">
+<span class="itemtitle"><a href="http://arxiv.org/abs/2001.09624">SecEL: Privacy-Preserving, Verifiable and Fault-Tolerant Edge Learning for Autonomous Vehicles. (arXiv:2001.09624v3 [cs.CR] UPDATED)</a></span>
+<span class="itemfrom">[<a href="http://arxiv.org/">cs.CR updates on arXiv.org</a>]</span>
+</p>
+<div class="itemdescription">
+<p>Mobile edge computing (MEC) is an emerging technology to transform the
+cloud-based computing services into the edge-based ones. Autonomous vehicular
+network (AVNET), as one of the most promising applications of MEC, can feature
+edge learning and communication techniques, improving the safety for autonomous
+vehicles (AVs). This paper focuses on the edge learning in AVNET, where AVs at
+the edge of the network share model parameters instead of data in a distributed
+manner, and an aggregator (e.g., a base station) aggregates parameters from AVs
+and at the end obtains a trained model. Despite promising, security issues,
+such as data leakage, computing integrity invasion and fault connection in
+existing edge learning cases are not considered fully. To the best of our
+knowledge, there lacks an effective scheme simultaneously covering the
+foregoing security issues. Therefore, we propose \textit{SecEL}, a
+privacy-preserving, verifiable and fault-tolerant scheme for edge learning in
+AVNET. First, we leverage the primitive of bivariate polynomial-based secret
+sharing to encrypt model parameters by one-time padding. Second, we use
+homomorphic authenticator based on message authentication code to support
+verifiable computation. Third, we mitigate the computation failure problem
+caused by fault connection. Last, we simulate and evaluate SecEL in terms of
+time cost, throughput and classification accuracy. The experiment results
+demonstrate the effectiveness of SecEL.
+</p>
+</div>
+</div>
+
+<div class="item feed-6b3f78ad feed-latestbmjresearch" id="item-dd25bbc4">
+<p class="itemheader">
+<span class="itemtitle"><a href="http://feeds.bmj.com/~r/bmj/research/~3/cu3_AoKj718/bmj.m160">Measuring multimorbidity beyond counting diseases: systematic review of community and population studies and guide to index choice</a></span>
+<span class="itemfrom">[<a href="https://www.bmj.com/research/feed">Latest BMJ Research</a>]</span>
+</p>
+<div class="itemdescription">
+<div class="feedflare">
+<a href="http://feeds.bmj.com/~ff/bmj/research?a=cu3_AoKj718:bLankBGLay0:yIl2AUoC8zA"><img border="0" src="http://feeds.feedburner.com/~ff/bmj/research?d=yIl2AUoC8zA" /></a> <a href="http://feeds.bmj.com/~ff/bmj/research?a=cu3_AoKj718:bLankBGLay0:dnMXMwOfBR0"><img border="0" src="http://feeds.feedburner.com/~ff/bmj/research?d=dnMXMwOfBR0" /></a> <a href="http://feeds.bmj.com/~ff/bmj/research?a=cu3_AoKj718:bLankBGLay0:F7zBnMyn0Lo"><img border="0" src="http://feeds.feedburner.com/~ff/bmj/research?i=cu3_AoKj718:bLankBGLay0:F7zBnMyn0Lo" /></a> <a href="http://feeds.bmj.com/~ff/bmj/research?a=cu3_AoKj718:bLankBGLay0:V_sGLiPBpWU"><img border="0" src="http://feeds.feedburner.com/~ff/bmj/research?i=cu3_AoKj718:bLankBGLay0:V_sGLiPBpWU" /></a> <a href="http://feeds.bmj.com/~ff/bmj/research?a=cu3_AoKj718:bLankBGLay0:qj6IDK7rITs"><img border="0" src="http://feeds.feedburner.com/~ff/bmj/research?d=qj6IDK7rITs" /></a> <a href="http://feeds.bmj.com/~ff/bmj/research?a=cu3_AoKj718:bLankBGLay0:gIN9vFwOqvQ"><img border="0" src="http://feeds.feedburner.com/~ff/bmj/research?i=cu3_AoKj718:bLankBGLay0:gIN9vFwOqvQ" /></a>
+</div><img alt="" height="1" src="http://feeds.feedburner.com/~r/bmj/research/~4/cu3_AoKj718" width="1" />
+</div>
+</div>
+
+<div class="item feed-53ba08d1 feed-natureissuenaturecomsciencefeeds" id="item-ef57e88b">
+<p class="itemheader">
+<span class="itemtitle"><a href="http://feeds.nature.com/~r/nature/rss/current/~3/gKfMrzjIEUw/d41586-020-00446-1">Set a global target for ecosystems</a></span>
+<span class="itemfrom">[<a href="http://feeds.nature.com/nature/rss/current">Nature - Issue - nature.com science feeds</a>]</span>
+</p>
+<div class="itemdescription">
+<p>Nature, Published online: 18 February 2020; <a href="https://www.nature.com/articles/d41586-020-00446-1">doi:10.1038/d41586-020-00446-1</a></p>The conservation community must be able to track countries&#8217; progress in protecting wetlands, reefs, forests and more, argue James Watson and colleagues.<img alt="" height="1" src="http://feeds.feedburner.com/~r/nature/rss/current/~4/gKfMrzjIEUw" width="1" />
+</div>
+</div>
+
+<div class="item feed-ccdce26d feed-ieeetransactionsonindustrialinformaticsnewtoc" id="item-fff2ec34">
+<p class="itemheader">
+<span class="itemtitle"><a href="http://ieeexplore.ieee.org/document/8616820">SDN-Based Quality of Service Networking for Wide Area Measurement System</a></span>
+<span class="itemfrom">[<a href="http://ieeexplore.ieee.org">IEEE Transactions on Industrial Informatics - new TOC</a>]</span>
+</p>
+<div class="itemdescription">
+<p>Wide area measurement system (WAMS) infrastructure is one of the most significant elements of the smart grid that measures, collects, and analyzes data in the power system. Fundamental components of the WAMS are phasor measurement units (PMUs), phasor data concentrators (PDCs), and its relevant applications. The PDC collects data from several different PMUs, integrates data and sends it to the control center. In order to achieve a stable implementation of WAMS, the communication structure should be reliable and meets the quality of service (QoS) requirements for various applications in the network. In this paper, we propose a novel WAMS communication infrastructure by utilizing the software-defined networking technology, which can enhance the reliability of the corresponding networks. In the proposed model, in order to meet the applications QoS needs, the traffic flows are categorized into different class of services, and then by applying a QoS mechanism, along with a content-aware queuing algorithm, the maximum capacity for the critical traffic is obtained. This provides a low latency for critical WAMS applications. The proposed model has been implemented in the Mininet environment using the Ryu controller. The implementation results indicate that the proposed infrastructure reduces end-to-end delay and packets loss and utilizes the network resources optimally.
+</div>
+</div>
+
+<div class="item feed-ccdce26d feed-ieeetransactionsonindustrialinformaticsnewtoc" id="item-788bdebd">
+<p class="itemheader">
+<span class="itemtitle"><a href="http://ieeexplore.ieee.org/document/8669950">A Telemanipulation-Based Human&#x2013;Robot Collaboration Method to Teach Aerospace Masking Skills</a></span>
+<span class="itemfrom">[<a href="http://ieeexplore.ieee.org">IEEE Transactions on Industrial Informatics - new TOC</a>]</span>
+</p>
+<div class="itemdescription">
+<p>Traditional offline programming or teach pendant-based methods limit the collaboration capabilities of users and robots to cope with complex and changing industrial tasks. To address efficient robot manipulation in high-mix and low-volume tasks, especially for skillful tasks involving both trajectory and force control requirements, fast robot teaching and skill transferability are critical. Compared to manually dragging a heavy robot, or programming a trajectory by complex calculations, we believe that robots can efficiently learn skills from direct teaching through telemanipulation, and improve the skills based on optimization with sensory feedback. In aerospace engine, maintenance, repair, and operations, the surfaces of aerospace components are required to be masked by tapes. We propose a fast and intuitive telemanipulation-based method to teach a robot these masking skills and compare the performance of the proposed method with teach pendant&#x2013;based methods among several users. This study aims to prove the efficiency and intuitiveness of the telemanipulation-based method proposed herein for enabling a robot to learn skillful and complex manipulation tasks.
+</div>
+</div>
+
+<div class="item feed-ccdce26d feed-ieeetransactionsonindustrialinformaticsnewtoc" id="item-8b524dde">
+<p class="itemheader">
+<span class="itemtitle"><a href="http://ieeexplore.ieee.org/document/8688470">Robust WiFi Localization by Fusing Derivative Fingerprints of RSS and Multiple Classifiers</a></span>
+<span class="itemfrom">[<a href="http://ieeexplore.ieee.org">IEEE Transactions on Industrial Informatics - new TOC</a>]</span>
+</p>
+<div class="itemdescription">
+<p>It is notable that localization accuracy using received signal strength (RSS) fingerprints solely is very vulnerable to dynamic environments. Utilizing multiple fingerprints gleaned from RSS for localization is a propitious strategy to overcome the RSS susceptibility. Brimful utilization via fusing multiple fingerprint functions which supplement each other are not harnessed by existing fusion-based techniques, resulting in low localization accuracy. This paper presents a novel and robust WiFi localization modus operandi by fusing DerIvative Fingerprints of RSS with MultIple Classifiers (DIFMIC). DIFMIC first constructs a multiple fingerprints group by gleaning hyperbolic location fingerprint (HLF) and signal strength differences fingerprint (DIFF) from RSS fingerprints. Then, it obtains Multiple Fingerprints Trained Classifiers (MFTCs) via training each basic classifier with each fingerprint. To fully leverage the inherent supplementation among fingerprints and classifiers, a two-layer fusion profile (weights) joint optimization algorithm with multiple constraints is proposed. We also propose a Fusion Profile Selection (FPS) algorithm to intelligently choose fusion weights from the two-layer fusion profile for a more accurate localization. DIFMIC shows more leverage in combining multiple information, thus exhibiting better robustness in WiFi positioning. Results from our experiments reflect that DIFMIC performs better than other existing methods in real environments.
+</div>
+</div>
+
+<div class="item feed-ccdce26d feed-ieeetransactionsonindustrialinformaticsnewtoc" id="item-202766f6">
+<p class="itemheader">
+<span class="itemtitle"><a href="http://ieeexplore.ieee.org/document/8892628">DeSVig: Decentralized Swift Vigilance Against Adversarial Attacks in Industrial Artificial Intelligence Systems</a></span>
+<span class="itemfrom">[<a href="http://ieeexplore.ieee.org">IEEE Transactions on Industrial Informatics - new TOC</a>]</span>
+</p>
+<div class="itemdescription">
+<p>Individually reinforcing the robustness of a single deep learning model only gives limited security guarantees especially when facing adversarial examples. In this article, we propose DeSVig, a decentralized swift vigilance framework to identify adversarial attacks in an industrial artificial intelligence systems (IAISs), which enables IAISs to correct the mistake in a few seconds. The DeSVig is highly decentralized, which improves the effectiveness of recognizing abnormal inputs. We try to overcome the challenges on ultralow latency caused by dynamics in industries using peculiarly designated mobile edge computing and generative adversarial networks. The most important advantage of our work is that it can significantly reduce the failure risks of being deceived by adversarial examples, which is critical for safety-prioritized and delay-sensitive environments. In our experiments, adversarial examples of industrial electronic components are generated by several classical attacking models. Experimental results demonstrate that the DeSVig is more robust, efficient, and scalable than some state-of-art defenses.
+</div>
+</div>
+
+<div class="item feed-ccdce26d feed-ieeetransactionsonindustrialinformaticsnewtoc" id="item-c3249476">
+<p class="itemheader">
+<span class="itemtitle"><a href="http://ieeexplore.ieee.org/document/8887284">Distributed Electric Vehicles Charging Management With Social Contribution Concept</a></span>
+<span class="itemfrom">[<a href="http://ieeexplore.ieee.org">IEEE Transactions on Industrial Informatics - new TOC</a>]</span>
+</p>
+<div class="itemdescription">
+<p>This article proposes a charging management of electric vehicles (EVs) with a newly presented EV social contribution. The EV charging problem is represented by a generalized Nash equilibrium game where each individual EV tries to minimize its charging cost while satisfying its own charging requirements and respecting the charging facility constraints. The individual EV features a social behavior to potentially contribute in shifting its charging schedule from specific intervals that have insufficient charging power. This shift in the EV schedule will allow more charging power to other EVs that admit stricter charging requirements, i.e., intervals and demands. In this way, the contributed EVs socially help others in reducing their charging costs, which is particularly important during the overload cases in the system. The proposed solution is reached iteratively in a distributed way utilizing the consensus network and found based on the receding horizon optimization framework. Both simulation and experimental results demonstrate the effectiveness and correctness of the proposed social contribution in the charging management for reducing the charging cost of EVs.
+</div>
+</div>
+
+<div class="item feed-63a85565 feed-eurekalertbreakingnews" id="item-40af202a">
+<p class="itemheader">
+<span class="itemtitle"><a href="https://www.eurekalert.org/pub_releases/2020-02/aga-gsi021420.php">GI societies issue updated colorectal cancer screening recommendations</a></span>
+<span class="itemfrom">[<a href="http://www.eurekalert.org">EurekAlert! - Breaking News</a>]</span>
+</p>
+<div class="itemdescription">
+<p>These evidence-based recommendations support closer follow-up after colonoscopy screenings for some groups, less intense follow-up for others, and provide guidance for removing colorectal polyps.
+</div>
+</div>
+
+<div class="item feed-63a85565 feed-eurekalertbreakingnews" id="item-c57b6f38">
+<p class="itemheader">
+<span class="itemtitle"><a href="https://www.eurekalert.org/pub_releases/2020-02/cuim-tso021320.php">The skinny on why poor sleep may increase heart risk in women</a></span>
+<span class="itemfrom">[<a href="http://www.eurekalert.org">EurekAlert! - Breaking News</a>]</span>
+</p>
+<div class="itemdescription">
+<p>A new study suggests that for women, poor sleep could contribute to unhealthy food choices, increasing the risk of obesity and heart disease.
+</div>
+</div>
+
+<div class="item feed-63a85565 feed-eurekalertbreakingnews" id="item-2829d3c7">
+<p class="itemheader">
+<span class="itemtitle"><a href="https://www.eurekalert.org/pub_releases/2020-02/dnnl-ebe021020.php">Energized by enzymes -- nature's catalysts</a></span>
+<span class="itemfrom">[<a href="http://www.eurekalert.org">EurekAlert! - Breaking News</a>]</span>
+</p>
+<div class="itemdescription">
+<p>Scientists at Pacific Northwest National Laboratory are using a custom virtual reality app to design an artificial enzyme that converts carbon dioxide to formate, a kind of fuel. PNNL's Wendy Shaw and Aaron Appel organized a session at the  2020 #AAASmtg and invited colleagues from across the nation to share what they've learned.
+</div>
+</div>
+
+<div class="item feed-63a85565 feed-eurekalertbreakingnews" id="item-c8e9bcf2">
+<p class="itemheader">
+<span class="itemtitle"><a href="https://www.eurekalert.org/pub_releases/2020-02/sdzg-hfi021420.php">Habitat fragmentation imperils Madagascar's large-bodied lemurs</a></span>
+<span class="itemfrom">[<a href="http://www.eurekalert.org">EurekAlert! - Breaking News</a>]</span>
+</p>
+<div class="itemdescription">
+<p>A new study  in the American Journal of Primatology highlights the critical need for conservation efforts to protect lemurs on Madagascar. This unique ecosystem is home to more than 110 species of lemurs, but approximately 95 percent are threatened with extinction, making them the most vulnerable mammal group on Earth.
+</div>
+</div>
+
+<div class="item feed-63a85565 feed-eurekalertbreakingnews" id="item-8939f79c">
+<p class="itemheader">
+<span class="itemtitle"><a href="https://www.eurekalert.org/pub_releases/2020-02/cau-dgc021420.php">Does graphene cause or prevent the corrosion of copper? New study finally settles the debate</a></span>
+<span class="itemfrom">[<a href="http://www.eurekalert.org">EurekAlert! - Breaking News</a>]</span>
+</p>
+<div class="itemdescription">
+<p>Graphene has attracted the interest of researchers in recent years because, despite its apparent anti-corrosive properties, its proximity was seen to increase the corrosion of copper. A research team from Chung-Ang University used Raman spectroscopy to analyze graphene's properties over a long period and found that the corroded surface of copper forms a hybrid layer with graphene, which prevents further corrosion. These findings could have potential applications in extending the life of copper--a common component of various electronic devices.
+</div>
+</div>
+
+</div>
+</div>
+<div class="day">
 <h2>Friday, 14 February 2020</h2>
 <div class="time">
 <h3>04:00 PM</h3>
-<div class="item feed-1b28272e feed-cscrupdatesonarxivorg" id="item-3052a01b">
-<p class="itemheader">
-<span class="itemtitle"><a href="http://arxiv.org/abs/2002.05231">Efficient Cloud-based Secret Shuffling via Homomorphic Encryption. (arXiv:2002.05231v1 [cs.CR])</a></span>
-<span class="itemfrom">[<a href="http://arxiv.org/">cs.CR updates on arXiv.org</a>]</span>
-</p>
-<div class="itemdescription">
-<p>When working with joint collections of confidential data from multiple
-sources, e.g., in cloud-based multi-party computation scenarios, the ownership
-relation between data providers and their inputs itself is confidential
-information. Protecting data providers' privacy desires a function for secretly
-shuffling the data collection. We present the first efficient secure
-multi-party computation protocol for secret shuffling in scenarios with a
-central server. Based on a novel approach to random index distribution, our
-solution enables the randomization of the order of a sequence of encrypted data
-such that no observer can map between elements of the original sequence and the
-shuffled sequence with probability better than guessing. It allows for
-shuffling data encrypted under an additively homomorphic cryptosystem with
-constant round complexity and linear computational complexity. Being a
-general-purpose protocol, it is of relevance for a variety of practical use
-cases.
-</p>
-</div>
-</div>
-
-<div class="item feed-1b28272e feed-cscrupdatesonarxivorg" id="item-b0029abb">
-<p class="itemheader">
-<span class="itemtitle"><a href="http://arxiv.org/abs/2002.05341">Quality Assessment of Online Automated Privacy Policy Generators: An Empirical Study. (arXiv:2002.05341v1 [cs.CR])</a></span>
-<span class="itemfrom">[<a href="http://arxiv.org/">cs.CR updates on arXiv.org</a>]</span>
-</p>
-<div class="itemdescription">
-<p>Online Automated Privacy Policy Generators (APPGs) are tools used by app
-developers to quickly create app privacy policies which are required by privacy
-regulations to be incorporated to each mobile app. The creation of these tools
-brings convenience to app developers; however, the quality of these tools puts
-developers and stakeholders at legal risk. In this paper, we conduct an
-empirical study to assess the quality of online APPGs. We analyze the
-completeness of privacy policies, determine what categories and items should be
-covered in a complete privacy policy, and conduct APPG assessment with
-boilerplate apps. The results of assessment show that due to the lack of static
-or dynamic analysis of app's behavior, developers may encounter two types of
-issues caused by APPGs. First, the generated policies could be incomplete
-because they do not cover all the essential items required by a privacy policy.
-Second, some generated privacy policies contain unnecessary personal
-information collection or arbitrary commitments inconsistent with user input.
-Ultimately, the defects of APPGs may potentially lead to serious legal issues.
-We hope that the results and insights developed in this paper can motivate the
-healthy and ethical development of APPGs towards generating a more complete,
-accurate, and robust privacy policy.
-</p>
-</div>
-</div>
-
-<div class="item feed-1b28272e feed-cscrupdatesonarxivorg" id="item-b1f0b0ae">
-<p class="itemheader">
-<span class="itemtitle"><a href="http://arxiv.org/abs/2002.05624">BiSample: Bidirectional Sampling for Handling Missing Data with Local Differential Privacy. (arXiv:2002.05624v1 [cs.CR])</a></span>
-<span class="itemfrom">[<a href="http://arxiv.org/">cs.CR updates on arXiv.org</a>]</span>
-</p>
-<div class="itemdescription">
-<p>Local differential privacy (LDP) has received much interest recently. In
-existing protocols with LDP guarantees, a user encodes and perturbs his data
-locally before sharing it to the aggregator. In common practice, however, users
-would prefer not to answer all the questions due to different
-privacy-preserving preferences for different questions, which leads to data
-missing or the loss of data quality. In this paper, we demonstrate a new
-approach for addressing the challenges of data perturbation with consideration
-of users' privacy preferences. Specifically, we first propose BiSample: a
-bidirectional sampling technique value perturbation in the framework of LDP.
-Then we combine the BiSample mechanism with users' privacy preferences for
-missing data perturbation. Theoretical analysis and experiments on a set of
-datasets confirm the effectiveness of the proposed mechanisms.
-</p>
-</div>
-</div>
-
-<div class="item feed-1b28272e feed-cscrupdatesonarxivorg" id="item-dd589a34">
-<p class="itemheader">
-<span class="itemtitle"><a href="http://arxiv.org/abs/2002.05659">Analysis of Users' Behaviour and Adoption Trends of Social Media Payment Platforms. (arXiv:2002.05659v1 [cs.CY])</a></span>
-<span class="itemfrom">[<a href="http://arxiv.org/">cs.CR updates on arXiv.org</a>]</span>
-</p>
-<div class="itemdescription">
-<p>The recent proliferation of Electronic Commerce (E-commerce) has been further
-escalated by multifaceted emerging payment solutions such as cryptocurrencies,
-mobile, peer-to-peer (P2P) and social media payment platforms. While these
-technological advancements are gaining tremendous popularity, mostly for their
-ease of use, various impediments such as security and privacy concerns,
-societal and cultural norms etc. forbear the users' adoption trends to some
-extents. This article examines the current status of the social media payment
-platforms as well as the projection of future adoption trends. Our research
-underlines the motivations and obstacles to the adoption of social media
-platforms.
-</p>
-</div>
-</div>
-
-<div class="item feed-1b28272e feed-cscrupdatesonarxivorg" id="item-d95a63d5">
-<p class="itemheader">
-<span class="itemtitle"><a href="http://arxiv.org/abs/1912.09264">Improved quantum algorithm for the random subset sum problem. (arXiv:1912.09264v2 [cs.DS] UPDATED)</a></span>
-<span class="itemfrom">[<a href="http://arxiv.org/">cs.CR updates on arXiv.org</a>]</span>
-</p>
-<div class="itemdescription">
-<p>Solving random subset sum instances plays an important role in constructing
-cryptographic systems. For the random subset sum problem, in 2013 Bernstein et
-al. proposed a quantum algorithm with heuristic time complexity
-$\widetilde{O}(2^{0.241n})$, where the "$\widetilde{O}$" symbol is used to omit
-poly($\log n$) factors. In 2018, Helm and May proposed another quantum
-algorithm that reduces the heuristic time and memory complexity to
-$\widetilde{O}(2^{0.226n})$. In this paper, a new quantum algorithm is
-proposed, with heuristic time and memory complexity
-$\widetilde{O}(2^{0.209n})$.
-</p>
-</div>
-</div>
-
 <div class="item feed-b93c25e9 feed-earlyedition" id="item-b8054f81">
 <p class="itemheader">
 <span class="itemtitle"><a href="http://feedproxy.google.com/~r/Pnas-RssFeedOfEarlyEditionArticles/~3/7SuDcfGGr70/2001302117.short">QnAs with Bin Yu [QnAs]</a></span>
@@ -146,16 +294,6 @@ $\widetilde{O}(2^{0.209n})$.
 </p>
 <div class="itemdescription">
 <p>Nature, Published online: 13 February 2020; <a href="https://www.nature.com/articles/d41586-020-00410-z">doi:10.1038/d41586-020-00410-z</a></p>Machine learning helps to expose the molecules and structures within a human kidney, eye and thyroid.<img alt="" height="1" src="http://feeds.feedburner.com/~r/nature/rss/current/~4/b7KjDmLxZNo" width="1" />
-</div>
-</div>
-
-<div class="item feed-53ba08d1 feed-natureissuenaturecomsciencefeeds" id="item-24e40fb6">
-<p class="itemheader">
-<span class="itemtitle"><a href="http://feeds.nature.com/~r/nature/rss/current/~3/S2_IocaqTKE/s41586-020-2003-8">IL-15, gluten and HLA-DQ8 drive tissue destruction in coeliac disease</a></span>
-<span class="itemfrom">[<a href="http://feeds.nature.com/nature/rss/current">Nature - Issue - nature.com science feeds</a>]</span>
-</p>
-<div class="itemdescription">
-<p>Nature, Published online: 12 February 2020; <a href="https://www.nature.com/articles/s41586-020-2003-8">doi:10.1038/s41586-020-2003-8</a></p>An HLA- and gluten-dependent mouse model of coeliac disease with villous atrophy provides evidence for the cooperative role of IL-15 and gluten-specific CD4+ T cells in licensing the full activation of cytotoxic T cells that are necessary for inducing epithelial damage.<img alt="" height="1" src="http://feeds.feedburner.com/~r/nature/rss/current/~4/S2_IocaqTKE" width="1" />
 </div>
 </div>
 
@@ -249,23 +387,13 @@ $\widetilde{O}(2^{0.209n})$.
 </div>
 </div>
 
-<div class="item feed-094cb33b feed-ieeetransactionsonindustrialelectronicsnewtoc" id="item-650c4d96">
+<div class="item feed-094cb33b feed-ieeetransactionsonindustrialelectronicsnewtoc" id="item-b8ed5b46">
 <p class="itemheader">
-<span class="itemtitle"><a href="http://ieeexplore.ieee.org/document/8782819">A Decentralized Bilateral Energy Trading System for Peer-to-Peer Electricity Markets</a></span>
+<span class="itemtitle"><a href="http://ieeexplore.ieee.org/document/8758459">Bridgeless Triple-Mode Resonant AC&#x2013;DC Converter: Dynamic Modeling and Controls</a></span>
 <span class="itemfrom">[<a href="http://ieeexplore.ieee.org">IEEE Transactions on Industrial Electronics - new TOC</a>]</span>
 </p>
 <div class="itemdescription">
-<p>Increase in the deployment of distributed energy resources (DERs) has triggered a new trend to redesign electricity markets as consumer-centric markets relying on peer-to-peer (P2P) approaches. In the P2P markets, players can directly negotiate under bilateral energy trading to match demand and supply. The trading scheme should be designed adequately to incentivise players to participate in the trading process actively. This article proposes a decentralized P2P energy trading scheme for electricity markets with high penetration of DERs. A novel algorithm using primal-dual gradient method is described to clear the market in a fully decentralized manner without interaction of any central entity. Also, to incorporate technical constraints in the energy trading, line flow constraints are modeled in the bilateral energy trading to avoid overloaded or congested lines in the system. This market structure respects market players&#x2019; preferences by allowing bilateral energy trading with product differentiation. The performance of the proposed method is evaluated using simulation studies, and it is found that market players can trade energy to maximize their welfare without violating line flow constraints. Also, compared with other similar methods for P2P trading, the proposed approach needs lower data exchange and has a faster convergence.
-</div>
-</div>
-
-<div class="item feed-094cb33b feed-ieeetransactionsonindustrialelectronicsnewtoc" id="item-f8e64dff">
-<p class="itemheader">
-<span class="itemtitle"><a href="http://ieeexplore.ieee.org/document/8758403">Uncertainty and Disturbance Estimator-Based Control of a Flapping-Wing Aerial Vehicle With Unknown Backlash-Like Hysteresis</a></span>
-<span class="itemfrom">[<a href="http://ieeexplore.ieee.org">IEEE Transactions on Industrial Electronics - new TOC</a>]</span>
-</p>
-<div class="itemdescription">
-<p>Robust and accurate control of a flapping-wing aerial vehicle (FWAV) system is a challenging problem due to the existence of backlash-like hysteresis nonlinearity. This paper proposes uncertainty and disturbance estimator (UDE)-based control with output feedback for FWAV systems. The approach enables the acquisition of the approximate plant model with only a partial knowledge of system parameters. For the design of the controller, only the bandwidth information of the unknown plant model is needed, which is available through the UDE filter. The stability analysis of the closed-loop system with the UDE-based controller is presented. It is shown that the proposed control scheme can ensure the boundedness of the control signals. A number of numerical simulations are carried out to demonstrate the satisfactory trajectory tracking performance of the proposed method.
+<p>This paper introduces the bridgeless triple-mode resonant ac&#x2013;dc converter and presents its dynamic model and control technique. The proposed converter operates in triple mode: discontinuous-conduction mode (DCM), continuous-conduction mode (CCM), and missing resonance mode (MRM). It has the advantages of small number of required components, medium power capacity, and high efficiency, but it is difficult to control because DCM, CCM, and MRM have their own dynamic characteristics. To solve this control problem, the mode boundaries are first identified and, corresponding to each mode, the dynamic model is developed to design the controller. In each mode, we propose to add a repetitive controller (RC) with a phase-lead compensator to the conventional duty ratio plus feedback controller. The RC is used to suppress the deterministic periodic disturbances and the phase-lead compensator is used to compensate for the incurred phase lag. A 1-kW digitally controlled converter prototype is built and used to demonstrate the validity of the proposed modeling and control approach.
 </div>
 </div>
 
@@ -279,63 +407,13 @@ $\widetilde{O}(2^{0.209n})$.
 </div>
 </div>
 
-<div class="item feed-c99fafa0 feed-ieeetransactionsonimageprocessingnewtoc" id="item-8c1e61f7">
+<div class="item feed-094cb33b feed-ieeetransactionsonindustrialelectronicsnewtoc" id="item-b5f8682e">
 <p class="itemheader">
-<span class="itemtitle"><a href="http://ieeexplore.ieee.org/document/8945161">A Context-Aware Locality Measure for Inlier Pool Enrichment in Stepwise Image Registration</a></span>
-<span class="itemfrom">[<a href="http://ieeexplore.ieee.org">IEEE Transactions on Image Processing - new TOC</a>]</span>
+<span class="itemtitle"><a href="http://ieeexplore.ieee.org/document/8782830">Broad Convolutional Neural Network Based Industrial Process Fault Diagnosis With Incremental Learning Capability</a></span>
+<span class="itemfrom">[<a href="http://ieeexplore.ieee.org">IEEE Transactions on Industrial Electronics - new TOC</a>]</span>
 </p>
 <div class="itemdescription">
-<p>We present a feature-based image registration method, the stepwise image registration (SIR), with a closed-form solution. Our SIR creates an inlier pool and a candidate pool as the initialization, and then gradually enriches the inlier pool and refines the transformation. In each step, the enriched correspondence exclusively tunes the transformation coefficient within the confirmed inlier pairs, instead of updating the mapping using the complete putative set. In turn, the refined transformation prunes inconsistent mismatches to alleviate the incoming matching ambiguity. The context-aware locality measure (CALM) is designed for dissimilarity measure. The capability of the CALM can be enhanced by the progressive inlier pool enrichment. Finally, a retrieval process is performed based on the finest CALM and alignment, by which the inlier pool is maximized. Extensive experiments of enrichment evaluation, feature matching, image registration, and image retrieval demonstrate the favorable performance of our SIR against state-of-the-art methods. The code and datasets are available at https://github.com/sucv/SIR.
-</div>
-</div>
-
-<div class="item feed-63a85565 feed-eurekalertbreakingnews" id="item-d475222f">
-<p class="itemheader">
-<span class="itemtitle"><a href="https://www.eurekalert.org/pub_releases/2020-02/uoh-ulc021320.php">UH Law center professors urge tighter controls on data held by health tech companies</a></span>
-<span class="itemfrom">[<a href="http://www.eurekalert.org">EurekAlert! - Breaking News</a>]</span>
-</p>
-<div class="itemdescription">
-<p>University of Houston Law Center Professors Jim Hawkins and Jessica L. Roberts call for stronger consumer safeguards to protect the privacy of personal information collected online by health-related companies.
-</div>
-</div>
-
-<div class="item feed-63a85565 feed-eurekalertbreakingnews" id="item-8921bddf">
-<p class="itemheader">
-<span class="itemtitle"><a href="https://www.eurekalert.org/pub_releases/2020-02/mgh-vs021320.php">'Quit vaping searches increased during lung-disease outbreak</a></span>
-<span class="itemfrom">[<a href="http://www.eurekalert.org">EurekAlert! - Breaking News</a>]</span>
-</p>
-<div class="itemdescription">
-<p>Researchers found that searches on such terms as "quit vaping" increased as much as 3.7-fold during the vaping-related illness outbreak.
-</div>
-</div>
-
-<div class="item feed-63a85565 feed-eurekalertbreakingnews" id="item-f0492c7f">
-<p class="itemheader">
-<span class="itemtitle"><a href="https://www.eurekalert.org/pub_releases/2020-02/kl-fpt021320.php">From petroleum to wood in the chemical industry: cost-efficient and more sustainable</a></span>
-<span class="itemfrom">[<a href="http://www.eurekalert.org">EurekAlert! - Breaking News</a>]</span>
-</p>
-<div class="itemdescription">
-<p>An interdisciplinary team of bio-engineers and economists from KU Leuven has mapped out how wood could replace petroleum in the chemical industry. They not only looked at the technological requirements, but also whether that scenario would be financially viable. A shift from petroleum to wood would lead to a reduction in CO2 emissions, the researchers state in Science.
-</div>
-</div>
-
-<div class="item feed-63a85565 feed-eurekalertbreakingnews" id="item-87dca4ea">
-<p class="itemheader">
-<span class="itemtitle"><a href="https://www.eurekalert.org/pub_releases/2020-02/hphc-bab021320.php">Benefits and barriers of prescription drug lists for asthma medications</a></span>
-<span class="itemfrom">[<a href="http://www.eurekalert.org">EurekAlert! - Breaking News</a>]</span>
-</p>
-<div class="itemdescription">
-<p>A new study led by the Harvard Pilgrim Health Care Institute examines the benefits and barriers of Prescription Drug List coverage for preventive asthma medications. The study, 'Preventive Drug Lists as Tools for Managing Asthma Medication Costs', appears in the February edition of The American Journal of Managed Care.
-</div>
-</div>
-
-<div class="item feed-63a85565 feed-eurekalertbreakingnews" id="item-855ed20f">
-<p class="itemheader">
-<span class="itemtitle"><a href="https://www.eurekalert.org/pub_releases/2020-02/guot-mca021320.php">Method combination allows deep insights into ultrafast light-induced processes</a></span>
-<span class="itemfrom">[<a href="http://www.eurekalert.org">EurekAlert! - Breaking News</a>]</span>
-</p>
-<div class="itemdescription">
-<p>Researchers from Graz University of Technology and the University of Vienna are demonstrating for the first time how the energy flow between strongly interacting molecular states can be better described.
+<p>Fault diagnosis, which identifies the root cause of the observed out-of-control status, is essential to counteracting or eliminating faults in industrial processes. Many conventional data-driven fault diagnosis methods ignore the fault tendency of abnormal samples, and they need a complete retraining process to include the newly collected abnormal samples or fault classes. In this article, a broad convolutional neural network (BCNN) is designed with incremental learning capability for solving the aforementioned issues. The proposed method combines several consecutive samples as a data matrix, and it then extracts both fault tendency and nonlinear structure from the obtained data matrix by using convolutional operation. After that, the weights in fully connected layers can be trained based on the obtained features and their corresponding fault labels. Because of the architecture of this network, the diagnosis performance of the BCNN model can be improved by adding newly generated additional features. Finally, the incremental learning capability of the proposed method is also designed, so that the BCNN model can update itself to include new coming abnormal samples and fault classes. The proposed method is applied both to a simulated process and a real industrial process. Experimental results illustrate that it can better capture the characteristics of the fault process, and effectively update diagnosis model to include new coming abnormal samples, and fault classes.
 </div>
 </div>
 
@@ -365,23 +443,23 @@ $\widetilde{O}(2^{0.209n})$.
 </div>
 </div>
 
-<div class="item feed-53ba08d1 feed-natureissuenaturecomsciencefeeds" id="item-ca41a75f">
+<div class="item feed-53ba08d1 feed-natureissuenaturecomsciencefeeds" id="item-7ebcc8dc">
 <p class="itemheader">
-<span class="itemtitle"><a href="http://feeds.nature.com/~r/nature/rss/current/~3/GR2vM5F8jOI/d41586-020-00354-4">Coronavirus: hospitals must learn from past pandemics</a></span>
+<span class="itemtitle"><a href="http://feeds.nature.com/~r/nature/rss/current/~3/dxq3sLaE2is/d41586-020-00360-6">CRISPR enhancement, coronavirus source and a controversial appointment</a></span>
 <span class="itemfrom">[<a href="http://feeds.nature.com/nature/rss/current">Nature - Issue - nature.com science feeds</a>]</span>
 </p>
 <div class="itemdescription">
-<p>Nature, Published online: 11 February 2020; <a href="https://www.nature.com/articles/d41586-020-00354-4">doi:10.1038/d41586-020-00354-4</a></p>Use techniques honed during the SARS, H1N1 and Ebola epidemics to separate sick and well, keep workers safe and prepare for the next outbreak, says Nahid Bhadelia<img alt="" height="1" src="http://feeds.feedburner.com/~r/nature/rss/current/~4/GR2vM5F8jOI" width="1" />
+<p>Nature, Published online: 12 February 2020; <a href="https://www.nature.com/articles/d41586-020-00360-6">doi:10.1038/d41586-020-00360-6</a></p>The latest science news, in brief.<img alt="" height="1" src="http://feeds.feedburner.com/~r/nature/rss/current/~4/dxq3sLaE2is" width="1" />
 </div>
 </div>
 
-<div class="item feed-ed41d94f feed-jamacurrentissue" id="item-001eaadd">
+<div class="item feed-ed41d94f feed-jamacurrentissue" id="item-49dc7263">
 <p class="itemheader">
-<span class="itemtitle"><a href="https://jamanetwork.com/journals/jama/fullarticle/2760736">Effect of Incisional Negative Pressure Wound Therapy vs Standard Wound Dressing on Deep SSI</a></span>
+<span class="itemtitle"><a href="https://jamanetwork.com/journals/jama/fullarticle/2760747">Dangers of Driving While High</a></span>
 <span class="itemfrom">[<a href="https://jamanetwork.com/journals/jama">JAMA Current Issue</a>]</span>
 </p>
 <div class="itemdescription">
-<p>This randomized clinical trial compares the effects of incisional negative pressure wound therapy vs standard wound dressing on deep surgical site infection (SSI) at 30 days among patients undergoing surgery for major trauma&#8211;related lower limb fractures.
+<p>Nearly 5% of US adults reported driving under the influence of marijuana in 2018, according to a CDC report.
 </div>
 </div>
 
@@ -501,13 +579,13 @@ $\widetilde{O}(2^{0.209n})$.
 </div>
 </div>
 
-<div class="item feed-b3e4c5b6 feed-annualreviewsannualreviewofphysiologytableofcontents" id="item-77c87a33">
+<div class="item feed-b3e4c5b6 feed-annualreviewsannualreviewofphysiologytableofcontents" id="item-0f9ae86f">
 <p class="itemheader">
-<span class="itemtitle"><a href="https://www.annualreviews.org/doi/abs/10.1146/annurev-physiol-021119-034446?ai=sp&amp;mi=3fndc3&amp;af=R">Diurnal Regulation of Renal Electrolyte Excretion: The Role of Paracrine Factors</a></span>
+<span class="itemtitle"><a href="https://www.annualreviews.org/doi/abs/10.1146/annurev-physiol-021119-034610?ai=sp&amp;mi=3fndc3&amp;af=R">Aging and Lung Disease</a></span>
 <span class="itemfrom">[Annual Reviews: Annual Review of Physiology: Table of Contents]</span>
 </p>
 <div class="itemdescription">
-<p>Annual Review of Physiology, <a href="https://www.annualreviews.org/toc/physiol/82/1">Volume 82, Issue 1</a>, Page 343-363, February 2020. <br />
+<p>Annual Review of Physiology, <a href="https://www.annualreviews.org/toc/physiol/82/1">Volume 82, Issue 1</a>, Page 433-459, February 2020. <br />
 </div>
 </div>
 
@@ -537,15 +615,13 @@ $\widetilde{O}(2^{0.209n})$.
 <h2>Wednesday, 05 February 2020</h2>
 <div class="time">
 <h3>04:00 PM</h3>
-<div class="item feed-6b3f78ad feed-latestbmjresearch" id="item-0b960ff4">
+<div class="item feed-b93c25e9 feed-earlyedition" id="item-e5d8f163">
 <p class="itemheader">
-<span class="itemtitle"><a href="http://feeds.bmj.com/~r/bmj/research/~3/x_l41CshL4w/bmj.m40">Out-of-pocket spending and financial burden among low income adults after Medicaid expansions in the United States: quasi-experimental difference-in-difference study</a></span>
-<span class="itemfrom">[<a href="https://www.bmj.com/research/feed/67">Latest BMJ Research</a>]</span>
+<span class="itemtitle"><a href="http://feedproxy.google.com/~r/Pnas-RssFeedOfEarlyEditionArticles/~3/6hiQFVponEA/1922921117.short">Fijian farming ants resolve the guns-or-butter dilemma for their crop plants [Commentaries]</a></span>
+<span class="itemfrom">[<a href="http://www.pnas.org">Early Edition</a>]</span>
 </p>
 <div class="itemdescription">
-<div class="feedflare">
-<a href="http://feeds.bmj.com/~ff/bmj/research?a=x_l41CshL4w:akLPuxS92Ts:yIl2AUoC8zA"><img border="0" src="http://feeds.feedburner.com/~ff/bmj/research?d=yIl2AUoC8zA" /></a> <a href="http://feeds.bmj.com/~ff/bmj/research?a=x_l41CshL4w:akLPuxS92Ts:dnMXMwOfBR0"><img border="0" src="http://feeds.feedburner.com/~ff/bmj/research?d=dnMXMwOfBR0" /></a> <a href="http://feeds.bmj.com/~ff/bmj/research?a=x_l41CshL4w:akLPuxS92Ts:F7zBnMyn0Lo"><img border="0" src="http://feeds.feedburner.com/~ff/bmj/research?i=x_l41CshL4w:akLPuxS92Ts:F7zBnMyn0Lo" /></a> <a href="http://feeds.bmj.com/~ff/bmj/research?a=x_l41CshL4w:akLPuxS92Ts:V_sGLiPBpWU"><img border="0" src="http://feeds.feedburner.com/~ff/bmj/research?i=x_l41CshL4w:akLPuxS92Ts:V_sGLiPBpWU" /></a> <a href="http://feeds.bmj.com/~ff/bmj/research?a=x_l41CshL4w:akLPuxS92Ts:qj6IDK7rITs"><img border="0" src="http://feeds.feedburner.com/~ff/bmj/research?d=qj6IDK7rITs" /></a> <a href="http://feeds.bmj.com/~ff/bmj/research?a=x_l41CshL4w:akLPuxS92Ts:gIN9vFwOqvQ"><img border="0" src="http://feeds.feedburner.com/~ff/bmj/research?i=x_l41CshL4w:akLPuxS92Ts:gIN9vFwOqvQ" /></a>
-</div><img alt="" height="1" src="http://feeds.feedburner.com/~r/bmj/research/~4/x_l41CshL4w" width="1" />
+<p>Abilities to cultivate or manage members of other species evolved repeatedly, and in a few taxa the managed symbionts were domesticated, representing one of the great innovations in evolution (1, 2), one which transformed human history (3, 4). For early farmers, to what extent were agricultural practices tailored to local...<img alt="" height="1" src="http://feeds.feedburner.com/~r/Pnas-RssFeedOfEarlyEditionArticles/~4/6hiQFVponEA" width="1" />
 </div>
 </div>
 
@@ -556,16 +632,6 @@ $\widetilde{O}(2^{0.209n})$.
 </p>
 <div class="itemdescription">
 <p>Dams contribute to water security, energy supply, and flood protection but also fragment habitats of freshwater species. Yet, a global species-level assessment of dam-induced fragmentation is lacking. Here, we assessed the degree of fragmentation of the occurrence ranges of &#8764;10,000 lotic fish species worldwide due to &#8764;40,000 existing large dams...<img alt="" height="1" src="http://feeds.feedburner.com/~r/Pnas-RssFeedOfEarlyEditionArticles/~4/hbpdSLDI0IM" width="1" />
-</div>
-</div>
-
-<div class="item feed-b93c25e9 feed-earlyedition" id="item-e5d8f163">
-<p class="itemheader">
-<span class="itemtitle"><a href="http://feedproxy.google.com/~r/Pnas-RssFeedOfEarlyEditionArticles/~3/6hiQFVponEA/1922921117.short">Fijian farming ants resolve the guns-or-butter dilemma for their crop plants [Commentaries]</a></span>
-<span class="itemfrom">[<a href="http://www.pnas.org">Early Edition</a>]</span>
-</p>
-<div class="itemdescription">
-<p>Abilities to cultivate or manage members of other species evolved repeatedly, and in a few taxa the managed symbionts were domesticated, representing one of the great innovations in evolution (1, 2), one which transformed human history (3, 4). For early farmers, to what extent were agricultural practices tailored to local...<img alt="" height="1" src="http://feeds.feedburner.com/~r/Pnas-RssFeedOfEarlyEditionArticles/~4/6hiQFVponEA" width="1" />
 </div>
 </div>
 
@@ -583,16 +649,6 @@ $\widetilde{O}(2^{0.209n})$.
 <div class="itemdescription">
 <p>People constantly share their photographs with others through various social media sites. With the aid of the privacy settings provided by social media sites, image owners can designate scope of sharing, e.g., close friends and acquaintances. However, even if the owner of a photograph carefully sets the privacy setting to exclude a given individual who is not supposed to see the photograph, the photograph may still eventually reach a wider audience, including those clearly undesired through unanticipated channels of disclosure, causing a privacy breach. Moreover, it is often the case that a given image involves multiple stakeholders who are also depicted in the photograph. Due to various personalities, it is even more challenging to reach agreement on the privacy settings for these multi-owner photographs. In this paper, we propose a privacy risk reminder system, called REMIND, which estimates the probability that a shared photograph may be seen by unwanted people-through the social graph-who are not included in the original sharing list. We tackle this problem from a novel angle by digging into the big data regarding image sharing history. Specifically, the social media providers possess a huge amount of image sharing information (e.g., what photographs are shared with whom) of their users. By analyzing and modeling such rich information, we build a sophisticated probability model that efficiently aggregates the image disclosure probabilities along different possible image propagation chains and loops. If the computed disclosure probability indicates high risks of privacy breach, a reminder is issued to the image owner to help revise the privacy settings (or, at least, inform the user about this accidental disclosure risk). The proposed REMIND system also has a nice feature of policy harmonization that helps resolve privacy differences in multi-owner photographs. We have carried out a user study to validate the rationale of our proposed solutions and also conducte-
  experimental studies to evaluate the efficiency of the proposed REMIND system.
-</div>
-</div>
-
-<div class="item feed-c24550d7 feed-ieeetransactionsoninformationforensicsandsecuritynewtoc" id="item-a4054c56">
-<p class="itemheader">
-<span class="itemtitle"><a href="http://ieeexplore.ieee.org/document/8763980">Electromagnetic Side Channel Information Leakage Created by Execution of Series of Instructions in a Computer Processor</a></span>
-<span class="itemfrom">[<a href="http://ieeexplore.ieee.org">IEEE Transactions on Information Forensics and Security - new TOC</a>]</span>
-</p>
-<div class="itemdescription">
-<p>The side-channel leakage is a consequence of program execution in a computer processor, and understanding relationship between code execution and information leakage is a necessary step in estimating information leakage and its capacity limits. This paper proposes a methodology to relate program execution to electromagnetic side-channel emanations and estimates side-channel information capacity created by execution of series of instructions (e.g., a function, a procedure, or a program) in a processor. To model dependence among program instructions in a code, we propose to use Markov source model, which includes the dependencies among sequence of instructions as well as dependencies among instructions as they pass through a pipeline of the processor. The emitted electromagnetic (EM) signals during instruction executions are natural choice for the inputs into the model. To obtain the channel inputs for the proposed model, we derive a mathematical relationship between the emanated instruction signal power (ESP) and total emanated signal power while running a program. Then, we derive the leakage capacity of EM side channels created by execution of series of instructions in a processor. Finally, we provide experimental results to demonstrate that leakages could be severe and that a dedicated attacker could obtain important information.
 </div>
 </div>
 
@@ -616,6 +672,16 @@ $\widetilde{O}(2^{0.209n})$.
 </div>
 </div>
 
+<div class="item feed-c24550d7 feed-ieeetransactionsoninformationforensicsandsecuritynewtoc" id="item-bc479705">
+<p class="itemheader">
+<span class="itemtitle"><a href="http://ieeexplore.ieee.org/document/8831402">Impact of Outdated CSI on the Secrecy Performance of Wireless-Powered Untrusted Relay Networks</a></span>
+<span class="itemfrom">[<a href="http://ieeexplore.ieee.org">IEEE Transactions on Information Forensics and Security - new TOC</a>]</span>
+</p>
+<div class="itemdescription">
+<p>We investigate the effect of outdated channel state information (CSI) on the secrecy performance of wireless-powered untrusted relay networks, in which the relay is a potential eavesdropper. To keep the information secret from this untrusted relay, the destination sends a jamming signal to the relay when the source transmits an information signal. At the same time, the relay harvests energy from the radio-frequency power, and forwards the received signals to the destination using this harvested energy. To determine the proportions of energy harvesting and information processing, the relay makes use of relaying based on power splitting or time switching policy. Although the destination tries to remove the jamming signal from the relaying signal, it cannot cancel out the jamming signal perfectly due to imperfect channel reciprocity caused by the outdated CSI; this residual jamming signal therefore has a negative impact on secrecy performance. In this scenario, we derive the closed-form expressions for the outage probability and average secrecy rate, and find the jamming power ratio, power splitting ratio, and time switching ratio to optimize these secrecy performance metrics. The numerical results demonstrate the accuracy of our analysis, and show that the proposed secure relaying protocols achieve a near-optimal secrecy performance, as well as outperforming the conventional scheme without the jamming power control.
+</div>
+</div>
+
 <div class="item feed-c24550d7 feed-ieeetransactionsoninformationforensicsandsecuritynewtoc" id="item-525e6aad">
 <p class="itemheader">
 <span class="itemtitle"><a href="http://ieeexplore.ieee.org/document/8890731">Neural Network Architecture and Transient Evoked Otoacoustic Emission (TEOAE) Biometrics for Identification and Verification</a></span>
@@ -623,6 +689,17 @@ $\widetilde{O}(2^{0.209n})$.
 </p>
 <div class="itemdescription">
 <p>This study presents a deep neural network architecture that achieves state of the art multi-session verification and identification performance for Transient Evoked Otoacoustic Emission (TEOAE) biometric system. TEOAE is a 20ms long response generated by the ear that is naturally strong against falsification, and replay attacks. It can be measured using a device with a speaker and multiple microphones. Previous TEAOE authentication methods focused on single-session or mixed-session performance. Our method focuses on multi-session authentication performance. We train a neural network model that generates a TEOAE embedding that is separable in Euclidean space by using the triplet loss function. These embeddings are used to create identity templates which are used to authenticate the user. We achieved identification accuracy of 99.3 &#x00b1; 1.04&#x0025;, and achieved an EER(Equal Error Rate) of 0.187 &#x00b1; 0.146&#x0025; for verification scenarios. Our method has achieved 7.56&#x0025; performance increase for identification scenarios and 13.3&#x0025; performance increase for verification scenarios over previous methods when averaged across all tests.
+</div>
+</div>
+
+<div class="item feed-c99fafa0 feed-ieeetransactionsonimageprocessingnewtoc" id="item-2f50b1a3">
+<p class="itemheader">
+<span class="itemtitle"><a href="http://ieeexplore.ieee.org/document/8954874">Compressive Spectral Light Field Image Reconstruction via Online Tensor Representation</a></span>
+<span class="itemfrom">[<a href="http://ieeexplore.ieee.org">IEEE Transactions on Image Processing - new TOC</a>]</span>
+</p>
+<div class="itemdescription">
+<p>In recent years there has been an increasing interest in sensing devices that capture multidimensional information such as the spectral light field (SLF) images, which are 5-dimensional (5D) representations of a scene including 2D spatial, 2D angular and 1D spectral information. Spatio-spectral and angular information plays an important role in modern applications spanning from microscopy to computer vision. However, SLF sensors use expensive beam-splitters or cameras arrays placed in tandem, which split the sensing problem in two time consuming and independent tasks: spectral and light field imaging tasks. This work proposes a compressive spectral light field imaging architecture that builds on the principles of the compressive imaging framework, to capture multiplexed representations of the multidimensional information, so that, less measurements are required to capture the SLF data cube. Alongside, we propose a computational algorithm to recover the 5D information from the compressed measurements, exploiting the inherent high correlations within the SLF by treating them as 3D tensors. Furthermore, exploiting the geometry properties of the proposed optical architecture, the Tucker decomposition is applied to the set of compressed measurements, so that, an ad-hoc dictionary-like image representation basis is calculated online. This in turn, entails a more accurate reconstruction of the SLF since the dictionary fits the specific characteristics of the image itself. We demonstrate through simulations over three SLF datasets captured in our laboratory, and an experimental proof-of-concept implementation, that the proposed compressive imaging device together with the proposed computational algorithm represent an efficient alternative to capture SLF, compared to conventional methods that employ either side-information or multiple sensors. Also, we show that the tensor-based proposed algorithm exhibits a lower computational complexity than the matrix-based state of the -
+rt counterparts, thus enabling fast processing of multidimensional images.
 </div>
 </div>
 
@@ -645,7 +722,7 @@ $\widetilde{O}(2^{0.209n})$.
 <div class="item feed-6b3f78ad feed-latestbmjresearch" id="item-9cee83a9">
 <p class="itemheader">
 <span class="itemtitle"><a href="http://feeds.bmj.com/~r/bmj/research/~3/M6gvV8BzQAM/bmj.l6968">Opioid prescribing patterns among medical providers in the United States, 2003-17: retrospective, observational study</a></span>
-<span class="itemfrom">[<a href="https://www.bmj.com/research/feed/67">Latest BMJ Research</a>]</span>
+<span class="itemfrom">[<a href="https://www.bmj.com/research/feed">Latest BMJ Research</a>]</span>
 </p>
 <div class="itemdescription">
 <div class="feedflare">
@@ -690,56 +767,6 @@ $\widetilde{O}(2^{0.209n})$.
 </div>
 </div>
 
-<div class="item feed-ccdce26d feed-ieeetransactionsonindustrialinformaticsnewtoc" id="item-34402b3f">
-<p class="itemheader">
-<span class="itemtitle"><a href="http://ieeexplore.ieee.org/document/8807287">End-to-End Navigation Strategy With Deep Reinforcement Learning for Mobile Robots</a></span>
-<span class="itemfrom">[<a href="http://ieeexplore.ieee.org">IEEE Transactions on Industrial Informatics - new TOC</a>]</span>
-</p>
-<div class="itemdescription">
-<p>In this article, we develop a navigation strategy based on deep reinforcement learning (DRL) for mobile robots. Because of the large difference between simulation and reality, most of the trained DRL models cannot be directly migrated into real robots. Moreover, how to explore in a sparsely rewarded environment is also a long-standing problem of DRL. This article proposes an end-to-end navigation planner that translates sparse laser ranging results into movement actions. Using this highly abstract data as input, agents trained by simulation can be extended to the real scene for practical application. For map-less navigation across obstacles and traps, it is difficult to reach the target via random exploration. Curiosity is used to encourage agents to explore the state of an environment that has not been visited and as an additional reward for exploring behavior. The agent relies on the self-supervised model to predict the next state, based on the current state and the executed action. The prediction error is used as a measure of curiosity. The experimental results demonstrate that without any manual design features and previous demonstrations, the proposed method accomplishes map-less navigation in complex environments. Through a reward signal that is enhanced by intrinsic motivation, the agent explores more efficiently, and the learned strategy is more reliable.
-</div>
-</div>
-
-<div class="item feed-ccdce26d feed-ieeetransactionsonindustrialinformaticsnewtoc" id="item-0a95fb80">
-<p class="itemheader">
-<span class="itemtitle"><a href="http://ieeexplore.ieee.org/document/8809817">Noncooperative Social Welfare Optimization With Resiliency Against Network Anomaly</a></span>
-<span class="itemfrom">[<a href="http://ieeexplore.ieee.org">IEEE Transactions on Industrial Informatics - new TOC</a>]</span>
-</p>
-<div class="itemdescription">
-<p>This article presents a noncooperative game-theoretic framework to model the social welfare optimization (SWO) problem with load aggregators participating in integrated economic dispatch and demand response. In the proposed framework, distribution system operators interact with generation units and load aggregators to maximize the overall social welfare. The proposed SWO problem addresses practical system constraints and falls into the scope of mixed integer nonlinear programs, which cannot be well handled by existing distributed algorithms. The proposed SWO problem is formulated by a special noncooperative strategic game, known as the potential game, and solved by a revised version of the spatial adaptive play under network anomaly. It is shown that the proposed framework has guaranteed convergence to a Nash equilibrium that is also a global optimizer. Simulations on a 15-generator benchmark distribution network have been conducted to validate the proposed framework.
-</div>
-</div>
-
-<div class="item feed-ccdce26d feed-ieeetransactionsonindustrialinformaticsnewtoc" id="item-deb6ea52">
-<p class="itemheader">
-<span class="itemtitle"><a href="http://ieeexplore.ieee.org/document/8890700">Intelligent Home Systems for Ubiquitous User Support by Using Neural Networks and Rule-Based Approach</a></span>
-<span class="itemfrom">[<a href="http://ieeexplore.ieee.org">IEEE Transactions on Industrial Informatics - new TOC</a>]</span>
-</p>
-<div class="itemdescription">
-<p>Artificial intelligence methods applied in smart home environments can give a ubiquitous support of people, provide automatic control of system settings to lower the costs of operation, improve energetic efficiency, and longer endurance of components. In this article, we discuss the use of neural networks and rule-based systems as the components of automatic control over house elements. In the proposed framework, we store the knowledge and teach the system about the home in parallel to operation. Initially, the system starts with global settings, however, data are collected during use and parallel to this regular training is run so when the new knowledge guarantees higher efficiency, the system switch to use it. We have developed a new neural-based mechanism with rules control method to lower the costs of operation while keeping the needs of users. The components were tested and discussed due to practical application in our everyday life.
-</div>
-</div>
-
-<div class="item feed-ccdce26d feed-ieeetransactionsonindustrialinformaticsnewtoc" id="item-af426daa">
-<p class="itemheader">
-<span class="itemtitle"><a href="http://ieeexplore.ieee.org/document/8859383">SaliencyGAN: Deep Learning Semisupervised Salient Object Detection in the Fog of IoT</a></span>
-<span class="itemfrom">[<a href="http://ieeexplore.ieee.org">IEEE Transactions on Industrial Informatics - new TOC</a>]</span>
-</p>
-<div class="itemdescription">
-<p>In modern Internet of Things (IoT), visual analysis and predictions are often performed by deep learning models. Salient object detection (SOD) is a fundamental preprocessing for these applications. Executing SOD on the fog devices is a challenging task due to the diversity of data and fog devices. To adopt convolutional neural networks (CNN) on fog&#x2013;cloud infrastructures for SOD-based applications, we introduce a semisupervised adversarial learning method in this article. The proposed model, named as SaliencyGAN, is empowered by a novel concatenated generative adversarial network (GAN) framework with partially shared parameters. The backbone CNN can be chosen flexibly based on the specific devices and applications. In the meanwhile, our method uses both the labeled and unlabeled data from different problem domains for training. Using multiple popular benchmark datasets, we compared state-of-the-art baseline methods to our SaliencyGAN obtained with 10&#x2013;100&#x0025; labeled training data. SaliencyGAN gained performance comparable to the supervised baselines when the percentage of labeled data reached 30&#x0025;, and outperformed the weakly supervised and unsupervised baselines. Furthermore, our ablation study shows that SaliencyGAN were more robust to the common &#x201c;mode missing&#x201d; (or &#x201c;mode collapse&#x201d;) issue compared to the selected popular GAN models. The visualized ablation results have proved that SaliencyGAN learned a better estimation of data distributions. To the best of our knowledge, this is the first IoT-oriented semisupervised SOD method.
-</div>
-</div>
-
-<div class="item feed-ccdce26d feed-ieeetransactionsonindustrialinformaticsnewtoc" id="item-52912ef2">
-<p class="itemheader">
-<span class="itemtitle"><a href="http://ieeexplore.ieee.org/document/8851264">Robust Scheduling of Hot Rolling Production by Local Search Enhanced Ant Colony Optimization Algorithm</a></span>
-<span class="itemfrom">[<a href="http://ieeexplore.ieee.org">IEEE Transactions on Industrial Informatics - new TOC</a>]</span>
-</p>
-<div class="itemdescription">
-<p>Scheduling of a hot strip mill is an important decision problem in the steel manufacturing industry. Previous studies on the hot strip mill scheduling problem have mostly neglected the random factors in production. However, random variations in processing times are inevitable due to unpredictable delays and disturbances. In this article, we adopt a robust optimization approach to deal with the uncertainty in processing times. The advantage is that no assumption has to be made regarding the distribution of random data, and the obtained schedule will remain strictly feasible when the variations have not exceeded a predefined uncertainty set. First, a mixed-integer linear programming model is presented to formulate the robust scheduling problem. Then, a hybrid metaheuristic algorithm, which combines ant colony system (ACS) and enhanced local search, is proposed to provide an efficient solution to the problem. Finally, extensive computational experiments involving both randomly generated and real-world instances have been conducted to verify the effectiveness of the proposed algorithm. It is shown that the algorithm achieves optimality for small instances and outperforms two state-of-the-art metaheuristics when used to solve large instances.
-</div>
-</div>
-
 </div>
 </div>
 <div class="day">
@@ -749,7 +776,7 @@ $\widetilde{O}(2^{0.209n})$.
 <div class="item feed-6b3f78ad feed-latestbmjresearch" id="item-20f939f0">
 <p class="itemheader">
 <span class="itemtitle"><a href="http://feeds.bmj.com/~r/bmj/research/~3/xeY-sJquBNA/bmj.l6925">Industry funding of patient and health consumer organisations: systematic review with meta-analysis</a></span>
-<span class="itemfrom">[<a href="https://www.bmj.com/research/feed/67">Latest BMJ Research</a>]</span>
+<span class="itemfrom">[<a href="https://www.bmj.com/research/feed">Latest BMJ Research</a>]</span>
 </p>
 <div class="itemdescription">
 <div class="feedflare">
@@ -767,7 +794,7 @@ $\widetilde{O}(2^{0.209n})$.
 <div class="item feed-6b3f78ad feed-latestbmjresearch" id="item-71043df8">
 <p class="itemheader">
 <span class="itemtitle"><a href="http://feeds.bmj.com/~r/bmj/research/~3/lVwAuzIkrC8/bmj.l6794">Major cardiac events for adult survivors of childhood cancer diagnosed between 1970 and 1999: report from the Childhood Cancer Survivor Study cohort</a></span>
-<span class="itemfrom">[<a href="https://www.bmj.com/research/feed/67">Latest BMJ Research</a>]</span>
+<span class="itemfrom">[<a href="https://www.bmj.com/research/feed">Latest BMJ Research</a>]</span>
 </p>
 <div class="itemdescription">
 <div class="feedflare">
@@ -779,18 +806,18 @@ $\widetilde{O}(2^{0.209n})$.
 </div>
 </div>
 <div class="day">
-<h2>Monday, 13 January 2020</h2>
+<h2>Thursday, 02 January 2020</h2>
 <div class="time">
 <h3>04:00 PM</h3>
-<div class="item feed-6b3f78ad feed-latestbmjresearch" id="item-871ca8ca">
+<div class="item feed-6b3f78ad feed-latestbmjresearch" id="item-8f241545">
 <p class="itemheader">
-<span class="itemtitle"><a href="http://feeds.bmj.com/~r/bmj/research/~3/k1SiRhb4vdU/bmj.l6744">Efficacy and safety of gastrointestinal bleeding prophylaxis in critically ill patients: systematic review and network meta-analysis</a></span>
-<span class="itemfrom">[<a href="https://www.bmj.com/research/feed/67">Latest BMJ Research</a>]</span>
+<span class="itemtitle"><a href="http://feeds.bmj.com/~r/bmj/research/~3/nz_XiI0fKig/bmj.l6720">Long term exposure to ambient fine particulate matter and incidence of stroke: prospective cohort study from the China-PAR project</a></span>
+<span class="itemfrom">[<a href="https://www.bmj.com/research/feed">Latest BMJ Research</a>]</span>
 </p>
 <div class="itemdescription">
 <div class="feedflare">
-<a href="http://feeds.bmj.com/~ff/bmj/research?a=k1SiRhb4vdU:r5cVYkK6Pvo:yIl2AUoC8zA"><img border="0" src="http://feeds.feedburner.com/~ff/bmj/research?d=yIl2AUoC8zA" /></a> <a href="http://feeds.bmj.com/~ff/bmj/research?a=k1SiRhb4vdU:r5cVYkK6Pvo:dnMXMwOfBR0"><img border="0" src="http://feeds.feedburner.com/~ff/bmj/research?d=dnMXMwOfBR0" /></a> <a href="http://feeds.bmj.com/~ff/bmj/research?a=k1SiRhb4vdU:r5cVYkK6Pvo:F7zBnMyn0Lo"><img border="0" src="http://feeds.feedburner.com/~ff/bmj/research?i=k1SiRhb4vdU:r5cVYkK6Pvo:F7zBnMyn0Lo" /></a> <a href="http://feeds.bmj.com/~ff/bmj/research?a=k1SiRhb4vdU:r5cVYkK6Pvo:V_sGLiPBpWU"><img border="0" src="http://feeds.feedburner.com/~ff/bmj/research?i=k1SiRhb4vdU:r5cVYkK6Pvo:V_sGLiPBpWU" /></a> <a href="http://feeds.bmj.com/~ff/bmj/research?a=k1SiRhb4vdU:r5cVYkK6Pvo:qj6IDK7rITs"><img border="0" src="http://feeds.feedburner.com/~ff/bmj/research?d=qj6IDK7rITs" /></a> <a href="http://feeds.bmj.com/~ff/bmj/research?a=k1SiRhb4vdU:r5cVYkK6Pvo:gIN9vFwOqvQ"><img border="0" src="http://feeds.feedburner.com/~ff/bmj/research?i=k1SiRhb4vdU:r5cVYkK6Pvo:gIN9vFwOqvQ" /></a>
-</div><img alt="" height="1" src="http://feeds.feedburner.com/~r/bmj/research/~4/k1SiRhb4vdU" width="1" />
+<a href="http://feeds.bmj.com/~ff/bmj/research?a=nz_XiI0fKig:7PUkpck1DdY:yIl2AUoC8zA"><img border="0" src="http://feeds.feedburner.com/~ff/bmj/research?d=yIl2AUoC8zA" /></a> <a href="http://feeds.bmj.com/~ff/bmj/research?a=nz_XiI0fKig:7PUkpck1DdY:dnMXMwOfBR0"><img border="0" src="http://feeds.feedburner.com/~ff/bmj/research?d=dnMXMwOfBR0" /></a> <a href="http://feeds.bmj.com/~ff/bmj/research?a=nz_XiI0fKig:7PUkpck1DdY:F7zBnMyn0Lo"><img border="0" src="http://feeds.feedburner.com/~ff/bmj/research?i=nz_XiI0fKig:7PUkpck1DdY:F7zBnMyn0Lo" /></a> <a href="http://feeds.bmj.com/~ff/bmj/research?a=nz_XiI0fKig:7PUkpck1DdY:V_sGLiPBpWU"><img border="0" src="http://feeds.feedburner.com/~ff/bmj/research?i=nz_XiI0fKig:7PUkpck1DdY:V_sGLiPBpWU" /></a> <a href="http://feeds.bmj.com/~ff/bmj/research?a=nz_XiI0fKig:7PUkpck1DdY:qj6IDK7rITs"><img border="0" src="http://feeds.feedburner.com/~ff/bmj/research?d=qj6IDK7rITs" /></a> <a href="http://feeds.bmj.com/~ff/bmj/research?a=nz_XiI0fKig:7PUkpck1DdY:gIN9vFwOqvQ"><img border="0" src="http://feeds.feedburner.com/~ff/bmj/research?i=nz_XiI0fKig:7PUkpck1DdY:gIN9vFwOqvQ" /></a>
+</div><img alt="" height="1" src="http://feeds.feedburner.com/~r/bmj/research/~4/nz_XiI0fKig" width="1" />
 </div>
 </div>
 
@@ -976,113 +1003,113 @@ $\widetilde{O}(2^{0.209n})$.
 <tr class="feedsrow">
 <td>Annual Reviews: Annual Review of Economics: Table of Contents</td>
 <td><a class="xmlbutton" href="http://www.annualreviews.org/action/showFeed?ui=45mu4&amp;mi=3fndc3&amp;ai=67b7&amp;jc=economics&amp;type=etoc&amp;feed=rss">XML</a></td>
-<td>04:00 PM, Friday, 14 February 2020</td>
-<td>07:00 PM, Friday, 14 February 2020</td>
+<td>04:00 PM, Tuesday, 18 February 2020</td>
+<td>07:00 PM, Tuesday, 18 February 2020</td>
 </tr>
 
 <tr class="feedsrow">
 <td>Annual Reviews: Annual Review of Nutrition: Table of Contents</td>
 <td><a class="xmlbutton" href="http://www.annualreviews.org/action/showFeed?ui=45mu4&amp;mi=3fndc3&amp;ai=rz&amp;jc=nutr&amp;type=etoc&amp;feed=rss">XML</a></td>
-<td>04:00 PM, Friday, 14 February 2020</td>
-<td>07:00 PM, Friday, 14 February 2020</td>
+<td>04:00 PM, Tuesday, 18 February 2020</td>
+<td>07:00 PM, Tuesday, 18 February 2020</td>
 </tr>
 
 <tr class="feedsrow">
 <td>Annual Reviews: Annual Review of Physiology: Table of Contents</td>
 <td><a class="xmlbutton" href="http://www.annualreviews.org/action/showFeed?ui=45mu4&amp;mi=3fndc3&amp;ai=sp&amp;jc=physiol&amp;type=etoc&amp;feed=rss">XML</a></td>
-<td>04:00 PM, Friday, 14 February 2020</td>
-<td>07:00 PM, Friday, 14 February 2020</td>
+<td>04:00 PM, Tuesday, 18 February 2020</td>
+<td>07:00 PM, Tuesday, 18 February 2020</td>
 </tr>
 
 <tr class="feedsrow">
 <td>Annual Reviews: Annual Review of Political Science: Table of Contents</td>
 <td><a class="xmlbutton" href="http://www.annualreviews.org/action/showFeed?jc=polisci&amp;type=etoc&amp;feed=rss">XML</a></td>
-<td>04:00 PM, Friday, 14 February 2020</td>
-<td>07:00 PM, Friday, 14 February 2020</td>
+<td>04:00 PM, Tuesday, 18 February 2020</td>
+<td>07:00 PM, Tuesday, 18 February 2020</td>
 </tr>
 
 <tr class="feedsrow">
 <td>Annual Reviews: Annual Review of Sociology: Table of Contents</td>
 <td><a class="xmlbutton" href="http://www.annualreviews.org/action/showFeed?ui=45mu4&amp;mi=3fndc3&amp;ai=t0&amp;jc=soc&amp;type=etoc&amp;feed=rss">XML</a></td>
-<td>04:00 PM, Friday, 14 February 2020</td>
-<td>07:00 PM, Friday, 14 February 2020</td>
+<td>04:00 PM, Tuesday, 18 February 2020</td>
+<td>07:00 PM, Tuesday, 18 February 2020</td>
 </tr>
 
 <tr class="feedsrow">
 <td><a href="http://arxiv.org/">cs.CR updates on arXiv.org</a></td>
 <td><a class="xmlbutton" href="http://export.arxiv.org/rss/cs.CR">XML</a></td>
-<td>04:00 PM, Friday, 14 February 2020</td>
-<td>07:00 PM, Friday, 14 February 2020</td>
+<td>04:00 PM, Tuesday, 18 February 2020</td>
+<td>07:00 PM, Tuesday, 18 February 2020</td>
 </tr>
 
 <tr class="feedsrow">
 <td><a href="http://www.pnas.org">Early Edition</a></td>
 <td><a class="xmlbutton" href="http://feeds.feedburner.com/Pnas-RssFeedOfEarlyEditionArticles?format=xml">XML</a></td>
-<td>04:00 PM, Friday, 14 February 2020</td>
-<td>07:00 PM, Friday, 14 February 2020</td>
+<td>04:00 PM, Tuesday, 18 February 2020</td>
+<td>07:00 PM, Tuesday, 18 February 2020</td>
 </tr>
 
 <tr class="feedsrow">
 <td><a href="http://www.eurekalert.org">EurekAlert! - Breaking News</a></td>
 <td><a class="xmlbutton" href="https://www.eurekalert.org/rss.xml">XML</a></td>
-<td>04:00 PM, Friday, 14 February 2020</td>
-<td>07:00 PM, Friday, 14 February 2020</td>
+<td>04:00 PM, Tuesday, 18 February 2020</td>
+<td>07:00 PM, Tuesday, 18 February 2020</td>
 </tr>
 
 <tr class="feedsrow">
 <td><a href="http://ieeexplore.ieee.org">IEEE Transactions on Image Processing - new TOC</a></td>
 <td><a class="xmlbutton" href="https://ieeexplore.ieee.org/rss/TOC83.XML">XML</a></td>
-<td>04:00 PM, Friday, 14 February 2020</td>
-<td>07:00 PM, Friday, 14 February 2020</td>
+<td>04:00 PM, Tuesday, 18 February 2020</td>
+<td>07:00 PM, Tuesday, 18 February 2020</td>
 </tr>
 
 <tr class="feedsrow">
 <td><a href="http://ieeexplore.ieee.org">IEEE Transactions on Industrial Electronics - new TOC</a></td>
 <td><a class="xmlbutton" href="https://ieeexplore.ieee.org/rss/TOC41.XML">XML</a></td>
-<td>04:00 PM, Friday, 14 February 2020</td>
-<td>07:00 PM, Friday, 14 February 2020</td>
+<td>04:00 PM, Tuesday, 18 February 2020</td>
+<td>07:00 PM, Tuesday, 18 February 2020</td>
 </tr>
 
 <tr class="feedsrow">
 <td><a href="http://ieeexplore.ieee.org">IEEE Transactions on Industrial Informatics - new TOC</a></td>
 <td><a class="xmlbutton" href="https://ieeexplore.ieee.org/rss/TOC9424.XML">XML</a></td>
-<td>04:00 PM, Friday, 14 February 2020</td>
-<td>07:00 PM, Friday, 14 February 2020</td>
+<td>04:00 PM, Tuesday, 18 February 2020</td>
+<td>07:00 PM, Tuesday, 18 February 2020</td>
 </tr>
 
 <tr class="feedsrow">
 <td><a href="http://ieeexplore.ieee.org">IEEE Transactions on Information Forensics and Security - new TOC</a></td>
 <td><a class="xmlbutton" href="https://ieeexplore.ieee.org/rss/TOC10206.XML">XML</a></td>
-<td>04:00 PM, Friday, 14 February 2020</td>
-<td>07:00 PM, Friday, 14 February 2020</td>
+<td>04:00 PM, Tuesday, 18 February 2020</td>
+<td>07:00 PM, Tuesday, 18 February 2020</td>
 </tr>
 
 <tr class="feedsrow">
 <td><a href="https://jamanetwork.com/journals/jama">JAMA Current Issue</a></td>
 <td><a class="xmlbutton" href="https://jamanetwork.com/rss/site_3/67.xml">XML</a></td>
-<td>04:00 PM, Friday, 14 February 2020</td>
-<td>07:00 PM, Friday, 14 February 2020</td>
+<td>04:00 PM, Tuesday, 18 February 2020</td>
+<td>07:00 PM, Tuesday, 18 February 2020</td>
 </tr>
 
 <tr class="feedsrow">
-<td><a href="https://www.bmj.com/research/feed/67">Latest BMJ Research</a></td>
+<td><a href="https://www.bmj.com/research/feed">Latest BMJ Research</a></td>
 <td><a class="xmlbutton" href="http://feeds.bmj.com/bmj/research?format=xml">XML</a></td>
-<td>04:00 PM, Friday, 14 February 2020</td>
-<td>07:00 PM, Friday, 14 February 2020</td>
+<td>04:00 PM, Tuesday, 18 February 2020</td>
+<td>07:00 PM, Tuesday, 18 February 2020</td>
 </tr>
 
 <tr class="feedsrow">
 <td><a href="http://feeds.nature.com/nature/rss/current">Nature - Issue - nature.com science feeds</a></td>
 <td><a class="xmlbutton" href="http://feeds.nature.com/nature/rss/current?format=xml">XML</a></td>
-<td>04:00 PM, Friday, 14 February 2020</td>
-<td>07:00 PM, Friday, 14 February 2020</td>
+<td>04:00 PM, Tuesday, 18 February 2020</td>
+<td>07:00 PM, Tuesday, 18 February 2020</td>
 </tr>
 
 <tr class="feedsrow">
 <td><a href="https://www.thelancet.com/journals/lancet/issue/current">The Lancet</a></td>
 <td><a class="xmlbutton" href="http://www.thelancet.com/rssfeed/lancet_current.xml">XML</a></td>
-<td>04:00 PM, Friday, 14 February 2020</td>
-<td>07:00 PM, Friday, 14 February 2020</td>
+<td>04:00 PM, Tuesday, 18 February 2020</td>
+<td>07:00 PM, Tuesday, 18 February 2020</td>
 </tr>
 
 </table>
