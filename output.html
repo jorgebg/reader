@@ -13,151 +13,260 @@
 </div>
 <div id="items">
 <div class="day">
-<h2>Monday, 06 April 2020</h2>
+<h2>Wednesday, 08 April 2020</h2>
 <div class="time">
 <h3>04:00 PM</h3>
-<div class="item feed-1b28272e feed-cscrupdatesonarxivorg" id="item-c33ad621">
+<div class="item feed-1b28272e feed-cscrupdatesonarxivorg" id="item-a4c17062">
 <p class="itemheader">
-<span class="itemtitle"><a href="http://arxiv.org/abs/2004.01312">Preserving Statistical Privacy in Distributed Optimization. (arXiv:2004.01312v1 [cs.CR])</a></span>
+<span class="itemtitle"><a href="http://arxiv.org/abs/2004.03002">Can Two Walk Together: Privacy Enhancing Methods and Preventing Tracking of Users. (arXiv:2004.03002v1 [cs.CR])</a></span>
 <span class="itemfrom">[<a href="http://arxiv.org/">cs.CR updates on arXiv.org</a>]</span>
 </p>
 <div class="itemdescription">
-<p>We propose a distributed optimization algorithm that, additionally, preserves
-statistical privacy of agents' cost functions against a passive adversary that
-corrupts some agents in the network. Our algorithm is a composition of a
-distributed "zero-sum" secret sharing protocol that obfuscates the agents' cost
-functions, and a standard non-private distributed optimization method. We show
-that our protocol protects the statistical privacy of the agents' local cost
-functions against a passive adversary that corrupts up to $t$ arbitrary agents
-as long as the communication network has $(t+1)$-vertex connectivity.
-Importantly, the zero-sum obfuscation protocol preserves the sum of the agents'
-objective functions and therefore ensures accuracy of the computed solution.
+<p>We present a new concern when collecting data from individuals that arises
+from the attempt to mitigate privacy leakage in multiple reporting: tracking of
+users participating in the data collection via the mechanisms added to provide
+privacy. We present several definitions for untrackable mechanisms, inspired by
+the differential privacy framework.
+</p>
+<p>Specifically, we define the trackable parameter as the log of the maximum
+ratio between the probability that a set of reports originated from a single
+user and the probability that the same set of reports originated from two users
+(with the same private value). We explore the implications of this new
+definition. We show how differentially private and untrackable mechanisms can
+be combined to achieve a bound for the problem of detecting when a certain user
+changed their private value.
+</p>
+<p>Examining Google's deployed solution for everlasting privacy, we show that
+RAPPOR (Erlingsson et al. ACM CCS, 2014) is trackable in our framework for the
+parameters presented in their paper.
+</p>
+<p>We analyze a variant of randomized response for collecting statistics of
+single bits, Bitwise Everlasting Privacy, that achieves good accuracy and
+everlasting privacy, while only being reasonably untrackable, specifically
+grows linearly in the number of reports. For collecting statistics about data
+from larger domains (for histograms and heavy hitters) we present a mechanism
+that prevents tracking for a limited number of responses.
+</p>
+<p>We also present the concept of Mechanism Chaining, using the output of one
+mechanism as the input of another, in the scope of Differential Privacy, and
+show that the chaining of an $\varepsilon_1$-LDP mechanism with an
+$\varepsilon_2$-LDP mechanism is
+$\ln\frac{e^{\varepsilon_1+\varepsilon_2}+1}{e^{\varepsilon_1}+e^{\varepsilon_2}}$-LDP
+and that this bound is tight.
 </p>
 </div>
 </div>
 
-<div class="item feed-1b28272e feed-cscrupdatesonarxivorg" id="item-3d6ce5f4">
+<div class="item feed-1b28272e feed-cscrupdatesonarxivorg" id="item-dea441db">
 <p class="itemheader">
-<span class="itemtitle"><a href="http://arxiv.org/abs/2004.01403">A "Final" Security Bug. (arXiv:2004.01403v1 [cs.CR])</a></span>
+<span class="itemtitle"><a href="http://arxiv.org/abs/2004.03434">Learning to fool the speaker recognition. (arXiv:2004.03434v1 [eess.AS])</a></span>
 <span class="itemfrom">[<a href="http://arxiv.org/">cs.CR updates on arXiv.org</a>]</span>
 </p>
 <div class="itemdescription">
-<p>This article discusses a fixed critical security bug in Google Tink's Ed25519
-Java implementation. The bug allows remote attackers to extract the private key
-with only two Ed25519 signatures. The vulnerability comes from the
-misunderstanding of what "final" in Java programming language means. The bug
-was discovered during security review before Google Tink was officially
-released. It reinforces the challenge in writing safe cryptographic code and
-the importance of the security review process even for the code written by
-professional cryptographers.
+<p>Due to the widespread deployment of fingerprint/face/speaker recognition
+systems, attacking deep learning based biometric systems has drawn more and
+more attention. Previous research mainly studied the attack to the vision-based
+system, such as fingerprint and face recognition. While the attack for speaker
+recognition has not been investigated yet, although it has been widely used in
+our daily life. In this paper, we attempt to fool the state-of-the-art speaker
+recognition model and present \textit{speaker recognition attacker}, a
+lightweight model to fool the deep speaker recognition model by adding
+imperceptible perturbations onto the raw speech waveform. We find that the
+speaker recognition system is also vulnerable to the attack, and we achieve a
+high success rate on the non-targeted attack. Besides, we also present an
+effective method to optimize the speaker recognition attacker to obtain a
+trade-off between the attack success rate with the perceptual quality.
+Experiments on the TIMIT dataset show that we can achieve a sentence error rate
+of $99.2\%$ with an average SNR $57.2\text{dB}$ and PESQ 4.2 with speed rather
+faster than real-time.
 </p>
 </div>
 </div>
 
-<div class="item feed-1b28272e feed-cscrupdatesonarxivorg" id="item-2c2478b6">
+<div class="item feed-1b28272e feed-cscrupdatesonarxivorg" id="item-098d0363">
 <p class="itemheader">
-<span class="itemtitle"><a href="http://arxiv.org/abs/1908.01551">Imperio: Robust Over-the-Air Adversarial Examples for Automatic Speech Recognition Systems. (arXiv:1908.01551v4 [cs.CR] UPDATED)</a></span>
+<span class="itemtitle"><a href="http://arxiv.org/abs/1305.4063">Group ring cryptography II: Cryptography, key exchange, public key. (arXiv:1305.4063v2 [cs.CR] UPDATED)</a></span>
 <span class="itemfrom">[<a href="http://arxiv.org/">cs.CR updates on arXiv.org</a>]</span>
 </p>
 <div class="itemdescription">
-<p>Automatic speech recognition (ASR) systems can be fooled via targeted
-adversarial examples, which induce the ASR to produce arbitrary transcriptions
-in response to altered audio signals. However, state-of-the-art adversarial
-examples typically have to be fed into the ASR system directly, and are not
-successful when played in a room. The few published over-the-air adversarial
-examples fall into one of three categories: they are either handcrafted
-examples, they are so conspicuous that human listeners can easily recognize the
-target transcription once they are alerted to its content, or they require
-precise information about the room where the attack takes place, and are hence
-not transferable to other rooms. In this paper, we demonstrate the first
-algorithm that produces generic adversarial examples, which remain robust in an
-over-the-air attack that is not adapted to the specific environment. Hence, no
-prior knowledge of the room characteristics is required. Instead, we use room
-impulse responses (RIRs) to compute robust adversarial examples for arbitrary
-room characteristics and employ the ASR system Kaldi to demonstrate the attack.
-Further, our algorithm can utilize psychoacoustic methods to hide changes of
-the original audio signal below the human thresholds of hearing. In practical
-experiments, we show that the adversarial examples work for varying room
-setups, and that no direct line-of-sight between speaker and microphone is
-necessary. As a result, an attacker can create inconspicuous adversarial
-examples for any target transcription and apply these to arbitrary room setups
-without any prior knowledge.
+<p>General cryptographic schemes are presented where keys can be one-time or
+ephemeral. Processes for key exchange are derived. Public key cryptographic
+schemes based on the new systems are easily established. Authentication and
+signature schemes are implemented. The schemes are an advance on group ring
+techniques and are easily implemented but highly secure. They may be integrated
+with error-correcting coding schemes so that encryption/coding and
+decryption/decoding may be done simultaneously.
 </p>
 </div>
 </div>
 
-<div class="item feed-1b28272e feed-cscrupdatesonarxivorg" id="item-17652145">
+<div class="item feed-1b28272e feed-cscrupdatesonarxivorg" id="item-50fef7ce">
 <p class="itemheader">
-<span class="itemtitle"><a href="http://arxiv.org/abs/1910.06261">Real-world adversarial attack on MTCNN face detection system. (arXiv:1910.06261v2 [cs.CV] UPDATED)</a></span>
+<span class="itemtitle"><a href="http://arxiv.org/abs/1911.11815">Local Model Poisoning Attacks to Byzantine-Robust Federated Learning. (arXiv:1911.11815v2 [cs.CR] UPDATED)</a></span>
 <span class="itemfrom">[<a href="http://arxiv.org/">cs.CR updates on arXiv.org</a>]</span>
 </p>
 <div class="itemdescription">
-<p>Recent studies proved that deep learning approaches achieve remarkable
-results on face detection task. On the other hand, the advances gave rise to a
-new problem associated with the security of the deep convolutional neural
-network models unveiling potential risks of DCNNs based applications. Even
-minor input changes in the digital domain can result in the network being
-fooled. It was shown then that some deep learning-based face detectors are
-prone to adversarial attacks not only in a digital domain but also in the real
-world. In the paper, we investigate the security of the well-known cascade CNN
-face detection system - MTCNN and introduce an easily reproducible and a robust
-way to attack it. We propose different face attributes printed on an ordinary
-white and black printer and attached either to the medical face mask or to the
-face directly. Our approach is capable of breaking the MTCNN detector in a
-real-world scenario.
+<p>In federated learning, multiple client devices jointly learn a machine
+learning model: each client device maintains a local model for its local
+training dataset, while a master device maintains a global model via
+aggregating the local models from the client devices. The machine learning
+community recently proposed several federated learning methods that were
+claimed to be robust against Byzantine failures (e.g., system failures,
+adversarial manipulations) of certain client devices. In this work, we perform
+the first systematic study on local model poisoning attacks to federated
+learning. We assume an attacker has compromised some client devices, and the
+attacker manipulates the local model parameters on the compromised client
+devices during the learning process such that the global model has a large
+testing error rate. We formulate our attacks as optimization problems and apply
+our attacks to four recent Byzantine-robust federated learning methods. Our
+empirical results on four real-world datasets show that our attacks can
+substantially increase the error rates of the models learnt by the federated
+learning methods that were claimed to be robust against Byzantine failures of
+some client devices. We generalize two defenses for data poisoning attacks to
+defend against our local model poisoning attacks. Our evaluation results show
+that one defense can effectively defend against our attacks in some cases, but
+the defenses are not effective enough in other cases, highlighting the need for
+new defenses against our local model poisoning attacks to federated learning.
 </p>
 </div>
 </div>
 
-<div class="item feed-1b28272e feed-cscrupdatesonarxivorg" id="item-64f3b08d">
+<div class="item feed-1b28272e feed-cscrupdatesonarxivorg" id="item-987de20c">
 <p class="itemheader">
-<span class="itemtitle"><a href="http://arxiv.org/abs/2003.10560">Attract More Miners to Join in Blochchain Construction for Internet of Things. (arXiv:2003.10560v2 [cs.CR] UPDATED)</a></span>
+<span class="itemtitle"><a href="http://arxiv.org/abs/2002.03080">An Empirical Evaluation of Perturbation-based Defenses. (arXiv:2002.03080v3 [cs.LG] UPDATED)</a></span>
 <span class="itemfrom">[<a href="http://arxiv.org/">cs.CR updates on arXiv.org</a>]</span>
 </p>
 <div class="itemdescription">
-<p>The world-changing blockchain technique provides a novel method to establish
-a secure, trusted and decentralized system for solving the security and
-personal privacy problems in Industrial Internet of Things (IIoT) applications.
-The mining process in blockchain requires miners to solve a proof-of-work
-puzzle, which requires high computational power. However, the lightweight IIoT
-devices cannot directly participate in the mining process due to the limitation
-of power and computational resources. The edge computing service makes it
-possible for IIoT applications to build a blockchain network, in which IIoT
-devices purchase computational resources from edge servers and thus can offload
-their computational tasks. The amount of computational resource purchased by
-IIoT devices depends on how many profits they can get in the mining process,
-and will directly affect the security of the blockchain network. In this paper,
-we investigate the incentive mechanism for the blockchain platform to attract
-IIoT devices to purchase more computational power from edge servers to
-participate in the mining process, thereby building a more secure blockchain
-network. We model the interaction between the blockchain platform and IIoT
-devices as a two-stage Stackelberg game, where the blockchain platform act as
-the leader, and IIoT devices act as followers. We analyze the existence and
-uniqueness of the Stackelberg equilibrium, and propose an efficient algorithm
-to compute the Stackelberg equilibrium point. Furthermore, we evaluate the
-performance of our algorithm through extensive simulations, and analyze the
-strategies of blockchain platform and IIoT devices under different situations.
+<p>Recent work has extensively shown that randomized perturbations of a neural
+network can improve its robustness to adversarial attacks. The literature is,
+however, lacking a detailed compare-and-contrast of the latest proposals to
+understand what classes of perturbations work, when they work, and why they
+work. We contribute a detailed experimental evaluation that elucidates these
+questions and benchmarks perturbation defenses in a consistent way. In
+particular, we show five main results: (1) all input perturbation defenses,
+whether random or deterministic, are essentially equivalent in their efficacy,
+(2) such defenses offer almost no robustness to adaptive attacks unless these
+perturbations are observed during training, (3) a tuned sequence of noise
+layers across a network provides the best empirical robustness, (4) attacks
+transfer between perturbation defenses so the attackers need not know the
+specific type of defense only that it involves perturbations, and (5)
+adversarial examples very close to original images show an elevated sensitivity
+to perturbation in a first-order analysis. Based on these insights, we
+demonstrate a new robust model built on noise injection and adversarial
+training that achieves state-of-the-art robustness.
 </p>
 </div>
 </div>
 
-<div class="item feed-63a85565 feed-eurekalertbreakingnews" id="item-c138755e">
+<div class="item feed-6b3f78ad feed-latestbmjresearch" id="item-af4c5df9">
 <p class="itemheader">
-<span class="itemtitle"><a href="https://www.eurekalert.org/pub_releases/2020-04/suot-tfh040620.php">The four horsemen of the COVID-19 pandemic</a></span>
+<span class="itemtitle"><a href="http://feeds.bmj.com/~r/bmj/research/~3/DGY4HxrudHM/bmj.m1328">Prediction models for diagnosis and prognosis of covid-19 infection: systematic review and critical appraisal</a></span>
+<span class="itemfrom">[<a href="https://www.bmj.com/research/feed">Latest BMJ Research</a>]</span>
+</p>
+<div class="itemdescription">
+<div class="feedflare">
+<a href="http://feeds.bmj.com/~ff/bmj/research?a=DGY4HxrudHM:R_g0G_t7jFQ:yIl2AUoC8zA"><img border="0" src="http://feeds.feedburner.com/~ff/bmj/research?d=yIl2AUoC8zA" /></a> <a href="http://feeds.bmj.com/~ff/bmj/research?a=DGY4HxrudHM:R_g0G_t7jFQ:dnMXMwOfBR0"><img border="0" src="http://feeds.feedburner.com/~ff/bmj/research?d=dnMXMwOfBR0" /></a> <a href="http://feeds.bmj.com/~ff/bmj/research?a=DGY4HxrudHM:R_g0G_t7jFQ:F7zBnMyn0Lo"><img border="0" src="http://feeds.feedburner.com/~ff/bmj/research?i=DGY4HxrudHM:R_g0G_t7jFQ:F7zBnMyn0Lo" /></a> <a href="http://feeds.bmj.com/~ff/bmj/research?a=DGY4HxrudHM:R_g0G_t7jFQ:V_sGLiPBpWU"><img border="0" src="http://feeds.feedburner.com/~ff/bmj/research?i=DGY4HxrudHM:R_g0G_t7jFQ:V_sGLiPBpWU" /></a> <a href="http://feeds.bmj.com/~ff/bmj/research?a=DGY4HxrudHM:R_g0G_t7jFQ:qj6IDK7rITs"><img border="0" src="http://feeds.feedburner.com/~ff/bmj/research?d=qj6IDK7rITs" /></a> <a href="http://feeds.bmj.com/~ff/bmj/research?a=DGY4HxrudHM:R_g0G_t7jFQ:gIN9vFwOqvQ"><img border="0" src="http://feeds.feedburner.com/~ff/bmj/research?i=DGY4HxrudHM:R_g0G_t7jFQ:gIN9vFwOqvQ" /></a>
+</div><img alt="" height="1" src="http://feeds.feedburner.com/~r/bmj/research/~4/DGY4HxrudHM" width="1" />
+</div>
+</div>
+
+<div class="item feed-ed41d94f feed-jamacurrentissue" id="item-eeb9d992">
+<p class="itemheader">
+<span class="itemtitle"><a href="https://jamanetwork.com/journals/jama/fullarticle/2764183">Screening for Bacterial Vaginosis During Pregnancy</a></span>
+<span class="itemfrom">[<a href="https://jamanetwork.com/journals/jama">JAMA Current Issue</a>]</span>
+</p>
+<div class="itemdescription">
+<p>This JAMA Patient Page describes the US Preventive Services Task Force&#8217;s recent recommendations for screening for bacterial vaginosis during pregnancy.
+</div>
+</div>
+
+<div class="item feed-ed41d94f feed-jamacurrentissue" id="item-51fb0584">
+<p class="itemheader">
+<span class="itemtitle"><a href="https://jamanetwork.com/journals/jama/fullarticle/2764168">Boxed Warning for Allergy Drug</a></span>
+<span class="itemfrom">[<a href="https://jamanetwork.com/journals/jama">JAMA Current Issue</a>]</span>
+</p>
+<div class="itemdescription">
+<p>The FDA is requiring that the allergy and asthma medication montelukast carry a boxed warning&#8212;its most prominent type of alert&#8212;to caution consumers and clinicians about the risk of neuropsychiatric events associated with the drug. Montelukast is marketed as Singulair and in generic form.
+</div>
+</div>
+
+<div class="item feed-ed41d94f feed-jamacurrentissue" id="item-38d11cc6">
+<p class="itemheader">
+<span class="itemtitle"><a href="https://jamanetwork.com/journals/jama/fullarticle/2764164">Treatment for Advanced Soft Tissue Sarcoma</a></span>
+<span class="itemfrom">[<a href="https://jamanetwork.com/journals/jama">JAMA Current Issue</a>]</span>
+</p>
+<div class="itemdescription">
+<p>The treatment of soft tissue sarcomas (STSs), which encompass a group of more than 70 histologically and biologically distinct subtypes of cancer, is emblematic of an orphan disease. About 13&#8239;000 patients are diagnosed as having STS in the United States every year, survival rates are poor and have not changed in the last 40 years, and there is little funding to support scientific discovery of disease biology to improve treatment regimens. Clinical presentation and prognosis are influenced not only by the extent of disease and histological subtypes, but by tumor location as well. There is a significant unmet need for improved systemic therapies in the treatment of patients with STS.
+</div>
+</div>
+
+<div class="item feed-ed41d94f feed-jamacurrentissue" id="item-579ab320">
+<p class="itemheader">
+<span class="itemtitle"><a href="https://jamanetwork.com/journals/jama/fullarticle/2764163">USPSTF 2020 Recommendations on Screening for Asymptomatic Bacterial Vaginosis in Pregnancy</a></span>
+<span class="itemfrom">[<a href="https://jamanetwork.com/journals/jama">JAMA Current Issue</a>]</span>
+</p>
+<div class="itemdescription">
+<p>Bacterial vaginosis during pregnancy is associated with higher risks of pregnancy complications, including preterm birth, whether or not symptoms are reported. Bacterial vaginosis is currently considered to be a microbial imbalance of the lower genital tract characterized by low levels of &#8220;healthy&#8221; Lactobacillus and overgrowth of a mixed population of other bacterial genera, including Gardnerella, Atopobium, Prevotella, Mobiluncus, Sneathia, and other taxa. Many of these microbes are also common isolates from sites of intrauterine infection, including the placenta and amniotic fluid. These findings have motivated investigators to conduct clinical trials to examine the potential benefits and harms associated with screening and treatment of asymptomatic bacterial vaginosis in pregnant women, either applied to a general obstetric population or targeting women at increased risk for preterm delivery, such as those with prior preterm birth. This is particularly important in light of growing concerns about the effects of antibiotic use on long-term maternal and child health because of effects on their microbiomes.
+</div>
+</div>
+
+<div class="item feed-ed41d94f feed-jamacurrentissue" id="item-f8e59990">
+<p class="itemheader">
+<span class="itemtitle"><a href="https://jamanetwork.com/journals/jama/fullarticle/2764160">Incorrect Affiliation</a></span>
+<span class="itemfrom">[<a href="https://jamanetwork.com/journals/jama">JAMA Current Issue</a>]</span>
+</p>
+<div class="itemdescription">
+<p>In the Original Investigation titled &#8220;Association of Initial Disease-Modifying Therapy With Later Conversion to Secondary Progressive Multiple Sclerosis,&#8221; published in the January 15, 2019, issue of JAMA, the institutional affiliation for Dr Lugaresi was incorrectly presented. This article was corrected online.
+</div>
+</div>
+
+<div class="item feed-63a85565 feed-eurekalertbreakingnews" id="item-141e49b1">
+<p class="itemheader">
+<span class="itemtitle"><a href="https://www.eurekalert.org/pub_releases/2020-04/ohs-nts040720.php">Novel treatment, social services program improves outcomes for opioid-dependent mothers</a></span>
 <span class="itemfrom">[<a href="http://www.eurekalert.org">EurekAlert! - Breaking News</a>]</span>
 </p>
 <div class="itemdescription">
-<p>It is clear that we must prioritize identifying and alleviating the conditions that made the Covid-19 pandemic possible. Even as it rages, scientists are already asking if it is more than just a virus, but rather a symptom emerging from something much deeper, a nonlinear dynamical system of coupled pathologies underlying a veneer of 'progress' in an increasingly fragile, volatile, hyperconnected world.
+<p>A new study published in the April issue of the journal Health Affairs says that, since its inception, Project Nurture has helped to reduce the necessary placement of children in foster care by more than 8 percentage points. The rate of reported maltreatment within the child's first year of life also declined by approximately 7 percentage points.
 </div>
 </div>
 
-<div class="item feed-63a85565 feed-eurekalertbreakingnews" id="item-81b25c4d">
+<div class="item feed-63a85565 feed-eurekalertbreakingnews" id="item-9912fe2c">
 <p class="itemheader">
-<span class="itemtitle"><a href="https://www.eurekalert.org/pub_releases/2020-04/asoh-cst040220.php">Case study: Treating COVID-19 in a patient with multiple myeloma</a></span>
+<span class="itemtitle"><a href="https://www.eurekalert.org/pub_releases/2020-04/asoa-bab040320.php">Building a bean that resists leafhoppers</a></span>
 <span class="itemfrom">[<a href="http://www.eurekalert.org">EurekAlert! - Breaking News</a>]</span>
 </p>
 <div class="itemdescription">
-<p>A case study of a patient in Wuhan, China, suggests that the immunosuppressant tocilizumab may be an effective COVID-19 treatment for very ill patients who also have multiple myeloma and other blood cancers. The report, published in Blood Advances, also suggests that blood cancer patients may have atypical COVID-19 symptoms.
+<p>Promising new pinto bean released with increased leafhopper resistance.
+</div>
+</div>
+
+<div class="item feed-63a85565 feed-eurekalertbreakingnews" id="item-a384a2f1">
+<p class="itemheader">
+<span class="itemtitle"><a href="https://www.eurekalert.org/pub_releases/2020-04/aps-wtr040720.php">Wild tomato resistance to bacterial canker has implications for commercial tomato industry</a></span>
+<span class="itemfrom">[<a href="http://www.eurekalert.org">EurekAlert! - Breaking News</a>]</span>
+</p>
+<div class="itemdescription">
+<p>Bacterial canker is caused by the pathogen Clavibacter michiganensis, which infects commercially bred tomatoes by colonizing the xylem, a series of tubes that transports water and minerals throughout the plant. There are no commercially available tomatoes resistant to bacterial canker and management options are limited. However, breeders have known that wild tomato species are less susceptible to bacterial canker, but this knowledge is limited.
+</div>
+</div>
+
+<div class="item feed-63a85565 feed-eurekalertbreakingnews" id="item-e612682b">
+<p class="itemheader">
+<span class="itemtitle"><a href="https://www.eurekalert.org/pub_releases/2020-04/ku-riw040720.php">Repetitive irradiation with 222nm UVC shown to be non-carcinogenic and safe for sterilizing human skin</a></span>
+<span class="itemfrom">[<a href="http://www.eurekalert.org">EurekAlert! - Breaking News</a>]</span>
+</p>
+<div class="itemdescription">
+<p>Joint research between Kobe University and Ushio Inc. has provided proof for the first time in the world that direct and repetitive illumination from 222nm ultraviolet radiation C (UVC), which is a powerful sterilizer, does not cause skin cancer. This suggests that 222nm UVC is also safe for human eyes and skin. This could allow germicidal lamps to be shone directly on people's skin, enabling a wide range of antiviral and antibacterial applications in both medical fields and daily life.
+</div>
+</div>
+
+<div class="item feed-63a85565 feed-eurekalertbreakingnews" id="item-cd5b6daf">
+<p class="itemheader">
+<span class="itemtitle"><a href="https://www.eurekalert.org/pub_releases/2020-04/ki-npi040720.php">New practices improved stroke care</a></span>
+<span class="itemfrom">[<a href="http://www.eurekalert.org">EurekAlert! - Breaking News</a>]</span>
+</p>
+<div class="itemdescription">
+<p>A new method of evaluating and prioritising treatment for patients with suspected acute stroke, which has been used by the Stockholm health authority since 2017, has led to faster health interventions and better patient care, shows a new study from Karolinska Institutet published in the journal JAMA Neurology.
 </div>
 </div>
 
@@ -187,13 +296,13 @@ strategies of blockchain platform and IIoT devices under different situations.
 </div>
 </div>
 
-<div class="item feed-53ba08d1 feed-natureissuenaturecomsciencefeeds" id="item-1f703f40">
+<div class="item feed-53ba08d1 feed-natureissuenaturecomsciencefeeds" id="item-fea0a8a7">
 <p class="itemheader">
-<span class="itemtitle"><a href="http://feeds.nature.com/~r/nature/rss/current/~3/LGQXGpT0WVU/d41586-020-01003-6">Special report: The simulations driving the world&#8217;s response to COVID-19</a></span>
+<span class="itemtitle"><a href="http://feeds.nature.com/~r/nature/rss/current/~3/veGZ7db5Lgw/s41586-020-2207-y">Publisher Correction: Z-nucleic-acid sensing triggers ZBP1-dependent necroptosis and inflammation</a></span>
 <span class="itemfrom">[<a href="http://feeds.nature.com/nature/rss/current">Nature - Issue - nature.com science feeds</a>]</span>
 </p>
 <div class="itemdescription">
-<p>Nature, Published online: 02 April 2020; <a href="https://www.nature.com/articles/d41586-020-01003-6">doi:10.1038/d41586-020-01003-6</a></p>How epidemiologists rushed to model the coronavirus pandemic.<img alt="" height="1" src="http://feeds.feedburner.com/~r/nature/rss/current/~4/LGQXGpT0WVU" width="1" />
+<p>Nature, Published online: 03 April 2020; <a href="https://www.nature.com/articles/s41586-020-2207-y">doi:10.1038/s41586-020-2207-y</a></p>Publisher Correction: Z-nucleic-acid sensing triggers ZBP1-dependent necroptosis and inflammation<img alt="" height="1" src="http://feeds.feedburner.com/~r/nature/rss/current/~4/veGZ7db5Lgw" width="1" />
 </div>
 </div>
 
@@ -257,36 +366,6 @@ strategies of blockchain platform and IIoT devices under different situations.
 </div>
 </div>
 
-<div class="item feed-63a85565 feed-eurekalertbreakingnews" id="item-30069dd0">
-<p class="itemheader">
-<span class="itemtitle"><a href="https://www.eurekalert.org/pub_releases/2020-04/vt-ssh040220.php">Scientists show how parasitic infection causes seizures, psychiatric illness for some</a></span>
-<span class="itemfrom">[<a href="http://www.eurekalert.org">EurekAlert! - Breaking News</a>]</span>
-</p>
-<div class="itemdescription">
-<p>In a new study published in GLIA , Virginia Tech neuroscientists at the Fralin Biomedical Research Institute at VTC describe how the common Toxoplasma gondii parasite prompts the loss of inhibitory signaling in the brain by altering the behavior of nearby cells called microglia.
-</div>
-</div>
-
-<div class="item feed-63a85565 feed-eurekalertbreakingnews" id="item-b0a59b9d">
-<p class="itemheader">
-<span class="itemtitle"><a href="https://www.eurekalert.org/pub_releases/2020-04/asu-wts040220.php">When three species of human ancestor walked the Earth</a></span>
-<span class="itemfrom">[<a href="http://www.eurekalert.org">EurekAlert! - Breaking News</a>]</span>
-</p>
-<div class="itemdescription">
-<p>In a paper published this week in Science, an international team of  scientists share details of the most ancient fossil of Homo erectus known and discuss how these new findings are forcing us to rewrite a part of our species' evolutionary history.
-</div>
-</div>
-
-<div class="item feed-63a85565 feed-eurekalertbreakingnews" id="item-553282cc">
-<p class="itemheader">
-<span class="itemtitle"><a href="https://www.eurekalert.org/pub_releases/2020-04/dnal-anw040220.php">A new way to fine-tune exotic materials: Thin, stretch and clamp</a></span>
-<span class="itemfrom">[<a href="http://www.eurekalert.org">EurekAlert! - Breaking News</a>]</span>
-</p>
-<div class="itemdescription">
-<p>Turning a brittle oxide into a flexible membrane and stretching it on a tiny apparatus flipped it from a conducting to an insulating state and changed its magnetic properties. The technique can be used to study and design a broad range of materials for use in things like sensors and detectors.
-</div>
-</div>
-
 </div>
 </div>
 <div class="day">
@@ -300,6 +379,26 @@ strategies of blockchain platform and IIoT devices under different situations.
 </p>
 <div class="itemdescription">
 <p>Cortisol, a key product of the stress response, has critical influences on degenerative aging in humans. In turn, cortisol production is affected by senescence of the hypothalamic&#8211;pituitary&#8211;adrenal (HPA) axis, leading to progressive dysregulation and increased cortisol exposure. These processes have been studied extensively in industrialized settings, but few comparative data...<img alt="" height="1" src="http://feeds.feedburner.com/~r/Pnas-RssFeedOfEarlyEditionArticles/~4/-Kk0861jBJ8" width="1" />
+</div>
+</div>
+
+<div class="item feed-b93c25e9 feed-earlyedition" id="item-9dc6165f">
+<p class="itemheader">
+<span class="itemtitle"><a href="http://feedproxy.google.com/~r/Pnas-RssFeedOfEarlyEditionArticles/~3/AW-YLZbnPF8/1913242117.short">In silico design and validation of high-affinity RNA aptamers targeting epithelial cellular adhesion molecule dimers [Chemistry]</a></span>
+<span class="itemfrom">[<a href="http://www.pnas.org">Early Edition</a>]</span>
+</p>
+<div class="itemdescription">
+<p>Nucleic acid aptamers hold great promise for therapeutic applications due to their favorable intrinsic properties, as well as high-throughput experimental selection techniques. Despite the utility of the systematic evolution of ligands by the exponential enrichment (SELEX) method for aptamer determination, complementary in silico aptamer design is highly sought after to...<img alt="" height="1" src="http://feeds.feedburner.com/~r/Pnas-RssFeedOfEarlyEditionArticles/~4/AW-YLZbnPF8" width="1" />
+</div>
+</div>
+
+<div class="item feed-b93c25e9 feed-earlyedition" id="item-57c1ffd6">
+<p class="itemheader">
+<span class="itemtitle"><a href="http://feedproxy.google.com/~r/Pnas-RssFeedOfEarlyEditionArticles/~3/HWyBtiuHDzg/1920062117.short">Connectivity and plasticity determine collagen network fracture [Biophysics and Computational Biology]</a></span>
+<span class="itemfrom">[<a href="http://www.pnas.org">Early Edition</a>]</span>
+</p>
+<div class="itemdescription">
+<p>Collagen forms the structural scaffold of connective tissues in all mammals. Tissues are remarkably resistant against mechanical deformations because collagen molecules hierarchically self-assemble in fibrous networks that stiffen with increasing strain. Nevertheless, collagen networks do fracture when tissues are overloaded or subject to pathological conditions such as aneurysms. Prior studies...<img alt="" height="1" src="http://feeds.feedburner.com/~r/Pnas-RssFeedOfEarlyEditionArticles/~4/HWyBtiuHDzg" width="1" />
 </div>
 </div>
 
@@ -332,7 +431,7 @@ strategies of blockchain platform and IIoT devices under different situations.
 <div class="item feed-6b3f78ad feed-latestbmjresearch" id="item-0b71023a">
 <p class="itemheader">
 <span class="itemtitle"><a href="http://feeds.bmj.com/~r/bmj/research/~3/XvlyXkOpf0E/bmj.m1091">Clinical characteristics of 113 deceased patients with coronavirus disease 2019: retrospective study</a></span>
-<span class="itemfrom">[<a href="https://www.bmj.com/us/research/feed/206299">Latest BMJ Research</a>]</span>
+<span class="itemfrom">[<a href="https://www.bmj.com/research/feed">Latest BMJ Research</a>]</span>
 </p>
 <div class="itemdescription">
 <div class="feedflare">
@@ -344,7 +443,7 @@ strategies of blockchain platform and IIoT devices under different situations.
 <div class="item feed-6b3f78ad feed-latestbmjresearch" id="item-bf50932c">
 <p class="itemheader">
 <span class="itemtitle"><a href="http://feeds.bmj.com/~r/bmj/research/~3/8Ajn5zjSS6c/bmj.m697">Manual acupuncture versus sham acupuncture and usual care for prophylaxis of episodic migraine without aura: multicentre, randomised clinical trial</a></span>
-<span class="itemfrom">[<a href="https://www.bmj.com/us/research/feed/206299">Latest BMJ Research</a>]</span>
+<span class="itemfrom">[<a href="https://www.bmj.com/research/feed">Latest BMJ Research</a>]</span>
 </p>
 <div class="itemdescription">
 <div class="feedflare">
@@ -353,13 +452,13 @@ strategies of blockchain platform and IIoT devices under different situations.
 </div>
 </div>
 
-<div class="item feed-b93c25e9 feed-earlyedition" id="item-641a65bb">
+<div class="item feed-b93c25e9 feed-earlyedition" id="item-66c5d2e6">
 <p class="itemheader">
-<span class="itemtitle"><a href="http://feedproxy.google.com/~r/Pnas-RssFeedOfEarlyEditionArticles/~3/nWobXPWPFjE/1918607117.short">Oncogenic human herpesvirus hijacks proline metabolism for tumorigenesis [Microbiology]</a></span>
+<span class="itemtitle"><a href="http://feedproxy.google.com/~r/Pnas-RssFeedOfEarlyEditionArticles/~3/CRhNIHM8tN4/1916249117.short">Dicer up-regulation by inhibition of specific proteolysis in differentiating monocytic cells [Immunology and Inflammation]</a></span>
 <span class="itemfrom">[<a href="http://www.pnas.org">Early Edition</a>]</span>
 </p>
 <div class="itemdescription">
-<p>Three-dimensional (3D) cell culture is well documented to regain intrinsic metabolic properties and to better mimic the in vivo situation than two-dimensional (2D) cell culture. Particularly, proline metabolism is critical for tumorigenesis since pyrroline-5-carboxylate (P5C) reductase (PYCR/P5CR) is highly expressed in various tumors and its enzymatic activity is essential for...<img alt="" height="1" src="http://feeds.feedburner.com/~r/Pnas-RssFeedOfEarlyEditionArticles/~4/nWobXPWPFjE" width="1" />
+<p>Dicer is a ribonuclease III enzyme in biosynthesis of micro-RNAs (miRNAs). Here we describe a regulation of Dicer expression in monocytic cells, based on proteolysis. In undifferentiated Mono Mac 6 (MM6) cells, full-length Dicer was undetectable; only an &#8764;50-kDa fragment appeared in Western blots. However, when MM6 cells were treated...<img alt="" height="1" src="http://feeds.feedburner.com/~r/Pnas-RssFeedOfEarlyEditionArticles/~4/CRhNIHM8tN4" width="1" />
 </div>
 </div>
 
@@ -434,6 +533,16 @@ s vital for joint frequency assignment and scheduling in multihop industrial CR 
 </div>
 </div>
 
+<div class="item feed-ccdce26d feed-ieeetransactionsonindustrialinformaticsnewtoc" id="item-cbe89cb6">
+<p class="itemheader">
+<span class="itemtitle"><a href="http://ieeexplore.ieee.org/document/8840875">Obstacle Avoidance and Tracking Control of Redundant Robotic Manipulator: An RNN-Based Metaheuristic Approach</a></span>
+<span class="itemfrom">[<a href="http://ieeexplore.ieee.org">IEEE Transactions on Industrial Informatics - new TOC</a>]</span>
+</p>
+<div class="itemdescription">
+<p>In this article, we present a metaheuristic-based control framework, called beetle antennae olfactory recurrent neural network, for simultaneous tracking control and obstacle avoidance of a redundant manipulator. The ability to avoid obstacles while tracking a predefined reference path is critical for any industrial manipulator. The formulated control framework unifies the tracking control and obstacle avoidance into a single constrained optimization problem by introducing a penalty term into the objective function, which actively rewards the optimizer for avoiding the obstacles. One of the significant features of the proposed framework is the way that the penalty term is formulated following a straightforward principle: maximize the minimum distance between a manipulator and an obstacle. The distance calculations are based on Gilbert&#x2013;Johnson&#x2013;Keerthi algorithm, which calculates the distance between a manipulator and an obstacle by directly using their three-dimensional geometries, which also implies that our algorithm works for a manipulator and an arbitrarily shaped obstacle. Theoretical treatment proves the stability and convergence, and simulations results using an LBR IIWA seven-DOF manipulator are presented to analyze the performance of the proposed framework.
+</div>
+</div>
+
 <div class="item feed-ccdce26d feed-ieeetransactionsonindustrialinformaticsnewtoc" id="item-8727c7e8">
 <p class="itemheader">
 <span class="itemtitle"><a href="http://ieeexplore.ieee.org/document/8891795">A Code-Oriented Partitioning Computation Offloading Strategy for Multiple Users and Multiple Mobile Edge Computing Servers</a></span>
@@ -452,90 +561,6 @@ s vital for joint frequency assignment and scheduling in multihop industrial CR 
 <div class="itemdescription">
 <p>In this article, we consider the security problem for the consensus-based distributed state estimation. To resist the malicious attacker who can falsify the data transmitted through the wireless channel, each node equips with an attack defender, which is based on the measurement of its built-in sensor. Under the stealthy attack, which can deceive the defender, we investigate the resilience and convergence of the distributed estimation in two different attack scenarios. For the attack with enough communication resources, we provide a sufficient condition of the optimal attack to quantify the maximum estimation performance degradation. We also analyze the resilience of the worst case distributed estimation caused by the attacker. For the attack with limited resources, the optimal Kalman gain for each node is derived to maximize its estimation performance under the attack. We also give a sufficient condition to guarantee the convergence of the distributed estimation in this case. Finally, numerical simulations are provided to illustrate the effect of the defender on guaranteeing the resilience of sensor networks against attacks.
 </div>
-</div>
-
-<div class="item feed-ccdce26d feed-ieeetransactionsonindustrialinformaticsnewtoc" id="item-22a5d898">
-<p class="itemheader">
-<span class="itemtitle"><a href="http://ieeexplore.ieee.org/document/8822712">Resilient RMPC for Cyber-Physical Systems With Polytopic Uncertainties and State Saturation Under TOD Scheduling: An ADT Approach</a></span>
-<span class="itemfrom">[<a href="http://ieeexplore.ieee.org">IEEE Transactions on Industrial Informatics - new TOC</a>]</span>
-</p>
-<div class="itemdescription">
-<p>This article presents a resilient robust model predictive control (RMPC) strategy for cyber-physical systems (CPSs) with polytopic uncertainties and state saturation nonlinearities under the try-once-discard (TOD) scheduling. To reduce the transmission burden, a so-called TOD protocol is adopted to schedule the nodes. The objective of the addressed problem is to design a set of resilient RMPC controllers such that, in the simultaneous presence of polytopic uncertainties and state saturations under the TOD protocol, the resilience, robustness, and exponential stability are guaranteed for the underlying CPSs. With the help of TOD-dependent Lyapunov-like function, and the average dwell-time (ADT) approach, sufficient conditions are obtained to guarantee the recursive feasibility of the proposed resilient RMPC approach and the exponential stability of the closed-loop system. Finally, two examples including a high-purity distillation process and a numerical simulation are used to demonstrate the effectiveness of the proposed methods.
-</div>
-</div>
-
-</div>
-</div>
-<div class="day">
-<h2>Wednesday, 25 March 2020</h2>
-<div class="time">
-<h3>04:00 PM</h3>
-<div class="item feed-b93c25e9 feed-earlyedition" id="item-760f15fa">
-<p class="itemheader">
-<span class="itemtitle"><a href="http://feedproxy.google.com/~r/Pnas-RssFeedOfEarlyEditionArticles/~3/oP6Yv4QPY3o/1921619117.short">Host membrane lipids are trafficked to membranes of intravacuolar bacterium Ehrlichia chaffeensis [Microbiology]</a></span>
-<span class="itemfrom">[<a href="http://www.pnas.org">Early Edition</a>]</span>
-</p>
-<div class="itemdescription">
-<p>Ehrlichia chaffeensis, a cholesterol-rich and cholesterol-dependent obligate intracellular bacterium, partially lacks genes for glycerophospholipid biosynthesis. We found here that E. chaffeensis is dependent on host glycerolipid biosynthesis, as an inhibitor of host long-chain acyl CoA synthetases, key enzymes for glycerolipid biosynthesis, significantly reduced bacterial proliferation. E. chaffeensis cannot synthesize phosphatidylcholine...<img alt="" height="1" src="http://feeds.feedburner.com/~r/Pnas-RssFeedOfEarlyEditionArticles/~4/oP6Yv4QPY3o" width="1" />
-</div>
-</div>
-
-<div class="item feed-b93c25e9 feed-earlyedition" id="item-30e07680">
-<p class="itemheader">
-<span class="itemtitle"><a href="http://feedproxy.google.com/~r/Pnas-RssFeedOfEarlyEditionArticles/~3/Kf9tV29zcN4/1919485117.short">The impact of long-range dispersal on gene surfing [Evolution]</a></span>
-<span class="itemfrom">[<a href="http://www.pnas.org">Early Edition</a>]</span>
-</p>
-<div class="itemdescription">
-<p>Range expansions lead to distinctive patterns of genetic variation in populations, even in the absence of selection. These patterns and their genetic consequences have been well studied for populations advancing through successive short-ranged migration events. However, most populations harbor some degree of long-range dispersal, experiencing rare yet consequential migration events...<img alt="" height="1" src="http://feeds.feedburner.com/~r/Pnas-RssFeedOfEarlyEditionArticles/~4/Kf9tV29zcN4" width="1" />
-</div>
-</div>
-
-<div class="item feed-ed41d94f feed-jamacurrentissue" id="item-6cbfb2b1">
-<p class="itemheader">
-<span class="itemtitle"><a href="https://jamanetwork.com/journals/jama/fullarticle/2763304">Hundreds of Health Care Workers Exposed to Rabies</a></span>
-<span class="itemfrom">[<a href="https://jamanetwork.com/journals/jama">JAMA Current Issue</a>]</span>
-</p>
-<div class="itemdescription">
-<p>A Utah man who became infected with rabies after handling several bats potentially exposed 279 other people, most of them health workers.
-</div>
-</div>
-
-<div class="item feed-ed41d94f feed-jamacurrentissue" id="item-9188232a">
-<p class="itemheader">
-<span class="itemtitle"><a href="https://jamanetwork.com/journals/jama/fullarticle/2763287">&#8220;Superdonor&#8221; Fecal Microbiota Transplant Effective for IBS</a></span>
-<span class="itemfrom">[<a href="https://jamanetwork.com/journals/jama">JAMA Current Issue</a>]</span>
-</p>
-<div class="itemdescription">
-<p>Fecal microbiota transplant (FMT) using a single &#8220;superdonor&#8221; produced high rates of clinical response in patients with irritable bowel syndrome (IBS) in a trial published in Gut. Two previous randomized clinical trials of FMT for IBS had conflicting results.
-</div>
-</div>
-
-<div class="item feed-ed41d94f feed-jamacurrentissue" id="item-534401cf">
-<p class="itemheader">
-<span class="itemtitle"><a href="https://jamanetwork.com/journals/jama/fullarticle/2763285">Online Mindfulness Therapy Improves Residual Depression</a></span>
-<span class="itemfrom">[<a href="https://jamanetwork.com/journals/jama">JAMA Current Issue</a>]</span>
-</p>
-<div class="itemdescription">
-<p>Patients whose depression lingered after treatment had less severe residual symptoms, higher rates of remission, and lower rates of relapse following online mindfulness-based cognitive therapy, a trial in JAMA Psychiatry reported.
-</div>
-</div>
-
-<div class="item feed-ed41d94f feed-jamacurrentissue" id="item-5964b342">
-<p class="itemheader">
-<span class="itemtitle"><a href="https://jamanetwork.com/journals/jama/fullarticle/2763265">Two Rows Transposed in Table 1</a></span>
-<span class="itemfrom">[<a href="https://jamanetwork.com/journals/jama">JAMA Current Issue</a>]</span>
-</p>
-<div class="itemdescription">
-<p>In the Original Investigation entitled &#8220;Effect of Folic Acid and Zinc Supplementation in Men on Semen Quality and Live Birth Among Couples Undergoing Infertility Treatment: A Randomized Clinical Trial&#8221; published in the January 7, 2020, issue of JAMA, the data for 2 rows were transposed in Table 1. Under the row labeled &#8220;Taking multivitamin within past 3 mo,&#8221; the data for &#8220;Yes&#8221; are 298/751 (40) for the folic acid and zinc group and 284/752 (38) for the placebo group. In the next row, the data for &#8220;No&#8221; are 453/751 (60) for the folic acid and zinc group and 468/752 (62) for the placebo group. This article was corrected online.
-</div>
-</div>
-
-<div class="item feed-ed41d94f feed-jamacurrentissue" id="item-09126f84">
-<p class="itemheader">
-<span class="itemtitle"><a href="https://jamanetwork.com/journals/jama/fullarticle/2762386">Coronavirus Disease 2019 and Influenza 2019-2020</a></span>
-<span class="itemfrom">[<a href="https://jamanetwork.com/journals/jama">JAMA Current Issue</a>]</span>
-</p>
-
 </div>
 
 </div>
@@ -564,13 +589,13 @@ s vital for joint frequency assignment and scheduling in multihop industrial CR 
 </div>
 </div>
 
-<div class="item feed-094cb33b feed-ieeetransactionsonindustrialelectronicsnewtoc" id="item-9d9366cd">
+<div class="item feed-094cb33b feed-ieeetransactionsonindustrialelectronicsnewtoc" id="item-fc71d09f">
 <p class="itemheader">
-<span class="itemtitle"><a href="http://ieeexplore.ieee.org/document/8786922">Magnetic Sensor Design for a Permanent Magnet Linear Motor Considering Edge-Effect</a></span>
+<span class="itemtitle"><a href="http://ieeexplore.ieee.org/document/8799025">Analytic Modeling Optimal Control of Pulsed Power Supply for Accelerator Magnet</a></span>
 <span class="itemfrom">[<a href="http://ieeexplore.ieee.org">IEEE Transactions on Industrial Electronics - new TOC</a>]</span>
 </p>
 <div class="itemdescription">
-<p>This article focuses on the design of a magnetic sensor (MS) in position detection of a permanent magnet linear motor (PMLM). The MS is composed of a hall-effect-integrated-circuit and magnetic materials, and it is well known as a contactless sensor with a simple structure, and low cost. As a result, it is preferred for precise linear positioning applications. The work presented in this article consists of the following three steps to achieve high accuracy and economy in the mover position detection for a PMLM. First, the initial design of the MS is described which has been optimized using response surface methodology to obtain very low total harmonic distortion value of the sensing signal. Second, the leakage flux of PMLM is analytically investigated, from which it is determined that shielding the leakage flux is most appropriate to ensure the accuracy of the MS. Finally, in an attempt to reduce manufacturing cost, three MS prototypes using different materials (silicon steel laminated core, steel solid core, and ferrite solid core) are fabricated and tested. To verify the analytical results, several experiments are conducted. The experimental data prove that the accuracy of the MS is sufficient to use for mover position detection for the PMLM.
+<p>This article introduces the analytic modeling optimal control method in details, aiming at solving special control problems of pulsed power supply for heavy-ion accelerator magnet. These problems include variable waveform, high speed, high precision, and wide dynamic range. To meet these requirements, this method has been proposed as a new choice. The mathematical model is analytic function, which is concerned with the continuous dynamics during topology switching period. Moreover, based on the analytic function, the optimal duty cycle can be calculated by high-performance controller. In simulations, compared with PID regulation, this method has a better ability to track a reference waveform which has a wide dynamic range. Meanwhile, we have made simulations with two magnets and four reference waveforms. The current can be controlled to the reference value at the end of each switching cycle. In experiments, the current of power supply can track above four reference waveforms and the maximum rate of current change is 8000&#x00a0;A/s. There is an excellent agreement between the results of experiments and simulations. Therefore, this control method has been verified.
 </div>
 </div>
 
@@ -613,7 +638,7 @@ s vital for joint frequency assignment and scheduling in multihop industrial CR 
 <div class="item feed-6b3f78ad feed-latestbmjresearch" id="item-1ed65a56">
 <p class="itemheader">
 <span class="itemtitle"><a href="http://feeds.bmj.com/~r/bmj/research/~3/tXWykXqYOIw/bmj.m336">Association of injury related hospital admissions with commuting by bicycle in the UK: prospective population based study</a></span>
-<span class="itemfrom">[<a href="https://www.bmj.com/us/research/feed/206299">Latest BMJ Research</a>]</span>
+<span class="itemfrom">[<a href="https://www.bmj.com/research/feed">Latest BMJ Research</a>]</span>
 </p>
 <div class="itemdescription">
 <div class="feedflare">
@@ -622,39 +647,15 @@ s vital for joint frequency assignment and scheduling in multihop industrial CR 
 </div>
 </div>
 
-</div>
-</div>
-<div class="day">
-<h2>Monday, 24 February 2020</h2>
-<div class="time">
-<h3>04:00 PM</h3>
-<div class="item feed-6b3f78ad feed-latestbmjresearch" id="item-7cebbafa">
+<div class="item feed-6b3f78ad feed-latestbmjresearch" id="item-7e31af1d">
 <p class="itemheader">
-<span class="itemtitle"><a href="http://feeds.bmj.com/~r/bmj/research/~3/s5mt-D_3_sc/bmj.m331">Associations between macrolide antibiotics prescribing during pregnancy and adverse child outcomes in the UK: population based cohort study</a></span>
-<span class="itemfrom">[<a href="https://www.bmj.com/us/research/feed/206299">Latest BMJ Research</a>]</span>
+<span class="itemtitle"><a href="http://feeds.bmj.com/~r/bmj/research/~3/856NC27Qt0g/bmj.m513">Egg consumption and risk of cardiovascular disease: three large prospective US cohort studies, systematic review, and updated meta-analysis</a></span>
+<span class="itemfrom">[<a href="https://www.bmj.com/research/feed">Latest BMJ Research</a>]</span>
 </p>
 <div class="itemdescription">
 <div class="feedflare">
-<a href="http://feeds.bmj.com/~ff/bmj/research?a=s5mt-D_3_sc:ZWnL9kPJg6c:yIl2AUoC8zA"><img border="0" src="http://feeds.feedburner.com/~ff/bmj/research?d=yIl2AUoC8zA" /></a> <a href="http://feeds.bmj.com/~ff/bmj/research?a=s5mt-D_3_sc:ZWnL9kPJg6c:dnMXMwOfBR0"><img border="0" src="http://feeds.feedburner.com/~ff/bmj/research?d=dnMXMwOfBR0" /></a> <a href="http://feeds.bmj.com/~ff/bmj/research?a=s5mt-D_3_sc:ZWnL9kPJg6c:F7zBnMyn0Lo"><img border="0" src="http://feeds.feedburner.com/~ff/bmj/research?i=s5mt-D_3_sc:ZWnL9kPJg6c:F7zBnMyn0Lo" /></a> <a href="http://feeds.bmj.com/~ff/bmj/research?a=s5mt-D_3_sc:ZWnL9kPJg6c:V_sGLiPBpWU"><img border="0" src="http://feeds.feedburner.com/~ff/bmj/research?i=s5mt-D_3_sc:ZWnL9kPJg6c:V_sGLiPBpWU" /></a> <a href="http://feeds.bmj.com/~ff/bmj/research?a=s5mt-D_3_sc:ZWnL9kPJg6c:qj6IDK7rITs"><img border="0" src="http://feeds.feedburner.com/~ff/bmj/research?d=qj6IDK7rITs" /></a> <a href="http://feeds.bmj.com/~ff/bmj/research?a=s5mt-D_3_sc:ZWnL9kPJg6c:gIN9vFwOqvQ"><img border="0" src="http://feeds.feedburner.com/~ff/bmj/research?i=s5mt-D_3_sc:ZWnL9kPJg6c:gIN9vFwOqvQ" /></a>
-</div><img alt="" height="1" src="http://feeds.feedburner.com/~r/bmj/research/~4/s5mt-D_3_sc" width="1" />
-</div>
-</div>
-
-</div>
-</div>
-<div class="day">
-<h2>Wednesday, 19 February 2020</h2>
-<div class="time">
-<h3>04:00 PM</h3>
-<div class="item feed-6b3f78ad feed-latestbmjresearch" id="item-0ad6ca9b">
-<p class="itemheader">
-<span class="itemtitle"><a href="http://feeds.bmj.com/~r/bmj/research/~3/WnKS9QpXH04/bmj.m237">Maternal and fetal outcomes following exposure to duloxetine in pregnancy: cohort study</a></span>
-<span class="itemfrom">[<a href="https://www.bmj.com/us/research/feed/206299">Latest BMJ Research</a>]</span>
-</p>
-<div class="itemdescription">
-<div class="feedflare">
-<a href="http://feeds.bmj.com/~ff/bmj/research?a=WnKS9QpXH04:Bdbg5VzN2zQ:yIl2AUoC8zA"><img border="0" src="http://feeds.feedburner.com/~ff/bmj/research?d=yIl2AUoC8zA" /></a> <a href="http://feeds.bmj.com/~ff/bmj/research?a=WnKS9QpXH04:Bdbg5VzN2zQ:dnMXMwOfBR0"><img border="0" src="http://feeds.feedburner.com/~ff/bmj/research?d=dnMXMwOfBR0" /></a> <a href="http://feeds.bmj.com/~ff/bmj/research?a=WnKS9QpXH04:Bdbg5VzN2zQ:F7zBnMyn0Lo"><img border="0" src="http://feeds.feedburner.com/~ff/bmj/research?i=WnKS9QpXH04:Bdbg5VzN2zQ:F7zBnMyn0Lo" /></a> <a href="http://feeds.bmj.com/~ff/bmj/research?a=WnKS9QpXH04:Bdbg5VzN2zQ:V_sGLiPBpWU"><img border="0" src="http://feeds.feedburner.com/~ff/bmj/research?i=WnKS9QpXH04:Bdbg5VzN2zQ:V_sGLiPBpWU" /></a> <a href="http://feeds.bmj.com/~ff/bmj/research?a=WnKS9QpXH04:Bdbg5VzN2zQ:qj6IDK7rITs"><img border="0" src="http://feeds.feedburner.com/~ff/bmj/research?d=qj6IDK7rITs" /></a> <a href="http://feeds.bmj.com/~ff/bmj/research?a=WnKS9QpXH04:Bdbg5VzN2zQ:gIN9vFwOqvQ"><img border="0" src="http://feeds.feedburner.com/~ff/bmj/research?i=WnKS9QpXH04:Bdbg5VzN2zQ:gIN9vFwOqvQ" /></a>
-</div><img alt="" height="1" src="http://feeds.feedburner.com/~r/bmj/research/~4/WnKS9QpXH04" width="1" />
+<a href="http://feeds.bmj.com/~ff/bmj/research?a=856NC27Qt0g:k-QE5pX9sSE:yIl2AUoC8zA"><img border="0" src="http://feeds.feedburner.com/~ff/bmj/research?d=yIl2AUoC8zA" /></a> <a href="http://feeds.bmj.com/~ff/bmj/research?a=856NC27Qt0g:k-QE5pX9sSE:dnMXMwOfBR0"><img border="0" src="http://feeds.feedburner.com/~ff/bmj/research?d=dnMXMwOfBR0" /></a> <a href="http://feeds.bmj.com/~ff/bmj/research?a=856NC27Qt0g:k-QE5pX9sSE:F7zBnMyn0Lo"><img border="0" src="http://feeds.feedburner.com/~ff/bmj/research?i=856NC27Qt0g:k-QE5pX9sSE:F7zBnMyn0Lo" /></a> <a href="http://feeds.bmj.com/~ff/bmj/research?a=856NC27Qt0g:k-QE5pX9sSE:V_sGLiPBpWU"><img border="0" src="http://feeds.feedburner.com/~ff/bmj/research?i=856NC27Qt0g:k-QE5pX9sSE:V_sGLiPBpWU" /></a> <a href="http://feeds.bmj.com/~ff/bmj/research?a=856NC27Qt0g:k-QE5pX9sSE:qj6IDK7rITs"><img border="0" src="http://feeds.feedburner.com/~ff/bmj/research?d=qj6IDK7rITs" /></a> <a href="http://feeds.bmj.com/~ff/bmj/research?a=856NC27Qt0g:k-QE5pX9sSE:gIN9vFwOqvQ"><img border="0" src="http://feeds.feedburner.com/~ff/bmj/research?i=856NC27Qt0g:k-QE5pX9sSE:gIN9vFwOqvQ" /></a>
+</div><img alt="" height="1" src="http://feeds.feedburner.com/~r/bmj/research/~4/856NC27Qt0g" width="1" />
 </div>
 </div>
 
@@ -684,13 +685,13 @@ s vital for joint frequency assignment and scheduling in multihop industrial CR 
 </div>
 </div>
 
-<div class="item feed-b3e4c5b6 feed-annualreviewsannualreviewofphysiologytableofcontents" id="item-0f9ae86f">
+<div class="item feed-b3e4c5b6 feed-annualreviewsannualreviewofphysiologytableofcontents" id="item-77c87a33">
 <p class="itemheader">
-<span class="itemtitle"><a href="https://www.annualreviews.org/doi/abs/10.1146/annurev-physiol-021119-034610?ai=sp&amp;mi=3fndc3&amp;af=R">Aging and Lung Disease</a></span>
+<span class="itemtitle"><a href="https://www.annualreviews.org/doi/abs/10.1146/annurev-physiol-021119-034446?ai=sp&amp;mi=3fndc3&amp;af=R">Diurnal Regulation of Renal Electrolyte Excretion: The Role of Paracrine Factors</a></span>
 <span class="itemfrom">[Annual Reviews: Annual Review of Physiology: Table of Contents]</span>
 </p>
 <div class="itemdescription">
-<p>Annual Review of Physiology, <a href="https://www.annualreviews.org/toc/physiol/82/1">Volume 82, Issue 1</a>, Page 433-459, February 2020. <br />
+<p>Annual Review of Physiology, <a href="https://www.annualreviews.org/toc/physiol/82/1">Volume 82, Issue 1</a>, Page 343-363, February 2020. <br />
 </div>
 </div>
 
@@ -863,13 +864,13 @@ s vital for joint frequency assignment and scheduling in multihop industrial CR 
 </div>
 </div>
 
-<div class="item feed-a4d49d75 feed-annualreviewsannualreviewofeconomicstableofcontents" id="item-c0967de3">
+<div class="item feed-a4d49d75 feed-annualreviewsannualreviewofeconomicstableofcontents" id="item-6df1af8e">
 <p class="itemheader">
-<span class="itemtitle"><a href="https://www.annualreviews.org/doi/abs/10.1146/annurev-economics-080218-025721?ai=67b7&amp;mi=3fndc3&amp;af=R">Has Dynamic Programming Improved Decision Making?</a></span>
+<span class="itemtitle"><a href="https://www.annualreviews.org/doi/abs/10.1146/annurev-economics-080218-030429?ai=67b7&amp;mi=3fndc3&amp;af=R">Economic Theories of Justice</a></span>
 <span class="itemfrom">[Annual Reviews: Annual Review of Economics: Table of Contents]</span>
 </p>
 <div class="itemdescription">
-<p>Annual Review of Economics, <a href="https://www.annualreviews.org/toc/economics/11/1">Volume 11, Issue 1</a>, Page 833-858, August 2019. <br />
+<p>Annual Review of Economics, <a href="https://www.annualreviews.org/toc/economics/11/1">Volume 11, Issue 1</a>, Page 665-684, August 2019. <br />
 </div>
 </div>
 
@@ -999,113 +1000,113 @@ s vital for joint frequency assignment and scheduling in multihop industrial CR 
 <tr class="feedsrow">
 <td>Annual Reviews: Annual Review of Economics: Table of Contents</td>
 <td><a class="xmlbutton" href="http://www.annualreviews.org/action/showFeed?ui=45mu4&amp;mi=3fndc3&amp;ai=67b7&amp;jc=economics&amp;type=etoc&amp;feed=rss">XML</a></td>
-<td>04:00 PM, Monday, 06 April 2020</td>
-<td>07:00 PM, Monday, 06 April 2020</td>
+<td>04:00 PM, Wednesday, 08 April 2020</td>
+<td>07:00 PM, Wednesday, 08 April 2020</td>
 </tr>
 
 <tr class="feedsrow">
 <td>Annual Reviews: Annual Review of Nutrition: Table of Contents</td>
 <td><a class="xmlbutton" href="http://www.annualreviews.org/action/showFeed?ui=45mu4&amp;mi=3fndc3&amp;ai=rz&amp;jc=nutr&amp;type=etoc&amp;feed=rss">XML</a></td>
-<td>04:00 PM, Monday, 06 April 2020</td>
-<td>07:00 PM, Monday, 06 April 2020</td>
+<td>04:00 PM, Wednesday, 08 April 2020</td>
+<td>07:00 PM, Wednesday, 08 April 2020</td>
 </tr>
 
 <tr class="feedsrow">
 <td>Annual Reviews: Annual Review of Physiology: Table of Contents</td>
 <td><a class="xmlbutton" href="http://www.annualreviews.org/action/showFeed?ui=45mu4&amp;mi=3fndc3&amp;ai=sp&amp;jc=physiol&amp;type=etoc&amp;feed=rss">XML</a></td>
-<td>04:00 PM, Monday, 06 April 2020</td>
-<td>07:00 PM, Monday, 06 April 2020</td>
+<td>04:00 PM, Wednesday, 08 April 2020</td>
+<td>07:00 PM, Wednesday, 08 April 2020</td>
 </tr>
 
 <tr class="feedsrow">
 <td>Annual Reviews: Annual Review of Political Science: Table of Contents</td>
 <td><a class="xmlbutton" href="http://www.annualreviews.org/action/showFeed?jc=polisci&amp;type=etoc&amp;feed=rss">XML</a></td>
-<td>04:00 PM, Monday, 06 April 2020</td>
-<td>07:00 PM, Monday, 06 April 2020</td>
+<td>04:00 PM, Wednesday, 08 April 2020</td>
+<td>07:00 PM, Wednesday, 08 April 2020</td>
 </tr>
 
 <tr class="feedsrow">
 <td>Annual Reviews: Annual Review of Sociology: Table of Contents</td>
 <td><a class="xmlbutton" href="http://www.annualreviews.org/action/showFeed?ui=45mu4&amp;mi=3fndc3&amp;ai=t0&amp;jc=soc&amp;type=etoc&amp;feed=rss">XML</a></td>
-<td>04:00 PM, Monday, 06 April 2020</td>
-<td>07:00 PM, Monday, 06 April 2020</td>
+<td>04:00 PM, Wednesday, 08 April 2020</td>
+<td>07:00 PM, Wednesday, 08 April 2020</td>
 </tr>
 
 <tr class="feedsrow">
 <td><a href="http://arxiv.org/">cs.CR updates on arXiv.org</a></td>
 <td><a class="xmlbutton" href="http://export.arxiv.org/rss/cs.CR">XML</a></td>
-<td>04:00 PM, Monday, 06 April 2020</td>
-<td>07:00 PM, Monday, 06 April 2020</td>
+<td>04:00 PM, Wednesday, 08 April 2020</td>
+<td>07:00 PM, Wednesday, 08 April 2020</td>
 </tr>
 
 <tr class="feedsrow">
 <td><a href="http://www.pnas.org">Early Edition</a></td>
 <td><a class="xmlbutton" href="http://feeds.feedburner.com/Pnas-RssFeedOfEarlyEditionArticles?format=xml">XML</a></td>
-<td>04:00 PM, Monday, 06 April 2020</td>
-<td>07:00 PM, Monday, 06 April 2020</td>
+<td>04:00 PM, Wednesday, 08 April 2020</td>
+<td>07:00 PM, Wednesday, 08 April 2020</td>
 </tr>
 
 <tr class="feedsrow">
 <td><a href="http://www.eurekalert.org">EurekAlert! - Breaking News</a></td>
 <td><a class="xmlbutton" href="https://www.eurekalert.org/rss.xml">XML</a></td>
-<td>04:00 PM, Monday, 06 April 2020</td>
-<td>07:00 PM, Monday, 06 April 2020</td>
+<td>04:00 PM, Wednesday, 08 April 2020</td>
+<td>07:00 PM, Wednesday, 08 April 2020</td>
 </tr>
 
 <tr class="feedsrow">
 <td><a href="http://ieeexplore.ieee.org">IEEE Transactions on Image Processing - new TOC</a></td>
 <td><a class="xmlbutton" href="https://ieeexplore.ieee.org/rss/TOC83.XML">XML</a></td>
-<td>04:00 PM, Monday, 06 April 2020</td>
-<td>07:00 PM, Monday, 06 April 2020</td>
+<td>04:00 PM, Wednesday, 08 April 2020</td>
+<td>07:00 PM, Wednesday, 08 April 2020</td>
 </tr>
 
 <tr class="feedsrow">
 <td><a href="http://ieeexplore.ieee.org">IEEE Transactions on Industrial Electronics - new TOC</a></td>
 <td><a class="xmlbutton" href="https://ieeexplore.ieee.org/rss/TOC41.XML">XML</a></td>
-<td>04:00 PM, Monday, 06 April 2020</td>
-<td>07:00 PM, Monday, 06 April 2020</td>
+<td>04:00 PM, Wednesday, 08 April 2020</td>
+<td>07:00 PM, Wednesday, 08 April 2020</td>
 </tr>
 
 <tr class="feedsrow">
 <td><a href="http://ieeexplore.ieee.org">IEEE Transactions on Industrial Informatics - new TOC</a></td>
 <td><a class="xmlbutton" href="https://ieeexplore.ieee.org/rss/TOC9424.XML">XML</a></td>
-<td>04:00 PM, Monday, 06 April 2020</td>
-<td>07:00 PM, Monday, 06 April 2020</td>
+<td>04:00 PM, Wednesday, 08 April 2020</td>
+<td>07:00 PM, Wednesday, 08 April 2020</td>
 </tr>
 
 <tr class="feedsrow">
 <td><a href="http://ieeexplore.ieee.org">IEEE Transactions on Information Forensics and Security - new TOC</a></td>
 <td><a class="xmlbutton" href="https://ieeexplore.ieee.org/rss/TOC10206.XML">XML</a></td>
-<td>04:00 PM, Monday, 06 April 2020</td>
-<td>07:00 PM, Monday, 06 April 2020</td>
+<td>04:00 PM, Wednesday, 08 April 2020</td>
+<td>07:00 PM, Wednesday, 08 April 2020</td>
 </tr>
 
 <tr class="feedsrow">
 <td><a href="https://jamanetwork.com/journals/jama">JAMA Current Issue</a></td>
 <td><a class="xmlbutton" href="https://jamanetwork.com/rss/site_3/67.xml">XML</a></td>
-<td>04:00 PM, Monday, 06 April 2020</td>
-<td>07:00 PM, Monday, 06 April 2020</td>
+<td>04:00 PM, Wednesday, 08 April 2020</td>
+<td>07:00 PM, Wednesday, 08 April 2020</td>
 </tr>
 
 <tr class="feedsrow">
-<td><a href="https://www.bmj.com/us/research/feed/206299">Latest BMJ Research</a></td>
+<td><a href="https://www.bmj.com/research/feed">Latest BMJ Research</a></td>
 <td><a class="xmlbutton" href="http://feeds.bmj.com/bmj/research?format=xml">XML</a></td>
-<td>04:00 PM, Monday, 06 April 2020</td>
-<td>07:00 PM, Monday, 06 April 2020</td>
+<td>04:00 PM, Wednesday, 08 April 2020</td>
+<td>07:00 PM, Wednesday, 08 April 2020</td>
 </tr>
 
 <tr class="feedsrow">
 <td><a href="http://feeds.nature.com/nature/rss/current">Nature - Issue - nature.com science feeds</a></td>
 <td><a class="xmlbutton" href="http://feeds.nature.com/nature/rss/current?format=xml">XML</a></td>
-<td>04:00 PM, Monday, 06 April 2020</td>
-<td>07:00 PM, Monday, 06 April 2020</td>
+<td>04:00 PM, Wednesday, 08 April 2020</td>
+<td>07:00 PM, Wednesday, 08 April 2020</td>
 </tr>
 
 <tr class="feedsrow">
 <td><a href="https://www.thelancet.com/journals/lancet/issue/current">The Lancet</a></td>
 <td><a class="xmlbutton" href="http://www.thelancet.com/rssfeed/lancet_current.xml">XML</a></td>
-<td>04:00 PM, Monday, 06 April 2020</td>
-<td>07:00 PM, Monday, 06 April 2020</td>
+<td>04:00 PM, Wednesday, 08 April 2020</td>
+<td>07:00 PM, Wednesday, 08 April 2020</td>
 </tr>
 
 </table>
