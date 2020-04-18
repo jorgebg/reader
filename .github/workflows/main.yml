@@ -30,6 +30,7 @@ jobs:
         /tmp/rawdog-2.23/rawdog -v -d .
         git config --global user.email "reader@jorgebg.com"
         git config --global user.name "Reader Bot"
+        git diff | cat
         git add output.html state state.lock
         git commit -m"update"
         git push origin gh-pages
