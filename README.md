@@ -3,6 +3,12 @@ My daily reads automated by rawdog
 
 # Usage
 
+## Option A: GitHub Actions
+
+Just fork this repo :)
+
+## Option B: Local setup
+
 - Install `rawdog`: http://offog.org/code/rawdog/
 - Fork and clone this repository
 - Update `./config`
