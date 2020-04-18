@@ -34,7 +34,7 @@ jobs:
       run: |
         git config --global user.email "reader@jorgebg.com"
         git config --global user.name "Reader Bot"
-        git diff --no-pager
+        git --no-pager diff
         git add output.html state state.lock
         git commit -m"update"
         git push origin gh-pages
