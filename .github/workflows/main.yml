@@ -5,6 +5,11 @@ on:
 #    - cron:  '0 */12 * * *'
     - cron:  '28 18 * * *'
 
+
+  issue_comment:
+    # testing
+    types: [created, edited, deleted]
+
 jobs:
   build:
     runs-on: ubuntu-latest
