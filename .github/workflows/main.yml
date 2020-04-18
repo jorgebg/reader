@@ -27,8 +27,7 @@ jobs:
     - name: Update the page
       working-directory: ${{ github.workspace }}
       run: |
-        /tmp/rawdog-2.23/rawdog -d .
-        ls -la
+        /tmp/rawdog-2.23/rawdog -v -d .
         git config --global user.email "reader@jorgebg.com"
         git config --global user.name "Reader Bot"
         git add output.html state state.lock
