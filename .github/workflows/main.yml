@@ -27,10 +27,7 @@ jobs:
     - name: Run rawdog
       working-directory: ${{ github.workspace }}
       run: |
-        sleep 60
-        /tmp/rawdog-2.23/rawdog -v -d .
-        ls -la .
-        cat output.html
+        /tmp/rawdog-2.23/rawdog -v -d . -uw
         
     - name: Push the changes
       working-directory: ${{ github.workspace }}
