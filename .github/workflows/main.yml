@@ -3,7 +3,7 @@ name: Build
 on:
   schedule:
 #    - cron:  '0 */12 * * *'
-    - cron:  '30 17 * * *'
+    - cron:  '18 18 * * *'
 
 jobs:
   build:
@@ -19,13 +19,11 @@ jobs:
         pip install feedparser
         wget http://offog.org/files/rawdog-2.23.tar.gz
         tar -xvf rawdog-2.23.tar.gz
-        cd rawdog-2.23
-        python setup.py install
         
     - name: Update the page
       working-directory: ${{ github.workspace }}
       run: |
-        /usr/local/bin/rawdog -d .
+        /tmp/rawdog-2.23/rawdog -d .
         git add output.html state state.lock
         git commit -m"update"
         git push origin gh-pages
