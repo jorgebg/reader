@@ -16,35 +16,27 @@
 <h2>Wednesday, 22 April 2020</h2>
 <div class="time">
 <h3>02:01 AM</h3>
-<div class="item feed-1b28272e feed-cscrupdatesonarxivorg" id="item-419c1d72">
+<div class="item feed-1b28272e feed-cscrupdatesonarxivorg" id="item-dd8def8e">
 <p class="itemheader">
-<span class="itemtitle"><a href="http://arxiv.org/abs/2004.09583">FlashFlow: A Secure Speed Test for Tor. (arXiv:2004.09583v1 [cs.CR])</a></span>
+<span class="itemtitle"><a href="http://arxiv.org/abs/2004.09679">MgX: Near-Zero Overhead Memory Protection with an Application to Secure DNN Acceleration. (arXiv:2004.09679v1 [cs.CR])</a></span>
 <span class="itemfrom">[<a href="http://arxiv.org/">cs.CR updates on arXiv.org</a>]</span>
 </p>
 <div class="itemdescription">
-<p>The Tor network uses a measurement system to estimate its relays' forwarding
-capacity and to balance traffic among them. This system has been shown to be
-vulnerable to adversarial manipulation. Moreover, its accuracy and
-effectiveness in benign circumstances has never been fully quantified. We first
-obtain such a quantification by analyzing Tor metrics data and performing
-experiments on the live network. Our results show that Tor currently
-underestimates its true capacity by about 50% and improperly balances its
-traffic by 15-25%. Then, to solve the problems with security and accuracy, we
-present FlashFlow, a system to measure the capacity of Tor relays. Our analysis
-shows that FlashFlow limits a malicious relay to obtaining a capacity estimate
-at most 1.33 times its true capacity. Through realistic Internet experiments,
-we find that FlashFlow measures relay capacity with at least 89% accuracy 95%
-of the time. Through simulation, we find that FlashFlow can measure the entire
-Tor network in less than 5 hours using 3 measurers with 1 Gbit/s of bandwidth
-each. Finally, simulations using FlashFlow for load balancing shows that,
-compared to TorFlow, network weight error decreases by 86%, while the median of
-50 KiB, 1 MiB, and 5 MiB transfer times decreases by 15%, 29%, and 37%,
-respectively. Moreover, FlashFlow yields more consistent client performance:
-the median rate of transfer timeouts decreases by 100%, while the standard
-deviation of 50 KiB, 1 MiB, and 5 MiB transfer times decreases by 55%, 61%, and
-41%, respectively. We also find that the performance improvements increase
-relative to TorFlow as the total client-traffic load increases, demonstrating
-that FlashFlow is better suited to supporting network growth.
+<p>In this paper, we propose MgX, a near-zero overhead memory protection scheme
+for hardware accelerators. MgX minimizes the performance overhead of off-chip
+memory encryption and integrity verification by exploiting the
+application-specific aspect of accelerators. Accelerators tend to explicitly
+manage data movement between on-chip and off-chip memory, typically at an
+object granularity that is much larger than cache lines. Exploiting these
+accelerator-specific characteristics, MgX generates version numbers used in
+memory encryption and integrity verification only using on-chip state without
+storing them in memory, and also customizes the granularity of the memory
+protection to match the granularity used by the accelerator. To demonstrate the
+applicability of MgX, we present an in-depth study of MgX for deep neural
+network (DNN) and also describe implementations for H.264 video decoding and
+genome alignment. Experimental results show that applying MgX has less than 1%
+performance overhead for both DNN inference and training on state-of-the-art
+DNN architectures.
 </p>
 </div>
 </div>
@@ -228,13 +220,13 @@ plus key ethical issues raised in the discussion section, to be resolved.
 </div>
 </div>
 
-<div class="item feed-ed41d94f feed-jamacurrentissue" id="item-71ce9d30">
+<div class="item feed-ed41d94f feed-jamacurrentissue" id="item-7111abfa">
 <p class="itemheader">
-<span class="itemtitle"><a href="https://jamanetwork.com/journals/jama/fullarticle/2764689">Audio Highlights</a></span>
+<span class="itemtitle"><a href="https://jamanetwork.com/journals/jama/fullarticle/2764688">New Therapy Offers Direct Cortisol Control for Cushing Disease</a></span>
 <span class="itemfrom">[<a href="https://jamanetwork.com/journals/jama">JAMA Current Issue</a>]</span>
 </p>
 <div class="itemdescription">
-<p>Listen to the JAMA Editor&#8217;s Audio Summary for an overview and discussion of the important articles appearing in this week&#8217;s issue of JAMA.
+<p>A new drug for adults with Cushing disease is the first FDA-approved treatment that directly addresses excessive cortisol by blocking an enzyme involved in cortisol production.
 </div>
 </div>
 
@@ -258,13 +250,33 @@ plus key ethical issues raised in the discussion section, to be resolved.
 </div>
 </div>
 
-<div class="item feed-ed41d94f feed-jamacurrentissue" id="item-91bf2bd5">
+<div class="item feed-ed41d94f feed-jamacurrentissue" id="item-d1fb6d93">
 <p class="itemheader">
-<span class="itemtitle"><a href="https://jamanetwork.com/journals/jama/fullarticle/2762996">Care for Critically Ill Patients With COVID-19</a></span>
+<span class="itemtitle"><a href="https://jamanetwork.com/journals/jama/fullarticle/2762694">Medical Masks</a></span>
 <span class="itemfrom">[<a href="https://jamanetwork.com/journals/jama">JAMA Current Issue</a>]</span>
 </p>
 <div class="itemdescription">
-<p>This JAMA Insights article reviews care for the most severely ill patients with coronavirus disease 2019 (COVID-19), including standards of management of ARDS, preventing SARS-CoV-2 spread in health care settings, and surge preparation.
+<p>This JAMA Patient Page describes the purpose and proper use of medical masks for prevention of respiratory infection.
+</div>
+</div>
+
+<div class="item feed-63a85565 feed-eurekalertbreakingnews" id="item-9f7a646b">
+<p class="itemheader">
+<span class="itemtitle"><a href="https://www.eurekalert.org/pub_releases/2020-04/dnl-aht042120.php">Advancing high temperature electrolysis: Splitting water to store energy as hydrogen</a></span>
+<span class="itemfrom">[<a href="http://www.eurekalert.org">EurekAlert! - Breaking News</a>]</span>
+</p>
+<div class="itemdescription">
+<p>Recently, researchers at Idaho National Laboratory developed a new electrode material for an electrochemical cell that can efficiently convert excess electricity and water into hydrogen. When demand for electricity increases, the electrochemical cell is reversible, converting hydrogen back into electricity for the grid. The hydrogen could also be used as fuel for heat, vehicles or other applications.
+</div>
+</div>
+
+<div class="item feed-63a85565 feed-eurekalertbreakingnews" id="item-62cd13f7">
+<p class="itemheader">
+<span class="itemtitle"><a href="https://www.eurekalert.org/pub_releases/2020-04/aiop-omd042020.php">Organic memory devices show promise for flexible, wearable, personalized computing</a></span>
+<span class="itemfrom">[<a href="http://www.eurekalert.org">EurekAlert! - Breaking News</a>]</span>
+</p>
+<div class="itemdescription">
+<p>The advent of artificial intelligence, machine learning and the internet of things is expected to change modern electronics. The pressing question for many researchers is how to handle this technological revolution. Brain-inspired electronics with organic memristors could offer a functionally promising and cost- effective platform. Since memristors are functionally analogous to the operation of neurons, the computing units in the brain, they are optimal candidates for brain-inspired computing platforms.
 </div>
 </div>
 
@@ -284,59 +296,13 @@ plus key ethical issues raised in the discussion section, to be resolved.
 </div>
 <div class="time">
 <h3>02:01 AM</h3>
-<div class="item feed-b93c25e9 feed-earlyedition" id="item-0aa105bf">
+<div class="item feed-63a85565 feed-eurekalertbreakingnews" id="item-f0dabe9c">
 <p class="itemheader">
-<span class="itemtitle"><a href="http://feedproxy.google.com/~r/Pnas-RssFeedOfEarlyEditionArticles/~3/EOGNh5cQ2Ek/1913707117.short">Starvation and antimetabolic therapy promote cytokine release and recruitment of immune cells [Immunology and Inflammation]</a></span>
-<span class="itemfrom">[<a href="http://www.pnas.org">Early Edition</a>]</span>
-</p>
-<div class="itemdescription">
-<p>Cellular starvation is typically a consequence of tissue injury that disrupts the local blood supply but can also occur where cell populations outgrow the local vasculature, as observed in solid tumors. Cells react to nutrient deprivation by adapting their metabolism, or, if starvation is prolonged, it can result in cell...<img alt="" height="1" src="http://feeds.feedburner.com/~r/Pnas-RssFeedOfEarlyEditionArticles/~4/EOGNh5cQ2Ek" width="1" />
-</div>
-</div>
-
-</div>
-</div>
-<div class="day">
-<h2>Monday, 20 April 2020</h2>
-<div class="time">
-<h3>06:01 PM</h3>
-<div class="item feed-53ba08d1 feed-natureissuenaturecomsciencefeeds" id="item-17f44319">
-<p class="itemheader">
-<span class="itemtitle"><a href="http://feeds.nature.com/~r/nature/rss/current/~3/EhfNVyIHLuM/d41586-020-00502-w">Pick of the coronavirus papers<i>:</i> How Hong Kong stemmed viral spread without harsh restrictions</a></span>
-<span class="itemfrom">[<a href="http://feeds.nature.com/nature/rss/current">Nature - Issue - nature.com science feeds</a>]</span>
-</p>
-<div class="itemdescription">
-<p>Nature, Published online: 17 April 2020; <a href="https://www.nature.com/articles/d41586-020-00502-w">doi:10.1038/d41586-020-00502-w</a></p>Nature wades through the literature on COVID-19 so you don&#8217;t have to.<img alt="" height="1" src="http://feeds.feedburner.com/~r/nature/rss/current/~4/EhfNVyIHLuM" width="1" />
-</div>
-</div>
-
-<div class="item feed-63a85565 feed-eurekalertbreakingnews" id="item-45860e22">
-<p class="itemheader">
-<span class="itemtitle"><a href="https://www.eurekalert.org/pub_releases/2020-04/c-arm042020.php">Ants restore Mediterranean dry grasslands</a></span>
+<span class="itemtitle"><a href="https://www.eurekalert.org/pub_releases/2020-04/nyu-mhp042020.php">Mental health preparedness among older youth in foster care</a></span>
 <span class="itemfrom">[<a href="http://www.eurekalert.org">EurekAlert! - Breaking News</a>]</span>
 </p>
 <div class="itemdescription">
-<p>A team of ecologists and agronomists led by Thierry Dutoit, a CNRS researcher, studied the impact of the Messor barbarus harvester ant on Mediterranean dry grasslands. Their study shows that these invertebrates accelerated the resilience of plant communities in these degraded grasslands by facilitating their recovery.
-</div>
-</div>
-
-<div class="item feed-63a85565 feed-eurekalertbreakingnews" id="item-d9eb65a5">
-<p class="itemheader">
-<span class="itemtitle"><a href="https://www.eurekalert.org/pub_releases/2020-04/isu-svg042020.php">Study: Visitor's garden is improving prison visitation experience for all</a></span>
-<span class="itemfrom">[<a href="http://www.eurekalert.org">EurekAlert! - Breaking News</a>]</span>
-</p>
-<div class="itemdescription">
-<p>New research shows that a visitor's garden designed and built by Iowa State University students and incarcerated individuals at the Iowa Correctional Institution for Women is helping to strengthen connections between the women and their children.
-</div>
-</div>
-
-<div class="item feed-63a85565 feed-eurekalertbreakingnews" id="item-7e572d18">
-<p class="itemheader">
-<span class="itemtitle"><a href="https://www.eurekalert.org/pub_releases/2020-04/ioap-sra041820.php">Scientists reveal a close relationship between air temperature and the area of Antarctic polynyas</a></span>
-<span class="itemfrom">[<a href="http://www.eurekalert.org">EurekAlert! - Breaking News</a>]</span>
-</p>
-<div class="itemdescription">
-<p>Reanalysis and observational data reveal interactive effects between air temperature and the area of the Terra Nova Bay polynya. The air temperature seems to have a significant effect on the polynya area.
+<p>Researchers interviewed 17-year-olds in California foster care. The adolescents' use of mental health services is elevated, but not necessarily their confidence level.
 </div>
 </div>
 
@@ -373,6 +339,16 @@ plus key ethical issues raised in the discussion section, to be resolved.
 </p>
 <div class="itemdescription">
 <p>A massive intronic hexanucleotide repeat (GGGGCC) expansion in C9ORF72 is a genetic origin of amyotrophic lateral sclerosis (ALS) and frontotemporal dementia (FTD). Recently, C9ORF72, together with SMCR8 and WDR41, has been shown to regulate autophagy and function as Rab GEF. However, the precise function of C9ORF72 remains unclear. Here, we...<img alt="" height="1" src="http://feeds.feedburner.com/~r/Pnas-RssFeedOfEarlyEditionArticles/~4/kdlAtlsN88o" width="1" />
+</div>
+</div>
+
+<div class="item feed-53ba08d1 feed-natureissuenaturecomsciencefeeds" id="item-4ac0ccc5">
+<p class="itemheader">
+<span class="itemtitle"><a href="http://feeds.nature.com/~r/nature/rss/current/~3/jkOOgDlJogM/d41586-020-01137-7">Coronapod: Troubling news</a></span>
+<span class="itemfrom">[<a href="http://feeds.nature.com/nature/rss/current">Nature - Issue - nature.com science feeds</a>]</span>
+</p>
+<div class="itemdescription">
+<p>Nature, Published online: 17 April 2020; <a href="https://www.nature.com/articles/d41586-020-01137-7">doi:10.1038/d41586-020-01137-7</a></p>Trump withholds funding from the WHO, how COVID-19 kills, and controlling misinformation while communicating risk.<img alt="" height="1" src="http://feeds.feedburner.com/~r/nature/rss/current/~4/jkOOgDlJogM" width="1" />
 </div>
 </div>
 
@@ -475,12 +451,22 @@ plus key ethical issues raised in the discussion section, to be resolved.
 <div class="item feed-6b3f78ad feed-latestbmjresearch" id="item-21e2eb3e">
 <p class="itemheader">
 <span class="itemtitle"><a href="http://feeds.bmj.com/~r/bmj/research/~3/d6zp51ymbOY/bmj.m982">Prospective registration and reporting of trial number in randomised clinical trials: global cross sectional study of the adoption of ICMJE and Declaration of Helsinki recommendations</a></span>
-<span class="itemfrom">[<a href="https://www.bmj.com/research/feed">Latest BMJ Research</a>]</span>
+<span class="itemfrom">[<a href="https://www.bmj.com/research/feed/180">Latest BMJ Research</a>]</span>
 </p>
 <div class="itemdescription">
 <div class="feedflare">
 <a href="http://feeds.bmj.com/~ff/bmj/research?a=d6zp51ymbOY:qoSc_BFa-3w:yIl2AUoC8zA"><img border="0" src="http://feeds.feedburner.com/~ff/bmj/research?d=yIl2AUoC8zA" /></a> <a href="http://feeds.bmj.com/~ff/bmj/research?a=d6zp51ymbOY:qoSc_BFa-3w:dnMXMwOfBR0"><img border="0" src="http://feeds.feedburner.com/~ff/bmj/research?d=dnMXMwOfBR0" /></a> <a href="http://feeds.bmj.com/~ff/bmj/research?a=d6zp51ymbOY:qoSc_BFa-3w:F7zBnMyn0Lo"><img border="0" src="http://feeds.feedburner.com/~ff/bmj/research?i=d6zp51ymbOY:qoSc_BFa-3w:F7zBnMyn0Lo" /></a> <a href="http://feeds.bmj.com/~ff/bmj/research?a=d6zp51ymbOY:qoSc_BFa-3w:V_sGLiPBpWU"><img border="0" src="http://feeds.feedburner.com/~ff/bmj/research?i=d6zp51ymbOY:qoSc_BFa-3w:V_sGLiPBpWU" /></a> <a href="http://feeds.bmj.com/~ff/bmj/research?a=d6zp51ymbOY:qoSc_BFa-3w:qj6IDK7rITs"><img border="0" src="http://feeds.feedburner.com/~ff/bmj/research?d=qj6IDK7rITs" /></a> <a href="http://feeds.bmj.com/~ff/bmj/research?a=d6zp51ymbOY:qoSc_BFa-3w:gIN9vFwOqvQ"><img border="0" src="http://feeds.feedburner.com/~ff/bmj/research?i=d6zp51ymbOY:qoSc_BFa-3w:gIN9vFwOqvQ" /></a>
 </div><img alt="" height="1" src="http://feeds.feedburner.com/~r/bmj/research/~4/d6zp51ymbOY" width="1" />
+</div>
+</div>
+
+<div class="item feed-b93c25e9 feed-earlyedition" id="item-cca10cb8">
+<p class="itemheader">
+<span class="itemtitle"><a href="http://feedproxy.google.com/~r/Pnas-RssFeedOfEarlyEditionArticles/~3/d8rIYHEWJhw/1907799117.short">Chitin perception in plasmodesmata characterizes submembrane immune-signaling specificity in plants [Plant Biology]</a></span>
+<span class="itemfrom">[<a href="http://www.pnas.org">Early Edition</a>]</span>
+</p>
+<div class="itemdescription">
+<p>The plasma membrane (PM) is composed of heterogeneous subdomains, characterized by differences in protein and lipid composition. PM receptors can be dynamically sorted into membrane domains to underpin signaling in response to extracellular stimuli. In plants, the plasmodesmal PM is a discrete microdomain that hosts specific receptors and responses. We...<img alt="" height="1" src="http://feeds.feedburner.com/~r/Pnas-RssFeedOfEarlyEditionArticles/~4/d8rIYHEWJhw" width="1" />
 </div>
 </div>
 
@@ -550,16 +536,6 @@ plus key ethical issues raised in the discussion section, to be resolved.
 </div>
 </div>
 
-<div class="item feed-094cb33b feed-ieeetransactionsonindustrialelectronicsnewtoc" id="item-1a24e4b0">
-<p class="itemheader">
-<span class="itemtitle"><a href="http://ieeexplore.ieee.org/document/8818612">On the Decentralized Energy Management Strategy for the All-Electric APU of Future More Electric Aircraft Composed of Multiple Fuel Cells and Supercapacitors</a></span>
-<span class="itemfrom">[<a href="http://ieeexplore.ieee.org">IEEE Transactions on Industrial Electronics - new TOC</a>]</span>
-</p>
-<div class="itemdescription">
-<p>In this article, a decentralized energy management strategy (EMS), which is derived from the conventional droop control, is proposed for the auxiliary power unit composed of multiple fuel cells (FCs) and supercapacitors (SCs) of a more electric aircraft. By utilizing a virtual inductor droop scheme to the FC converter and a virtual resistor droop scheme to the SC converter, the proposed EMS is able to split the load power automatically into low and high frequency components and allocate them to the FC and SC units, respectively. In addition, by optimally designing the droop parameters, accurate power sharing among different source units is achieved. The proposed strategy is not only suitable for extending the service life of the system by adding State of Charge (SoC) protection mechanism in the energy management, but also can improve the system reliability as it is compatible for the disconnection of some source units when fault occurs. The operational principle of the proposed EMS and the detailed system design methodology are elaborated, followed by which hardware-in-the-loop simulation study based on Typhoon HIL 602 is done to verify its validity.
-</div>
-</div>
-
 <div class="item feed-094cb33b feed-ieeetransactionsonindustrialelectronicsnewtoc" id="item-0f68d066">
 <p class="itemheader">
 <span class="itemtitle"><a href="http://ieeexplore.ieee.org/document/8818662">Cosimulation of Shifted-Frequency/Dynamic Phasor and Electromagnetic Transient Models of Hybrid LCC-MMC DC Grids on Integrated CPU&#x2013;GPUs</a></span>
@@ -567,6 +543,16 @@ plus key ethical issues raised in the discussion section, to be resolved.
 </p>
 <div class="itemdescription">
 <p>To effectively capture interactions of large-scale ac&#x2013;dc systems integrating line commutated converter (LCC) and modular multilevel converter (MMC) based multiterminal dc grids, a numerically accurate and efficient simulation method is desirable. To achieve this objective, a cosimulation method is proposed in this article, where the target system is decoupled into the shifted-frequency phasor (SFP) subsystem, the dynamic phasor (DP) subsystem, and electromagnetic transient (EMT) subsystem, respectively. The MMCs are included in the SFP subsystem and implemented on massively paralleled graphics processing units (GPUs). Thus, the simulation efficiency is greatly improved by adopting a much larger time step, the model order reduction technique, and GPU acceleration. The LCCs are represented by DPs and are included in the DP subsystem. The majority of ac grids are covered in the EMT subsystem. Further, the interactions between SFP and EMT subsystems are reflected by the proposed multidomain transmission line model, which can produce instantaneous and phasor values simultaneously. The interface model between DP and EMT subsystems is modeled as a special controlled voltage and current circuit. Finally, the overall cosimulation method is realized by the respective SFP/DP and EMT models, among which their interactions are reflected by the proposed interface models and the time sequences of simulations. The performance of the proposed method has been fully validated on a practical large-scale ac&#x2013;dc system.
+</div>
+</div>
+
+<div class="item feed-094cb33b feed-ieeetransactionsonindustrialelectronicsnewtoc" id="item-ad84d358">
+<p class="itemheader">
+<span class="itemtitle"><a href="http://ieeexplore.ieee.org/document/8818640">An Electromagnetic Variable Stiffness Device for Semiactive Seat Suspension Vibration Control</a></span>
+<span class="itemfrom">[<a href="http://ieeexplore.ieee.org">IEEE Transactions on Industrial Electronics - new TOC</a>]</span>
+</p>
+<div class="itemdescription">
+<p>This article introduces a rotary semiactive variable stiffness (VS) device, including its system design and model validation. A variable damping (VD) device and springs can form mechanical networks with specific topologies, and the VD device can control the equivalent stiffness of the network by varying its damping. The proposed rotary electromagnetic VS device consists of an electromagnetic VD device and a torsion spring, which are in series, while a planetary gear reducer is used to amplify the torque output of the VS device. The models of the electromagnetic VD and VS devices are both built and validated with tests. Then, a seat suspension applies the VS device by installing the device in the center of its scissors structure. Bump and random vibration experiments are implemented to validate the effectiveness of the proposed VS system for seat suspension vibration control. The new system has merits in controllability and energy efficiency. It is easier to design the controller than the conventional one with magnetorheological damper due to the linear damping of the electromagnetic VD device. Besides, the system energy consumption is low and has energy harvesting capability. The proposed semiactive electromagnetic VS device also has potential in other practical applicationss.
 </div>
 </div>
 
@@ -593,13 +579,31 @@ plus key ethical issues raised in the discussion section, to be resolved.
 </div>
 </div>
 <div class="day">
+<h2>Wednesday, 08 April 2020</h2>
+<div class="time">
+<h3>02:00 PM</h3>
+<div class="item feed-6b3f78ad feed-latestbmjresearch" id="item-af4c5df9">
+<p class="itemheader">
+<span class="itemtitle"><a href="http://feeds.bmj.com/~r/bmj/research/~3/DGY4HxrudHM/bmj.m1328">Prediction models for diagnosis and prognosis of covid-19 infection: systematic review and critical appraisal</a></span>
+<span class="itemfrom">[<a href="https://www.bmj.com/research/feed/180">Latest BMJ Research</a>]</span>
+</p>
+<div class="itemdescription">
+<div class="feedflare">
+<a href="http://feeds.bmj.com/~ff/bmj/research?a=DGY4HxrudHM:R_g0G_t7jFQ:yIl2AUoC8zA"><img border="0" src="http://feeds.feedburner.com/~ff/bmj/research?d=yIl2AUoC8zA" /></a> <a href="http://feeds.bmj.com/~ff/bmj/research?a=DGY4HxrudHM:R_g0G_t7jFQ:dnMXMwOfBR0"><img border="0" src="http://feeds.feedburner.com/~ff/bmj/research?d=dnMXMwOfBR0" /></a> <a href="http://feeds.bmj.com/~ff/bmj/research?a=DGY4HxrudHM:R_g0G_t7jFQ:F7zBnMyn0Lo"><img border="0" src="http://feeds.feedburner.com/~ff/bmj/research?i=DGY4HxrudHM:R_g0G_t7jFQ:F7zBnMyn0Lo" /></a> <a href="http://feeds.bmj.com/~ff/bmj/research?a=DGY4HxrudHM:R_g0G_t7jFQ:V_sGLiPBpWU"><img border="0" src="http://feeds.feedburner.com/~ff/bmj/research?i=DGY4HxrudHM:R_g0G_t7jFQ:V_sGLiPBpWU" /></a> <a href="http://feeds.bmj.com/~ff/bmj/research?a=DGY4HxrudHM:R_g0G_t7jFQ:qj6IDK7rITs"><img border="0" src="http://feeds.feedburner.com/~ff/bmj/research?d=qj6IDK7rITs" /></a> <a href="http://feeds.bmj.com/~ff/bmj/research?a=DGY4HxrudHM:R_g0G_t7jFQ:gIN9vFwOqvQ"><img border="0" src="http://feeds.feedburner.com/~ff/bmj/research?i=DGY4HxrudHM:R_g0G_t7jFQ:gIN9vFwOqvQ" /></a>
+</div><img alt="" height="1" src="http://feeds.feedburner.com/~r/bmj/research/~4/DGY4HxrudHM" width="1" />
+</div>
+</div>
+
+</div>
+</div>
+<div class="day">
 <h2>Thursday, 02 April 2020</h2>
 <div class="time">
 <h3>02:00 PM</h3>
 <div class="item feed-6b3f78ad feed-latestbmjresearch" id="item-097d449a">
 <p class="itemheader">
 <span class="itemtitle"><a href="http://feeds.bmj.com/~r/bmj/research/~3/qN9Kng2Qpdw/bmj.m1043">Infectious diseases in children and adolescents in China: analysis of national surveillance data from 2008 to 2017</a></span>
-<span class="itemfrom">[<a href="https://www.bmj.com/research/feed">Latest BMJ Research</a>]</span>
+<span class="itemfrom">[<a href="https://www.bmj.com/research/feed/180">Latest BMJ Research</a>]</span>
 </p>
 <div class="itemdescription">
 <div class="feedflare">
@@ -617,7 +621,7 @@ plus key ethical issues raised in the discussion section, to be resolved.
 <div class="item feed-6b3f78ad feed-latestbmjresearch" id="item-bf50932c">
 <p class="itemheader">
 <span class="itemtitle"><a href="http://feeds.bmj.com/~r/bmj/research/~3/8Ajn5zjSS6c/bmj.m697">Manual acupuncture versus sham acupuncture and usual care for prophylaxis of episodic migraine without aura: multicentre, randomised clinical trial</a></span>
-<span class="itemfrom">[<a href="https://www.bmj.com/research/feed">Latest BMJ Research</a>]</span>
+<span class="itemfrom">[<a href="https://www.bmj.com/research/feed/180">Latest BMJ Research</a>]</span>
 </p>
 <div class="itemdescription">
 <div class="feedflare">
@@ -647,13 +651,13 @@ s vital for joint frequency assignment and scheduling in multihop industrial CR 
 </div>
 </div>
 
-<div class="item feed-ccdce26d feed-ieeetransactionsonindustrialinformaticsnewtoc" id="item-7d148ff2">
+<div class="item feed-ccdce26d feed-ieeetransactionsonindustrialinformaticsnewtoc" id="item-cbe89cb6">
 <p class="itemheader">
-<span class="itemtitle"><a href="http://ieeexplore.ieee.org/document/8854146">A Three-Switch-Based Single-Input Dual-Output Converter With Simultaneous Boost &amp; Buck Voltage Conversion</a></span>
+<span class="itemtitle"><a href="http://ieeexplore.ieee.org/document/8840875">Obstacle Avoidance and Tracking Control of Redundant Robotic Manipulator: An RNN-Based Metaheuristic Approach</a></span>
 <span class="itemfrom">[<a href="http://ieeexplore.ieee.org">IEEE Transactions on Industrial Informatics - new TOC</a>]</span>
 </p>
 <div class="itemdescription">
-<p>With the increasing demand of applications that have two different output voltages, the single-input dual-output (SIDO) converter with fewer components is becoming the cost-effective option instead of employing two single-input single-output converters. However, the cross-regulation of different outputs is still a challenge in SIDO converters design. To save cost and obtain improved cross-regulation performance, a novel SIDO converter consisting of three active switches is proposed in this article. Owing to the use of a voltage multiplier circuit, a high step-up voltage conversion ratio is achieved with relatively low voltage stress of switches. Thanks to the independent power flow and two control variables, the cross-regulation performance is improved, and simultaneous buck as well as boost output voltages is realized. Additionally, all switches can achieve zero-voltage switching operation, which contributes to a significant switching loss reduction. The operation characteristics, design considerations, and control strategy of the proposed converter are analyzed. To verify the theoretical analysis and measure the power efficiency, a prototype circuit with 48 V input and 24 V&#x002f;2 A, 200 V&#x002f;1 A outputs is built.
+<p>In this article, we present a metaheuristic-based control framework, called beetle antennae olfactory recurrent neural network, for simultaneous tracking control and obstacle avoidance of a redundant manipulator. The ability to avoid obstacles while tracking a predefined reference path is critical for any industrial manipulator. The formulated control framework unifies the tracking control and obstacle avoidance into a single constrained optimization problem by introducing a penalty term into the objective function, which actively rewards the optimizer for avoiding the obstacles. One of the significant features of the proposed framework is the way that the penalty term is formulated following a straightforward principle: maximize the minimum distance between a manipulator and an obstacle. The distance calculations are based on Gilbert&#x2013;Johnson&#x2013;Keerthi algorithm, which calculates the distance between a manipulator and an obstacle by directly using their three-dimensional geometries, which also implies that our algorithm works for a manipulator and an arbitrarily shaped obstacle. Theoretical treatment proves the stability and convergence, and simulations results using an LBR IIWA seven-DOF manipulator are presented to analyze the performance of the proposed framework.
 </div>
 </div>
 
@@ -692,40 +696,12 @@ s vital for joint frequency assignment and scheduling in multihop industrial CR 
 <div class="item feed-6b3f78ad feed-latestbmjresearch" id="item-1ed65a56">
 <p class="itemheader">
 <span class="itemtitle"><a href="http://feeds.bmj.com/~r/bmj/research/~3/tXWykXqYOIw/bmj.m336">Association of injury related hospital admissions with commuting by bicycle in the UK: prospective population based study</a></span>
-<span class="itemfrom">[<a href="https://www.bmj.com/research/feed">Latest BMJ Research</a>]</span>
+<span class="itemfrom">[<a href="https://www.bmj.com/research/feed/180">Latest BMJ Research</a>]</span>
 </p>
 <div class="itemdescription">
 <div class="feedflare">
 <a href="http://feeds.bmj.com/~ff/bmj/research?a=tXWykXqYOIw:4v7agQelal4:yIl2AUoC8zA"><img border="0" src="http://feeds.feedburner.com/~ff/bmj/research?d=yIl2AUoC8zA" /></a> <a href="http://feeds.bmj.com/~ff/bmj/research?a=tXWykXqYOIw:4v7agQelal4:dnMXMwOfBR0"><img border="0" src="http://feeds.feedburner.com/~ff/bmj/research?d=dnMXMwOfBR0" /></a> <a href="http://feeds.bmj.com/~ff/bmj/research?a=tXWykXqYOIw:4v7agQelal4:F7zBnMyn0Lo"><img border="0" src="http://feeds.feedburner.com/~ff/bmj/research?i=tXWykXqYOIw:4v7agQelal4:F7zBnMyn0Lo" /></a> <a href="http://feeds.bmj.com/~ff/bmj/research?a=tXWykXqYOIw:4v7agQelal4:V_sGLiPBpWU"><img border="0" src="http://feeds.feedburner.com/~ff/bmj/research?i=tXWykXqYOIw:4v7agQelal4:V_sGLiPBpWU" /></a> <a href="http://feeds.bmj.com/~ff/bmj/research?a=tXWykXqYOIw:4v7agQelal4:qj6IDK7rITs"><img border="0" src="http://feeds.feedburner.com/~ff/bmj/research?d=qj6IDK7rITs" /></a> <a href="http://feeds.bmj.com/~ff/bmj/research?a=tXWykXqYOIw:4v7agQelal4:gIN9vFwOqvQ"><img border="0" src="http://feeds.feedburner.com/~ff/bmj/research?i=tXWykXqYOIw:4v7agQelal4:gIN9vFwOqvQ" /></a>
 </div><img alt="" height="1" src="http://feeds.feedburner.com/~r/bmj/research/~4/tXWykXqYOIw" width="1" />
-</div>
-</div>
-
-<div class="item feed-6b3f78ad feed-latestbmjresearch" id="item-7e31af1d">
-<p class="itemheader">
-<span class="itemtitle"><a href="http://feeds.bmj.com/~r/bmj/research/~3/856NC27Qt0g/bmj.m513">Egg consumption and risk of cardiovascular disease: three large prospective US cohort studies, systematic review, and updated meta-analysis</a></span>
-<span class="itemfrom">[<a href="https://www.bmj.com/research/feed">Latest BMJ Research</a>]</span>
-</p>
-<div class="itemdescription">
-<div class="feedflare">
-<a href="http://feeds.bmj.com/~ff/bmj/research?a=856NC27Qt0g:k-QE5pX9sSE:yIl2AUoC8zA"><img border="0" src="http://feeds.feedburner.com/~ff/bmj/research?d=yIl2AUoC8zA" /></a> <a href="http://feeds.bmj.com/~ff/bmj/research?a=856NC27Qt0g:k-QE5pX9sSE:dnMXMwOfBR0"><img border="0" src="http://feeds.feedburner.com/~ff/bmj/research?d=dnMXMwOfBR0" /></a> <a href="http://feeds.bmj.com/~ff/bmj/research?a=856NC27Qt0g:k-QE5pX9sSE:F7zBnMyn0Lo"><img border="0" src="http://feeds.feedburner.com/~ff/bmj/research?i=856NC27Qt0g:k-QE5pX9sSE:F7zBnMyn0Lo" /></a> <a href="http://feeds.bmj.com/~ff/bmj/research?a=856NC27Qt0g:k-QE5pX9sSE:V_sGLiPBpWU"><img border="0" src="http://feeds.feedburner.com/~ff/bmj/research?i=856NC27Qt0g:k-QE5pX9sSE:V_sGLiPBpWU" /></a> <a href="http://feeds.bmj.com/~ff/bmj/research?a=856NC27Qt0g:k-QE5pX9sSE:qj6IDK7rITs"><img border="0" src="http://feeds.feedburner.com/~ff/bmj/research?d=qj6IDK7rITs" /></a> <a href="http://feeds.bmj.com/~ff/bmj/research?a=856NC27Qt0g:k-QE5pX9sSE:gIN9vFwOqvQ"><img border="0" src="http://feeds.feedburner.com/~ff/bmj/research?i=856NC27Qt0g:k-QE5pX9sSE:gIN9vFwOqvQ" /></a>
-</div><img alt="" height="1" src="http://feeds.feedburner.com/~r/bmj/research/~4/856NC27Qt0g" width="1" />
-</div>
-</div>
-
-</div>
-</div>
-<div class="day">
-<h2>Tuesday, 25 February 2020</h2>
-<div class="time">
-<h3>03:00 PM</h3>
-<div class="item feed-c24550d7 feed-ieeetransactionsoninformationforensicsandsecuritynewtoc" id="item-8549252e">
-<p class="itemheader">
-<span class="itemtitle"><a href="http://ieeexplore.ieee.org/document/8897606">Jpg&lt;inline-formula&gt; &lt;tex-math notation="LaTeX"&gt;$Scraper$ &lt;/tex-math&gt;&lt;/inline-formula&gt;: An Advanced Carver for JPEG Files</a></span>
-<span class="itemfrom">[<a href="http://ieeexplore.ieee.org">IEEE Transactions on Information Forensics and Security - new TOC</a>]</span>
-</p>
-<div class="itemdescription">
-<p>Orphaned file fragment carving is concerned with recovering contents of encoded data in the absence of any coding metadata. Constructing an orphaned file carver requires addressing three challenges: a specialized decoder to interpret partial file data; the ability to discriminate a specific type of encoded data from all other types of data; and comprehensive prior knowledge on possible encoding settings. In this work, we build on the ability to render a partial image contained within a segment of JPEG coded data to introduce a new carving tool that addresses all these challenges. Towards this goal, we first propose a new method that discriminates JPEG file data from among 993 file data types with 97.7% accuracy. We also introduce a method for robustly delimiting entropy coded data segments of JPEG files. This in turn allows us to identify partial JPEG file headers with zero false rejection and 0.1% of false alarm rate. Secondly, we examine a very diverse image set comprising more than 7 million images. This ensures comprehensive coverage of coding parameters used by 3,269 camera models and a wide variety of image editing tools. Further, we assess the potential impact of the developed tool on practice in terms of the amount of new evidence that it can recover. Recovery results on a set of used SD cards purchased online show that our carver is able to recover 24% more image data as compared to existing file carving tools. Evaluations performed on a standard dataset also show that JpgScraper improves the state-of-the-art significantly in carving JPEG file data.
 </div>
 </div>
 
@@ -791,6 +767,16 @@ s vital for joint frequency assignment and scheduling in multihop industrial CR 
 <h2>Monday, 03 February 2020</h2>
 <div class="time">
 <h3>03:00 PM</h3>
+<div class="item feed-c24550d7 feed-ieeetransactionsoninformationforensicsandsecuritynewtoc" id="item-2177df5d">
+<p class="itemheader">
+<span class="itemtitle"><a href="http://ieeexplore.ieee.org/document/8742639">Investigating the Common Authorship of Signatures by Off-Line Automatic Signature Verification Without the Use of Reference Signatures</a></span>
+<span class="itemfrom">[<a href="http://ieeexplore.ieee.org">IEEE Transactions on Information Forensics and Security - new TOC</a>]</span>
+</p>
+<div class="itemdescription">
+<p>In automatic signature verification, questioned specimens are usually compared with reference signatures. In writer-dependent schemes, a number of reference signatures are required to build up the individual signer model while a writer-independent system requires a set of reference signatures from several signers to develop the model of the system. This paper addresses the problem of automatic signature verification when no reference signatures are available. The scenario we explore consists of a set of signatures, which could be signed by the same author or by multiple signers. As such, we discuss three methods which estimate automatically the common authorship of a set of off-line signatures. The first method develops a score similarity matrix, worked out with the assistance of duplicated signatures; the second uses a feature-distance matrix for each pair of signatures; and the last method introduces pre-classification based on the complexity of each signature. Publicly available signatures were used in the experiments, which gave encouraging results. As a baseline for the performance obtained by our approaches, we carried out a visual Turing Test where forensic and non-forensic human volunteers, carrying out the same task, performed less well than the automatic schemes.
+</div>
+</div>
+
 <div class="item feed-c24550d7 feed-ieeetransactionsoninformationforensicsandsecuritynewtoc" id="item-a4054c56">
 <p class="itemheader">
 <span class="itemtitle"><a href="http://ieeexplore.ieee.org/document/8763980">Electromagnetic Side Channel Information Leakage Created by Execution of Series of Instructions in a Computer Processor</a></span>
@@ -995,6 +981,16 @@ s vital for joint frequency assignment and scheduling in multihop industrial CR 
 </div>
 </div>
 
+<div class="item feed-52e73913 feed-annualreviewsannualreviewofpoliticalsciencetableofcontents" id="item-817b37aa">
+<p class="itemheader">
+<span class="itemtitle"><a href="https://www.annualreviews.org/doi/abs/10.1146/annurev-polisci-090717-092750?af=R">Center-Right Political Parties in Advanced Democracies</a></span>
+<span class="itemfrom">[Annual Reviews: Annual Review of Political Science: Table of Contents]</span>
+</p>
+<div class="itemdescription">
+<p>Annual Review of Political Science, <a href="https://www.annualreviews.org/toc/polisci/22/1">Volume 22, Issue 1</a>, Page 17-35, May 2019. <br />
+</div>
+</div>
+
 <div class="item feed-52e73913 feed-annualreviewsannualreviewofpoliticalsciencetableofcontents" id="item-628d3eb7">
 <p class="itemheader">
 <span class="itemtitle"><a href="https://www.annualreviews.org/doi/abs/10.1146/annurev-polisci-051017-113314?af=R">The Return of the Single-Country Study</a></span>
@@ -1012,16 +1008,6 @@ s vital for joint frequency assignment and scheduling in multihop industrial CR 
 </p>
 <div class="itemdescription">
 <p>Annual Review of Political Science, <a href="https://www.annualreviews.org/toc/polisci/22/1">Volume 22, Issue 1</a>, Page 277-295, May 2019. <br />
-</div>
-</div>
-
-<div class="item feed-52e73913 feed-annualreviewsannualreviewofpoliticalsciencetableofcontents" id="item-d951f2f3">
-<p class="itemheader">
-<span class="itemtitle"><a href="https://www.annualreviews.org/doi/abs/10.1146/annurev-polisci-060518-025407?af=R">Integrating the Civil&#8211;Military Relations Subfield</a></span>
-<span class="itemfrom">[Annual Reviews: Annual Review of Political Science: Table of Contents]</span>
-</p>
-<div class="itemdescription">
-<p>Annual Review of Political Science, <a href="https://www.annualreviews.org/toc/polisci/22/1">Volume 22, Issue 1</a>, Page 379-398, May 2019. <br />
 </div>
 </div>
 
@@ -1049,113 +1035,113 @@ s vital for joint frequency assignment and scheduling in multihop industrial CR 
 <tr class="feedsrow">
 <td>Annual Reviews: Annual Review of Economics: Table of Contents</td>
 <td><a class="xmlbutton" href="http://www.annualreviews.org/action/showFeed?ui=45mu4&amp;mi=3fndc3&amp;ai=67b7&amp;jc=economics&amp;type=etoc&amp;feed=rss">XML</a></td>
-<td>02:01 AM, Wednesday, 22 April 2020</td>
-<td>05:01 AM, Wednesday, 22 April 2020</td>
+<td>10:01 AM, Wednesday, 22 April 2020</td>
+<td>01:01 PM, Wednesday, 22 April 2020</td>
 </tr>
 
 <tr class="feedsrow">
 <td>Annual Reviews: Annual Review of Nutrition: Table of Contents</td>
 <td><a class="xmlbutton" href="http://www.annualreviews.org/action/showFeed?ui=45mu4&amp;mi=3fndc3&amp;ai=rz&amp;jc=nutr&amp;type=etoc&amp;feed=rss">XML</a></td>
-<td>02:01 AM, Wednesday, 22 April 2020</td>
-<td>05:01 AM, Wednesday, 22 April 2020</td>
+<td>10:01 AM, Wednesday, 22 April 2020</td>
+<td>01:01 PM, Wednesday, 22 April 2020</td>
 </tr>
 
 <tr class="feedsrow">
 <td>Annual Reviews: Annual Review of Physiology: Table of Contents</td>
 <td><a class="xmlbutton" href="http://www.annualreviews.org/action/showFeed?ui=45mu4&amp;mi=3fndc3&amp;ai=sp&amp;jc=physiol&amp;type=etoc&amp;feed=rss">XML</a></td>
-<td>02:01 AM, Wednesday, 22 April 2020</td>
-<td>05:01 AM, Wednesday, 22 April 2020</td>
+<td>10:01 AM, Wednesday, 22 April 2020</td>
+<td>01:01 PM, Wednesday, 22 April 2020</td>
 </tr>
 
 <tr class="feedsrow">
 <td>Annual Reviews: Annual Review of Political Science: Table of Contents</td>
 <td><a class="xmlbutton" href="http://www.annualreviews.org/action/showFeed?jc=polisci&amp;type=etoc&amp;feed=rss">XML</a></td>
-<td>02:01 AM, Wednesday, 22 April 2020</td>
-<td>05:01 AM, Wednesday, 22 April 2020</td>
+<td>10:01 AM, Wednesday, 22 April 2020</td>
+<td>01:01 PM, Wednesday, 22 April 2020</td>
 </tr>
 
 <tr class="feedsrow">
 <td>Annual Reviews: Annual Review of Sociology: Table of Contents</td>
 <td><a class="xmlbutton" href="http://www.annualreviews.org/action/showFeed?ui=45mu4&amp;mi=3fndc3&amp;ai=t0&amp;jc=soc&amp;type=etoc&amp;feed=rss">XML</a></td>
-<td>02:01 AM, Wednesday, 22 April 2020</td>
-<td>05:01 AM, Wednesday, 22 April 2020</td>
+<td>10:01 AM, Wednesday, 22 April 2020</td>
+<td>01:01 PM, Wednesday, 22 April 2020</td>
 </tr>
 
 <tr class="feedsrow">
 <td><a href="http://arxiv.org/">cs.CR updates on arXiv.org</a></td>
 <td><a class="xmlbutton" href="http://export.arxiv.org/rss/cs.CR">XML</a></td>
-<td>02:01 AM, Wednesday, 22 April 2020</td>
-<td>05:01 AM, Wednesday, 22 April 2020</td>
+<td>10:01 AM, Wednesday, 22 April 2020</td>
+<td>01:01 PM, Wednesday, 22 April 2020</td>
 </tr>
 
 <tr class="feedsrow">
 <td><a href="http://www.pnas.org">Early Edition</a></td>
 <td><a class="xmlbutton" href="http://feeds.feedburner.com/Pnas-RssFeedOfEarlyEditionArticles?format=xml">XML</a></td>
-<td>02:01 AM, Wednesday, 22 April 2020</td>
-<td>05:01 AM, Wednesday, 22 April 2020</td>
+<td>10:01 AM, Wednesday, 22 April 2020</td>
+<td>01:01 PM, Wednesday, 22 April 2020</td>
 </tr>
 
 <tr class="feedsrow">
 <td><a href="http://www.eurekalert.org">EurekAlert! - Breaking News</a></td>
 <td><a class="xmlbutton" href="https://www.eurekalert.org/rss.xml">XML</a></td>
-<td>02:01 AM, Wednesday, 22 April 2020</td>
-<td>05:01 AM, Wednesday, 22 April 2020</td>
+<td>10:01 AM, Wednesday, 22 April 2020</td>
+<td>01:01 PM, Wednesday, 22 April 2020</td>
 </tr>
 
 <tr class="feedsrow">
 <td><a href="http://ieeexplore.ieee.org">IEEE Transactions on Image Processing - new TOC</a></td>
 <td><a class="xmlbutton" href="https://ieeexplore.ieee.org/rss/TOC83.XML">XML</a></td>
-<td>02:01 AM, Wednesday, 22 April 2020</td>
-<td>05:01 AM, Wednesday, 22 April 2020</td>
+<td>10:01 AM, Wednesday, 22 April 2020</td>
+<td>01:01 PM, Wednesday, 22 April 2020</td>
 </tr>
 
 <tr class="feedsrow">
 <td><a href="http://ieeexplore.ieee.org">IEEE Transactions on Industrial Electronics - new TOC</a></td>
 <td><a class="xmlbutton" href="https://ieeexplore.ieee.org/rss/TOC41.XML">XML</a></td>
-<td>02:01 AM, Wednesday, 22 April 2020</td>
-<td>05:01 AM, Wednesday, 22 April 2020</td>
+<td>10:01 AM, Wednesday, 22 April 2020</td>
+<td>01:01 PM, Wednesday, 22 April 2020</td>
 </tr>
 
 <tr class="feedsrow">
 <td><a href="http://ieeexplore.ieee.org">IEEE Transactions on Industrial Informatics - new TOC</a></td>
 <td><a class="xmlbutton" href="https://ieeexplore.ieee.org/rss/TOC9424.XML">XML</a></td>
-<td>02:01 AM, Wednesday, 22 April 2020</td>
-<td>05:01 AM, Wednesday, 22 April 2020</td>
+<td>10:01 AM, Wednesday, 22 April 2020</td>
+<td>01:01 PM, Wednesday, 22 April 2020</td>
 </tr>
 
 <tr class="feedsrow">
 <td><a href="http://ieeexplore.ieee.org">IEEE Transactions on Information Forensics and Security - new TOC</a></td>
 <td><a class="xmlbutton" href="https://ieeexplore.ieee.org/rss/TOC10206.XML">XML</a></td>
-<td>02:01 AM, Wednesday, 22 April 2020</td>
-<td>05:01 AM, Wednesday, 22 April 2020</td>
+<td>10:01 AM, Wednesday, 22 April 2020</td>
+<td>01:01 PM, Wednesday, 22 April 2020</td>
 </tr>
 
 <tr class="feedsrow">
 <td><a href="https://jamanetwork.com/journals/jama">JAMA Current Issue</a></td>
 <td><a class="xmlbutton" href="https://jamanetwork.com/rss/site_3/67.xml">XML</a></td>
-<td>02:01 AM, Wednesday, 22 April 2020</td>
-<td>05:01 AM, Wednesday, 22 April 2020</td>
+<td>10:01 AM, Wednesday, 22 April 2020</td>
+<td>01:01 PM, Wednesday, 22 April 2020</td>
 </tr>
 
 <tr class="feedsrow">
-<td><a href="https://www.bmj.com/research/feed">Latest BMJ Research</a></td>
+<td><a href="https://www.bmj.com/research/feed/180">Latest BMJ Research</a></td>
 <td><a class="xmlbutton" href="http://feeds.bmj.com/bmj/research?format=xml">XML</a></td>
-<td>02:01 AM, Wednesday, 22 April 2020</td>
-<td>05:01 AM, Wednesday, 22 April 2020</td>
+<td>10:01 AM, Wednesday, 22 April 2020</td>
+<td>01:01 PM, Wednesday, 22 April 2020</td>
 </tr>
 
 <tr class="feedsrow">
 <td><a href="http://feeds.nature.com/nature/rss/current">Nature - Issue - nature.com science feeds</a></td>
 <td><a class="xmlbutton" href="http://feeds.nature.com/nature/rss/current?format=xml">XML</a></td>
-<td>02:01 AM, Wednesday, 22 April 2020</td>
-<td>05:01 AM, Wednesday, 22 April 2020</td>
+<td>10:01 AM, Wednesday, 22 April 2020</td>
+<td>01:01 PM, Wednesday, 22 April 2020</td>
 </tr>
 
 <tr class="feedsrow">
 <td><a href="https://www.thelancet.com/journals/lancet/issue/current">The Lancet</a></td>
 <td><a class="xmlbutton" href="http://www.thelancet.com/rssfeed/lancet_current.xml">XML</a></td>
-<td>02:01 AM, Wednesday, 22 April 2020</td>
-<td>05:01 AM, Wednesday, 22 April 2020</td>
+<td>10:01 AM, Wednesday, 22 April 2020</td>
+<td>01:01 PM, Wednesday, 22 April 2020</td>
 </tr>
 
 </table>
