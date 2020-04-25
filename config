@@ -18,3 +18,4 @@ feed 3h https://ieeexplore.ieee.org/rss/TOC83.XML
 feed 3h https://www.eurekalert.org/rss.xml
 feed 3h http://feeds.feedburner.com/Pnas-RssFeedOfEarlyEditionArticles?format=xml
 feed 3h http://export.arxiv.org/rss/cs.CR
+feed 3h https://journals.humankinetics.com/journalissuetocrss/journals/ijspp/ijspp-overview.xml
