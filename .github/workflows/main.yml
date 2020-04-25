@@ -3,6 +3,8 @@ name: Build
 on:
   schedule:
     - cron:  '0 2/8 * * *'
+  push:
+    branches: gh-pages
 
 jobs:
   build:
@@ -13,16 +15,12 @@ jobs:
     - uses: actions/checkout@v2
 
     - name: Install dependencies (feedparser and rawdog)
-      working-directory: /tmp
-      run: |
-        pip install feedparser pytidylib
-        wget http://offog.org/files/rawdog-2.23.tar.gz
-        tar -xvf rawdog-2.23.tar.gz
+      run: apt-get install rawdog
         
     - name: Run rawdog
       working-directory: ${{ github.workspace }}
       run: |
-        /tmp/rawdog-2.23/rawdog -v -d . -uw
+        rawdog -v -d . -uw
         
     - name: Push the changes
       working-directory: ${{ github.workspace }}
