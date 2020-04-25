@@ -14,8 +14,8 @@ jobs:
     # Checks-out the repository under $GITHUB_WORKSPACE
     - uses: actions/checkout@v2
 
-    - name: Install dependencies (feedparser and rawdog)
-      run: apt-get install rawdog
+    - name: Install rawdog
+      run: sudo apt-get install rawdog
         
     - name: Run rawdog
       working-directory: ${{ github.workspace }}
