@@ -4,27 +4,33 @@ on:
   schedule:
     - cron:  '0 2/8 * * *'
   push:
-    branches: gh-pages
+    branches: master
 
 jobs:
   build:
     runs-on: ubuntu-latest
 
     steps:
-    # Checks-out the repository under $GITHUB_WORKSPACE
     - uses: actions/checkout@v2
+
+    - uses: jorgebg/stateful-action@v0.1
+      with:
+        branch: state
+
+    - uses: jorgebg/stateful-action@v0.1
+      with:
+        branch: gh-pages
 
     - name: Install rawdog
       run: sudo apt-get install rawdog
-        
+
     - name: Run rawdog
-      working-directory: ${{ github.workspace }}
       run: |
+        cp .state/state* .
         rawdog -v -d . -uw
-        
-    - name: Push the changes
-      working-directory: ${{ github.workspace }}
+        cp ./state* .state/
+
+    - name: Publish
       run: |
-        git config --global user.email "reader@jorgebg.com"
-        git config --global user.name "Reader Bot"
-        ./upload.sh
+        cp ./style.css .gh-pages/
+        cp output.html .gh-pages/index.html
