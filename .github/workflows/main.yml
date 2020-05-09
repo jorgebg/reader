@@ -22,7 +22,9 @@ jobs:
         branch: gh-pages
 
     - name: Install rawdog
-      run: sudo apt-get install rawdog
+      run: |
+        sudo apt-get update
+        sudo apt-get install rawdog
 
     - name: Run rawdog
       run: |
