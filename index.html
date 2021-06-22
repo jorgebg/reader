@@ -13,6 +13,72 @@
 </div>
 <div id="items">
 <div class="day">
+<h2>Tuesday, 22 June 2021</h2>
+<div class="time">
+<h3>02:32 AM</h3>
+<div class="item feed-1b28272e feed-cscrupdatesonarxivorg" id="item-07d33701">
+<p class="itemheader">
+<span class="itemtitle"><a href="http://arxiv.org/abs/2106.10362">Jolteon and Ditto: Network-Adaptive Efficient Consensus with Asynchronous Fallback. (arXiv:2106.10362v1 [cs.DC])</a></span>
+<span class="itemfrom">[<a href="http://arxiv.org/">cs.CR updates on arXiv.org</a>]</span>
+</p>
+<div class="itemdescription">
+<p>
+      Existing committee-based Byzantine state machine replication (SMR) protocols, typically deployed in production blockchains, face a clear trade-off: (1) they either achieve linear communication cost in the happy path, but sacrifice liveness during periods of asynchrony, or (2) they are robust (progress with probability one) but pay quadratic communication cost. We believe this trade-off is unwarranted since existing linear protocols still have asymptotic quadratic cost in the worst case. We design Ditto, a Byzantine SMR protocol that enjoys the best of both worlds: optimal communication on and off the happy path (linear and quadratic, respectively) and progress guarantee under asynchrony and DDoS attacks. We achieve this by replacing the view-synchronization of partially synchronous protocols with an asynchronous fallback mechanism at no extra asymptotic cost. Specifically, we start from HotStuff, a state-of-the-art linear protocol, and gradually build Ditto. As a separate contribution and an intermediate step, we design a 2-chain version of HotStuff, Jolteon, which leverages a quadratic view-change mechanism to reduce the latency of the standard 3-chain HotStuff. We implement and experimentally evaluate all our systems. Notably, Jolteon's commit latency outperforms HotStuff by 200-300ms with varying system size. Additionally, Ditto adapts to the network and provides better performance than Jolteon under faulty conditions and better performance than VABA (a state-of-the-art asynchronous protocol) under faultless conditions. This proves our case that breaking the robustness-efficiency trade-off is in the realm of practicality.
+    </p>
+</div>
+</div>
+
+<div class="item feed-1b28272e feed-cscrupdatesonarxivorg" id="item-cdd2c4a0">
+<p class="itemheader">
+<span class="itemtitle"><a href="http://arxiv.org/abs/2005.09532">Scalable Privacy-Preserving Distributed Learning. (arXiv:2005.09532v4 [cs.CR] UPDATED)</a></span>
+<span class="itemfrom">[<a href="http://arxiv.org/">cs.CR updates on arXiv.org</a>]</span>
+</p>
+<div class="itemdescription">
+<p>
+      In this paper, we address the problem of privacy-preserving distributed learning and the evaluation of machine-learning models by analyzing it in the widespread MapReduce abstraction that we extend with privacy constraints. We design SPINDLE (Scalable Privacy-preservINg Distributed LEarning), the first distributed and privacy-preserving system that covers the complete ML workflow by enabling the execution of a cooperative gradient-descent and the evaluation of the obtained model and by preserving data and model confidentiality in a passive-adversary model with up to N-1 colluding parties. SPINDLE uses multiparty homomorphic encryption to execute parallel high-depth computations on encrypted data without significant overhead. We instantiate SPINDLE for the training and evaluation of generalized linear models on distributed datasets and show that it is able to accurately (on par with non-secure centrally-trained models) and efficiently (due to a multi-level parallelization of the computations) train models that require a high number of iterations on large input data with thousands of features, distributed among hundreds of data providers. For instance, it trains a logistic-regression model on a dataset of one million samples with 32 features distributed among 160 data providers in less than three minutes.
+    </p>
+</div>
+</div>
+
+<div class="item feed-1b28272e feed-cscrupdatesonarxivorg" id="item-7d245434">
+<p class="itemheader">
+<span class="itemtitle"><a href="http://arxiv.org/abs/2006.12135">Learning to Generate Noise for Multi-Attack Robustness. (arXiv:2006.12135v3 [cs.LG] UPDATED)</a></span>
+<span class="itemfrom">[<a href="http://arxiv.org/">cs.CR updates on arXiv.org</a>]</span>
+</p>
+<div class="itemdescription">
+<p>
+      Adversarial learning has emerged as one of the successful techniques to circumvent the susceptibility of existing methods against adversarial perturbations. However, the majority of existing defense methods are tailored to defend against a single category of adversarial perturbation (e.g. $\ell_\infty$-attack). In safety-critical applications, this makes these methods extraneous as the attacker can adopt diverse adversaries to deceive the system. Moreover, training on multiple perturbations simultaneously significantly increases the computational overhead during training. To address these challenges, we propose a novel meta-learning framework that explicitly learns to generate noise to improve the model's robustness against multiple types of attacks. Its key component is Meta Noise Generator (MNG) that outputs optimal noise to stochastically perturb a given sample, such that it helps lower the error on diverse adversarial perturbations. By utilizing samples generated by MNG, we train a model by enforcing the label consistency across multiple perturbations. We validate the robustness of models trained by our scheme on various datasets and against a wide variety of perturbations, demonstrating that it significantly outperforms the baselines across multiple perturbations with a marginal computational cost.
+    </p>
+</div>
+</div>
+
+<div class="item feed-094cb33b feed-ieeetransactionsonindustrialelectronicsnewtoc" id="item-e30d53d2">
+<p class="itemheader">
+<span class="itemtitle"><a href="http://ieeexplore.ieee.org/document/9145781">Exploration of a Novel HTS Thin-Film Device Combined With Roles of Transformer and Overcurrent Limiter</a></span>
+<span class="itemfrom">[<a href="http://ieeexplore.ieee.org">IEEE Transactions on Industrial Electronics - new TOC</a>]</span>
+</p>
+<div class="itemdescription">
+<p>
+      A novel high-temperature superconducting (HTS) thin-film device based on double-sided YBa<sub>2</sub>Cu<sub>3</sub>O<sub>7&#8211;</sub><sub>x</sub> (YBCO) thin film, combined with roles of transformer and overcurrent limiter, is proposed and tested in this article. Due to the effective improvement on the power density, operating frequency, repeatability, functional integration, and low profile of the high-frequency converters, thin-film transformer (TFT) has been widely employed in power conversion fields. In contrast to the normal conductive materials, the surface resistance of the HTS materials is much smaller. Thus, the TFT fabricated by HTS thin film has lower Joule losses and higher power conversion efficiency. We designed the double-sided YBCO thin-film-based HTS-TFT and measured its parameters at liquid nitrogen (LN<sub>2</sub>). As a comparison, we also developed the copper (Cu) based TFT and measured the same parameters at LN<sub>2</sub> and room temperature. Besides, we also tested the overcurrent limiting performance of the HTS-TFT, which is based on the state change from superconductivity to normal state. It can be found from the contrastive experiments that the HTS-TFT has better operating parameters than the Cu-TFT; meanwhile, the overcurrent can be limited by the HTS winding effectively.
+    </p>
+</div>
+</div>
+
+<div class="item feed-c99fafa0 feed-ieeetransactionsonimageprocessingnewtoc" id="item-ff13c70f">
+<p class="itemheader">
+<span class="itemtitle"><a href="http://ieeexplore.ieee.org/document/9454266">Efficient Face Detection in the Fisheye Image Domain</a></span>
+<span class="itemfrom">[<a href="http://ieeexplore.ieee.org">IEEE Transactions on Image Processing - new TOC</a>]</span>
+</p>
+<div class="itemdescription">
+<p>
+      Significant progress has been made for face detection from normal images in recent years; however, accurate and fast face detection from fisheye images remains a challenging issue because of serious fisheye distortion in the peripheral region of the image. To improve face detection accuracy, we propose a light-weight location-aware network to distinguish the peripheral region from the central region in the feature learning stage. To match the face detector, the shape and scale of the anchor (bounding box) is made location dependent. The overall face detection system performs directly in the fisheye image domain without rectification and calibration and hence is agnostic of the fisheye projection parameters. Experiments on Wider-360 and real-world fisheye images using a single CPU core indeed show that our method is superior to the state-of-the-art real-time face detector RFB Net.
+    </p>
+</div>
+</div>
+
+</div>
+</div>
+<div class="day">
 <h2>Monday, 21 June 2021</h2>
 <div class="time">
 <h3>06:18 PM</h3>
@@ -52,14 +118,17 @@
 </div>
 </div>
 
-<div class="item feed-63a85565 feed-eurekalertbreakingnews" id="item-339410fc">
+</div>
+<div class="time">
+<h3>10:17 AM</h3>
+<div class="item feed-63a85565 feed-eurekalertbreakingnews" id="item-03e99079">
 <p class="itemheader">
-<span class="itemtitle"><a href="https://www.eurekalert.org/pub_releases/2021-06/niot-abf062021.php">A bright future: Using visible light to decompose CO2 with high efficiency</a></span>
+<span class="itemtitle"><a href="https://www.eurekalert.org/pub_releases/2021-06/uow-rsm061821.php">Research suggests mask-wearing can increase struggles with social anxiety</a></span>
 <span class="itemfrom">[<a href="http://www.eurekalert.org">EurekAlert! - Breaking News</a>]</span>
 </p>
 <div class="itemdescription">
 <p>
-      To tackle the challenge of global warming, scientists have been looking into green and sustainable methods of breaking down carbon dioxide in emissions and in the atmosphere. Now, a group of researchers from Nagoya Institute of Technology, Japan, have developed a novel, easy to synthesize composite compound that enables the efficient use of solar energy to reduce carbon dioxide, taking us one step closer to achieving a green economy.
+      People who struggle with social anxiety might experience increased distress related to mask-wearing during and even after the COVID-19 pandemic.
     </p>
 </div>
 </div>
@@ -75,42 +144,6 @@
 <div class="itemdescription">
 <p>
       In shuffle privacy, each user sends a collection of randomized messages to a trusted shuffler, the shuffler randomly permutes these messages, and the resulting shuffled collection of messages must satisfy differential privacy. Prior work in this model has largely focused on protocols that use a single round of communication to compute algorithmic primitives like means, histograms, and counts. In this work, we present interactive shuffle protocols for stochastic convex optimization. Our optimization protocols rely on a new noninteractive protocol for summing vectors of bounded $\ell_2$ norm. By combining this sum subroutine with techniques including mini-batch stochastic gradient descent, accelerated gradient descent, and Nesterov's smoothing method, we obtain loss guarantees for a variety of convex loss functions that significantly improve on those of the local model and sometimes match those of the central model.
-    </p>
-</div>
-</div>
-
-<div class="item feed-1b28272e feed-cscrupdatesonarxivorg" id="item-f3818407">
-<p class="itemheader">
-<span class="itemtitle"><a href="http://arxiv.org/abs/2106.09947">Indicators of Attack Failure: Debugging and Improving Optimization of Adversarial Examples. (arXiv:2106.09947v1 [cs.LG])</a></span>
-<span class="itemfrom">[<a href="http://arxiv.org/">cs.CR updates on arXiv.org</a>]</span>
-</p>
-<div class="itemdescription">
-<p>
-      Evaluating robustness of machine-learning models to adversarial examples is a challenging problem. Many defenses have been shown to provide a false sense of security by causing gradient-based attacks to fail, and they have been broken under more rigorous evaluations. Although guidelines and best practices have been suggested to improve current adversarial robustness evaluations, the lack of automatic testing and debugging tools makes it difficult to apply these recommendations in a systematic manner. In this work, we overcome these limitations by (i) defining a set of quantitative indicators which unveil common failures in the optimization of gradient-based attacks, and (ii) proposing specific mitigation strategies within a systematic evaluation protocol. Our extensive experimental analysis shows that the proposed indicators of failure can be used to visualize, debug and improve current adversarial robustness evaluations, providing a first concrete step towards automatizing and systematizing current adversarial robustness evaluations. Our open-source code is available at: https://github.com/pralab/IndicatorsOfAttackFailure.
-    </p>
-</div>
-</div>
-
-<div class="item feed-1b28272e feed-cscrupdatesonarxivorg" id="item-4656873d">
-<p class="itemheader">
-<span class="itemtitle"><a href="http://arxiv.org/abs/2106.09967">Extending the GLS endomorphism to speed up GHS Weil descent using Magma. (arXiv:2106.09967v1 [cs.CR])</a></span>
-<span class="itemfrom">[<a href="http://arxiv.org/">cs.CR updates on arXiv.org</a>]</span>
-</p>
-<div class="itemdescription">
-<p>
-      Let $q = 2^n$, and let $E / \mathbb{F}_{q^{\ell}}$ be a generalized Galbraith--Lin--Scott (GLS) binary curve, with $\ell \ge 2$ and $(\ell, n) = 1$.We show that the GLS endomorphism on $E / \mathbb{F}_{q^{\ell}}$ induces an efficient endomorphism on the Jacobian $J_H(\mathbb{F}_q)$ of the genus-$g$ hyperelliptic curve $H$ corresponding to the image of the GHS Weil-descent attack applied to $E/\mathbb{F}_{q^\ell}$, and that this endomorphism yields a factor-$n$ speedup when using standard index-calculus procedures for solving the Discrete Logarithm Problem (DLP) on $J_H(\mathbb{F}_q)$. Our analysis is backed up by the explicit computation of a discrete logarithm defined on a prime-order subgroup of a GLS elliptic curve over the field $\mathbb{F}_{2^{5\cdot 31}}$. A Magma implementation of our algorithm finds the aforementioned discrete logarithm in about $1,035$ CPU-days.
-    </p>
-</div>
-</div>
-
-<div class="item feed-1b28272e feed-cscrupdatesonarxivorg" id="item-c247b28a">
-<p class="itemheader">
-<span class="itemtitle"><a href="http://arxiv.org/abs/2106.10154">A Survey of Privacy Vulnerabilities of Mobile Device Sensors. (arXiv:2106.10154v1 [cs.HC])</a></span>
-<span class="itemfrom">[<a href="http://arxiv.org/">cs.CR updates on arXiv.org</a>]</span>
-</p>
-<div class="itemdescription">
-<p>
-      The number of mobile devices, such as smartphones and smartwatches, is relentlessly increasing to almost 6.8 billion by 2022, and along with it, the amount of personal and sensitive data captured by them. This survey overviews the state of the art of what personal and sensitive user attributes can be extracted from mobile device sensors, emphasising critical aspects such as demographics, health and body features, activity and behaviour recognition, etc. In addition, we review popular metrics in the literature to quantify the degree of privacy, and discuss powerful privacy methods to protect the sensitive data while preserving data utility for analysis. Finally, open research questions a represented for further advancements in the field.
     </p>
 </div>
 </div>
@@ -280,18 +313,6 @@
 </div>
 </div>
 
-<div class="item feed-094cb33b feed-ieeetransactionsonindustrialelectronicsnewtoc" id="item-c1a5f553">
-<p class="itemheader">
-<span class="itemtitle"><a href="http://ieeexplore.ieee.org/document/9162488">Robust Orientation-Sensitive Trajectory Tracking of Underactuated Autonomous Underwater Vehicles</a></span>
-<span class="itemfrom">[<a href="http://ieeexplore.ieee.org">IEEE Transactions on Industrial Electronics - new TOC</a>]</span>
-</p>
-<div class="itemdescription">
-<p>
-      Orientation-sensitive trajectory tracking (OSTT) claims that both position and orientation of the autonomous underwater vehicles (AUVs) are regulated to the reference. This article addresses the OSTT controller design problem for AUVs with separate forces or torques for surge, heave, roll, and yaw, in the presence of hydrodynamic uncertainties and external disturbances. In the kinematic stage, these AUVs are capable of moving sideways by exploiting the nonzero angle of the roll, so that the position tracking can be handled while the steering tracks the referenced yaw angle. As for the kinetic stage, a robust nonsmooth controller is implemented to guarantee the exponential convergence of velocity tracking errors. Trajectories are planned for the docking task and bridge pier inspection task. It is shown that the position tracking error can converge to a neighborhood about zero, and the yaw angle tracking error converges to zero exponentially as well. The effectiveness of the proposed method is illustrated by both simulation results and experimental results.
-    </p>
-</div>
-</div>
-
 <div class="item feed-ccdce26d feed-ieeetransactionsonindustrialinformaticsnewtoc" id="item-d2b8215f">
 <p class="itemheader">
 <span class="itemtitle"><a href="http://ieeexplore.ieee.org/document/9456802">IEEE Industrial Electronics Society</a></span>
@@ -328,14 +349,14 @@
 </div>
 </div>
 
-<div class="item feed-ccdce26d feed-ieeetransactionsonindustrialinformaticsnewtoc" id="item-d2129f44">
+<div class="item feed-ccdce26d feed-ieeetransactionsonindustrialinformaticsnewtoc" id="item-19f3d80a">
 <p class="itemheader">
-<span class="itemtitle"><a href="http://ieeexplore.ieee.org/document/9325565">Residual Learning Diagnosis Detection: An Advanced Residual Learning Diagnosis Detection System for COVID-19 in Industrial Internet of Things</a></span>
+<span class="itemtitle"><a href="http://ieeexplore.ieee.org/document/9112632">A Data-Driven Approach of Product Quality Prediction for Complex Production Systems</a></span>
 <span class="itemfrom">[<a href="http://ieeexplore.ieee.org">IEEE Transactions on Industrial Informatics - new TOC</a>]</span>
 </p>
 <div class="itemdescription">
 <p>
-      Due to the fast transmission speed and severe health damage, COVID-19 has attracted global attention. Early diagnosis and isolation are effective and imperative strategies for epidemic prevention and control. Most diagnostic methods for the COVID-19 is based on nucleic acid testing (NAT), which is expensive and time-consuming. To build an efficient and valid alternative of NAT, this article investigates the feasibility of employing computed tomography images of lungs as the diagnostic signals. Unlike normal lungs, parts of the lungs infected with the COVID-19 developed lesions, ground-glass opacity, and bronchiectasis became apparent. Through a public dataset, in this article, we propose an advanced residual learning diagnosis detection (RLDD) scheme for the COVID-19 technique, which is designed to distinguish positive COVID-19 cases from heterogeneous lung images. Besides the advantage of high diagnosis effectiveness, the designed residual-based COVID-19 detection network can efficiently extract the lung features through small COVID-19 samples, which removes the pretraining requirement on other medical datasets. In the test set, we achieve an accuracy of 91.33%, a precision of 91.30%, and a recall of 90%. For the batch of 150 samples, the assessment time is only 4.7&#160;s. Therefore, RLDD can be integrated into the application programming interface and embedded into the medical instrument to improve the detection efficiency of COVID-19.
+      In the modern industry, the information has been sufficiently shared among the production equipment, intelligent subsystems, and mobile devices via advanced network technology. For this purpose, many challenges on plant-wide performance evaluation such as product quality prediction have been received considerable attention in complex industrial Internet of Things systems. In this article, an efficient and effective soft sensor based on the semisupervised parallel deepFM model is proposed for the product quality prediction. First, a label broadcasting method is presented to augment labeled samples from unlabeled samples. Then, a data binning method is introduced to discretize process variables for an unbiased estimation. Based on the modified deepFM model, quality information can be separately extracted from different components of the model while high- and low-dimensional features can be obtained. Manifold regularization is embedded into the back propagation algorithm, in which unlabeled samples issue can be further resolved. Experiments on a real-world dataset demonstrate the effectiveness and performance of the proposed methods.
     </p>
 </div>
 </div>
@@ -499,18 +520,6 @@
 </div>
 </div>
 
-<div class="item feed-ed41d94f feed-jamacurrentissue" id="item-9a957936">
-<p class="itemheader">
-<span class="itemtitle"><a href="https://jamanetwork.com/journals/jama/fullarticle/2781050">It Starts With the Brain</a></span>
-<span class="itemfrom">[<a href="https://jamanetwork.com/journals/jama">JAMA Current Issue</a>]</span>
-</p>
-<div class="itemdescription">
-<p>
-      Half. Hemi. Two hemispheres scribed by fold and furrow, the primal font of the gothic novel &#8195;&#8195;&#8195;&#8195;&#8195;What Hath Evolution Wrought?
-    </p>
-</div>
-</div>
-
 <div class="item feed-ed41d94f feed-jamacurrentissue" id="item-d35750fb">
 <p class="itemheader">
 <span class="itemtitle"><a href="https://jamanetwork.com/journals/jama/fullarticle/2781048">Review of Chronic Pelvic Pain in Women</a></span>
@@ -519,6 +528,18 @@
 <div class="itemdescription">
 <p>
       This narrative review summarizes the evaluation and management of chronic pelvic pain using recommendations from consensus guidelines to facilitate clinical evaluation, treatment, improved care, and more positive patient-clinician interactions.
+    </p>
+</div>
+</div>
+
+<div class="item feed-ed41d94f feed-jamacurrentissue" id="item-3e5fab36">
+<p class="itemheader">
+<span class="itemtitle"><a href="https://jamanetwork.com/journals/jama/fullarticle/2781042">More Comprehensive Care for Miscarriage Needed Worldwide</a></span>
+<span class="itemfrom">[<a href="https://jamanetwork.com/journals/jama">JAMA Current Issue</a>]</span>
+</p>
+<div class="itemdescription">
+<p>
+      About 1 in 10 women will have a miscarriage over a lifetime&#8212;a statistic that represents 23 million pregnancies lost annually, or 44 per minute worldwide, according to a series of articles in The Lancet. Despite the magnitude, the articles described miscarriage as a misunderstood phenomenon and called for more comprehensive care to prevent and treat miscarriage.
     </p>
 </div>
 </div>
@@ -583,18 +604,6 @@
 </div>
 </div>
 
-<div class="item feed-52e73913 feed-annualreviewsannualreviewofpoliticalsciencetableofcontents" id="item-d63696d6">
-<p class="itemheader">
-<span class="itemtitle"><a href="https://www.annualreviews.org/doi/abs/10.1146/annurev-polisci-041719-102503?af=R">The Causes of Populism in the West</a></span>
-<span class="itemfrom">[<a href="https://www.annualreviews.org/loi/polisci?af=R">Annual Reviews: Annual Review of Political Science: Table of Contents</a>]</span>
-</p>
-<div class="itemdescription">
-<p>
-      Annual Review of Political Science, <a href="https://www.annualreviews.org/toc/polisci/24/1">Volume 24, Issue 1</a>, Page 71-88, May 2021.<br>
-    </p>
-</div>
-</div>
-
 <div class="item feed-52e73913 feed-annualreviewsannualreviewofpoliticalsciencetableofcontents" id="item-6302732e">
 <p class="itemheader">
 <span class="itemtitle"><a href="https://www.annualreviews.org/doi/abs/10.1146/annurev-polisci-041719-101841?af=R">Nationalism: What We Know and What We Still Need to Know</a></span>
@@ -615,6 +624,18 @@
 <div class="itemdescription">
 <p>
       Annual Review of Political Science, <a href="https://www.annualreviews.org/toc/polisci/24/1">Volume 24, Issue 1</a>, Page 321-343, May 2021.<br>
+    </p>
+</div>
+</div>
+
+<div class="item feed-52e73913 feed-annualreviewsannualreviewofpoliticalsciencetableofcontents" id="item-d2cca0f5">
+<p class="itemheader">
+<span class="itemtitle"><a href="https://www.annualreviews.org/doi/abs/10.1146/annurev-polisci-053119-015921?af=R">Machine Learning for Social Science: An Agnostic Approach</a></span>
+<span class="itemfrom">[<a href="https://www.annualreviews.org/loi/polisci?af=R">Annual Reviews: Annual Review of Political Science: Table of Contents</a>]</span>
+</p>
+<div class="itemdescription">
+<p>
+      Annual Review of Political Science, <a href="https://www.annualreviews.org/toc/polisci/24/1">Volume 24, Issue 1</a>, Page 395-419, May 2021.<br>
     </p>
 </div>
 </div>
@@ -693,6 +714,20 @@
 </div>
 </div>
 
+<div class="item feed-f57a289c feed-europeanpoliticalsciencereview" id="item-bbb6fd14">
+<p class="itemheader">
+<span class="itemtitle"><a href="https://dx.doi.org/10.1017/S1755773921000035?rft_dat=source%3Ddrss">Are governments paying a price for austerity? Fiscal consolidations reduce government approval</a></span>
+<span class="itemfrom">[<a href="https://www.cambridge.org/core/journals/european-political-science-review/latest-issue">European Political Science Review</a>]</span>
+</p>
+<div class="itemdescription">
+<div class="abstract">
+      <p>
+        What are the political effects of fiscal consolidations? Theoretical considerations suggest that consolidations should reduce the public&#8217;s support for their governments, but empirical studies have found surprisingly small effects on government support. However, most of these studies analyze electoral outcomes, which are separated from the consolidation by a multi-link causal chain. We argue that more direct measures of government support, such as executive approval, show much stronger negative effects of consolidation, since they are less affected by the strategic timing of consolidations or the political alternatives on offer. We analyze a time series cross-sectional dataset of executive approval in 14 Organization for Economic Co-operation and Development (OECD) countries from 1978 to 2014, using the narrative approach to measure fiscal consolidations. We find that spending cuts decrease government approval, especially during economic downturns, but tax increases&#8217; impact on approval remains minimal. Finally, left- and right-wing governments are equally likely to lose approval after implementing austerity.
+      </p>
+    </div>
+</div>
+</div>
+
 <div class="item feed-f57a289c feed-europeanpoliticalsciencereview" id="item-7a0d55cd">
 <p class="itemheader">
 <span class="itemtitle"><a href="https://dx.doi.org/10.1017/S1755773921000047?rft_dat=source%3Ddrss">Preferences for consensus and majoritarian democracy: long- and short-term influences</a></span>
@@ -702,20 +737,6 @@
 <div class="abstract">
       <p>
         This article analyzes individuals&#8217; preferences for a consensus or a majoritarian type of democracy. We theorize that variation in these preferences is a function of both institutional learning (long term) and individuals&#8217; position as a political minority or majority (short term). First, as a result of institutional learning, we expect that individuals living in democracies characterized by coalition governments will favor consensus democracy. Conversely, those living in countries characterized by single-party executives will favor majoritarian democracy. Second, we expect that individuals&#8217; position as an electoral minority or majority will affect these beliefs. Those who vote for small parties will favor a consensus democracy, while those who vote for large parties will support a majoritarian system. However, whether institutional learning or individuals&#8217; position as a political minority or majority prevail in influencing these preferences about the ideal model of democracy will be a function of the democratic trajectory of each country. We test these arguments drawing on data from the European Social Survey.
-      </p>
-    </div>
-</div>
-</div>
-
-<div class="item feed-f57a289c feed-europeanpoliticalsciencereview" id="item-47186cae">
-<p class="itemheader">
-<span class="itemtitle"><a href="https://dx.doi.org/10.1017/S1755773920000399?rft_dat=source%3Ddrss">Story incentive: the effect of national stories on voter turnout</a></span>
-<span class="itemfrom">[<a href="https://www.cambridge.org/core/journals/european-political-science-review/latest-issue">European Political Science Review</a>]</span>
-</p>
-<div class="itemdescription">
-<div class="abstract">
-      <p>
-        This article contends that an important driver of turnout is the national stories embraced by citizens. We suggest the notion of &#8216;story incentive,&#8217; whereby adopting a group&#8217;s story components &#8211; those that connect the past, the future, and prominent national characters &#8211; motivates individuals to participate in that group&#8217;s political activities. Leaning on narrative theories and studies on voter turnout, we develop and test hypotheses regarding the effect of story components on the likelihood of voting. Our measurements of story incentives are based on election surveys and encompass Denmark, Israel, the Netherlands, the UK, and the US. The results support the main story-incentive hypothesis. We discuss the theoretical ramifications of the connection between adherence to national stories and voter turnout.
       </p>
     </div>
 </div>
@@ -842,42 +863,6 @@
 </div>
 </div>
 <div class="day">
-<h2>Tuesday, 19 January 2021</h2>
-<div class="time">
-<h3>03:02 AM</h3>
-<div class="item feed-c99fafa0 feed-ieeetransactionsonimageprocessingnewtoc" id="item-476ba3c2">
-<p class="itemheader">
-<span class="itemtitle"><a href="http://ieeexplore.ieee.org/document/9305971">Convex and Compact Superpixels by Edge- Constrained Centroidal Power Diagram</a></span>
-<span class="itemfrom">[<a href="http://ieeexplore.ieee.org">IEEE Transactions on Image Processing - new TOC</a>]</span>
-</p>
-<div class="itemdescription">
-<p>
-      Superpixel segmentation, as a central image processing task, has many applications in computer vision and computer graphics. Boundary alignment and shape compactness are leading indicators to evaluate a superpixel segmentation algorithm. Furthermore, convexity can make superpixels reflect more geometric structures in images and provide a more concise over-segmentation result. In this paper, we consider generating convex and compact superpixels while satisfying the constraints of adhering to the boundary as far as possible. We formulate the new superpixel segmentation into an edge-constrained centroidal power diagram (ECCPD) optimization problem. In the implementation, we optimize the superpixel configurations by repeatedly performing two alternative operations, which include site location updating and weight updating through a weight function defined by image features. Compared with existing superpixel methods, our method can partition an image into fully convex and compact superpixels with better boundary adherence. Extensive experimental results show that our approach outperforms existing superpixel segmentation methods in boundary alignment and compactness for generating convex superpixels.
-    </p>
-</div>
-</div>
-
-</div>
-</div>
-<div class="day">
-<h2>Friday, 01 January 2021</h2>
-<div class="time">
-<h3>02:39 AM</h3>
-<div class="item feed-c24550d7 feed-ieeetransactionsoninformationforensicsandsecuritynewtoc" id="item-f6b7fbdc">
-<p class="itemheader">
-<span class="itemtitle"><a href="http://ieeexplore.ieee.org/document/9262902">Achievable Rate Region of Energy-Harvesting Based Secure Two-Way Buffer-Aided Relay Networks</a></span>
-<span class="itemfrom">[<a href="http://ieeexplore.ieee.org">IEEE Transactions on Information Forensics and Security - new TOC</a>]</span>
-</p>
-<div class="itemdescription">
-<p>
-      This paper considered an energy-harvesting based secure two-way relay (EH-STWR) network, where two users exchanged information with the assistance of one buffer-aided relay that harvested energy from two users. To realize the confidential message exchange between two users in the presence of a potential eavesdropper, a secure bidirectional relaying scheme based on time division broadcast (TDBC) was proposed, where one user sent artificial noise to suppress the eavesdropper and another user transmitted data to the relay. A secure sum-rate maximization problem was formulated subject to average and peak transmit power constraints, data buffer and energy storage causality, and transmission mode constraints. By employing the Lyapunov optimization framework, a security-aware adaptive transmission scheme was proposed to jointly adapt transmission mode selection, power allocation, and security rate allocation according to channel/buffer/energy state information (CSI/BSI/ESI). Analysis results showed that the average achievable secrecy rate region can be significantly improved and there exists an inherent trade-off among transmission delay, requirement of transmit power consumption, and achievable secure sum-rate. Moreover, the channel condition between the energy-constrained relay and the potential eavesdropper is a critical factor on the achievable long-term average secrecy rate performance.
-    </p>
-</div>
-</div>
-
-</div>
-</div>
-<div class="day">
 <h2>Thursday, 17 December 2020</h2>
 <div class="time">
 <h3>10:03 AM</h3>
@@ -965,18 +950,36 @@
 </div>
 </div>
 <div class="day">
-<h2>Thursday, 12 November 2020</h2>
+<h2>Tuesday, 17 November 2020</h2>
 <div class="time">
 <h3>02:02 AM</h3>
-<div class="item feed-6b3f78ad feed-latestbmjresearch" id="item-ff9aef64">
+<div class="item feed-c24550d7 feed-ieeetransactionsoninformationforensicsandsecuritynewtoc" id="item-479b63e3">
 <p class="itemheader">
-<span class="itemtitle"><a href="http://feeds.bmj.com/~r/bmj/research/~3/cIdI_d2Q8-g/bmj.m4262">Accuracy of UK Rapid Test Consortium (UK-RTC) &#8220;AbC-19 Rapid Test&#8221; for detection of previous SARS-CoV-2 infection in key workers: test accuracy study</a></span>
+<span class="itemtitle"><a href="http://ieeexplore.ieee.org/document/9198912">When Automatic Voice Disguise Meets Automatic Speaker Verification</a></span>
+<span class="itemfrom">[<a href="http://ieeexplore.ieee.org">IEEE Transactions on Information Forensics and Security - new TOC</a>]</span>
+</p>
+<div class="itemdescription">
+<p>
+      The technique of transforming voices in order to hide the real identity of a speaker is called voice disguise, among which automatic voice disguise (AVD) by modifying the spectral and temporal characteristics of voices with miscellaneous algorithms are easily conducted with softwares accessible to the public. AVD has posed great threat to both human listening and automatic speaker verification (ASV). In this paper, we have found that ASV is not only a victim of AVD but could be a tool to beat some simple types of AVD. Firstly, three types of AVD, pitch scaling, vocal tract length normalization (VTLN) and voice conversion (VC), are introduced as representative methods. State-of-the-art ASV methods are subsequently utilized to objectively evaluate the impact of AVD on ASV by equal error rates (EER). Moreover, an approach to restore disguised voice to its original version is proposed by minimizing a function of ASV scores w.r.t. restoration parameters. Experiments are then conducted on disguised voices from Voxceleb, a dataset recorded in real-world noisy scenario. The results have shown that, for the voice disguise by pitch scaling, the proposed approach obtains an EER around 7% comparing to the 30% EER of a recently proposed baseline using the ratio of fundamental frequencies. The proposed approach generalizes well to restore the disguise with nonlinear frequency warping in VTLN by reducing its EER from 34.3% to 18.5%. However, it is difficult to restore the source speakers in VC by our approach, where more complex forms of restoration functions or other paralinguistic cues might be necessary to restore the nonlinear transform in VC. Finally, contrastive visualization on ASV features with and without restoration illustrate the role of the proposed approach in an intuitive way.
+    </p>
+</div>
+</div>
+
+</div>
+</div>
+<div class="day">
+<h2>Thursday, 05 November 2020</h2>
+<div class="time">
+<h3>10:02 AM</h3>
+<div class="item feed-6b3f78ad feed-latestbmjresearch" id="item-d3676d6f">
+<p class="itemheader">
+<span class="itemtitle"><a href="http://feeds.bmj.com/~r/bmj/research/~3/WgpJmf89PRA/bmj.m4087">Mortality due to cancer treatment delay: systematic review and meta-analysis</a></span>
 <span class="itemfrom">[<a href="https://www.bmj.com/research/feed">Latest BMJ Research</a>]</span>
 </p>
 <div class="itemdescription">
 <div class="feedflare">
-      <a href="http://feeds.bmj.com/~ff/bmj/research?a=cIdI_d2Q8-g:-TUFccd1614:yIl2AUoC8zA"><img border="0" src="http://feeds.feedburner.com/~ff/bmj/research?d=yIl2AUoC8zA"></a> <a href="http://feeds.bmj.com/~ff/bmj/research?a=cIdI_d2Q8-g:-TUFccd1614:dnMXMwOfBR0"><img border="0" src="http://feeds.feedburner.com/~ff/bmj/research?d=dnMXMwOfBR0"></a> <a href="http://feeds.bmj.com/~ff/bmj/research?a=cIdI_d2Q8-g:-TUFccd1614:F7zBnMyn0Lo"><img border="0" src="http://feeds.feedburner.com/~ff/bmj/research?i=cIdI_d2Q8-g:-TUFccd1614:F7zBnMyn0Lo"></a> <a href="http://feeds.bmj.com/~ff/bmj/research?a=cIdI_d2Q8-g:-TUFccd1614:V_sGLiPBpWU"><img border="0" src="http://feeds.feedburner.com/~ff/bmj/research?i=cIdI_d2Q8-g:-TUFccd1614:V_sGLiPBpWU"></a> <a href="http://feeds.bmj.com/~ff/bmj/research?a=cIdI_d2Q8-g:-TUFccd1614:qj6IDK7rITs"><img border="0" src="http://feeds.feedburner.com/~ff/bmj/research?d=qj6IDK7rITs"></a> <a href="http://feeds.bmj.com/~ff/bmj/research?a=cIdI_d2Q8-g:-TUFccd1614:gIN9vFwOqvQ"><img border="0" src="http://feeds.feedburner.com/~ff/bmj/research?i=cIdI_d2Q8-g:-TUFccd1614:gIN9vFwOqvQ"></a>
-    </div><img alt="" height="1" src="http://feeds.feedburner.com/~r/bmj/research/~4/cIdI_d2Q8-g" width="1">
+      <a href="http://feeds.bmj.com/~ff/bmj/research?a=WgpJmf89PRA:LaDq23B1qMY:yIl2AUoC8zA"><img border="0" src="http://feeds.feedburner.com/~ff/bmj/research?d=yIl2AUoC8zA"></a> <a href="http://feeds.bmj.com/~ff/bmj/research?a=WgpJmf89PRA:LaDq23B1qMY:dnMXMwOfBR0"><img border="0" src="http://feeds.feedburner.com/~ff/bmj/research?d=dnMXMwOfBR0"></a> <a href="http://feeds.bmj.com/~ff/bmj/research?a=WgpJmf89PRA:LaDq23B1qMY:F7zBnMyn0Lo"><img border="0" src="http://feeds.feedburner.com/~ff/bmj/research?i=WgpJmf89PRA:LaDq23B1qMY:F7zBnMyn0Lo"></a> <a href="http://feeds.bmj.com/~ff/bmj/research?a=WgpJmf89PRA:LaDq23B1qMY:V_sGLiPBpWU"><img border="0" src="http://feeds.feedburner.com/~ff/bmj/research?i=WgpJmf89PRA:LaDq23B1qMY:V_sGLiPBpWU"></a> <a href="http://feeds.bmj.com/~ff/bmj/research?a=WgpJmf89PRA:LaDq23B1qMY:qj6IDK7rITs"><img border="0" src="http://feeds.feedburner.com/~ff/bmj/research?d=qj6IDK7rITs"></a> <a href="http://feeds.bmj.com/~ff/bmj/research?a=WgpJmf89PRA:LaDq23B1qMY:gIN9vFwOqvQ"><img border="0" src="http://feeds.feedburner.com/~ff/bmj/research?i=WgpJmf89PRA:LaDq23B1qMY:gIN9vFwOqvQ"></a>
+    </div><img alt="" height="1" src="http://feeds.feedburner.com/~r/bmj/research/~4/WgpJmf89PRA" width="1">
 </div>
 </div>
 
@@ -1142,6 +1145,18 @@
 </div>
 </div>
 
+<div class="item feed-a4d49d75 feed-annualreviewsannualreviewofeconomicstableofcontents" id="item-140dc793">
+<p class="itemheader">
+<span class="itemtitle"><a href="https://www.annualreviews.org/doi/abs/10.1146/annurev-economics-080218-025711?ai=67b7&amp;mi=3fndc3&amp;af=R">Computing Economic Equilibria Using Projection Methods</a></span>
+<span class="itemfrom">[<a href="https://www.annualreviews.org/loi/economics?ai=67b7&amp;mi=3fndc3&amp;af=R">Annual Reviews: Annual Review of Economics: Table of Contents</a>]</span>
+</p>
+<div class="itemdescription">
+<p>
+      Annual Review of Economics, <a href="https://www.annualreviews.org/toc/economics/12/1">Volume 12, Issue 1</a>, Page 317-353, August 2020.<br>
+    </p>
+</div>
+</div>
+
 <div class="item feed-a4d49d75 feed-annualreviewsannualreviewofeconomicstableofcontents" id="item-47a7a984">
 <p class="itemheader">
 <span class="itemtitle"><a href="https://www.annualreviews.org/doi/abs/10.1146/annurev-economics-082019-110313?ai=67b7&amp;mi=3fndc3&amp;af=R">Social Identity and Economic Policy</a></span>
@@ -1166,36 +1181,12 @@
 </div>
 </div>
 
-<div class="item feed-a4d49d75 feed-annualreviewsannualreviewofeconomicstableofcontents" id="item-08c2365a">
-<p class="itemheader">
-<span class="itemtitle"><a href="https://www.annualreviews.org/doi/abs/10.1146/annurev-economics-100119-013035?ai=67b7&amp;mi=3fndc3&amp;af=R">Dynamic Taxation</a></span>
-<span class="itemfrom">[<a href="https://www.annualreviews.org/loi/economics?ai=67b7&amp;mi=3fndc3&amp;af=R">Annual Reviews: Annual Review of Economics: Table of Contents</a>]</span>
-</p>
-<div class="itemdescription">
-<p>
-      Annual Review of Economics, <a href="https://www.annualreviews.org/toc/economics/12/1">Volume 12, Issue 1</a>, Page 801-831, August 2020.<br>
-    </p>
-</div>
-</div>
-
 </div>
 </div>
 <div class="day">
 <h2>Friday, 31 July 2020</h2>
 <div class="time">
 <h3>02:02 AM</h3>
-<div class="item feed-3b836157 feed-annualreviewsannualreviewofsociologytableofcontents" id="item-ab8256a2">
-<p class="itemheader">
-<span class="itemtitle"><a href="https://www.annualreviews.org/doi/abs/10.1146/annurev-soc-121919-054808?ai=t0&amp;mi=3fndc3&amp;af=R">The Comparative Politics of Collective Memory</a></span>
-<span class="itemfrom">[<a href="https://www.annualreviews.org/loi/soc?ai=t0&amp;mi=3fndc3&amp;af=R">Annual Reviews: Annual Review of Sociology: Table of Contents</a>]</span>
-</p>
-<div class="itemdescription">
-<p>
-      Annual Review of Sociology, <a href="https://www.annualreviews.org/toc/soc/46/1">Volume 46, Issue 1</a>, Page 175-194, July 2020.<br>
-    </p>
-</div>
-</div>
-
 <div class="item feed-3b836157 feed-annualreviewsannualreviewofsociologytableofcontents" id="item-b22d455c">
 <p class="itemheader">
 <span class="itemtitle"><a href="https://www.annualreviews.org/doi/abs/10.1146/annurev-soc-121919-054857?ai=t0&amp;mi=3fndc3&amp;af=R">What Do Platforms Do? Understanding the Gig Economy</a></span>
@@ -1208,18 +1199,6 @@
 </div>
 </div>
 
-<div class="item feed-3b836157 feed-annualreviewsannualreviewofsociologytableofcontents" id="item-2e0bd5a2">
-<p class="itemheader">
-<span class="itemtitle"><a href="https://www.annualreviews.org/doi/abs/10.1146/annurev-soc-121919-054649?ai=t0&amp;mi=3fndc3&amp;af=R">Multiracial Categorization, Identity, and Policy in (Mixed) Racial Formations</a></span>
-<span class="itemfrom">[<a href="https://www.annualreviews.org/loi/soc?ai=t0&amp;mi=3fndc3&amp;af=R">Annual Reviews: Annual Review of Sociology: Table of Contents</a>]</span>
-</p>
-<div class="itemdescription">
-<p>
-      Annual Review of Sociology, <a href="https://www.annualreviews.org/toc/soc/46/1">Volume 46, Issue 1</a>, Page 335-353, July 2020.<br>
-    </p>
-</div>
-</div>
-
 <div class="item feed-3b836157 feed-annualreviewsannualreviewofsociologytableofcontents" id="item-1cf1ab97">
 <p class="itemheader">
 <span class="itemtitle"><a href="https://www.annualreviews.org/doi/abs/10.1146/annurev-soc-112019-053842?ai=t0&amp;mi=3fndc3&amp;af=R">Transnational Professionals</a></span>
@@ -1228,6 +1207,30 @@
 <div class="itemdescription">
 <p>
       Annual Review of Sociology, <a href="https://www.annualreviews.org/toc/soc/46/1">Volume 46, Issue 1</a>, Page 399-417, July 2020.<br>
+    </p>
+</div>
+</div>
+
+<div class="item feed-3b836157 feed-annualreviewsannualreviewofsociologytableofcontents" id="item-d06fa422">
+<p class="itemheader">
+<span class="itemtitle"><a href="https://www.annualreviews.org/doi/abs/10.1146/annurev-soc-121919-054802?ai=t0&amp;mi=3fndc3&amp;af=R">Technologies and Health Inequities</a></span>
+<span class="itemfrom">[<a href="https://www.annualreviews.org/loi/soc?ai=t0&amp;mi=3fndc3&amp;af=R">Annual Reviews: Annual Review of Sociology: Table of Contents</a>]</span>
+</p>
+<div class="itemdescription">
+<p>
+      Annual Review of Sociology, <a href="https://www.annualreviews.org/toc/soc/46/1">Volume 46, Issue 1</a>, Page 583-602, July 2020.<br>
+    </p>
+</div>
+</div>
+
+<div class="item feed-3b836157 feed-annualreviewsannualreviewofsociologytableofcontents" id="item-1b0c6828">
+<p class="itemheader">
+<span class="itemtitle"><a href="https://www.annualreviews.org/doi/abs/10.1146/annurev-soc-121919-054750?ai=t0&amp;mi=3fndc3&amp;af=R">Sociology and the Climate Crisis</a></span>
+<span class="itemfrom">[<a href="https://www.annualreviews.org/loi/soc?ai=t0&amp;mi=3fndc3&amp;af=R">Annual Reviews: Annual Review of Sociology: Table of Contents</a>]</span>
+</p>
+<div class="itemdescription">
+<p>
+      Annual Review of Sociology, <a href="https://www.annualreviews.org/toc/soc/46/1">Volume 46, Issue 1</a>, Page 649-669, July 2020.<br>
     </p>
 </div>
 </div>
@@ -1264,127 +1267,127 @@
 <tr class="feedsrow">
 <td><a href="https://www.annualreviews.org/loi/economics?ai=67b7&amp;mi=3fndc3&amp;af=R">Annual Reviews: Annual Review of Economics: Table of Contents</a></td>
 <td><a class="xmlbutton" href="http://www.annualreviews.org/action/showFeed?ui=45mu4&amp;mi=3fndc3&amp;ai=67b7&amp;jc=economics&amp;type=etoc&amp;feed=rss">XML</a></td>
-<td>06:18 PM, Monday, 21 June 2021</td>
-<td>09:18 PM, Monday, 21 June 2021</td>
+<td>02:32 AM, Tuesday, 22 June 2021</td>
+<td>05:32 AM, Tuesday, 22 June 2021</td>
 </tr>
 
 <tr class="feedsrow">
 <td><a href="https://www.annualreviews.org/loi/nutr?ai=rz&amp;mi=3fndc3&amp;af=R">Annual Reviews: Annual Review of Nutrition: Table of Contents</a></td>
 <td><a class="xmlbutton" href="http://www.annualreviews.org/action/showFeed?ui=45mu4&amp;mi=3fndc3&amp;ai=rz&amp;jc=nutr&amp;type=etoc&amp;feed=rss">XML</a></td>
-<td>06:18 PM, Monday, 21 June 2021</td>
-<td>09:18 PM, Monday, 21 June 2021</td>
+<td>02:32 AM, Tuesday, 22 June 2021</td>
+<td>05:32 AM, Tuesday, 22 June 2021</td>
 </tr>
 
 <tr class="feedsrow">
 <td><a href="https://www.annualreviews.org/loi/physiol?ai=sp&amp;mi=3fndc3&amp;af=R">Annual Reviews: Annual Review of Physiology: Table of Contents</a></td>
 <td><a class="xmlbutton" href="http://www.annualreviews.org/action/showFeed?ui=45mu4&amp;mi=3fndc3&amp;ai=sp&amp;jc=physiol&amp;type=etoc&amp;feed=rss">XML</a></td>
-<td>06:18 PM, Monday, 21 June 2021</td>
-<td>09:18 PM, Monday, 21 June 2021</td>
+<td>02:32 AM, Tuesday, 22 June 2021</td>
+<td>05:32 AM, Tuesday, 22 June 2021</td>
 </tr>
 
 <tr class="feedsrow">
 <td><a href="https://www.annualreviews.org/loi/polisci?af=R">Annual Reviews: Annual Review of Political Science: Table of Contents</a></td>
 <td><a class="xmlbutton" href="http://www.annualreviews.org/action/showFeed?jc=polisci&amp;type=etoc&amp;feed=rss">XML</a></td>
-<td>06:18 PM, Monday, 21 June 2021</td>
-<td>09:18 PM, Monday, 21 June 2021</td>
+<td>02:32 AM, Tuesday, 22 June 2021</td>
+<td>05:32 AM, Tuesday, 22 June 2021</td>
 </tr>
 
 <tr class="feedsrow">
 <td><a href="https://www.annualreviews.org/loi/soc?ai=t0&amp;mi=3fndc3&amp;af=R">Annual Reviews: Annual Review of Sociology: Table of Contents</a></td>
 <td><a class="xmlbutton" href="http://www.annualreviews.org/action/showFeed?ui=45mu4&amp;mi=3fndc3&amp;ai=t0&amp;jc=soc&amp;type=etoc&amp;feed=rss">XML</a></td>
-<td>06:18 PM, Monday, 21 June 2021</td>
-<td>09:18 PM, Monday, 21 June 2021</td>
+<td>02:32 AM, Tuesday, 22 June 2021</td>
+<td>05:32 AM, Tuesday, 22 June 2021</td>
 </tr>
 
 <tr class="feedsrow">
 <td><a href="http://arxiv.org/">cs.CR updates on arXiv.org</a></td>
 <td><a class="xmlbutton" href="http://export.arxiv.org/rss/cs.CR">XML</a></td>
-<td>06:18 PM, Monday, 21 June 2021</td>
-<td>09:18 PM, Monday, 21 June 2021</td>
+<td>02:32 AM, Tuesday, 22 June 2021</td>
+<td>05:32 AM, Tuesday, 22 June 2021</td>
 </tr>
 
 <tr class="feedsrow">
 <td><a href="http://www.pnas.org">Early Edition</a></td>
 <td><a class="xmlbutton" href="http://feeds.feedburner.com/Pnas-RssFeedOfEarlyEditionArticles?format=xml">XML</a></td>
-<td>06:18 PM, Monday, 21 June 2021</td>
-<td>09:18 PM, Monday, 21 June 2021</td>
+<td>02:32 AM, Tuesday, 22 June 2021</td>
+<td>05:32 AM, Tuesday, 22 June 2021</td>
 </tr>
 
 <tr class="feedsrow">
 <td><a href="http://www.eurekalert.org">EurekAlert! - Breaking News</a></td>
 <td><a class="xmlbutton" href="https://www.eurekalert.org/rss.xml">XML</a></td>
-<td>06:18 PM, Monday, 21 June 2021</td>
-<td>09:18 PM, Monday, 21 June 2021</td>
+<td>02:32 AM, Tuesday, 22 June 2021</td>
+<td>05:32 AM, Tuesday, 22 June 2021</td>
 </tr>
 
 <tr class="feedsrow">
 <td><a href="https://www.cambridge.org/core/journals/european-political-science-review/latest-issue">European Political Science Review</a></td>
 <td><a class="xmlbutton" href="https://www.cambridge.org/core/rss/product/id/3DB89DF6A9878CE661D3CE5FC6E9D6BC">XML</a></td>
-<td>06:18 PM, Monday, 21 June 2021</td>
-<td>09:18 PM, Monday, 21 June 2021</td>
+<td>02:32 AM, Tuesday, 22 June 2021</td>
+<td>05:32 AM, Tuesday, 22 June 2021</td>
 </tr>
 
 <tr class="feedsrow">
 <td><a href="http://ieeexplore.ieee.org">IEEE Transactions on Image Processing - new TOC</a></td>
 <td><a class="xmlbutton" href="https://ieeexplore.ieee.org/rss/TOC83.XML">XML</a></td>
-<td>06:18 PM, Monday, 21 June 2021</td>
-<td>09:18 PM, Monday, 21 June 2021</td>
+<td>02:32 AM, Tuesday, 22 June 2021</td>
+<td>05:32 AM, Tuesday, 22 June 2021</td>
 </tr>
 
 <tr class="feedsrow">
 <td><a href="http://ieeexplore.ieee.org">IEEE Transactions on Industrial Electronics - new TOC</a></td>
 <td><a class="xmlbutton" href="https://ieeexplore.ieee.org/rss/TOC41.XML">XML</a></td>
-<td>06:18 PM, Monday, 21 June 2021</td>
-<td>09:18 PM, Monday, 21 June 2021</td>
+<td>02:32 AM, Tuesday, 22 June 2021</td>
+<td>05:32 AM, Tuesday, 22 June 2021</td>
 </tr>
 
 <tr class="feedsrow">
 <td><a href="http://ieeexplore.ieee.org">IEEE Transactions on Industrial Informatics - new TOC</a></td>
 <td><a class="xmlbutton" href="https://ieeexplore.ieee.org/rss/TOC9424.XML">XML</a></td>
-<td>06:18 PM, Monday, 21 June 2021</td>
-<td>09:18 PM, Monday, 21 June 2021</td>
+<td>02:32 AM, Tuesday, 22 June 2021</td>
+<td>05:32 AM, Tuesday, 22 June 2021</td>
 </tr>
 
 <tr class="feedsrow">
 <td><a href="http://ieeexplore.ieee.org">IEEE Transactions on Information Forensics and Security - new TOC</a></td>
 <td><a class="xmlbutton" href="https://ieeexplore.ieee.org/rss/TOC10206.XML">XML</a></td>
-<td>06:18 PM, Monday, 21 June 2021</td>
-<td>09:18 PM, Monday, 21 June 2021</td>
+<td>02:32 AM, Tuesday, 22 June 2021</td>
+<td>05:32 AM, Tuesday, 22 June 2021</td>
 </tr>
 
 <tr class="feedsrow">
 <td><a href="http://journals.humankinetics.com/view/journals/ijspp/ijspp-overview.xml">International Journal of Sports Physiology and Performance</a></td>
 <td><a class="xmlbutton" href="https://journals.humankinetics.com/journalissuetocrss/journals/ijspp/ijspp-overview.xml">XML</a></td>
-<td>06:18 PM, Monday, 21 June 2021</td>
-<td>09:18 PM, Monday, 21 June 2021</td>
+<td>02:32 AM, Tuesday, 22 June 2021</td>
+<td>05:32 AM, Tuesday, 22 June 2021</td>
 </tr>
 
 <tr class="feedsrow">
 <td><a href="https://jamanetwork.com/journals/jama">JAMA Current Issue</a></td>
 <td><a class="xmlbutton" href="https://jamanetwork.com/rss/site_3/67.xml">XML</a></td>
-<td>06:18 PM, Monday, 21 June 2021</td>
-<td>09:18 PM, Monday, 21 June 2021</td>
+<td>02:32 AM, Tuesday, 22 June 2021</td>
+<td>05:32 AM, Tuesday, 22 June 2021</td>
 </tr>
 
 <tr class="feedsrow">
 <td><a href="https://www.bmj.com/research/feed">Latest BMJ Research</a></td>
 <td><a class="xmlbutton" href="http://feeds.bmj.com/bmj/research?format=xml">XML</a></td>
-<td>06:18 PM, Monday, 21 June 2021</td>
-<td>09:18 PM, Monday, 21 June 2021</td>
+<td>02:32 AM, Tuesday, 22 June 2021</td>
+<td>05:32 AM, Tuesday, 22 June 2021</td>
 </tr>
 
 <tr class="feedsrow">
 <td><a href="http://feeds.nature.com/nature/rss/current">Nature - Issue - nature.com science feeds</a></td>
 <td><a class="xmlbutton" href="http://feeds.nature.com/nature/rss/current?format=xml">XML</a></td>
-<td>06:18 PM, Monday, 21 June 2021</td>
-<td>09:18 PM, Monday, 21 June 2021</td>
+<td>02:32 AM, Tuesday, 22 June 2021</td>
+<td>05:32 AM, Tuesday, 22 June 2021</td>
 </tr>
 
 <tr class="feedsrow">
 <td><a href="https://www.thelancet.com/journals/lancet/issue/current">The Lancet</a></td>
 <td><a class="xmlbutton" href="http://www.thelancet.com/rssfeed/lancet_current.xml">XML</a></td>
-<td>06:18 PM, Monday, 21 June 2021</td>
-<td>09:18 PM, Monday, 21 June 2021</td>
+<td>02:32 AM, Tuesday, 22 June 2021</td>
+<td>05:32 AM, Tuesday, 22 June 2021</td>
 </tr>
 
 </table>
