@@ -13,22 +13,103 @@
 </div>
 <div id="items">
 <div class="day">
-<h2>Tuesday, 29 June 2021</h2>
+<h2>Wednesday, 30 June 2021</h2>
 <div class="time">
-<h3>06:18 PM</h3>
-<div class="item feed-63a85565 feed-eurekalertbreakingnews" id="item-d208e9b9">
+<h3>02:30 AM</h3>
+<div class="item feed-1b28272e feed-cscrupdatesonarxivorg" id="item-65d5598d">
 <p class="itemheader">
-<span class="itemtitle"><a href="https://www.eurekalert.org/pub_releases/2021-06/ncsu-hnc062921.php">Hot nights confuse circadian clocks in rice, hurting crop yields</a></span>
+<span class="itemtitle"><a href="http://arxiv.org/abs/2106.15130">Do Not Deceive Your Employer with a Virtual Background: A Video Conferencing Manipulation-Detection System. (arXiv:2106.15130v1 [cs.CR])</a></span>
+<span class="itemfrom">[<a href="http://arxiv.org/">cs.CR updates on arXiv.org</a>]</span>
+</p>
+<div class="itemdescription">
+<p>
+      The last-generation video conferencing software allows users to utilize a virtual background to conceal their personal environment due to privacy concerns, especially in official meetings with other employers. On the other hand, users maybe want to fool people in the meeting by considering the virtual background to conceal where they are. In this case, developing tools to understand the virtual background utilize for fooling people in meeting plays an important role. Besides, such detectors must prove robust against different kinds of attacks since a malicious user can fool the detector by applying a set of adversarial editing steps on the video to conceal any revealing footprint. In this paper, we study the feasibility of an efficient tool to detect whether a videoconferencing user background is real. In particular, we provide the first tool which computes pixel co-occurrences matrices and uses them to search for inconsistencies among spectral and spatial bands. Our experiments confirm that cross co-occurrences matrices improve the robustness of the detector against different kinds of attacks. This work's performance is especially noteworthy with regard to color SPAM features. Moreover, the performance especially is significant with regard to robustness versus post-processing, like geometric transformations, filtering, contrast enhancement, and JPEG compression with different quality factors.
+    </p>
+</div>
+</div>
+
+<div class="item feed-1b28272e feed-cscrupdatesonarxivorg" id="item-7a4a5ce7">
+<p class="itemheader">
+<span class="itemtitle"><a href="http://arxiv.org/abs/2106.15285">Anomaly Detection and Automated Labeling for Voter Registration File Changes. (arXiv:2106.15285v1 [cs.CR])</a></span>
+<span class="itemfrom">[<a href="http://arxiv.org/">cs.CR updates on arXiv.org</a>]</span>
+</p>
+<div class="itemdescription">
+<p>
+      Voter eligibility in United States elections is determined by a patchwork of state databases containing information about which citizens are eligible to vote. Administrators at the state and local level are faced with the exceedingly difficult task of ensuring that each of their jurisdictions is properly managed, while also monitoring for improper modifications to the database. Monitoring changes to Voter Registration Files (VRFs) is crucial, given that a malicious actor wishing to disrupt the democratic process in the US would be well-advised to manipulate the contents of these files in order to achieve their goals. In 2020, we saw election officials perform admirably when faced with administering one of the most contentious elections in US history, but much work remains to secure and monitor the election systems Americans rely on. Using data created by comparing snapshots taken of VRFs over time, we present a set of methods that make use of machine learning to ease the burden on analysts and administrators in protecting voter rolls. We first evaluate the effectiveness of multiple unsupervised anomaly detection methods in detecting VRF modifications by modeling anomalous changes as sparse additive noise. In this setting we determine that statistical models comparing administrative districts within a short time span and non-negative matrix factorization are most effective for surfacing anomalous events for review. These methods were deployed during 2019-2020 in our organization's monitoring system and were used in collaboration with the office of the Iowa Secretary of State. Additionally, we propose a newly deployed model which uses historical and demographic metadata to label the likely root cause of database modifications. We hope to use this model to predict which modifications have known causes and therefore better identify potentially anomalous modifications.
+    </p>
+</div>
+</div>
+
+<div class="item feed-1b28272e feed-cscrupdatesonarxivorg" id="item-dc325d50">
+<p class="itemheader">
+<span class="itemtitle"><a href="http://arxiv.org/abs/2106.15335">Privacy Budget Scheduling. (arXiv:2106.15335v1 [cs.CR])</a></span>
+<span class="itemfrom">[<a href="http://arxiv.org/">cs.CR updates on arXiv.org</a>]</span>
+</p>
+<div class="itemdescription">
+<p>
+      Machine learning (ML) models trained on personal data have been shown to leak information about users. Differential privacy (DP) enables model training with a guaranteed bound on this leakage. Each new model trained with DP increases the bound on data leakage and can be seen as consuming part of a global privacy budget that should not be exceeded. This budget is a scarce resource that must be carefully managed to maximize the number of successfully trained models.
+    </p>
+    <p>
+      We describe PrivateKube, an extension to the popular Kubernetes datacenter orchestrator that adds privacy as a new type of resource to be managed alongside other traditional compute resources, such as CPU, GPU, and memory. The abstractions we design for the privacy resource mirror those defined by Kubernetes for traditional resources, but there are also major differences. For example, traditional compute resources are replenishable while privacy is not: a CPU can be regained after a model finishes execution while privacy budget cannot. This distinction forces a re-design of the scheduler. We present DPF (Dominant Private Block Fairness) -- a variant of the popular Dominant Resource Fairness (DRF) algorithm -- that is geared toward the non-replenishable privacy resource but enjoys similar theoretical properties as DRF.
+    </p>
+    <p>
+      We evaluate PrivateKube and DPF on microbenchmarks and an ML workload on Amazon Reviews data. Compared to existing baselines, DPF allows training more models under the same global privacy guarantee. This is especially true for DPF over R\'enyi DP, a highly composable form of DP.
+    </p>
+</div>
+</div>
+
+<div class="item feed-1b28272e feed-cscrupdatesonarxivorg" id="item-100e4bb1">
+<p class="itemheader">
+<span class="itemtitle"><a href="http://arxiv.org/abs/2104.14380">PPFL: Privacy-preserving Federated Learning with Trusted Execution Environments. (arXiv:2104.14380v2 [cs.CR] UPDATED)</a></span>
+<span class="itemfrom">[<a href="http://arxiv.org/">cs.CR updates on arXiv.org</a>]</span>
+</p>
+<div class="itemdescription">
+<p>
+      We propose and implement a Privacy-preserving Federated Learning ($PPFL$) framework for mobile systems to limit privacy leakages in federated learning. Leveraging the widespread presence of Trusted Execution Environments (TEEs) in high-end and mobile devices, we utilize TEEs on clients for local training, and on servers for secure aggregation, so that model/gradient updates are hidden from adversaries. Challenged by the limited memory size of current TEEs, we leverage greedy layer-wise training to train each model's layer inside the trusted area until its convergence. The performance evaluation of our implementation shows that $PPFL$ can significantly improve privacy while incurring small system overheads at the client-side. In particular, $PPFL$ can successfully defend the trained model against data reconstruction, property inference, and membership inference attacks. Furthermore, it can achieve comparable model utility with fewer communication rounds (0.54$\times$) and a similar amount of network traffic (1.002$\times$) compared to the standard federated learning of a complete model. This is achieved while only introducing up to ~15% CPU time, ~18% memory usage, and ~21% energy consumption overhead in $PPFL$'s client-side.
+    </p>
+</div>
+</div>
+
+<div class="item feed-1b28272e feed-cscrupdatesonarxivorg" id="item-4dcd133e">
+<p class="itemheader">
+<span class="itemtitle"><a href="http://arxiv.org/abs/2106.08913">Loki: Hardening Code Obfuscation Against Automated Attacks. (arXiv:2106.08913v2 [cs.CR] UPDATED)</a></span>
+<span class="itemfrom">[<a href="http://arxiv.org/">cs.CR updates on arXiv.org</a>]</span>
+</p>
+<div class="itemdescription">
+<p>
+      Software obfuscation is a crucial technology to protect intellectual property. Despite its importance, commercial and academic state-of-the-art obfuscation approaches are vulnerable to a plethora of automated deobfuscation attacks, such as symbolic execution, taint analysis, or program synthesis. While several enhanced techniques were proposed to thwart taint analysis or symbolic execution, they either impose a prohibitive runtime overhead or can be removed by compiler optimizations. In general, they suffer from focusing on a single attack vector, allowing an attacker to switch to other more effective techniques, such as program synthesis. In this work, we present Loki, an approach for code obfuscation that is resilient against all known automated deobfuscation attacks. To this end, we deploy multiple techniques, including a generic approach to synthesize formally verified expressions of arbitrary complexity. Contrary to state-of-the-art approaches that rely on a few hardcoded generation rules, our expressions are more diverse and harder to pattern match against. Moreover, Loki protects against previously unaccounted attack vectors such as program synthesis, for which it reduces the success rate to merely 19%. Overall, our design incurs significantly less overhead while providing a much stronger protection level.
+    </p>
+</div>
+</div>
+
+<div class="item feed-63a85565 feed-eurekalertbreakingnews" id="item-52e0b75a">
+<p class="itemheader">
+<span class="itemtitle"><a href="https://www.eurekalert.org/pub_releases/2021-06/tju-vis062921.php">Vaping increases susceptibility to coronavirus in mice</a></span>
 <span class="itemfrom">[<a href="http://www.eurekalert.org">EurekAlert! - Breaking News</a>]</span>
 </p>
 <div class="itemdescription">
 <p>
-      Rising nighttime temperatures are curbing crop yields for rice, and new research moves us closer to understanding why. The study found that warmer nights alter the rice plant's biological schedule, with hundreds of genes being expressed earlier than usual, while hundreds of other genes are being expressed later than usual.
+      A new study finds that exposure to e-cigarette vapor leads to higher levels of the coronavirus receptor ACE-2 in lungs of mice, with nicotine enhancing that increase in male mice.
+    </p>
+</div>
+</div>
+
+<div class="item feed-63a85565 feed-eurekalertbreakingnews" id="item-0f72d7db">
+<p class="itemheader">
+<span class="itemtitle"><a href="https://www.eurekalert.org/pub_releases/2021-06/uoc-ttn062921.php">Through the nano hole: LEGO technique reveals the physics of DNA transport through nanopores</a></span>
+<span class="itemfrom">[<a href="http://www.eurekalert.org">EurekAlert! - Breaking News</a>]</span>
+</p>
+<div class="itemdescription">
+<p>
+      A new technique established by a team of researchers from the University of Cambridge and the University of Massachusetts reveals the fundamental physics of how a polymer such as DNA threads through holes 10,000 times smaller than the width of a human hair.
     </p>
 </div>
 </div>
 
 </div>
+</div>
+<div class="day">
+<h2>Tuesday, 29 June 2021</h2>
 <div class="time">
 <h3>10:16 AM</h3>
 <div class="item feed-63a85565 feed-eurekalertbreakingnews" id="item-e4d68f8b">
@@ -58,42 +139,6 @@
 </div>
 <div class="time">
 <h3>02:28 AM</h3>
-<div class="item feed-1b28272e feed-cscrupdatesonarxivorg" id="item-63bdb630">
-<p class="itemheader">
-<span class="itemtitle"><a href="http://arxiv.org/abs/2106.14058">How Private is Android's Private DNS Setting? Identifying Apps by Encrypted DNS Traffic. (arXiv:2106.14058v1 [cs.CR])</a></span>
-<span class="itemfrom">[<a href="http://arxiv.org/">cs.CR updates on arXiv.org</a>]</span>
-</p>
-<div class="itemdescription">
-<p>
-      DNS over TLS (DoT) and DNS over HTTPS (DoH) promise to improve privacy and security of DNS by encrypting DNS messages, especially when messages are padded to a uniform size. Firstly, to demonstrate the limitations of recommended padding approaches, we present Segram, a novel app fingerprinting attack that allows adversaries to infer which mobile apps are executed on a device. Secondly, we record traffic traces of 118 Android apps using 10 different DoT/DoH resolvers to study the effectiveness of Segram under different conditions. According to our results, Segram identifies apps with accuracies of up to 72% with padding in a controlled closed world setting. The effectiveness of Segram is comparable with state-of-the-art techniques but Segram requires less computational effort. We release our datasets and code. Thirdly, we study the prevalence of padding among privacy-focused DoT/DoH resolvers, finding that up to 81% of our sample fail to enable padding. Our results suggest that recommended padding approaches are less effective than expected and that resolver operators are not sufficiently aware about this feature.
-    </p>
-</div>
-</div>
-
-<div class="item feed-1b28272e feed-cscrupdatesonarxivorg" id="item-eab5ebe5">
-<p class="itemheader">
-<span class="itemtitle"><a href="http://arxiv.org/abs/2007.12327">Stochastic Dynamic Information Flow Tracking Game using Supervised Learning for Detecting Advanced Persistent Threats. (arXiv:2007.12327v2 [cs.GT] UPDATED)</a></span>
-<span class="itemfrom">[<a href="http://arxiv.org/">cs.CR updates on arXiv.org</a>]</span>
-</p>
-<div class="itemdescription">
-<p>
-      Advanced persistent threats (APTs) are organized prolonged cyberattacks by sophisticated attackers. Although APT activities are stealthy, they interact with the system components and these interactions lead to information flows. Dynamic Information Flow Tracking (DIFT) has been proposed as one of the effective ways to detect APTs using the information flows. However, wide range security analysis using DIFT results in a significant increase in performance overhead and high rates of false-positives and false-negatives generated by DIFT. In this paper, we model the strategic interaction between APT and DIFT as a non-cooperative stochastic game. The game unfolds on a state space constructed from an information flow graph (IFG) that is extracted from the system log. The objective of the APT in the game is to choose transitions in the IFG to find an optimal path in the IFG from an entry point of the attack to an attack target. On the other hand, the objective of DIFT is to dynamically select nodes in the IFG to perform security analysis for detecting APT. Our game model has imperfect information as the players do not have information about the actions of the opponent. We consider two scenarios of the game (i) when the false-positive and false-negative rates are known to both players and (ii) when the false-positive and false-negative rates are unknown to both players. Case (i) translates to a game model with complete information and we propose a value iteration-based algorithm and prove the convergence. Case (ii) translates to a game with unknown transition probabilities. In this case, we propose Hierarchical Supervised Learning (HSL) algorithm that integrates a neural network, to predict the value vector of the game, with a policy iteration algorithm to compute an approximate equilibrium. We implemented our algorithms on real attack datasets and validated the performance of our approach.
-    </p>
-</div>
-</div>
-
-<div class="item feed-1b28272e feed-cscrupdatesonarxivorg" id="item-da2b770a">
-<p class="itemheader">
-<span class="itemtitle"><a href="http://arxiv.org/abs/2102.02583">Optimizing Blockchain Based Smart Grid Auctions: A Green Revolution. (arXiv:2102.02583v2 [cs.CR] UPDATED)</a></span>
-<span class="itemfrom">[<a href="http://arxiv.org/">cs.CR updates on arXiv.org</a>]</span>
-</p>
-<div class="itemdescription">
-<p>
-      Traditional smart grid energy auctions cannot directly be integrated in blockchain due to its decentralized nature. Therefore, research works are being carried out to propose efficient decentralized auctions for energy trading. Since, blockchain is a novel paradigm which ensures trust, but it also comes up with a curse of high computation and communication complexity which eventually causes resource scarcity. Therefore, there is a need to develop and encourage development of greener and computational-friendly auctions to carry out decentralized energy trading. In this paper, we first provide a thorough motivation of decentralized auctions over traditional auctions. Afterwards, we provide in-depth design requirements that can be taken into consideration while developing such auctions. After that, we analyze technical works that have developed blockchain based energy auctions from green perspective. Finally, we summarize the article by providing challenges and possible future research directions of blockchain based energy auction from green viewpoint.
-    </p>
-</div>
-</div>
-
 <div class="item feed-63a85565 feed-eurekalertbreakingnews" id="item-e99d3ee6">
 <p class="itemheader">
 <span class="itemtitle"><a href="https://www.eurekalert.org/pub_releases/2021-06/cc-npm062821.php">No pressure: Maintaining normal BP over long term is the key to heart health, study finds</a></span>
@@ -133,48 +178,6 @@
 <p>
       Nature, Published online: 25 June 2021; <a href="https://www.nature.com/articles/d41586-021-01771-9">doi:10.1038/d41586-021-01771-9</a>
     </p>Denisovans, Neanderthals and modern humans left genetic traces in the iconic Denisova Cave. Plus, a quantum compass in birds&#8217; eyes might help them navigate, and coronavirus clues found in deleted sequences.<img alt="" height="1" src="http://feeds.feedburner.com/~r/nature/rss/current/~4/PIbAdOu4Ppc" width="1">
-</div>
-</div>
-
-</div>
-<div class="time">
-<h3>10:16 AM</h3>
-<div class="item feed-63a85565 feed-eurekalertbreakingnews" id="item-9e777e1e">
-<p class="itemheader">
-<span class="itemtitle"><a href="https://www.eurekalert.org/pub_releases/2021-06/ijl-ogr062521.php">Oncotarget: Glucocorticoid receptor antagonism promotes apoptosis in solid tumor cells</a></span>
-<span class="itemfrom">[<a href="http://www.eurekalert.org">EurekAlert! - Breaking News</a>]</span>
-</p>
-<div class="itemdescription">
-<p>
-      Support recently reported findings of clinical benefit when relacorilant is added to paclitaxel-containing therapy in patients with ovarian and pancreatic cancers and provide a new rationale for combining relacorilant with additional cytotoxic agents.
-    </p>
-</div>
-</div>
-
-</div>
-<div class="time">
-<h3>02:30 AM</h3>
-<div class="item feed-1b28272e feed-cscrupdatesonarxivorg" id="item-9475e630">
-<p class="itemheader">
-<span class="itemtitle"><a href="http://arxiv.org/abs/2106.13478">Crossing Cross-Domain Paths in the Current Web. (arXiv:2106.13478v1 [cs.CR])</a></span>
-<span class="itemfrom">[<a href="http://arxiv.org/">cs.CR updates on arXiv.org</a>]</span>
-</p>
-<div class="itemdescription">
-<p>
-      The loading of resources from third-parties has evoked new security and privacy concerns about the current world wide web. Building on the concepts of forced and implicit trust, this paper examines cross-domain transmission control protocol (TCP) connections that are initiated to domains other than the domain queried with a web browser. The dataset covers nearly ten thousand domains and over three hundred thousand TCP connections initiated by querying popular Finnish websites and globally popular sites. According to the results, (i) cross-domain connections are extremely common in the current Web. (ii) Most of these transmit encrypted content, although mixed content delivery is relatively common; many of the cross-domain connections deliver unencrypted content at the same time. (iii) Many of the cross-domain connections are initiated to known web advertisement domains, but a much larger share traces to social media platforms and cloud infrastructures. Finally, (iv) the results differ slightly between the Finnish web sites sampled and the globally popular sites. With these results, the paper contributes to the ongoing work for better understanding cross-domain connections and dependencies in the world wide web.
-    </p>
-</div>
-</div>
-
-<div class="item feed-1b28272e feed-cscrupdatesonarxivorg" id="item-afaef6a6">
-<p class="itemheader">
-<span class="itemtitle"><a href="http://arxiv.org/abs/1909.11326">New results on quasi-subfield polynomials. (arXiv:1909.11326v2 [cs.CR] UPDATED)</a></span>
-<span class="itemfrom">[<a href="http://arxiv.org/">cs.CR updates on arXiv.org</a>]</span>
-</p>
-<div class="itemdescription">
-<p>
-      Quasi-subfield polynomials were introduced by Huang et al. together with a new algorithm to solve the Elliptic Curve Discrete Logarithm Problem (ECDLP) over finite fields of small characteristic. In this paper we provide both new quasi-subfield polynomial families and a new theorem limiting their existence. Our results do not allow to derive any speedup for the new ECDLP algorithm compared to previous approaches.
-    </p>
 </div>
 </div>
 
@@ -277,6 +280,18 @@
 </div>
 </div>
 
+<div class="item feed-ed41d94f feed-jamacurrentissue" id="item-15bf15d4">
+<p class="itemheader">
+<span class="itemtitle"><a href="https://jamanetwork.com/journals/jama/fullarticle/2781260">Review of Hip and Knee Osteoarthritis&#8212;Reply</a></span>
+<span class="itemfrom">[<a href="https://jamanetwork.com/journals/jama">JAMA Current Issue</a>]</span>
+</p>
+<div class="itemdescription">
+<p>
+      In Reply Dr Phillips correctly points out that we did not include leg length inequality as a biomechanical risk factor for hip and knee osteoarthritis in our review. We regret the omission. Indeed, analyses conducted with data from the Multicenter Osteoarthritis Study, Osteoarthritis Initiative, and Johnston County Osteoarthritis Project showed that leg length inequality of 1 cm or greater was associated with a higher incidence of knee and hip osteoarthritis in the shorter limb, adjusting for age, sex, and body mass index. When a threshold of 2 cm or greater was used to define leg length inequality, the risks of knee and hip osteoarthritis were even higher. For example, in 1 study, the odds of incident symptomatic knee osteoarthritis in the shorter leg of people with leg length inequality of 1 cm or greater were 1.7-fold higher than in those without leg length inequality. In this study, the odds ratio doubled to 4.1 for leg length inequality of 2 cm or greater.
+    </p>
+</div>
+</div>
+
 <div class="item feed-ed41d94f feed-jamacurrentissue" id="item-900fe825">
 <p class="itemheader">
 <span class="itemtitle"><a href="https://jamanetwork.com/journals/jama/fullarticle/2781259">Effect of Restrictive or Liberal Blood Transfusion on Major Cardiovascular Events in Patients With Acute Myocardial Infarction and Anemia&#8212;Reply</a></span>
@@ -285,18 +300,6 @@
 <div class="itemdescription">
 <p>
       In Reply In their comments about the results of the REALITY trial, Dr Sato and colleagues point out a lower incidence of ALI in the restrictive vs liberal transfusion group and postulate that this finding may be related to transfusion. However, the number of lung injury events was small (8 in total), and the REALITY trial, similar to most trials, was not powered to assess adverse events. For that reason, and given the potential for type I error with multiple comparisons, we did not provide P values for between-group comparisons of safety outcomes. In addition, adverse events were investigator reported and not adjudicated. Regarding the timing of lung injury relative to transfusion, only 2 patients in the liberal transfusion group developed ALI on the day of transfusion, whereas the other 5 (including the only patient in the restrictive transfusion group) developed ALI more than 2 days later. Taken together, these observations suggest the need for caution when interpreting the incidence of ALI in the treatment groups; the incidence was low, differences were modest, and causality was at best uncertain.
-    </p>
-</div>
-</div>
-
-<div class="item feed-ed41d94f feed-jamacurrentissue" id="item-fce43814">
-<p class="itemheader">
-<span class="itemtitle"><a href="https://jamanetwork.com/journals/jama/fullarticle/2781247">His Service Dog</a></span>
-<span class="itemfrom">[<a href="https://jamanetwork.com/journals/jama">JAMA Current Issue</a>]</span>
-</p>
-<div class="itemdescription">
-<p>
-      &#8220;It&#8217;s Ralph,&#8221; the triage nurse said, a tremor in her voice. Everyone in the ED knew Ralph and Alex, a toy poodle, his service dog.
     </p>
 </div>
 </div>
@@ -313,14 +316,14 @@
 </div>
 </div>
 
-<div class="item feed-ed41d94f feed-jamacurrentissue" id="item-5646aeb6">
+<div class="item feed-ed41d94f feed-jamacurrentissue" id="item-9d9a5195">
 <p class="itemheader">
-<span class="itemtitle"><a href="https://jamanetwork.com/journals/jama/fullarticle/2780792">When Vaccine Apathy, Not Hesitancy, Drives Vaccine Disinterest</a></span>
+<span class="itemtitle"><a href="https://jamanetwork.com/journals/jama/fullarticle/2780520">Addition of Nonauthor Collaborator Names of the INTUBE Study Collaborators</a></span>
 <span class="itemfrom">[<a href="https://jamanetwork.com/journals/jama">JAMA Current Issue</a>]</span>
 </p>
 <div class="itemdescription">
 <p>
-      This Viewpoint explains how vaccine apathy rather than hesitancy may lead to population undervaccination, and uses marketing principles to explain how public health messaging might differ to persuade apathetic persons to be immunized to achieve more widespread COVID-19 protection.
+      The Original Investigation titled &#8220;Intubation Practices and Adverse Peri-intubation Events in Critically Ill Patients From 29 Countries,&#8221; published March 23, 2021, has been corrected to include the nonauthor collaborator (group) names in a supplement. In addition, the number of participants receiving ketamine with no major adverse events was corrected in eTable 2. This article was corrected online.
     </p>
 </div>
 </div>
@@ -445,14 +448,14 @@
 </div>
 </div>
 
-<div class="item feed-ccdce26d feed-ieeetransactionsonindustrialinformaticsnewtoc" id="item-52c38611">
+<div class="item feed-ccdce26d feed-ieeetransactionsonindustrialinformaticsnewtoc" id="item-68a4d5f8">
 <p class="itemheader">
-<span class="itemtitle"><a href="http://ieeexplore.ieee.org/document/9252862">Extended State Observer-Based Controller With Model Predictive Governor for 3-D Trajectory Tracking of Underactuated Underwater Vehicles</a></span>
+<span class="itemtitle"><a href="http://ieeexplore.ieee.org/document/9250552">A General Transfer Framework Based on Industrial Process Fault Diagnosis Under Small Samples</a></span>
 <span class="itemfrom">[<a href="http://ieeexplore.ieee.org">IEEE Transactions on Industrial Informatics - new TOC</a>]</span>
 </p>
 <div class="itemdescription">
 <p>
-      In this article, an extended state observer (ESO)-based controller with a model predictive governor is designed for 3-D trajectory tracking of underactuated underwater vehicles. The proposed control scheme takes three primary challenges including underactuated property, velocity constraint, and lumped disturbance into consideration. With respect to the model predictive governor, an underactuated kinematic tracking error model is utilized to produce reference velocities. Meanwhile, a heading angle compensation mechanism is utilized to avoid the steady tracking errors resulting from dynamics coupling of the vehicle. Besides, an ESO is designed to estimate the lumped disturbances and unmeasured velocity states. Based on the ESO, a kinetic controller is offered to accomplish the precise velocity tracking only in virtue of the position and orientation information. Note that this article details both the design process of the control scheme and rigorous theoretical analysis. Eventually, simulation and experimental results demonstrate the feasibility and superiority of the proposed method. Notably, this work lays the foundation for the underactuated trajectory tracking control in complicated and turbulent underwater environments.
+      The lack of fault samples is a challenging issue for fault diagnosis in the industrial process. It is difficult for conventional fault diagnosis methods to achieve satisfactory results under small samples. This article proposes a general transfer framework with evolutionary capability to address the above issue. First, a general transfer framework is proposed, in which the transfer learning strategy is applied to guarantee the number and diversity of expanded samples and achieve accurate modeling. Second, the adaptive mixup (Admixup) method is presented, which can adaptively expand the fault samples and make the shared distribution smoother to guarantee the stability and accuracy of the fault diagnosis results. Finally, an optimized evolution strategy is designed, in which the transformation matrix is used as an evolutionary channel to reduce the fault diagnosis errors without retraining the framework as fault samples increase. The presented framework can utilize the generalization of small samples and the knowledge of various working condition samples to achieve accurate modeling. The proposed framework is applied to simulated and real industrial processes. Experiment results illustrate that the fault diagnosis model can be effectively established by the proposed framework under small samples, and the proposed framework is evolutionary capable.
     </p>
 </div>
 </div>
@@ -481,14 +484,14 @@
 </div>
 </div>
 
-<div class="item feed-ccdce26d feed-ieeetransactionsonindustrialinformaticsnewtoc" id="item-d2129f44">
+<div class="item feed-ccdce26d feed-ieeetransactionsonindustrialinformaticsnewtoc" id="item-19f3d80a">
 <p class="itemheader">
-<span class="itemtitle"><a href="http://ieeexplore.ieee.org/document/9325565">Residual Learning Diagnosis Detection: An Advanced Residual Learning Diagnosis Detection System for COVID-19 in Industrial Internet of Things</a></span>
+<span class="itemtitle"><a href="http://ieeexplore.ieee.org/document/9112632">A Data-Driven Approach of Product Quality Prediction for Complex Production Systems</a></span>
 <span class="itemfrom">[<a href="http://ieeexplore.ieee.org">IEEE Transactions on Industrial Informatics - new TOC</a>]</span>
 </p>
 <div class="itemdescription">
 <p>
-      Due to the fast transmission speed and severe health damage, COVID-19 has attracted global attention. Early diagnosis and isolation are effective and imperative strategies for epidemic prevention and control. Most diagnostic methods for the COVID-19 is based on nucleic acid testing (NAT), which is expensive and time-consuming. To build an efficient and valid alternative of NAT, this article investigates the feasibility of employing computed tomography images of lungs as the diagnostic signals. Unlike normal lungs, parts of the lungs infected with the COVID-19 developed lesions, ground-glass opacity, and bronchiectasis became apparent. Through a public dataset, in this article, we propose an advanced residual learning diagnosis detection (RLDD) scheme for the COVID-19 technique, which is designed to distinguish positive COVID-19 cases from heterogeneous lung images. Besides the advantage of high diagnosis effectiveness, the designed residual-based COVID-19 detection network can efficiently extract the lung features through small COVID-19 samples, which removes the pretraining requirement on other medical datasets. In the test set, we achieve an accuracy of 91.33%, a precision of 91.30%, and a recall of 90%. For the batch of 150 samples, the assessment time is only 4.7&#160;s. Therefore, RLDD can be integrated into the application programming interface and embedded into the medical instrument to improve the detection efficiency of COVID-19.
+      In the modern industry, the information has been sufficiently shared among the production equipment, intelligent subsystems, and mobile devices via advanced network technology. For this purpose, many challenges on plant-wide performance evaluation such as product quality prediction have been received considerable attention in complex industrial Internet of Things systems. In this article, an efficient and effective soft sensor based on the semisupervised parallel deepFM model is proposed for the product quality prediction. First, a label broadcasting method is presented to augment labeled samples from unlabeled samples. Then, a data binning method is introduced to discretize process variables for an unbiased estimation. Based on the modified deepFM model, quality information can be separately extracted from different components of the model while high- and low-dimensional features can be obtained. Manifold regularization is embedded into the back propagation algorithm, in which unlabeled samples issue can be further resolved. Experiments on a real-world dataset demonstrate the effectiveness and performance of the proposed methods.
     </p>
 </div>
 </div>
@@ -616,18 +619,6 @@
 </div>
 </div>
 
-<div class="item feed-52e73913 feed-annualreviewsannualreviewofpoliticalsciencetableofcontents" id="item-d63696d6">
-<p class="itemheader">
-<span class="itemtitle"><a href="https://www.annualreviews.org/doi/abs/10.1146/annurev-polisci-041719-102503?af=R">The Causes of Populism in the West</a></span>
-<span class="itemfrom">[<a href="https://www.annualreviews.org/loi/polisci?af=R">Annual Reviews: Annual Review of Political Science: Table of Contents</a>]</span>
-</p>
-<div class="itemdescription">
-<p>
-      Annual Review of Political Science, <a href="https://www.annualreviews.org/toc/polisci/24/1">Volume 24, Issue 1</a>, Page 71-88, May 2021.<br>
-    </p>
-</div>
-</div>
-
 <div class="item feed-52e73913 feed-annualreviewsannualreviewofpoliticalsciencetableofcontents" id="item-6302732e">
 <p class="itemheader">
 <span class="itemtitle"><a href="https://www.annualreviews.org/doi/abs/10.1146/annurev-polisci-041719-101841?af=R">Nationalism: What We Know and What We Still Need to Know</a></span>
@@ -648,6 +639,18 @@
 <div class="itemdescription">
 <p>
       Annual Review of Political Science, <a href="https://www.annualreviews.org/toc/polisci/24/1">Volume 24, Issue 1</a>, Page 321-343, May 2021.<br>
+    </p>
+</div>
+</div>
+
+<div class="item feed-52e73913 feed-annualreviewsannualreviewofpoliticalsciencetableofcontents" id="item-d2cca0f5">
+<p class="itemheader">
+<span class="itemtitle"><a href="https://www.annualreviews.org/doi/abs/10.1146/annurev-polisci-053119-015921?af=R">Machine Learning for Social Science: An Agnostic Approach</a></span>
+<span class="itemfrom">[<a href="https://www.annualreviews.org/loi/polisci?af=R">Annual Reviews: Annual Review of Political Science: Table of Contents</a>]</span>
+</p>
+<div class="itemdescription">
+<p>
+      Annual Review of Political Science, <a href="https://www.annualreviews.org/toc/polisci/24/1">Volume 24, Issue 1</a>, Page 395-419, May 2021.<br>
     </p>
 </div>
 </div>
@@ -688,18 +691,6 @@
 </div>
 </div>
 
-<div class="item feed-c99fafa0 feed-ieeetransactionsonimageprocessingnewtoc" id="item-ae3040fe">
-<p class="itemheader">
-<span class="itemtitle"><a href="http://ieeexplore.ieee.org/document/9366926">Joint Depth and Defocus Estimation From a Single Image Using Physical Consistency</a></span>
-<span class="itemfrom">[<a href="http://ieeexplore.ieee.org">IEEE Transactions on Image Processing - new TOC</a>]</span>
-</p>
-<div class="itemdescription">
-<p>
-      Estimating depth and defocus maps are two fundamental tasks in computer vision. Recently, many methods explore these two tasks separately with the help of the powerful feature learning ability of deep learning and these methods have achieved impressive progress. However, due to the difficulty in densely labeling depth and defocus on real images, these methods are mostly based on synthetic training dataset, and the performance of learned network degrades significantly on real images. In this paper, we tackle a new task that jointly estimates depth and defocus from a single image. We design a dual network with two subnets respectively for estimating depth and defocus. The network is jointly trained on synthetic dataset with a physical constraint to enforce the physical consistency between depth and defocus. Moreover, we design a simple method to label depth and defocus order on real image dataset, and design two novel metrics to measure accuracies of depth and defocus estimation on real images. Comprehensive experiments demonstrate that joint training for depth and defocus estimation using physical consistency constraint enables these two subnets to guide each other, and effectively improves their depth and defocus estimation performance on real defocused image dataset.
-    </p>
-</div>
-</div>
-
 <div class="item feed-c99fafa0 feed-ieeetransactionsonimageprocessingnewtoc" id="item-368cc903">
 <p class="itemheader">
 <span class="itemtitle"><a href="http://ieeexplore.ieee.org/document/9381668">SAMNet: Stereoscopically Attentive Multi-Scale Network for Lightweight Salient Object Detection</a></span>
@@ -708,18 +699,6 @@
 <div class="itemdescription">
 <p>
       Recent progress on salient object detection (SOD) mostly benefits from the explosive development of Convolutional Neural Networks (CNNs). However, much of the improvement comes with the larger network size and heavier computation overhead, which, in our view, is not mobile-friendly and thus difficult to deploy in practice. To promote more practical SOD systems, we introduce a novel Stereoscopically Attentive Multi-scale (SAM) module, which adopts a stereoscopic attention mechanism to adaptively fuse the features of various scales. Embarking on this module, we propose an extremely lightweight network, namely SAMNet, for SOD. Extensive experiments on popular benchmarks demonstrate that the proposed SAMNet yields comparable accuracy with state-of-the-art methods while running at a GPU speed of 343fps and a CPU speed of 5fps for $336 times 336$ inputs with only 1.33M parameters. Therefore, SAMNet paves a new path towards SOD. The source code is available on the project page https://mmcheng.net/SAMNet/.
-    </p>
-</div>
-</div>
-
-<div class="item feed-c99fafa0 feed-ieeetransactionsonimageprocessingnewtoc" id="item-6444c167">
-<p class="itemheader">
-<span class="itemtitle"><a href="http://ieeexplore.ieee.org/document/9395398">Rethinking Image Salient Object Detection: Object-Level Semantic Saliency Reranking First, Pixelwise Saliency Refinement Later</a></span>
-<span class="itemfrom">[<a href="http://ieeexplore.ieee.org">IEEE Transactions on Image Processing - new TOC</a>]</span>
-</p>
-<div class="itemdescription">
-<p>
-      Human attention is an interactive activity between our visual system and our brain, using both low-level visual stimulus and high-level semantic information. Previous image salient object detection (SOD) studies conduct their saliency predictions via a multitask methodology in which pixelwise saliency regression and segmentation-like saliency refinement are conducted simultaneously. However, this multitask methodology has one critical limitation: the semantic information embedded in feature backbones might be degenerated during the training process. Our visual attention is determined mainly by semantic information, which is evidenced by our tendency to pay more attention to semantically salient regions even if these regions are not the most perceptually salient at first glance. This fact clearly contradicts the widely used multitask methodology mentioned above. To address this issue, this paper divides the SOD problem into two sequential steps. First, we devise a lightweight, weakly supervised deep network to coarsely locate the semantically salient regions. Next, as a postprocessing refinement, we selectively fuse multiple off-the-shelf deep models on the semantically salient regions identified by the previous step to formulate a pixelwise saliency map. Compared with the state-of-the-art (SOTA) models that focus on learning the pixelwise saliency in single images using only perceptual clues, our method aims at investigating the object-level semantic ranks between multiple images, of which the methodology is more consistent with the human attention mechanism. Our method is simple yet effective, and it is the first attempt to consider salient object detection as mainly an object-level semantic reranking problem.
     </p>
 </div>
 </div>
@@ -869,17 +848,17 @@
 </div>
 </div>
 <div class="day">
-<h2>Friday, 01 January 2021</h2>
+<h2>Tuesday, 02 February 2021</h2>
 <div class="time">
-<h3>02:39 AM</h3>
-<div class="item feed-c24550d7 feed-ieeetransactionsoninformationforensicsandsecuritynewtoc" id="item-f6b7fbdc">
+<h3>02:24 AM</h3>
+<div class="item feed-c99fafa0 feed-ieeetransactionsonimageprocessingnewtoc" id="item-c209c9b6">
 <p class="itemheader">
-<span class="itemtitle"><a href="http://ieeexplore.ieee.org/document/9262902">Achievable Rate Region of Energy-Harvesting Based Secure Two-Way Buffer-Aided Relay Networks</a></span>
-<span class="itemfrom">[<a href="http://ieeexplore.ieee.org">IEEE Transactions on Information Forensics and Security - new TOC</a>]</span>
+<span class="itemtitle"><a href="http://ieeexplore.ieee.org/document/9303428">Bi-Directional Exponential Angular Triplet Loss for RGB-Infrared Person Re-Identification</a></span>
+<span class="itemfrom">[<a href="http://ieeexplore.ieee.org">IEEE Transactions on Image Processing - new TOC</a>]</span>
 </p>
 <div class="itemdescription">
 <p>
-      This paper considered an energy-harvesting based secure two-way relay (EH-STWR) network, where two users exchanged information with the assistance of one buffer-aided relay that harvested energy from two users. To realize the confidential message exchange between two users in the presence of a potential eavesdropper, a secure bidirectional relaying scheme based on time division broadcast (TDBC) was proposed, where one user sent artificial noise to suppress the eavesdropper and another user transmitted data to the relay. A secure sum-rate maximization problem was formulated subject to average and peak transmit power constraints, data buffer and energy storage causality, and transmission mode constraints. By employing the Lyapunov optimization framework, a security-aware adaptive transmission scheme was proposed to jointly adapt transmission mode selection, power allocation, and security rate allocation according to channel/buffer/energy state information (CSI/BSI/ESI). Analysis results showed that the average achievable secrecy rate region can be significantly improved and there exists an inherent trade-off among transmission delay, requirement of transmit power consumption, and achievable secure sum-rate. Moreover, the channel condition between the energy-constrained relay and the potential eavesdropper is a critical factor on the achievable long-term average secrecy rate performance.
+      RGB-Infrared person re-identification (RGB-IR Re-ID) is a cross-modality matching problem, where the modality discrepancy is a big challenge. Most existing works use Euclidean metric based constraints to resolve the discrepancy between features of images from different modalities. However, these methods are incapable of learning angularly discriminative feature embedding because Euclidean distance cannot measure the included angle between embedding vectors effectively. As an angularly discriminative feature space is important for classifying the human images based on their embedding vectors, in this paper, we propose a novel ranking loss function, named Bi-directional Exponential Angular Triplet Loss, to help learn an angularly separable common feature space by explicitly constraining the included angles between embedding vectors. Moreover, to help stabilize and learn the magnitudes of embedding vectors, we adopt a common space batch normalization layer. The quantitative and qualitative experiments on the SYSU-MM01 and RegDB dataset support our analysis. On SYSU-MM01 dataset, the performance is improved from 7.40% / 11.46% to 38.57% / 38.61% for rank-1 accuracy / mAP compared with the baseline. The proposed method can be generalized to the task of single-modality Re-ID and improves the rank-1 accuracy / mAP from 92.0% / 81.7% to 94.7% / 86.6% on the Market-1501 dataset, from 82.6% / 70.6% to 87.6% / 77.1% on the DukeMTMC-reID dataset.
     </p>
 </div>
 </div>
@@ -964,6 +943,42 @@
 <div class="itemdescription">
 <p>
       The evolutionary significance of epigenetic inheritance is controversial. While epigenetic marks such as DNA methylation can affect gene function and change in response to environmental conditions, their role as carriers of heritable information is often considered anecdotal. Indeed, near-complete DNA methylation reprogramming, as occurs during mammalian embryogenesis, is a major...<img alt="" height="1" src="http://feeds.feedburner.com/~r/Pnas-RssFeedOfEarlyEditionArticles/~4/fRT8Y_Mkkj4" width="1">
+    </p>
+</div>
+</div>
+
+</div>
+</div>
+<div class="day">
+<h2>Friday, 20 November 2020</h2>
+<div class="time">
+<h3>02:03 AM</h3>
+<div class="item feed-c99fafa0 feed-ieeetransactionsonimageprocessingnewtoc" id="item-5cae1989">
+<p class="itemheader">
+<span class="itemtitle"><a href="http://ieeexplore.ieee.org/document/9247432">Dimensionality Reduction for Tensor Data Based on Local Decision Margin Maximization</a></span>
+<span class="itemfrom">[<a href="http://ieeexplore.ieee.org">IEEE Transactions on Image Processing - new TOC</a>]</span>
+</p>
+<div class="itemdescription">
+<p>
+      In machine learning, the idea of maximizing the margin between two classes is widely used in classifier design. Enlighted by the idea, this paper proposes a novel supervised dimensionality reduction method for tensor data based on local decision margin maximization. The proposed method seeks to preserve and protect the local discriminant information of the original data in the low-dimensional data space. Firstly, we depart the original tensor dataset into overlapped localities with discriminant information. Then, we extract the similarity and anti-similarity coefficients of each high-dimensional locality and preserve these coefficients in the embedding data space via the multilinear projection scheme. Under the combined effect of these coefficients, each dimension-reduced locality tends to be a convex set where strongly correlated intraclass points gather. Simultaneously, the local decision margin, which is defined as the shortest distance from the boundary of each locality to the nearest point of each side, will be maximized. Therefore, the local discriminant structure of the original data could be well maintained in the low-dimensional data space. Moreover, a simple iterative scheme is proposed to solve the final optimization problem. Finally, the experiment results on 6 real-world datasets demonstrate the effectiveness of the proposed method.
+    </p>
+</div>
+</div>
+
+</div>
+</div>
+<div class="day">
+<h2>Tuesday, 17 November 2020</h2>
+<div class="time">
+<h3>02:02 AM</h3>
+<div class="item feed-c24550d7 feed-ieeetransactionsoninformationforensicsandsecuritynewtoc" id="item-479b63e3">
+<p class="itemheader">
+<span class="itemtitle"><a href="http://ieeexplore.ieee.org/document/9198912">When Automatic Voice Disguise Meets Automatic Speaker Verification</a></span>
+<span class="itemfrom">[<a href="http://ieeexplore.ieee.org">IEEE Transactions on Information Forensics and Security - new TOC</a>]</span>
+</p>
+<div class="itemdescription">
+<p>
+      The technique of transforming voices in order to hide the real identity of a speaker is called voice disguise, among which automatic voice disguise (AVD) by modifying the spectral and temporal characteristics of voices with miscellaneous algorithms are easily conducted with softwares accessible to the public. AVD has posed great threat to both human listening and automatic speaker verification (ASV). In this paper, we have found that ASV is not only a victim of AVD but could be a tool to beat some simple types of AVD. Firstly, three types of AVD, pitch scaling, vocal tract length normalization (VTLN) and voice conversion (VC), are introduced as representative methods. State-of-the-art ASV methods are subsequently utilized to objectively evaluate the impact of AVD on ASV by equal error rates (EER). Moreover, an approach to restore disguised voice to its original version is proposed by minimizing a function of ASV scores w.r.t. restoration parameters. Experiments are then conducted on disguised voices from Voxceleb, a dataset recorded in real-world noisy scenario. The results have shown that, for the voice disguise by pitch scaling, the proposed approach obtains an EER around 7% comparing to the 30% EER of a recently proposed baseline using the ratio of fundamental frequencies. The proposed approach generalizes well to restore the disguise with nonlinear frequency warping in VTLN by reducing its EER from 34.3% to 18.5%. However, it is difficult to restore the source speakers in VC by our approach, where more complex forms of restoration functions or other paralinguistic cues might be necessary to restore the nonlinear transform in VC. Finally, contrastive visualization on ASV features with and without restoration illustrate the role of the proposed approach in an intuitive way.
     </p>
 </div>
 </div>
@@ -1148,6 +1163,18 @@
 </div>
 </div>
 
+<div class="item feed-a4d49d75 feed-annualreviewsannualreviewofeconomicstableofcontents" id="item-140dc793">
+<p class="itemheader">
+<span class="itemtitle"><a href="https://www.annualreviews.org/doi/abs/10.1146/annurev-economics-080218-025711?ai=67b7&amp;mi=3fndc3&amp;af=R">Computing Economic Equilibria Using Projection Methods</a></span>
+<span class="itemfrom">[<a href="https://www.annualreviews.org/loi/economics?ai=67b7&amp;mi=3fndc3&amp;af=R">Annual Reviews: Annual Review of Economics: Table of Contents</a>]</span>
+</p>
+<div class="itemdescription">
+<p>
+      Annual Review of Economics, <a href="https://www.annualreviews.org/toc/economics/12/1">Volume 12, Issue 1</a>, Page 317-353, August 2020.<br>
+    </p>
+</div>
+</div>
+
 <div class="item feed-a4d49d75 feed-annualreviewsannualreviewofeconomicstableofcontents" id="item-47a7a984">
 <p class="itemheader">
 <span class="itemtitle"><a href="https://www.annualreviews.org/doi/abs/10.1146/annurev-economics-082019-110313?ai=67b7&amp;mi=3fndc3&amp;af=R">Social Identity and Economic Policy</a></span>
@@ -1168,18 +1195,6 @@
 <div class="itemdescription">
 <p>
       Annual Review of Economics, <a href="https://www.annualreviews.org/toc/economics/12/1">Volume 12, Issue 1</a>, Page 603-629, August 2020.<br>
-    </p>
-</div>
-</div>
-
-<div class="item feed-a4d49d75 feed-annualreviewsannualreviewofeconomicstableofcontents" id="item-08c2365a">
-<p class="itemheader">
-<span class="itemtitle"><a href="https://www.annualreviews.org/doi/abs/10.1146/annurev-economics-100119-013035?ai=67b7&amp;mi=3fndc3&amp;af=R">Dynamic Taxation</a></span>
-<span class="itemfrom">[<a href="https://www.annualreviews.org/loi/economics?ai=67b7&amp;mi=3fndc3&amp;af=R">Annual Reviews: Annual Review of Economics: Table of Contents</a>]</span>
-</p>
-<div class="itemdescription">
-<p>
-      Annual Review of Economics, <a href="https://www.annualreviews.org/toc/economics/12/1">Volume 12, Issue 1</a>, Page 801-831, August 2020.<br>
     </p>
 </div>
 </div>
@@ -1214,18 +1229,6 @@
 </div>
 </div>
 
-<div class="item feed-3b836157 feed-annualreviewsannualreviewofsociologytableofcontents" id="item-2e0bd5a2">
-<p class="itemheader">
-<span class="itemtitle"><a href="https://www.annualreviews.org/doi/abs/10.1146/annurev-soc-121919-054649?ai=t0&amp;mi=3fndc3&amp;af=R">Multiracial Categorization, Identity, and Policy in (Mixed) Racial Formations</a></span>
-<span class="itemfrom">[<a href="https://www.annualreviews.org/loi/soc?ai=t0&amp;mi=3fndc3&amp;af=R">Annual Reviews: Annual Review of Sociology: Table of Contents</a>]</span>
-</p>
-<div class="itemdescription">
-<p>
-      Annual Review of Sociology, <a href="https://www.annualreviews.org/toc/soc/46/1">Volume 46, Issue 1</a>, Page 335-353, July 2020.<br>
-    </p>
-</div>
-</div>
-
 <div class="item feed-3b836157 feed-annualreviewsannualreviewofsociologytableofcontents" id="item-1cf1ab97">
 <p class="itemheader">
 <span class="itemtitle"><a href="https://www.annualreviews.org/doi/abs/10.1146/annurev-soc-112019-053842?ai=t0&amp;mi=3fndc3&amp;af=R">Transnational Professionals</a></span>
@@ -1234,6 +1237,18 @@
 <div class="itemdescription">
 <p>
       Annual Review of Sociology, <a href="https://www.annualreviews.org/toc/soc/46/1">Volume 46, Issue 1</a>, Page 399-417, July 2020.<br>
+    </p>
+</div>
+</div>
+
+<div class="item feed-3b836157 feed-annualreviewsannualreviewofsociologytableofcontents" id="item-1b0c6828">
+<p class="itemheader">
+<span class="itemtitle"><a href="https://www.annualreviews.org/doi/abs/10.1146/annurev-soc-121919-054750?ai=t0&amp;mi=3fndc3&amp;af=R">Sociology and the Climate Crisis</a></span>
+<span class="itemfrom">[<a href="https://www.annualreviews.org/loi/soc?ai=t0&amp;mi=3fndc3&amp;af=R">Annual Reviews: Annual Review of Sociology: Table of Contents</a>]</span>
+</p>
+<div class="itemdescription">
+<p>
+      Annual Review of Sociology, <a href="https://www.annualreviews.org/toc/soc/46/1">Volume 46, Issue 1</a>, Page 649-669, July 2020.<br>
     </p>
 </div>
 </div>
@@ -1270,127 +1285,127 @@
 <tr class="feedsrow">
 <td><a href="https://www.annualreviews.org/loi/economics?ai=67b7&amp;mi=3fndc3&amp;af=R">Annual Reviews: Annual Review of Economics: Table of Contents</a></td>
 <td><a class="xmlbutton" href="http://www.annualreviews.org/action/showFeed?ui=45mu4&amp;mi=3fndc3&amp;ai=67b7&amp;jc=economics&amp;type=etoc&amp;feed=rss">XML</a></td>
-<td>06:18 PM, Tuesday, 29 June 2021</td>
-<td>09:18 PM, Tuesday, 29 June 2021</td>
+<td>02:30 AM, Wednesday, 30 June 2021</td>
+<td>05:30 AM, Wednesday, 30 June 2021</td>
 </tr>
 
 <tr class="feedsrow">
 <td><a href="https://www.annualreviews.org/loi/nutr?ai=rz&amp;mi=3fndc3&amp;af=R">Annual Reviews: Annual Review of Nutrition: Table of Contents</a></td>
 <td><a class="xmlbutton" href="http://www.annualreviews.org/action/showFeed?ui=45mu4&amp;mi=3fndc3&amp;ai=rz&amp;jc=nutr&amp;type=etoc&amp;feed=rss">XML</a></td>
-<td>06:18 PM, Tuesday, 29 June 2021</td>
-<td>09:18 PM, Tuesday, 29 June 2021</td>
+<td>02:30 AM, Wednesday, 30 June 2021</td>
+<td>05:30 AM, Wednesday, 30 June 2021</td>
 </tr>
 
 <tr class="feedsrow">
 <td><a href="https://www.annualreviews.org/loi/physiol?ai=sp&amp;mi=3fndc3&amp;af=R">Annual Reviews: Annual Review of Physiology: Table of Contents</a></td>
 <td><a class="xmlbutton" href="http://www.annualreviews.org/action/showFeed?ui=45mu4&amp;mi=3fndc3&amp;ai=sp&amp;jc=physiol&amp;type=etoc&amp;feed=rss">XML</a></td>
-<td>06:18 PM, Tuesday, 29 June 2021</td>
-<td>09:18 PM, Tuesday, 29 June 2021</td>
+<td>02:30 AM, Wednesday, 30 June 2021</td>
+<td>05:30 AM, Wednesday, 30 June 2021</td>
 </tr>
 
 <tr class="feedsrow">
 <td><a href="https://www.annualreviews.org/loi/polisci?af=R">Annual Reviews: Annual Review of Political Science: Table of Contents</a></td>
 <td><a class="xmlbutton" href="http://www.annualreviews.org/action/showFeed?jc=polisci&amp;type=etoc&amp;feed=rss">XML</a></td>
-<td>06:18 PM, Tuesday, 29 June 2021</td>
-<td>09:18 PM, Tuesday, 29 June 2021</td>
+<td>02:30 AM, Wednesday, 30 June 2021</td>
+<td>05:30 AM, Wednesday, 30 June 2021</td>
 </tr>
 
 <tr class="feedsrow">
 <td><a href="https://www.annualreviews.org/loi/soc?ai=t0&amp;mi=3fndc3&amp;af=R">Annual Reviews: Annual Review of Sociology: Table of Contents</a></td>
 <td><a class="xmlbutton" href="http://www.annualreviews.org/action/showFeed?ui=45mu4&amp;mi=3fndc3&amp;ai=t0&amp;jc=soc&amp;type=etoc&amp;feed=rss">XML</a></td>
-<td>06:18 PM, Tuesday, 29 June 2021</td>
-<td>09:18 PM, Tuesday, 29 June 2021</td>
+<td>02:30 AM, Wednesday, 30 June 2021</td>
+<td>05:30 AM, Wednesday, 30 June 2021</td>
 </tr>
 
 <tr class="feedsrow">
 <td><a href="http://arxiv.org/">cs.CR updates on arXiv.org</a></td>
 <td><a class="xmlbutton" href="http://export.arxiv.org/rss/cs.CR">XML</a></td>
-<td>06:18 PM, Tuesday, 29 June 2021</td>
-<td>09:18 PM, Tuesday, 29 June 2021</td>
+<td>02:30 AM, Wednesday, 30 June 2021</td>
+<td>05:30 AM, Wednesday, 30 June 2021</td>
 </tr>
 
 <tr class="feedsrow">
 <td><a href="http://www.pnas.org">Early Edition</a></td>
 <td><a class="xmlbutton" href="http://feeds.feedburner.com/Pnas-RssFeedOfEarlyEditionArticles?format=xml">XML</a></td>
-<td>06:18 PM, Tuesday, 29 June 2021</td>
-<td>09:18 PM, Tuesday, 29 June 2021</td>
+<td>02:30 AM, Wednesday, 30 June 2021</td>
+<td>05:30 AM, Wednesday, 30 June 2021</td>
 </tr>
 
 <tr class="feedsrow">
 <td><a href="http://www.eurekalert.org">EurekAlert! - Breaking News</a></td>
 <td><a class="xmlbutton" href="https://www.eurekalert.org/rss.xml">XML</a></td>
-<td>06:18 PM, Tuesday, 29 June 2021</td>
-<td>09:18 PM, Tuesday, 29 June 2021</td>
+<td>02:30 AM, Wednesday, 30 June 2021</td>
+<td>05:30 AM, Wednesday, 30 June 2021</td>
 </tr>
 
 <tr class="feedsrow">
 <td><a href="https://www.cambridge.org/core/journals/european-political-science-review/latest-issue">European Political Science Review</a></td>
 <td><a class="xmlbutton" href="https://www.cambridge.org/core/rss/product/id/3DB89DF6A9878CE661D3CE5FC6E9D6BC">XML</a></td>
-<td>06:18 PM, Tuesday, 29 June 2021</td>
-<td>09:18 PM, Tuesday, 29 June 2021</td>
+<td>02:30 AM, Wednesday, 30 June 2021</td>
+<td>05:30 AM, Wednesday, 30 June 2021</td>
 </tr>
 
 <tr class="feedsrow">
 <td><a href="http://ieeexplore.ieee.org">IEEE Transactions on Image Processing - new TOC</a></td>
 <td><a class="xmlbutton" href="https://ieeexplore.ieee.org/rss/TOC83.XML">XML</a></td>
-<td>06:18 PM, Tuesday, 29 June 2021</td>
-<td>09:18 PM, Tuesday, 29 June 2021</td>
+<td>02:30 AM, Wednesday, 30 June 2021</td>
+<td>05:30 AM, Wednesday, 30 June 2021</td>
 </tr>
 
 <tr class="feedsrow">
 <td><a href="http://ieeexplore.ieee.org">IEEE Transactions on Industrial Electronics - new TOC</a></td>
 <td><a class="xmlbutton" href="https://ieeexplore.ieee.org/rss/TOC41.XML">XML</a></td>
-<td>06:18 PM, Tuesday, 29 June 2021</td>
-<td>09:18 PM, Tuesday, 29 June 2021</td>
+<td>02:30 AM, Wednesday, 30 June 2021</td>
+<td>05:30 AM, Wednesday, 30 June 2021</td>
 </tr>
 
 <tr class="feedsrow">
 <td><a href="http://ieeexplore.ieee.org">IEEE Transactions on Industrial Informatics - new TOC</a></td>
 <td><a class="xmlbutton" href="https://ieeexplore.ieee.org/rss/TOC9424.XML">XML</a></td>
-<td>06:18 PM, Tuesday, 29 June 2021</td>
-<td>09:18 PM, Tuesday, 29 June 2021</td>
+<td>02:30 AM, Wednesday, 30 June 2021</td>
+<td>05:30 AM, Wednesday, 30 June 2021</td>
 </tr>
 
 <tr class="feedsrow">
 <td><a href="http://ieeexplore.ieee.org">IEEE Transactions on Information Forensics and Security - new TOC</a></td>
 <td><a class="xmlbutton" href="https://ieeexplore.ieee.org/rss/TOC10206.XML">XML</a></td>
-<td>06:18 PM, Tuesday, 29 June 2021</td>
-<td>09:18 PM, Tuesday, 29 June 2021</td>
+<td>02:30 AM, Wednesday, 30 June 2021</td>
+<td>05:30 AM, Wednesday, 30 June 2021</td>
 </tr>
 
 <tr class="feedsrow">
 <td><a href="http://journals.humankinetics.com/view/journals/ijspp/ijspp-overview.xml">International Journal of Sports Physiology and Performance</a></td>
 <td><a class="xmlbutton" href="https://journals.humankinetics.com/journalissuetocrss/journals/ijspp/ijspp-overview.xml">XML</a></td>
-<td>06:18 PM, Tuesday, 29 June 2021</td>
-<td>09:18 PM, Tuesday, 29 June 2021</td>
+<td>02:30 AM, Wednesday, 30 June 2021</td>
+<td>05:30 AM, Wednesday, 30 June 2021</td>
 </tr>
 
 <tr class="feedsrow">
 <td><a href="https://jamanetwork.com/journals/jama">JAMA Current Issue</a></td>
 <td><a class="xmlbutton" href="https://jamanetwork.com/rss/site_3/67.xml">XML</a></td>
-<td>06:18 PM, Tuesday, 29 June 2021</td>
-<td>09:18 PM, Tuesday, 29 June 2021</td>
+<td>02:30 AM, Wednesday, 30 June 2021</td>
+<td>05:30 AM, Wednesday, 30 June 2021</td>
 </tr>
 
 <tr class="feedsrow">
 <td><a href="https://www.bmj.com/research/feed">Latest BMJ Research</a></td>
 <td><a class="xmlbutton" href="http://feeds.bmj.com/bmj/research?format=xml">XML</a></td>
-<td>06:18 PM, Tuesday, 29 June 2021</td>
-<td>09:18 PM, Tuesday, 29 June 2021</td>
+<td>02:30 AM, Wednesday, 30 June 2021</td>
+<td>05:30 AM, Wednesday, 30 June 2021</td>
 </tr>
 
 <tr class="feedsrow">
 <td><a href="http://feeds.nature.com/nature/rss/current">Nature - Issue - nature.com science feeds</a></td>
 <td><a class="xmlbutton" href="http://feeds.nature.com/nature/rss/current?format=xml">XML</a></td>
-<td>06:18 PM, Tuesday, 29 June 2021</td>
-<td>09:18 PM, Tuesday, 29 June 2021</td>
+<td>02:30 AM, Wednesday, 30 June 2021</td>
+<td>05:30 AM, Wednesday, 30 June 2021</td>
 </tr>
 
 <tr class="feedsrow">
 <td><a href="https://www.thelancet.com/journals/lancet/issue/current">The Lancet</a></td>
 <td><a class="xmlbutton" href="http://www.thelancet.com/rssfeed/lancet_current.xml">XML</a></td>
-<td>06:18 PM, Tuesday, 29 June 2021</td>
-<td>09:18 PM, Tuesday, 29 June 2021</td>
+<td>02:30 AM, Wednesday, 30 June 2021</td>
+<td>05:30 AM, Wednesday, 30 June 2021</td>
 </tr>
 
 </table>
