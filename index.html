@@ -16,6 +16,18 @@
 <h2>Monday, 20 June 2022</h2>
 <div class="time">
 <h3>03:14 AM</h3>
+<div class="item feed-1b28272e feed-cscrupdatesonarxivorg" id="item-8bfdb448">
+<p class="itemheader">
+<span class="itemtitle"><a href="http://arxiv.org/abs/2206.08401">Are decentralized finance really decentralized? A social network analysis of the Aave protocol on the Ethereum blockchain. (arXiv:2206.08401v1 [econ.GN])</a></span>
+<span class="itemfrom">[<a href="http://arxiv.org/">cs.CR updates on arXiv.org</a>]</span>
+</p>
+<div class="itemdescription">
+<p>
+      Decentralized finance (DeFi) has the potential to disrupt centralized finance by validating peer-to-peer transactions through tamper-proof smart contracts and thus significantly lower the transaction cost charged by financial intermediaries. However, the actual realization of peer-to-peer transactions and the levels and effect of decentralization are largely unknown. Our research pioneers a blockchain network study that applies social network analysis to measure the level, dynamics, and impacts of decentralization in DeFi token transactions on Ethereum blockchain. First, we find a significant core-periphery structure in the AAVE token transaction network where the cores include the two largest centralized crypto exchanges. Second, we provide evidence that multiple network features consistently characterize decentralization dynamics. Finally, we document that a more decentralized network significantly predicts a higher return and lower volatilities of the DeFi tokens. We point out that our approach is seminal for inspiring future extensions related to the facets of application scenarios, research questions, and methodologies on the mechanics of blockchain decentralization.
+    </p>
+</div>
+</div>
+
 <div class="item feed-1b28272e feed-cscrupdatesonarxivorg" id="item-e1dfab55">
 <p class="itemheader">
 <span class="itemtitle"><a href="http://arxiv.org/abs/2206.08451">I Know What You Trained Last Summer: A Survey on Stealing Machine Learning Models and Defences. (arXiv:2206.08451v1 [cs.LG])</a></span>
@@ -40,26 +52,14 @@
 </div>
 </div>
 
-<div class="item feed-1b28272e feed-cscrupdatesonarxivorg" id="item-858b5820">
+<div class="item feed-1b28272e feed-cscrupdatesonarxivorg" id="item-76c77fd3">
 <p class="itemheader">
-<span class="itemtitle"><a href="http://arxiv.org/abs/2206.08722">WaTZ: A Trusted WebAssembly Runtime Environment with Remote Attestation for TrustZone. (arXiv:2206.08722v1 [cs.CR])</a></span>
+<span class="itemtitle"><a href="http://arxiv.org/abs/2202.03077">Adversarial Attack and Defense for Non-Parametric Two-Sample Tests. (arXiv:2202.03077v2 [cs.LG] UPDATED)</a></span>
 <span class="itemfrom">[<a href="http://arxiv.org/">cs.CR updates on arXiv.org</a>]</span>
 </p>
 <div class="itemdescription">
 <p>
-      WebAssembly (Wasm) is a novel low-level bytecode format that swiftly gained popularity for its efficiency, versatility and security, with near-native performance. Besides, trusted execution environments (TEEs) shield critical software assets against compromised infrastructures. However, TEEs do not guarantee the code to be trustworthy or that it was not tampered with. Instead, one relies on remote attestation to assess the code before execution. This paper describes WaTZ, which is (i) an efficient and secure runtime for trusted execution of Wasm code for Arm's TrustZone TEE, and (ii) a lightweight remote attestation system optimised for Wasm applications running in TrustZone, as it lacks built-in mechanisms for attestation. The remote attestation protocol is formally verified using a state-of-the-art analyser and model checker. Our extensive evaluation of Arm-based hardware uses synthetic and real-world benchmarks, illustrating typical tasks IoT devices achieve. WaTZ's execution speed is on par with Wasm runtimes in the normal world and reaches roughly half the speed of native execution, which is compensated by the additional security guarantees and the interoperability offered by Wasm. WaTZ is open-source and available on GitHub along with instructions to reproduce our experiments.
-    </p>
-</div>
-</div>
-
-<div class="item feed-1b28272e feed-cscrupdatesonarxivorg" id="item-e210d539">
-<p class="itemheader">
-<span class="itemtitle"><a href="http://arxiv.org/abs/2110.01229">3LegRace: Privacy-Preserving DNN Training over TEEs and GPUs. (arXiv:2110.01229v2 [cs.CR] UPDATED)</a></span>
-<span class="itemfrom">[<a href="http://arxiv.org/">cs.CR updates on arXiv.org</a>]</span>
-</p>
-<div class="itemdescription">
-<p>
-      Leveraging parallel hardware (e.g. GPUs) for deep neural network (DNN) training brings high computing performance. However, it raises data privacy concerns as GPUs lack a trusted environment to protect the data. Trusted execution environments (TEEs) have emerged as a promising solution to achieve privacy-preserving learning. Unfortunately, TEEs' limited computing power renders them not comparable to GPUs in performance. To improve the trade-off among privacy, computing performance, and model accuracy, we propose an \emph{asymmetric} model decomposition framework, \AsymML{}, to (1) accelerate training using parallel hardware; and (2) achieve a strong privacy guarantee using TEEs and differential privacy (DP) with much less accuracy compromised compared to DP-only methods. By exploiting the low-rank characteristics in training data and intermediate features, \AsymML{} asymmetrically decomposes inputs and intermediate activations into low-rank and residual parts. With the decomposed data, the target DNN model is accordingly split into a \emph{trusted} and an \emph{untrusted} part. The trusted part performs computations on low-rank data, with low compute and memory costs. The untrusted part is fed with residuals perturbed by very small noise. Privacy, computing performance, and model accuracy are well managed by respectively delegating the trusted and the untrusted part to TEEs and GPUs. We provide a formal DP guarantee that demonstrates that, for the same privacy guarantee, combining asymmetric data decomposition and DP requires much smaller noise compared to solely using DP without decomposition. This improves the privacy-utility trade-off significantly compared to using only DP methods without decomposition. Furthermore, we present a rank bound analysis showing that the low-rank structure is preserved after each layer across the entire model.
+      Non-parametric two-sample tests (TSTs) that judge whether two sets of samples are drawn from the same distribution, have been widely used in the analysis of critical data. People tend to employ TSTs as trusted basic tools and rarely have any doubt about their reliability. This paper systematically uncovers the failure mode of non-parametric TSTs through adversarial attacks and then proposes corresponding defense strategies. First, we theoretically show that an adversary can upper-bound the distributional shift which guarantees the attack's invisibility. Furthermore, we theoretically find that the adversary can also degrade the lower bound of a TST's test power, which enables us to iteratively minimize the test criterion in order to search for adversarial pairs. To enable TST-agnostic attacks, we propose an ensemble attack (EA) framework that jointly minimizes the different types of test criteria. Second, to robustify TSTs, we propose a max-min optimization that iteratively generates adversarial pairs to train the deep kernels. Extensive experiments on both simulated and real-world datasets validate the adversarial vulnerabilities of non-parametric TSTs and the effectiveness of our proposed defense. Source code is available at https://github.com/GodXuxilie/Robust-TST.git.
     </p>
 </div>
 </div>
@@ -96,27 +96,42 @@
 <div class="day">
 <h2>Friday, 17 June 2022</h2>
 <div class="time">
-<h3>03:22 AM</h3>
-<div class="item feed-fab735fe feed-thelancet" id="item-0c1b10ed">
+<h3>10:16 AM</h3>
+<div class="item feed-53ba08d1 feed-natureissuenaturecomsciencefeeds" id="item-4304f2a1">
 <p class="itemheader">
-<span class="itemtitle"><a href="https://www.thelancet.com/journals/lancet/article/PIIS0140-6736(22)00777-2/fulltext?rss=yes">[Comment] Opioid-free analgesia after surgery</a></span>
+<span class="itemtitle"><a href="https://www.nature.com/articles/s41586-022-04980-y">BA.2.12.1, BA.4 and BA.5 escape antibodies elicited by Omicron infection</a></span>
+<span class="itemfrom">[<a href="http://feeds.nature.com/nature/rss/current">Nature - Issue - nature.com science feeds</a>]</span>
+</p>
+<div class="itemdescription">
+<p>
+      Nature, Published online: 17 June 2022; <a href="https://www.nature.com/articles/s41586-022-04980-y">doi:10.1038/s41586-022-04980-y</a>
+    </p>BA.2.12.1, BA.4 and BA.5 escape antibodies elicited by Omicron infection
+</div>
+</div>
+
+</div>
+<div class="time">
+<h3>03:22 AM</h3>
+<div class="item feed-fab735fe feed-thelancet" id="item-1bc32a6e">
+<p class="itemheader">
+<span class="itemtitle"><a href="https://www.thelancet.com/journals/lancet/article/PIIS0140-6736(22)00790-5/fulltext?rss=yes">[Comment] Second-line CAR T cells for lymphomas</a></span>
 <span class="itemfrom">[<a href="https://www.thelancet.com/journals/lancet/issue/current">The Lancet</a>]</span>
 </p>
 <div class="itemdescription">
 <p>
-      Acute pain is near universal after surgery. Opioids have been a mainstay of postoperative analgesia, but current best practice emphasises a multimodal opioid-sparing regimen based on a background of paracetamol, a non-steroidal anti-inflammatory drug, or both.1 Opioids are frequently overused, particularly after hospital discharge.1&#8211;3
+      Anti-CD19 chimeric antigen receptor (CAR) T cells have shown huge therapeutical potential in the treatment of aggressive B-cell lymphomas beyond second-line of therapy.1&#8211;3 But the use of such therapies as a second-line of therapy is a current matter of debate. At the 2021 American Society of Hematology meeting, results of the three randomised clinical trials addressing this question were presented. The ZUMA7,4 BELINDA,5 and the TRANSFORM6 trials included only patients with aggressive B-cell lymphomas with primary refractory disease or with relapse within 12 months of completion of first-line therapy.
     </p>
 </div>
 </div>
 
-<div class="item feed-fab735fe feed-thelancet" id="item-fd3e857f">
+<div class="item feed-fab735fe feed-thelancet" id="item-1c9e78da">
 <p class="itemheader">
-<span class="itemtitle"><a href="https://www.thelancet.com/journals/lancet/article/PIIS0140-6736(22)00952-7/fulltext?rss=yes">[Comment] Menopause care and over the counter vaginal oestradiol</a></span>
+<span class="itemtitle"><a href="https://www.thelancet.com/journals/lancet/article/PIIS0140-6736(22)01096-0/fulltext?rss=yes">[World Report] Investigating monkeypox</a></span>
 <span class="itemfrom">[<a href="https://www.thelancet.com/journals/lancet/issue/current">The Lancet</a>]</span>
 </p>
 <div class="itemdescription">
 <p>
-      Menopause care is receiving more attention than ever before in the UK and has been highlighted as a priority area in the upcoming Women's Health Strategy for England and through the work of the UK Menopause Taskforce.1 These efforts bring an opportunity to increase access to menopause support, information, and treatment, which for many years has been hampered by a legacy of fear of hormone replacement therapy (HRT) after the publication of the Women's Health Initiative study in 2002.2 This study reported increased health risks associated with HRT and was accompanied by widespread negative media coverage, followed by a decrease in HRT use worldwide.
+      Monkeypox was discovered in 1958, but scientists are now looking for answers to new questions raised by its continued global spread. Talha Burki reports.
     </p>
 </div>
 </div>
@@ -133,18 +148,6 @@
 </div>
 </div>
 
-<div class="item feed-fab735fe feed-thelancet" id="item-514d9b01">
-<p class="itemheader">
-<span class="itemtitle"><a href="https://www.thelancet.com/journals/lancet/article/PIIS0140-6736(22)00951-5/fulltext?rss=yes">[Correspondence] Gender equality and climate action: lessons from evidence on SRHR</a></span>
-<span class="itemfrom">[<a href="https://www.thelancet.com/journals/lancet/issue/current">The Lancet</a>]</span>
-</p>
-<div class="itemdescription">
-<p>
-      Following the successful Lancet webinar on gender and sustainability, the Lancet Editorial1 on planetary health serves as an important reminder of how essential it is to address gender inequalities for ensuring a healthy planet. In addition to areas for action that the webinar and subsequent Editorial have highlighted, there is an urgent need to identify and exchange evidence-based transferable lessons across sectors.
-    </p>
-</div>
-</div>
-
 <div class="item feed-fab735fe feed-thelancet" id="item-a2681372">
 <p class="itemheader">
 <span class="itemtitle"><a href="https://www.thelancet.com/journals/lancet/article/PIIS0140-6736(22)00950-3/fulltext?rss=yes">[Correspondence] Where are the children and adolescents?</a></span>
@@ -153,6 +156,18 @@
 <div class="itemdescription">
 <p>
       Despite publishing a key WHO&#8211;UNICEF&#8211;Lancet Commission1 that made the case for putting children and adolescents at the centre of our thinking, an Editorial commemorating World Health Day 2022 did not mention children or adolescents.2
+    </p>
+</div>
+</div>
+
+<div class="item feed-fab735fe feed-thelancet" id="item-49524e74">
+<p class="itemheader">
+<span class="itemtitle"><a href="https://www.thelancet.com/journals/lancet/article/PIIS0140-6736(22)00949-7/fulltext?rss=yes">[Correspondence] Supporting cancer survivors in LMICs</a></span>
+<span class="itemfrom">[<a href="https://www.thelancet.com/journals/lancet/issue/current">The Lancet</a>]</span>
+</p>
+<div class="itemdescription">
+<p>
+      The Editors discuss unmet needs of the growing population of cancer survivors.1 Cancer survival rates in many low-income and middle-income countries (LMICs) have seen a rise in the past two decades.2 Amid the increasing number of people surviving cancer, cancer control efforts in these settings are nonetheless largely focused on improving early detection and access to cancer treatment, with very little emphasis on provision of structured supportive care and survivorship care.
     </p>
 </div>
 </div>
@@ -169,14 +184,14 @@
 </div>
 </div>
 
-<div class="item feed-ccdce26d feed-ieeetransactionsonindustrialinformaticsnewtoc" id="item-177e639c">
+<div class="item feed-ccdce26d feed-ieeetransactionsonindustrialinformaticsnewtoc" id="item-0665bb27">
 <p class="itemheader">
-<span class="itemtitle"><a href="http://ieeexplore.ieee.org/document/9633019">Detection of Malicious Attacks in Autonomous Cyber-Physical Inverter-Based Microgrids</a></span>
+<span class="itemtitle"><a href="http://ieeexplore.ieee.org/document/9650739">Hypergraphical Real-Time Multirobot Task Allocation in a Smart Factory</a></span>
 <span class="itemfrom">[<a href="http://ieeexplore.ieee.org">IEEE Transactions on Industrial Informatics - new TOC</a>]</span>
 </p>
 <div class="itemdescription">
 <p>
-      The distributed generation capabilities of microgrids (MGs) arise as essential assets in enhancing grid resilience. The integration of distributed energy sources, controllable loads, and prosumers necessitates the deployment of potent control and communication synergies. While those synergies transform MGs into cyber-physical systems through information technologies able to sense, control, and actuate local resources and loads, they inadvertently expose MGs to cyber-attack threats. Increasing the security of critical communication and control systems against &#8220;black swan&#8221; events, i.e., high-impact low-probability cyber-physical incidents, is a major priority for MG operations. Such incidents, if left unabated, can intensify and elicit system dynamics instability, eventually causing outages and system failures. In this article, we develop an integrated approach for multiagent MG systems able to perform the detection of malicious cyber-physical attacks based on subspace methods. We employ the small-signal model of an autonomous/islanded MG and consider different attack models targeting the MG&#8217;s secondary frequency control. The attack detector is constructed via identifying the stable kernel representation of the autonomous cyber-physical MG in the attack-free case. We illustrate the impact of the attack models as well as the feasibility of the developed detection method in simulation models of the Canadian urban benchmark distribution system.
+      To facilitate Industry 4.0 and smart manufacturing, smart factories shall flexibly achieve mass manufacture of on-demand individualized products. Reconfigurable multirobot system (MRS)-driven smart factories as a representative paradigm fulfill the above requirements through dynamically adjusting production flows while optimizing productivity and energy efficiency. This article innovates real-time multirobot task allocation to coordinate a heterogeneous MRS so that frequent reconfiguration brought by dynamic production demands can be answered. The challenges brought by frequent production flow adjustment are analyzed and addressed by proposing a hypergraph MRS model and a hypergraph search algorithm. The hypergraph MRS model is tailored to characterize temporal&#8211;spatial features and heterogeneity of the MRS, task assignments of production robots, and transportation paths of transportation robots. The hypergraph search algorithm fulfills the production demands, dual-objective dual-agent optimization of productivity and energy efficiency, and constant time complexity for real-time coordination. Computational experiments show that the proposed approach delivers effective task assignments of optimized MRS productivity and energy efficiency with robust performance.
     </p>
 </div>
 </div>
@@ -249,6 +264,18 @@
 
 </div>
 
+<div class="item feed-ed41d94f feed-jamacurrentissue" id="item-81cba568">
+<p class="itemheader">
+<span class="itemtitle"><a href="https://jamanetwork.com/journals/jama/fullarticle/2793266">NIH Funding of Violence Research by Institute, 2011 to 2020</a></span>
+<span class="itemfrom">[<a href="https://jamanetwork.com/journals/jama">JAMA Current Issue</a>]</span>
+</p>
+<div class="itemdescription">
+<p>
+      This study examines trends in violence research funding within and across National Institutes of Health (NIH) institutes/centers from 2011 to 2020.
+    </p>
+</div>
+</div>
+
 <div class="item feed-ed41d94f feed-jamacurrentissue" id="item-67ce2cf1">
 <p class="itemheader">
 <span class="itemtitle"><a href="https://jamanetwork.com/journals/jama/fullarticle/2793249">Listen to your Patient&#8230;Listen to the Heart</a></span>
@@ -261,28 +288,12 @@
 </div>
 </div>
 
-<div class="item feed-ed41d94f feed-jamacurrentissue" id="item-2136040a">
+<div class="item feed-ed41d94f feed-jamacurrentissue" id="item-05ce0b23">
 <p class="itemheader">
-<span class="itemtitle"><a href="https://jamanetwork.com/journals/jama/fullarticle/2792526">Protecting Children Against Omicron</a></span>
+<span class="itemtitle"><a href="https://jamanetwork.com/journals/jama/fullarticle/2793247">JAMA</a></span>
 <span class="itemfrom">[<a href="https://jamanetwork.com/journals/jama">JAMA Current Issue</a>]</span>
 </p>
-<div class="itemdescription">
-<p>
-      Prior to emergence of the Omicron SARS-CoV-2 variant, and at the time of the issuance of the Emergency Use Authorization (EUA) for the BNT162b2 (Pfizer-BioNTech) COVID-19 vaccine, the efficacy of 2 doses of the 30-&#181;g vaccine in adolescents 12 to 15 years of age and of the 10-&#181;g dose in children 5 to 11 years of age were 100% (95% CI, 75.3%-100%) and 90.7% (95% CI, 67.7%-98.3%), respectively. However, 2 studies published in this issue of JAMA demonstrate that the estimated vaccine effectiveness among children and adolescents with Omicron is considerably lower than in the initial studies, and protection wanes rapidly, especially with the novel SARS-CoV-2 variants.
-    </p>
-</div>
-</div>
 
-<div class="item feed-ed41d94f feed-jamacurrentissue" id="item-f663af3a">
-<p class="itemheader">
-<span class="itemtitle"><a href="https://jamanetwork.com/journals/jama/fullarticle/2792525">Risk of Infection and Hospitalization Among Vaccinated and Unvaccinated Children After the Emergence of Omicron</a></span>
-<span class="itemfrom">[<a href="https://jamanetwork.com/journals/jama">JAMA Current Issue</a>]</span>
-</p>
-<div class="itemdescription">
-<p>
-      This database study examines vaccination for COVID-19 among children in New York after the emergence of the Omicron variant, including analysis of case rates and hospitalizations for COVID-19 disease.
-    </p>
-</div>
 </div>
 
 <div class="item feed-ed41d94f feed-jamacurrentissue" id="item-40a44a75">
@@ -336,18 +347,6 @@
 <h2>Saturday, 11 June 2022</h2>
 <div class="time">
 <h3>03:16 AM</h3>
-<div class="item feed-53ba08d1 feed-natureissuenaturecomsciencefeeds" id="item-6d074c9d">
-<p class="itemheader">
-<span class="itemtitle"><a href="https://www.nature.com/articles/d41586-022-01573-7">Mental mapping, and the tragedy of water access: Books in brief</a></span>
-<span class="itemfrom">[<a href="http://feeds.nature.com/nature/rss/current">Nature - Issue - nature.com science feeds</a>]</span>
-</p>
-<div class="itemdescription">
-<p>
-      Nature, Published online: 10 June 2022; <a href="https://www.nature.com/articles/d41586-022-01573-7">doi:10.1038/d41586-022-01573-7</a>
-    </p>Andrew Robinson reviews five of the week&#8217;s best science picks.
-</div>
-</div>
-
 <div class="item feed-53ba08d1 feed-natureissuenaturecomsciencefeeds" id="item-9009c91f">
 <p class="itemheader">
 <span class="itemtitle"><a href="https://www.nature.com/articles/d41586-022-01645-8">Daily briefing: App turns research ethics into a game</a></span>
@@ -432,20 +431,6 @@
 <h2>Friday, 27 May 2022</h2>
 <div class="time">
 <h3>10:19 AM</h3>
-<div class="item feed-f57a289c feed-europeanpoliticalsciencereview" id="item-ab4f8947">
-<p class="itemheader">
-<span class="itemtitle"><a href="https://dx.doi.org/10.1017/S175577392200008X?rft_dat=source%3Ddrss">Social influence and political participation around the world</a></span>
-<span class="itemfrom">[<a href="https://www.cambridge.org/core/journals/european-political-science-review/latest-issue">European Political Science Review</a>]</span>
-</p>
-<div class="itemdescription">
-<div class="abstract">
-      <p>
-        Social influence among people is widely understood to be a universal component of the human experience. However, studies of political behavior have generally approached social influence as specific to a type of behavior, such as voting, in a particular national context. There are good reasons to expect that social influence is observable across diverse behaviors and national contexts. In this study, we test this expectation using a two-wave panel survey of national samples in 19 countries. We employ autoregressive models that address some of the endogeneity challenges associated with attempts to measure social influence with survey designs. Our measure of social influence is predictive of diverse political behaviors in many countries with average effects comparable in size to important standard predictors of behavior.
-      </p>
-    </div>
-</div>
-</div>
-
 <div class="item feed-f57a289c feed-europeanpoliticalsciencereview" id="item-d2155bbb">
 <p class="itemheader">
 <span class="itemtitle"><a href="https://dx.doi.org/10.1017/S1755773922000078?rft_dat=source%3Ddrss">Perceived risk crowds out trust? Trust and public compliance with coronavirus restrictions over the course of the pandemic</a></span>
@@ -474,20 +459,6 @@
 </div>
 </div>
 
-<div class="item feed-f57a289c feed-europeanpoliticalsciencereview" id="item-aaee42fe">
-<p class="itemheader">
-<span class="itemtitle"><a href="https://dx.doi.org/10.1017/S1755773922000029?rft_dat=source%3Ddrss">Non-citizen voting rights and political participation of citizens: evidence from Switzerland</a></span>
-<span class="itemfrom">[<a href="https://www.cambridge.org/core/journals/european-political-science-review/latest-issue">European Political Science Review</a>]</span>
-</p>
-<div class="itemdescription">
-<div class="abstract">
-      <p>
-        Can non-citizen enfranchisement policies reduce the turnout gap between citizens with an immigration background and native citizen voters? While increasingly common in practice, there are only a handful of studies on the political consequences of non-citizen enfranchisement on voter mobilisation. Here, we examine the impact of non-citizen voting (NCV) rights on the political participation of citizens with and without an immigration background. Focusing on Switzerland, we use high-quality household panel data (SHP) from 1999 to 2014, leveraging both longitudinal and municipal level variation of enfranchisement laws when identifying their effect on turnout. We show that NCV rights boost political participation overall, and it particularly enhances turnout among citizens with an immigration background. Our analysis adds to existing theoretical explanations and empirical debates on representation and political participation in diverse democratic societies with large immigrant populations.
-      </p>
-    </div>
-</div>
-</div>
-
 <div class="item feed-f57a289c feed-europeanpoliticalsciencereview" id="item-85dd5d7c">
 <p class="itemheader">
 <span class="itemtitle"><a href="https://dx.doi.org/10.1017/S1755773921000333?rft_dat=source%3Ddrss">Incentives and constraints: a configurational account of European involvement in the anti-Daesh coalition</a></span>
@@ -500,6 +471,28 @@
       </p>
     </div>
 </div>
+</div>
+
+<div class="item feed-f57a289c feed-europeanpoliticalsciencereview" id="item-5ccb58c4">
+<p class="itemheader">
+<span class="itemtitle"><a href="https://dx.doi.org/10.1017/S1755773922000054?rft_dat=source%3Ddrss">Exploring the domestic and international drivers of professionalization of Central and Eastern European interest groups</a></span>
+<span class="itemfrom">[<a href="https://www.cambridge.org/core/journals/european-political-science-review/latest-issue">European Political Science Review</a>]</span>
+</p>
+<div class="itemdescription">
+<div class="abstract">
+      <p>
+        While there has been a veritable boom in literature on organized interests, their lobbying strategies, relationships with decision-makers, and their impact on policymaking, only a few studies have explored internal organizational developments and, specifically, the professionalization of interest groups. The present study focuses on the national and transnational factors driving the professionalization of interest groups in Central and Eastern Europe, a region previously neglected in much of the interest group literature. Based on a sample of more than 400 surveyed organizations operating in Poland, the Czech Republic, Hungary, and Slovenia in the healthcare, higher education, and energy sectors, we explore three bundles of factors potentially enhancing the professionalization of interest groups &#8211; organizational funding sources, national and transnational intergroup cooperation and organizations&#8217; standing in the domestic interest group system. Our statistical analyses show that state subsidies and tight policy coordination with the state are crucial drivers of internal organizational professionalization, suggesting rather patronistic and symbiotic relationships between the state and certain organizations. However, our data also support the notion that interorganizational collaboration, both at the national and international levels, may also be key to organizational professionalization, enabling groups that lack close ties with the state to compensate their disadvantage with intensive domestic and international networking. The study is also among the first to link increasing professionalization with organizational population density.
+      </p>
+    </div>
+</div>
+</div>
+
+<div class="item feed-f57a289c feed-europeanpoliticalsciencereview" id="item-dc7bae42">
+<p class="itemheader">
+<span class="itemtitle"><a href="https://dx.doi.org/10.1017/S1755773922000170?rft_dat=source%3Ddrss">EPR volume 14 issue 2 Cover and Front matter</a></span>
+<span class="itemfrom">[<a href="https://www.cambridge.org/core/journals/european-political-science-review/latest-issue">European Political Science Review</a>]</span>
+</p>
+
 </div>
 
 </div>
@@ -538,6 +531,21 @@
 </div>
 </div>
 
+<div class="item feed-d4080559 feed-internationaljournalofsportsphysiologyandperformance" id="item-3da751b3">
+<p class="itemheader">
+<span class="itemtitle"><a href="https://journals.humankinetics.com/view/journals/ijspp/17/6/article-p901.xml">Specific Game-Based Performance in Elite Male Adolescent Team Handball Players</a></span>
+<span class="itemfrom">[<a href="https://journals.humankinetics.com/view/journals/ijspp/ijspp-overview.xml">International Journal of Sports Physiology and Performance</a>]</span>
+</p>
+<div class="itemdescription">
+<p>
+      Journal Name: International Journal of Sports Physiology and Performance<br>
+      Volume: 17<br>
+      Issue: 6<br>
+      Pages: 901-907
+    </p>
+</div>
+</div>
+
 <div class="item feed-d4080559 feed-internationaljournalofsportsphysiologyandperformance" id="item-60660061">
 <p class="itemheader">
 <span class="itemtitle"><a href="https://journals.humankinetics.com/view/journals/ijspp/17/6/article-p926.xml">The Record Power Profile of Male Professional Cyclists: Fatigue Matters</a></span>
@@ -549,21 +557,6 @@
       Volume: 17<br>
       Issue: 6<br>
       Pages: 926-931
-    </p>
-</div>
-</div>
-
-<div class="item feed-d4080559 feed-internationaljournalofsportsphysiologyandperformance" id="item-413e54eb">
-<p class="itemheader">
-<span class="itemtitle"><a href="https://journals.humankinetics.com/view/journals/ijspp/17/6/article-p951.xml">Effects of Long-Haul Travel and the Olympic Games on Heart-Rate Variability in Rugby Sevens Medalists</a></span>
-<span class="itemfrom">[<a href="https://journals.humankinetics.com/view/journals/ijspp/ijspp-overview.xml">International Journal of Sports Physiology and Performance</a>]</span>
-</p>
-<div class="itemdescription">
-<p>
-      Journal Name: International Journal of Sports Physiology and Performance<br>
-      Volume: 17<br>
-      Issue: 6<br>
-      Pages: 951-960
     </p>
 </div>
 </div>
@@ -685,20 +678,14 @@
 </div>
 </div>
 
-</div>
-</div>
-<div class="day">
-<h2>Friday, 25 March 2022</h2>
-<div class="time">
-<h3>02:43 AM</h3>
-<div class="item feed-c24550d7 feed-ieeetransactionsoninformationforensicsandsecuritynewtoc" id="item-eeb62467">
+<div class="item feed-c24550d7 feed-ieeetransactionsoninformationforensicsandsecuritynewtoc" id="item-cce946b9">
 <p class="itemheader">
-<span class="itemtitle"><a href="http://ieeexplore.ieee.org/document/9729109">Redactable Blockchain in Decentralized Setting</a></span>
+<span class="itemtitle"><a href="http://ieeexplore.ieee.org/document/9751106">Self-Secure Capacity-Achieving Feedback Schemes of Gaussian Multiple-Access Wiretap Channels With Degraded Message Sets</a></span>
 <span class="itemfrom">[<a href="http://ieeexplore.ieee.org">IEEE Transactions on Information Forensics and Security - new TOC</a>]</span>
 </p>
 <div class="itemdescription">
 <p>
-      Immutability has been widely accepted as a fundamental property protecting the security of blockchain technology. However, this property impedes the development of blockchain because of the abuse of blockchain storage and legal obligations. To mitigate this issue, a novel construction of blockchain, called redactable blockchain, was introduced. It enables a central authority to issue the rewriting privilege to a particular party who can rewrite a registered object, e.g., a block or a transaction, in a controlled way. Unfortunately, the central authority must be fully trusted and is an obvious target suffering from various attacks. In this paper, we introduce a redactable blockchain controlled at a fine-grained level in a decentralized setting. In our solution, the rewriting privilege is issued by multiple authorities for reducing the vulnerability of the centralized setting. To formalize our solution, we introduce a novel cryptographic notion, called decentralized policy-based chameleon hash (DPCH), with the formal definition and security model. By applying several simple cryptographic tools, such as chameleon hash, digital signature, and multi-authority attribute-based encryption, we present the generic construction of DPCH along with rigorous security proofs. By applying RSA-based chameleon hash and BLS short signature, we give a practical instantiation of DPCH with performance evaluation. The comprehensive evaluation shows that our solution has superior performance than the state-of-the-art solution.
+      It has been shown that the SK scheme, which was proposed by Schalkwijk and Kailath, is a self-secure capacity-achieving (SSCA) feedback scheme for the Gaussian wiretap channel, i.e., the SK scheme not only achieves the feedback capacity of the Gaussian channel, but also is secure by itself and achieves the feedback secrecy capacity of the Gaussian wiretap channel. For the multi-user wiretap channels, very recently, it has been shown that Ozarow&#8217;s capacity-achieving feedback scheme for the two-user Gaussian multiple-access channel (GMAC) is the SSCA feedback scheme for the two-user Gaussian multiple-access wiretap channel (GMAC-WT). In this paper, first, we propose a SSCA feedback scheme for the two-user GMAC-WT with degraded message sets (GMAC-WT-DMS). Next, we extend the above scheme to the two-user GMAC-WT-DMS with noncausal channel state information at the transmitters (NCSIT), and show that the extended scheme is also a SSCA feedback scheme. Finally, we derive outer bounds on the secrecy capacity regions of the two-user GMAC-WT-DMS with or without NCSIT, and numerical results show the rate gains by the feedback.
     </p>
 </div>
 </div>
@@ -847,14 +834,14 @@
 </div>
 </div>
 
-<div class="item feed-c99fafa0 feed-ieeetransactionsonimageprocessingnewtoc" id="item-afb711fb">
+<div class="item feed-c99fafa0 feed-ieeetransactionsonimageprocessingnewtoc" id="item-dd904317">
 <p class="itemheader">
-<span class="itemtitle"><a href="http://ieeexplore.ieee.org/document/9697977">Stretching Artifacts Identification for Quality Assessment of 3D-Synthesized Views</a></span>
+<span class="itemtitle"><a href="http://ieeexplore.ieee.org/document/9677918">Task-Oriented Convex Bilevel Optimization With Latent Feasibility</a></span>
 <span class="itemfrom">[<a href="http://ieeexplore.ieee.org">IEEE Transactions on Image Processing - new TOC</a>]</span>
 </p>
 <div class="itemdescription">
 <p>
-      Existing Quality Assessment (QA) algorithms consider identifying &#8220;black-holes&#8221; to assess perceptual quality of 3D-synthesized views. However, advancements in rendering and inpainting techniques have made black-hole artifacts near obsolete. Further, 3D-synthesized views frequently suffer from stretching artifacts due to occlusion that in turn affect perceptual quality. Existing QA algorithms are found to be inefficient in identifying these artifacts, as has been seen by their performance on the IETR dataset. We found, empirically, that there is a relationship between the number of blocks with stretching artifacts in view and the overall perceptual quality. Building on this observation, we propose a Convolutional Neural Network (CNN) based algorithm that identifies the blocks with stretching artifacts and incorporates the number of blocks with the stretching artifacts to predict the quality of 3D-synthesized views. To address the challenge with existing 3D-synthesized views dataset, which has few samples, we collect images from other related datasets to increase the sample size and increase generalization while training our proposed CNN-based algorithm. The proposed algorithm identifies blocks with stretching distortions and subsequently fuses them to predict perceptual quality without reference, achieving improvement in performance compared to existing no-reference QA algorithms that are not trained on the IETR dataset. The proposed algorithm can also identify the blocks with stretching artifacts efficiently, which can further be used in downstream applications to improve the quality of 3D views. Our source code is available online: https://github.com/sadbhawnathakur/3D-Image-Quality-Assessment.
+      This paper firstly proposes a convex bilevel optimization paradigm to formulate and optimize popular learning and vision problems in real-world scenarios. Different from conventional approaches, which directly design their iteration schemes based on given problem formulation, we introduce a task-oriented energy as our latent constraint which integrates richer task information. By explicitly re- characterizing the feasibility, we establish an efficient and flexible algorithmic framework to tackle convex models with both shrunken solution space and powerful auxiliary (based on domain knowledge and data distribution of the task). In theory, we present the convergence analysis of our latent feasibility re- characterization based numerical strategy. We also analyze the stability of the theoretical convergence under computational error perturbation. Extensive numerical experiments are conducted to verify our theoretical findings and evaluate the practical performance of our method on different applications.
     </p>
 </div>
 </div>
@@ -865,18 +852,6 @@
 <h2>Tuesday, 12 October 2021</h2>
 <div class="time">
 <h3>02:32 AM</h3>
-<div class="item feed-b2590d03 feed-annualreviewsannualreviewofnutritiontableofcontents" id="item-c5ba9347">
-<p class="itemheader">
-<span class="itemtitle"><a href="https://www.annualreviews.org/doi/abs/10.1146/annurev-nutr-082018-124228?ai=rz&amp;mi=3fndc3&amp;af=R">Vitamin A and Vitamin E: Will the Real Antioxidant Please Stand Up?</a></span>
-<span class="itemfrom">[<a href="https://www.annualreviews.org/loi/nutr?ai=rz&amp;mi=3fndc3&amp;af=R">Annual Reviews: Annual Review of Nutrition: Table of Contents</a>]</span>
-</p>
-<div class="itemdescription">
-<p>
-      Annual Review of Nutrition, <a href="https://www.annualreviews.org/toc/nutr/41/1">Volume 41, Issue 1</a>, Page 105-131, October 2021.<br>
-    </p>
-</div>
-</div>
-
 <div class="item feed-b2590d03 feed-annualreviewsannualreviewofnutritiontableofcontents" id="item-cab25f54">
 <p class="itemheader">
 <span class="itemtitle"><a href="https://www.annualreviews.org/doi/abs/10.1146/annurev-nutr-043020-011242?ai=rz&amp;mi=3fndc3&amp;af=R">Breastfeeding Beyond 12 Months: Is There Evidence for Health Impacts?</a></span>
@@ -885,6 +860,18 @@
 <div class="itemdescription">
 <p>
       Annual Review of Nutrition, <a href="https://www.annualreviews.org/toc/nutr/41/1">Volume 41, Issue 1</a>, Page 283-308, October 2021.<br>
+    </p>
+</div>
+</div>
+
+<div class="item feed-b2590d03 feed-annualreviewsannualreviewofnutritiontableofcontents" id="item-8d9207b5">
+<p class="itemheader">
+<span class="itemtitle"><a href="https://www.annualreviews.org/doi/abs/10.1146/annurev-nutr-120420-021719?ai=rz&amp;mi=3fndc3&amp;af=R">Sleep and Diet: Mounting Evidence of a Cyclical Relationship</a></span>
+<span class="itemfrom">[<a href="https://www.annualreviews.org/loi/nutr?ai=rz&amp;mi=3fndc3&amp;af=R">Annual Reviews: Annual Review of Nutrition: Table of Contents</a>]</span>
+</p>
+<div class="itemdescription">
+<p>
+      Annual Review of Nutrition, <a href="https://www.annualreviews.org/toc/nutr/41/1">Volume 41, Issue 1</a>, Page 309-332, October 2021.<br>
     </p>
 </div>
 </div>
@@ -961,26 +948,14 @@
 </div>
 </div>
 
-<div class="item feed-a4d49d75 feed-annualreviewsannualreviewofeconomicstableofcontents" id="item-636e2c80">
+<div class="item feed-a4d49d75 feed-annualreviewsannualreviewofeconomicstableofcontents" id="item-d0064a2f">
 <p class="itemheader">
-<span class="itemtitle"><a href="https://www.annualreviews.org/doi/abs/10.1146/annurev-economics-083120-111540?ai=67b7&amp;mi=3fndc3&amp;af=R">Systemic Risk in Financial Networks: A Survey</a></span>
+<span class="itemtitle"><a href="https://www.annualreviews.org/doi/abs/10.1146/annurev-economics-081020-051248?ai=67b7&amp;mi=3fndc3&amp;af=R">The International Aspects of Macroprudential Policy</a></span>
 <span class="itemfrom">[<a href="https://www.annualreviews.org/loi/economics?ai=67b7&amp;mi=3fndc3&amp;af=R">Annual Reviews: Annual Review of Economics: Table of Contents</a>]</span>
 </p>
 <div class="itemdescription">
 <p>
-      Annual Review of Economics, <a href="https://www.annualreviews.org/toc/economics/13/1">Volume 13, Issue 1</a>, Page 171-202, August 2021.<br>
-    </p>
-</div>
-</div>
-
-<div class="item feed-a4d49d75 feed-annualreviewsannualreviewofeconomicstableofcontents" id="item-44ee2057">
-<p class="itemheader">
-<span class="itemtitle"><a href="https://www.annualreviews.org/doi/abs/10.1146/annurev-economics-081020-044812?ai=67b7&amp;mi=3fndc3&amp;af=R">Estimating DSGE Models: Recent Advances and Future Challenges</a></span>
-<span class="itemfrom">[<a href="https://www.annualreviews.org/loi/economics?ai=67b7&amp;mi=3fndc3&amp;af=R">Annual Reviews: Annual Review of Economics: Table of Contents</a>]</span>
-</p>
-<div class="itemdescription">
-<p>
-      Annual Review of Economics, <a href="https://www.annualreviews.org/toc/economics/13/1">Volume 13, Issue 1</a>, Page 229-252, August 2021.<br>
+      Annual Review of Economics, <a href="https://www.annualreviews.org/toc/economics/13/1">Volume 13, Issue 1</a>, Page 203-228, August 2021.<br>
     </p>
 </div>
 </div>
@@ -997,6 +972,18 @@
 </div>
 </div>
 
+<div class="item feed-a4d49d75 feed-annualreviewsannualreviewofeconomicstableofcontents" id="item-2fde0284">
+<p class="itemheader">
+<span class="itemtitle"><a href="https://www.annualreviews.org/doi/abs/10.1146/annurev-economics-091520-082042?ai=67b7&amp;mi=3fndc3&amp;af=R">Inflation Inequality: Measurement, Causes, and Policy Implications</a></span>
+<span class="itemfrom">[<a href="https://www.annualreviews.org/loi/economics?ai=67b7&amp;mi=3fndc3&amp;af=R">Annual Reviews: Annual Review of Economics: Table of Contents</a>]</span>
+</p>
+<div class="itemdescription">
+<p>
+      Annual Review of Economics, <a href="https://www.annualreviews.org/toc/economics/13/1">Volume 13, Issue 1</a>, Page 599-629, August 2021.<br>
+    </p>
+</div>
+</div>
+
 <div class="item feed-3b836157 feed-annualreviewsannualreviewofsociologytableofcontents" id="item-d157d094">
 <p class="itemheader">
 <span class="itemtitle"><a href="https://www.annualreviews.org/doi/abs/10.1146/annurev-soc-090320-033647?ai=t0&amp;mi=3fndc3&amp;af=R">The Influence of Simmel on American Sociology Since 1975</a></span>
@@ -1005,18 +992,6 @@
 <div class="itemdescription">
 <p>
       Annual Review of Sociology, <a href="https://www.annualreviews.org/toc/soc/47/1">Volume 47, Issue 1</a>, Page 87-108, July 2021.<br>
-    </p>
-</div>
-</div>
-
-<div class="item feed-3b836157 feed-annualreviewsannualreviewofsociologytableofcontents" id="item-376dc41a">
-<p class="itemheader">
-<span class="itemtitle"><a href="https://www.annualreviews.org/doi/abs/10.1146/annurev-soc-081320-114850?ai=t0&amp;mi=3fndc3&amp;af=R">The (Un)Managed Heart: Racial Contours of Emotion Work in Gendered Occupations</a></span>
-<span class="itemfrom">[<a href="https://www.annualreviews.org/loi/soc?ai=t0&amp;mi=3fndc3&amp;af=R">Annual Reviews: Annual Review of Sociology: Table of Contents</a>]</span>
-</p>
-<div class="itemdescription">
-<p>
-      Annual Review of Sociology, <a href="https://www.annualreviews.org/toc/soc/47/1">Volume 47, Issue 1</a>, Page 197-212, July 2021.<br>
     </p>
 </div>
 </div>
@@ -1041,6 +1016,18 @@
 <div class="itemdescription">
 <p>
       Annual Review of Sociology, <a href="https://www.annualreviews.org/toc/soc/47/1">Volume 47, Issue 1</a>, Page 305-325, July 2021.<br>
+    </p>
+</div>
+</div>
+
+<div class="item feed-3b836157 feed-annualreviewsannualreviewofsociologytableofcontents" id="item-7410bdbb">
+<p class="itemheader">
+<span class="itemtitle"><a href="https://www.annualreviews.org/doi/abs/10.1146/annurev-soc-091620-024714?ai=t0&amp;mi=3fndc3&amp;af=R">Black Men and Black Masculinity</a></span>
+<span class="itemfrom">[<a href="https://www.annualreviews.org/loi/soc?ai=t0&amp;mi=3fndc3&amp;af=R">Annual Reviews: Annual Review of Sociology: Table of Contents</a>]</span>
+</p>
+<div class="itemdescription">
+<p>
+      Annual Review of Sociology, <a href="https://www.annualreviews.org/toc/soc/47/1">Volume 47, Issue 1</a>, Page 437-457, July 2021.<br>
     </p>
 </div>
 </div>
@@ -1138,14 +1125,14 @@
 <h2>Thursday, 17 December 2020</h2>
 <div class="time">
 <h3>10:03 AM</h3>
-<div class="item feed-b93c25e9 feed-earlyedition" id="item-f1046fc0">
+<div class="item feed-b93c25e9 feed-earlyedition" id="item-76342d74">
 <p class="itemheader">
-<span class="itemtitle"><a href="http://feedproxy.google.com/~r/Pnas-RssFeedOfEarlyEditionArticles/~3/FgxKzBIPOmc/2006511117.short">Evolutionary determinism and convergence associated with water-column transitions in marine fishes [Evolution]</a></span>
+<span class="itemtitle"><a href="http://feedproxy.google.com/~r/Pnas-RssFeedOfEarlyEditionArticles/~3/kIObLL3rpHo/2022205117.short">Decoding DMD transcriptional networks using single-nucleus RNA sequencing [Commentaries]</a></span>
 <span class="itemfrom">[<a href="http://www.pnas.org">Early Edition</a>]</span>
 </p>
 <div class="itemdescription">
 <p>
-      Repeatable, convergent outcomes are prima facie evidence for determinism in evolutionary processes. Among fishes, well-known examples include microevolutionary habitat transitions into the water column, where freshwater populations (e.g., sticklebacks, cichlids, and whitefishes) recurrently diverge toward slender-bodied pelagic forms and deep-bodied benthic forms. However, the consequences of such processes at deeper...<img alt="" height="1" src="http://feeds.feedburner.com/~r/Pnas-RssFeedOfEarlyEditionArticles/~4/FgxKzBIPOmc" width="1">
+      Duchenne muscular dystrophy (DMD) is an X chromosome-linked disease, and it is the most common form of muscular dystrophy caused by genetic mutations in the Dmd gene (1). The Dmd gene contains 79 exons, spans 2.4 Mb, and is the single largest gene in the human genome (2). This gene...<img alt="" height="1" src="http://feeds.feedburner.com/~r/Pnas-RssFeedOfEarlyEditionArticles/~4/kIObLL3rpHo" width="1">
     </p>
 </div>
 </div>
@@ -1255,24 +1242,6 @@
 </div>
 </div>
 <div class="day">
-<h2>Thursday, 29 October 2020</h2>
-<div class="time">
-<h3>10:03 AM</h3>
-<div class="item feed-6b3f78ad feed-latestbmjresearch" id="item-4a57dcc7">
-<p class="itemheader">
-<span class="itemtitle"><a href="http://feeds.bmj.com/~r/bmj/research/~3/wJ1RDIAQAzk/bmj.m3873">Use of hormone replacement therapy and risk of breast cancer: nested case-control studies using the QResearch and CPRD databases</a></span>
-<span class="itemfrom">[<a href="https://www.bmj.com/research/feed">Latest BMJ Research</a>]</span>
-</p>
-<div class="itemdescription">
-<div class="feedflare">
-      <a href="http://feeds.bmj.com/~ff/bmj/research?a=wJ1RDIAQAzk:PfzJ6C9dT18:yIl2AUoC8zA"><img border="0" src="http://feeds.feedburner.com/~ff/bmj/research?d=yIl2AUoC8zA"></a> <a href="http://feeds.bmj.com/~ff/bmj/research?a=wJ1RDIAQAzk:PfzJ6C9dT18:dnMXMwOfBR0"><img border="0" src="http://feeds.feedburner.com/~ff/bmj/research?d=dnMXMwOfBR0"></a> <a href="http://feeds.bmj.com/~ff/bmj/research?a=wJ1RDIAQAzk:PfzJ6C9dT18:F7zBnMyn0Lo"><img border="0" src="http://feeds.feedburner.com/~ff/bmj/research?i=wJ1RDIAQAzk:PfzJ6C9dT18:F7zBnMyn0Lo"></a> <a href="http://feeds.bmj.com/~ff/bmj/research?a=wJ1RDIAQAzk:PfzJ6C9dT18:V_sGLiPBpWU"><img border="0" src="http://feeds.feedburner.com/~ff/bmj/research?i=wJ1RDIAQAzk:PfzJ6C9dT18:V_sGLiPBpWU"></a> <a href="http://feeds.bmj.com/~ff/bmj/research?a=wJ1RDIAQAzk:PfzJ6C9dT18:qj6IDK7rITs"><img border="0" src="http://feeds.feedburner.com/~ff/bmj/research?d=qj6IDK7rITs"></a> <a href="http://feeds.bmj.com/~ff/bmj/research?a=wJ1RDIAQAzk:PfzJ6C9dT18:gIN9vFwOqvQ"><img border="0" src="http://feeds.feedburner.com/~ff/bmj/research?i=wJ1RDIAQAzk:PfzJ6C9dT18:gIN9vFwOqvQ"></a>
-    </div><img alt="" height="1" src="http://feeds.feedburner.com/~r/bmj/research/~4/wJ1RDIAQAzk" width="1">
-</div>
-</div>
-
-</div>
-</div>
-<div class="day">
 <h2>Friday, 23 October 2020</h2>
 <div class="time">
 <h3>10:03 AM</h3>
@@ -1285,6 +1254,24 @@
 <div class="feedflare">
       <a href="http://feeds.bmj.com/~ff/bmj/research?a=40n7x9tUP6k:KTn-rrBe74c:yIl2AUoC8zA"><img border="0" src="http://feeds.feedburner.com/~ff/bmj/research?d=yIl2AUoC8zA"></a> <a href="http://feeds.bmj.com/~ff/bmj/research?a=40n7x9tUP6k:KTn-rrBe74c:dnMXMwOfBR0"><img border="0" src="http://feeds.feedburner.com/~ff/bmj/research?d=dnMXMwOfBR0"></a> <a href="http://feeds.bmj.com/~ff/bmj/research?a=40n7x9tUP6k:KTn-rrBe74c:F7zBnMyn0Lo"><img border="0" src="http://feeds.feedburner.com/~ff/bmj/research?i=40n7x9tUP6k:KTn-rrBe74c:F7zBnMyn0Lo"></a> <a href="http://feeds.bmj.com/~ff/bmj/research?a=40n7x9tUP6k:KTn-rrBe74c:V_sGLiPBpWU"><img border="0" src="http://feeds.feedburner.com/~ff/bmj/research?i=40n7x9tUP6k:KTn-rrBe74c:V_sGLiPBpWU"></a> <a href="http://feeds.bmj.com/~ff/bmj/research?a=40n7x9tUP6k:KTn-rrBe74c:qj6IDK7rITs"><img border="0" src="http://feeds.feedburner.com/~ff/bmj/research?d=qj6IDK7rITs"></a> <a href="http://feeds.bmj.com/~ff/bmj/research?a=40n7x9tUP6k:KTn-rrBe74c:gIN9vFwOqvQ"><img border="0" src="http://feeds.feedburner.com/~ff/bmj/research?i=40n7x9tUP6k:KTn-rrBe74c:gIN9vFwOqvQ"></a>
     </div><img alt="" height="1" src="http://feeds.feedburner.com/~r/bmj/research/~4/40n7x9tUP6k" width="1">
+</div>
+</div>
+
+</div>
+</div>
+<div class="day">
+<h2>Wednesday, 21 October 2020</h2>
+<div class="time">
+<h3>10:03 AM</h3>
+<div class="item feed-6b3f78ad feed-latestbmjresearch" id="item-54f75b70">
+<p class="itemheader">
+<span class="itemtitle"><a href="http://feeds.bmj.com/~r/bmj/research/~3/S1mLrkgqmGk/bmj.m3731">Living risk prediction algorithm (QCOVID) for risk of hospital admission and mortality from coronavirus 19 in adults: national derivation and validation cohort study</a></span>
+<span class="itemfrom">[<a href="https://www.bmj.com/research/feed">Latest BMJ Research</a>]</span>
+</p>
+<div class="itemdescription">
+<div class="feedflare">
+      <a href="http://feeds.bmj.com/~ff/bmj/research?a=S1mLrkgqmGk:4jIDsdoDcJw:yIl2AUoC8zA"><img border="0" src="http://feeds.feedburner.com/~ff/bmj/research?d=yIl2AUoC8zA"></a> <a href="http://feeds.bmj.com/~ff/bmj/research?a=S1mLrkgqmGk:4jIDsdoDcJw:dnMXMwOfBR0"><img border="0" src="http://feeds.feedburner.com/~ff/bmj/research?d=dnMXMwOfBR0"></a> <a href="http://feeds.bmj.com/~ff/bmj/research?a=S1mLrkgqmGk:4jIDsdoDcJw:F7zBnMyn0Lo"><img border="0" src="http://feeds.feedburner.com/~ff/bmj/research?i=S1mLrkgqmGk:4jIDsdoDcJw:F7zBnMyn0Lo"></a> <a href="http://feeds.bmj.com/~ff/bmj/research?a=S1mLrkgqmGk:4jIDsdoDcJw:V_sGLiPBpWU"><img border="0" src="http://feeds.feedburner.com/~ff/bmj/research?i=S1mLrkgqmGk:4jIDsdoDcJw:V_sGLiPBpWU"></a> <a href="http://feeds.bmj.com/~ff/bmj/research?a=S1mLrkgqmGk:4jIDsdoDcJw:qj6IDK7rITs"><img border="0" src="http://feeds.feedburner.com/~ff/bmj/research?d=qj6IDK7rITs"></a> <a href="http://feeds.bmj.com/~ff/bmj/research?a=S1mLrkgqmGk:4jIDsdoDcJw:gIN9vFwOqvQ"><img border="0" src="http://feeds.feedburner.com/~ff/bmj/research?i=S1mLrkgqmGk:4jIDsdoDcJw:gIN9vFwOqvQ"></a>
+    </div><img alt="" height="1" src="http://feeds.feedburner.com/~r/bmj/research/~4/S1mLrkgqmGk" width="1">
 </div>
 </div>
 
@@ -1320,127 +1307,127 @@
 <tr class="feedsrow">
 <td><a href="https://www.annualreviews.org/loi/economics?ai=67b7&amp;mi=3fndc3&amp;af=R">Annual Reviews: Annual Review of Economics: Table of Contents</a></td>
 <td><a class="xmlbutton" href="http://www.annualreviews.org/action/showFeed?ui=45mu4&amp;mi=3fndc3&amp;ai=67b7&amp;jc=economics&amp;type=etoc&amp;feed=rss">XML</a></td>
-<td>10:18 AM, Monday, 20 June 2022</td>
-<td>01:18 PM, Monday, 20 June 2022</td>
+<td>06:18 PM, Monday, 20 June 2022</td>
+<td>09:18 PM, Monday, 20 June 2022</td>
 </tr>
 
 <tr class="feedsrow">
 <td><a href="https://www.annualreviews.org/loi/nutr?ai=rz&amp;mi=3fndc3&amp;af=R">Annual Reviews: Annual Review of Nutrition: Table of Contents</a></td>
 <td><a class="xmlbutton" href="http://www.annualreviews.org/action/showFeed?ui=45mu4&amp;mi=3fndc3&amp;ai=rz&amp;jc=nutr&amp;type=etoc&amp;feed=rss">XML</a></td>
-<td>10:18 AM, Monday, 20 June 2022</td>
-<td>01:18 PM, Monday, 20 June 2022</td>
+<td>06:18 PM, Monday, 20 June 2022</td>
+<td>09:18 PM, Monday, 20 June 2022</td>
 </tr>
 
 <tr class="feedsrow">
 <td><a href="https://www.annualreviews.org/loi/physiol?ai=sp&amp;mi=3fndc3&amp;af=R">Annual Reviews: Annual Review of Physiology: Table of Contents</a></td>
 <td><a class="xmlbutton" href="http://www.annualreviews.org/action/showFeed?ui=45mu4&amp;mi=3fndc3&amp;ai=sp&amp;jc=physiol&amp;type=etoc&amp;feed=rss">XML</a></td>
-<td>10:18 AM, Monday, 20 June 2022</td>
-<td>01:18 PM, Monday, 20 June 2022</td>
+<td>06:18 PM, Monday, 20 June 2022</td>
+<td>09:18 PM, Monday, 20 June 2022</td>
 </tr>
 
 <tr class="feedsrow">
 <td><a href="https://www.annualreviews.org/loi/polisci?af=R">Annual Reviews: Annual Review of Political Science: Table of Contents</a></td>
 <td><a class="xmlbutton" href="http://www.annualreviews.org/action/showFeed?jc=polisci&amp;type=etoc&amp;feed=rss">XML</a></td>
-<td>10:18 AM, Monday, 20 June 2022</td>
-<td>01:18 PM, Monday, 20 June 2022</td>
+<td>06:18 PM, Monday, 20 June 2022</td>
+<td>09:18 PM, Monday, 20 June 2022</td>
 </tr>
 
 <tr class="feedsrow">
 <td><a href="https://www.annualreviews.org/loi/soc?ai=t0&amp;mi=3fndc3&amp;af=R">Annual Reviews: Annual Review of Sociology: Table of Contents</a></td>
 <td><a class="xmlbutton" href="http://www.annualreviews.org/action/showFeed?ui=45mu4&amp;mi=3fndc3&amp;ai=t0&amp;jc=soc&amp;type=etoc&amp;feed=rss">XML</a></td>
-<td>10:18 AM, Monday, 20 June 2022</td>
-<td>01:18 PM, Monday, 20 June 2022</td>
+<td>06:18 PM, Monday, 20 June 2022</td>
+<td>09:18 PM, Monday, 20 June 2022</td>
 </tr>
 
 <tr class="feedsrow">
 <td><a href="http://arxiv.org/">cs.CR updates on arXiv.org</a></td>
 <td><a class="xmlbutton" href="http://export.arxiv.org/rss/cs.CR">XML</a></td>
-<td>10:18 AM, Monday, 20 June 2022</td>
-<td>01:18 PM, Monday, 20 June 2022</td>
+<td>06:18 PM, Monday, 20 June 2022</td>
+<td>09:18 PM, Monday, 20 June 2022</td>
 </tr>
 
 <tr class="feedsrow">
 <td><a href="http://www.pnas.org">Early Edition</a></td>
 <td><a class="xmlbutton" href="http://feeds.feedburner.com/Pnas-RssFeedOfEarlyEditionArticles?format=xml">XML</a></td>
-<td>10:18 AM, Monday, 20 June 2022</td>
-<td>01:18 PM, Monday, 20 June 2022</td>
+<td>06:18 PM, Monday, 20 June 2022</td>
+<td>09:18 PM, Monday, 20 June 2022</td>
 </tr>
 
 <tr class="feedsrow">
 <td><a href="http://www.eurekalert.org">EurekAlert! - Breaking News</a></td>
 <td><a class="xmlbutton" href="https://www.eurekalert.org/rss.xml">XML</a></td>
-<td>10:18 AM, Monday, 20 June 2022</td>
-<td>01:18 PM, Monday, 20 June 2022</td>
+<td>06:18 PM, Monday, 20 June 2022</td>
+<td>09:18 PM, Monday, 20 June 2022</td>
 </tr>
 
 <tr class="feedsrow">
 <td><a href="https://www.cambridge.org/core/journals/european-political-science-review/latest-issue">European Political Science Review</a></td>
 <td><a class="xmlbutton" href="https://www.cambridge.org/core/rss/product/id/3DB89DF6A9878CE661D3CE5FC6E9D6BC">XML</a></td>
-<td>10:18 AM, Monday, 20 June 2022</td>
-<td>01:18 PM, Monday, 20 June 2022</td>
+<td>06:18 PM, Monday, 20 June 2022</td>
+<td>09:18 PM, Monday, 20 June 2022</td>
 </tr>
 
 <tr class="feedsrow">
 <td><a href="http://ieeexplore.ieee.org">IEEE Transactions on Image Processing - new TOC</a></td>
 <td><a class="xmlbutton" href="https://ieeexplore.ieee.org/rss/TOC83.XML">XML</a></td>
-<td>10:18 AM, Monday, 20 June 2022</td>
-<td>01:18 PM, Monday, 20 June 2022</td>
+<td>06:18 PM, Monday, 20 June 2022</td>
+<td>09:18 PM, Monday, 20 June 2022</td>
 </tr>
 
 <tr class="feedsrow">
 <td><a href="http://ieeexplore.ieee.org">IEEE Transactions on Industrial Electronics - new TOC</a></td>
 <td><a class="xmlbutton" href="https://ieeexplore.ieee.org/rss/TOC41.XML">XML</a></td>
-<td>10:18 AM, Monday, 20 June 2022</td>
-<td>01:18 PM, Monday, 20 June 2022</td>
+<td>06:18 PM, Monday, 20 June 2022</td>
+<td>09:18 PM, Monday, 20 June 2022</td>
 </tr>
 
 <tr class="feedsrow">
 <td><a href="http://ieeexplore.ieee.org">IEEE Transactions on Industrial Informatics - new TOC</a></td>
 <td><a class="xmlbutton" href="https://ieeexplore.ieee.org/rss/TOC9424.XML">XML</a></td>
-<td>10:18 AM, Monday, 20 June 2022</td>
-<td>01:18 PM, Monday, 20 June 2022</td>
+<td>06:18 PM, Monday, 20 June 2022</td>
+<td>09:18 PM, Monday, 20 June 2022</td>
 </tr>
 
 <tr class="feedsrow">
 <td><a href="http://ieeexplore.ieee.org">IEEE Transactions on Information Forensics and Security - new TOC</a></td>
 <td><a class="xmlbutton" href="https://ieeexplore.ieee.org/rss/TOC10206.XML">XML</a></td>
-<td>10:18 AM, Monday, 20 June 2022</td>
-<td>01:18 PM, Monday, 20 June 2022</td>
+<td>06:18 PM, Monday, 20 June 2022</td>
+<td>09:18 PM, Monday, 20 June 2022</td>
 </tr>
 
 <tr class="feedsrow">
 <td><a href="https://journals.humankinetics.com/view/journals/ijspp/ijspp-overview.xml">International Journal of Sports Physiology and Performance</a></td>
 <td><a class="xmlbutton" href="https://journals.humankinetics.com/journalissuetocrss/journals/ijspp/ijspp-overview.xml">XML</a></td>
-<td>10:18 AM, Monday, 20 June 2022</td>
-<td>01:18 PM, Monday, 20 June 2022</td>
+<td>06:18 PM, Monday, 20 June 2022</td>
+<td>09:18 PM, Monday, 20 June 2022</td>
 </tr>
 
 <tr class="feedsrow">
 <td><a href="https://jamanetwork.com/journals/jama">JAMA Current Issue</a></td>
 <td><a class="xmlbutton" href="https://jamanetwork.com/rss/site_3/67.xml">XML</a></td>
-<td>10:18 AM, Monday, 20 June 2022</td>
-<td>01:18 PM, Monday, 20 June 2022</td>
+<td>06:18 PM, Monday, 20 June 2022</td>
+<td>09:18 PM, Monday, 20 June 2022</td>
 </tr>
 
 <tr class="feedsrow">
 <td><a href="https://www.bmj.com/research/feed">Latest BMJ Research</a></td>
 <td><a class="xmlbutton" href="http://feeds.bmj.com/bmj/research?format=xml">XML</a></td>
-<td>10:18 AM, Monday, 20 June 2022</td>
-<td>01:18 PM, Monday, 20 June 2022</td>
+<td>06:18 PM, Monday, 20 June 2022</td>
+<td>09:18 PM, Monday, 20 June 2022</td>
 </tr>
 
 <tr class="feedsrow">
 <td><a href="http://feeds.nature.com/nature/rss/current">Nature - Issue - nature.com science feeds</a></td>
 <td><a class="xmlbutton" href="http://feeds.nature.com/nature/rss/current?format=xml">XML</a></td>
-<td>10:18 AM, Monday, 20 June 2022</td>
-<td>01:18 PM, Monday, 20 June 2022</td>
+<td>06:18 PM, Monday, 20 June 2022</td>
+<td>09:18 PM, Monday, 20 June 2022</td>
 </tr>
 
 <tr class="feedsrow">
 <td><a href="https://www.thelancet.com/journals/lancet/issue/current">The Lancet</a></td>
 <td><a class="xmlbutton" href="http://www.thelancet.com/rssfeed/lancet_current.xml">XML</a></td>
-<td>10:18 AM, Monday, 20 June 2022</td>
-<td>01:18 PM, Monday, 20 June 2022</td>
+<td>06:18 PM, Monday, 20 June 2022</td>
+<td>09:18 PM, Monday, 20 June 2022</td>
 </tr>
 
 </table>
