@@ -34,26 +34,44 @@
 </div>
 </div>
 
-<div class="item feed-1b28272e feed-cscrupdatesonarxivorg" id="item-eced736a">
+<div class="item feed-1b28272e feed-cscrupdatesonarxivorg" id="item-ad521f5e">
 <p class="itemheader">
-<span class="itemtitle"><a href="http://arxiv.org/abs/2206.12227">Adversarial Robustness of Deep Neural Networks: A Survey from a Formal Verification Perspective. (arXiv:2206.12227v1 [cs.CR])</a></span>
+<span class="itemtitle"><a href="http://arxiv.org/abs/2206.12093">An Improved Lattice-Based Ring Signature with Unclaimable Anonymity in the Standard Model. (arXiv:2206.12093v1 [cs.CR])</a></span>
 <span class="itemfrom">[<a href="http://arxiv.org/">cs.CR updates on arXiv.org</a>]</span>
 </p>
 <div class="itemdescription">
 <p>
-      Neural networks have been widely applied in security applications such as spam and phishing detection, intrusion prevention, and malware detection. This black-box method, however, often has uncertainty and poor explainability in applications. Furthermore, neural networks themselves are often vulnerable to adversarial attacks. For those reasons, there is a high demand for trustworthy and rigorous methods to verify the robustness of neural network models. Adversarial robustness, which concerns the reliability of a neural network when dealing with maliciously manipulated inputs, is one of the hottest topics in security and machine learning. In this work, we survey existing literature in adversarial robustness verification for neural networks and collect 39 diversified research works across machine learning, security, and software engineering domains. We systematically analyze their approaches, including how robustness is formulated, what verification techniques are used, and the strengths and limitations of each technique. We provide a taxonomy from a formal verification perspective for a comprehensive understanding of this topic. We classify the existing techniques based on property specification, problem reduction, and reasoning strategies. We also demonstrate representative techniques that have been applied in existing studies with a sample model. Finally, we discuss open questions for future research.
+      Ring signatures enable a user to sign messages on behalf of an arbitrary set of users, called the ring, without revealing exactly which member of that ring actually generated the signature. The signer-anonymity property makes ring signatures have been an active research topic. Recently, Park and Sealfon (CRYPTO 19) presented an important anonymity notion named signer-unclaimability and constructed a lattice-based ring signature scheme with unclaimable anonymity in the standard model, however, it did not consider the unforgeable w.r.t. adversarially-chosen-key attack (the public key ring of a signature may contain keys created by an adversary) and the signature size grows quadratically in the size of ring and message. In this work, we propose a new lattice-based ring signature scheme with unclaimable anonymity in the standard model. In particular, our work improves the security and efficiency of Park and Sealfons work, which is unforgeable w.r.t. adversarially-chosen-key attack, and the ring signature size grows linearly in the ring size.
     </p>
 </div>
 </div>
 
-<div class="item feed-1b28272e feed-cscrupdatesonarxivorg" id="item-0c8d1056">
+<div class="item feed-1b28272e feed-cscrupdatesonarxivorg" id="item-31ad2729">
 <p class="itemheader">
-<span class="itemtitle"><a href="http://arxiv.org/abs/2206.12395">Data Leakage in Federated Averaging. (arXiv:2206.12395v1 [cs.LG])</a></span>
+<span class="itemtitle"><a href="http://arxiv.org/abs/2206.12224">MPClan: Protocol Suite for Privacy-Conscious Computations. (arXiv:2206.12224v1 [cs.CR])</a></span>
 <span class="itemfrom">[<a href="http://arxiv.org/">cs.CR updates on arXiv.org</a>]</span>
 </p>
 <div class="itemdescription">
 <p>
-      Recent attacks have shown that user data can be reconstructed from FedSGD updates, thus breaking privacy. However, these attacks are of limited practical relevance as federated learning typically uses the FedAvg algorithm. It is generally accepted that reconstructing data from FedAvg updates is much harder than FedSGD as: (i) there are unobserved intermediate weight updates, (ii) the order of inputs matters, and (iii) the order of labels changes every epoch. In this work, we propose a new optimization-based attack which successfully attacks FedAvg by addressing the above challenges. First, we solve the optimization problem using automatic differentiation that forces a simulation of the client's update for the reconstructed labels and inputs so as to match the received client update. Second, we address the unknown input order by treating images at different epochs as independent during optimization, while relating them with a permutation invariant prior. Third, we reconstruct the labels by estimating the parameters of existing FedSGD attacks at every FedAvg step. On the popular FEMNIST dataset, we demonstrate that on average we successfully reconstruct &gt;45% of the client's images from realistic FedAvg updates computed on 10 local epochs of 10 batches each with 5 images, compared to only &lt;10% using the baseline. These findings indicate that many real-world federated learning implementations based on FedAvg are vulnerable.
+      The growing volumes of data being collected and its analysis to provide better services are creating worries about digital privacy. To address privacy concerns and give practical solutions, the literature has relied on secure multiparty computation. However, recent research has mostly focused on the small-party honest-majority setting of up to four parties, noting efficiency concerns. In this work, we extend the strategies to support a larger number of participants in an honest-majority setting with efficiency at the center stage.
+    </p>
+    <p>
+      Cast in the preprocessing paradigm, our semi-honest protocol improves the online complexity of the decade-old state-of-the-art protocol of Damg\aa rd and Nielson (CRYPTO'07). In addition to having an improved online communication cost, we can shut down almost half of the parties in the online phase, thereby saving up to 50% in the system's operational costs. Our maliciously secure protocol also enjoys similar benefits and requires only half of the parties, except for one-time verification, towards the end.
+    </p>
+    <p>
+      To showcase the practicality of the designed protocols, we benchmark popular applications such as deep neural networks, graph neural networks, genome sequence matching, and biometric matching using prototype implementations. Our improved protocols aid in bringing up to 60-80% savings in monetary cost over prior work.
+    </p>
+</div>
+</div>
+
+<div class="item feed-1b28272e feed-cscrupdatesonarxivorg" id="item-f8d2cbf6">
+<p class="itemheader">
+<span class="itemtitle"><a href="http://arxiv.org/abs/2206.12251">Adversarial Zoom Lens: A Novel Physical-World Attack to DNNs. (arXiv:2206.12251v1 [cs.CR])</a></span>
+<span class="itemfrom">[<a href="http://arxiv.org/">cs.CR updates on arXiv.org</a>]</span>
+</p>
+<div class="itemdescription">
+<p>
+      Although deep neural networks (DNNs) are known to be fragile, no one has studied the effects of zooming-in and zooming-out of images in the physical world on DNNs performance. In this paper, we demonstrate a novel physical adversarial attack technique called Adversarial Zoom Lens (AdvZL), which uses a zoom lens to zoom in and out of pictures of the physical world, fooling DNNs without changing the characteristics of the target object. The proposed method is so far the only adversarial attack technique that does not add physical adversarial perturbation attack DNNs. In a digital environment, we construct a data set based on AdvZL to verify the antagonism of equal-scale enlarged images to DNNs. In the physical environment, we manipulate the zoom lens to zoom in and out of the target object, and generate adversarial samples. The experimental results demonstrate the effectiveness of AdvZL in both digital and physical environments. We further analyze the antagonism of the proposed data set to the improved DNNs. On the other hand, we provide a guideline for defense against AdvZL by means of adversarial training. Finally, we look into the threat possibilities of the proposed approach to future autonomous driving and variant attack ideas similar to the proposed attack.
     </p>
 </div>
 </div>
@@ -70,44 +88,44 @@
 </div>
 </div>
 
-<div class="item feed-1b28272e feed-cscrupdatesonarxivorg" id="item-392ad58b">
-<p class="itemheader">
-<span class="itemtitle"><a href="http://arxiv.org/abs/2205.11418">On non-monomial APcN permutations over finite fields of even characteristic. (arXiv:2205.11418v3 [cs.IT] UPDATED)</a></span>
-<span class="itemfrom">[<a href="http://arxiv.org/">cs.CR updates on arXiv.org</a>]</span>
-</p>
-<div class="itemdescription">
-<p>
-      Recently, a new concept called the $c$-differential uniformity was proposed by Ellingsen et al. (2020), which allows to simplify some types of differential cryptanalysis. Since then, finding functions having low $c$-differential uniformity has attracted the attention of many researchers. However it seems that, at this moment, there are not many non-monomial permutations having low $c$-differential uniformity. In this paper, we propose new classes of almost perfect $c$-nonlinear non-monomial permutations over a binary field.
-    </p>
-</div>
-</div>
-
 </div>
 </div>
 <div class="day">
 <h2>Friday, 24 June 2022</h2>
 <div class="time">
 <h3>03:40 AM</h3>
-<div class="item feed-fab735fe feed-thelancet" id="item-962374d8">
+<div class="item feed-fab735fe feed-thelancet" id="item-41970050">
 <p class="itemheader">
-<span class="itemtitle"><a href="https://www.thelancet.com/journals/lancet/article/PIIS0140-6736(22)01104-7/fulltext?rss=yes">[Obituary] Aaron T Beck</a></span>
+<span class="itemtitle"><a href="https://www.thelancet.com/journals/lancet/article/PIIS0140-6736(22)00278-1/fulltext?rss=yes">[Comment] Gender equality and COVID-19: act now before it is too late</a></span>
 <span class="itemfrom">[<a href="https://www.thelancet.com/journals/lancet/issue/current">The Lancet</a>]</span>
 </p>
 <div class="itemdescription">
 <p>
-      Psychiatrist who pioneered cognitive therapy. Born on July 18, 1921 in Providence, RI, USA, he died on Nov 1, 2021 in Philadelphia, PA, USA, aged 100 years.
+      2 years into the COVID-19 pandemic, it is clear that gender differences exist, and that women, men, and gender minorities are differentially impacted by the pandemic.1 Emmanuela Gakidou and colleagues' Article2 in The Lancet provides additional data to reinforce this fact. Much of the research on the impacts of COVID-19 (outside of those whose work focuses on sex and gender differences) has focused on the direct health-related impacts of COVID-19, such as the fact that more men have been hospitalised and died from COVID-19-attributable causes than women.
     </p>
 </div>
 </div>
 
-<div class="item feed-fab735fe feed-thelancet" id="item-58e33a99">
+<div class="item feed-fab735fe feed-thelancet" id="item-5da85df7">
 <p class="itemheader">
-<span class="itemtitle"><a href="https://www.thelancet.com/journals/lancet/article/PIIS0140-6736(22)01101-1/fulltext?rss=yes">[Correspondence] Monkeypox in the UK: arguments for a broader case definition</a></span>
+<span class="itemtitle"><a href="https://www.thelancet.com/journals/lancet/article/PIIS0140-6736(22)01065-0/fulltext?rss=yes">[Comment] The 2022 Wakley Prize: compassion and connection</a></span>
 <span class="itemfrom">[<a href="https://www.thelancet.com/journals/lancet/issue/current">The Lancet</a>]</span>
 </p>
 <div class="itemdescription">
 <p>
-      Monkeypox cases are increasing rapidly in the UK. The UK Health and Safety Agency (UKHSA) defines a probable case of monkeypox as &#8220;a person with an unexplained rash on any part of their body plus one or more classical symptom or symptoms of monkeypox infection since March 15, 2022 and either: has an epidemiological link to a confirmed or probable case of monkeypox in the 21 days before symptom onset; or reported a travel history to west or central Africa in the 21 days before symptom onset; or is a gay, bisexual or other man who has sex with men.
+      During the COVID-19 pandemic health professionals have found themselves working in a landscape that has been utterly transformed, for good and ill. There have been remarkable advances, such as accelerated research to produce effective treatments and vaccines, and increased use of digital health care. There are also ongoing challenges in many health-care settings, such as staff shortages, the pressures of long waiting lists for routine care, and an exhausted health workforce. Yet whatever the innovations and adversities, compassion and connection remain fundamental to establishing a positive, healing relationship between health-care workers and patients.
+    </p>
+</div>
+</div>
+
+<div class="item feed-fab735fe feed-thelancet" id="item-40b10b2d">
+<p class="itemheader">
+<span class="itemtitle"><a href="https://www.thelancet.com/journals/lancet/article/PIIS0140-6736(22)00935-7/fulltext?rss=yes">[Correspondence] Global burden of antimicrobial resistance: essential pieces of a global puzzle</a></span>
+<span class="itemfrom">[<a href="https://www.thelancet.com/journals/lancet/issue/current">The Lancet</a>]</span>
+</p>
+<div class="itemdescription">
+<p>
+      Christopher J L Murray and colleagues1 provide a compelling contribution to the understanding of the burden of disease attributable to bacterial antimicrobial resistance (AMR) in 2019. Focusing on 23 bacterial pathogens, they used two-stage spatiotemporal modelling to estimate this burden to be larger than diseases such as HIV and malaria, with the highest rates in sub-Saharan Africa. This new information should raise this issue higher on the global health agenda. They also, however, highlight the scarcity of high-quality data for infectious diseases and antibiotic consumption, with the authors having to rely on antibiotics sales data for an indication of antibiotic consumption.
     </p>
 </div>
 </div>
@@ -124,26 +142,29 @@
 </div>
 </div>
 
-<div class="item feed-fab735fe feed-thelancet" id="item-cf4b8ea3">
+<div class="item feed-fab735fe feed-thelancet" id="item-17a80cbc">
 <p class="itemheader">
-<span class="itemtitle"><a href="https://www.thelancet.com/journals/lancet/article/PIIS0140-6736(22)00944-8/fulltext?rss=yes">[Correspondence] Global burden of antimicrobial resistance: essential pieces of a global puzzle</a></span>
+<span class="itemtitle"><a href="https://www.thelancet.com/journals/lancet/article/PIIS0140-6736(22)00484-6/fulltext?rss=yes">[Articles] Estimating global, regional, and national daily and cumulative infections with SARS-CoV-2 through Nov 14, 2021: a statistical analysis</a></span>
 <span class="itemfrom">[<a href="https://www.thelancet.com/journals/lancet/issue/current">The Lancet</a>]</span>
 </p>
 <div class="itemdescription">
 <p>
-      Christopher J L Murray and colleagues1 report on the dramatically high burden of antimicrobial resistance (AMR) worldwide, particularly in low-income and middle-income countries. The authors also emphasise the insufficient data on the prevalence of bacterial infections and AMR in low-resource settings. Although the figures presented are striking, they do not sufficiently depict the suffering of patients living in these locations and the frustration of clinicians unable to treat an infection that is typically easily curable elsewhere.
+      COVID-19 has already had a staggering impact on the world up to the beginning of the omicron (B.1.1.529) wave, with over 40% of the global population infected at least once by Nov 14, 2021. The vast differences in cumulative proportion of the population infected across locations could help policy makers identify the transmission-prevention strategies that have been most effective, as well as the populations at greatest risk for future infection. This information might also be useful for targeted transmission-prevention interventions, including vaccine prioritisation.
     </p>
 </div>
 </div>
 
-<div class="item feed-fab735fe feed-thelancet" id="item-fc2e0052">
+<div class="item feed-d4080559 feed-internationaljournalofsportsphysiologyandperformance" id="item-fee5d8d8">
 <p class="itemheader">
-<span class="itemtitle"><a href="https://www.thelancet.com/journals/lancet/article/PIIS0140-6736(22)00008-3/fulltext?rss=yes">[Articles] Quantifying the effects of the COVID-19 pandemic on gender equality on health, social, and economic indicators: a comprehensive review of data from March, 2020, to September, 2021</a></span>
-<span class="itemfrom">[<a href="https://www.thelancet.com/journals/lancet/issue/current">The Lancet</a>]</span>
+<span class="itemtitle"><a href="https://journals.humankinetics.com/view/journals/ijspp/17/7/article-p993.xml">Sport-Science Research on Female Athletes: Dealing With the Paradox of Concurrent Increases in Quantity and Quality</a></span>
+<span class="itemfrom">[<a href="https://journals.humankinetics.com/view/journals/ijspp/ijspp-overview.xml">International Journal of Sports Physiology and Performance</a>]</span>
 </p>
 <div class="itemdescription">
 <p>
-      The most significant gender gaps identified in our study show intensified levels of pre-existing widespread inequalities between women and men during the COVID-19 pandemic. Political and social leaders should prioritise policies that enable and encourage women to participate in the labour force and continue their education, thereby equipping and enabling them with greater ability to overcome the barriers they face.
+      Journal Name: International Journal of Sports Physiology and Performance<br>
+      Volume: 17<br>
+      Issue: 7<br>
+      Pages: 993-994
     </p>
 </div>
 </div>
@@ -163,21 +184,6 @@
 </div>
 </div>
 
-<div class="item feed-d4080559 feed-internationaljournalofsportsphysiologyandperformance" id="item-fa12e876">
-<p class="itemheader">
-<span class="itemtitle"><a href="https://journals.humankinetics.com/view/journals/ijspp/17/7/article-p1085.xml">Effects of Bilateral Dorsolateral Prefrontal Cortex High-Definition Transcranial Direct-Current Stimulation on Physiological and Performance Responses at Severe-Intensity Exercise Domain in Elite Road Cyclists</a></span>
-<span class="itemfrom">[<a href="https://journals.humankinetics.com/view/journals/ijspp/ijspp-overview.xml">International Journal of Sports Physiology and Performance</a>]</span>
-</p>
-<div class="itemdescription">
-<p>
-      Journal Name: International Journal of Sports Physiology and Performance<br>
-      Volume: 17<br>
-      Issue: 7<br>
-      Pages: 1085-1093
-    </p>
-</div>
-</div>
-
 <div class="item feed-d4080559 feed-internationaljournalofsportsphysiologyandperformance" id="item-29d77994">
 <p class="itemheader">
 <span class="itemtitle"><a href="https://journals.humankinetics.com/view/journals/ijspp/17/7/article-p1094.xml">Power Road-Derived Physical Performance Parameters in Junior, Under-23, and Professional Road Cycling Climbers</a></span>
@@ -193,6 +199,21 @@
 </div>
 </div>
 
+<div class="item feed-d4080559 feed-internationaljournalofsportsphysiologyandperformance" id="item-bb46578f">
+<p class="itemheader">
+<span class="itemtitle"><a href="https://journals.humankinetics.com/view/journals/ijspp/17/7/article-p1111.xml">9/3-Minute Running Critical Power Test: Mechanical Threshold Location With Respect to Ventilatory Thresholds and Maximum Oxygen Uptake</a></span>
+<span class="itemfrom">[<a href="https://journals.humankinetics.com/view/journals/ijspp/ijspp-overview.xml">International Journal of Sports Physiology and Performance</a>]</span>
+</p>
+<div class="itemdescription">
+<p>
+      Journal Name: International Journal of Sports Physiology and Performance<br>
+      Volume: 17<br>
+      Issue: 7<br>
+      Pages: 1111-1118
+    </p>
+</div>
+</div>
+
 <div class="item feed-d4080559 feed-internationaljournalofsportsphysiologyandperformance" id="item-ef9506be">
 <p class="itemheader">
 <span class="itemtitle"><a href="https://journals.humankinetics.com/view/journals/ijspp/17/7/article-p1126.xml">Muscle Fatigue Is Attenuated When Applying Intermittent Compared With Continuous Blood Flow Restriction During Endurance Cycling</a></span>
@@ -204,21 +225,6 @@
       Volume: 17<br>
       Issue: 7<br>
       Pages: 1126-1131
-    </p>
-</div>
-</div>
-
-<div class="item feed-d4080559 feed-internationaljournalofsportsphysiologyandperformance" id="item-b634467a">
-<p class="itemheader">
-<span class="itemtitle"><a href="https://journals.humankinetics.com/view/journals/ijspp/17/7/article-p1132.xml">Global Positioning System Watches and Electronic Journals: Are Training-Load Measures Similar in High School Cross-Country Runners?</a></span>
-<span class="itemfrom">[<a href="https://journals.humankinetics.com/view/journals/ijspp/ijspp-overview.xml">International Journal of Sports Physiology and Performance</a>]</span>
-</p>
-<div class="itemdescription">
-<p>
-      Journal Name: International Journal of Sports Physiology and Performance<br>
-      Volume: 17<br>
-      Issue: 7<br>
-      Pages: 1132-1139
     </p>
 </div>
 </div>
@@ -271,18 +277,15 @@
 </div>
 </div>
 
-</div>
-<div class="time">
-<h3>03:32 AM</h3>
-<div class="item feed-53ba08d1 feed-natureissuenaturecomsciencefeeds" id="item-c0ff6bcd">
+<div class="item feed-53ba08d1 feed-natureissuenaturecomsciencefeeds" id="item-5833b0e7">
 <p class="itemheader">
-<span class="itemtitle"><a href="https://www.nature.com/articles/d41586-022-01714-y">These &#8216;drab&#8217; moths dazzle when the light is right</a></span>
+<span class="itemtitle"><a href="https://www.nature.com/articles/d41586-022-01632-z">Sniffing out smell&#8217;s effects on human behaviour</a></span>
 <span class="itemfrom">[<a href="http://feeds.nature.com/nature/rss/current">Nature - Issue - nature.com science feeds</a>]</span>
 </p>
 <div class="itemdescription">
 <p>
-      Nature, Published online: 21 June 2022; <a href="https://www.nature.com/articles/d41586-022-01714-y">doi:10.1038/d41586-022-01714-y</a>
-    </p>Night-loving insects that look brown by day have bright, species-specific patterns under infrared light.
+      Nature, Published online: 22 June 2022; <a href="https://www.nature.com/articles/d41586-022-01632-z">doi:10.1038/d41586-022-01632-z</a>
+    </p>Olfaction could influence how people respond to threats or select a partner. To investigate, researchers need to design experiments that can capture its effects.
 </div>
 </div>
 
@@ -292,6 +295,18 @@
 <h2>Tuesday, 21 June 2022</h2>
 <div class="time">
 <h3>06:18 PM</h3>
+<div class="item feed-53ba08d1 feed-natureissuenaturecomsciencefeeds" id="item-1bfe88b5">
+<p class="itemheader">
+<span class="itemtitle"><a href="https://www.nature.com/articles/d41586-022-01636-9">From the archive: respect for reptiles, and an astronomical centenary</a></span>
+<span class="itemfrom">[<a href="http://feeds.nature.com/nature/rss/current">Nature - Issue - nature.com science feeds</a>]</span>
+</p>
+<div class="itemdescription">
+<p>
+      Nature, Published online: 21 June 2022; <a href="https://www.nature.com/articles/d41586-022-01636-9">doi:10.1038/d41586-022-01636-9</a>
+    </p>Snippets from Nature&#8217;s past.
+</div>
+</div>
+
 <div class="item feed-ed41d94f feed-jamacurrentissue" id="item-bdea378b">
 <p class="itemheader">
 <span class="itemtitle"><a href="https://jamanetwork.com/journals/jama/fullarticle/2793468">Audio Highlights</a></span>
@@ -328,39 +343,24 @@
 </div>
 </div>
 
+<div class="item feed-ed41d94f feed-jamacurrentissue" id="item-0e501d18">
+<p class="itemheader">
+<span class="itemtitle"><a href="https://jamanetwork.com/journals/jama/fullarticle/2793458">Effect of Intra-arrest Transport and Extracorporeal Cardiopulmonary Resuscitation on Functional Neurologic Outcome in Refractory Out-of-Hospital Cardiac Arrest&#8212;Reply</a></span>
+<span class="itemfrom">[<a href="https://jamanetwork.com/journals/jama">JAMA Current Issue</a>]</span>
+</p>
+<div class="itemdescription">
+<p>
+      In Reply In response to the comments by Drs Lin and Chen, we would first like to underscore that the Prague OHCA Study did not enroll any patients with ROSC. Patients with early ROSC (n&#8201;=&#8201;1263) were not considered for study inclusion, as outlined in Figure 1 of our article. Our study randomized patients after at least of 5 minutes of initial advanced cardiac life support. However, the median time from collapse to randomization was 25 minutes, and the median duration of resuscitation was 52.5 minutes. The initial period of 25 minutes before randomization included approximately 8 to 10 minutes for the emergency medical service crews to reach the scene and 15 to 17 minutes of initial resuscitation.
+    </p>
+</div>
+</div>
+
 <div class="item feed-ed41d94f feed-jamacurrentissue" id="item-95410e50">
 <p class="itemheader">
 <span class="itemtitle"><a href="https://jamanetwork.com/journals/jama/fullarticle/2793448">JAMA</a></span>
 <span class="itemfrom">[<a href="https://jamanetwork.com/journals/jama">JAMA Current Issue</a>]</span>
 </p>
 
-</div>
-
-<div class="item feed-ed41d94f feed-jamacurrentissue" id="item-5a1e7658">
-<p class="itemheader">
-<span class="itemtitle"><a href="https://jamanetwork.com/journals/jama/fullarticle/2793447">USPSTF Review: Vitamin and Mineral Supplements for Primary Prevention of CVD and Cancer</a></span>
-<span class="itemfrom">[<a href="https://jamanetwork.com/journals/jama">JAMA Current Issue</a>]</span>
-</p>
-<div class="itemdescription">
-<p>
-      This systematic review to support the 2022 US Preventive Services Task Force Recommendation Statement on vitamin and mineral supplements for the prevention of cardiovascular disease (CVD) and cancer summarizes published evidence on the benefits and harms of vitamin and mineral supplementation for primary prevention of CVD and cancer among adults without CVD or cancer and with no known vitamin or mineral deficiencies.
-    </p>
-</div>
-</div>
-
-</div>
-<div class="time">
-<h3>10:18 AM</h3>
-<div class="item feed-53ba08d1 feed-natureissuenaturecomsciencefeeds" id="item-e5ee0875">
-<p class="itemheader">
-<span class="itemtitle"><a href="https://www.nature.com/articles/d41586-022-01700-4">Misinformation: broaden definition to curb its societal influence</a></span>
-<span class="itemfrom">[<a href="http://feeds.nature.com/nature/rss/current">Nature - Issue - nature.com science feeds</a>]</span>
-</p>
-<div class="itemdescription">
-<p>
-      Nature, Published online: 21 June 2022; <a href="https://www.nature.com/articles/d41586-022-01700-4">doi:10.1038/d41586-022-01700-4</a>
-    </p>Misinformation: broaden definition to curb its societal influence
-</div>
 </div>
 
 </div>
@@ -393,6 +393,18 @@
 </div>
 </div>
 
+<div class="item feed-ccdce26d feed-ieeetransactionsonindustrialinformaticsnewtoc" id="item-80552b2d">
+<p class="itemheader">
+<span class="itemtitle"><a href="http://ieeexplore.ieee.org/document/9740428">PCFed: Privacy-Enhanced and Communication-Efficient Federated Learning for Industrial IoTs</a></span>
+<span class="itemfrom">[<a href="http://ieeexplore.ieee.org">IEEE Transactions on Industrial Informatics - new TOC</a>]</span>
+</p>
+<div class="itemdescription">
+<p>
+      Federated learning (FL) is capable of analyzing tremendous data from smart edge devices in Industrial Internet of Things (IIoTs), empowering numerous industrial applications. However, the increasing privacy concerns and deployment costs of IIoT environment have been posing new challenges for FL. This article proposes PCFed, a novel privacy-enhanced and communication-efficient FL framework to provide higher model accuracy with rigorous privacy guarantees and great communication efficiency. In particular, we develop a sampling-based intermittent communication strategy via a PID (proportional, integral, and derivative) controller on the cloud server to adaptively reduce the communication frequency. In addition, we design a budget allocation mechanism to balance the tradeoff between model accuracy and privacy loss. Then, we develop PCFed+, an enhanced variant for PCFed, with further consideration of infinite data streams on edge servers. Extensive experiments demonstrate that both PCFed and PCFed+ can significantly outperform existing schemes, in terms of communication efficiency, privacy protection, and model accuracy.
+    </p>
+</div>
+</div>
+
 <div class="item feed-ccdce26d feed-ieeetransactionsonindustrialinformaticsnewtoc" id="item-7659555a">
 <p class="itemheader">
 <span class="itemtitle"><a href="http://ieeexplore.ieee.org/document/9744549">Guest Editorial: Special Section on Distributed Intelligence Over Internet of Things</a></span>
@@ -405,26 +417,14 @@
 </div>
 </div>
 
-<div class="item feed-ccdce26d feed-ieeetransactionsonindustrialinformaticsnewtoc" id="item-07c28e49">
+<div class="item feed-ccdce26d feed-ieeetransactionsonindustrialinformaticsnewtoc" id="item-70f8649b">
 <p class="itemheader">
-<span class="itemtitle"><a href="http://ieeexplore.ieee.org/document/9693141">Decentralized Wireless Federated Learning With Differential Privacy</a></span>
+<span class="itemtitle"><a href="http://ieeexplore.ieee.org/document/9693110">SAKE*: A Symmetric Authenticated Key Exchange Protocol With Perfect Forward Secrecy for Industrial Internet of Things</a></span>
 <span class="itemfrom">[<a href="http://ieeexplore.ieee.org">IEEE Transactions on Industrial Informatics - new TOC</a>]</span>
 </p>
 <div class="itemdescription">
 <p>
-      This article studies decentralized federated learning algorithms in wireless IoT networks. The traditional parameter server architecture for federated learning faces some problems such as low fault tolerance, large communication overhead and inaccessibility of private data. To solve these problems, we propose a decentralized wireless federated learning algorithm called DWFL. The algorithm works in a system where the workers are organized in a peer-to-peer and server-less manner, and the workers exchange their privacy preserving data with the analog transmission scheme over wireless channels in parallel. With rigorous analysis, we show that DWFL satisfies $(epsilon,delta)$-differential privacy and the privacy budget per worker scales as $mathcal {O}(frac{1}{sqrt{N}})$, in contrast with the constant budget in the orthogonal transmission approach. Furthermore, DWFL converges at the same rate of $mathcal {O}(sqrt{frac{1}{TN}})$ as the best known centralized algorithm with a central parameter server. Extensive experiments demonstrate that our algorithm DWFL also performs well in real settings.
-    </p>
-</div>
-</div>
-
-<div class="item feed-ccdce26d feed-ieeetransactionsonindustrialinformaticsnewtoc" id="item-d793b815">
-<p class="itemheader">
-<span class="itemtitle"><a href="http://ieeexplore.ieee.org/document/9720080">On-Device Saliency Prediction Based on Pseudoknowledge Distillation</a></span>
-<span class="itemfrom">[<a href="http://ieeexplore.ieee.org">IEEE Transactions on Industrial Informatics - new TOC</a>]</span>
-</p>
-<div class="itemdescription">
-<p>
-      Saliency prediction models aim to mimic the human visual system&#8217;s attention process, and the research has made significant progress due to recent advancements in deep convolution neural networks. However, the high memory requirements and intensive computational demands make these approaches less suitable for Internet-of-Things (IoT) devices, and there is a need for an improved computational efficiency and reduced memory footprint to facilitate distributed IoT intelligence. This article proposes a pseudoknowledge distillation (PKD) training method for creating a compact real-time saliency prediction model. The proposed method can effectively transfer knowledge from computationally expensive once-for-all (OFA-595) as a single teacher model and a combination of OFA-595 and EfficientNet-B7 as a multiteacher model to an early exit evolutionary algorithm network student model by utilizing knowledge distillation and pseudolabeling. Five saliency benchmark datasets are used to demonstrate PKD&#8217;s improved prediction performance and its reduced inference time without modifying the original student model.
+      Security in the Industrial Internet of Things (IIoT) is vital as there are some cases where IIoT devices collect sensory information for crucial social production and life. Thus, designing secure and efficient communication channels is always a research hotspot. However, end devices have memory, computation, and power-supplying capacities limitations. Moreover, perfect forward secrecy (PFS), which means that long-term key exposure still discloses previous session keys, is a critical security property for authentication and key exchange (AKE). This article proposes an AKE protocol named SAKE* for the IIoT environment, where two types of keys (i.e., a master key and an evolution key) guarantee PFS. In addition, the SAKE* protocol merely uses concatenation, XOR, and hash-function operations to achieve lightweight authentication, key exchange, and message integrity. We also compare the SAKE* protocol with seven current and IoT-related authentication protocols regarding security properties and performance. Comparison results indicate that the SAKE* protocol consumes the least computation resource and third-least communication cost among eight AKE protocols while equipping 12 security properties.
     </p>
 </div>
 </div>
@@ -471,18 +471,6 @@
 </div>
 </div>
 
-<div class="item feed-094cb33b feed-ieeetransactionsonindustrialelectronicsnewtoc" id="item-a8109dac">
-<p class="itemheader">
-<span class="itemtitle"><a href="http://ieeexplore.ieee.org/document/9591415">One-Cycle Control for Pulse Power Generator in Electrical-Discharge-Machining</a></span>
-<span class="itemfrom">[<a href="http://ieeexplore.ieee.org">IEEE Transactions on Industrial Electronics - new TOC</a>]</span>
-</p>
-<div class="itemdescription">
-<p>
-      Due to a short-time gap breakdown in electrical discharge machining (EDM), a high dynamic response and flexible discharge current control ability are required for a pulse power generator. Therefore, a one-cycle control(OCC) of output current for a buck-type EDM pulse power generator is proposed. Considering the inductor current operating state, a full-range OCC current control is presented, and the Taylor expansion method is used for the duty cycle calculation. A duty cycle optimization strategy is proposed for transient states. Based on the small signal modeling, the dynamic response ability of the system is analyzed. The discharge current can switch from many transient states to a steady state in a few switching cycles without a current overshoot, and follow the average current reference well in the steady state.
-    </p>
-</div>
-</div>
-
 <div class="item feed-094cb33b feed-ieeetransactionsonindustrialelectronicsnewtoc" id="item-e4d0803f">
 <p class="itemheader">
 <span class="itemtitle"><a href="http://ieeexplore.ieee.org/document/9591282">CDSC-Based Adaptive Impedance Measurement Method for Grid-Tied Inverter System Under Adverse Grid Voltage Conditions</a></span>
@@ -495,21 +483,33 @@
 </div>
 </div>
 
+<div class="item feed-094cb33b feed-ieeetransactionsonindustrialelectronicsnewtoc" id="item-29f85a4a">
+<p class="itemheader">
+<span class="itemtitle"><a href="http://ieeexplore.ieee.org/document/9617151">A High-Performance Tactical-Grade Monolithic Horizontal Dual-Axis MEMS Gyroscope With Off-Plane Coupling Suppression Silicon Gratings</a></span>
+<span class="itemfrom">[<a href="http://ieeexplore.ieee.org">IEEE Transactions on Industrial Electronics - new TOC</a>]</span>
+</p>
+<div class="itemdescription">
+<p>
+      This articledemonstrates the developments toward a high-performance monolithic wheeled structure horizontal dual-axis [pitch (X-axis) and roll (Y-axis)] microelectromechanical system (MEMS) gyroscope based on off-plane coupling suppression silicon gratings. Gyroscopes have been fabricated with a silicon-on-glass fabrication process with vacuum sealed in metal packaging. The featured gyroscope operates in split mode with the bandwidths of two axes devices both of &#8764;70 Hz. By unitizing two individual active restraining control loops that adjust the quadrature amplitude via differentially biasing the silicon gratings in real time, the off-plane mechanical couplings of the two sense modes are significantly reduced by &#8764;95 and &#8764;30 times, which enables &#8764;25-fold and &#8764;56-fold improvements in the bias instability (BI) for a typical dual-axis device. Tactical-grade performances are achieved for both the X-axis and Y-axis gyroscopes with angle random walk of 0.02 deg/&#8730;h and 0.045 deg/&#8730;h along with in-run BI of 0.26 deg/h and 0.65 deg/h, respectively, without any temperature compensation. The current preliminary results show great potential to achieve navigation grade precision by employing the mode-matching technique in the future. The use of silicon gratings for out-of-plane coupling reduction also provides an effective way to build a high-performance planar monolithic chip inertial measurement unit.
+    </p>
+</div>
+</div>
+
 </div>
 </div>
 <div class="day">
 <h2>Friday, 27 May 2022</h2>
 <div class="time">
 <h3>10:19 AM</h3>
-<div class="item feed-f57a289c feed-europeanpoliticalsciencereview" id="item-ab4f8947">
+<div class="item feed-f57a289c feed-europeanpoliticalsciencereview" id="item-d2155bbb">
 <p class="itemheader">
-<span class="itemtitle"><a href="https://dx.doi.org/10.1017/S175577392200008X?rft_dat=source%3Ddrss">Social influence and political participation around the world</a></span>
+<span class="itemtitle"><a href="https://dx.doi.org/10.1017/S1755773922000078?rft_dat=source%3Ddrss">Perceived risk crowds out trust? Trust and public compliance with coronavirus restrictions over the course of the pandemic</a></span>
 <span class="itemfrom">[<a href="https://www.cambridge.org/core/journals/european-political-science-review/latest-issue">European Political Science Review</a>]</span>
 </p>
 <div class="itemdescription">
 <div class="abstract">
       <p>
-        Social influence among people is widely understood to be a universal component of the human experience. However, studies of political behavior have generally approached social influence as specific to a type of behavior, such as voting, in a particular national context. There are good reasons to expect that social influence is observable across diverse behaviors and national contexts. In this study, we test this expectation using a two-wave panel survey of national samples in 19 countries. We employ autoregressive models that address some of the endogeneity challenges associated with attempts to measure social influence with survey designs. Our measure of social influence is predictive of diverse political behaviors in many countries with average effects comparable in size to important standard predictors of behavior.
+        Governments rely on citizen compliance for official rules to be effective. Yet achieving compliance is often tricky, particular when individual costs are high. Under what conditions will citizens voluntarily respect collective rules? We explore public compliance with SARS-CoV-2 (coronavirus) restrictions, focusing on the role of political trust. We anticipate that the effects of trust on compliance will be conditional on the presence of other factors, notably fear of infection. Low levels of fear may provide room for trust to shape compliance; yet high levels of fear may &#8216;crowd out&#8217; the role of trust. We hypothesize that, at the pandemic&#8217;s outset, compliance was likely to be shaped more by fear than by trust. Yet as the pandemic progressed, the impact of fear on compliance was likely to have weakened, and the impact of trust to have strengthened. These hypotheses are tested using longitudinal data from Austria, Germany, and the United Kingdom.
       </p>
     </div>
 </div>
@@ -543,23 +543,23 @@
 </div>
 </div>
 
-<div class="item feed-f57a289c feed-europeanpoliticalsciencereview" id="item-b2e6672f">
+<div class="item feed-f57a289c feed-europeanpoliticalsciencereview" id="item-5ccb58c4">
 <p class="itemheader">
-<span class="itemtitle"><a href="https://dx.doi.org/10.1017/S1755773922000017?rft_dat=source%3Ddrss">Setting the terms of state intervention: employers, unions and the politics of inclusiveness in Austrian and Danish vocational education institutions</a></span>
+<span class="itemtitle"><a href="https://dx.doi.org/10.1017/S1755773922000054?rft_dat=source%3Ddrss">Exploring the domestic and international drivers of professionalization of Central and Eastern European interest groups</a></span>
 <span class="itemfrom">[<a href="https://www.cambridge.org/core/journals/european-political-science-review/latest-issue">European Political Science Review</a>]</span>
 </p>
 <div class="itemdescription">
 <div class="abstract">
       <p>
-        How do coalitional dynamics matter for the capacity of states to maintain social inclusion in coordinated models of capitalism? Taking its departure in scholarship emphasizing the influence of employers on the extent of state intervention in post-industrial economies, this paper argues that employer influence depends on which actors they team up with &#8211; unions or parties. If unions depend on employers for their organizational influence in a policy field, unions become a strong coalitional partner for employers in weakening demands for inclusiveness from the parliamentary arena. Conversely, if unions have influence independent of any coalition with employers, both unions and employers are likely to team up with political parties aligned with their preferences. This makes the level of inclusion resulting from increased state intervention more fluctuating, depending on who holds government power. A comparative study of reforms of Danish and Austrian vocational education institutions corroborates the empirical purchase of the argument.
+        While there has been a veritable boom in literature on organized interests, their lobbying strategies, relationships with decision-makers, and their impact on policymaking, only a few studies have explored internal organizational developments and, specifically, the professionalization of interest groups. The present study focuses on the national and transnational factors driving the professionalization of interest groups in Central and Eastern Europe, a region previously neglected in much of the interest group literature. Based on a sample of more than 400 surveyed organizations operating in Poland, the Czech Republic, Hungary, and Slovenia in the healthcare, higher education, and energy sectors, we explore three bundles of factors potentially enhancing the professionalization of interest groups &#8211; organizational funding sources, national and transnational intergroup cooperation and organizations&#8217; standing in the domestic interest group system. Our statistical analyses show that state subsidies and tight policy coordination with the state are crucial drivers of internal organizational professionalization, suggesting rather patronistic and symbiotic relationships between the state and certain organizations. However, our data also support the notion that interorganizational collaboration, both at the national and international levels, may also be key to organizational professionalization, enabling groups that lack close ties with the state to compensate their disadvantage with intensive domestic and international networking. The study is also among the first to link increasing professionalization with organizational population density.
       </p>
     </div>
 </div>
 </div>
 
-<div class="item feed-f57a289c feed-europeanpoliticalsciencereview" id="item-abde90bf">
+<div class="item feed-f57a289c feed-europeanpoliticalsciencereview" id="item-dc7bae42">
 <p class="itemheader">
-<span class="itemtitle"><a href="https://dx.doi.org/10.1017/S1755773922000182?rft_dat=source%3Ddrss">EPR volume 14 issue 2 Cover and Back matter</a></span>
+<span class="itemtitle"><a href="https://dx.doi.org/10.1017/S1755773922000170?rft_dat=source%3Ddrss">EPR volume 14 issue 2 Cover and Front matter</a></span>
 <span class="itemfrom">[<a href="https://www.cambridge.org/core/journals/european-political-science-review/latest-issue">European Political Science Review</a>]</span>
 </p>
 
@@ -613,14 +613,14 @@
 </div>
 </div>
 
-<div class="item feed-52e73913 feed-annualreviewsannualreviewofpoliticalsciencetableofcontents" id="item-387f4342">
+<div class="item feed-52e73913 feed-annualreviewsannualreviewofpoliticalsciencetableofcontents" id="item-b2d4f10d">
 <p class="itemheader">
-<span class="itemtitle"><a href="https://www.annualreviews.org/doi/abs/10.1146/annurev-polisci-051120-013916?af=R">The American Political Economy: Markets, Power, and the Meta Politics of US Economic Governance</a></span>
+<span class="itemtitle"><a href="https://www.annualreviews.org/doi/abs/10.1146/annurev-polisci-051120-103913?af=R">Non-Modernization: Power&#8211;Culture Trajectories and the Dynamics of Political Institutions</a></span>
 <span class="itemfrom">[<a href="https://www.annualreviews.org/loi/polisci?af=R">Annual Reviews: Annual Review of Political Science: Table of Contents</a>]</span>
 </p>
 <div class="itemdescription">
 <p>
-      Annual Review of Political Science, <a href="https://www.annualreviews.org/toc/polisci/25/1">Volume 25, Issue 1</a>, Page 197-217, May 2022.<br>
+      Annual Review of Political Science, <a href="https://www.annualreviews.org/toc/polisci/25/1">Volume 25, Issue 1</a>, Page 323-339, May 2022.<br>
     </p>
 </div>
 </div>
@@ -679,6 +679,18 @@
 </div>
 </div>
 
+<div class="item feed-c99fafa0 feed-ieeetransactionsonimageprocessingnewtoc" id="item-eec98186">
+<p class="itemheader">
+<span class="itemtitle"><a href="http://ieeexplore.ieee.org/document/9755947">Cross-Batch Hard Example Mining With Pseudo Large Batch for ID vs. Spot Face Recognition</a></span>
+<span class="itemfrom">[<a href="http://ieeexplore.ieee.org">IEEE Transactions on Image Processing - new TOC</a>]</span>
+</p>
+<div class="itemdescription">
+<p>
+      In our daily life, a large number of activities require identity verification, e.g., ePassport gates. Most of those verification systems recognize who you are by matching the ID document photo (ID face) to your live face image (spot face). The ID vs. Spot (IvS) face recognition is different from general face recognition where each dataset usually contains a small number of subjects and sufficient images for each subject. In IvS face recognition, the datasets usually contain massive class numbers (million or more) while each class only has two image samples (one ID face and one spot face), which makes it very challenging to train an effective model (e.g., excessive demand on GPU memory if conducting the classification on such massive classes, hardly capture the effective features for bisample data of each identity, etc.). To avoid the excessive demand on GPU memory, a two-stage training method is developed, where we first train the model on the dataset in general face recognition (e.g., MS-Celeb-1M) and then employ the metric learning losses (e.g., triplet and quadruplet losses) to learn the features on IvS data with million classes. To extract more effective features for IvS face recognition, we propose two novel algorithms to enhance the network by selecting harder samples for training. Firstly, a Cross-Batch Hard Example Mining (CB-HEM) is proposed to select the hard triplets from not only the current mini-batch but also past dozens of mini-batches (for convenience, we use batch to denote a mini-batch in the following), which can significantly expand the space of sample selection. Secondly, a Pseudo Large Batch (PLB) is proposed to virtually increase the batch size with a fixed GPU memory. The proposed PLB and CB-HEM can be employed simultaneously to train the network, which dramatically expands the selecting space by hundreds of times, where the very hard sample pairs especially the hard negative pairs can be selected for training to enhance the discriminative c- pability. Extensive comparative evaluations conducted on multiple IvS benchmarks demonstrate the effectiveness of the proposed method.
+    </p>
+</div>
+</div>
+
 </div>
 </div>
 <div class="day">
@@ -715,18 +727,6 @@
 </div>
 </div>
 
-<div class="item feed-b3e4c5b6 feed-annualreviewsannualreviewofphysiologytableofcontents" id="item-d4ff47d8">
-<p class="itemheader">
-<span class="itemtitle"><a href="https://www.annualreviews.org/doi/abs/10.1146/annurev-physiol-060721-092930?ai=sp&amp;mi=3fndc3&amp;af=R">Adipose Tissue Fibrosis in Obesity: Etiology and Challenges</a></span>
-<span class="itemfrom">[<a href="https://www.annualreviews.org/loi/physiol?ai=sp&amp;mi=3fndc3&amp;af=R">Annual Reviews: Annual Review of Physiology: Table of Contents</a>]</span>
-</p>
-<div class="itemdescription">
-<p>
-      Annual Review of Physiology, <a href="https://www.annualreviews.org/toc/physiol/84/1">Volume 84, Issue 1</a>, Page 135-155, February 2022.<br>
-    </p>
-</div>
-</div>
-
 <div class="item feed-b3e4c5b6 feed-annualreviewsannualreviewofphysiologytableofcontents" id="item-fd4a91a4">
 <p class="itemheader">
 <span class="itemtitle"><a href="https://www.annualreviews.org/doi/abs/10.1146/annurev-physiol-052521-013627?ai=sp&amp;mi=3fndc3&amp;af=R">Inflammatory Modulation of Hematopoiesis: Linking Trained Immunity and Clonal Hematopoiesis with Chronic Disorders</a></span>
@@ -759,6 +759,18 @@
 <div class="itemdescription">
 <p>
       Annual Review of Physiology, <a href="https://www.annualreviews.org/toc/physiol/84/1">Volume 84, Issue 1</a>, Page 381-407, February 2022.<br>
+    </p>
+</div>
+</div>
+
+<div class="item feed-b3e4c5b6 feed-annualreviewsannualreviewofphysiologytableofcontents" id="item-b33df150">
+<p class="itemheader">
+<span class="itemtitle"><a href="https://www.annualreviews.org/doi/abs/10.1146/annurev-physiol-060821-013950?ai=sp&amp;mi=3fndc3&amp;af=R">Roles of Mineralocorticoid Receptors in Cardiovascular and Cardiorenal Diseases</a></span>
+<span class="itemfrom">[<a href="https://www.annualreviews.org/loi/physiol?ai=sp&amp;mi=3fndc3&amp;af=R">Annual Reviews: Annual Review of Physiology: Table of Contents</a>]</span>
+</p>
+<div class="itemdescription">
+<p>
+      Annual Review of Physiology, <a href="https://www.annualreviews.org/toc/physiol/84/1">Volume 84, Issue 1</a>, Page 585-610, February 2022.<br>
     </p>
 </div>
 </div>
@@ -823,32 +835,20 @@
 </div>
 </div>
 
-<div class="item feed-c99fafa0 feed-ieeetransactionsonimageprocessingnewtoc" id="item-dd904317">
-<p class="itemheader">
-<span class="itemtitle"><a href="http://ieeexplore.ieee.org/document/9677918">Task-Oriented Convex Bilevel Optimization With Latent Feasibility</a></span>
-<span class="itemfrom">[<a href="http://ieeexplore.ieee.org">IEEE Transactions on Image Processing - new TOC</a>]</span>
-</p>
-<div class="itemdescription">
-<p>
-      This paper firstly proposes a convex bilevel optimization paradigm to formulate and optimize popular learning and vision problems in real-world scenarios. Different from conventional approaches, which directly design their iteration schemes based on given problem formulation, we introduce a task-oriented energy as our latent constraint which integrates richer task information. By explicitly re- characterizing the feasibility, we establish an efficient and flexible algorithmic framework to tackle convex models with both shrunken solution space and powerful auxiliary (based on domain knowledge and data distribution of the task). In theory, we present the convergence analysis of our latent feasibility re- characterization based numerical strategy. We also analyze the stability of the theoretical convergence under computational error perturbation. Extensive numerical experiments are conducted to verify our theoretical findings and evaluate the practical performance of our method on different applications.
-    </p>
-</div>
-</div>
-
 </div>
 </div>
 <div class="day">
 <h2>Tuesday, 12 October 2021</h2>
 <div class="time">
 <h3>02:32 AM</h3>
-<div class="item feed-b2590d03 feed-annualreviewsannualreviewofnutritiontableofcontents" id="item-6720862c">
+<div class="item feed-b2590d03 feed-annualreviewsannualreviewofnutritiontableofcontents" id="item-c5ba9347">
 <p class="itemheader">
-<span class="itemtitle"><a href="https://www.annualreviews.org/doi/abs/10.1146/annurev-nutr-110320-013657?ai=rz&amp;mi=3fndc3&amp;af=R">The Roles of Cytoplasmic Lipid Droplets in Modulating Intestinal Uptake of Dietary Fat</a></span>
+<span class="itemtitle"><a href="https://www.annualreviews.org/doi/abs/10.1146/annurev-nutr-082018-124228?ai=rz&amp;mi=3fndc3&amp;af=R">Vitamin A and Vitamin E: Will the Real Antioxidant Please Stand Up?</a></span>
 <span class="itemfrom">[<a href="https://www.annualreviews.org/loi/nutr?ai=rz&amp;mi=3fndc3&amp;af=R">Annual Reviews: Annual Review of Nutrition: Table of Contents</a>]</span>
 </p>
 <div class="itemdescription">
 <p>
-      Annual Review of Nutrition, <a href="https://www.annualreviews.org/toc/nutr/41/1">Volume 41, Issue 1</a>, Page 79-104, October 2021.<br>
+      Annual Review of Nutrition, <a href="https://www.annualreviews.org/toc/nutr/41/1">Volume 41, Issue 1</a>, Page 105-131, October 2021.<br>
     </p>
 </div>
 </div>
@@ -865,14 +865,14 @@
 </div>
 </div>
 
-<div class="item feed-b2590d03 feed-annualreviewsannualreviewofnutritiontableofcontents" id="item-f9b53f6a">
+<div class="item feed-b2590d03 feed-annualreviewsannualreviewofnutritiontableofcontents" id="item-8d9207b5">
 <p class="itemheader">
-<span class="itemtitle"><a href="https://www.annualreviews.org/doi/abs/10.1146/annurev-nutr-021020-025755?ai=rz&amp;mi=3fndc3&amp;af=R">Nutritional Interventions and the Gut Microbiome in Children</a></span>
+<span class="itemtitle"><a href="https://www.annualreviews.org/doi/abs/10.1146/annurev-nutr-120420-021719?ai=rz&amp;mi=3fndc3&amp;af=R">Sleep and Diet: Mounting Evidence of a Cyclical Relationship</a></span>
 <span class="itemfrom">[<a href="https://www.annualreviews.org/loi/nutr?ai=rz&amp;mi=3fndc3&amp;af=R">Annual Reviews: Annual Review of Nutrition: Table of Contents</a>]</span>
 </p>
 <div class="itemdescription">
 <p>
-      Annual Review of Nutrition, <a href="https://www.annualreviews.org/toc/nutr/41/1">Volume 41, Issue 1</a>, Page 479-510, October 2021.<br>
+      Annual Review of Nutrition, <a href="https://www.annualreviews.org/toc/nutr/41/1">Volume 41, Issue 1</a>, Page 309-332, October 2021.<br>
     </p>
 </div>
 </div>
@@ -937,14 +937,14 @@
 </div>
 </div>
 
-<div class="item feed-a4d49d75 feed-annualreviewsannualreviewofeconomicstableofcontents" id="item-44ee2057">
+<div class="item feed-a4d49d75 feed-annualreviewsannualreviewofeconomicstableofcontents" id="item-d0064a2f">
 <p class="itemheader">
-<span class="itemtitle"><a href="https://www.annualreviews.org/doi/abs/10.1146/annurev-economics-081020-044812?ai=67b7&amp;mi=3fndc3&amp;af=R">Estimating DSGE Models: Recent Advances and Future Challenges</a></span>
+<span class="itemtitle"><a href="https://www.annualreviews.org/doi/abs/10.1146/annurev-economics-081020-051248?ai=67b7&amp;mi=3fndc3&amp;af=R">The International Aspects of Macroprudential Policy</a></span>
 <span class="itemfrom">[<a href="https://www.annualreviews.org/loi/economics?ai=67b7&amp;mi=3fndc3&amp;af=R">Annual Reviews: Annual Review of Economics: Table of Contents</a>]</span>
 </p>
 <div class="itemdescription">
 <p>
-      Annual Review of Economics, <a href="https://www.annualreviews.org/toc/economics/13/1">Volume 13, Issue 1</a>, Page 229-252, August 2021.<br>
+      Annual Review of Economics, <a href="https://www.annualreviews.org/toc/economics/13/1">Volume 13, Issue 1</a>, Page 203-228, August 2021.<br>
     </p>
 </div>
 </div>
@@ -961,14 +961,14 @@
 </div>
 </div>
 
-<div class="item feed-a4d49d75 feed-annualreviewsannualreviewofeconomicstableofcontents" id="item-60287606">
+<div class="item feed-a4d49d75 feed-annualreviewsannualreviewofeconomicstableofcontents" id="item-2fde0284">
 <p class="itemheader">
-<span class="itemtitle"><a href="https://www.annualreviews.org/doi/abs/10.1146/annurev-economics-092120-044327?ai=67b7&amp;mi=3fndc3&amp;af=R">Directed Technical Change in Labor and Environmental Economics</a></span>
+<span class="itemtitle"><a href="https://www.annualreviews.org/doi/abs/10.1146/annurev-economics-091520-082042?ai=67b7&amp;mi=3fndc3&amp;af=R">Inflation Inequality: Measurement, Causes, and Policy Implications</a></span>
 <span class="itemfrom">[<a href="https://www.annualreviews.org/loi/economics?ai=67b7&amp;mi=3fndc3&amp;af=R">Annual Reviews: Annual Review of Economics: Table of Contents</a>]</span>
 </p>
 <div class="itemdescription">
 <p>
-      Annual Review of Economics, <a href="https://www.annualreviews.org/toc/economics/13/1">Volume 13, Issue 1</a>, Page 571-597, August 2021.<br>
+      Annual Review of Economics, <a href="https://www.annualreviews.org/toc/economics/13/1">Volume 13, Issue 1</a>, Page 599-629, August 2021.<br>
     </p>
 </div>
 </div>
@@ -981,6 +981,18 @@
 <div class="itemdescription">
 <p>
       Annual Review of Sociology, <a href="https://www.annualreviews.org/toc/soc/47/1">Volume 47, Issue 1</a>, Page 87-108, July 2021.<br>
+    </p>
+</div>
+</div>
+
+<div class="item feed-3b836157 feed-annualreviewsannualreviewofsociologytableofcontents" id="item-376dc41a">
+<p class="itemheader">
+<span class="itemtitle"><a href="https://www.annualreviews.org/doi/abs/10.1146/annurev-soc-081320-114850?ai=t0&amp;mi=3fndc3&amp;af=R">The (Un)Managed Heart: Racial Contours of Emotion Work in Gendered Occupations</a></span>
+<span class="itemfrom">[<a href="https://www.annualreviews.org/loi/soc?ai=t0&amp;mi=3fndc3&amp;af=R">Annual Reviews: Annual Review of Sociology: Table of Contents</a>]</span>
+</p>
+<div class="itemdescription">
+<p>
+      Annual Review of Sociology, <a href="https://www.annualreviews.org/toc/soc/47/1">Volume 47, Issue 1</a>, Page 197-212, July 2021.<br>
     </p>
 </div>
 </div>
@@ -1021,36 +1033,12 @@
 </div>
 </div>
 
-<div class="item feed-3b836157 feed-annualreviewsannualreviewofsociologytableofcontents" id="item-879d3fb3">
-<p class="itemheader">
-<span class="itemtitle"><a href="https://www.annualreviews.org/doi/abs/10.1146/annurev-soc-082620-030256?ai=t0&amp;mi=3fndc3&amp;af=R">La Sociolog&#237;a de las Emociones en Am&#233;rica Latina</a></span>
-<span class="itemfrom">[<a href="https://www.annualreviews.org/loi/soc?ai=t0&amp;mi=3fndc3&amp;af=R">Annual Reviews: Annual Review of Sociology: Table of Contents</a>]</span>
-</p>
-<div class="itemdescription">
-<p>
-      Annual Review of Sociology, <a href="https://www.annualreviews.org/toc/soc/47/1">Volume 47, Issue 1</a>, Page S-1-S-19, July 2021.<br>
-    </p>
-</div>
-</div>
-
 </div>
 </div>
 <div class="day">
 <h2>Friday, 16 July 2021</h2>
 <div class="time">
 <h3>06:18 PM</h3>
-<div class="item feed-63a85565 feed-eurekalertbreakingnews" id="item-e58f4e31">
-<p class="itemheader">
-<span class="itemtitle"><a href="https://www.eurekalert.org/pub_releases/2021-07/uosc-et071621.php">Enabling the 'imagination' of artificial intelligence</a></span>
-<span class="itemfrom">[<a href="http://www.eurekalert.org">EurekAlert! - Breaking News</a>]</span>
-</p>
-<div class="itemdescription">
-<p>
-      Despite advances in deep neural networks, computers still struggle with the very human skill of "imagination." Now, a USC research team has developed an AI that uses human-like capabilities to imagine a never-before-seen object with different attributes.
-    </p>
-</div>
-</div>
-
 <div class="item feed-63a85565 feed-eurekalertbreakingnews" id="item-98be0e60">
 <p class="itemheader">
 <span class="itemtitle"><a href="https://www.eurekalert.org/pub_releases/2021-07/uom-uom071621.php">University of Maryland engineers 3D printed a soft robotic hand that can play Nintendo</a></span>
@@ -1071,6 +1059,18 @@
 <div class="itemdescription">
 <p>
       <strong>What The Study Did:</strong> N<span dir="ltr">ational health care systems have</span> <span dir="ltr">different capacities to correctly identify people who died of COVID-19.</span> <span dir="ltr">Researchers in this study analyzed the gap between excess mortality and&#160; COVID-19 confirmed mortality in 67 countries to determine the extent to which official data on COVID-19 deaths might be considered reliable.</span>
+    </p>
+</div>
+</div>
+
+<div class="item feed-63a85565 feed-eurekalertbreakingnews" id="item-ffa0914f">
+<p class="itemheader">
+<span class="itemtitle"><a href="https://www.eurekalert.org/pub_releases/2021-07/e-gfn071421.php">Galactic fireworks: New ESO images reveal stunning features of nearby galaxies</a></span>
+<span class="itemfrom">[<a href="http://www.eurekalert.org">EurekAlert! - Breaking News</a>]</span>
+</p>
+<div class="itemdescription">
+<p>
+      A team of astronomers has released new observations of nearby galaxies that resemble colourful cosmic fireworks. The images, obtained with the European Southern Observatory's Very Large Telescope (ESO's VLT), show different components of the galaxies in distinct colours, allowing astronomers to pinpoint the locations of young stars and the gas they warm up around them.
     </p>
 </div>
 </div>
@@ -1108,14 +1108,14 @@
 <h2>Thursday, 17 December 2020</h2>
 <div class="time">
 <h3>10:03 AM</h3>
-<div class="item feed-b93c25e9 feed-earlyedition" id="item-f1046fc0">
+<div class="item feed-b93c25e9 feed-earlyedition" id="item-76342d74">
 <p class="itemheader">
-<span class="itemtitle"><a href="http://feedproxy.google.com/~r/Pnas-RssFeedOfEarlyEditionArticles/~3/FgxKzBIPOmc/2006511117.short">Evolutionary determinism and convergence associated with water-column transitions in marine fishes [Evolution]</a></span>
+<span class="itemtitle"><a href="http://feedproxy.google.com/~r/Pnas-RssFeedOfEarlyEditionArticles/~3/kIObLL3rpHo/2022205117.short">Decoding DMD transcriptional networks using single-nucleus RNA sequencing [Commentaries]</a></span>
 <span class="itemfrom">[<a href="http://www.pnas.org">Early Edition</a>]</span>
 </p>
 <div class="itemdescription">
 <p>
-      Repeatable, convergent outcomes are prima facie evidence for determinism in evolutionary processes. Among fishes, well-known examples include microevolutionary habitat transitions into the water column, where freshwater populations (e.g., sticklebacks, cichlids, and whitefishes) recurrently diverge toward slender-bodied pelagic forms and deep-bodied benthic forms. However, the consequences of such processes at deeper...<img alt="" height="1" src="http://feeds.feedburner.com/~r/Pnas-RssFeedOfEarlyEditionArticles/~4/FgxKzBIPOmc" width="1">
+      Duchenne muscular dystrophy (DMD) is an X chromosome-linked disease, and it is the most common form of muscular dystrophy caused by genetic mutations in the Dmd gene (1). The Dmd gene contains 79 exons, spans 2.4 Mb, and is the single largest gene in the human genome (2). This gene...<img alt="" height="1" src="http://feeds.feedburner.com/~r/Pnas-RssFeedOfEarlyEditionArticles/~4/kIObLL3rpHo" width="1">
     </p>
 </div>
 </div>
@@ -1290,127 +1290,127 @@
 <tr class="feedsrow">
 <td><a href="https://www.annualreviews.org/loi/economics?ai=67b7&amp;mi=3fndc3&amp;af=R">Annual Reviews: Annual Review of Economics: Table of Contents</a></td>
 <td><a class="xmlbutton" href="http://www.annualreviews.org/action/showFeed?ui=45mu4&amp;mi=3fndc3&amp;ai=67b7&amp;jc=economics&amp;type=etoc&amp;feed=rss">XML</a></td>
-<td>03:48 AM, Monday, 27 June 2022</td>
-<td>06:48 AM, Monday, 27 June 2022</td>
+<td>10:18 AM, Monday, 27 June 2022</td>
+<td>01:18 PM, Monday, 27 June 2022</td>
 </tr>
 
 <tr class="feedsrow">
 <td><a href="https://www.annualreviews.org/loi/nutr?ai=rz&amp;mi=3fndc3&amp;af=R">Annual Reviews: Annual Review of Nutrition: Table of Contents</a></td>
 <td><a class="xmlbutton" href="http://www.annualreviews.org/action/showFeed?ui=45mu4&amp;mi=3fndc3&amp;ai=rz&amp;jc=nutr&amp;type=etoc&amp;feed=rss">XML</a></td>
-<td>03:48 AM, Monday, 27 June 2022</td>
-<td>06:48 AM, Monday, 27 June 2022</td>
+<td>10:18 AM, Monday, 27 June 2022</td>
+<td>01:18 PM, Monday, 27 June 2022</td>
 </tr>
 
 <tr class="feedsrow">
 <td><a href="https://www.annualreviews.org/loi/physiol?ai=sp&amp;mi=3fndc3&amp;af=R">Annual Reviews: Annual Review of Physiology: Table of Contents</a></td>
 <td><a class="xmlbutton" href="http://www.annualreviews.org/action/showFeed?ui=45mu4&amp;mi=3fndc3&amp;ai=sp&amp;jc=physiol&amp;type=etoc&amp;feed=rss">XML</a></td>
-<td>03:48 AM, Monday, 27 June 2022</td>
-<td>06:48 AM, Monday, 27 June 2022</td>
+<td>10:18 AM, Monday, 27 June 2022</td>
+<td>01:18 PM, Monday, 27 June 2022</td>
 </tr>
 
 <tr class="feedsrow">
 <td><a href="https://www.annualreviews.org/loi/polisci?af=R">Annual Reviews: Annual Review of Political Science: Table of Contents</a></td>
 <td><a class="xmlbutton" href="http://www.annualreviews.org/action/showFeed?jc=polisci&amp;type=etoc&amp;feed=rss">XML</a></td>
-<td>03:48 AM, Monday, 27 June 2022</td>
-<td>06:48 AM, Monday, 27 June 2022</td>
+<td>10:18 AM, Monday, 27 June 2022</td>
+<td>01:18 PM, Monday, 27 June 2022</td>
 </tr>
 
 <tr class="feedsrow">
 <td><a href="https://www.annualreviews.org/loi/soc?ai=t0&amp;mi=3fndc3&amp;af=R">Annual Reviews: Annual Review of Sociology: Table of Contents</a></td>
 <td><a class="xmlbutton" href="http://www.annualreviews.org/action/showFeed?ui=45mu4&amp;mi=3fndc3&amp;ai=t0&amp;jc=soc&amp;type=etoc&amp;feed=rss">XML</a></td>
-<td>03:48 AM, Monday, 27 June 2022</td>
-<td>06:48 AM, Monday, 27 June 2022</td>
+<td>10:18 AM, Monday, 27 June 2022</td>
+<td>01:18 PM, Monday, 27 June 2022</td>
 </tr>
 
 <tr class="feedsrow">
 <td><a href="http://arxiv.org/">cs.CR updates on arXiv.org</a></td>
 <td><a class="xmlbutton" href="http://export.arxiv.org/rss/cs.CR">XML</a></td>
-<td>03:48 AM, Monday, 27 June 2022</td>
-<td>06:48 AM, Monday, 27 June 2022</td>
+<td>10:18 AM, Monday, 27 June 2022</td>
+<td>01:18 PM, Monday, 27 June 2022</td>
 </tr>
 
 <tr class="feedsrow">
 <td><a href="http://www.pnas.org">Early Edition</a></td>
 <td><a class="xmlbutton" href="http://feeds.feedburner.com/Pnas-RssFeedOfEarlyEditionArticles?format=xml">XML</a></td>
-<td>03:48 AM, Monday, 27 June 2022</td>
-<td>06:48 AM, Monday, 27 June 2022</td>
+<td>10:18 AM, Monday, 27 June 2022</td>
+<td>01:18 PM, Monday, 27 June 2022</td>
 </tr>
 
 <tr class="feedsrow">
 <td><a href="http://www.eurekalert.org">EurekAlert! - Breaking News</a></td>
 <td><a class="xmlbutton" href="https://www.eurekalert.org/rss.xml">XML</a></td>
-<td>03:48 AM, Monday, 27 June 2022</td>
-<td>06:48 AM, Monday, 27 June 2022</td>
+<td>10:18 AM, Monday, 27 June 2022</td>
+<td>01:18 PM, Monday, 27 June 2022</td>
 </tr>
 
 <tr class="feedsrow">
 <td><a href="https://www.cambridge.org/core/journals/european-political-science-review/latest-issue">European Political Science Review</a></td>
 <td><a class="xmlbutton" href="https://www.cambridge.org/core/rss/product/id/3DB89DF6A9878CE661D3CE5FC6E9D6BC">XML</a></td>
-<td>03:48 AM, Monday, 27 June 2022</td>
-<td>06:48 AM, Monday, 27 June 2022</td>
+<td>10:18 AM, Monday, 27 June 2022</td>
+<td>01:18 PM, Monday, 27 June 2022</td>
 </tr>
 
 <tr class="feedsrow">
 <td><a href="http://ieeexplore.ieee.org">IEEE Transactions on Image Processing - new TOC</a></td>
 <td><a class="xmlbutton" href="https://ieeexplore.ieee.org/rss/TOC83.XML">XML</a></td>
-<td>03:48 AM, Monday, 27 June 2022</td>
-<td>06:48 AM, Monday, 27 June 2022</td>
+<td>10:18 AM, Monday, 27 June 2022</td>
+<td>01:18 PM, Monday, 27 June 2022</td>
 </tr>
 
 <tr class="feedsrow">
 <td><a href="http://ieeexplore.ieee.org">IEEE Transactions on Industrial Electronics - new TOC</a></td>
 <td><a class="xmlbutton" href="https://ieeexplore.ieee.org/rss/TOC41.XML">XML</a></td>
-<td>03:48 AM, Monday, 27 June 2022</td>
-<td>06:48 AM, Monday, 27 June 2022</td>
+<td>10:18 AM, Monday, 27 June 2022</td>
+<td>01:18 PM, Monday, 27 June 2022</td>
 </tr>
 
 <tr class="feedsrow">
 <td><a href="http://ieeexplore.ieee.org">IEEE Transactions on Industrial Informatics - new TOC</a></td>
 <td><a class="xmlbutton" href="https://ieeexplore.ieee.org/rss/TOC9424.XML">XML</a></td>
-<td>03:48 AM, Monday, 27 June 2022</td>
-<td>06:48 AM, Monday, 27 June 2022</td>
+<td>10:18 AM, Monday, 27 June 2022</td>
+<td>01:18 PM, Monday, 27 June 2022</td>
 </tr>
 
 <tr class="feedsrow">
 <td><a href="http://ieeexplore.ieee.org">IEEE Transactions on Information Forensics and Security - new TOC</a></td>
 <td><a class="xmlbutton" href="https://ieeexplore.ieee.org/rss/TOC10206.XML">XML</a></td>
-<td>03:48 AM, Monday, 27 June 2022</td>
-<td>06:48 AM, Monday, 27 June 2022</td>
+<td>10:18 AM, Monday, 27 June 2022</td>
+<td>01:18 PM, Monday, 27 June 2022</td>
 </tr>
 
 <tr class="feedsrow">
 <td><a href="https://journals.humankinetics.com/view/journals/ijspp/ijspp-overview.xml">International Journal of Sports Physiology and Performance</a></td>
 <td><a class="xmlbutton" href="https://journals.humankinetics.com/journalissuetocrss/journals/ijspp/ijspp-overview.xml">XML</a></td>
-<td>03:48 AM, Monday, 27 June 2022</td>
-<td>06:48 AM, Monday, 27 June 2022</td>
+<td>10:18 AM, Monday, 27 June 2022</td>
+<td>01:18 PM, Monday, 27 June 2022</td>
 </tr>
 
 <tr class="feedsrow">
 <td><a href="https://jamanetwork.com/journals/jama">JAMA Current Issue</a></td>
 <td><a class="xmlbutton" href="https://jamanetwork.com/rss/site_3/67.xml">XML</a></td>
-<td>03:48 AM, Monday, 27 June 2022</td>
-<td>06:48 AM, Monday, 27 June 2022</td>
+<td>10:18 AM, Monday, 27 June 2022</td>
+<td>01:18 PM, Monday, 27 June 2022</td>
 </tr>
 
 <tr class="feedsrow">
 <td><a href="https://www.bmj.com/research/feed">Latest BMJ Research</a></td>
 <td><a class="xmlbutton" href="http://feeds.bmj.com/bmj/research?format=xml">XML</a></td>
-<td>03:48 AM, Monday, 27 June 2022</td>
-<td>06:48 AM, Monday, 27 June 2022</td>
+<td>10:18 AM, Monday, 27 June 2022</td>
+<td>01:18 PM, Monday, 27 June 2022</td>
 </tr>
 
 <tr class="feedsrow">
 <td><a href="http://feeds.nature.com/nature/rss/current">Nature - Issue - nature.com science feeds</a></td>
 <td><a class="xmlbutton" href="http://feeds.nature.com/nature/rss/current?format=xml">XML</a></td>
-<td>03:48 AM, Monday, 27 June 2022</td>
-<td>06:48 AM, Monday, 27 June 2022</td>
+<td>10:18 AM, Monday, 27 June 2022</td>
+<td>01:18 PM, Monday, 27 June 2022</td>
 </tr>
 
 <tr class="feedsrow">
 <td><a href="https://www.thelancet.com/journals/lancet/issue/current">The Lancet</a></td>
 <td><a class="xmlbutton" href="http://www.thelancet.com/rssfeed/lancet_current.xml">XML</a></td>
-<td>03:48 AM, Monday, 27 June 2022</td>
-<td>06:48 AM, Monday, 27 June 2022</td>
+<td>10:18 AM, Monday, 27 June 2022</td>
+<td>01:18 PM, Monday, 27 June 2022</td>
 </tr>
 
 </table>
