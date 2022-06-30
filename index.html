@@ -13,6 +13,48 @@
 </div>
 <div id="items">
 <div class="day">
+<h2>Thursday, 30 June 2022</h2>
+<div class="time">
+<h3>03:40 AM</h3>
+<div class="item feed-1b28272e feed-cscrupdatesonarxivorg" id="item-99741e2d">
+<p class="itemheader">
+<span class="itemtitle"><a href="http://arxiv.org/abs/2206.14560">A note on a Code-Based Signature Scheme. (arXiv:2206.14560v1 [cs.CR])</a></span>
+<span class="itemfrom">[<a href="http://arxiv.org/">cs.CR updates on arXiv.org</a>]</span>
+</p>
+<div class="itemdescription">
+<p>
+      In this work, we exploit a serious security flaw in a code-based signature scheme from a 2019 work by Liu, Yang, Han and Wang. They adapt the McEliece cryptosystem to obtain a new scheme and, on top of this, they design an efficient digital signature. We show that the new encryption scheme based on McEliece, even if it has longer public keys, is not more secure than the standard one. Moreover, the choice of parameters for the signature leads to a significant performance improvement, but it introduces a vulnerability in the protocol.
+    </p>
+</div>
+</div>
+
+<div class="item feed-1b28272e feed-cscrupdatesonarxivorg" id="item-774384e4">
+<p class="itemheader">
+<span class="itemtitle"><a href="http://arxiv.org/abs/2202.02448">Linear Model Against Malicious Adversaries with Local Differential Privacy. (arXiv:2202.02448v2 [cs.CR] UPDATED)</a></span>
+<span class="itemfrom">[<a href="http://arxiv.org/">cs.CR updates on arXiv.org</a>]</span>
+</p>
+<div class="itemdescription">
+<p>
+      Scientific collaborations benefit from collaborative learning of distributed sources, but remain difficult to achieve when data are sensitive. In recent years, privacy preserving techniques have been widely studied to analyze distributed data across different agencies while protecting sensitive information. Most existing privacy preserving techniques are designed to resist semi-honest adversaries and require intense computation to perform data analysis. Secure collaborative learning is significantly difficult with the presence of malicious adversaries who may deviates from the secure protocol. Another challenge is to maintain high computation efficiency with privacy protection. In this paper, matrix encryption is applied to encrypt data such that the secure schemes are against malicious adversaries, including chosen plaintext attack, known plaintext attack, and collusion attack. The encryption scheme also achieves local differential privacy. Moreover, cross validation is studied to prevent overfitting without additional communication cost. Empirical experiments on real-world datasets demonstrate that the proposed schemes are computationally efficient compared to existing techniques against malicious adversary and semi-honest model.
+    </p>
+</div>
+</div>
+
+<div class="item feed-1b28272e feed-cscrupdatesonarxivorg" id="item-eb95756a">
+<p class="itemheader">
+<span class="itemtitle"><a href="http://arxiv.org/abs/2205.07890">On the Difficulty of Defending Self-Supervised Learning against Model Extraction. (arXiv:2205.07890v3 [cs.LG] UPDATED)</a></span>
+<span class="itemfrom">[<a href="http://arxiv.org/">cs.CR updates on arXiv.org</a>]</span>
+</p>
+<div class="itemdescription">
+<p>
+      Self-Supervised Learning (SSL) is an increasingly popular ML paradigm that trains models to transform complex inputs into representations without relying on explicit labels. These representations encode similarity structures that enable efficient learning of multiple downstream tasks. Recently, ML-as-a-Service providers have commenced offering trained SSL models over inference APIs, which transform user inputs into useful representations for a fee. However, the high cost involved to train these models and their exposure over APIs both make black-box extraction a realistic security threat. We thus explore model stealing attacks against SSL. Unlike traditional model extraction on classifiers that output labels, the victim models here output representations; these representations are of significantly higher dimensionality compared to the low-dimensional prediction scores output by classifiers. We construct several novel attacks and find that approaches that train directly on a victim's stolen representations are query efficient and enable high accuracy for downstream models. We then show that existing defenses against model extraction are inadequate and not easily retrofitted to the specificities of SSL.
+    </p>
+</div>
+</div>
+
+</div>
+</div>
+<div class="day">
 <h2>Wednesday, 29 June 2022</h2>
 <div class="time">
 <h3>06:22 PM</h3>
@@ -43,18 +85,6 @@
 </div>
 </div>
 
-<div class="item feed-1b28272e feed-cscrupdatesonarxivorg" id="item-0a46a9d1">
-<p class="itemheader">
-<span class="itemtitle"><a href="http://arxiv.org/abs/2004.00275">Differentially Private Algorithms for Statistical Verification of Cyber-Physical Systems. (arXiv:2004.00275v2 [cs.LG] UPDATED)</a></span>
-<span class="itemfrom">[<a href="http://arxiv.org/">cs.CR updates on arXiv.org</a>]</span>
-</p>
-<div class="itemdescription">
-<p>
-      Statistical model checking is a class of sequential algorithms that can verify specifications of interest on an ensemble of cyber-physical systems (e.g., whether 99% of cars from a batch meet a requirement on their energy efficiency). These algorithms infer the probability that given specifications are satisfied by the systems with provable statistical guarantees by drawing sufficient numbers of independent and identically distributed samples. During the process of statistical model checking, the values of the samples (e.g., a user's car energy efficiency) may be inferred by intruders, causing privacy concerns in consumer-level applications (e.g., automobiles and medical devices). This paper addresses the privacy of statistical model checking algorithms from the point of view of differential privacy. These algorithms are sequential, drawing samples until a condition on their values is met. We show that revealing the number of the samples drawn can violate privacy. We also show that the standard exponential mechanism that randomizes the output of an algorithm to achieve differential privacy fails to do so in the context of sequential algorithms. Instead, we relax the conservative requirement in differential privacy that the sensitivity of the output of the algorithm should be bounded to any perturbation for any data set. We propose a new notion of differential privacy which we call expected differential privacy. Then, we propose a novel expected sensitivity analysis for the sequential algorithm and proposed a corresponding exponential mechanism that randomizes the termination time to achieve the expected differential privacy. We apply the proposed mechanism to statistical model checking algorithms to preserve the privacy of the samples they draw. The utility of the proposed algorithm is demonstrated in a case study.
-    </p>
-</div>
-</div>
-
 <div class="item feed-1b28272e feed-cscrupdatesonarxivorg" id="item-6b94912b">
 <p class="itemheader">
 <span class="itemtitle"><a href="http://arxiv.org/abs/2105.03726">Mental Models of Adversarial Machine Learning. (arXiv:2105.03726v3 [cs.CR] UPDATED)</a></span>
@@ -63,30 +93,6 @@
 <div class="itemdescription">
 <p>
       Although machine learning is widely used in practice, little is known about practitioners' understanding of potential security challenges. In this work, we close this substantial gap and contribute a qualitative study focusing on developers' mental models of the machine learning pipeline and potentially vulnerable components. Similar studies have helped in other security fields to discover root causes or improve risk communication. Our study reveals two \facets of practitioners' mental models of machine learning security. Firstly, practitioners often confuse machine learning security with threats and defences that are not directly related to machine learning. Secondly, in contrast to most academic research, our participants perceive security of machine learning as not solely related to individual models, but rather in the context of entire workflows that consist of multiple components. Jointly with our additional findings, these two facets provide a foundation to substantiate mental models for machine learning security and have implications for the integration of adversarial machine learning into corporate workflows, \new{decreasing practitioners' reported uncertainty}, and appropriate regulatory frameworks for machine learning security.
-    </p>
-</div>
-</div>
-
-<div class="item feed-1b28272e feed-cscrupdatesonarxivorg" id="item-0c8aad7a">
-<p class="itemheader">
-<span class="itemtitle"><a href="http://arxiv.org/abs/2109.04344">EvilModel 2.0: Bringing Neural Network Models into Malware Attacks. (arXiv:2109.04344v3 [cs.CR] UPDATED)</a></span>
-<span class="itemfrom">[<a href="http://arxiv.org/">cs.CR updates on arXiv.org</a>]</span>
-</p>
-<div class="itemdescription">
-<p>
-      Security issues have gradually emerged with the continuous development of artificial intelligence (AI). Earlier work verified the possibility of converting neural network models into stegomalware, embedding malware into a model with limited impact on the model's performance. However, existing methods are not applicable in real-world attack scenarios and do not attract enough attention from the security community due to performance degradation and additional workload. Therefore, we propose an improved stegomalware EvilModel. By analyzing the composition of the neural network model, three new methods for embedding malware into the model are proposed: MSB reservation, fast substitution, and half substitution, which can embed malware that accounts for half of the model's volume without affecting the model's performance. We built 550 EvilModels using ten mainstream neural network models and 19 malware samples. The experiment shows that EvilModel achieved an embedding rate of 48.52\%. A quantitative algorithm is proposed to evaluate the existing embedding methods. We also design a trigger and propose a threat scenario for the targeted attack. The practicality and effectiveness of the proposed methods were demonstrated by experiments and analyses of the embedding capacity, performance impact, and detection evasion.
-    </p>
-</div>
-</div>
-
-<div class="item feed-1b28272e feed-cscrupdatesonarxivorg" id="item-b02643aa">
-<p class="itemheader">
-<span class="itemtitle"><a href="http://arxiv.org/abs/2206.12401">Debiasing Learning for Membership Inference Attacks Against Recommender Systems. (arXiv:2206.12401v2 [cs.IR] UPDATED)</a></span>
-<span class="itemfrom">[<a href="http://arxiv.org/">cs.CR updates on arXiv.org</a>]</span>
-</p>
-<div class="itemdescription">
-<p>
-      Learned recommender systems may inadvertently leak information about their training data, leading to privacy violations. We investigate privacy threats faced by recommender systems through the lens of membership inference. In such attacks, an adversary aims to infer whether a user's data is used to train the target recommender. To achieve this, previous work has used a shadow recommender to derive training data for the attack model, and then predicts the membership by calculating difference vectors between users' historical interactions and recommended items. State-of-the-art methods face two challenging problems: (1) training data for the attack model is biased due to the gap between shadow and target recommenders, and (2) hidden states in recommenders are not observational, resulting in inaccurate estimations of difference vectors. To address the above limitations, we propose a Debiasing Learning for Membership Inference Attacks against recommender systems (DL-MIA) framework that has four main components: (1) a difference vector generator, (2) a disentangled encoder, (3) a weight estimator, and (4) an attack model. To mitigate the gap between recommenders, a variational auto-encoder (VAE) based disentangled encoder is devised to identify recommender invariant and specific features. To reduce the estimation bias, we design a weight estimator, assigning a truth-level score for each difference vector to indicate estimation accuracy. We evaluate DL-MIA against both general recommenders and sequential recommenders on three real-world datasets. Experimental results show that DL-MIA effectively alleviates training and estimation biases simultaneously, and achieves state-of-the-art attack performance.
     </p>
 </div>
 </div>
@@ -159,18 +165,6 @@
 </div>
 </div>
 
-<div class="item feed-fab735fe feed-thelancet" id="item-ccc00aa6">
-<p class="itemheader">
-<span class="itemtitle"><a href="https://www.thelancet.com/journals/lancet/article/PIIS0140-6736(22)01102-3/fulltext?rss=yes">[Perspectives] Naomi Oreskes: understanding the denial of science</a></span>
-<span class="itemfrom">[<a href="https://www.thelancet.com/journals/lancet/issue/current">The Lancet</a>]</span>
-</p>
-<div class="itemdescription">
-<p>
-      Social responses to anthropogenic climate change and the role of science in society are key concerns for Naomi Oreskes, Henry Charles Lea Professor of the History of Science and Affiliated Professor of Earth and Planetary Sciences at Harvard University, Cambridge, MA, USA. In her academic work and writing, Oreskes has explored how, and why, established scientific knowledge has become subject to vehement denial. In her 2010 book Merchants of Doubt, Oreskes and coauthor Erik M Conway showed that, for example, &#8220;climate change denial had nothing to do with flaws in the science, and had everything to do with market fundamentalism, political commitments to free market politics, and hostility to government action in the marketplace&#8221;, she explains.
-    </p>
-</div>
-</div>
-
 <div class="item feed-fab735fe feed-thelancet" id="item-877392d9">
 <p class="itemheader">
 <span class="itemtitle"><a href="https://www.thelancet.com/journals/lancet/article/PIIS0140-6736(22)00939-4/fulltext?rss=yes">[Correspondence] Global burden of antimicrobial resistance: essential pieces of a global puzzle</a></span>
@@ -179,6 +173,18 @@
 <div class="itemdescription">
 <p>
       Christopher J L Murray and colleagues1 provide a sobering analysis on the burden of common antimicrobial-resistant infections and a warning that, as a global community, we are rapidly surrendering any advantage we had on treating infections such as pneumonia and sepsis.2
+    </p>
+</div>
+</div>
+
+<div class="item feed-fab735fe feed-thelancet" id="item-cf4b8ea3">
+<p class="itemheader">
+<span class="itemtitle"><a href="https://www.thelancet.com/journals/lancet/article/PIIS0140-6736(22)00944-8/fulltext?rss=yes">[Correspondence] Global burden of antimicrobial resistance: essential pieces of a global puzzle</a></span>
+<span class="itemfrom">[<a href="https://www.thelancet.com/journals/lancet/issue/current">The Lancet</a>]</span>
+</p>
+<div class="itemdescription">
+<p>
+      Christopher J L Murray and colleagues1 report on the dramatically high burden of antimicrobial resistance (AMR) worldwide, particularly in low-income and middle-income countries. The authors also emphasise the insufficient data on the prevalence of bacterial infections and AMR in low-resource settings. Although the figures presented are striking, they do not sufficiently depict the suffering of patients living in these locations and the frustration of clinicians unable to treat an infection that is typically easily curable elsewhere.
     </p>
 </div>
 </div>
@@ -225,6 +231,21 @@
 </div>
 </div>
 
+<div class="item feed-d4080559 feed-internationaljournalofsportsphysiologyandperformance" id="item-4d2fc606">
+<p class="itemheader">
+<span class="itemtitle"><a href="https://journals.humankinetics.com/view/journals/ijspp/17/7/article-p1054.xml">Differences in Performance Assessments Conducted Indoors and Outdoors in Professional Cyclists</a></span>
+<span class="itemfrom">[<a href="https://journals.humankinetics.com/view/journals/ijspp/ijspp-overview.xml">International Journal of Sports Physiology and Performance</a>]</span>
+</p>
+<div class="itemdescription">
+<p>
+      Journal Name: International Journal of Sports Physiology and Performance<br>
+      Volume: 17<br>
+      Issue: 7<br>
+      Pages: 1054-1060
+    </p>
+</div>
+</div>
+
 <div class="item feed-d4080559 feed-internationaljournalofsportsphysiologyandperformance" id="item-29d77994">
 <p class="itemheader">
 <span class="itemtitle"><a href="https://journals.humankinetics.com/view/journals/ijspp/17/7/article-p1094.xml">Power Road-Derived Physical Performance Parameters in Junior, Under-23, and Professional Road Cycling Climbers</a></span>
@@ -251,21 +272,6 @@
       Volume: 17<br>
       Issue: 7<br>
       Pages: 1119-1125
-    </p>
-</div>
-</div>
-
-<div class="item feed-d4080559 feed-internationaljournalofsportsphysiologyandperformance" id="item-d347082b">
-<p class="itemheader">
-<span class="itemtitle"><a href="https://journals.humankinetics.com/view/journals/ijspp/17/7/article-p1140.xml">The Impact of Sleep Inertia on Physical, Cognitive, and Subjective Performance Following a 1- or 2-Hour Afternoon Nap in Semiprofessional Athletes</a></span>
-<span class="itemfrom">[<a href="https://journals.humankinetics.com/view/journals/ijspp/ijspp-overview.xml">International Journal of Sports Physiology and Performance</a>]</span>
-</p>
-<div class="itemdescription">
-<p>
-      Journal Name: International Journal of Sports Physiology and Performance<br>
-      Volume: 17<br>
-      Issue: 7<br>
-      Pages: 1140-1150
     </p>
 </div>
 </div>
@@ -465,18 +471,6 @@
 </div>
 </div>
 
-<div class="item feed-094cb33b feed-ieeetransactionsonindustrialelectronicsnewtoc" id="item-977b2e64">
-<p class="itemheader">
-<span class="itemtitle"><a href="http://ieeexplore.ieee.org/document/9585427">Fully Soft Switched Interleaved High Step-Up/Down Bidirectional Converter With no Pulsating Current at Low Voltage Source</a></span>
-<span class="itemfrom">[<a href="http://ieeexplore.ieee.org">IEEE Transactions on Industrial Electronics - new TOC</a>]</span>
-</p>
-<div class="itemdescription">
-<p>
-      In this article, a fully soft switched interleaved bidirectional buck/boost converter with high voltage conversion ratio (VCR) and no pulsating current at low voltage source is proposed. Winding cross-coupled inductors technique is employed in order to increase VCR and mitigate current ripple at low voltage side. Moreover, soft switching conditions for all semiconductor devices are provided and the leakage inductances energy of coupled inductors are absorbed in both high step-up/down operating modes. Furthermore, the reverse recovery problem of all diodes is removed due to zero current switching turn off. All the mentioned advantages are achieved for a bidirectional converter with two interleaved phases in both high step-up/down operating modes by only one clamp circuit consisting of a clamp capacitor and two active switches. Also, the body diodes of the main switches are utilized as the main diodes to reduce the element count. The converter performance is validated by theoretical analysis and an 800 W prototype circuit in both operating modes.
-    </p>
-</div>
-</div>
-
 <div class="item feed-094cb33b feed-ieeetransactionsonindustrialelectronicsnewtoc" id="item-a8109dac">
 <p class="itemheader">
 <span class="itemtitle"><a href="http://ieeexplore.ieee.org/document/9591415">One-Cycle Control for Pulse Power Generator in Electrical-Discharge-Machining</a></span>
@@ -501,26 +495,24 @@
 </div>
 </div>
 
+<div class="item feed-094cb33b feed-ieeetransactionsonindustrialelectronicsnewtoc" id="item-7169d197">
+<p class="itemheader">
+<span class="itemtitle"><a href="http://ieeexplore.ieee.org/document/9600567">Harmonic Instability of &lt;italic&gt;LCL&lt;/italic&gt;-Type Grid-Connected Inverter Caused by the Pole-Zero Cancellation: A Case Study</a></span>
+<span class="itemfrom">[<a href="http://ieeexplore.ieee.org">IEEE Transactions on Industrial Electronics - new TOC</a>]</span>
+</p>
+<div class="itemdescription">
+<p>
+      Pole-zero cancellation technique has drawn much attention to tackle the filter resonance of the LCL-type grid-connected inverter for simplifying the stability-oriented design. However, its potential stability risk was rarely concerned. As one representative of this technique, the weighted average current (WAC) control is assessed. It is found that the LCL resonance in the state variable WAC is cancelled out by pole-zero cancellation, but the ones in some uncontrollable or unobservable state variables such as the grid current are still inherited, resulting in harmonic instability. From this perspective, this article appeals that this technique should be cautiously used or even avoided. An extended WAC control which avoids pole-zero cancellation is proposed accordingly. The theoretical expectations are finally validated by simulation and experimental results.
+    </p>
+</div>
+</div>
+
 </div>
 </div>
 <div class="day">
 <h2>Friday, 27 May 2022</h2>
 <div class="time">
 <h3>10:19 AM</h3>
-<div class="item feed-f57a289c feed-europeanpoliticalsciencereview" id="item-d2155bbb">
-<p class="itemheader">
-<span class="itemtitle"><a href="https://dx.doi.org/10.1017/S1755773922000078?rft_dat=source%3Ddrss">Perceived risk crowds out trust? Trust and public compliance with coronavirus restrictions over the course of the pandemic</a></span>
-<span class="itemfrom">[<a href="https://www.cambridge.org/core/journals/european-political-science-review/latest-issue">European Political Science Review</a>]</span>
-</p>
-<div class="itemdescription">
-<div class="abstract">
-      <p>
-        Governments rely on citizen compliance for official rules to be effective. Yet achieving compliance is often tricky, particular when individual costs are high. Under what conditions will citizens voluntarily respect collective rules? We explore public compliance with SARS-CoV-2 (coronavirus) restrictions, focusing on the role of political trust. We anticipate that the effects of trust on compliance will be conditional on the presence of other factors, notably fear of infection. Low levels of fear may provide room for trust to shape compliance; yet high levels of fear may &#8216;crowd out&#8217; the role of trust. We hypothesize that, at the pandemic&#8217;s outset, compliance was likely to be shaped more by fear than by trust. Yet as the pandemic progressed, the impact of fear on compliance was likely to have weakened, and the impact of trust to have strengthened. These hypotheses are tested using longitudinal data from Austria, Germany, and the United Kingdom.
-      </p>
-    </div>
-</div>
-</div>
-
 <div class="item feed-f57a289c feed-europeanpoliticalsciencereview" id="item-b430bb6f">
 <p class="itemheader">
 <span class="itemtitle"><a href="https://dx.doi.org/10.1017/S175577392200011X?rft_dat=source%3Ddrss">The varying logics for supporting populist right-wing welfare politics in West European welfare regimes</a></span>
@@ -530,6 +522,20 @@
 <div class="abstract">
       <p>
         Little is known about whether and under which conditions populist radical right parties&#8217; (PRRPs&#8217;) nativist welfare politics matters to the voters. I address this gap in the research and test the argument that the electoral appeal of this electoral discourse varies among welfare regimes. The study compares the conservative and social-democratic welfare regimes and focuses on the vote choices of the two core constituencies of PRRPs &#8211; economically exposed and immigration-sceptic voters. The results show that these electorates support PRRPs&#8217; nativist welfare positions for very different reasons in the two welfare regimes. First, in the conservative regime, economically exposed citizens vote for PRRPs, the more they stress nativism and welfare expansion. By contrast, in the social-democratic regime this group of voters is more likely to support positions combining nativism and dismantled welfare benefits. Second, immigrant-sceptic voters in the social-democratic regime support PRRPs who pledge to preserve the welfare state, and increased migration considerably boosts the probability that they do so. By contrast, this group of voters in the conservative regime is more likely to support PRRPs who seek to partly dismantle the welfare state, and the inflow of immigrants is unrelated to these choices. These results have important implications and suggest that welfare regimes moderate public opinion differently in the current age of populism compared to previous eras.
+      </p>
+    </div>
+</div>
+</div>
+
+<div class="item feed-f57a289c feed-europeanpoliticalsciencereview" id="item-85dd5d7c">
+<p class="itemheader">
+<span class="itemtitle"><a href="https://dx.doi.org/10.1017/S1755773921000333?rft_dat=source%3Ddrss">Incentives and constraints: a configurational account of European involvement in the anti-Daesh coalition</a></span>
+<span class="itemfrom">[<a href="https://www.cambridge.org/core/journals/european-political-science-review/latest-issue">European Political Science Review</a>]</span>
+</p>
+<div class="itemdescription">
+<div class="abstract">
+      <p>
+        In 2014, the USA initiated the formation of a multilateral military operation against Daesh in Syria and Iraq. Eventually, more than 70 states joined the anti-Daesh coalition. However, contributions to the military effort have been characterized by great variance, especially among EU member states. While some states took leading roles in the airstrikes, others provided training for Iraqi and Kurdish forces, and still others did not get involved beyond voicing their support for the policy. Against this backdrop, this article makes a two-fold contribution to the literature on military coalitions and security policy. Empirically, the article provides a mapping of the then 28 EU member states&#8217; military engagement in the fight against Daesh in Syria and Iraq. Analytically, fuzzy-set Qualitative Comparative Analysis (fsQCA) is applied to account for the observed pattern of military involvement, using an integrative framework that combines international and domestic factors. The results demonstrate that multiple paths led towards EU military involvement in the anti-Daesh coalition. At the same time, international-level incentives, such as external threat and/or alliance value feature prominently in all three identified paths. The analysis further underscores the value of a configurational perspective, because neither an external threat nor alliance value are sufficient on their own to bring about the outcome. Across the set-theoretic configurations, these conditions either combine with other &#8216;push&#8217; factors or with the absence of constraints against military involvement. In line with the latter, the article highlights the policy relevance of institutional constraints, especially legislative veto rights, since most of those countries that were involved in the airstrikes of the anti-Daesh coalition did not have formal parliamentary involvement on matters of military deployment policy.
       </p>
     </div>
 </div>
@@ -922,14 +928,14 @@
 <h2>Friday, 17 September 2021</h2>
 <div class="time">
 <h3>10:22 AM</h3>
-<div class="item feed-a4d49d75 feed-annualreviewsannualreviewofeconomicstableofcontents" id="item-ca34db2f">
+<div class="item feed-a4d49d75 feed-annualreviewsannualreviewofeconomicstableofcontents" id="item-d0064a2f">
 <p class="itemheader">
-<span class="itemtitle"><a href="https://www.annualreviews.org/doi/abs/10.1146/annurev-economics-072720-042303?ai=67b7&amp;mi=3fndc3&amp;af=R">Large Games: Robustness and Stability</a></span>
+<span class="itemtitle"><a href="https://www.annualreviews.org/doi/abs/10.1146/annurev-economics-081020-051248?ai=67b7&amp;mi=3fndc3&amp;af=R">The International Aspects of Macroprudential Policy</a></span>
 <span class="itemfrom">[<a href="https://www.annualreviews.org/loi/economics?ai=67b7&amp;mi=3fndc3&amp;af=R">Annual Reviews: Annual Review of Economics: Table of Contents</a>]</span>
 </p>
 <div class="itemdescription">
 <p>
-      Annual Review of Economics, <a href="https://www.annualreviews.org/toc/economics/13/1">Volume 13, Issue 1</a>, Page 39-56, August 2021.<br>
+      Annual Review of Economics, <a href="https://www.annualreviews.org/toc/economics/13/1">Volume 13, Issue 1</a>, Page 203-228, August 2021.<br>
     </p>
 </div>
 </div>
@@ -1163,19 +1169,16 @@
 </div>
 
 </div>
-</div>
-<div class="day">
-<h2>Tuesday, 08 December 2020</h2>
 <div class="time">
-<h3>10:03 AM</h3>
-<div class="item feed-b93c25e9 feed-earlyedition" id="item-df17ed56">
+<h3>02:14 AM</h3>
+<div class="item feed-b93c25e9 feed-earlyedition" id="item-0bc27317">
 <p class="itemheader">
-<span class="itemtitle"><a href="http://feedproxy.google.com/~r/Pnas-RssFeedOfEarlyEditionArticles/~3/OXLWcXbB8pc/2015550117.short">ARP2/3-independent WAVE/SCAR pathway and class XI myosin control sperm nuclear migration in flowering plants [Plant Biology]</a></span>
+<span class="itemtitle"><a href="http://feedproxy.google.com/~r/Pnas-RssFeedOfEarlyEditionArticles/~3/IjECFqQiSN4/2003991117.short">Efficient photoactivatable Dre recombinase for cell type-specific spatiotemporal control of genome engineering in the mouse [Genetics]</a></span>
 <span class="itemfrom">[<a href="http://www.pnas.org">Early Edition</a>]</span>
 </p>
 <div class="itemdescription">
 <p>
-      After eukaryotic fertilization, gamete nuclei migrate to fuse parental genomes in order to initiate development of the next generation. In most animals, microtubules control female and male pronuclear migration in the zygote. Flowering plants, on the other hand, have evolved actin filament (F-actin)-based sperm nuclear migration systems for karyogamy. Flowering...<img alt="" height="1" src="http://feeds.feedburner.com/~r/Pnas-RssFeedOfEarlyEditionArticles/~4/OXLWcXbB8pc" width="1">
+      Precise genetic engineering in specific cell types within an intact organism is intriguing yet challenging, especially in a spatiotemporal manner without the interference caused by chemical inducers. Here we engineered a photoactivatable Dre recombinase based on the identification of an optimal split site and demonstrated that it efficiently regulated transgene...<img alt="" height="1" src="http://feeds.feedburner.com/~r/Pnas-RssFeedOfEarlyEditionArticles/~4/IjECFqQiSN4" width="1">
     </p>
 </div>
 </div>
@@ -1219,18 +1222,18 @@
 </div>
 </div>
 <div class="day">
-<h2>Thursday, 05 November 2020</h2>
+<h2>Wednesday, 04 November 2020</h2>
 <div class="time">
-<h3>10:02 AM</h3>
-<div class="item feed-6b3f78ad feed-latestbmjresearch" id="item-d3676d6f">
+<h3>06:02 PM</h3>
+<div class="item feed-6b3f78ad feed-latestbmjresearch" id="item-03f2bf3d">
 <p class="itemheader">
-<span class="itemtitle"><a href="http://feeds.bmj.com/~r/bmj/research/~3/WgpJmf89PRA/bmj.m4087">Mortality due to cancer treatment delay: systematic review and meta-analysis</a></span>
+<span class="itemtitle"><a href="http://feeds.bmj.com/~r/bmj/research/~3/dRh7mbUJt2w/bmj.m3840">Effect of monitoring surgical outcomes using control charts to reduce major adverse events in patients: cluster randomised trial</a></span>
 <span class="itemfrom">[<a href="https://www.bmj.com/research/feed">Latest BMJ Research</a>]</span>
 </p>
 <div class="itemdescription">
 <div class="feedflare">
-      <a href="http://feeds.bmj.com/~ff/bmj/research?a=WgpJmf89PRA:LaDq23B1qMY:yIl2AUoC8zA"><img border="0" src="http://feeds.feedburner.com/~ff/bmj/research?d=yIl2AUoC8zA"></a> <a href="http://feeds.bmj.com/~ff/bmj/research?a=WgpJmf89PRA:LaDq23B1qMY:dnMXMwOfBR0"><img border="0" src="http://feeds.feedburner.com/~ff/bmj/research?d=dnMXMwOfBR0"></a> <a href="http://feeds.bmj.com/~ff/bmj/research?a=WgpJmf89PRA:LaDq23B1qMY:F7zBnMyn0Lo"><img border="0" src="http://feeds.feedburner.com/~ff/bmj/research?i=WgpJmf89PRA:LaDq23B1qMY:F7zBnMyn0Lo"></a> <a href="http://feeds.bmj.com/~ff/bmj/research?a=WgpJmf89PRA:LaDq23B1qMY:V_sGLiPBpWU"><img border="0" src="http://feeds.feedburner.com/~ff/bmj/research?i=WgpJmf89PRA:LaDq23B1qMY:V_sGLiPBpWU"></a> <a href="http://feeds.bmj.com/~ff/bmj/research?a=WgpJmf89PRA:LaDq23B1qMY:qj6IDK7rITs"><img border="0" src="http://feeds.feedburner.com/~ff/bmj/research?d=qj6IDK7rITs"></a> <a href="http://feeds.bmj.com/~ff/bmj/research?a=WgpJmf89PRA:LaDq23B1qMY:gIN9vFwOqvQ"><img border="0" src="http://feeds.feedburner.com/~ff/bmj/research?i=WgpJmf89PRA:LaDq23B1qMY:gIN9vFwOqvQ"></a>
-    </div><img alt="" height="1" src="http://feeds.feedburner.com/~r/bmj/research/~4/WgpJmf89PRA" width="1">
+      <a href="http://feeds.bmj.com/~ff/bmj/research?a=dRh7mbUJt2w:8xbNp0UXcdA:yIl2AUoC8zA"><img border="0" src="http://feeds.feedburner.com/~ff/bmj/research?d=yIl2AUoC8zA"></a> <a href="http://feeds.bmj.com/~ff/bmj/research?a=dRh7mbUJt2w:8xbNp0UXcdA:dnMXMwOfBR0"><img border="0" src="http://feeds.feedburner.com/~ff/bmj/research?d=dnMXMwOfBR0"></a> <a href="http://feeds.bmj.com/~ff/bmj/research?a=dRh7mbUJt2w:8xbNp0UXcdA:F7zBnMyn0Lo"><img border="0" src="http://feeds.feedburner.com/~ff/bmj/research?i=dRh7mbUJt2w:8xbNp0UXcdA:F7zBnMyn0Lo"></a> <a href="http://feeds.bmj.com/~ff/bmj/research?a=dRh7mbUJt2w:8xbNp0UXcdA:V_sGLiPBpWU"><img border="0" src="http://feeds.feedburner.com/~ff/bmj/research?i=dRh7mbUJt2w:8xbNp0UXcdA:V_sGLiPBpWU"></a> <a href="http://feeds.bmj.com/~ff/bmj/research?a=dRh7mbUJt2w:8xbNp0UXcdA:qj6IDK7rITs"><img border="0" src="http://feeds.feedburner.com/~ff/bmj/research?d=qj6IDK7rITs"></a> <a href="http://feeds.bmj.com/~ff/bmj/research?a=dRh7mbUJt2w:8xbNp0UXcdA:gIN9vFwOqvQ"><img border="0" src="http://feeds.feedburner.com/~ff/bmj/research?i=dRh7mbUJt2w:8xbNp0UXcdA:gIN9vFwOqvQ"></a>
+    </div><img alt="" height="1" src="http://feeds.feedburner.com/~r/bmj/research/~4/dRh7mbUJt2w" width="1">
 </div>
 </div>
 
@@ -1296,127 +1299,127 @@
 <tr class="feedsrow">
 <td><a href="https://www.annualreviews.org/loi/economics?ai=67b7&amp;mi=3fndc3&amp;af=R">Annual Reviews: Annual Review of Economics: Table of Contents</a></td>
 <td><a class="xmlbutton" href="http://www.annualreviews.org/action/showFeed?ui=45mu4&amp;mi=3fndc3&amp;ai=67b7&amp;jc=economics&amp;type=etoc&amp;feed=rss">XML</a></td>
-<td>06:22 PM, Wednesday, 29 June 2022</td>
-<td>09:22 PM, Wednesday, 29 June 2022</td>
+<td>03:40 AM, Thursday, 30 June 2022</td>
+<td>06:40 AM, Thursday, 30 June 2022</td>
 </tr>
 
 <tr class="feedsrow">
 <td><a href="https://www.annualreviews.org/loi/nutr?ai=rz&amp;mi=3fndc3&amp;af=R">Annual Reviews: Annual Review of Nutrition: Table of Contents</a></td>
 <td><a class="xmlbutton" href="http://www.annualreviews.org/action/showFeed?ui=45mu4&amp;mi=3fndc3&amp;ai=rz&amp;jc=nutr&amp;type=etoc&amp;feed=rss">XML</a></td>
-<td>06:22 PM, Wednesday, 29 June 2022</td>
-<td>09:22 PM, Wednesday, 29 June 2022</td>
+<td>03:40 AM, Thursday, 30 June 2022</td>
+<td>06:40 AM, Thursday, 30 June 2022</td>
 </tr>
 
 <tr class="feedsrow">
 <td><a href="https://www.annualreviews.org/loi/physiol?ai=sp&amp;mi=3fndc3&amp;af=R">Annual Reviews: Annual Review of Physiology: Table of Contents</a></td>
 <td><a class="xmlbutton" href="http://www.annualreviews.org/action/showFeed?ui=45mu4&amp;mi=3fndc3&amp;ai=sp&amp;jc=physiol&amp;type=etoc&amp;feed=rss">XML</a></td>
-<td>06:22 PM, Wednesday, 29 June 2022</td>
-<td>09:22 PM, Wednesday, 29 June 2022</td>
+<td>03:40 AM, Thursday, 30 June 2022</td>
+<td>06:40 AM, Thursday, 30 June 2022</td>
 </tr>
 
 <tr class="feedsrow">
 <td><a href="https://www.annualreviews.org/loi/polisci?af=R">Annual Reviews: Annual Review of Political Science: Table of Contents</a></td>
 <td><a class="xmlbutton" href="http://www.annualreviews.org/action/showFeed?jc=polisci&amp;type=etoc&amp;feed=rss">XML</a></td>
-<td>06:22 PM, Wednesday, 29 June 2022</td>
-<td>09:22 PM, Wednesday, 29 June 2022</td>
+<td>03:40 AM, Thursday, 30 June 2022</td>
+<td>06:40 AM, Thursday, 30 June 2022</td>
 </tr>
 
 <tr class="feedsrow">
 <td><a href="https://www.annualreviews.org/loi/soc?ai=t0&amp;mi=3fndc3&amp;af=R">Annual Reviews: Annual Review of Sociology: Table of Contents</a></td>
 <td><a class="xmlbutton" href="http://www.annualreviews.org/action/showFeed?ui=45mu4&amp;mi=3fndc3&amp;ai=t0&amp;jc=soc&amp;type=etoc&amp;feed=rss">XML</a></td>
-<td>06:22 PM, Wednesday, 29 June 2022</td>
-<td>09:22 PM, Wednesday, 29 June 2022</td>
+<td>03:40 AM, Thursday, 30 June 2022</td>
+<td>06:40 AM, Thursday, 30 June 2022</td>
 </tr>
 
 <tr class="feedsrow">
 <td><a href="http://arxiv.org/">cs.CR updates on arXiv.org</a></td>
 <td><a class="xmlbutton" href="http://export.arxiv.org/rss/cs.CR">XML</a></td>
-<td>06:22 PM, Wednesday, 29 June 2022</td>
-<td>09:22 PM, Wednesday, 29 June 2022</td>
+<td>03:40 AM, Thursday, 30 June 2022</td>
+<td>06:40 AM, Thursday, 30 June 2022</td>
 </tr>
 
 <tr class="feedsrow">
 <td><a href="http://www.pnas.org">Early Edition</a></td>
 <td><a class="xmlbutton" href="http://feeds.feedburner.com/Pnas-RssFeedOfEarlyEditionArticles?format=xml">XML</a></td>
-<td>06:22 PM, Wednesday, 29 June 2022</td>
-<td>09:22 PM, Wednesday, 29 June 2022</td>
+<td>03:40 AM, Thursday, 30 June 2022</td>
+<td>06:40 AM, Thursday, 30 June 2022</td>
 </tr>
 
 <tr class="feedsrow">
 <td><a href="http://www.eurekalert.org">EurekAlert! - Breaking News</a></td>
 <td><a class="xmlbutton" href="https://www.eurekalert.org/rss.xml">XML</a></td>
-<td>06:22 PM, Wednesday, 29 June 2022</td>
-<td>09:22 PM, Wednesday, 29 June 2022</td>
+<td>03:40 AM, Thursday, 30 June 2022</td>
+<td>06:40 AM, Thursday, 30 June 2022</td>
 </tr>
 
 <tr class="feedsrow">
 <td><a href="https://www.cambridge.org/core/journals/european-political-science-review/latest-issue">European Political Science Review</a></td>
 <td><a class="xmlbutton" href="https://www.cambridge.org/core/rss/product/id/3DB89DF6A9878CE661D3CE5FC6E9D6BC">XML</a></td>
-<td>06:22 PM, Wednesday, 29 June 2022</td>
-<td>09:22 PM, Wednesday, 29 June 2022</td>
+<td>03:40 AM, Thursday, 30 June 2022</td>
+<td>06:40 AM, Thursday, 30 June 2022</td>
 </tr>
 
 <tr class="feedsrow">
 <td><a href="http://ieeexplore.ieee.org">IEEE Transactions on Image Processing - new TOC</a></td>
 <td><a class="xmlbutton" href="https://ieeexplore.ieee.org/rss/TOC83.XML">XML</a></td>
-<td>06:22 PM, Wednesday, 29 June 2022</td>
-<td>09:22 PM, Wednesday, 29 June 2022</td>
+<td>03:40 AM, Thursday, 30 June 2022</td>
+<td>06:40 AM, Thursday, 30 June 2022</td>
 </tr>
 
 <tr class="feedsrow">
 <td><a href="http://ieeexplore.ieee.org">IEEE Transactions on Industrial Electronics - new TOC</a></td>
 <td><a class="xmlbutton" href="https://ieeexplore.ieee.org/rss/TOC41.XML">XML</a></td>
-<td>06:22 PM, Wednesday, 29 June 2022</td>
-<td>09:22 PM, Wednesday, 29 June 2022</td>
+<td>03:40 AM, Thursday, 30 June 2022</td>
+<td>06:40 AM, Thursday, 30 June 2022</td>
 </tr>
 
 <tr class="feedsrow">
 <td><a href="http://ieeexplore.ieee.org">IEEE Transactions on Industrial Informatics - new TOC</a></td>
 <td><a class="xmlbutton" href="https://ieeexplore.ieee.org/rss/TOC9424.XML">XML</a></td>
-<td>06:22 PM, Wednesday, 29 June 2022</td>
-<td>09:22 PM, Wednesday, 29 June 2022</td>
+<td>03:40 AM, Thursday, 30 June 2022</td>
+<td>06:40 AM, Thursday, 30 June 2022</td>
 </tr>
 
 <tr class="feedsrow">
 <td><a href="http://ieeexplore.ieee.org">IEEE Transactions on Information Forensics and Security - new TOC</a></td>
 <td><a class="xmlbutton" href="https://ieeexplore.ieee.org/rss/TOC10206.XML">XML</a></td>
-<td>06:22 PM, Wednesday, 29 June 2022</td>
-<td>09:22 PM, Wednesday, 29 June 2022</td>
+<td>03:40 AM, Thursday, 30 June 2022</td>
+<td>06:40 AM, Thursday, 30 June 2022</td>
 </tr>
 
 <tr class="feedsrow">
 <td><a href="https://journals.humankinetics.com/view/journals/ijspp/ijspp-overview.xml">International Journal of Sports Physiology and Performance</a></td>
 <td><a class="xmlbutton" href="https://journals.humankinetics.com/journalissuetocrss/journals/ijspp/ijspp-overview.xml">XML</a></td>
-<td>06:22 PM, Wednesday, 29 June 2022</td>
-<td>09:22 PM, Wednesday, 29 June 2022</td>
+<td>03:40 AM, Thursday, 30 June 2022</td>
+<td>06:40 AM, Thursday, 30 June 2022</td>
 </tr>
 
 <tr class="feedsrow">
 <td><a href="https://jamanetwork.com/journals/jama">JAMA Current Issue</a></td>
 <td><a class="xmlbutton" href="https://jamanetwork.com/rss/site_3/67.xml">XML</a></td>
-<td>06:22 PM, Wednesday, 29 June 2022</td>
-<td>09:22 PM, Wednesday, 29 June 2022</td>
+<td>03:40 AM, Thursday, 30 June 2022</td>
+<td>06:40 AM, Thursday, 30 June 2022</td>
 </tr>
 
 <tr class="feedsrow">
 <td><a href="https://www.bmj.com/research/feed">Latest BMJ Research</a></td>
 <td><a class="xmlbutton" href="http://feeds.bmj.com/bmj/research?format=xml">XML</a></td>
-<td>06:22 PM, Wednesday, 29 June 2022</td>
-<td>09:22 PM, Wednesday, 29 June 2022</td>
+<td>03:40 AM, Thursday, 30 June 2022</td>
+<td>06:40 AM, Thursday, 30 June 2022</td>
 </tr>
 
 <tr class="feedsrow">
 <td><a href="http://feeds.nature.com/nature/rss/current">Nature - Issue - nature.com science feeds</a></td>
 <td><a class="xmlbutton" href="http://feeds.nature.com/nature/rss/current?format=xml">XML</a></td>
-<td>06:22 PM, Wednesday, 29 June 2022</td>
-<td>09:22 PM, Wednesday, 29 June 2022</td>
+<td>03:40 AM, Thursday, 30 June 2022</td>
+<td>06:40 AM, Thursday, 30 June 2022</td>
 </tr>
 
 <tr class="feedsrow">
 <td><a href="https://www.thelancet.com/journals/lancet/issue/current">The Lancet</a></td>
 <td><a class="xmlbutton" href="http://www.thelancet.com/rssfeed/lancet_current.xml">XML</a></td>
-<td>06:22 PM, Wednesday, 29 June 2022</td>
-<td>09:22 PM, Wednesday, 29 June 2022</td>
+<td>03:40 AM, Thursday, 30 June 2022</td>
+<td>06:40 AM, Thursday, 30 June 2022</td>
 </tr>
 
 </table>
