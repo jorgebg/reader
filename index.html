@@ -13,41 +13,101 @@
 </div>
 <div id="items">
 <div class="day">
-<h2>Thursday, 30 June 2022</h2>
+<h2>Friday, 01 July 2022</h2>
 <div class="time">
-<h3>03:40 AM</h3>
-<div class="item feed-1b28272e feed-cscrupdatesonarxivorg" id="item-99741e2d">
+<h3>03:54 AM</h3>
+<div class="item feed-1b28272e feed-cscrupdatesonarxivorg" id="item-ac3a75d4">
 <p class="itemheader">
-<span class="itemtitle"><a href="http://arxiv.org/abs/2206.14560">A note on a Code-Based Signature Scheme. (arXiv:2206.14560v1 [cs.CR])</a></span>
+<span class="itemtitle"><a href="http://arxiv.org/abs/2206.14929">Succinct Classical Verification of Quantum Computation. (arXiv:2206.14929v1 [quant-ph])</a></span>
 <span class="itemfrom">[<a href="http://arxiv.org/">cs.CR updates on arXiv.org</a>]</span>
 </p>
 <div class="itemdescription">
 <p>
-      In this work, we exploit a serious security flaw in a code-based signature scheme from a 2019 work by Liu, Yang, Han and Wang. They adapt the McEliece cryptosystem to obtain a new scheme and, on top of this, they design an efficient digital signature. We show that the new encryption scheme based on McEliece, even if it has longer public keys, is not more secure than the standard one. Moreover, the choice of parameters for the signature leads to a significant performance improvement, but it introduces a vulnerability in the protocol.
+      We construct a classically verifiable succinct interactive argument for quantum computation (BQP) with communication complexity and verifier runtime that are poly-logarithmic in the runtime of the BQP computation (and polynomial in the security parameter). Our protocol is secure assuming the post-quantum security of indistinguishability obfuscation (iO) and Learning with Errors (LWE). This is the first succinct argument for quantum computation in the plain model; prior work (Chia-Chung-Yamakawa, TCC '20) requires both a long common reference string and non-black-box use of a hash function modeled as a random oracle.
+    </p>
+    <p>
+      At a technical level, we revisit the framework for constructing classically verifiable quantum computation (Mahadev, FOCS '18). We give a self-contained, modular proof of security for Mahadev's protocol, which we believe is of independent interest. Our proof readily generalizes to a setting in which the verifier's first message (which consists of many public keys) is compressed. Next, we formalize this notion of compressed public keys; we view the object as a generalization of constrained/programmable PRFs and instantiate it based on indistinguishability obfuscation.
+    </p>
+    <p>
+      Finally, we compile the above protocol into a fully succinct argument using a (sufficiently composable) succinct argument of knowledge for NP. Using our framework, we achieve several additional results, including
+    </p>
+    <p>
+      - Succinct arguments for QMA (given multiple copies of the witness),
+    </p>
+    <p>
+      - Succinct non-interactive arguments for BQP (or QMA) in the quantum random oracle model, and
+    </p>
+    <p>
+      - Succinct batch arguments for BQP (or QMA) assuming post-quantum LWE (without iO).
     </p>
 </div>
 </div>
 
-<div class="item feed-1b28272e feed-cscrupdatesonarxivorg" id="item-774384e4">
+<div class="item feed-1b28272e feed-cscrupdatesonarxivorg" id="item-bc53e150">
 <p class="itemheader">
-<span class="itemtitle"><a href="http://arxiv.org/abs/2202.02448">Linear Model Against Malicious Adversaries with Local Differential Privacy. (arXiv:2202.02448v2 [cs.CR] UPDATED)</a></span>
+<span class="itemtitle"><a href="http://arxiv.org/abs/2206.15089">Fairness and Cost Constrained Privacy-Aware Record Linkage. (arXiv:2206.15089v1 [cs.CR])</a></span>
 <span class="itemfrom">[<a href="http://arxiv.org/">cs.CR updates on arXiv.org</a>]</span>
 </p>
 <div class="itemdescription">
 <p>
-      Scientific collaborations benefit from collaborative learning of distributed sources, but remain difficult to achieve when data are sensitive. In recent years, privacy preserving techniques have been widely studied to analyze distributed data across different agencies while protecting sensitive information. Most existing privacy preserving techniques are designed to resist semi-honest adversaries and require intense computation to perform data analysis. Secure collaborative learning is significantly difficult with the presence of malicious adversaries who may deviates from the secure protocol. Another challenge is to maintain high computation efficiency with privacy protection. In this paper, matrix encryption is applied to encrypt data such that the secure schemes are against malicious adversaries, including chosen plaintext attack, known plaintext attack, and collusion attack. The encryption scheme also achieves local differential privacy. Moreover, cross validation is studied to prevent overfitting without additional communication cost. Empirical experiments on real-world datasets demonstrate that the proposed schemes are computationally efficient compared to existing techniques against malicious adversary and semi-honest model.
+      Record linkage algorithms match and link records from different databases that refer to the same real-world entity based on direct and/or quasi-identifiers, such as name, address, age, and gender, available in the records. Since these identifiers generally contain personal identifiable information (PII) about the entities, record linkage algorithms need to be developed with privacy constraints. Known as privacy-preserving record linkage (PPRL), many research studies have been conducted to perform the linkage on encoded and/or encrypted identifiers. Differential privacy (DP) combined with computationally efficient encoding methods, e.g. Bloom filter encoding, has been used to develop PPRL with provable privacy guarantees. The standard DP notion does not however address other constraints, among which the most important ones are fairness-bias and cost of linkage in terms of number of record pairs to be compared. In this work, we propose new notions of fairness-constrained DP and fairness and cost-constrained DP for PPRL and develop a framework for PPRL with these new notions of DP combined with Bloom filter encoding. We provide theoretical proofs for the new DP notions for fairness and cost-constrained PPRL and experimentally evaluate them on two datasets containing person-specific data. Our experimental results show that with these new notions of DP, PPRL with better performance (compared to the standard DP notion for PPRL) can be achieved with regard to privacy, cost and fairness constraints.
     </p>
 </div>
 </div>
 
-<div class="item feed-1b28272e feed-cscrupdatesonarxivorg" id="item-eb95756a">
+<div class="item feed-1b28272e feed-cscrupdatesonarxivorg" id="item-f2781fe7">
 <p class="itemheader">
-<span class="itemtitle"><a href="http://arxiv.org/abs/2205.07890">On the Difficulty of Defending Self-Supervised Learning against Model Extraction. (arXiv:2205.07890v3 [cs.LG] UPDATED)</a></span>
+<span class="itemtitle"><a href="http://arxiv.org/abs/2206.15139">Pump Up Password Security! Evaluating and Enhancing Risk-Based Authentication on a Real-World Large-Scale Online Service. (arXiv:2206.15139v1 [cs.CR])</a></span>
 <span class="itemfrom">[<a href="http://arxiv.org/">cs.CR updates on arXiv.org</a>]</span>
 </p>
 <div class="itemdescription">
 <p>
-      Self-Supervised Learning (SSL) is an increasingly popular ML paradigm that trains models to transform complex inputs into representations without relying on explicit labels. These representations encode similarity structures that enable efficient learning of multiple downstream tasks. Recently, ML-as-a-Service providers have commenced offering trained SSL models over inference APIs, which transform user inputs into useful representations for a fee. However, the high cost involved to train these models and their exposure over APIs both make black-box extraction a realistic security threat. We thus explore model stealing attacks against SSL. Unlike traditional model extraction on classifiers that output labels, the victim models here output representations; these representations are of significantly higher dimensionality compared to the low-dimensional prediction scores output by classifiers. We construct several novel attacks and find that approaches that train directly on a victim's stolen representations are query efficient and enable high accuracy for downstream models. We then show that existing defenses against model extraction are inadequate and not easily retrofitted to the specificities of SSL.
+      Risk-based authentication (RBA) aims to protect users against attacks involving stolen passwords. RBA monitors features during login, and requests re-authentication when feature values widely differ from previously observed ones. It is recommended by various national security organizations, and users perceive it more usable and equally secure than equivalent two-factor authentication. Despite that, RBA is still only used by very few online services. Reasons for this include a lack of validated open resources on RBA properties, implementation, and configuration. This effectively hinders the RBA research, development, and adoption progress.
+    </p>
+    <p>
+      To close this gap, we provide the first long-term RBA analysis on a real-world large-scale online service. We collected feature data of 3.3 million users and 31.3 million login attempts over more than one year. Based on the data, we provide (i) studies on RBA's real-world characteristics, and its configurations and enhancements to balance usability, security, and privacy, (ii) a machine learning based RBA parameter optimization method to support administrators finding an optimal configuration for their own use case scenario, (iii) an evaluation of the round-trip time feature's potential to replace the IP address for enhanced user privacy, and (iv) a synthesized RBA data set to reproduce this research and to foster future RBA research. Our results provide insights on selecting an optimized RBA configuration so that users profit from RBA after just a few logins. The open data set enables researchers to study, test, and improve RBA for widespread deployment in the wild.
+    </p>
+</div>
+</div>
+
+<div class="item feed-1b28272e feed-cscrupdatesonarxivorg" id="item-6e4d6fc0">
+<p class="itemheader">
+<span class="itemtitle"><a href="http://arxiv.org/abs/2107.08094">LAORAM: A Look Ahead ORAM Architecture for Training Large Embedding Tables. (arXiv:2107.08094v2 [cs.CR] UPDATED)</a></span>
+<span class="itemfrom">[<a href="http://arxiv.org/">cs.CR updates on arXiv.org</a>]</span>
+</p>
+<div class="itemdescription">
+<p>
+      Data confidentiality is becoming a significant concern, especially in the cloud computing era. Memory access patterns have been demonstrated to leak critical information such as security keys and a program's spatial and temporal information. This information leak poses an even more significant privacy challenge in machine learning models with embedding tables. Embedding tables are routinely used to learn categorical features from training data. Even knowing the locations of the embedding table entries accessed, not the data within the embedding table, will compromise categorical input data to the model. Embedding entries are privacy-sensitive since they disclose valuable properties about the user. Oblivious RAM (ORAM), and its enhanced variants such as PathORAM have emerged as viable solutions to hide leakage from memory access streams.
+    </p>
+    <p>
+      In this work, we present LAORAM, an ORAM framework explicitly designed to protect user privacy during embedding table training. LAORAM exploits the unique property of training, the training samples used in the future are known beforehand. LAORAM preprocesses the training samples to identify the memory blocks which are accessed together in the near future. The system tries to assign these blocks to as few paths as possible within the PathORAM infrastructure.
+    </p>
+    <p>
+      LAORAM does this operation by combining multiple blocks accessed together as superblocks. To further increase performance, LAORAM uses a fat-tree structure for PathORAM reducing the number of background evictions required, which improves the stash usage. We have evaluated LAORAM using both a recommendation model (DLRM) and a NLP model (XLM-R) embedding table configurations. LAORAM performs 5 times faster than PathORAM on a recommendation dataset (Kaggle) and 5.4x faster on a NLP dataset (XNLI), while guaranteeing the same security guarantees as the original PathORAM.
+    </p>
+</div>
+</div>
+
+<div class="item feed-1b28272e feed-cscrupdatesonarxivorg" id="item-4baf0205">
+<p class="itemheader">
+<span class="itemtitle"><a href="http://arxiv.org/abs/2203.04406">Routing with Privacy for Drone Package Delivery Systems. (arXiv:2203.04406v2 [cs.CR] UPDATED)</a></span>
+<span class="itemfrom">[<a href="http://arxiv.org/">cs.CR updates on arXiv.org</a>]</span>
+</p>
+<div class="itemdescription">
+<p>
+      Unmanned aerial vehicles (UAVs), or drones, are increasingly being used to deliver goods from vendors to customers. To safely conduct these operations at scale, drones are required to broadcast position information as codified in remote identification (remote ID) regulations. However, location broadcast of package delivery drones introduces a privacy risk for customers using these delivery services: Third-party observers may leverage broadcast drone trajectories to link customers with their purchases, potentially resulting in a wide range of privacy risks. We propose a probabilistic definition of privacy risk based on the likelihood of associating a customer to a vendor given a package delivery route. Next, we quantify these risks, enabling drone operators to assess privacy risks when planning delivery routes. We then evaluate the impacts of various factors (e.g., drone capacity) on privacy and consider the trade-offs between privacy and delivery wait times. Finally, we propose heuristics for generating routes with privacy guarantees to avoid exhaustive enumeration of all possible routes and evaluate their performance on several realistic delivery scenarios.
+    </p>
+</div>
+</div>
+
+<div class="item feed-fab735fe feed-thelancet" id="item-7c59e392">
+<p class="itemheader">
+<span class="itemtitle"><a href="https://www.thelancet.com/journals/lancet/article/PIIS0140-6736(22)01238-7/fulltext?rss=yes">[World Report] New Zealand launches new M&#257;ori health authority</a></span>
+<span class="itemfrom">[<a href="https://www.thelancet.com/journals/lancet/issue/current">The Lancet</a>]</span>
+</p>
+<div class="itemdescription">
+<p>
+      The new body aims to tackle health inequities, but is proving politically divisive. Chris McCall reports.
     </p>
 </div>
 </div>
@@ -79,33 +139,6 @@
 <p>
       Nature, Published online: 29 June 2022; <a href="https://www.nature.com/articles/d41586-022-01551-z">doi:10.1038/d41586-022-01551-z</a>
     </p>We charted the genetic history of the grey wolf over the past 100,000 years by analysing 72 ancient genomes. Placing dogs into this history, we found that they derive ancestry from at least two separate wolf populations.
-</div>
-</div>
-
-</div>
-<div class="time">
-<h3>03:46 AM</h3>
-<div class="item feed-1b28272e feed-cscrupdatesonarxivorg" id="item-5dd66f2c">
-<p class="itemheader">
-<span class="itemtitle"><a href="http://arxiv.org/abs/2206.13599">Nowhere to Hide: Detecting Obfuscated Fingerprinting Scripts. (arXiv:2206.13599v1 [cs.CR])</a></span>
-<span class="itemfrom">[<a href="http://arxiv.org/">cs.CR updates on arXiv.org</a>]</span>
-</p>
-<div class="itemdescription">
-<p>
-      As the web moves away from stateful tracking, browser fingerprinting is becoming more prevalent. Unfortunately, existing approaches to detect browser fingerprinting do not take into account potential evasion tactics such as code obfuscation. To address this gap, we investigate the robustness of a state-of-the-art fingerprinting detection approach against various off-the-shelf obfuscation tools. Overall, we find that the combination of static and dynamic analysis is robust against different types of obfuscation. While some obfuscators are able to induce false negatives in static analysis, dynamic analysis is still able detect these cases. Since obfuscation does not induce significant false positives, the combination of static and dynamic analysis is still able to accurately detect obfuscated fingerprinting scripts.
-    </p>
-</div>
-</div>
-
-<div class="item feed-1b28272e feed-cscrupdatesonarxivorg" id="item-6b94912b">
-<p class="itemheader">
-<span class="itemtitle"><a href="http://arxiv.org/abs/2105.03726">Mental Models of Adversarial Machine Learning. (arXiv:2105.03726v3 [cs.CR] UPDATED)</a></span>
-<span class="itemfrom">[<a href="http://arxiv.org/">cs.CR updates on arXiv.org</a>]</span>
-</p>
-<div class="itemdescription">
-<p>
-      Although machine learning is widely used in practice, little is known about practitioners' understanding of potential security challenges. In this work, we close this substantial gap and contribute a qualitative study focusing on developers' mental models of the machine learning pipeline and potentially vulnerable components. Similar studies have helped in other security fields to discover root causes or improve risk communication. Our study reveals two \facets of practitioners' mental models of machine learning security. Firstly, practitioners often confuse machine learning security with threats and defences that are not directly related to machine learning. Secondly, in contrast to most academic research, our participants perceive security of machine learning as not solely related to individual models, but rather in the context of entire workflows that consist of multiple components. Jointly with our additional findings, these two facets provide a foundation to substantiate mental models for machine learning security and have implications for the integration of adversarial machine learning into corporate workflows, \new{decreasing practitioners' reported uncertainty}, and appropriate regulatory frameworks for machine learning security.
-    </p>
 </div>
 </div>
 
@@ -252,18 +285,6 @@
 </div>
 </div>
 
-<div class="item feed-fab735fe feed-thelancet" id="item-cf4b8ea3">
-<p class="itemheader">
-<span class="itemtitle"><a href="https://www.thelancet.com/journals/lancet/article/PIIS0140-6736(22)00944-8/fulltext?rss=yes">[Correspondence] Global burden of antimicrobial resistance: essential pieces of a global puzzle</a></span>
-<span class="itemfrom">[<a href="https://www.thelancet.com/journals/lancet/issue/current">The Lancet</a>]</span>
-</p>
-<div class="itemdescription">
-<p>
-      Christopher J L Murray and colleagues1 report on the dramatically high burden of antimicrobial resistance (AMR) worldwide, particularly in low-income and middle-income countries. The authors also emphasise the insufficient data on the prevalence of bacterial infections and AMR in low-resource settings. Although the figures presented are striking, they do not sufficiently depict the suffering of patients living in these locations and the frustration of clinicians unable to treat an infection that is typically easily curable elsewhere.
-    </p>
-</div>
-</div>
-
 <div class="item feed-d4080559 feed-internationaljournalofsportsphysiologyandperformance" id="item-d69ef9fc">
 <p class="itemheader">
 <span class="itemtitle"><a href="https://journals.humankinetics.com/view/journals/ijspp/17/7/article-p1030.xml">Assessment of a Treadmill Speed Incline Conversion Chart: A Validation Study</a></span>
@@ -294,21 +315,6 @@
 </div>
 </div>
 
-<div class="item feed-d4080559 feed-internationaljournalofsportsphysiologyandperformance" id="item-4d2fc606">
-<p class="itemheader">
-<span class="itemtitle"><a href="https://journals.humankinetics.com/view/journals/ijspp/17/7/article-p1054.xml">Differences in Performance Assessments Conducted Indoors and Outdoors in Professional Cyclists</a></span>
-<span class="itemfrom">[<a href="https://journals.humankinetics.com/view/journals/ijspp/ijspp-overview.xml">International Journal of Sports Physiology and Performance</a>]</span>
-</p>
-<div class="itemdescription">
-<p>
-      Journal Name: International Journal of Sports Physiology and Performance<br>
-      Volume: 17<br>
-      Issue: 7<br>
-      Pages: 1054-1060
-    </p>
-</div>
-</div>
-
 <div class="item feed-d4080559 feed-internationaljournalofsportsphysiologyandperformance" id="item-29d77994">
 <p class="itemheader">
 <span class="itemtitle"><a href="https://journals.humankinetics.com/view/journals/ijspp/17/7/article-p1094.xml">Power Road-Derived Physical Performance Parameters in Junior, Under-23, and Professional Road Cycling Climbers</a></span>
@@ -335,6 +341,21 @@
       Volume: 17<br>
       Issue: 7<br>
       Pages: 1119-1125
+    </p>
+</div>
+</div>
+
+<div class="item feed-d4080559 feed-internationaljournalofsportsphysiologyandperformance" id="item-d347082b">
+<p class="itemheader">
+<span class="itemtitle"><a href="https://journals.humankinetics.com/view/journals/ijspp/17/7/article-p1140.xml">The Impact of Sleep Inertia on Physical, Cognitive, and Subjective Performance Following a 1- or 2-Hour Afternoon Nap in Semiprofessional Athletes</a></span>
+<span class="itemfrom">[<a href="https://journals.humankinetics.com/view/journals/ijspp/ijspp-overview.xml">International Journal of Sports Physiology and Performance</a>]</span>
+</p>
+<div class="itemdescription">
+<p>
+      Journal Name: International Journal of Sports Physiology and Performance<br>
+      Volume: 17<br>
+      Issue: 7<br>
+      Pages: 1140-1150
     </p>
 </div>
 </div>
@@ -928,14 +949,14 @@
 <h2>Friday, 17 September 2021</h2>
 <div class="time">
 <h3>10:22 AM</h3>
-<div class="item feed-a4d49d75 feed-annualreviewsannualreviewofeconomicstableofcontents" id="item-d0064a2f">
+<div class="item feed-a4d49d75 feed-annualreviewsannualreviewofeconomicstableofcontents" id="item-ca34db2f">
 <p class="itemheader">
-<span class="itemtitle"><a href="https://www.annualreviews.org/doi/abs/10.1146/annurev-economics-081020-051248?ai=67b7&amp;mi=3fndc3&amp;af=R">The International Aspects of Macroprudential Policy</a></span>
+<span class="itemtitle"><a href="https://www.annualreviews.org/doi/abs/10.1146/annurev-economics-072720-042303?ai=67b7&amp;mi=3fndc3&amp;af=R">Large Games: Robustness and Stability</a></span>
 <span class="itemfrom">[<a href="https://www.annualreviews.org/loi/economics?ai=67b7&amp;mi=3fndc3&amp;af=R">Annual Reviews: Annual Review of Economics: Table of Contents</a>]</span>
 </p>
 <div class="itemdescription">
 <p>
-      Annual Review of Economics, <a href="https://www.annualreviews.org/toc/economics/13/1">Volume 13, Issue 1</a>, Page 203-228, August 2021.<br>
+      Annual Review of Economics, <a href="https://www.annualreviews.org/toc/economics/13/1">Volume 13, Issue 1</a>, Page 39-56, August 2021.<br>
     </p>
 </div>
 </div>
@@ -952,14 +973,14 @@
 </div>
 </div>
 
-<div class="item feed-a4d49d75 feed-annualreviewsannualreviewofeconomicstableofcontents" id="item-391d202b">
+<div class="item feed-a4d49d75 feed-annualreviewsannualreviewofeconomicstableofcontents" id="item-33e7c694">
 <p class="itemheader">
-<span class="itemtitle"><a href="https://www.annualreviews.org/doi/abs/10.1146/annurev-economics-082020-054645?ai=67b7&amp;mi=3fndc3&amp;af=R">Uncertainty Spillovers for Markets and Policy</a></span>
+<span class="itemtitle"><a href="https://www.annualreviews.org/doi/abs/10.1146/annurev-economics-080218-025532?ai=67b7&amp;mi=3fndc3&amp;af=R">The Story of the Real Exchange Rate</a></span>
 <span class="itemfrom">[<a href="https://www.annualreviews.org/loi/economics?ai=67b7&amp;mi=3fndc3&amp;af=R">Annual Reviews: Annual Review of Economics: Table of Contents</a>]</span>
 </p>
 <div class="itemdescription">
 <p>
-      Annual Review of Economics, <a href="https://www.annualreviews.org/toc/economics/13/1">Volume 13, Issue 1</a>, Page 371-396, August 2021.<br>
+      Annual Review of Economics, <a href="https://www.annualreviews.org/toc/economics/13/1">Volume 13, Issue 1</a>, Page 423-455, August 2021.<br>
     </p>
 </div>
 </div>
@@ -1169,16 +1190,19 @@
 </div>
 
 </div>
+</div>
+<div class="day">
+<h2>Tuesday, 08 December 2020</h2>
 <div class="time">
-<h3>02:14 AM</h3>
-<div class="item feed-b93c25e9 feed-earlyedition" id="item-0bc27317">
+<h3>10:03 AM</h3>
+<div class="item feed-b93c25e9 feed-earlyedition" id="item-df17ed56">
 <p class="itemheader">
-<span class="itemtitle"><a href="http://feedproxy.google.com/~r/Pnas-RssFeedOfEarlyEditionArticles/~3/IjECFqQiSN4/2003991117.short">Efficient photoactivatable Dre recombinase for cell type-specific spatiotemporal control of genome engineering in the mouse [Genetics]</a></span>
+<span class="itemtitle"><a href="http://feedproxy.google.com/~r/Pnas-RssFeedOfEarlyEditionArticles/~3/OXLWcXbB8pc/2015550117.short">ARP2/3-independent WAVE/SCAR pathway and class XI myosin control sperm nuclear migration in flowering plants [Plant Biology]</a></span>
 <span class="itemfrom">[<a href="http://www.pnas.org">Early Edition</a>]</span>
 </p>
 <div class="itemdescription">
 <p>
-      Precise genetic engineering in specific cell types within an intact organism is intriguing yet challenging, especially in a spatiotemporal manner without the interference caused by chemical inducers. Here we engineered a photoactivatable Dre recombinase based on the identification of an optimal split site and demonstrated that it efficiently regulated transgene...<img alt="" height="1" src="http://feeds.feedburner.com/~r/Pnas-RssFeedOfEarlyEditionArticles/~4/IjECFqQiSN4" width="1">
+      After eukaryotic fertilization, gamete nuclei migrate to fuse parental genomes in order to initiate development of the next generation. In most animals, microtubules control female and male pronuclear migration in the zygote. Flowering plants, on the other hand, have evolved actin filament (F-actin)-based sperm nuclear migration systems for karyogamy. Flowering...<img alt="" height="1" src="http://feeds.feedburner.com/~r/Pnas-RssFeedOfEarlyEditionArticles/~4/OXLWcXbB8pc" width="1">
     </p>
 </div>
 </div>
@@ -1222,18 +1246,18 @@
 </div>
 </div>
 <div class="day">
-<h2>Wednesday, 04 November 2020</h2>
+<h2>Thursday, 05 November 2020</h2>
 <div class="time">
-<h3>06:02 PM</h3>
-<div class="item feed-6b3f78ad feed-latestbmjresearch" id="item-03f2bf3d">
+<h3>10:02 AM</h3>
+<div class="item feed-6b3f78ad feed-latestbmjresearch" id="item-d3676d6f">
 <p class="itemheader">
-<span class="itemtitle"><a href="http://feeds.bmj.com/~r/bmj/research/~3/dRh7mbUJt2w/bmj.m3840">Effect of monitoring surgical outcomes using control charts to reduce major adverse events in patients: cluster randomised trial</a></span>
+<span class="itemtitle"><a href="http://feeds.bmj.com/~r/bmj/research/~3/WgpJmf89PRA/bmj.m4087">Mortality due to cancer treatment delay: systematic review and meta-analysis</a></span>
 <span class="itemfrom">[<a href="https://www.bmj.com/research/feed">Latest BMJ Research</a>]</span>
 </p>
 <div class="itemdescription">
 <div class="feedflare">
-      <a href="http://feeds.bmj.com/~ff/bmj/research?a=dRh7mbUJt2w:8xbNp0UXcdA:yIl2AUoC8zA"><img border="0" src="http://feeds.feedburner.com/~ff/bmj/research?d=yIl2AUoC8zA"></a> <a href="http://feeds.bmj.com/~ff/bmj/research?a=dRh7mbUJt2w:8xbNp0UXcdA:dnMXMwOfBR0"><img border="0" src="http://feeds.feedburner.com/~ff/bmj/research?d=dnMXMwOfBR0"></a> <a href="http://feeds.bmj.com/~ff/bmj/research?a=dRh7mbUJt2w:8xbNp0UXcdA:F7zBnMyn0Lo"><img border="0" src="http://feeds.feedburner.com/~ff/bmj/research?i=dRh7mbUJt2w:8xbNp0UXcdA:F7zBnMyn0Lo"></a> <a href="http://feeds.bmj.com/~ff/bmj/research?a=dRh7mbUJt2w:8xbNp0UXcdA:V_sGLiPBpWU"><img border="0" src="http://feeds.feedburner.com/~ff/bmj/research?i=dRh7mbUJt2w:8xbNp0UXcdA:V_sGLiPBpWU"></a> <a href="http://feeds.bmj.com/~ff/bmj/research?a=dRh7mbUJt2w:8xbNp0UXcdA:qj6IDK7rITs"><img border="0" src="http://feeds.feedburner.com/~ff/bmj/research?d=qj6IDK7rITs"></a> <a href="http://feeds.bmj.com/~ff/bmj/research?a=dRh7mbUJt2w:8xbNp0UXcdA:gIN9vFwOqvQ"><img border="0" src="http://feeds.feedburner.com/~ff/bmj/research?i=dRh7mbUJt2w:8xbNp0UXcdA:gIN9vFwOqvQ"></a>
-    </div><img alt="" height="1" src="http://feeds.feedburner.com/~r/bmj/research/~4/dRh7mbUJt2w" width="1">
+      <a href="http://feeds.bmj.com/~ff/bmj/research?a=WgpJmf89PRA:LaDq23B1qMY:yIl2AUoC8zA"><img border="0" src="http://feeds.feedburner.com/~ff/bmj/research?d=yIl2AUoC8zA"></a> <a href="http://feeds.bmj.com/~ff/bmj/research?a=WgpJmf89PRA:LaDq23B1qMY:dnMXMwOfBR0"><img border="0" src="http://feeds.feedburner.com/~ff/bmj/research?d=dnMXMwOfBR0"></a> <a href="http://feeds.bmj.com/~ff/bmj/research?a=WgpJmf89PRA:LaDq23B1qMY:F7zBnMyn0Lo"><img border="0" src="http://feeds.feedburner.com/~ff/bmj/research?i=WgpJmf89PRA:LaDq23B1qMY:F7zBnMyn0Lo"></a> <a href="http://feeds.bmj.com/~ff/bmj/research?a=WgpJmf89PRA:LaDq23B1qMY:V_sGLiPBpWU"><img border="0" src="http://feeds.feedburner.com/~ff/bmj/research?i=WgpJmf89PRA:LaDq23B1qMY:V_sGLiPBpWU"></a> <a href="http://feeds.bmj.com/~ff/bmj/research?a=WgpJmf89PRA:LaDq23B1qMY:qj6IDK7rITs"><img border="0" src="http://feeds.feedburner.com/~ff/bmj/research?d=qj6IDK7rITs"></a> <a href="http://feeds.bmj.com/~ff/bmj/research?a=WgpJmf89PRA:LaDq23B1qMY:gIN9vFwOqvQ"><img border="0" src="http://feeds.feedburner.com/~ff/bmj/research?i=WgpJmf89PRA:LaDq23B1qMY:gIN9vFwOqvQ"></a>
+    </div><img alt="" height="1" src="http://feeds.feedburner.com/~r/bmj/research/~4/WgpJmf89PRA" width="1">
 </div>
 </div>
 
@@ -1299,127 +1323,127 @@
 <tr class="feedsrow">
 <td><a href="https://www.annualreviews.org/loi/economics?ai=67b7&amp;mi=3fndc3&amp;af=R">Annual Reviews: Annual Review of Economics: Table of Contents</a></td>
 <td><a class="xmlbutton" href="http://www.annualreviews.org/action/showFeed?ui=45mu4&amp;mi=3fndc3&amp;ai=67b7&amp;jc=economics&amp;type=etoc&amp;feed=rss">XML</a></td>
-<td>06:22 PM, Thursday, 30 June 2022</td>
-<td>09:22 PM, Thursday, 30 June 2022</td>
+<td>03:54 AM, Friday, 01 July 2022</td>
+<td>06:54 AM, Friday, 01 July 2022</td>
 </tr>
 
 <tr class="feedsrow">
 <td><a href="https://www.annualreviews.org/loi/nutr?ai=rz&amp;mi=3fndc3&amp;af=R">Annual Reviews: Annual Review of Nutrition: Table of Contents</a></td>
 <td><a class="xmlbutton" href="http://www.annualreviews.org/action/showFeed?ui=45mu4&amp;mi=3fndc3&amp;ai=rz&amp;jc=nutr&amp;type=etoc&amp;feed=rss">XML</a></td>
-<td>06:22 PM, Thursday, 30 June 2022</td>
-<td>09:22 PM, Thursday, 30 June 2022</td>
+<td>03:54 AM, Friday, 01 July 2022</td>
+<td>06:54 AM, Friday, 01 July 2022</td>
 </tr>
 
 <tr class="feedsrow">
 <td><a href="https://www.annualreviews.org/loi/physiol?ai=sp&amp;mi=3fndc3&amp;af=R">Annual Reviews: Annual Review of Physiology: Table of Contents</a></td>
 <td><a class="xmlbutton" href="http://www.annualreviews.org/action/showFeed?ui=45mu4&amp;mi=3fndc3&amp;ai=sp&amp;jc=physiol&amp;type=etoc&amp;feed=rss">XML</a></td>
-<td>06:22 PM, Thursday, 30 June 2022</td>
-<td>09:22 PM, Thursday, 30 June 2022</td>
+<td>03:54 AM, Friday, 01 July 2022</td>
+<td>06:54 AM, Friday, 01 July 2022</td>
 </tr>
 
 <tr class="feedsrow">
 <td><a href="https://www.annualreviews.org/loi/polisci?af=R">Annual Reviews: Annual Review of Political Science: Table of Contents</a></td>
 <td><a class="xmlbutton" href="http://www.annualreviews.org/action/showFeed?jc=polisci&amp;type=etoc&amp;feed=rss">XML</a></td>
-<td>06:22 PM, Thursday, 30 June 2022</td>
-<td>09:22 PM, Thursday, 30 June 2022</td>
+<td>03:54 AM, Friday, 01 July 2022</td>
+<td>06:54 AM, Friday, 01 July 2022</td>
 </tr>
 
 <tr class="feedsrow">
 <td><a href="https://www.annualreviews.org/loi/soc?ai=t0&amp;mi=3fndc3&amp;af=R">Annual Reviews: Annual Review of Sociology: Table of Contents</a></td>
 <td><a class="xmlbutton" href="http://www.annualreviews.org/action/showFeed?ui=45mu4&amp;mi=3fndc3&amp;ai=t0&amp;jc=soc&amp;type=etoc&amp;feed=rss">XML</a></td>
-<td>06:22 PM, Thursday, 30 June 2022</td>
-<td>09:22 PM, Thursday, 30 June 2022</td>
+<td>03:54 AM, Friday, 01 July 2022</td>
+<td>06:54 AM, Friday, 01 July 2022</td>
 </tr>
 
 <tr class="feedsrow">
 <td><a href="http://arxiv.org/">cs.CR updates on arXiv.org</a></td>
 <td><a class="xmlbutton" href="http://export.arxiv.org/rss/cs.CR">XML</a></td>
-<td>06:22 PM, Thursday, 30 June 2022</td>
-<td>09:22 PM, Thursday, 30 June 2022</td>
+<td>03:54 AM, Friday, 01 July 2022</td>
+<td>06:54 AM, Friday, 01 July 2022</td>
 </tr>
 
 <tr class="feedsrow">
 <td><a href="http://www.pnas.org">Early Edition</a></td>
 <td><a class="xmlbutton" href="http://feeds.feedburner.com/Pnas-RssFeedOfEarlyEditionArticles?format=xml">XML</a></td>
-<td>06:22 PM, Thursday, 30 June 2022</td>
-<td>09:22 PM, Thursday, 30 June 2022</td>
+<td>03:54 AM, Friday, 01 July 2022</td>
+<td>06:54 AM, Friday, 01 July 2022</td>
 </tr>
 
 <tr class="feedsrow">
 <td><a href="http://www.eurekalert.org">EurekAlert! - Breaking News</a></td>
 <td><a class="xmlbutton" href="https://www.eurekalert.org/rss.xml">XML</a></td>
-<td>06:22 PM, Thursday, 30 June 2022</td>
-<td>09:22 PM, Thursday, 30 June 2022</td>
+<td>03:54 AM, Friday, 01 July 2022</td>
+<td>06:54 AM, Friday, 01 July 2022</td>
 </tr>
 
 <tr class="feedsrow">
 <td><a href="https://www.cambridge.org/core/journals/european-political-science-review/latest-issue">European Political Science Review</a></td>
 <td><a class="xmlbutton" href="https://www.cambridge.org/core/rss/product/id/3DB89DF6A9878CE661D3CE5FC6E9D6BC">XML</a></td>
-<td>06:22 PM, Thursday, 30 June 2022</td>
-<td>09:22 PM, Thursday, 30 June 2022</td>
+<td>03:54 AM, Friday, 01 July 2022</td>
+<td>06:54 AM, Friday, 01 July 2022</td>
 </tr>
 
 <tr class="feedsrow">
 <td><a href="http://ieeexplore.ieee.org">IEEE Transactions on Image Processing - new TOC</a></td>
 <td><a class="xmlbutton" href="https://ieeexplore.ieee.org/rss/TOC83.XML">XML</a></td>
-<td>06:22 PM, Thursday, 30 June 2022</td>
-<td>09:22 PM, Thursday, 30 June 2022</td>
+<td>03:54 AM, Friday, 01 July 2022</td>
+<td>06:54 AM, Friday, 01 July 2022</td>
 </tr>
 
 <tr class="feedsrow">
 <td><a href="http://ieeexplore.ieee.org">IEEE Transactions on Industrial Electronics - new TOC</a></td>
 <td><a class="xmlbutton" href="https://ieeexplore.ieee.org/rss/TOC41.XML">XML</a></td>
-<td>06:22 PM, Thursday, 30 June 2022</td>
-<td>09:22 PM, Thursday, 30 June 2022</td>
+<td>03:54 AM, Friday, 01 July 2022</td>
+<td>06:54 AM, Friday, 01 July 2022</td>
 </tr>
 
 <tr class="feedsrow">
 <td><a href="http://ieeexplore.ieee.org">IEEE Transactions on Industrial Informatics - new TOC</a></td>
 <td><a class="xmlbutton" href="https://ieeexplore.ieee.org/rss/TOC9424.XML">XML</a></td>
-<td>06:22 PM, Thursday, 30 June 2022</td>
-<td>09:22 PM, Thursday, 30 June 2022</td>
+<td>03:54 AM, Friday, 01 July 2022</td>
+<td>06:54 AM, Friday, 01 July 2022</td>
 </tr>
 
 <tr class="feedsrow">
 <td><a href="http://ieeexplore.ieee.org">IEEE Transactions on Information Forensics and Security - new TOC</a></td>
 <td><a class="xmlbutton" href="https://ieeexplore.ieee.org/rss/TOC10206.XML">XML</a></td>
-<td>06:22 PM, Thursday, 30 June 2022</td>
-<td>09:22 PM, Thursday, 30 June 2022</td>
+<td>03:54 AM, Friday, 01 July 2022</td>
+<td>06:54 AM, Friday, 01 July 2022</td>
 </tr>
 
 <tr class="feedsrow">
 <td><a href="https://journals.humankinetics.com/view/journals/ijspp/ijspp-overview.xml">International Journal of Sports Physiology and Performance</a></td>
 <td><a class="xmlbutton" href="https://journals.humankinetics.com/journalissuetocrss/journals/ijspp/ijspp-overview.xml">XML</a></td>
-<td>06:22 PM, Thursday, 30 June 2022</td>
-<td>09:22 PM, Thursday, 30 June 2022</td>
+<td>03:54 AM, Friday, 01 July 2022</td>
+<td>06:54 AM, Friday, 01 July 2022</td>
 </tr>
 
 <tr class="feedsrow">
 <td><a href="https://jamanetwork.com/journals/jama">JAMA Current Issue</a></td>
 <td><a class="xmlbutton" href="https://jamanetwork.com/rss/site_3/67.xml">XML</a></td>
-<td>06:22 PM, Thursday, 30 June 2022</td>
-<td>09:22 PM, Thursday, 30 June 2022</td>
+<td>03:54 AM, Friday, 01 July 2022</td>
+<td>06:54 AM, Friday, 01 July 2022</td>
 </tr>
 
 <tr class="feedsrow">
 <td><a href="https://www.bmj.com/research/feed">Latest BMJ Research</a></td>
 <td><a class="xmlbutton" href="http://feeds.bmj.com/bmj/research?format=xml">XML</a></td>
-<td>06:22 PM, Thursday, 30 June 2022</td>
-<td>09:22 PM, Thursday, 30 June 2022</td>
+<td>03:54 AM, Friday, 01 July 2022</td>
+<td>06:54 AM, Friday, 01 July 2022</td>
 </tr>
 
 <tr class="feedsrow">
 <td><a href="http://feeds.nature.com/nature/rss/current">Nature - Issue - nature.com science feeds</a></td>
 <td><a class="xmlbutton" href="http://feeds.nature.com/nature/rss/current?format=xml">XML</a></td>
-<td>06:22 PM, Thursday, 30 June 2022</td>
-<td>09:22 PM, Thursday, 30 June 2022</td>
+<td>03:54 AM, Friday, 01 July 2022</td>
+<td>06:54 AM, Friday, 01 July 2022</td>
 </tr>
 
 <tr class="feedsrow">
 <td><a href="https://www.thelancet.com/journals/lancet/issue/current">The Lancet</a></td>
 <td><a class="xmlbutton" href="http://www.thelancet.com/rssfeed/lancet_current.xml">XML</a></td>
-<td>06:22 PM, Thursday, 30 June 2022</td>
-<td>09:22 PM, Thursday, 30 June 2022</td>
+<td>03:54 AM, Friday, 01 July 2022</td>
+<td>06:54 AM, Friday, 01 July 2022</td>
 </tr>
 
 </table>
