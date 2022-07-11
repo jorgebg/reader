@@ -16,26 +16,14 @@
 <h2>Monday, 11 July 2022</h2>
 <div class="time">
 <h3>03:36 AM</h3>
-<div class="item feed-1b28272e feed-cscrupdatesonarxivorg" id="item-85478af4">
+<div class="item feed-1b28272e feed-cscrupdatesonarxivorg" id="item-d4e22c6e">
 <p class="itemheader">
-<span class="itemtitle"><a href="http://arxiv.org/abs/2207.03534">A Review of Quantum Cybersecurity: Threats, Risks and Opportunities. (arXiv:2207.03534v1 [cs.CR])</a></span>
+<span class="itemtitle"><a href="http://arxiv.org/abs/2207.03722">Frequency-based Randomization for Guaranteeing Differential Privacy in Spatial Trajectories. (arXiv:2207.03722v1 [cs.DB])</a></span>
 <span class="itemfrom">[<a href="http://arxiv.org/">cs.CR updates on arXiv.org</a>]</span>
 </p>
 <div class="itemdescription">
 <p>
-      The promise of quantum computing is not speeding up conventional computing rather delivering an exponential advantage for certain classes of problems, with profound implications for cybersecurity for instance. With the advent and development of quantum computers, cyberspace security can surely become the most critical problem for the Internet in near future. On contrary, prosaic quantum technology can be promising to transform cybersecurity. This research aims to synthesize basic and fundamental studies concerning quantum cybersecurity that can be emerged both as a threat and solution to critical cybersecurity issues based on a systematic study. We provide a comprehensive, illustrative description of the current state-of-the-art quantum computing and cybersecurity and present the proposed approaches to date. Findings in quantum computing cybersecurity suggest that quantum computing can be adopted for the betterment of cybersecurity threats while it poses the most unexpected threats to cybersecurity. The focus and depth of this systematic survey not only provide quantum and cybersecurity practitioners and researchers with a consolidated body of knowledge about current trends in this area but also underpins a starting point for further research in this field.
-    </p>
-</div>
-</div>
-
-<div class="item feed-1b28272e feed-cscrupdatesonarxivorg" id="item-d8ae84eb">
-<p class="itemheader">
-<span class="itemtitle"><a href="http://arxiv.org/abs/2207.03574">Demystifying the Adversarial Robustness of Random Transformation Defenses. (arXiv:2207.03574v1 [cs.CR])</a></span>
-<span class="itemfrom">[<a href="http://arxiv.org/">cs.CR updates on arXiv.org</a>]</span>
-</p>
-<div class="itemdescription">
-<p>
-      Neural networks' lack of robustness against attacks raises concerns in security-sensitive settings such as autonomous vehicles. While many countermeasures may look promising, only a few withstand rigorous evaluation. Defenses using random transformations (RT) have shown impressive results, particularly BaRT (Raff et al., 2019) on ImageNet. However, this type of defense has not been rigorously evaluated, leaving its robustness properties poorly understood. Their stochastic properties make evaluation more challenging and render many proposed attacks on deterministic models inapplicable. First, we show that the BPDA attack (Athalye et al., 2018a) used in BaRT's evaluation is ineffective and likely overestimates its robustness. We then attempt to construct the strongest possible RT defense through the informed selection of transformations and Bayesian optimization for tuning their parameters. Furthermore, we create the strongest possible attack to evaluate our RT defense. Our new attack vastly outperforms the baseline, reducing the accuracy by 83% compared to the 19% reduction by the commonly used EoT attack ($4.3\times$ improvement). Our result indicates that the RT defense on the Imagenette dataset (a ten-class subset of ImageNet) is not robust against adversarial examples. Extending the study further, we use our new attack to adversarially train RT defense (called AdvRT), resulting in a large robustness gain. Code is available at https://github.com/wagnergroup/demystify-random-transform.
+      With the popularity of GPS-enabled devices, a huge amount of trajectory data has been continuously collected and a variety of location-based services have been developed that greatly benefit our daily life. However, the released trajectories also bring severe concern about personal privacy, and several recent studies have demonstrated the existence of personally-identifying information in spatial trajectories. Trajectory anonymization is nontrivial due to the trade-off between privacy protection and utility preservation. Furthermore, recovery attack has not been well studied in the current literature. To tackle these issues, we propose a frequency-based randomization model with a rigorous differential privacy guarantee for trajectory data publishing. In particular, we introduce two randomized mechanisms to perturb the local/global frequency distributions of significantly important locations in trajectories by injecting Laplace noise. We design a hierarchical indexing along with a novel search algorithm to support efficient trajectory modification, ensuring the modified trajectories satisfy the perturbed distributions without compromising privacy guarantee or data utility. Extensive experiments on a real-world trajectory dataset verify the effectiveness of our approaches in resisting individual re-identification and recovery attacks and meanwhile preserving desirable data utility as well as the feasibility in practice.
     </p>
 </div>
 </div>
@@ -48,6 +36,18 @@
 <div class="itemdescription">
 <p>
       Privacy-preserving deep neural network (DNN) inference is a necessity in different regulated industries such as healthcare, finance and retail. Recently, homomorphic encryption (HE) has been used as a method to enable analytics while addressing privacy concerns. HE enables secure predictions over encrypted data. However, there are several challenges related to the use of HE, including DNN size limitations and the lack of support for some operation types. Most notably, the commonly used ReLU activation is not supported under some HE schemes. We propose a structured methodology to replace ReLU with a quadratic polynomial activation. To address the accuracy degradation issue, we use a pre-trained model that trains another HE-friendly model, using techniques such as trainable activation functions and knowledge distillation. We demonstrate our methodology on the AlexNet architecture, using the chest X-Ray and CT datasets for COVID-19 detection. Experiments using our approach reduced the gap between the F1 score and accuracy of the models trained with ReLU and the HE-friendly model to within a mere 0.32-5.3 percent degradation. We also demonstrate our methodology using the SqueezeNet architecture, for which we observed 7 percent accuracy and F1 improvements over training similar networks with other HE-friendly training methods.
+    </p>
+</div>
+</div>
+
+<div class="item feed-1b28272e feed-cscrupdatesonarxivorg" id="item-af4e5ddb">
+<p class="itemheader">
+<span class="itemtitle"><a href="http://arxiv.org/abs/2201.00900">A Survey on DNS Encryption: Current Development, Malware Misuse, and Inference Techniques. (arXiv:2201.00900v2 [cs.CR] UPDATED)</a></span>
+<span class="itemfrom">[<a href="http://arxiv.org/">cs.CR updates on arXiv.org</a>]</span>
+</p>
+<div class="itemdescription">
+<p>
+      The domain name system (DNS) that maps alphabetic names to numeric Internet Protocol (IP) addresses plays a foundational role for Internet communications. By default, DNS queries and responses are exchanged in unencrypted plaintext, and hence, can be read and/or hijacked by third parties. To protect user privacy, the networking community has proposed standard encryption technologies such as DNS over TLS (DoT), DNS over HTTPS (DoH), and DNS over QUIC (DoQ) for DNS communications, enabling clients to perform secure and private domain name lookups. We survey the DNS encryption literature published since 2016, focusing on its current landscape and how it is misused by malware, and highlighting the existing techniques developed to make inferences from encrypted DNS traffic. First, we provide an overview of various standards developed in the space of DNS encryption and their adoption status, performance, benefits, and security issues. Second, we highlight ways that various malware families can exploit DNS encryption to their advantage for botnet communications and/or data exfiltration. Third, we discuss existing inference methods for profiling normal patterns and/or detecting malicious encrypted DNS traffic. Several directions are presented to motivate future research in enhancing the performance and security of DNS encryption.
     </p>
 </div>
 </div>
@@ -99,15 +99,30 @@
 <div class="day">
 <h2>Friday, 08 July 2022</h2>
 <div class="time">
-<h3>03:41 AM</h3>
-<div class="item feed-fab735fe feed-thelancet" id="item-f35f8285">
+<h3>10:18 AM</h3>
+<div class="item feed-53ba08d1 feed-natureissuenaturecomsciencefeeds" id="item-5769cbdf">
 <p class="itemheader">
-<span class="itemtitle"><a href="https://www.thelancet.com/journals/lancet/article/PIIS0140-6736(22)00984-9/fulltext?rss=yes">[Comment] Is the US infant formula shortage an avoidable crisis?</a></span>
+<span class="itemtitle"><a href="https://www.nature.com/articles/d41586-022-01881-y">Why the party is over for Britain&#8217;s Research Excellence Framework</a></span>
+<span class="itemfrom">[<a href="http://feeds.nature.com/nature/rss/current">Nature - Issue - nature.com science feeds</a>]</span>
+</p>
+<div class="itemdescription">
+<p>
+      Nature, Published online: 08 July 2022; <a href="https://www.nature.com/articles/d41586-022-01881-y">doi:10.1038/d41586-022-01881-y</a>
+    </p>Many UK universities pop the champagne when they get the results of a national research-performance review. But burnt-out academics see no cause for celebration, say Richard Watermeyer and Gemma Derrick.
+</div>
+</div>
+
+</div>
+<div class="time">
+<h3>03:41 AM</h3>
+<div class="item feed-fab735fe feed-thelancet" id="item-8346d16e">
+<p class="itemheader">
+<span class="itemtitle"><a href="https://www.thelancet.com/journals/lancet/article/PIIS0140-6736(22)01286-7/fulltext?rss=yes">[Comment] Intravenous thrombolysis before thrombectomy for acute ischaemic stroke</a></span>
 <span class="itemfrom">[<a href="https://www.thelancet.com/journals/lancet/issue/current">The Lancet</a>]</span>
 </p>
 <div class="itemdescription">
 <p>
-      Since February, 2022, there has been an acute shortage of commercial milk formula in the USA. This shortage is the result of the recall of several products manufactured by Abbott Nutrition, the largest manufacturer of infant formula in the USA, due to bacterial contamination and shutdown of their Michigan plant.1 The out-of-stock rate for commercial milk formula reached 43% for the week ending May 8, 2022, and in six states more than half of infant formula was sold out.2 Desperate parents face huge uncertainty and hungry, crying babies.
+      Before endovascular therapy, patients with ischaemic stroke due to occlusion of large arteries were treated with only intravenous thrombolysis, specifically alteplase. Intravenous thrombolysis recanalised about 25% of occluded large arteries, resulting in fewer than 30% of patients achieving functional independence (modified Rankin Score [mRS] 0&#8211;2) at 90 days.1 In 2015, second-generation thrombectomy devices, in combination with intravenous thrombolysis, were proven to recanalise about 70&#8211;80% of arteries and improve rates of functional independence by 20&#8211;30% compared with intravenous thrombolysis alone.
     </p>
 </div>
 </div>
@@ -178,18 +193,6 @@
 </div>
 </div>
 
-<div class="item feed-53ba08d1 feed-natureissuenaturecomsciencefeeds" id="item-9ba93672">
-<p class="itemheader">
-<span class="itemtitle"><a href="https://www.nature.com/articles/s41586-022-04813-y">Turbulent cold flows gave birth to the first quasars</a></span>
-<span class="itemfrom">[<a href="http://feeds.nature.com/nature/rss/current">Nature - Issue - nature.com science feeds</a>]</span>
-</p>
-<div class="itemdescription">
-<p>
-      Nature, Published online: 06 July 2022; <a href="https://www.nature.com/articles/s41586-022-04813-y">doi:10.1038/s41586-022-04813-y</a>
-    </p>Rare, converging cold flows gave birth to the massive black holes that were the seeds of the first quasars.
-</div>
-</div>
-
 <div class="item feed-53ba08d1 feed-natureissuenaturecomsciencefeeds" id="item-81e0252c">
 <p class="itemheader">
 <span class="itemtitle"><a href="https://www.nature.com/articles/d41586-022-01560-y">Revealing the origin of the first supermassive black holes</a></span>
@@ -244,14 +247,26 @@
 </div>
 </div>
 
-<div class="item feed-ed41d94f feed-jamacurrentissue" id="item-4787c84b">
+<div class="item feed-ed41d94f feed-jamacurrentissue" id="item-d55e99ac">
 <p class="itemheader">
-<span class="itemtitle"><a href="https://jamanetwork.com/journals/jama/fullarticle/2793839">Physical Activity Benefits Older Adults' Kidney Function</a></span>
+<span class="itemtitle"><a href="https://jamanetwork.com/journals/jama/fullarticle/2793841">Kids Move Much More When Screen Time Is Reduced</a></span>
 <span class="itemfrom">[<a href="https://jamanetwork.com/journals/jama">JAMA Current Issue</a>]</span>
 </p>
 <div class="itemdescription">
 <p>
-      Randomized trial findings published in 2014 demonstrated that moderate-intensity physical activity and exercise reduced major mobility disability among sedentary older adults. The investigators now report that the intervention also slowed kidney function decline.
+      Reducing families&#8217; recreational screen time led to children becoming substantially more physically active, trial investigators reported in JAMA Pediatrics.
+    </p>
+</div>
+</div>
+
+<div class="item feed-ed41d94f feed-jamacurrentissue" id="item-d005d3c9">
+<p class="itemheader">
+<span class="itemtitle"><a href="https://jamanetwork.com/journals/jama/fullarticle/2793823">Her Patient Days</a></span>
+<span class="itemfrom">[<a href="https://jamanetwork.com/journals/jama">JAMA Current Issue</a>]</span>
+</p>
+<div class="itemdescription">
+<p>
+      What was it but an act of abnegation when she shook her head and said, her voice small enough to slide under a locked door, no pain no pain. She who had always given us reassurance, though now nothing could be assured. Those were her patient days&#8212; her body a tool she could no longer wield, an awkwardness, a jerking here and there when she tried. For many years we watched her move her body as if it were a thing she&#8217;d always easily master&#8212; like a driver who could carry on a full conversation with a passenger, about the book on tape both were listening to, could take her right hand off the wheel to raise a pointer finger in the air for emphasis, and still, still, you&#8217;d never lose confidence in her control of the car. For years. But now her body was a weight only professionals could maneuver. We interceded when they prodded us forward telling us how to move her, how to touch her, and where. They, clipped and knowing in their scrubs, and us undone, revealed in our clumsiness as if we wore thick asbestos gloves. There were other things I had wanted to say here, other territory to which I&#8217;d intended to travel. But now I see her in that bed, the lights lowered for evening, her body an unmaneuverable mass in front of her almost, it seems, smothering her small voice&#8212; No pain no pain. And I wonder why we&#8217;d even asked if she felt any. Did we think we could help her, us with our muffled hands?
     </p>
 </div>
 </div>
@@ -268,14 +283,17 @@
 </div>
 </div>
 
-<div class="item feed-ed41d94f feed-jamacurrentissue" id="item-9e24e399">
+</div>
+<div class="time">
+<h3>03:41 AM</h3>
+<div class="item feed-c99fafa0 feed-ieeetransactionsonimageprocessingnewtoc" id="item-5c630d7f">
 <p class="itemheader">
-<span class="itemtitle"><a href="https://jamanetwork.com/journals/jama/fullarticle/2792738">Excess Mortality in Massachusetts During the Delta and Omicron Waves of COVID-19</a></span>
-<span class="itemfrom">[<a href="https://jamanetwork.com/journals/jama">JAMA Current Issue</a>]</span>
+<span class="itemtitle"><a href="http://ieeexplore.ieee.org/document/9807636">WINNet: Wavelet-Inspired Invertible Network for Image Denoising</a></span>
+<span class="itemfrom">[<a href="http://ieeexplore.ieee.org">IEEE Transactions on Image Processing - new TOC</a>]</span>
 </p>
 <div class="itemdescription">
 <p>
-      This modeling study estimates the excess deaths attributable to COVID-19 disease in Massachusetts during the Delta (June to December 2021) and Omicron (December 2021 to February 2022) waves.
+      Image denoising aims to restore a clean image from an observed noisy one. Model-based image denoising approaches can achieve good generalization ability over different noise levels and are with high interpretability. Learning-based approaches are able to achieve better results, but usually with weaker generalization ability and interpretability. In this paper, we propose a wavelet-inspired invertible network (WINNet) to combine the merits of the wavelet-based approaches and learning-based approaches. The proposed WINNet consists of $K$ -scale of lifting inspired invertible neural networks (LINNs) and sparsity-driven denoising networks together with a noise estimation network. The network architecture of LINNs is inspired by the lifting scheme in wavelets. LINNs are used to learn a non-linear redundant transform with perfect reconstruction property to facilitate noise removal. The denoising network implements a sparse coding process for denoising. The noise estimation network estimates the noise level from the input image which will be used to adaptively adjust the soft-thresholds in LINNs. The forward transform of LINNs produces a redundant multi-scale representation for denoising. The denoised image is reconstructed using the inverse transform of LINNs with the denoised detail channels and the original coarse channel. The simulation results show that the proposed WINNet method is highly interpretable and has strong generalization ability to unseen noise levels. It also achieves competitive results in the non-blind/blind image denoising and in image deblurring.
     </p>
 </div>
 </div>
@@ -286,9 +304,9 @@
 <h2>Friday, 24 June 2022</h2>
 <div class="time">
 <h3>03:40 AM</h3>
-<div class="item feed-d4080559 feed-internationaljournalofsportsphysiologyandperformance" id="item-fee5d8d8">
+<div class="item feed-d4080559 feed-internationaljournalofsportsphysiologyandperformance" id="item-b927a675">
 <p class="itemheader">
-<span class="itemtitle"><a href="https://journals.humankinetics.com/view/journals/ijspp/17/7/article-p993.xml">Sport-Science Research on Female Athletes: Dealing With the Paradox of Concurrent Increases in Quantity and Quality</a></span>
+<span class="itemtitle"><a href="https://journals.humankinetics.com/view/journals/ijspp/17/7/article-p995.xml">Effects of Weight Cutting on Exercise Performance in Combat Athletes: A Meta-Analysis</a></span>
 <span class="itemfrom">[<a href="https://journals.humankinetics.com/view/journals/ijspp/ijspp-overview.xml">International Journal of Sports Physiology and Performance</a>]</span>
 </p>
 <div class="itemdescription">
@@ -296,7 +314,7 @@
       Journal Name: International Journal of Sports Physiology and Performance<br>
       Volume: 17<br>
       Issue: 7<br>
-      Pages: 993-994
+      Pages: 995-1010
     </p>
 </div>
 </div>
@@ -367,26 +385,14 @@
 <h2>Friday, 17 June 2022</h2>
 <div class="time">
 <h3>03:22 AM</h3>
-<div class="item feed-ccdce26d feed-ieeetransactionsonindustrialinformaticsnewtoc" id="item-0db6d737">
+<div class="item feed-ccdce26d feed-ieeetransactionsonindustrialinformaticsnewtoc" id="item-55274e85">
 <p class="itemheader">
-<span class="itemtitle"><a href="http://ieeexplore.ieee.org/document/9668994">Impact of Optimal Sizing of Wind Turbine and Battery Energy Storage for a Grid-Connected Household With/Without an Electric Vehicle</a></span>
+<span class="itemtitle"><a href="http://ieeexplore.ieee.org/document/9632441">An Adaptable Correlated Control for Maintaining Voltage Quality in Low-Voltage Distribution Grids Containing PVs and PEVs</a></span>
 <span class="itemfrom">[<a href="http://ieeexplore.ieee.org">IEEE Transactions on Industrial Informatics - new TOC</a>]</span>
 </p>
 <div class="itemdescription">
 <p>
-      This article determines the optimal capacities of small wind turbine (SWT) and battery energy storage (BES) for a grid-connected household (GCH) with or without an electric vehicle (EV) to minimize the overall cost of electricity (COE). Rule-based home energy management systems (HEMSs) are developed for two different configurations of the GCH: 1) with only SWT and 2) with SWT and BES. For each configuration, the HEMSs are developed for two cases: with and without an EV in the premises of the GCH. Uncertainties are also included in the arrival time, departure time, and initial state of charge (at arrival) of the EV. The abovementioned technique is then applied to a typical household in South Australia using the yearly load profile of the household and actual yearly wind speed data at an interval of one hour. To investigate the effects of stochastic nature of household load, EV, and wind power generation on various results, the optimization process is repeated using 10-year of actual wind speed data and probabilistic load and EV uncertainties. The results of several sensitivity analyses of various system parameters are presented. It has been found that the SWT can effectively decrease the COE of the household for both cases (with and without an EV). However, the current price of battery may not be in favor of further reducing the COE of the household.
-    </p>
-</div>
-</div>
-
-<div class="item feed-ccdce26d feed-ieeetransactionsonindustrialinformaticsnewtoc" id="item-0665bb27">
-<p class="itemheader">
-<span class="itemtitle"><a href="http://ieeexplore.ieee.org/document/9650739">Hypergraphical Real-Time Multirobot Task Allocation in a Smart Factory</a></span>
-<span class="itemfrom">[<a href="http://ieeexplore.ieee.org">IEEE Transactions on Industrial Informatics - new TOC</a>]</span>
-</p>
-<div class="itemdescription">
-<p>
-      To facilitate Industry 4.0 and smart manufacturing, smart factories shall flexibly achieve mass manufacture of on-demand individualized products. Reconfigurable multirobot system (MRS)-driven smart factories as a representative paradigm fulfill the above requirements through dynamically adjusting production flows while optimizing productivity and energy efficiency. This article innovates real-time multirobot task allocation to coordinate a heterogeneous MRS so that frequent reconfiguration brought by dynamic production demands can be answered. The challenges brought by frequent production flow adjustment are analyzed and addressed by proposing a hypergraph MRS model and a hypergraph search algorithm. The hypergraph MRS model is tailored to characterize temporal&#8211;spatial features and heterogeneity of the MRS, task assignments of production robots, and transportation paths of transportation robots. The hypergraph search algorithm fulfills the production demands, dual-objective dual-agent optimization of productivity and energy efficiency, and constant time complexity for real-time coordination. Computational experiments show that the proposed approach delivers effective task assignments of optimized MRS productivity and energy efficiency with robust performance.
+      Rooftop photovoltaic (PV) systems and plug-in electric vehicles (PEVs) will be increasingly utilized by residential customers due to their economic and environmental benefits. However, the intermittent power produced by PVs and the additional loads required for the PEV charging can cause power quality disturbances in the low-voltage distribution networks (LVDN). An adaptable correlated control (ACC) is proposed for the decoupled optimization of the active and reactive power, where energy cost can be minimized through the local demand-side management (DSM) of residential loads. Further, the optimal allocation of the sparse capacity of inverters for reactive power compensation to maintain the voltage variations and the mitigation of voltage unbalances within the allowable limits is proposed. The proposed ACC provides a supervisory control to observe and modify the voltage quality of the LVDN without the need for real-time collaboration between controllers. The impacts of the integration of installed rooftop PVs and PEV charging for unbalanced three-phase LVDNs are assessed rigorously using a versatile simulation platform. Also, the suitability of the proposed control strategy for DSM and the alleviation of voltage fluctuations and unbalances are assessed.
     </p>
 </div>
 </div>
@@ -403,6 +409,18 @@
 </div>
 </div>
 
+<div class="item feed-ccdce26d feed-ieeetransactionsonindustrialinformaticsnewtoc" id="item-80552b2d">
+<p class="itemheader">
+<span class="itemtitle"><a href="http://ieeexplore.ieee.org/document/9740428">PCFed: Privacy-Enhanced and Communication-Efficient Federated Learning for Industrial IoTs</a></span>
+<span class="itemfrom">[<a href="http://ieeexplore.ieee.org">IEEE Transactions on Industrial Informatics - new TOC</a>]</span>
+</p>
+<div class="itemdescription">
+<p>
+      Federated learning (FL) is capable of analyzing tremendous data from smart edge devices in Industrial Internet of Things (IIoTs), empowering numerous industrial applications. However, the increasing privacy concerns and deployment costs of IIoT environment have been posing new challenges for FL. This article proposes PCFed, a novel privacy-enhanced and communication-efficient FL framework to provide higher model accuracy with rigorous privacy guarantees and great communication efficiency. In particular, we develop a sampling-based intermittent communication strategy via a PID (proportional, integral, and derivative) controller on the cloud server to adaptively reduce the communication frequency. In addition, we design a budget allocation mechanism to balance the tradeoff between model accuracy and privacy loss. Then, we develop PCFed+, an enhanced variant for PCFed, with further consideration of infinite data streams on edge servers. Extensive experiments demonstrate that both PCFed and PCFed+ can significantly outperform existing schemes, in terms of communication efficiency, privacy protection, and model accuracy.
+    </p>
+</div>
+</div>
+
 <div class="item feed-ccdce26d feed-ieeetransactionsonindustrialinformaticsnewtoc" id="item-7659555a">
 <p class="itemheader">
 <span class="itemtitle"><a href="http://ieeexplore.ieee.org/document/9744549">Guest Editorial: Special Section on Distributed Intelligence Over Internet of Things</a></span>
@@ -415,14 +433,14 @@
 </div>
 </div>
 
-<div class="item feed-ccdce26d feed-ieeetransactionsonindustrialinformaticsnewtoc" id="item-d793b815">
+<div class="item feed-ccdce26d feed-ieeetransactionsonindustrialinformaticsnewtoc" id="item-70f8649b">
 <p class="itemheader">
-<span class="itemtitle"><a href="http://ieeexplore.ieee.org/document/9720080">On-Device Saliency Prediction Based on Pseudoknowledge Distillation</a></span>
+<span class="itemtitle"><a href="http://ieeexplore.ieee.org/document/9693110">SAKE*: A Symmetric Authenticated Key Exchange Protocol With Perfect Forward Secrecy for Industrial Internet of Things</a></span>
 <span class="itemfrom">[<a href="http://ieeexplore.ieee.org">IEEE Transactions on Industrial Informatics - new TOC</a>]</span>
 </p>
 <div class="itemdescription">
 <p>
-      Saliency prediction models aim to mimic the human visual system&#8217;s attention process, and the research has made significant progress due to recent advancements in deep convolution neural networks. However, the high memory requirements and intensive computational demands make these approaches less suitable for Internet-of-Things (IoT) devices, and there is a need for an improved computational efficiency and reduced memory footprint to facilitate distributed IoT intelligence. This article proposes a pseudoknowledge distillation (PKD) training method for creating a compact real-time saliency prediction model. The proposed method can effectively transfer knowledge from computationally expensive once-for-all (OFA-595) as a single teacher model and a combination of OFA-595 and EfficientNet-B7 as a multiteacher model to an early exit evolutionary algorithm network student model by utilizing knowledge distillation and pseudolabeling. Five saliency benchmark datasets are used to demonstrate PKD&#8217;s improved prediction performance and its reduced inference time without modifying the original student model.
+      Security in the Industrial Internet of Things (IIoT) is vital as there are some cases where IIoT devices collect sensory information for crucial social production and life. Thus, designing secure and efficient communication channels is always a research hotspot. However, end devices have memory, computation, and power-supplying capacities limitations. Moreover, perfect forward secrecy (PFS), which means that long-term key exposure still discloses previous session keys, is a critical security property for authentication and key exchange (AKE). This article proposes an AKE protocol named SAKE* for the IIoT environment, where two types of keys (i.e., a master key and an evolution key) guarantee PFS. In addition, the SAKE* protocol merely uses concatenation, XOR, and hash-function operations to achieve lightweight authentication, key exchange, and message integrity. We also compare the SAKE* protocol with seven current and IoT-related authentication protocols regarding security properties and performance. Comparison results indicate that the SAKE* protocol consumes the least computation resource and third-least communication cost among eight AKE protocols while equipping 12 security properties.
     </p>
 </div>
 </div>
@@ -433,6 +451,18 @@
 <h2>Friday, 10 June 2022</h2>
 <div class="time">
 <h3>03:19 AM</h3>
+<div class="item feed-094cb33b feed-ieeetransactionsonindustrialelectronicsnewtoc" id="item-3c00fc71">
+<p class="itemheader">
+<span class="itemtitle"><a href="http://ieeexplore.ieee.org/document/9617126">Dynamical Model of Residual Magnetism for Synchronous Reluctance Machine Control</a></span>
+<span class="itemfrom">[<a href="http://ieeexplore.ieee.org">IEEE Transactions on Industrial Electronics - new TOC</a>]</span>
+</p>
+<div class="itemdescription">
+<p>
+      The present article proposes an effective model of synchronous reluctance machines. This model, called the Residual Magnetism (ReMa) model, takes into account not only residual magnetism within the rotor but also that within the stator. Electromotive forces generated by the ReMa model were composed of two frequencies and exhibited similar shapes as those measured in experiments. Resultant equations in a three-phase $(a,b,c)$ frame and in a Park reference frame $(d,q)$ were revealed. The comparison was made with the classical model of synchronous reluctance machine commonly used. Experimental tests were carried out to prove the effectiveness of the ReMa model which was also compared to a classical counterpart in the case where a synchronous reluctance generator was connected to a three-phase diode rectifier.
+    </p>
+</div>
+</div>
+
 <div class="item feed-094cb33b feed-ieeetransactionsonindustrialelectronicsnewtoc" id="item-2092533a">
 <p class="itemheader">
 <span class="itemtitle"><a href="http://ieeexplore.ieee.org/document/9583894">Design of Model Predictive Control Weighting Factors for PMSM Using Gaussian Distribution-Based Particle Swarm Optimization</a></span>
@@ -453,18 +483,6 @@
 <div class="itemdescription">
 <p>
       Recently, model-based predictive current control (MB-PCC) has been presented as a good alternative to classical control algorithms in terms of simplicity and performance reliability. However, MB-PCC suffers from the high dependence on system parameters, which may deteriorate its performance under parameters variations. On the other hand, synchronous reluctance motors (SynRMs) are susceptible to suffer from inductances variations due to the magnetic saturation. Accordingly, in this article a new model-free predictive current control of SynRMs based on a recurrent neural network (RNN-PCC) is developed and proposed. The proposed RNN-PCC relies on the identification of the SynRM currents without considering any parameters. Simulation and experimental results show that both RNN-PCC and MB-PCC have similarly excellent dynamics, while better control performance and tracking errors can be achieved thanks to the proposed RNN-PCC.
-    </p>
-</div>
-</div>
-
-<div class="item feed-094cb33b feed-ieeetransactionsonindustrialelectronicsnewtoc" id="item-a8109dac">
-<p class="itemheader">
-<span class="itemtitle"><a href="http://ieeexplore.ieee.org/document/9591415">One-Cycle Control for Pulse Power Generator in Electrical-Discharge-Machining</a></span>
-<span class="itemfrom">[<a href="http://ieeexplore.ieee.org">IEEE Transactions on Industrial Electronics - new TOC</a>]</span>
-</p>
-<div class="itemdescription">
-<p>
-      Due to a short-time gap breakdown in electrical discharge machining (EDM), a high dynamic response and flexible discharge current control ability are required for a pulse power generator. Therefore, a one-cycle control(OCC) of output current for a buck-type EDM pulse power generator is proposed. Considering the inductor current operating state, a full-range OCC current control is presented, and the Taylor expansion method is used for the duty cycle calculation. A duty cycle optimization strategy is proposed for transient states. Based on the small signal modeling, the dynamic response ability of the system is analyzed. The discharge current can switch from many transient states to a steady state in a few switching cycles without a current overshoot, and follow the average current reference well in the steady state.
     </p>
 </div>
 </div>
@@ -499,6 +517,20 @@
 <h2>Friday, 27 May 2022</h2>
 <div class="time">
 <h3>10:19 AM</h3>
+<div class="item feed-f57a289c feed-europeanpoliticalsciencereview" id="item-ab4f8947">
+<p class="itemheader">
+<span class="itemtitle"><a href="https://dx.doi.org/10.1017/S175577392200008X?rft_dat=source%3Ddrss">Social influence and political participation around the world</a></span>
+<span class="itemfrom">[<a href="https://www.cambridge.org/core/journals/european-political-science-review/latest-issue">European Political Science Review</a>]</span>
+</p>
+<div class="itemdescription">
+<div class="abstract">
+      <p>
+        Social influence among people is widely understood to be a universal component of the human experience. However, studies of political behavior have generally approached social influence as specific to a type of behavior, such as voting, in a particular national context. There are good reasons to expect that social influence is observable across diverse behaviors and national contexts. In this study, we test this expectation using a two-wave panel survey of national samples in 19 countries. We employ autoregressive models that address some of the endogeneity challenges associated with attempts to measure social influence with survey designs. Our measure of social influence is predictive of diverse political behaviors in many countries with average effects comparable in size to important standard predictors of behavior.
+      </p>
+    </div>
+</div>
+</div>
+
 <div class="item feed-f57a289c feed-europeanpoliticalsciencereview" id="item-b430bb6f">
 <p class="itemheader">
 <span class="itemtitle"><a href="https://dx.doi.org/10.1017/S175577392200011X?rft_dat=source%3Ddrss">The varying logics for supporting populist right-wing welfare politics in West European welfare regimes</a></span>
@@ -508,20 +540,6 @@
 <div class="abstract">
       <p>
         Little is known about whether and under which conditions populist radical right parties&#8217; (PRRPs&#8217;) nativist welfare politics matters to the voters. I address this gap in the research and test the argument that the electoral appeal of this electoral discourse varies among welfare regimes. The study compares the conservative and social-democratic welfare regimes and focuses on the vote choices of the two core constituencies of PRRPs &#8211; economically exposed and immigration-sceptic voters. The results show that these electorates support PRRPs&#8217; nativist welfare positions for very different reasons in the two welfare regimes. First, in the conservative regime, economically exposed citizens vote for PRRPs, the more they stress nativism and welfare expansion. By contrast, in the social-democratic regime this group of voters is more likely to support positions combining nativism and dismantled welfare benefits. Second, immigrant-sceptic voters in the social-democratic regime support PRRPs who pledge to preserve the welfare state, and increased migration considerably boosts the probability that they do so. By contrast, this group of voters in the conservative regime is more likely to support PRRPs who seek to partly dismantle the welfare state, and the inflow of immigrants is unrelated to these choices. These results have important implications and suggest that welfare regimes moderate public opinion differently in the current age of populism compared to previous eras.
-      </p>
-    </div>
-</div>
-</div>
-
-<div class="item feed-f57a289c feed-europeanpoliticalsciencereview" id="item-aaee42fe">
-<p class="itemheader">
-<span class="itemtitle"><a href="https://dx.doi.org/10.1017/S1755773922000029?rft_dat=source%3Ddrss">Non-citizen voting rights and political participation of citizens: evidence from Switzerland</a></span>
-<span class="itemfrom">[<a href="https://www.cambridge.org/core/journals/european-political-science-review/latest-issue">European Political Science Review</a>]</span>
-</p>
-<div class="itemdescription">
-<div class="abstract">
-      <p>
-        Can non-citizen enfranchisement policies reduce the turnout gap between citizens with an immigration background and native citizen voters? While increasingly common in practice, there are only a handful of studies on the political consequences of non-citizen enfranchisement on voter mobilisation. Here, we examine the impact of non-citizen voting (NCV) rights on the political participation of citizens with and without an immigration background. Focusing on Switzerland, we use high-quality household panel data (SHP) from 1999 to 2014, leveraging both longitudinal and municipal level variation of enfranchisement laws when identifying their effect on turnout. We show that NCV rights boost political participation overall, and it particularly enhances turnout among citizens with an immigration background. Our analysis adds to existing theoretical explanations and empirical debates on representation and political participation in diverse democratic societies with large immigrant populations.
       </p>
     </div>
 </div>
@@ -541,18 +559,12 @@
 </div>
 </div>
 
-<div class="item feed-f57a289c feed-europeanpoliticalsciencereview" id="item-5ccb58c4">
+<div class="item feed-f57a289c feed-europeanpoliticalsciencereview" id="item-dc7bae42">
 <p class="itemheader">
-<span class="itemtitle"><a href="https://dx.doi.org/10.1017/S1755773922000054?rft_dat=source%3Ddrss">Exploring the domestic and international drivers of professionalization of Central and Eastern European interest groups</a></span>
+<span class="itemtitle"><a href="https://dx.doi.org/10.1017/S1755773922000170?rft_dat=source%3Ddrss">EPR volume 14 issue 2 Cover and Front matter</a></span>
 <span class="itemfrom">[<a href="https://www.cambridge.org/core/journals/european-political-science-review/latest-issue">European Political Science Review</a>]</span>
 </p>
-<div class="itemdescription">
-<div class="abstract">
-      <p>
-        While there has been a veritable boom in literature on organized interests, their lobbying strategies, relationships with decision-makers, and their impact on policymaking, only a few studies have explored internal organizational developments and, specifically, the professionalization of interest groups. The present study focuses on the national and transnational factors driving the professionalization of interest groups in Central and Eastern Europe, a region previously neglected in much of the interest group literature. Based on a sample of more than 400 surveyed organizations operating in Poland, the Czech Republic, Hungary, and Slovenia in the healthcare, higher education, and energy sectors, we explore three bundles of factors potentially enhancing the professionalization of interest groups &#8211; organizational funding sources, national and transnational intergroup cooperation and organizations&#8217; standing in the domestic interest group system. Our statistical analyses show that state subsidies and tight policy coordination with the state are crucial drivers of internal organizational professionalization, suggesting rather patronistic and symbiotic relationships between the state and certain organizations. However, our data also support the notion that interorganizational collaboration, both at the national and international levels, may also be key to organizational professionalization, enabling groups that lack close ties with the state to compensate their disadvantage with intensive domestic and international networking. The study is also among the first to link increasing professionalization with organizational population density.
-      </p>
-    </div>
-</div>
+
 </div>
 
 <div class="item feed-f57a289c feed-europeanpoliticalsciencereview" id="item-abde90bf">
@@ -698,24 +710,6 @@
 </div>
 </div>
 <div class="day">
-<h2>Friday, 04 March 2022</h2>
-<div class="time">
-<h3>02:41 AM</h3>
-<div class="item feed-c99fafa0 feed-ieeetransactionsonimageprocessingnewtoc" id="item-57ca0abb">
-<p class="itemheader">
-<span class="itemtitle"><a href="http://ieeexplore.ieee.org/document/9720197">A Geodesic Translation Model for Spherical Video Compression</a></span>
-<span class="itemfrom">[<a href="http://ieeexplore.ieee.org">IEEE Transactions on Image Processing - new TOC</a>]</span>
-</p>
-<div class="itemdescription">
-<p>
-      Spherical video coding is critical to the success of many virtual reality and related applications. This paper focuses on an important class of spherical videos whose dynamics involve camera motion. A common approach to spherical video coding is to project from the sphere onto a plane (or planes), where a standard video coder is applied. The projection induces warping resulting in complex non-linear motion in the projected domain that severely comprises the performance of motion models in standard coders. To overcome this shortcoming, we propose a new motion model that captures the motion field on the sphere, and capitalizes on insights into the perceived motion on the sphere due to camera translation. Specifically, surrounding static points are perceived as moving along their respective geodesics, which all intersect at the points where the camera velocity vector intersects the sphere. We analyze the rate of translation along geodesics and its dependence on the elevation of a pixel on the sphere with respect to the camera velocity vector. The analysis leads to a motion vector modulation scheme that perfectly captures the perceived motion of each pixel. Complementary to the new motion model, we propose a search grid tailored to capture expected geodesic motion on the sphere for effective motion estimation. The proposed method yields significant bit-rate savings over employing standard HEVC after projection, which validates its efficacy.
-    </p>
-</div>
-</div>
-
-</div>
-</div>
-<div class="day">
 <h2>Wednesday, 02 March 2022</h2>
 <div class="time">
 <h3>02:37 AM</h3>
@@ -779,14 +773,14 @@
 </div>
 </div>
 
-<div class="item feed-c24550d7 feed-ieeetransactionsoninformationforensicsandsecuritynewtoc" id="item-651b7a2f">
+<div class="item feed-c24550d7 feed-ieeetransactionsoninformationforensicsandsecuritynewtoc" id="item-5f8f9a9b">
 <p class="itemheader">
-<span class="itemtitle"><a href="http://ieeexplore.ieee.org/document/9634048">Iris Liveness Detection Using a Cascade of Dedicated Deep Learning Networks</a></span>
+<span class="itemtitle"><a href="http://ieeexplore.ieee.org/document/9625941">A Randomized Filtering Strategy Against Inference Attacks on Active Steering Control Systems</a></span>
 <span class="itemfrom">[<a href="http://ieeexplore.ieee.org">IEEE Transactions on Information Forensics and Security - new TOC</a>]</span>
 </p>
 <div class="itemdescription">
 <p>
-      Iris pattern recognition has significantly improved the biometric authentication field due to its high stability and uniqueness. Such physical characteristics have played an essential role in security applications and other related areas. However, presentation attacks, also known as spoofing techniques, can bypass biometric authentication systems using artefacts such as printed images, artificial eyes, textured contact lenses, etc. Many liveness detection methods that improve the robustness of these systems have been proposed. The first International Iris Liveness Detection competition, where the effectiveness of liveness detection methods is evaluated, was first launched in 2013, and its latest iteration was held in 2020. In this paper, we present the approach that won the LivDet-Iris 2020 competition using two-class scenarios (bona fide iris images vs. presentation attack iris images). Additionally, we propose new three-class and four-class scenarios that complement the competition results. These methods use a serial architecture based on a MobileNetV2 modification, trained from scratch to classify bona fide iris images versus presentation attack images. The bona fide class consists of live iris images, whereas the attack presentation instrument classes consist of cadaver, printed, and contact lenses images, for a total of four species. All the images were pre-processed and weighted per class to present a fair evaluation. This approach is primarily focused on detecting the bona fide class over improving the detection of presentation attack instruments. For the two, three, and four classes scenarios BPCER<sub>10</sub> values of 0.99%, 0.16%, and 0.83% were obtained respectively, whereas for the BPCER<sub>20</sub> values of 3.09%, 0.16%, and 3.77% were obtained, with the best model overall being the proposed 3-class serial model. This work reaches compe- itive results according to the reported results in the LivDet-Iris 2020 competition.
+      In this paper, we develop a framework against inference attacks aimed at inferring the values of the controller gains of an active steering control system (ASCS). We first show that an adversary with access to the shared information by a vehicle, via a vehicular ad hoc network (VANET), can reliably infer the values of the controller gains of an ASCS. This vulnerability may expose the driver as well as the manufacturer of the ASCS to severe financial and safety risks. To protect controller gains of an ASCS against inference attacks, we propose a randomized filtering framework wherein the lateral velocity and yaw rate states of a vehicle are processed by a filter consisting of two components: a nonlinear mapping and a randomizer. The randomizer randomly generates a pair of pseudo gains which are different from the true gains of the ASCS. The nonlinear mapping performs a nonlinear transformation on the lateral velocity and yaw rate states. The nonlinear transformation is in the form of a dynamical system with a feedforward-feedback structure which allows real-time and causal implementation of the proposed privacy filter. The output of the filter is then shared via the VANET. The optimal design of randomizer is studied under a privacy constraint that determines the protection level of controller gains against inference attacks, and is in terms of mutual information. It is shown that the optimal randomizer is the solution of a convex optimization problem. By characterizing the distribution of the output of the filter, it is shown that the statistical distribution of the filter&#8217;s output depends on the pseudo gains rather than the true gains. Using information-theoretic inequalities, we analyze the inference ability of an adversary in estimating the control gains based on the output of the filter. Our analysis shows that the performance of any estimator in recovering the controller gains of an ASCS based on the output of the filter is limited by the pri- acy constraint. The performance of the proposed privacy filter is compared with that of an additive noise privacy mechanism. Our numerical results show that the proposed privacy filter significantly outperforms the additive noise mechanism, especially in the low distortion regime.
     </p>
 </div>
 </div>
@@ -845,14 +839,14 @@
 <h2>Tuesday, 12 October 2021</h2>
 <div class="time">
 <h3>02:32 AM</h3>
-<div class="item feed-b2590d03 feed-annualreviewsannualreviewofnutritiontableofcontents" id="item-c5ba9347">
+<div class="item feed-b2590d03 feed-annualreviewsannualreviewofnutritiontableofcontents" id="item-6720862c">
 <p class="itemheader">
-<span class="itemtitle"><a href="https://www.annualreviews.org/doi/abs/10.1146/annurev-nutr-082018-124228?ai=rz&amp;mi=3fndc3&amp;af=R">Vitamin A and Vitamin E: Will the Real Antioxidant Please Stand Up?</a></span>
+<span class="itemtitle"><a href="https://www.annualreviews.org/doi/abs/10.1146/annurev-nutr-110320-013657?ai=rz&amp;mi=3fndc3&amp;af=R">The Roles of Cytoplasmic Lipid Droplets in Modulating Intestinal Uptake of Dietary Fat</a></span>
 <span class="itemfrom">[<a href="https://www.annualreviews.org/loi/nutr?ai=rz&amp;mi=3fndc3&amp;af=R">Annual Reviews: Annual Review of Nutrition: Table of Contents</a>]</span>
 </p>
 <div class="itemdescription">
 <p>
-      Annual Review of Nutrition, <a href="https://www.annualreviews.org/toc/nutr/41/1">Volume 41, Issue 1</a>, Page 105-131, October 2021.<br>
+      Annual Review of Nutrition, <a href="https://www.annualreviews.org/toc/nutr/41/1">Volume 41, Issue 1</a>, Page 79-104, October 2021.<br>
     </p>
 </div>
 </div>
@@ -865,18 +859,6 @@
 <div class="itemdescription">
 <p>
       Annual Review of Nutrition, <a href="https://www.annualreviews.org/toc/nutr/41/1">Volume 41, Issue 1</a>, Page 283-308, October 2021.<br>
-    </p>
-</div>
-</div>
-
-<div class="item feed-b2590d03 feed-annualreviewsannualreviewofnutritiontableofcontents" id="item-8d9207b5">
-<p class="itemheader">
-<span class="itemtitle"><a href="https://www.annualreviews.org/doi/abs/10.1146/annurev-nutr-120420-021719?ai=rz&amp;mi=3fndc3&amp;af=R">Sleep and Diet: Mounting Evidence of a Cyclical Relationship</a></span>
-<span class="itemfrom">[<a href="https://www.annualreviews.org/loi/nutr?ai=rz&amp;mi=3fndc3&amp;af=R">Annual Reviews: Annual Review of Nutrition: Table of Contents</a>]</span>
-</p>
-<div class="itemdescription">
-<p>
-      Annual Review of Nutrition, <a href="https://www.annualreviews.org/toc/nutr/41/1">Volume 41, Issue 1</a>, Page 309-332, October 2021.<br>
     </p>
 </div>
 </div>
@@ -911,6 +893,18 @@
 </div>
 </div>
 
+<div class="item feed-b2590d03 feed-annualreviewsannualreviewofnutritiontableofcontents" id="item-3743cfc2">
+<p class="itemheader">
+<span class="itemtitle"><a href="https://www.annualreviews.org/doi/abs/10.1146/annurev-nutr-110420-111710?ai=rz&amp;mi=3fndc3&amp;af=R">Is Food Addictive? A Review of the Science</a></span>
+<span class="itemfrom">[<a href="https://www.annualreviews.org/loi/nutr?ai=rz&amp;mi=3fndc3&amp;af=R">Annual Reviews: Annual Review of Nutrition: Table of Contents</a>]</span>
+</p>
+<div class="itemdescription">
+<p>
+      Annual Review of Nutrition, <a href="https://www.annualreviews.org/toc/nutr/41/1">Volume 41, Issue 1</a>, Page 387-410, October 2021.<br>
+    </p>
+</div>
+</div>
+
 </div>
 </div>
 <div class="day">
@@ -929,26 +923,38 @@
 </div>
 </div>
 
-<div class="item feed-a4d49d75 feed-annualreviewsannualreviewofeconomicstableofcontents" id="item-0fc0977b">
+<div class="item feed-a4d49d75 feed-annualreviewsannualreviewofeconomicstableofcontents" id="item-636e2c80">
 <p class="itemheader">
-<span class="itemtitle"><a href="https://www.annualreviews.org/doi/abs/10.1146/annurev-economics-081720-114422?ai=67b7&amp;mi=3fndc3&amp;af=R">Does Vote Trading Improve Welfare?</a></span>
+<span class="itemtitle"><a href="https://www.annualreviews.org/doi/abs/10.1146/annurev-economics-083120-111540?ai=67b7&amp;mi=3fndc3&amp;af=R">Systemic Risk in Financial Networks: A Survey</a></span>
 <span class="itemfrom">[<a href="https://www.annualreviews.org/loi/economics?ai=67b7&amp;mi=3fndc3&amp;af=R">Annual Reviews: Annual Review of Economics: Table of Contents</a>]</span>
 </p>
 <div class="itemdescription">
 <p>
-      Annual Review of Economics, <a href="https://www.annualreviews.org/toc/economics/13/1">Volume 13, Issue 1</a>, Page 57-86, August 2021.<br>
+      Annual Review of Economics, <a href="https://www.annualreviews.org/toc/economics/13/1">Volume 13, Issue 1</a>, Page 171-202, August 2021.<br>
     </p>
 </div>
 </div>
 
-<div class="item feed-a4d49d75 feed-annualreviewsannualreviewofeconomicstableofcontents" id="item-1a6bf091">
+<div class="item feed-a4d49d75 feed-annualreviewsannualreviewofeconomicstableofcontents" id="item-d0064a2f">
 <p class="itemheader">
-<span class="itemtitle"><a href="https://www.annualreviews.org/doi/abs/10.1146/annurev-economics-081720-120019?ai=67b7&amp;mi=3fndc3&amp;af=R">Empirical Models of Industry Dynamics with Endogenous Market Structure</a></span>
+<span class="itemtitle"><a href="https://www.annualreviews.org/doi/abs/10.1146/annurev-economics-081020-051248?ai=67b7&amp;mi=3fndc3&amp;af=R">The International Aspects of Macroprudential Policy</a></span>
 <span class="itemfrom">[<a href="https://www.annualreviews.org/loi/economics?ai=67b7&amp;mi=3fndc3&amp;af=R">Annual Reviews: Annual Review of Economics: Table of Contents</a>]</span>
 </p>
 <div class="itemdescription">
 <p>
-      Annual Review of Economics, <a href="https://www.annualreviews.org/toc/economics/13/1">Volume 13, Issue 1</a>, Page 309-334, August 2021.<br>
+      Annual Review of Economics, <a href="https://www.annualreviews.org/toc/economics/13/1">Volume 13, Issue 1</a>, Page 203-228, August 2021.<br>
+    </p>
+</div>
+</div>
+
+<div class="item feed-a4d49d75 feed-annualreviewsannualreviewofeconomicstableofcontents" id="item-44ee2057">
+<p class="itemheader">
+<span class="itemtitle"><a href="https://www.annualreviews.org/doi/abs/10.1146/annurev-economics-081020-044812?ai=67b7&amp;mi=3fndc3&amp;af=R">Estimating DSGE Models: Recent Advances and Future Challenges</a></span>
+<span class="itemfrom">[<a href="https://www.annualreviews.org/loi/economics?ai=67b7&amp;mi=3fndc3&amp;af=R">Annual Reviews: Annual Review of Economics: Table of Contents</a>]</span>
+</p>
+<div class="itemdescription">
+<p>
+      Annual Review of Economics, <a href="https://www.annualreviews.org/toc/economics/13/1">Volume 13, Issue 1</a>, Page 229-252, August 2021.<br>
     </p>
 </div>
 </div>
@@ -965,14 +971,14 @@
 </div>
 </div>
 
-<div class="item feed-a4d49d75 feed-annualreviewsannualreviewofeconomicstableofcontents" id="item-2fde0284">
+<div class="item feed-3b836157 feed-annualreviewsannualreviewofsociologytableofcontents" id="item-376dc41a">
 <p class="itemheader">
-<span class="itemtitle"><a href="https://www.annualreviews.org/doi/abs/10.1146/annurev-economics-091520-082042?ai=67b7&amp;mi=3fndc3&amp;af=R">Inflation Inequality: Measurement, Causes, and Policy Implications</a></span>
-<span class="itemfrom">[<a href="https://www.annualreviews.org/loi/economics?ai=67b7&amp;mi=3fndc3&amp;af=R">Annual Reviews: Annual Review of Economics: Table of Contents</a>]</span>
+<span class="itemtitle"><a href="https://www.annualreviews.org/doi/abs/10.1146/annurev-soc-081320-114850?ai=t0&amp;mi=3fndc3&amp;af=R">The (Un)Managed Heart: Racial Contours of Emotion Work in Gendered Occupations</a></span>
+<span class="itemfrom">[<a href="https://www.annualreviews.org/loi/soc?ai=t0&amp;mi=3fndc3&amp;af=R">Annual Reviews: Annual Review of Sociology: Table of Contents</a>]</span>
 </p>
 <div class="itemdescription">
 <p>
-      Annual Review of Economics, <a href="https://www.annualreviews.org/toc/economics/13/1">Volume 13, Issue 1</a>, Page 599-629, August 2021.<br>
+      Annual Review of Sociology, <a href="https://www.annualreviews.org/toc/soc/47/1">Volume 47, Issue 1</a>, Page 197-212, July 2021.<br>
     </p>
 </div>
 </div>
@@ -1009,18 +1015,6 @@
 <div class="itemdescription">
 <p>
       Annual Review of Sociology, <a href="https://www.annualreviews.org/toc/soc/47/1">Volume 47, Issue 1</a>, Page 501-520, July 2021.<br>
-    </p>
-</div>
-</div>
-
-<div class="item feed-3b836157 feed-annualreviewsannualreviewofsociologytableofcontents" id="item-51ae6d9e">
-<p class="itemheader">
-<span class="itemtitle"><a href="https://www.annualreviews.org/doi/abs/10.1146/annurev-soc-090420-100607?ai=t0&amp;mi=3fndc3&amp;af=R">Social Issues in Contemporary Russia: Women's Rights, Corruption, and Immigration Through Three Sociological Lenses</a></span>
-<span class="itemfrom">[<a href="https://www.annualreviews.org/loi/soc?ai=t0&amp;mi=3fndc3&amp;af=R">Annual Reviews: Annual Review of Sociology: Table of Contents</a>]</span>
-</p>
-<div class="itemdescription">
-<p>
-      Annual Review of Sociology, <a href="https://www.annualreviews.org/toc/soc/47/1">Volume 47, Issue 1</a>, Page 567-586, July 2021.<br>
     </p>
 </div>
 </div>
@@ -1079,18 +1073,6 @@
 </div>
 </div>
 
-<div class="item feed-63a85565 feed-eurekalertbreakingnews" id="item-afd1f5f6">
-<p class="itemheader">
-<span class="itemtitle"><a href="https://www.eurekalert.org/pub_releases/2021-07/dri-wse071521.php">Wildfire smoke exposure linked to increased risk of contracting COVID-19</a></span>
-<span class="itemfrom">[<a href="http://www.eurekalert.org">EurekAlert! - Breaking News</a>]</span>
-</p>
-<div class="itemdescription">
-<p>
-      Wildfire smoke may greatly increase susceptibility to SARS-CoV-2, the virus that causes COVID-19, according to new research from the Center for Genomic Medicine at the Desert Research Institute (DRI), Washoe County Health District (WCHD), and Renown Health (Renown) in Reno, Nev.
-    </p>
-</div>
-</div>
-
 </div>
 <div class="time">
 <h3>02:27 AM</h3>
@@ -1109,17 +1091,35 @@
 </div>
 </div>
 <div class="day">
+<h2>Thursday, 15 July 2021</h2>
+<div class="time">
+<h3>06:17 PM</h3>
+<div class="item feed-63a85565 feed-eurekalertbreakingnews" id="item-33853f10">
+<p class="itemheader">
+<span class="itemtitle"><a href="https://www.eurekalert.org/pub_releases/2021-07/tuos-uel071521.php">Unlocking efficient light-energy conversion with stable coordination nanosheets</a></span>
+<span class="itemfrom">[<a href="http://www.eurekalert.org">EurekAlert! - Breaking News</a>]</span>
+</p>
+<div class="itemdescription">
+<p>
+      Two-dimensional "nanosheets" made of bonds between metal atoms and organic molecules are attractive candidates for photoelectric conversion, but get corroded easily. In a new study, scientists from Japan and Taiwan present a new nanosheet design using iron and benzene hexathiol that exhibits record stability to air exposure for 60 days, signaling the commercial optoelectronic applications of these 2D materials in the future.
+    </p>
+</div>
+</div>
+
+</div>
+</div>
+<div class="day">
 <h2>Thursday, 17 December 2020</h2>
 <div class="time">
 <h3>10:03 AM</h3>
-<div class="item feed-b93c25e9 feed-earlyedition" id="item-76342d74">
+<div class="item feed-b93c25e9 feed-earlyedition" id="item-f1046fc0">
 <p class="itemheader">
-<span class="itemtitle"><a href="http://feedproxy.google.com/~r/Pnas-RssFeedOfEarlyEditionArticles/~3/kIObLL3rpHo/2022205117.short">Decoding DMD transcriptional networks using single-nucleus RNA sequencing [Commentaries]</a></span>
+<span class="itemtitle"><a href="http://feedproxy.google.com/~r/Pnas-RssFeedOfEarlyEditionArticles/~3/FgxKzBIPOmc/2006511117.short">Evolutionary determinism and convergence associated with water-column transitions in marine fishes [Evolution]</a></span>
 <span class="itemfrom">[<a href="http://www.pnas.org">Early Edition</a>]</span>
 </p>
 <div class="itemdescription">
 <p>
-      Duchenne muscular dystrophy (DMD) is an X chromosome-linked disease, and it is the most common form of muscular dystrophy caused by genetic mutations in the Dmd gene (1). The Dmd gene contains 79 exons, spans 2.4 Mb, and is the single largest gene in the human genome (2). This gene...<img alt="" height="1" src="http://feeds.feedburner.com/~r/Pnas-RssFeedOfEarlyEditionArticles/~4/kIObLL3rpHo" width="1">
+      Repeatable, convergent outcomes are prima facie evidence for determinism in evolutionary processes. Among fishes, well-known examples include microevolutionary habitat transitions into the water column, where freshwater populations (e.g., sticklebacks, cichlids, and whitefishes) recurrently diverge toward slender-bodied pelagic forms and deep-bodied benthic forms. However, the consequences of such processes at deeper...<img alt="" height="1" src="http://feeds.feedburner.com/~r/Pnas-RssFeedOfEarlyEditionArticles/~4/FgxKzBIPOmc" width="1">
     </p>
 </div>
 </div>
@@ -1178,14 +1178,14 @@
 <h2>Wednesday, 25 November 2020</h2>
 <div class="time">
 <h3>02:02 AM</h3>
-<div class="item feed-b93c25e9 feed-earlyedition" id="item-65efed40">
+<div class="item feed-b93c25e9 feed-earlyedition" id="item-3c3590e3">
 <p class="itemheader">
-<span class="itemtitle"><a href="http://feedproxy.google.com/~r/Pnas-RssFeedOfEarlyEditionArticles/~3/gyrdRVyHn9Y/2019903117.short">Reply to Locatelli et al.: Evaluating species-level accuracy of GenBank metazoan sequences will require experts&#8217; effort in each group [Letters (Online Only)]</a></span>
+<span class="itemtitle"><a href="http://feedproxy.google.com/~r/Pnas-RssFeedOfEarlyEditionArticles/~3/uBXoqkfazR4/2007421117.short">GenBank&#8217;s reliability is uncertain for biodiversity researchers seeking species-level assignment for eDNA [Letters (Online Only)]</a></span>
 <span class="itemfrom">[<a href="http://www.pnas.org">Early Edition</a>]</span>
 </p>
 <div class="itemdescription">
 <p>
-      Biodiversity studies increasingly rely on DNA sequences obtained from the environment (rather than individual organisms) for basic and applied research (1). Species-level assignment of sequences using genetic databases such as GenBank is often desirable (e.g., detecting invasive species, measuring range shifts, or interpreting interaction networks). Thus, Locatelli et al. (2)...<img alt="" height="1" src="http://feeds.feedburner.com/~r/Pnas-RssFeedOfEarlyEditionArticles/~4/gyrdRVyHn9Y" width="1">
+      Leray et al. (1) reassuringly conclude that &#8220;GenBank is a reliable resource for 21st century biodiversity research&#8221; based on an important quantitative assessment of its taxonomic accuracy. However, their insightful analysis focuses only on taxonomic levels above species. GenBank (2) is the key reference database for the growing fields of...<img alt="" height="1" src="http://feeds.feedburner.com/~r/Pnas-RssFeedOfEarlyEditionArticles/~4/uBXoqkfazR4" width="1">
     </p>
 </div>
 </div>
@@ -1229,18 +1229,18 @@
 </div>
 </div>
 <div class="day">
-<h2>Thursday, 29 October 2020</h2>
+<h2>Tuesday, 27 October 2020</h2>
 <div class="time">
-<h3>10:03 AM</h3>
-<div class="item feed-6b3f78ad feed-latestbmjresearch" id="item-4a57dcc7">
+<h3>06:03 PM</h3>
+<div class="item feed-6b3f78ad feed-latestbmjresearch" id="item-1ad6aa55">
 <p class="itemheader">
-<span class="itemtitle"><a href="http://feeds.bmj.com/~r/bmj/research/~3/wJ1RDIAQAzk/bmj.m3873">Use of hormone replacement therapy and risk of breast cancer: nested case-control studies using the QResearch and CPRD databases</a></span>
+<span class="itemtitle"><a href="http://feeds.bmj.com/~r/bmj/research/~3/OoAc007IPuw/bmj.m3764">Influence and management of conflicts of interest in randomised clinical trials: qualitative interview study</a></span>
 <span class="itemfrom">[<a href="https://www.bmj.com/research/feed">Latest BMJ Research</a>]</span>
 </p>
 <div class="itemdescription">
 <div class="feedflare">
-      <a href="http://feeds.bmj.com/~ff/bmj/research?a=wJ1RDIAQAzk:PfzJ6C9dT18:yIl2AUoC8zA"><img border="0" src="http://feeds.feedburner.com/~ff/bmj/research?d=yIl2AUoC8zA"></a> <a href="http://feeds.bmj.com/~ff/bmj/research?a=wJ1RDIAQAzk:PfzJ6C9dT18:dnMXMwOfBR0"><img border="0" src="http://feeds.feedburner.com/~ff/bmj/research?d=dnMXMwOfBR0"></a> <a href="http://feeds.bmj.com/~ff/bmj/research?a=wJ1RDIAQAzk:PfzJ6C9dT18:F7zBnMyn0Lo"><img border="0" src="http://feeds.feedburner.com/~ff/bmj/research?i=wJ1RDIAQAzk:PfzJ6C9dT18:F7zBnMyn0Lo"></a> <a href="http://feeds.bmj.com/~ff/bmj/research?a=wJ1RDIAQAzk:PfzJ6C9dT18:V_sGLiPBpWU"><img border="0" src="http://feeds.feedburner.com/~ff/bmj/research?i=wJ1RDIAQAzk:PfzJ6C9dT18:V_sGLiPBpWU"></a> <a href="http://feeds.bmj.com/~ff/bmj/research?a=wJ1RDIAQAzk:PfzJ6C9dT18:qj6IDK7rITs"><img border="0" src="http://feeds.feedburner.com/~ff/bmj/research?d=qj6IDK7rITs"></a> <a href="http://feeds.bmj.com/~ff/bmj/research?a=wJ1RDIAQAzk:PfzJ6C9dT18:gIN9vFwOqvQ"><img border="0" src="http://feeds.feedburner.com/~ff/bmj/research?i=wJ1RDIAQAzk:PfzJ6C9dT18:gIN9vFwOqvQ"></a>
-    </div><img alt="" height="1" src="http://feeds.feedburner.com/~r/bmj/research/~4/wJ1RDIAQAzk" width="1">
+      <a href="http://feeds.bmj.com/~ff/bmj/research?a=OoAc007IPuw:9noTKWwq0LE:yIl2AUoC8zA"><img border="0" src="http://feeds.feedburner.com/~ff/bmj/research?d=yIl2AUoC8zA"></a> <a href="http://feeds.bmj.com/~ff/bmj/research?a=OoAc007IPuw:9noTKWwq0LE:dnMXMwOfBR0"><img border="0" src="http://feeds.feedburner.com/~ff/bmj/research?d=dnMXMwOfBR0"></a> <a href="http://feeds.bmj.com/~ff/bmj/research?a=OoAc007IPuw:9noTKWwq0LE:F7zBnMyn0Lo"><img border="0" src="http://feeds.feedburner.com/~ff/bmj/research?i=OoAc007IPuw:9noTKWwq0LE:F7zBnMyn0Lo"></a> <a href="http://feeds.bmj.com/~ff/bmj/research?a=OoAc007IPuw:9noTKWwq0LE:V_sGLiPBpWU"><img border="0" src="http://feeds.feedburner.com/~ff/bmj/research?i=OoAc007IPuw:9noTKWwq0LE:V_sGLiPBpWU"></a> <a href="http://feeds.bmj.com/~ff/bmj/research?a=OoAc007IPuw:9noTKWwq0LE:qj6IDK7rITs"><img border="0" src="http://feeds.feedburner.com/~ff/bmj/research?d=qj6IDK7rITs"></a> <a href="http://feeds.bmj.com/~ff/bmj/research?a=OoAc007IPuw:9noTKWwq0LE:gIN9vFwOqvQ"><img border="0" src="http://feeds.feedburner.com/~ff/bmj/research?i=OoAc007IPuw:9noTKWwq0LE:gIN9vFwOqvQ"></a>
+    </div><img alt="" height="1" src="http://feeds.feedburner.com/~r/bmj/research/~4/OoAc007IPuw" width="1">
 </div>
 </div>
 
@@ -1294,127 +1294,127 @@
 <tr class="feedsrow">
 <td><a href="https://www.annualreviews.org/loi/economics?ai=67b7&amp;mi=3fndc3&amp;af=R">Annual Reviews: Annual Review of Economics: Table of Contents</a></td>
 <td><a class="xmlbutton" href="http://www.annualreviews.org/action/showFeed?ui=45mu4&amp;mi=3fndc3&amp;ai=67b7&amp;jc=economics&amp;type=etoc&amp;feed=rss">XML</a></td>
-<td>03:36 AM, Monday, 11 July 2022</td>
-<td>06:36 AM, Monday, 11 July 2022</td>
+<td>10:17 AM, Monday, 11 July 2022</td>
+<td>01:17 PM, Monday, 11 July 2022</td>
 </tr>
 
 <tr class="feedsrow">
 <td><a href="https://www.annualreviews.org/loi/nutr?ai=rz&amp;mi=3fndc3&amp;af=R">Annual Reviews: Annual Review of Nutrition: Table of Contents</a></td>
 <td><a class="xmlbutton" href="http://www.annualreviews.org/action/showFeed?ui=45mu4&amp;mi=3fndc3&amp;ai=rz&amp;jc=nutr&amp;type=etoc&amp;feed=rss">XML</a></td>
-<td>03:36 AM, Monday, 11 July 2022</td>
-<td>06:36 AM, Monday, 11 July 2022</td>
+<td>10:17 AM, Monday, 11 July 2022</td>
+<td>01:17 PM, Monday, 11 July 2022</td>
 </tr>
 
 <tr class="feedsrow">
 <td><a href="https://www.annualreviews.org/loi/physiol?ai=sp&amp;mi=3fndc3&amp;af=R">Annual Reviews: Annual Review of Physiology: Table of Contents</a></td>
 <td><a class="xmlbutton" href="http://www.annualreviews.org/action/showFeed?ui=45mu4&amp;mi=3fndc3&amp;ai=sp&amp;jc=physiol&amp;type=etoc&amp;feed=rss">XML</a></td>
-<td>03:36 AM, Monday, 11 July 2022</td>
-<td>06:36 AM, Monday, 11 July 2022</td>
+<td>10:17 AM, Monday, 11 July 2022</td>
+<td>01:17 PM, Monday, 11 July 2022</td>
 </tr>
 
 <tr class="feedsrow">
 <td><a href="https://www.annualreviews.org/loi/polisci?af=R">Annual Reviews: Annual Review of Political Science: Table of Contents</a></td>
 <td><a class="xmlbutton" href="http://www.annualreviews.org/action/showFeed?jc=polisci&amp;type=etoc&amp;feed=rss">XML</a></td>
-<td>03:36 AM, Monday, 11 July 2022</td>
-<td>06:36 AM, Monday, 11 July 2022</td>
+<td>10:17 AM, Monday, 11 July 2022</td>
+<td>01:17 PM, Monday, 11 July 2022</td>
 </tr>
 
 <tr class="feedsrow">
 <td><a href="https://www.annualreviews.org/loi/soc?ai=t0&amp;mi=3fndc3&amp;af=R">Annual Reviews: Annual Review of Sociology: Table of Contents</a></td>
 <td><a class="xmlbutton" href="http://www.annualreviews.org/action/showFeed?ui=45mu4&amp;mi=3fndc3&amp;ai=t0&amp;jc=soc&amp;type=etoc&amp;feed=rss">XML</a></td>
-<td>03:36 AM, Monday, 11 July 2022</td>
-<td>06:36 AM, Monday, 11 July 2022</td>
+<td>10:17 AM, Monday, 11 July 2022</td>
+<td>01:17 PM, Monday, 11 July 2022</td>
 </tr>
 
 <tr class="feedsrow">
 <td><a href="http://arxiv.org/">cs.CR updates on arXiv.org</a></td>
 <td><a class="xmlbutton" href="http://export.arxiv.org/rss/cs.CR">XML</a></td>
-<td>03:36 AM, Monday, 11 July 2022</td>
-<td>06:36 AM, Monday, 11 July 2022</td>
+<td>10:17 AM, Monday, 11 July 2022</td>
+<td>01:17 PM, Monday, 11 July 2022</td>
 </tr>
 
 <tr class="feedsrow">
 <td><a href="http://www.pnas.org">Early Edition</a></td>
 <td><a class="xmlbutton" href="http://feeds.feedburner.com/Pnas-RssFeedOfEarlyEditionArticles?format=xml">XML</a></td>
-<td>03:36 AM, Monday, 11 July 2022</td>
-<td>06:36 AM, Monday, 11 July 2022</td>
+<td>10:17 AM, Monday, 11 July 2022</td>
+<td>01:17 PM, Monday, 11 July 2022</td>
 </tr>
 
 <tr class="feedsrow">
 <td><a href="http://www.eurekalert.org">EurekAlert! - Breaking News</a></td>
 <td><a class="xmlbutton" href="https://www.eurekalert.org/rss.xml">XML</a></td>
-<td>03:36 AM, Monday, 11 July 2022</td>
-<td>06:36 AM, Monday, 11 July 2022</td>
+<td>10:17 AM, Monday, 11 July 2022</td>
+<td>01:17 PM, Monday, 11 July 2022</td>
 </tr>
 
 <tr class="feedsrow">
 <td><a href="https://www.cambridge.org/core/journals/european-political-science-review/latest-issue">European Political Science Review</a></td>
 <td><a class="xmlbutton" href="https://www.cambridge.org/core/rss/product/id/3DB89DF6A9878CE661D3CE5FC6E9D6BC">XML</a></td>
-<td>03:36 AM, Monday, 11 July 2022</td>
-<td>06:36 AM, Monday, 11 July 2022</td>
+<td>10:17 AM, Monday, 11 July 2022</td>
+<td>01:17 PM, Monday, 11 July 2022</td>
 </tr>
 
 <tr class="feedsrow">
 <td><a href="http://ieeexplore.ieee.org">IEEE Transactions on Image Processing - new TOC</a></td>
 <td><a class="xmlbutton" href="https://ieeexplore.ieee.org/rss/TOC83.XML">XML</a></td>
-<td>03:36 AM, Monday, 11 July 2022</td>
-<td>06:36 AM, Monday, 11 July 2022</td>
+<td>10:17 AM, Monday, 11 July 2022</td>
+<td>01:17 PM, Monday, 11 July 2022</td>
 </tr>
 
 <tr class="feedsrow">
 <td><a href="http://ieeexplore.ieee.org">IEEE Transactions on Industrial Electronics - new TOC</a></td>
 <td><a class="xmlbutton" href="https://ieeexplore.ieee.org/rss/TOC41.XML">XML</a></td>
-<td>03:36 AM, Monday, 11 July 2022</td>
-<td>06:36 AM, Monday, 11 July 2022</td>
+<td>10:17 AM, Monday, 11 July 2022</td>
+<td>01:17 PM, Monday, 11 July 2022</td>
 </tr>
 
 <tr class="feedsrow">
 <td><a href="http://ieeexplore.ieee.org">IEEE Transactions on Industrial Informatics - new TOC</a></td>
 <td><a class="xmlbutton" href="https://ieeexplore.ieee.org/rss/TOC9424.XML">XML</a></td>
-<td>03:36 AM, Monday, 11 July 2022</td>
-<td>06:36 AM, Monday, 11 July 2022</td>
+<td>10:17 AM, Monday, 11 July 2022</td>
+<td>01:17 PM, Monday, 11 July 2022</td>
 </tr>
 
 <tr class="feedsrow">
 <td><a href="http://ieeexplore.ieee.org">IEEE Transactions on Information Forensics and Security - new TOC</a></td>
 <td><a class="xmlbutton" href="https://ieeexplore.ieee.org/rss/TOC10206.XML">XML</a></td>
-<td>03:36 AM, Monday, 11 July 2022</td>
-<td>06:36 AM, Monday, 11 July 2022</td>
+<td>10:17 AM, Monday, 11 July 2022</td>
+<td>01:17 PM, Monday, 11 July 2022</td>
 </tr>
 
 <tr class="feedsrow">
 <td><a href="https://journals.humankinetics.com/view/journals/ijspp/ijspp-overview.xml">International Journal of Sports Physiology and Performance</a></td>
 <td><a class="xmlbutton" href="https://journals.humankinetics.com/journalissuetocrss/journals/ijspp/ijspp-overview.xml">XML</a></td>
-<td>03:36 AM, Monday, 11 July 2022</td>
-<td>06:36 AM, Monday, 11 July 2022</td>
+<td>10:17 AM, Monday, 11 July 2022</td>
+<td>01:17 PM, Monday, 11 July 2022</td>
 </tr>
 
 <tr class="feedsrow">
 <td><a href="https://jamanetwork.com/journals/jama">JAMA Current Issue</a></td>
 <td><a class="xmlbutton" href="https://jamanetwork.com/rss/site_3/67.xml">XML</a></td>
-<td>03:36 AM, Monday, 11 July 2022</td>
-<td>06:36 AM, Monday, 11 July 2022</td>
+<td>10:17 AM, Monday, 11 July 2022</td>
+<td>01:17 PM, Monday, 11 July 2022</td>
 </tr>
 
 <tr class="feedsrow">
 <td><a href="https://www.bmj.com/research/feed">Latest BMJ Research</a></td>
 <td><a class="xmlbutton" href="http://feeds.bmj.com/bmj/research?format=xml">XML</a></td>
-<td>03:36 AM, Monday, 11 July 2022</td>
-<td>06:36 AM, Monday, 11 July 2022</td>
+<td>10:17 AM, Monday, 11 July 2022</td>
+<td>01:17 PM, Monday, 11 July 2022</td>
 </tr>
 
 <tr class="feedsrow">
 <td><a href="http://feeds.nature.com/nature/rss/current">Nature - Issue - nature.com science feeds</a></td>
 <td><a class="xmlbutton" href="http://feeds.nature.com/nature/rss/current?format=xml">XML</a></td>
-<td>03:36 AM, Monday, 11 July 2022</td>
-<td>06:36 AM, Monday, 11 July 2022</td>
+<td>10:17 AM, Monday, 11 July 2022</td>
+<td>01:17 PM, Monday, 11 July 2022</td>
 </tr>
 
 <tr class="feedsrow">
 <td><a href="https://www.thelancet.com/journals/lancet/issue/current">The Lancet</a></td>
 <td><a class="xmlbutton" href="http://www.thelancet.com/rssfeed/lancet_current.xml">XML</a></td>
-<td>03:36 AM, Monday, 11 July 2022</td>
-<td>06:36 AM, Monday, 11 July 2022</td>
+<td>10:17 AM, Monday, 11 July 2022</td>
+<td>01:17 PM, Monday, 11 July 2022</td>
 </tr>
 
 </table>
