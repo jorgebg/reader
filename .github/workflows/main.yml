@@ -13,11 +13,11 @@ jobs:
     steps:
     - uses: actions/checkout@v2
 
-    - uses: jorgebg/stateful-action@v0.1
+    - uses: jorgebg/stateful-action@v0.3
       with:
         branch: state
 
-    - uses: jorgebg/stateful-action@v0.1
+    - uses: jorgebg/stateful-action@v0.3
       with:
         branch: gh-pages
 
